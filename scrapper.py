@@ -1,7 +1,6 @@
 from urllib import re, urlopen
 from os.path import isfile, join
-import itertools
-import json
+import itertools, json, sys
 if isfile('cache_i.json'):
     with open('cache_i.json', 'rb') as fp:
         prev = json.load(fp)
@@ -27,14 +26,15 @@ for i in itertools.count(start=prev + 1):
     if codes == codo:
         break
     codo = codes
-    print 'parsing page #%s..' % i
     with open('cache_u.json', 'rb') as ufp,\
     open('cache_p.json', 'rb') as pfp, open('cache_n.json', 'rb') as nfp:
         users = json.load(ufp)
         probs = json.load(pfp)
         names = json.load(nfp)
     for p, code in enumerate(codes):
-        print '\tparsing problem #%s: %s' % (p, code)
+        p += 1
+        sys.stdout.write('\r[page #%s] problems: [%s%s] %2s/%s' % (i, (p/2)*'#', (25 - p/2)*'-', p, 50))
+        sys.stdout.flush()
         psrc = urlopen(base + code).read()
         psrc = psrc[psrc.index(pbeg): psrc.index(pend)].decode('utf-8')
         name = re_n.search(psrc).group(1)
@@ -49,7 +49,8 @@ for i in itertools.count(start=prev + 1):
             json.dump(probs, pfp)
             json.dump(names, nfp)
             json.dump(i, ifp)
-print 'completed parsing, writing to files..'
+    break
+print '\ncompleted parsing, writing to files..'
 slgen = '<a href="http://www.spoj.com/problems/{0}"target="_blank">{1}</a><br>\n'.format
 llgen = '<a href="/SPOJ/problems/{0}" target="_blank">{1}</a>'.format
 trgen = '<tr><td>{0}</td><td>{1}</td></tr>\n'.format
