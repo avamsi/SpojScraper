@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MACVSMAG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19335. Machau vs Maggu </h1>
+		<h2>Problem code: MACVSMAG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">You will find three types of people in an engineering college&nbsp;<strong>Maggu</strong>,<strong>Machau</strong>&nbsp;and&nbsp;<em>Others</em>. We all know how much hard Maggu people try to portray themselves as Machau but they never succeed. Today Machau people have decided to recruit few Maggus and convert them to Machau. All the Maggus who wanted to become Machau had to reach Machau Club situated at YAY MACHAU" from their current&nbsp;<strong>location A</strong>. Machau people had laid many books everywhere on the campus to distract Maggus and make it difficult for them to reach Machau club. The campus can be imagined as a large&nbsp;<strong>NxN grid</strong>&nbsp;in which Maggu is located at position&nbsp;<strong>A</strong>which is denoted by&nbsp;<strong>(Ax,Ay)</strong>&nbsp;coordinate and the Machau Club is located at position&nbsp;<strong>B</strong>&nbsp;which is denoted by&nbsp;<strong>(Bx,By)</strong>&nbsp;coordinate. Machau people had laid books at&nbsp;<strong>M</strong>&nbsp;random locations denoted by&nbsp;<strong>(Xi,Yi)</strong>&nbsp;where&nbsp;<strong>1&lt;=i&lt;=M</strong>.Additionally to prevent Maggus who take up the challenge to runaway Machau people laid books&nbsp;<em>everywhere outside the rectangular area where Maggu's location A and Machau Club's location B are are ends of the diagonal of that rectangular area</em>. A Maggu can only walk in&nbsp;<strong>left,right,up or down</strong>directions from his current place as long as he doesn't leave the campus i.e. he stays inside the&nbsp;<strong>NxN</strong>&nbsp;grid. If a Maggu wants to become Machau he must reach Machau Club without touching a single book in his path and without leaving the campus grid.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">More formally stating the problem: Given an&nbsp;<strong>N x N</strong>&nbsp;grid with&nbsp;<strong>M</strong>&nbsp;non reachable cells.Test whether cell&nbsp;<strong>"B"</strong>&nbsp;can be reached from cell<strong>"A"</strong>&nbsp;provided only left,right,up and down movements are valid.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">You must print "YAY MACHAU" if it is possible for a Maggu to reach Machau Club else print "MAGGU FOREVER"</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Input</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">First line will contain 6 integers&nbsp;<strong>N</strong>,<strong>M</strong>,<strong>Ax</strong>,<strong>Ay</strong>,<strong>Bx</strong>&nbsp;and&nbsp;<strong>By</strong>&nbsp;Where,&nbsp;<strong>N</strong>=No.of rows and columns in campus grid</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>M</strong>=Total number of books laid on the campus</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Ax,Ay</strong>=Coordinates of Maggu</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Bx,By</strong>=Coordinates of Machau Club</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">Next&nbsp;<strong>M</strong>&nbsp;lines will contain&nbsp;<strong>Xi</strong>&nbsp;and&nbsp;<strong>Yi</strong>&nbsp;denoting coordinates on&nbsp;<strong>NxN</strong>&nbsp;grid which contain books to distract MAGGUS</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">NOTE: If any book is placed in position A or B MAGGU will always be distracted. All&nbsp;<strong>(Xi,Yi)</strong>&nbsp;pairs are not guaranteed to be distinct.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Output</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">Print "<strong>YAY MACHAU</strong>" if Maggu can reach Machau club otherwise print "<strong>MAGGU FOREVER</strong>" [without quotes]</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Constrains</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">1&lt;=<strong>N</strong>&lt;=10^9</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">1&lt;=<strong>M</strong>&lt;=10^5</p>
+<p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;">1&lt;=<strong>Ax,Ay,Bx,By,Xi,Yi</strong>&lt;=<strong>N</strong></p><p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Sample Input<br /></strong><span style="font-size: 13.333333969116211px;">1000 2 10 1000 1000 10<br /></span><span style="font-size: 13.333333969116211px;">1 1<br /></span><span style="font-size: 13.333333969116211px;">100 100</span></p><p style="font-family: Arial, sans-serif; font-size: 13.333333969116211px; line-height: 18px;"><strong>Sample Output<br /></strong><span style="font-size: 13.333333969116211px;">YAY MACHAU</span></p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/manish05">Manish Singh Bisht</a></td></tr>
+<tr><td>Date:</td><td>2014-04-01</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

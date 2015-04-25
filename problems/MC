@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15208. Minimum Cost</h1>
+		<h2>Problem code: MC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small; text-decoration: underline;"><span style="font-size: medium;"><strong><span style="font-family: 'arial black', 'avant garde';">Problem Statement :</span></strong></span></span><br /><span style="white-space: normal;"> </span></p>
+<p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Given two string <strong>S</strong> and <strong>T</strong><strong>. </strong>you can delete a character&nbsp; from&nbsp; <strong>S&nbsp; </strong>with&nbsp; cost 15 and&nbsp; a Character <strong>T</strong> with cost 30. Your goal is to make the string equal (same). It is not mandatory&nbsp; to delete&nbsp; character .</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">For example :&nbsp; S = <strong>a5b </strong>and &nbsp;T = <strong>2</strong><strong>ab</strong> . Now , if we delete X from S and Y from T, then total cost&nbsp; =&nbsp; 15+30 = 45.&nbsp; And &nbsp;S and T will become <strong>ab. </strong></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Another example : S = <strong>ab </strong>, T = <strong>cd</strong> , Now &nbsp;total cost = 15&nbsp; + 15 + 30 + 30 = 90.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Another example : S = <strong>abcd</strong> , T = <strong>acdb</strong> , Now&nbsp; total cost = 15 + 30 = 45.</span></span></p>
+<p><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Input:</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Input consists of pairs of lines. The first line of a pair contains the first string <strong>S</strong> and the second line contains the second string <strong>T</strong>. Each string is on a separate line and consists of at most 1,000 characters . The end of input occurs when the first sequence starts with an "#"character (without the quotes).</span></span></span></p>
+<p><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Output:</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">For each subsequent pair of input lines, output a line containing one integer number which&nbsp; the minimum cost to make the string equal (same).</span></span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Sample Input/Output:</span></span></strong></p>
+<p>&nbsp;</p>
+<table style="width: 656px;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="328" valign="top">
+<p style="text-align: center;"><strong><span style="font-size: small;">Sample Input</span></strong></p>
+</td>
+<td width="328" valign="top">
+<p style="text-align: center;"><strong><span style="font-size: small;">Sample Output</span></strong></p>
+</td>
+</tr>
+<tr>
+<td width="328" valign="top">
+<p><strong><span style="font-size: small;">&nbsp;axb </span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;yab </span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;ab </span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;cd</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;ko</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;p</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;abcd</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;acdb</span></strong></p>
+<p><span style="font-size: small;"><strong>&nbsp;#</strong><strong>&nbsp;</strong></span></p>
+</td>
+<td width="328" valign="top">
+<p><strong><span style="font-size: small;">&nbsp;45</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;90</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;60</span></strong></p>
+<p><strong><span style="font-size: small;">&nbsp;45</span></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<pre><span style="white-space: normal;"><pre><span style="white-space: normal;"><p><span style="font-family: arial, helvetica, sans-serif;"><br /></span></p><p><span style="font-family: arial, helvetica, sans-serif;">___________________________________________________________________________________________________________<br /><strong><span style="font-size: x-small;"><span style="font-size: small;">Problem Setter: Shipu Ahamed&nbsp;, Dept. of CSE&nbsp;</span></span></strong></span></p><p><strong><em><span style="font-size: x-small;"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Bangladesh University of Business and Technology (BUBT)</span></span></span></em></strong></p></span></pre>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shipu_a">Shipu Ahamed</a></td></tr>
+<tr><td>Date:</td><td>2013-06-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>BAPS</td></tr>	
+</table>

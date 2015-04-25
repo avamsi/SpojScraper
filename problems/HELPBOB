@@ -1,0 +1,101 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HELPBOB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2856. Help Bob</h1>
+		<h2>Problem code: HELPBOB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Bob loves Pizza but is always out of money. One day he reads in the newspapers that his favorite pizza restaurant,
+Alfredo's Pizza Restaurant, is running a competition: they will donate a big pizza to the first person who will tell
+them the lowest price per area that can be achieved by buying any of the pizzas at most once. "That task is easy!",
+thinks Bob, "For each pizza I just calculate the average price and the lowest quotient will be the answer.".
+</p>
+<p>
+Unfortunately the problem is a bit more complicated: with some pizzas Alberto gives out discount coupons for getting
+another pizza cheaper and even worse, those coupons can be combined. The pizzas have to be bought one after the other,
+and it is not possible to use a coupon to get a discount retrospectively for a pizza which has already been bought.
+Can you help Bob to become the first to solve this task and to get a pizza for free?
+</p>
+
+<h3>Input</h3>
+<p>
+The input file contains several test cases. Each test case starts with a number <i>m</i>, the number of pizzas
+Alfredo offers. Input is terminated by <i>m=0</i>. Otherwise, <i>1 &le; m &le; 15</i>. Then follow <i>m</i>
+
+lines describing the pizzas. Each of those following lines describes pizza <i>i</i> (<i>1 &le; i &le; m</i>)
+and starts with 3 integer numbers <i>p<sub>i</sub></i>, <i>a<sub>i</sub></i> and <i>n<sub>i</sub></i> specifying
+the price of the pizza, its area and the number of discount coupons you get when buying it,
+
+<i>1 &le; p<sub>i</sub> &le; 10000</i>, <i>1 &le; a<sub>i</sub> &le; 10000</i> and <i>0 &le; n<sub>i</sub> &lt; m</i>.
+Then follow <i>n<sub>i</sub></i> pairs of integer numbers <i>x<sub>i,j</sub></i> and <i>y<sub>i,j</sub></i> specifying
+the index <i>x<sub>i,j</sub></i> (<i>1 &le; x<sub>i,j</sub> &le; m, x<sub>i,j</sub> &ne; i</i>) of the pizza you get a
+discount coupon for and the discount in percentage terms <i>y<sub>i,j</sub></i> (<i>1 &le; y<sub>i,j</sub> &le; 50</i>)
+you get when buying pizza <i>x<sub>i,j</sub></i>.
+You may assume that for each <i>i</i> the values <i>x<sub>i,j</sub></i> are pairwise distinct.
+
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case print one line containing the lowest price per area that can be achieved by buying any of the pizzas
+at most once. Round this number to 4 places after the decimal point. Note that you can combine an arbitrary number of
+discount coupons: for a pizza with price 10 and two rabatt coupons for that pizza with a 50 and a 20 on it, you would
+only have to pay 10 * 0.8 * 0.5 = 4 monetary units.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+80 30 0
+2
+200 100 1 2 50
+200 100 0
+5
+100 100 2 3 50 2 50
+100 100 1 4 50
+100 100 1 2 40
+600 600 1 5 10
+1000 10 1 1 50
+0
+<b>Output:</b>
+2.6667
+1.5000
+0.5333
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2008-07-12</td></tr>
+<tr><td>Time limit:</td><td>1.783s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>University of Ulm Local Contest 2008</td></tr>	
+</table>

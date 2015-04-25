@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KCARRY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15453. Yet Another Electronic Device!!!</h1>
+		<h2>Problem code: KCARRY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-family: arial, helvetica, sans-serif;"><br /></span><span style="white-space: normal;"><p><span style="font-family: arial, helvetica, sans-serif;">Fascinated as he is by the uncanny world of electronics, our friend MKS now decides to launch his own creation --&gt; A N-Digit Carry Finder(an analogue of a N-Bit Binary Adder) which can be used to find the number of times we can have a non-zero carry while adding two numbers(A=A<sub>n</sub>A<sub>n-1</sub>...A<sub>2</sub>A<sub>1</sub> and B=B<sub>n</sub>B<sub>n-1</sub>...B<sub>2</sub>B<sub>1</sub>) having&nbsp;<strong>exactly N</strong>&nbsp;digits.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">It consists of 'N' Full Decimal Adders. The i-th Full Adder takes as input three digits A<sub>i</sub>,B<sub>i</sub>&nbsp;and C<sub>i-1</sub>&nbsp;and outputs a digit C<sub>i</sub>(0 or 1), which is the carry generated on adding the digits A<sub>i</sub>&nbsp;and B<sub>i</sub>&nbsp;and C<sub>i-1</sub>.(C<sub>i</sub>=1 if A<sub>i</sub>+B<sub>i</sub>+C<sub>i-1&nbsp;</sub>&gt;9, otherwise 0).</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">This C<sub>i</sub>&nbsp;is now provided to the next (i+1-th) Full Adder in order to be added with the digits A<sub>i+1</sub>&nbsp;and B<sub>i+1</sub>&nbsp;and also to the accumulator which as the name suggests accumulates the sum of all C<sub>j</sub>(1&lt;=j&lt;=i).</span></p>
+<p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Note</strong>: C<sub>0</sub>=0 always and 0&lt;=A<sub>i</sub>,B<sub>i</sub>&lt;=9.</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">For Example: Adding two numbers , A=4567 and B=734(or B=0734), the addition proceeds as shown and the accumulator gets a final value of 3.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">In the 1st Adder, A<sub>1</sub>=7,B<sub>1</sub>=4,C<sub>0</sub>=0 and A<sub>1</sub>+B<sub>1</sub>+C<sub>0</sub>=11. Therefore Carry C<sub>1</sub>=1.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">In the 2nd Adder, A<sub>2</sub>=6,B<sub>2</sub>=3,C<sub>1</sub>=1 and A<sub>2</sub>+B<sub>2</sub>+C<sub>1</sub>=10. Therefore Carry C<sub>2</sub>=1.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">In the 3rd Adder, A<sub>3</sub>=5,B<sub>3</sub>=7,C<sub>2</sub>=1 and A<sub>3</sub>+B<sub>3</sub>+C<sub>2</sub>=13. Therefore Carry C<sub>3</sub>=1.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">In the 4th Adder, A<sub>4</sub>=7,B<sub>4</sub>=0,C<sub>3</sub>=1 and A<sub>4</sub>+B<sub>4</sub>+C<sub>3</sub>=8. Therefore Carry C<sub>4</sub>=0.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">The Value in the Accumulator=C<sub>1</sub>+C<sub>2</sub>+C<sub>3</sub>+C<sub>4</sub>=3.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><img title="Diagram" src="../../../content/utk1369:utk_kcarry" alt="http://www.spoj.com/content/utk1369:utk_kcarry" width="717" height="331" /></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Your Task is to find the number of ways of getting a value&nbsp;<strong>K</strong>&nbsp;in the&nbsp;<strong>accumulator</strong>&nbsp;while adding two numbers containing &nbsp;<strong>at most N</strong>&nbsp;digits each. Note that we are adding the numbers in their&nbsp;<strong>base 10</strong>&nbsp;representation. Since the total number of ways can be very large, print your answer modulo 1000000007(10^9 +7).</span></p>
+<h3><span style="font-family: arial, helvetica, sans-serif;">Input</span></h3>
+<p><span style="font-family: arial, helvetica, sans-serif;">The first line of input contains an integer T. Then T lines follow containing two space seperated integers N and K.</span></p>
+<h3><span style="font-family: arial, helvetica, sans-serif;">Output</span></h3>
+<p><span style="font-family: arial, helvetica, sans-serif;">Print the required answer modulo 1000000007(10^9 +7) in the i<sup>th</sup>&nbsp;line corresponding to the i<sup>th</sup>&nbsp;Test case .</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p><span style="font-size: small;"><strong><span style="font-family: arial, helvetica, sans-serif;">Constraints:</span></strong></span></p>
+<p><span style="font-size: small;"><strong><span style="font-family: arial, helvetica, sans-serif;">1&lt;=T&lt;=500.</span></strong></span></p>
+<p><span style="font-size: x-small;"><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1&lt;=N&lt;=1000.</span></span></strong></span></p>
+<p><span style="font-size: x-small;"><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1&lt;=K&lt;=N.</span></span></strong></span></p>
+<p><span style="font-size: x-small;"><strong><span style="font-family: arial, helvetica, sans-serif;"><br /></span></strong></span></p>
+<h3><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Example</span></span></h3>
+<pre><span style="font-size: medium;"><strong>Input:</strong>
+4</span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">1 1</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">2 1</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">2 2</span></span></pre>
+<pre><span style="text-align: center;"><span style="font-size: small;"><span style="font-size: medium;">3 3</span></span></span></pre>
+<pre><strong><span style="font-size: medium;"><span style="font-size: medium;">Output:</span></span></strong></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">45</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">4500</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">2475</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">136125</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="text-align: justify;"><span style="font-size: x-small;"><strong><h3 style="font-size: 15px; margin: 8px 0px 12px; padding: 0px; color: #656565;"><span style="color: #000000;">Explanation</span></h3><p style="margin: 7px 0px 0px; padding: 0px; font-size: 11.818181991577148px; line-height: 1.5em; color: #444444;"><strong>Example case 1.</strong></p></strong></span></span><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;">The carry appears when adding&nbsp;</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">1 and 9, 2 and 9, 3 and 9 ... 9 and 9=9 cases.</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">2 and 8,3 and 8,4 and 8 ... 9 and 8=8 cases.</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">3 and 7,4 and 7,5 and 7 ... 9 and 7=7 cases.</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">.</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">.</span></span></pre>
+<pre><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">.</span></span></pre>
+<pre style="text-align: justify;"><span style="color: #444444;"><span style="font-size: 11.818181991577148px; line-height: 17.99715805053711px;"><span style="font-family: arial, helvetica, sans-serif;">9 and 1=1 case.</span></span></span></pre>
+<pre><span style="font-size: xx-small;"><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">There are (9+8+7+6+5+4+3+2+1+0)=45 cases in total and in each case, the carry appears exactly once.</span></span></span></pre>
+<div><span style="font-size: xx-small;"><span style="color: #444444; font-size: 11.818181991577148px; line-height: 17.99715805053711px; text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><br /></span></span></span></div>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/utk1369">utk1369</a></td></tr>
+<tr><td>Date:</td><td>2013-07-23</td></tr>
+<tr><td>Time limit:</td><td>0.324s-4.824s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on a problem appeared in Codechef COOK36</td></tr>	
+</table>

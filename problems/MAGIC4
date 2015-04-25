@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAGIC4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2511. Magic Program IV</h1>
+		<h2>Problem code: MAGIC4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><a href="http://www.spoj.pl/content/crazyb0y:MAGIC4.jpg">Click here to get the solution(TLE)</a>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2008-03-05</td></tr>
+<tr><td>Time limit:</td><td>0.090s
+</td></tr>
+<tr><td>Source limit:</td><td>2000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

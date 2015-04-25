@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POLYMUL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18425. Polynomial Multiplication</h1>
+		<h2>Problem code: POLYMUL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sam and Dean fight the supernatural creatures to protect the humans. Now they have come across a creature called the Vedala, which are always found in pairs. Each vedala can be represented by a polynomial. Both the Vedalas need to be killed at once or else they can't be killed. They can be killed only by using the product of the two polynomials representing the two Vedala.<br />Help Sam and Dean find the product of the polynomials fast, so they can do thier work.&nbsp;</p>
+<h3>Input</h3>
+<p><span style="font-size: small;">First line contains an integer&nbsp;<strong>T(&le;10)</strong>, number of test cases.<br style="font-family: sans-serif; font-size: medium;" />Each test case will have&nbsp;<strong>n(n&le;10000)</strong>, maximum degree of the polynomials on the first line.&nbsp;<br style="font-family: sans-serif; font-size: medium;" />Next two lines will have n+1 space separated integers each representing the coeffiecients of first and second polynomials respectively.</span></p>
+<p><span style="font-size: small;">All input coefficients vaues are <strong>&lt;=1000</strong>.&nbsp;</span></p>
+<h3>Output</h3>
+<p><span style="font-family: sans-serif; font-size: medium;">For each test case ouput a line of 2n space seperated integers indicating coefficients of the polynomial created after multiplication.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: sans-serif; font-size: medium;">2</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">2</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">1 2 3</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">3 2 1</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">2</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">1 0 1</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">2 1 0</span>
+
+<strong>Output:</strong>
+<span style="font-family: sans-serif; font-size: medium;">3 8 14 8 3&nbsp;</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">2 1 2 1 0&nbsp;</span></pre>
+<pre><span style="font-family: sans-serif; font-size: medium;"><span style="font-family: sans-serif; font-size: medium;">Explaination:</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">1st test case n=2, the plonomials are</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">x^2 + 2x + 3 and 3x^2 + 2x + 1.&nbsp;</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">On multiplying we get 3x^4 + 8x^3 + 14x^2 + 8x + 3	and hence the answer 3 8 14 8 3.&nbsp;</span><br style="font-family: sans-serif; font-size: medium;" /><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">2nd test case n=2, the polynomials are</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">x^2 + 1 and 2x^2 + x.&nbsp;</span><br style="font-family: sans-serif; font-size: medium;" /><span style="font-family: sans-serif; font-size: medium;">On multiplying we get 2x^4 + x^3 + 2x^2 + x and hence the answer 2 1 2 1 0.&nbsp;</span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhra73">Abhra</a></td></tr>
+<tr><td>Date:</td><td>2014-02-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

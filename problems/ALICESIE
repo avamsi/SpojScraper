@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ALICESIE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10565. Alice Sieve</h1>
+		<h2>Problem code: ALICESIE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> </p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Alice has recently learned to use the Sieve of Eratosthenes, an ancient algorithm for finding all</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">prime numbers up to any given limit. As expected, she was really impressed by it's simplicity and</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">elegancy.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Now, she has decided to design her own sieve method: The Sieve of Alice, formally defined by the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">following procedure, which determines the Sieve of Alice up to a given limit N.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1. Create a list of consecutive integers from N to 2 (N, N-1, N-2, ..., 3, 2). All of those N-1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">numbers are initially unmarked.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2. Initially, let P equal N, and leave this number unmarked.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3. Mark all the proper divisors of P (i.e. P remains unmarked).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">4. Find the largest unmarked number from 2 to P &#8211; 1, and now let P equal this number.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">5. If there were no more unmarked numbers in the list, stop. Otherwise, repeat from step 3.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Unfortunately, Alice has not found an useful application for it's Sieve. But she still wants to know,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">for a given limit N, how many integers will remain unmarked.</div>
+<p> </p>
+<p>Alice has recently learned to use the Sieve of Eratosthenes, an ancient algorithm for finding all</p>
+<p>prime numbers up to any given limit. As expected, she was really impressed by it's simplicity and</p>
+<p>elegancy.</p>
+<p>Now, she has decided to design her own sieve method: The Sieve of Alice, formally defined by the</p>
+<p>following procedure, which determines the Sieve of Alice up to a given limit N.</p>
+<p>1. Create a list of consecutive integers from N to 2 (N, N-1, N-2, ..., 3, 2). All of those N-1</p>
+<p>numbers are initially unmarked.</p>
+<p>2. Initially, let P equal N, and leave this number unmarked.</p>
+<p>3. Mark all the proper divisors of P (i.e. P remains unmarked).</p>
+<p>4. Find the largest unmarked number from 2 to P &#8211; 1, and now let P equal this number.</p>
+<p>5. If there were no more unmarked numbers in the list, stop. Otherwise, repeat from step 3.</p>
+<p>Unfortunately, Alice has not found an useful application for it's Sieve. But she still wants to know,</p>
+<p>for a given limit N, how many integers will remain unmarked.</p>
+<p> </p>
+<p> </p>
+<h3>Input</h3>
+<p> </p>
+<p>The first line contains an integer T, the number of test cases (1 &#8804; T &#8804; 10^4) . Each of the next T lines</p>
+<p>contains an integer N ( 2 &#8804; N &#8804; 10^6).</p>
+<p> </p>
+<h3>Output</h3>
+<p> </p>
+<p>Output T lines, one for each test case, containing the required answer.</p>
+<p> </p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+2
+3
+5</pre>
+<pre><strong>Output:</strong>
+1
+2
+3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-06</td></tr>
+<tr><td>Time limit:</td><td>0.310s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UNI</td></tr>	
+</table>

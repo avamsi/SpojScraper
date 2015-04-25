@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/frankr"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GEOPROB" target="_blank">2901. One Geometry Problem</a></td><td><a href="http://www.spoj.com/problems/GEOPROB"target="_blank">GEOPROB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCD2" target="_blank">2906. GCD2</a></td><td><a href="http://www.spoj.com/problems/GCD2"target="_blank">GCD2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GSS5" target="_blank">2916. Can you answer these queries V</a></td><td><a href="http://www.spoj.com/problems/GSS5"target="_blank">GSS5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCD3" target="_blank">5084. Discrete Math Problem</a></td><td><a href="http://www.spoj.com/problems/GCD3"target="_blank">GCD3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCDSQF" target="_blank">6059. Another GCD problem</a></td><td><a href="http://www.spoj.com/problems/GCDSQF"target="_blank">GCDSQF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NDIVPHI" target="_blank">6556. N DIV PHI_N</a></td><td><a href="http://www.spoj.com/problems/NDIVPHI"target="_blank">NDIVPHI</a><br>
+</td></tr>

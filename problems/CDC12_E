@@ -1,0 +1,128 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12560. External Falling Objects</h1>
+		<h2>Problem code: CDC12_E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">After Ronny finished the race challenge, he decided to go home. When he arrives, he notice</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">that his family it&rsquo;s not there, instead, there is a note that says: &rdquo;We are at the basement&rdquo;.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Ronny read this and decided to go to the basement. This one it&rsquo;s located at some point of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">backyard, but due to the collision and fusion of the planets, there are objects of the external</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">planet falling from the sky, therefore, streets and gardens are full of these objects.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">These objects have different sizes and shapes, but always with the colors of the rainbow. Beside</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">this, Ronny&rsquo;s family will close the basement door after K minutes, to avoid a possible invasion</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">of the new life forms that are arriving to the Earth. Ronny need to get to the basement before</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">these K minutes. You must know that every object has a number, this number represents the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">time that Ronny will take to avoid it. Ronny can move to any of the adjacent position but</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">never diagonal. Every step that Ronny make will take 1 second.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer T , which specifies the number of test cases. Then, will follow</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the descriptions of T test cases.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each test case, there will be a line with 3 integers, H, W and K. H and W are the dimen-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sions of the garden, and K it&rsquo;s the time in seconds that Ronny&rsquo;s family will wait until they lock</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the door. Then H lines will follow, with W characters each; you may know that:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; The character &rsquo;.&rsquo; denotes a free space on the garden.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; One digit character denotes an object. An object with the number X on it represents</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">that Ronny will take X seconds to avoid it.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; The character &rsquo;R&rsquo; indicates the initial position of Ronny in the garden.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; The character &rsquo;D&rsquo; indicates the door of the basement where is located Ronny&rsquo;s family.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The input must be read from standard input.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each input case you must print a line with "Scenario #i: " where i is the number of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">test case that you are evaluating (starting by 1), followed by the minimum time that Ronny</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">will take to reach his family. If it&rsquo;s impossible to Ronny to reach his family in less than K units</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC 2012 - Contest Session</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">13</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">of time, then you should print "Ronny will be destroyed". (Quotes for clarity)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The output must be written to standard output.</div>
+<p>&nbsp;</p>
+<p>After Ronny finished the race challenge, he decided to go home. When he arrives, he notice</p>
+<p>that his family it&rsquo;s not there, instead, there is a note that says: &rdquo;We are at the basement&rdquo;.</p>
+<p>Ronny read this and decided to go to the basement. This one it&rsquo;s located at some point of the</p>
+<p>backyard, but due to the collision and fusion of the planets, there are objects of the external</p>
+<p>planet falling from the sky, therefore, streets and gardens are full of these objects.</p>
+<p>These objects have different sizes and shapes, but always with the colors of the rainbow. Beside</p>
+<p>this, Ronny&rsquo;s family will close the basement door after K minutes, to avoid a possible invasion</p>
+<p>of the new life forms that are arriving to the Earth. Ronny need to get to the basement before</p>
+<p>these K minutes. You must know that every object has a number, this number represents the</p>
+<p>time that Ronny will take to avoid it. Ronny can move to any of the adjacent position but</p>
+<p>never diagonal. Every step that Ronny make will take 1 second.</p>
+<p>&nbsp;</p>
+<p><strong>Input</strong></p>
+<p>The first line contains an integer T , which specifies the number of test cases. Then, will follow</p>
+<p>the descriptions of T test cases.</p>
+<p>For each test case, there will be a line with 3 integers, H, W and K. H and W are the dimen-</p>
+<p>sions of the garden, and K it&rsquo;s the time in seconds that Ronny&rsquo;s family will wait until they lock</p>
+<p>the door. Then H lines will follow, with W characters each; you may know that:</p>
+<p style="padding-left: 30px;">&bull; The character &rsquo;.&rsquo; denotes a free space on the garden.</p>
+<p style="padding-left: 30px;">&bull; One digit character denotes an object. An object with the number X on it represents</p>
+<p style="padding-left: 30px;">that Ronny will take X seconds to avoid it.</p>
+<p style="padding-left: 30px;">&bull; The character &rsquo;R&rsquo; indicates the initial position of Ronny in the garden.</p>
+<p style="padding-left: 30px;">&bull; The character &rsquo;D&rsquo; indicates the door of the basement where is located Ronny&rsquo;s family.</p>
+<p>The input must be read from standard input.</p>
+<p>&nbsp;</p>
+<p><strong>Output</strong></p>
+<p>For each input case you must print a line with "Scenario #i: " where i is the number of the</p>
+<p>test case that you are evaluating (starting by 1), followed by the minimum time that Ronny</p>
+<p>will take to reach his family. If it&rsquo;s impossible to Ronny to reach his family in less than K units</p>
+<p>of time, then you should print "Ronny will be destroyed". (Quotes for clarity)</p>
+<p>The output must be written to standard output.</p>
+<div>
+<table border="2">
+<tbody>
+<tr align="center" valign="top">
+<td>INPUT</td>
+<td>OUTPUT</td>
+</tr>
+<tr align="left" valign="top">
+<td>2<br /> 2 2 2<br /> R9<br /> 1D<br /> 3 3 10<br /> R..<br /> 42.<br /> D1.<br /></td>
+<td>Scenario #1: Ronny will be destroyed<br /> Scenario #2: 6<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Constraints</strong></p>
+<p>&bull; 1 &le; T &le; 100</p>
+<p>&bull; 1 &le; H &le; 1,000</p>
+<p>&bull; 1 &le; W &le; 1,000</p>
+<p>&bull; 1 &le; K &le; 8,000,000</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>0.800s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

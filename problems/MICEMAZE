@@ -1,0 +1,175 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MICEMAZE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1845. Mice and Maze</h1>
+		<h2>Problem code: MICEMAZE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align="justify">
+A set of laboratory mice is being trained to escape a maze. 
+The maze is made up of cells, and each cell is
+connected to some other cells. 
+However, there are obstacles in the passage between
+cells and therefore there is a time penalty to overcome the passage
+Also, some passages allow mice to go one-way,
+but not the other way round.
+
+<P align="justify">
+Suppose that all mice are now trained and,  when placed  in  an  arbitrary
+cell in the maze, take a path that leads them to  the  exit cell in minimum
+time.
+
+<P align="justify">
+We are going to conduct the following experiment: 
+a mouse is placed in each cell  of
+the maze and a count-down timer is started.
+When the timer stops we count the number of mice out of the maze.
+
+<font color="#0000FF"><H2>Problem</H2></font>
+
+<P align="justify">
+Write a program that, given a description of the maze and the time limit,
+predicts the number of mice that will exit the maze. Assume
+that there are no bottlenecks is the maze, i.e. that all cells have
+room for an arbitrary number of mice.
+
+<h3>Input</h3>
+
+<P align="justify">
+The maze cells are numbered <IMG
+ WIDTH="84" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg1.gif"
+ ALT="$1,2,ldots,N$">, where <IMG
+ WIDTH="20" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg2.gif"
+ ALT="$N$"> is the total number
+of cells. You can assume that <IMG
+ WIDTH="70" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg3.gif"
+ ALT="$Nleq 100$">.
+
+<P align="justify">
+The first three input lines contain 
+<IMG
+ WIDTH="20" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg2.gif"
+ ALT="$N$">, the number of cells in the
+maze, <IMG
+ WIDTH="18" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg4.gif"
+ ALT="$E$">, the number of the exit cell,
+and the starting value <IMG
+ WIDTH="17" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg5.gif"
+ ALT="$T$"> for the count-down timer 
+(in some arbitrary time unit).
+
+<P align="justify">
+The fourth line contains the number <IMG
+ WIDTH="23" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg6.gif"
+ ALT="$M$"> of 
+connections in the maze, and is followed by <IMG
+ WIDTH="23" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg6.gif"
+ ALT="$M$"> lines,
+each specifying a connection
+with three integer numbers: two cell numbers <IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg7.gif"
+ ALT="$a$"> and <IMG
+ WIDTH="12" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg8.gif"
+ ALT="$b$">
+(in the range <IMG
+ WIDTH="68" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg9.gif"
+ ALT="$1,ldots,N$">) and the number of time units
+it takes to travel from <IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg7.gif"
+ ALT="$a$"> to <IMG
+ WIDTH="12" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg8.gif"
+ ALT="$b$">.
+
+<P align="justify">
+Notice that each connection is one-way, i.e., 
+the mice can't travel from <IMG
+ WIDTH="12" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg8.gif"
+ ALT="$b$"> to <IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg7.gif"
+ ALT="$a$">
+unless there is another line specifying that passage.
+Notice also that the time required
+to travel in each direction might be different.
+
+<h3>Output</h3>
+
+<P align="justify">
+The output consists of a single line with 
+the number of mice that reached the exit cell <IMG
+ WIDTH="18" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg4.gif"
+ ALT="$E$"> in at
+most <IMG
+ WIDTH="17" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:aimg5.gif"
+ ALT="$T$"> time units.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4 
+2 
+1
+8
+1 2 1
+1 3 1
+2 1 1
+2 4 1
+3 1 1
+3 4 1
+4 2 1
+4 3 1
+
+<b>Output:</b>
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/overwise">Robin Nittka</a></td></tr>
+<tr><td>Date:</td><td>2007-10-04</td></tr>
+<tr><td>Time limit:</td><td>0.310s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC -- SWERC 2001</td></tr>	
+</table>

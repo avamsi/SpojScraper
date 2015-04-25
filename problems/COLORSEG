@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COLORSEG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20170. Coloring Segments</h1>
+		<h2>Problem code: COLORSEG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><span style="font-family: verdana, geneva;"><p>Making a fun is a not a bad thing, but while making a fun if you disrespect someone then it will not be acceptable. Some of the North South University's students has done this type of wrong thing. So as a punishment they have to solve this problem. And you are a friend of them, so you should help them.</p>
+<p>&nbsp;</p>
+<p>You will have N segments. Each one is connected in contiguous way. And we can number them from 1 to N. See the following figure:</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://dl.dropboxusercontent.com/u/34972503/problems/COLORSEG/colorseg.PNG" alt="Figure" width="645" height="99" /></p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>Now you need to paint them, you have some colors, which are numbered from 1 to M. Now you need to count number of ways to paint the segments with the colors, such that this property preserves-</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U = color(i) + color(j)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V = color(j) + color(k)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U, V is Coprime.</p><p><span style="white-space: pre;">	</span>&nbsp; &nbsp; Here <strong>1 &lt;= i &lt; j &lt; k &lt;= N</strong> and j = i + 1, k = j + 1</p>
+<p>And i, j, k indicates the index of segments and color(i) means the color you have painted on i th segment.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Input</strong></p>
+<p>Input starts with an integer&nbsp;<strong>T (&le; 2500)</strong>, denoting the number of test cases.</p>
+<p>Each case starts with a line containing two integers&nbsp;<strong>N</strong>, <strong>M.</strong></p>
+<p>&nbsp;1 &lt;= N &lt;= 50</p><p>&nbsp;1 &lt;= M &lt;= 50</p>
+<p><strong>Output</strong></p>
+<p>For each case, print the case number and the number of ways to paint the segments following above conditions. Since the result can be very large, you have to print the result modulo&nbsp;<strong>1000003</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="319" valign="top">
+<p><strong>Sample Input</strong></p>
+</td>
+<td width="319" valign="top">
+<p><strong>Output for Sample Input</strong></p>
+</td>
+</tr>
+<tr>
+<td width="319" valign="top">
+<p>3</p>
+<p>3 1</p>
+<p>3 2</p>
+<p>3 3</p>
+<p>&nbsp;</p>
+</td>
+<td width="319" valign="top">
+<p>Case 1: 0</p>
+<p>Case 2: 4</p>
+<p>Case 3: 14</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/faiyaz26">Faiyaz</a></td></tr>
+<tr><td>Date:</td><td>2014-06-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

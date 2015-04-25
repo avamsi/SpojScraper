@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/crazyb0y"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EXPLOSN" target="_blank">1674. The Explosion</a></td><td><a href="http://www.spoj.com/problems/EXPLOSN"target="_blank">EXPLOSN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GEN" target="_blank">1676. Text Generator</a></td><td><a href="http://www.spoj.com/problems/GEN"target="_blank">GEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREASURY" target="_blank">1678. Royal Treasury</a></td><td><a href="http://www.spoj.com/problems/TREASURY"target="_blank">TREASURY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COCONUTS" target="_blank">1693. Coconuts</a></td><td><a href="http://www.spoj.com/problems/COCONUTS"target="_blank">COCONUTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NCKLCE" target="_blank">1715. Another Necklace Problem</a></td><td><a href="http://www.spoj.com/problems/NCKLCE"target="_blank">NCKLCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GSS3" target="_blank">1716. Can you answer these queries III</a></td><td><a href="http://www.spoj.com/problems/GSS3"target="_blank">GSS3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TETRIS3D" target="_blank">1741. Tetris 3D</a></td><td><a href="http://www.spoj.com/problems/TETRIS3D"target="_blank">TETRIS3D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQPAR2" target="_blank">1748. Sequence Partitioning II</a></td><td><a href="http://www.spoj.com/problems/SEQPAR2"target="_blank">SEQPAR2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVSUM2" target="_blank">1754. Divisor Summation (Hard)</a></td><td><a href="http://www.spoj.com/problems/DIVSUM2"target="_blank">DIVSUM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NQUEEN" target="_blank">1771. Yet Another N-Queen Problem</a></td><td><a href="http://www.spoj.com/problems/NQUEEN"target="_blank">NQUEEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCS" target="_blank">1811. Longest Common Substring</a></td><td><a href="http://www.spoj.com/problems/LCS"target="_blank">LCS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCS2" target="_blank">1812. Longest Common Substring II </a></td><td><a href="http://www.spoj.com/problems/LCS2"target="_blank">LCS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RNG" target="_blank">2002. Random Number Generator</a></td><td><a href="http://www.spoj.com/problems/RNG"target="_blank">RNG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIS2" target="_blank">2371. Another Longest Increasing Subsequence Problem</a></td><td><a href="http://www.spoj.com/problems/LIS2"target="_blank">LIS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAGIC4" target="_blank">2511. Magic Program IV</a></td><td><a href="http://www.spoj.com/problems/MAGIC4"target="_blank">MAGIC4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSTS" target="_blank">2670. Count Minimum Spanning Trees</a></td><td><a href="http://www.spoj.com/problems/MSTS"target="_blank">MSTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUESSING" target="_blank">2738. Number Guessing Game</a></td><td><a href="http://www.spoj.com/problems/GUESSING"target="_blank">GUESSING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CSUBSEQS" target="_blank">2816. Common Subsequences</a></td><td><a href="http://www.spoj.com/problems/CSUBSEQS"target="_blank">CSUBSEQS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INCDSEQ" target="_blank">2817. Distinct Increasing Subsequences</a></td><td><a href="http://www.spoj.com/problems/INCDSEQ"target="_blank">INCDSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TLE" target="_blank">2829. Time Limit Exceeded</a></td><td><a href="http://www.spoj.com/problems/TLE"target="_blank">TLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DETER3" target="_blank">2832. Find The Determinant III</a></td><td><a href="http://www.spoj.com/problems/DETER3"target="_blank">DETER3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ELECTRO" target="_blank">3002. Electrophoretic</a></td><td><a href="http://www.spoj.com/problems/ELECTRO"target="_blank">ELECTRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FILTER" target="_blank">3003. Median Filter</a></td><td><a href="http://www.spoj.com/problems/FILTER"target="_blank">FILTER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIFEGAME" target="_blank">3004. Life Game</a></td><td><a href="http://www.spoj.com/problems/LIFEGAME"target="_blank">LIFEGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LAND" target="_blank">3005. Subdividing a Land</a></td><td><a href="http://www.spoj.com/problems/LAND"target="_blank">LAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINE" target="_blank">3006. Connect Line Segments</a></td><td><a href="http://www.spoj.com/problems/LINE"target="_blank">LINE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OILCOMP" target="_blank">3007. Oil Company</a></td><td><a href="http://www.spoj.com/problems/OILCOMP"target="_blank">OILCOMP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPS" target="_blank">3008. Finding the Top RPS Player</a></td><td><a href="http://www.spoj.com/problems/RPS"target="_blank">RPS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VORONOI" target="_blank">3009. Revenge of Voronoi</a></td><td><a href="http://www.spoj.com/problems/VORONOI"target="_blank">VORONOI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WALL" target="_blank">3010. Castle Wall</a></td><td><a href="http://www.spoj.com/problems/WALL"target="_blank">WALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALIM" target="_blank">3208. Yet Another Longest Palindrome Problem</a></td><td><a href="http://www.spoj.com/problems/PALIM"target="_blank">PALIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOMINO2" target="_blank">4157. Domino</a></td><td><a href="http://www.spoj.com/problems/DOMINO2"target="_blank">DOMINO2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAIRSORT" target="_blank">5182. Double Sorting</a></td><td><a href="http://www.spoj.com/problems/PAIRSORT"target="_blank">PAIRSORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUESSLNK" target="_blank">8991. Number Guessing Game 2</a></td><td><a href="http://www.spoj.com/problems/GUESSLNK"target="_blank">GUESSLNK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TORNJEVI" target="_blank">9185. TORNJEVI</a></td><td><a href="http://www.spoj.com/problems/TORNJEVI"target="_blank">TORNJEVI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALICE" target="_blank">9934. Alice and Bob</a></td><td><a href="http://www.spoj.com/problems/ALICE"target="_blank">ALICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BC" target="_blank">9935. Break the Chocolate</a></td><td><a href="http://www.spoj.com/problems/BC"target="_blank">BC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CGW" target="_blank">9936. Construct the Great Wall</a></td><td><a href="http://www.spoj.com/problems/CGW"target="_blank">CGW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DISNEY" target="_blank">9938. Disney Fastpass</a></td><td><a href="http://www.spoj.com/problems/DISNEY"target="_blank">DISNEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC" target="_blank">9939. Eliminate the Con&#64258;ict</a></td><td><a href="http://www.spoj.com/problems/EC"target="_blank">EC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FNINJA" target="_blank">9940. Fruit Ninja</a></td><td><a href="http://www.spoj.com/problems/FNINJA"target="_blank">FNINJA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRE" target="_blank">9941. GRE Words</a></td><td><a href="http://www.spoj.com/problems/GRE"target="_blank">GRE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOLI" target="_blank">9942. Holiday Accommodation</a></td><td><a href="http://www.spoj.com/problems/HOLI"target="_blank">HOLI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ISAB" target="_blank">9943. Isabella Message</a></td><td><a href="http://www.spoj.com/problems/ISAB"target="_blank">ISAB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JITU" target="_blank">9944. Ji-Tu Problem</a></td><td><a href="http://www.spoj.com/problems/JITU"target="_blank">JITU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUANGGUN" target="_blank">9952. 111&#8230;1 Squared</a></td><td><a href="http://www.spoj.com/problems/GUANGGUN"target="_blank">GUANGGUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIBO" target="_blank">9964. Fibonacci vs Polynomial</a></td><td><a href="http://www.spoj.com/problems/PIBO"target="_blank">PIBO</a><br>
+</td></tr>

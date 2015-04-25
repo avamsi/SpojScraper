@@ -1,0 +1,105 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NCKLCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1715. Another Necklace Problem</h1>
+		<h2>Problem code: NCKLCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">
+<p>T Corporation is a company which produces colorful necklaces. The necklaces designed by them are unique and fashionable, and because of the price, they are popular with the youth. Now, T Corporation intends to design a self-help Producing System.<br>
+<br>
+This system includes hardware and software. The software is interactive and controls the hardware. Now the hardware has been completed, but the software is to develop. The workers find you, who is taking NOI. Could you please write a software system to simulate?<br>
+<br>
+A necklace includes N beads. The color of each bead is one of 1..c. The necklace is fixed in a plain. One position of the plain is marked as Position 1, and the other positions are marked as 2..n in clockwise.<br>
+Your system should supply the orders as follow:<br>
+</p>
+<pre>
++------------+-------------------------------+--------------------------------------------------+
+|Order       |Parameters restrictions        |Content                                           |
++------------+-------------------------------+--------------------------------------------------+
+|R  k        |0 &lt; k &lt; N                      |It means Rotate K. Rotate the necklace by k       |
+|            |                               |positions in clockwise. i.e. The bead in former 1 |
+|            |                               |position will be transfer to position k+1, the    |
+|            |                               |bead in former 2 position will be transfer to     |
+|            |                               |position k+2, and so on.                          |
++------------+-------------------------------+--------------------------------------------------+
+|F           |                               |It means Flip. Flip the plain by the given axis.  |
+|            |                               |The bead in position 1 doesn't move.The bead in   |
+|            |                               |position 2 will swap with the bead in position    |
+|            |                               |N,the bead in position 3 will swap with the bead  |
+|            |                               |in position n-1, and so on.                       |
++------------+-------------------------------+--------------------------------------------------+
+|S i j       |1 &lt;= i,j &lt;= n                  |Swap the bead in position i and j.                |
++------------+-------------------------------+--------------------------------------------------+
+|P i j x     |1 &lt;= i,j &lt;= n , x&lt;= c          |It means Paint. Paint color x from position i to  |
+|            |                               |position j in clockwise.                          |
++------------+-------------------------------+--------------------------------------------------+
+|C           |                               |It means Count. Ask how many parts are there in   |
+|            |                               |the necklace. We define some consecutive beads    |
+|            |                               |in same color as a "part". Pay attention that C is|
+|            |                               |different from CS 1,n.                            |
++------------+-------------------------------+--------------------------------------------------+
+|CS i j      |1 &lt;= i,j &lt;= n                  |It means CountSegment i,j. Ask how many parts are |
+|            |                               |there from position i to position j in clockwise, |
+|            |                               |i and j included.                                 |
++------------+-------------------------------+--------------------------------------------------+
+</pre>
+<h3>Input</h3>
+<p>The first line in input includes two integers N,C,  representing the beads in the necklace 
+and the number of colors. The second line contains N integers x1,x2...xn, representing the colors of beads from position 1 to position n,1&lt;=xi&lt;=c. The third line includes a integer q, as the number of orders. There is an order in the next q lines, as mentioned above.<br>
+<br>
+For 60% test cases, n &lt;= 1000, Q &lt;= 1000;<br>
+For 100% test cases, n &lt;= 500000, Q &lt;= 500000.</p>
+
+<h3>Output</h3>
+<p>For every order starts with C and CS, print a integer as the answer.</p>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5 3
+1 2 3 2 1
+4
+C
+R 2
+P 5 5 2
+CS 4 1
+
+<b>Output:</b>
+4
+1
+</pre>
+
+<b>Test data is unofficial. If you have any questions, please contact me. </b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2007-08-03</td></tr>
+<tr><td>Time limit:</td><td>0.012s-0.592s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2007,Day 2</td></tr>	
+</table>

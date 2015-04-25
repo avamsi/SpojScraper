@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kfas"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PRIME1" target="_blank">2. Prime Generator</a></td><td><a href="http://www.spoj.com/problems/PRIME1"target="_blank">PRIME1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TETRA" target="_blank">16. Sphere in a tetrahedron</a></td><td><a href="http://www.spoj.com/problems/TETRA"target="_blank">TETRA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIR" target="_blank">23. Pyramids</a></td><td><a href="http://www.spoj.com/problems/PIR"target="_blank">PIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOUR" target="_blank">51. Fake tournament</a></td><td><a href="http://www.spoj.com/problems/TOUR"target="_blank">TOUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JULKA" target="_blank">54. Julka</a></td><td><a href="http://www.spoj.com/problems/JULKA"target="_blank">JULKA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JASIEK" target="_blank">55. Jasiek</a></td><td><a href="http://www.spoj.com/problems/JASIEK"target="_blank">JASIEK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DYZIO" target="_blank">56. Dyzio</a></td><td><a href="http://www.spoj.com/problems/DYZIO"target="_blank">DYZIO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUPPER" target="_blank">57. Supernumbers in a permutation</a></td><td><a href="http://www.spoj.com/problems/SUPPER"target="_blank">SUPPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PICAD" target="_blank">58. Crime at Piccadily Circus</a></td><td><a href="http://www.spoj.com/problems/PICAD"target="_blank">PICAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BIA" target="_blank">59. Bytelandian Information Agency</a></td><td><a href="http://www.spoj.com/problems/BIA"target="_blank">BIA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DANCE" target="_blank">60. The Gordian Dance</a></td><td><a href="http://www.spoj.com/problems/DANCE"target="_blank">DANCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRCKTS" target="_blank">61. Brackets</a></td><td><a href="http://www.spoj.com/problems/BRCKTS"target="_blank">BRCKTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMP" target="_blank">62. The Imp</a></td><td><a href="http://www.spoj.com/problems/IMP"target="_blank">IMP</a><br>
+</td></tr>

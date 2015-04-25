@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PAYING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>123. Paying in Byteland</h1>
+		<h2>Problem code: PAYING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+There are infinitely many coin denominations in the Byteland. They have values of 2^i for i=0,1,2,... . We will say that set of coins c1,c2,...,ck is perfect when it is possible to pay every amount of money between 0 and c1+...+ck using some of them (so {4,2,2,1} is perfect while {8,1} is not). The question is - is it always possible to change given sum n into a perfect set of coins? Of course it is possible ;). Your task will be more complicated: for a sum n you should find minimal number of coins in its perfect representation.
+</P>
+<H3>Input</H3>
+<P align=justify>
+First line of input contains one integer c<=50 - number of test cases. Then c lines follow, each of them consisting of exactly one integer n<=10^1000.
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case output minimal number of coins.
+</P>
+<H3>Example</H3>
+<pre>
+Input:
+5
+507
+29
+8574
+233
+149
+
+Output:
+14
+7
+21
+11
+10
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2004-07-07</td></tr>
+<tr><td>Time limit:</td><td>5.923s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

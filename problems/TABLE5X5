@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TABLE5X5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4378. Twofive</h1>
+		<h2>Problem code: TABLE5X5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/TABLE5X5/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/TABLE5X5/vn/">Ti&#7871;ng Vi&#7879;t</a></td> 
+</tr></table>
+
+<p>Having a 5x5-table, we make a right-table by filling letters from 'A'..'Y' into the table satisfying:
+<ul>
+<li>Each letter is used exactly one time.</li>
+<li>The letters is ascending on every row.</li>
+<li>The letters is ascending on every column.</li>
+</ul>
+<p>Each right-table is described by a 25-length string, see the example below for detail:
+<p>The right-table:
+<table>
+<tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr>
+<tr><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td></tr>
+<tr><td>K</td><td>L</td><td>M</td><td>N</td><td>O</td></tr>
+<tr><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td></tr>
+<tr><td>U</td><td>V</td><td>W</td><td>X</td><td>Y</td></tr>
+</table>
+<p>is described by the string "ABCDEFGHIJKLMNOPQRSTUVWXY".
+<p>All descriptions are sorted ascending (following the dictionary order) and numbered from 1.
+<p><h3>Task</h3>
+<ul>
+<li>Give an order, find the right description.</li>
+<li>Give a description, find the right order.</li>
+</ul>
+<h3>Input</h3>
+<p>
+<ul>
+<li>The first line contains a number (an order).</li>
+<li>The second line contains a description.</li>
+</ul>
+<h3>Output</h3>
+<p>
+<ul>
+<li>The first line contains the 25-length string desribing the order given.</li>
+<li>The second line contains the order of the given description.</li>
+</ul>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+ABCDEFGHIJKLMNOPQRSTUVWXY
+
+<b>Output:</b>
+ABCDEFGHIJKLMNOPQRSTUVWXY
+1
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-05-14</td></tr>
+<tr><td>Time limit:</td><td>0.089s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IOI2001</td></tr>	
+</table>

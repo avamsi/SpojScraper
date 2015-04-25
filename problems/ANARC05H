@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC05H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4564. Chop Ahoy! Revisited!</h1>
+		<h2>Problem code: ANARC05H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>   </p>
+<table style="width: 100%; background-color: #44c23c;" border="0">
+<tbody>
+<tr>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/ANARC05H/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/ANARC05H/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Given a non-empty string composed of digits only, we may group these digits into sub-groups (but maintaining their original order) if, for every sub-group but the last one, the sum of the digits in a sub-group is less than or equal to the sum of the digits in the sub-group immediately on its right. Needless to say, each digit will be in exactly one sub-group.</p>
+<p><br />For example, the string 635 can only be grouped in one sub-group [635] or in two sub-groups as follows: [6-35] (since 6 &lt; 8.) Another example is the string 1117 which can be grouped in one sub-group [1117] or as in the<br />following: [1-117], [1-1-17], [1-11-7], [1-1-1-7], [11-17],and [111-7] but not any more, hence the total number of possibilities is 7.</p>
+<p><br />Write a program that computes the total number of possibilities of such groupings for a given string of digits.</p>
+<h1 style="text-align: center;">Input</h1>
+<p>Your program will be tested on a number of test cases. Each test case is speci&#64257;ed on a separate line. Each line contains a single string no longer than 25, and is made of decimal digits only.</p>
+<p><br />The end of the test cases is identi&#64257;ed by a line made of the word "bye" (without the quotes.) Such line is not part of the test cases.</p>
+<h1 style="text-align: center;">Output</h1>
+<p>For each test case, write the result using the following format:</p>
+<pre>k. n</pre>
+<p>where k is the test case number (starting at 1,) and n is the result of this test case.</p>
+<h1 style="text-align: center;">Sample</h1>
+<pre style="text-align: justify;">input<br />635<br />1117<br />9876<br />bye<br /><br />output<br />1. 2<br />2. 7<br />3. 2<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-07-05</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ANARC 2005</td></tr>	
+</table>

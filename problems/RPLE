@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RPLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11375. Espionage</h1>
+		<h2>Problem code: RPLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">Marcos the little one decided to build and manage an espionage agency, he was happy working as the chief of his agency, hiring spies to spy everybody in the country! But he realized that some of their own spies are spying themselves, of course, this is bad to the business and he don't want this to happen, he wants a program to alert him whenever a spy is spying another spy.</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">INPUT:</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">Will consists in T test cases, then, T cases will follow, starting from two integers N and R, each one denoting the number of persons to evaluate and the number of relationships spy-person each one has, then, R lines will follow and will contain two integers R1 and R2, meaning that R1 spies R2</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">OUTPUT:</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">Will consist in T lines, starting from the string &ldquo;Scenario #i: &ldquo; where i is the number of the test case you're analyzing, print the string &ldquo;spying&rdquo; if each spy has as a target a civilian, print &ldquo;spied&rdquo; otherwise</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p align="CENTER"><span style="font-size: small;"><strong>INPUT</strong></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p align="CENTER"><span style="font-size: small;"><strong>OUTPUT</strong></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p align="LEFT"><span style="font-size: small;">3 </span></p>
+<p align="LEFT"><span style="font-size: small;">3 			2 </span></p>
+<p align="LEFT"><span style="font-size: small;">0 			1 </span></p>
+<p align="LEFT"><span style="font-size: small;">2 			1 </span></p>
+<p align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p align="LEFT"><span style="font-size: small;">3 			3 </span></p>
+<p align="LEFT"><span style="font-size: small;">0 			1 </span></p>
+<p align="LEFT"><span style="font-size: small;">2 			1 </span></p>
+<p align="LEFT"><span style="font-size: small;">0 			2 </span></p>
+<p align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p align="LEFT"><span style="font-size: small;">4 			2</span></p>
+<p align="LEFT"><span style="font-size: small;">2 			3</span></p>
+<p align="LEFT"><span style="font-size: small;">0 			1</span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p align="LEFT"><span style="font-size: small;">Scenario 			#1: spying </span></p>
+<p align="LEFT"><span style="font-size: small;">Scenario 			#2: spied</span></p>
+<p align="LEFT"><span style="font-size: small;">Scenario 			#3: spying</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">"Blank line between test cases for clarification and separation"</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;"><strong>CONSTRAINTS:</strong></span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">1&lt;=N&lt;=1000</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">1&lt;=R&lt;=10000</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">&nbsp;</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">Explanation of the second test case:</span></p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="font-size: small;">Spy 0 spies civilian 1, spy 2 spies civilian 1, spy 0 spies spy 2. (Spied case).</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/david_8k">david_8k</a></td></tr>
+<tr><td>Date:</td><td>2012-04-12</td></tr>
+<tr><td>Time limit:</td><td>0.189s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem used for the RPL contest</td></tr>	
+</table>

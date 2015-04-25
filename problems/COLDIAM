@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COLDIAM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7286. Collect Diamonds</h1>
+		<h2>Problem code: COLDIAM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Misty has won a contest in a jewellery store and now she is allowed to collect diamonds as prize. But the store manager doesn't wan't to be so generous. He has spread several diamonds on the floor and now he asks Misty to encircle them using her gold chain. After that she can exhange her chain with all the diamonds that are encircled. Misty can manage to get the gold chain of any length from her friends. But she has to minimise the length and also want to collect all the diamonds on the floor. Diamonds lying on the chain are also considered to be inside. Help her to find the minimum length of the gold chain required.</p>
+<h3>Input</h3>
+<p>First line of input consist of a single positive integer n &lt;= 1000 i.e number of diamonds. Next n lines consist of two integers x,y that denotes position ( coordinates ) of diamonds on the floor.&nbsp; 0 =&lt; x,y &lt;= 1000</p>
+<h3>Output</h3>
+<p>Minimum length of gold chain required so that misty can collect all the diamonds. Answer should be rounded to two places after decimal.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />1 0<br />0 1<br />1 1<br />0 0<br /><strong><br />Output:</strong><br />4.44<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vipulmehta">XeRoN!X</a></td></tr>
+<tr><td>Date:</td><td>2010-09-07</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+	
+</table>

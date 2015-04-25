@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DISTANCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2320. Manhattan</h1>
+		<h2>Problem code: DISTANCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The L<sub>1</sub> distance of two d-dimensional points is the sum of
+absolute values of their coordinate differences (i.e.
+&#931;<sub>i=1</sub><sup>d</sup> |x<sub>i</sub> - y<sub>i</sub>| for two points x,y).  Given N points in
+the plane you must find the farthest pair of points under the L<sub>1</sub>
+distance metric and output their distance.
+
+<h3>Input</h3>
+<p>The first line of the input is "N d" (2 &#8804; N &#8804; 100000, 1 &#8804;
+d &#8804; 6) signifying that there are N points in d-dimensional
+space.  N lines then follow, where the ith line is a
+space-separated list of d numbers, the coordinates of the ith point.
+All given coordinates are integers that are at most 1000000 in
+absolute value, and all given points are distinct.
+
+<h3>Output</h3>
+<p>Your output should consist of a single integer, the farthest distance
+between a pair of input points, followed by a newline.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 2
+0 0
+-5 0
+1 1
+
+<b>Output:</b>
+7
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>0.148s-4.446s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/team1/index.html">MIT 1st Team Contest 2007</a></td></tr>	
+</table>

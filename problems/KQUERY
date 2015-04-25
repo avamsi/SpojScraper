@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KQUERY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3266. K-query</h1>
+		<h2>Problem code: KQUERY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!--
+
+Note: this problem already appears in the main problemset as:
+http://www.spoj.pl/problems/RACETIME/
+
+-->
+
+
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/KQUERY/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/KQUERY/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>Given a sequence of n numbers a<sub>1</sub>, 
+
+a<sub>2</sub>, ..., a<sub>n</sub> and a number of k-
+
+queries. A k-query is a triple (i, j, k) (1 &#8804; i &#8804; j &#8804; n). For 
+
+each k-query (i, j, k), you have to return the number of 
+
+elements greater than k in the subsequence a<sub>i</sub>, 
+
+a<sub>i+1</sub>, ..., a<sub>j</sub>.</p>
+<h3>Input</h3>
+<ul>
+<li>Line 1: n (1 &#8804; n &#8804; 30000).</li>
+<li>Line 2: n numbers a<sub>1</sub>, a<sub>2</sub>, ..., 
+
+a<sub>n</sub> (1 &#8804; a<sub>i</sub> &#8804; 
+
+10<sup>9</sup>).</li>
+<li>Line 3: q (1 &#8804; q &#8804; 200000), the number of k-
+
+queries.</li>
+<li>In the next q lines, each line contains 3 numbers i, j, k 
+
+representing a k-query (1 &#8804; i &#8804; j &#8804; n, 1 &#8804; k &#8804; 
+
+10<sup>9</sup>).</li>
+</ul>
+
+<h3>Output</h3>
+<ul>
+<li>For each k-query (i, j, k), print the number of elements 
+
+greater than k in the subsequence a<sub>i</sub>, 
+
+a<sub>i+1</sub>, ..., a<sub>j</sub> in a single line.</p>
+</ul>
+
+<h3>Example</h3>
+<pre>
+<b>Input</b>
+5
+5 1 2 3 4
+3
+2 4 1
+4 4 4
+1 5 2 
+
+<b>Output</b>
+2
+0
+3 
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-10-26</td></tr>
+<tr><td>Time limit:</td><td>0.184s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>&#169; <a href='http://vnoi.info'>VNOI</a></td></tr>	
+</table>

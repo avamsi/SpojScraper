@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PLOT1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8449. Plotting functions (variation)</h1>
+		<h2>Problem code: PLOT1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a function y=f(x) in RPN-notation plot it with stars (*) and then (!) its derivation with crosses (+)&nbsp;for 0&lt;=x&lt;=20 with &Delta;x=1 in a diagram with 21*21 points (0&lt;=x,y&lt;=20). Empty fields are marked with dots (.). For plotting the real number y should be rounded to integer (-0.5 -&gt; -1, -0.4 -&gt; 0, 0.4 -&gt; 0, 0.5 -&gt; 1). The function and its derivation are continuous between 0 and 20.<br />The function definition uses only the following characters: 0123456789x.+-*/^<br />'^' means 'power of'. Items are separated by space.</p>
+<h3>Input</h3>
+<p>In the first line the number N of functions, then N lines with one function.</p>
+<h3>Output</h3>
+<p>The plot of each function and its derivation&nbsp;in 21 lines.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1<br />x 1 -
+
+<strong>Output:</strong>
+.....................<br />....................*<br />...................*.<br />..................*..<br />.................*...<br />................*....<br />...............*.....<br />..............*......<br />.............*.......<br />............*........<br />...........*.........<br />..........*..........<br />.........*...........<br />........*............<br />.......*.............<br />......*..............<br />.....*...............<br />....*................<br />...*.................<br />+++++++++++++++++++++<br />.*...................<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hwk">HWK</a></td></tr>
+<tr><td>Date:</td><td>2011-03-02</td></tr>
+<tr><td>Time limit:</td><td>0.009s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

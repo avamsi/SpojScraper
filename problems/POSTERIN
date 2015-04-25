@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POSTERIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15620. Postering</h1>
+		<h2>Problem code: POSTERIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>All the buildings in the east district of Byteburg were built in accordance with the old arbitecture: they stand next to each other with no spacing inbetween. Together they form a very long chain of buildings of diverse height, extending from east to west.</p>
+<p>The mayor of Byteburg, Byteasar, has decided to have the north face of the chain covered with posters. Byteasar ponders over the minimum number of posters sufficient to cover the whole north face. The posters have rectangular shape with vertical and horizontal sides. They cannot overlap, but may touch each other, i.e. have common points on the sides. Every poster has to entirely adjoin the walls of certain buildings and the whole surface of the north face has to be covered.</p>
+<p> </p>
+
+<h1>Task</h1>
+<p>Write a programme that:</p>
+<ul>
+<li>reads the description of buildings from the standard input,</li>
+<li>determines the minimum number of posters needed to entirely cover their north faces,</li>
+<li>writes out the outcome to the standard output.</li>
+</ul>
+<p> </p>
+
+<h1>Input</h1>
+<p>The first line of the standard input contains one integer N (1 <= N <= 250000), denoting the number of buildings the chain comprises of. Each of the following N lines contains two integers D<sub>i</sub> and W<sub>i</sub> (1 <= D<sub>i</sub>, W<sub>i </sub><=10<sup>9</sup>), separated by a single space, denoting respectively the length and height of the i-th building in the row.</p>
+<p> </p>
+
+<h1>Output</h1>
+<p>The first and only line of the standard output should contain one integer, the minimum number of rectangular posters that suffice to cover the north faces of the buildings.</p>
+<p> </p>
+
+<h1>Example</h1>
+<pre><b><u>Input</u></b>
+5
+1 2
+1 3
+2 2
+2 5
+1 4
+
+<b><u>Output</u></b>
+4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2013-08-11</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>POI XV</td></tr>	
+</table>

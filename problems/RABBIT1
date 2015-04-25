@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RABBIT1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2450. Counting Rabbits</h1>
+		<h2>Problem code: RABBIT1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rabbits  are  incredible  animals.  One  of  their  more   interesting
+characteristics  is  related with  their  reproduction. If  we  keep a
+couple  of  adult  rabbits  in  optimal  conditions  of  life,  it  is
+scientifically  proved that,  each month,  that couple  is capable  of
+procreating a new couple of  young rabbits. You should know  that only
+the adult couples  may procreate and  that the time  taken by a  young
+couple of rabbits to  grow (that is, to  become adult) is of  1 month.
+For the  convenience of  this task,  we will  be dealing with immortal
+rabbits.
+
+<p>Farmer Luis  (FL) is  a great  admirer of  rabbits. FL  bought in  the
+market 1 couple of adult rabbits (alive, of course) and know wants  to
+raise as  many rabbits  as he  can. Unfortunately,  there is  a little
+problem, FL has boxes where he can only put exactly 2^M (1 <= M <= 20)
+couples of rabbits (neither more nor  less). FL can use as many  boxes
+as he wishes as long as he fulfils the condition above. FL would  like
+to know how many couples of rabbits he will not be able to put  inside
+boxes if he  raises rabbits for  N (1 <=  N <= 2147483647)  months and
+then tries to &#8216;box&#8217; them (put  them inside boxes). You should help  FL
+with these calculations. You must consider that FL starts with 1 adult
+couple of rabbits the 1st month, and that couples of rabbits reproduce
+and grow as stated in the 1st paragraph.
+
+<h3>Input</h3>
+<p>Line 1: C  (1 <= C  <= 100), the  number of calculations  your program
+will be requested to do
+
+<p>Lines 2-C+1: two integers N and M (in that order)
+
+<h3>Output</h3>
+<p>Lines 1-C: on each  lines print S, which  is the number of  rabbits FL
+will not be able to &#8216;box&#8217; for calculation # i
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+5 2
+
+<b>Output:</b>
+0
+
+</pre>
+
+Output explanation:
+
+<p>After  growing couples  of rabbits  during 5  months, FL  has 5  adult
+couples and 3 young couples (8  couples in total). FL has boxes  where
+can put 2^2 = 4 couples of rabbits, so he can use 2 boxes to &#8216;box&#8217; all
+the  8 couples.  If FL  had instead  grown couples  of rabbits  for 4
+months, he would  have 5 couples  in total; thus  1 couple would  have
+remained un-&#8216;boxed&#8217; (the answer would have been 1). 
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abal9002">Abel Nieto Rodriguez</a></td></tr>
+<tr><td>Date:</td><td>2008-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.184s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mindbend 2002 Programming Contest </td></tr>	
+</table>

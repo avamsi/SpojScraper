@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAKETREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8728. Hierarchy</h1>
+		<h2>Problem code: MAKETREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A group of graduated students decided to establish a company; however, they don't agree on who is going to be who's boss.</p>
+<p>Generally, one of the students will be the <strong>main</strong> boss, and each of the other students will have exactly one boss (and that boss, if he is not the main boss, will have a boss of his own too). Every boss will have a strictly greater salary than all of his subordinates - therefore, there are no cycles. Therefore, the hierarchy of the company can be represented as a rooted <strong>tree</strong>.</p>
+<p>In order to agree on who is going to be who's boss, they've chosen K most successful students, and each of them has given a statement: I want to be the superior of him, him, and him (they could be successful or unsuccessful). And what does it mean to be a superior? It means to be the boss, or to be one of the boss' superiors (therefore, a superior of a student is not necessary his direct boss).</p>
+<p>Help this immature company and create a hierarchy that will satisfy all of the successful students' wishes. A solution, not necessary unique, will exist in all of the test data.</p>
+<h3>Input</h3>
+<p>In the first line of input, read positive integers N (N &le; 100 000), total number of students, and K (K &lt; N), the number of successful students. All students are numbered 1..N, while the successful ones are numbered 1..K.</p>
+<p>Then follow K lines. In A<sup>th</sup> of these lines, first read an integer W (the number of wishes of the student A, 1 &le; W &le; 10), and then W integers from the range [1, N] which denote students which student A wants to be superior to.</p>
+<h3 style="font-size: 1.17em;">Output</h3>
+<p>Output N integers. The A<sup>th</sup> of these integers should be 0 if student A is the main boss, and else it should represent the boss of the student A.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre><div style="background-color: transparent; font-family: 'Times New Roman'; font-size: medium;"><span id="internal-source-marker_0.2749345675110817" style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">4 2</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1 3</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2 3 4</span></div>
+
+<strong>Output:</strong>
+<div style="background-color: transparent; font-family: 'Times New Roman'; font-size: medium;"><span id="internal-source-marker_0.2749345675110817" style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">0</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2</span></div></pre>
+<pre><pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong>Input:</strong>
+<div style="background-color: transparent; font-family: 'Times New Roman'; font-size: medium;"><span id="internal-source-marker_0.2749345675110817" style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">7 4</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2 2 3</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1 6</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1 7</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2 1 2</span></div>
+
+<strong>Output:</strong>
+<div style="background-color: transparent; font-family: 'Times New Roman'; font-size: medium;"><span id="internal-source-marker_0.2749345675110817" style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">4</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">0</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">4</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2</span><br /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">3</span></div></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/askurdija">Adrian Satja Kurdija</a></td></tr>
+<tr><td>Date:</td><td>2011-04-15</td></tr>
+<tr><td>Time limit:</td><td>0.119s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

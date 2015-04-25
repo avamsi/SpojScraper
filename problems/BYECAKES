@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BYECAKES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7185. Bye Bye Cakes</h1>
+		<h2>Problem code: BYECAKES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>John is moving to a different city and he wants to use all his perishable food before doing it,<br />to avoid wasting. Luckily all he has now is eggs, flour, sugar and milk, so he is going to make<br />his famous cakes and give them to his friends as a goodbye gift.<br />John only knows how to make an entire cake and not half a cake, a third of a cake, or any<br />other portion. So, he will buy whatever is needed of each ingredient so that he can make an<br />integer number of cakes and have nothing left. Of course, he wants to spend as little money as<br />possible. You must help John to decide how much he should buy of each ingredient.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />eight integers E, F , S, M , E' , F' , S' and M' separated by single spaces. Values E and E' are<br />numbers of eggs, F and F' are grams of flour, S and S' are grams of sugar, and M and M' are<br />centiliters of milk. For each ingredient, X is the amount John has (0 &le; X &le; 1000), while X' is<br />the amount needed to make a single cake (1 &le; X &le; 1000). The last line of the input contains<br />the number &minus;1 eight times separated by single spaces and should not be processed as a test<br />case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with four non-negative integers separated by single spaces,<br />representing the amount of each ingredient John needs to buy, in the same order and units as<br />the input.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 3 4 5 1 1 1 1<br />3 6 9 0 1 2 3 4<br />-1 -1 -1 -1 -1 -1 -1 -1<br /><strong>Output:</strong>
+3 2 1 0<br />0 0 0 12
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.483s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

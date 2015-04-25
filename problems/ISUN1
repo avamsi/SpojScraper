@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ISUN1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5637. LL and ErBao</h1>
+		<h2>Problem code: ISUN1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>When LL and ErBao were young, they liked jumping rubber-rope (Tiao Pi Jin) very much. They jumped every day happily. But one day HH came and brought away the peaceful days. HH sometimes threw stones to them, and sometimes pushed them down suddenly. Seeing ErBao crying sadly, LL got angry finally, and decided to give HH some color see see.<br />There were n trees on the ground (regarded as points), and LL planed to use his rubber-rope to wrap all the trees and form a big circle, then fooled HH into it and threw stones to him. Before finding out how to fool HH into the circle, LL wants to know how big the rubber-rope circle would be, say, the perimeter.<br />But LL found it difficult than expected, because their playing territory and the trees were in a bigger fence (a simple polygon with m vertices). So, the rubber-rope mustn&rsquo;t be out of the fence either. It&rsquo;s your turn to help LL find the perimeter of the circle.</p>
+<p>&nbsp;</p>
+<p><strong>sample 1</strong></p>
+<p><img src="http://www.spoj.pl/content/davii:ISUN1_p1" alt="" width="298" height="214" /></p>
+<p>&nbsp;</p>
+<p><strong>sample 2</strong></p>
+<p><img src="http://www.spoj.pl/content/davii:ISUN1_p2" alt="" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The input contains multiple cases terminated with EOF.<br />For each case, first line contains two integers: m, n.<br />(3 &lt;= m &lt;= 500, 0 &lt;= n &lt;= 500)<br />Next m lines each contain two integers: Xfi, Yfi ----coordinate of the fence&rsquo;s ith vertex, in Counterclockwise order.<br />Next n lines each contain two integers: Xti, Yti ----coordinate of the ith tree.<br />It&rsquo;s guaranteed that all trees were strictly in the fence, and the fence doesn&rsquo;t intersect or touch itself.<br />The absolute value of the coordinates doesn&rsquo;t exceed 10000.</p>
+<h3>Output</h3>
+<p>For each case output the perimeter of the rubber-band with three digits after the dot.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />8 2<br />0 0<br />30 0<br />30 20<br />20 20<br />20 10<br />10 10<br />10 20<br />0 20<br />5 15<br />25 15<br /><br />12 5<br />5 5<br />5 20<br />-5 20<br />-5 5<br />-20 5<br />-20 -5<br />-5 -5<br />-5 -20<br />5 -20<br />5 -5<br />20 -5<br />20 5<br />0 0<br />0 17<br />0 -17<br />17 0<br />-17 0<br /><br /><strong>Output:</strong><br />Case #1: 48.284<br />Case #2: 104.000<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/davii">3xian</a></td></tr>
+<tr><td>Date:</td><td>2009-12-19</td></tr>
+<tr><td>Time limit:</td><td>0.142s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Xu Han, HUST Campus 2009</td></tr>	
+</table>

@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BYTESB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10683. DRIVE</h1>
+		<h2>Problem code: BYTESB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="internal-source-marker_0.31411338008124623" style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">Black Widow needs to get to the Avengers&rsquo; aid and fast. Stark may have lent her his new Audi but she forgot to fuel it up (people make all kinds of stupid mistakes, but if they look like Scarlet Johansson, who cares?). She needs to cross the next hill to get to her team but there&rsquo;s only a little fuel left. So, obviously she&rsquo;ll take the most efficient route. However, some parts of this route go uphill, some go downhill &ndash; each part with a different slope and different length.</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">The fuel expenditure (per unit distance travelled) increases linearly with the driving speed v but there&rsquo;s also an offset that depends on the slope s of the hill &ndash; let&rsquo;s say when going downhill on a particular road, she might be able to go at 8 km/h without expending any fuel on the other hand, if she were to travel that same road uphill, she would expend fuel at the same rate as if she were driving 8 km/h faster along a flat road.</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">The car&rsquo;s fuel consumption c in litres per kilometer is given by</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">c = max(0; a*v + b*s); (1)</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">where</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">a : fuel expenditure rate on a flat road</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">v : speed in km/h</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">s : inclination of the road</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">b : positive constant</span><br /><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">Acceleration and deceleration are instantaneous and do not cost any fuel.</span><br /><span style="BACKGROUND-COLOR: transparent; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Courier New; COLOR: #000000; FONT-SIZE: 15px; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; TEXT-DECORATION: none">There is also a safe speed limit that she can&rsquo;t exceed. How quickly can she get there?</span></p>
+<p>Input<br /><br />On the first line a positive integer: the number of test cases, at most 100. After that per test case:<br /><br />One line with four floating point numbers a(0.1&lt;=a&lt;=100), b (0.1&lt;=b&lt;=100), <br />vmax (10 &lt;=vmax&lt;=200) and f (0&lt;=f&lt;=50): the standard (flat road) fuel consumption rate of your car, the slope factor, the maximum speed of your car in km/h, and the amount of<br />fuel you have left in liters, respectively.<br /><br />One line with an integer r (1&lt;=r&lt;=10000): the number of road segments.<br /><br />r lines with two floating point numbers xi and yi (1&lt;=xi&lt;=1 000, -1 000&lt;=y&lt;=1 000)<br />each: the horizontal distance and height change (both in meters) of the i-th road segment. Each road segment has constant slope<br /><br />Output<br />One line per test case: the earliest &nbsp;time in hours in which you can make it to the&nbsp;<br />town. It is guaranteed that if it is possible &nbsp;it will always be possible<br />in &lt;= twenty four HRS. If &nbsp;impossible then output&nbsp;&ldquo;IMPOSSIBLE&rdquo; instead.<br /><br />Your output should have a relative or absolute error of at most 10^(-6).<br /><br />Sample in- and output<br />Input Output<br />2</p>
+<p><span style="font-size: xx-small;"><span lang="EN"> </span></span></p>
+<p>1.0 100.0 200.0 10</p>
+<p>2</p>
+<p>1000 0</p>
+<p>1000 -1000</p>
+<p>10.0 1.0 150 0.0</p>
+<p>1</p>
+<p>100.0 -100.0</p>
+<p>&nbsp;</p>
+<p>OUTPUT</p>
+<p><span style="font-size: small;"><span lang="EN"><span style="font-size: xx-small;"><span lang="EN"> </span></span></span></span></p>
+<p>0.1141421356</p>
+<p>1.414213562</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/troika_bytes">Troika::Bytes</a></td></tr>
+<tr><td>Date:</td><td>2012-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.081s-0.176s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BIRTHDAY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>972. Birthday</h1>
+		<h2>Problem code: BIRTHDAY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It is Byteman&#8217;s birthday today. There are n children at his birthday party (including Byteman). The children are numbered from 1 to n. Byteman&#8217;s parents have prepared a big round table and they have placed n chairs around the table. When the children arrive, they take seats. The child number 1 takes one of the seats. Then the child number 2 takes the seat on the left. Then the child number 3 takes the next seat on the left, and so on. Finally the child number n takes the last free seat, between the children number 1 and n&#8722;1.  Byteman&#8217;s parents know the children very well and they know that some of the children will be noisy, if they sit too close to each other. Therefore the parents are going to reseat the children in a specific order. Such an order can be described by a permutation p1, p2, . . . , pn (p1, p2, . . . , pn are distinct integers from 1 to n) &#8212; child pi (for i = 2,3, . . . ,n) should sit on child pi&#8722;1&#8217;s left, and child p1 should sit on child pn&#8217;s left. To seat all the children in the given order, the parents must move each child around the table to the left or to the right some number of seats. For each child, they must decide how the child will move &#8212; that is, they must choose a direction of movement (left or right) and distance (number of seats). On the given signal, all the children stand up at once, move to the proper places and sit down. The reseating procedure throws the birthday party into a mess. The mess is equal to the total distance any child moves. The children can be reseated in many ways. The parents choose one with minimum mess. Help them to find such a way to reseat the children.
+
+<h3>Input</h3>
+<p>The first line of standard input contains one integer n (1 &#8804; n &#8804; 50000). The second line contains n integers p1, p2, . . . , pn, separated by single spaces. Numbers p1, p2, . . . , pn form a permutation of the set {1,2, . . . ,n} describing the desired order of the children.
+
+<h3>Output</h3>
+<p>The first and the only line of standard output should contain one integer: the minimum possible mess.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+1 5 4 3 2
+
+<b>Output:</b>
+6
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/beo_chay_so">L&#234; Đôn Khu&#234;</a></td></tr>
+<tr><td>Date:</td><td>2006-10-11</td></tr>
+<tr><td>Time limit:</td><td>0.959s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>2nd round of Hanoi University of Science - Based on a problem from IOI 2005</td></tr>	
+</table>

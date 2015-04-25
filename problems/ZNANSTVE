@@ -1,0 +1,115 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZNANSTVE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10623. ZNANSTVENIK</h1>
+		<h2>Problem code: ZNANSTVE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">In this economy, we all know how hard it is to get a job. Mirko, a recent college graduate, however, got</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">lucky - he is now employed as a runeologist by the Language Institute of Croatia. His friend Slavko</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">believes runeology isn&rsquo;t a science and is hence angry at Mirko for believing the opposite. One foggy</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Christmas day, Mirko&rsquo;s laptop broke. Since he isn&rsquo;t great with computers, he gave it to Slavko to repair</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">it. Slavko, felling a little naughty, decided to mess up a particular file Mirko was working on.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">This file contains a matrix of R rows and C columns. Each element of the matrix is a single letter. No</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">two columns of the matrix are equal. To have some fun with pseudo-scientist Mirko, Slavko decided</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">he will delete as much rows as possible from the top of the table, without breaking the no-equalcolumn</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">rule.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">INPUT</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The first line of input contains two integers R and C (2 &le; R, C &le; 1000), the number of rows and the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">number of columns, respectively.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">In each of the next R lines there are C small letters of the English alphabet. These R x C letters</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">represent Mirko&rsquo;s table (which does not have two same columns).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">OUTPUT</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output a single integer, the maximum number of rows which can be deleted from the top of the table</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">so that no two columns are equal.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">EXAMPLE TEST DATA</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">dobarz</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">adatak</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3 4</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">alfa</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">beta</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">zeta</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">4 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">mrvica</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">mrvica</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">marica</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">mateja</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1</div>
+<p>&nbsp;</p>
+<p>In this economy, we all know how hard it is to get a job. Mirko, a recent college graduate, however, got&nbsp;lucky - he is now employed as a runeologist by the Language Institute of Croatia. His friend Slavko&nbsp;believes runeology isn&rsquo;t a science and is hence angry at Mirko for believing the opposite. One foggy&nbsp;Christmas day, Mirko&rsquo;s laptop broke. Since he isn&rsquo;t great with computers, he gave it to Slavko to repair&nbsp;it. Slavko, felling a little naughty, decided to mess up a particular file Mirko was working on.</p>
+<p>This file contains a matrix of R rows and C columns. Each element of the matrix is a single letter. No&nbsp;two columns of the matrix are equal. To have some fun with pseudo-scientist Mirko, Slavko decided&nbsp;he will delete as much rows as possible from the top of the table, without breaking the no-equalcolumn&nbsp;rule.</p>
+<p><strong>INPUT</strong></p>
+<p>The first line of input contains two integers R and C (2 &le; R, C &le; 1000), the number of rows and the</p>
+<p>number of columns, respectively.</p>
+<p>In each of the next R lines there are C small letters of the English alphabet. These R x C letters</p>
+<p>represent Mirko&rsquo;s table (which does not have two same columns).</p>
+<p><strong>OUTPUT</strong></p>
+<p>Output a single integer, the maximum number of rows which can be deleted from the top of the table</p>
+<p>so that no two columns are equal.</p>
+<p style="text-align: center;"><strong>EXAMPLE TEST DATA</strong></p>
+<p><strong>input</strong></p>
+<p>2 6</p>
+<p>dobarz</p>
+<p>adatak</p>
+<p><strong>output</strong></p>
+<p>0</p>
+<p><strong>input</strong></p>
+<p>3 4</p>
+<p>alfa</p>
+<p>beta</p>
+<p>zeta</p>
+<p><strong>output</strong></p>
+<p>2</p>
+<p><strong>input</strong></p>
+<p>4 6</p>
+<p>mrvica</p>
+<p>mrvica</p>
+<p>marica</p>
+<p>mateja</p>
+<p><strong>output</strong></p>
+<p>1</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/islam_al_aarag">islam</a></td></tr>
+<tr><td>Date:</td><td>2012-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.224s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2010/2011 Contest 1 by Adrian Satja Kurdija</td></tr>	
+</table>

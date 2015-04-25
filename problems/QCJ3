@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QCJ3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6043. The Game</h1>
+		<h2>Problem code: QCJ3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Tom and Hanks play the following game. On a game board having a line of squares labelled from 0,1,2 ... certain number of coins are placed with possibly more than one coin on a single square. In each turn a player can move exactly one coin to any square to the left i.e, if a player wishes to remove a coin from square i, he can then place it in any square which belongs to the set (0,1, ... i-1) . The game ends when all coins are on square 0 and player that makes the last move wins. Given the description of the squares and also assuming that Tom always makes the first move you have tell who wins the game (Assuming Both play Optimally).</p>
+<h3>Input</h3>
+<p>The first line will contain N the number of test cases and then 2N lines follow. For each test case the first line will have S the size of the board and in the next line S integers follow. The i<sup>th</sup> integer gives the the number of coins in the i<sup><sub>th</sub></sup> square (starting from 1) . Atleast one of the S integers will be non zero. All the numbers in the input will be less than 25.</p>
+<h3>Output</h3>
+<p>For each test case output one line containing either "Tom Wins" or "Hanks Wins".</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />1<br />1<br />1<br />2<br /><strong><br />Output:</strong>
+<br />Tom Wins<br />Hanks Wins</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhijith">abhijith reddy d</a></td></tr>
+<tr><td>Date:</td><td>2010-02-01</td></tr>
+<tr><td>Time limit:</td><td>0.286s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHEFJUN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7322. Prime Pattern</h1>
+		<h2>Problem code: CHEFJUN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img src="https://www.spoj.pl/content/spookycookie:spiral" style="float:left;margin:5px;">There is a very large field, colored white and divided into squares. There is a coordinate system attached to the field: y-axis goes from south to north and x-axis goes from west to east. Sides of the squares are parallel to the axes. There is a robot in the (0, 0) square. Robot starts to move in spiral as depicted. First it moves one step east and one step north. Then two steps west and two steps south. Then three steps east and three steps north, four steps west and four steps south and so on. It moves to a new square with each step. As it moves it counts squares it passes and, if the number of the square is the prime number, then the robot fills this square with black color. The (0, 0) square has the number 0. Given the coordinates of a square you are to calculate the distance from this square to the nearest to it black square. For two squares with coordinates (x1, y1) and (x2, y2) the distance between those squares is |x1-x2|+|y1-y2|.
+<div style="clear:both"> </div>
+
+<h3>Input</h3>
+<p>Input file consists of a set of tests. The first line of the file is number T &#8211; the number of tests (T <= 500). Following T lines contains two integers each separated with a space: x and y &#8211; the coordinates of the square (-2000001 < x < 2000001, -2000001 < y < 2000001).
+
+<h3>Output</h3>
+<p>For each coordinate pair in the input file you are to output the distance between this square and the nearest to it black square.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+8
+0 0
+1 0
+1 1
+0 1
+3 3
+-3 -3
+-1 2
+0 -3
+
+<b>Output:</b>
+1
+1
+0
+0
+1
+1
+2
+2
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-09-14</td></tr>
+<tr><td>Time limit:</td><td>1.159s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>CodeChef June Challenge</td></tr>	
+</table>

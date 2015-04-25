@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CFPARTY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7015. Party</h1>
+		<h2>Problem code: CFPARTY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; padding: 0px;"><span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;people came to a party. Then those, who had no friends among people at the party, left. Then those, who had exactly 1 friend among those who stayed, left as well. Then those, who had exactly&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2,&thinsp;3,&thinsp;...,&thinsp;<em>n</em>&thinsp;-&thinsp;1</span>&nbsp;friends among those who stayed by the moment of their leaving, did the same.</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; padding: 0px;">What is the maximum amount of people that could stay at the party in the end?</p>
+<h3>Input</h3>
+<p>The first input line contains one number&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>t</em></span>&nbsp;&mdash; amount of tests (<span style="font-size: 18px; font-family: 'times new roman';">1&thinsp;&le;&thinsp;<em>t</em>&thinsp;&le;&thinsp;10<sup>5</sup></span>). Each of the following&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>t</em></span>&nbsp;lines contains one integer number&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;(<span style="font-size: 18px; font-family: 'times new roman';">1&thinsp;&le;&thinsp;<em>n</em>&thinsp;&le;&thinsp;10<sup>5</sup></span>).</p>
+<h3>Output</h3>
+<p>For each test output in a separate line one number &mdash; the maximum amount of people that could stay in the end.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+3
+
+<strong>Output:</strong>
+1
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pyshnograev">Efim</a></td></tr>
+<tr><td>Date:</td><td>2010-08-02</td></tr>
+<tr><td>Time limit:</td><td>0.506s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces</td></tr>	
+</table>

@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SFLIP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9367. Segment Flip</h1>
+		<h2>Problem code: SFLIP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given N number a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>N</sub>. In a <em>segment flip</em>, you can pick a contiguous segment a<sub>i</sub>, a<sub>i+1</sub>, ... , a<sub>j</sub>&nbsp;of these numbers, where i&lt;=j and negate all the numbers in this segment.&nbsp;</p>
+<p>You are permitted atmost K segment flip&nbsp;operations overall. Also, no 2 segments that you pick can overlap. That is, if you flip a<sub>i</sub>, ... , a<sub>j</sub>&nbsp;and a<sub>k</sub>, ... , a<sub>l</sub>&nbsp;then either j&lt;k or l&lt;i.</p>
+<p>Your aim is to maximize the sum of all the numbers in the resulting sequence by applying appropriate segment flip operations meeting these constraints.</p>
+<p>For instance, suppose the sequence is -5, 2, -3 and you are allowed a single segment flip. The best sum you can achieve is 6, by flipping all 3 numbers as a single segment to 5, -2, 3.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Your aim is to maximize the sum of all the numbers in the sequence by applying appro-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">priate segment&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">
+<p>ips meeting these constraints.</p>
+<p>For instance, suppose the sequence is -5, 2, -3 and you are allowed a single segment flip. The best sum you can achieve is 6, by flipping all three numbers as a single segment to&nbsp;5, -2, 3.</p>
+</div>
+<h3>Input</h3>
+<p>The first line contains 2 integers N and K. The next line contains N integers, the initial values of a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>N</sub>.</p>
+<h3>Output</h3>
+<p>A single integer denoting the maximum possible sum of the final array.</p>
+<p>&nbsp;</p>
+<h3>Constraints</h3>
+<p>0 &lt;= K &lt;= N</p>
+<p>-10000 &lt;= a<sub>i</sub>&nbsp;&lt;= 10000</p>
+<p>1 &lt;= N &lt;= 100000</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 1</pre>
+<pre>-5 2 -3
+
+<strong>Output:</strong>
+6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/chakradarraju">jack(chakradarraju)</a></td></tr>
+<tr><td>Date:</td><td>2011-08-10</td></tr>
+<tr><td>Time limit:</td><td>0.075s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Proposed by <a href=/users/venkateshb>venkateshb</a></td></tr>	
+</table>

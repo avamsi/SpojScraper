@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/fotile"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/COT" target="_blank">10628. Count on a tree</a></td><td><a href="http://www.spoj.com/problems/COT"target="_blank">COT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COT2" target="_blank">10707. Count on a tree II</a></td><td><a href="http://www.spoj.com/problems/COT2"target="_blank">COT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COT3" target="_blank">11414. Combat on a tree</a></td><td><a href="http://www.spoj.com/problems/COT3"target="_blank">COT3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXOR" target="_blank">11444. MAXOR</a></td><td><a href="http://www.spoj.com/problems/MAXOR"target="_blank">MAXOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COT4" target="_blank">11482. Count on a trie</a></td><td><a href="http://www.spoj.com/problems/COT4"target="_blank">COT4</a><br>
+</td></tr>

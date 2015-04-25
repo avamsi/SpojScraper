@@ -1,0 +1,43 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JZPGYZ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8093. Sevenk Love Oimaster</h1>
+		<h2>Problem code: JZPGYZ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">&nbsp;</p>
+<address style="text-align: left;"><span style="font-size: medium;">&nbsp;&nbsp; &nbsp;Oimaster and sevenk love each other.</span></address><address style="text-align: left;"><span style="font-size: medium;"><br /></span></address> <address style="text-align: left;"><span style="font-size: medium;">&nbsp;&nbsp; &nbsp;But recently,sevenk heard that a girl named ChuYuXun was dating with oimaster.</span></address><address style="text-align: left;"><span style="font-size: medium;">As a woman's nature, sevenk felt angry and began to check oimaster's online talk with ChuYuXun.</span></address><address style="text-align: left;"><span style="font-size: medium;">&nbsp;&nbsp; &nbsp;Oimaster talked with ChuYuXun n times, and each online talk actually is a string.</span></address><address style="text-align: left;"><span style="font-size: medium;">Sevenk asks q questions like this,</span></address><address style="text-align: left;"><span style="font-size: medium;">&nbsp;&nbsp; &nbsp;"how many strings in oimaster's online talk contain this string as their substrings?"</span></address><address style="text-align: left;"><span style="font-size: medium;"><br /></span></address> <address style="text-align: left;"><span style="font-size: medium;">Input</span></address><address style="text-align: left;"><span style="font-size: medium;"><br /></span></address> <address style="text-align: left;"><span style="font-size: medium;">There are two integers in the first line,</span><span style="font-style: normal; font-size: small;">&nbsp;</span></address> <address style="text-align: left;"><span style="font-size: medium;">the number of strings n and the number of questions q.</span></address> <address style="text-align: left;"><span style="font-size: medium;">And n lines follow, each of them is a string describing oimaster's online talk.</span><span style="font-style: normal; font-size: small;">&nbsp;</span></address> <address style="text-align: left;"><span style="font-size: medium;">And q lines follow, each of them is a question.</span></address><address style="text-align: left;"><span style="font-size: medium;">n&lt;=10000, q&lt;=60000&nbsp;</span></address><address style="text-align: left;"><span style="font-size: medium;">the total length of n strings&lt;=100000,&nbsp;</span></address><address style="text-align: left;"><span style="font-size: medium;">the total length of q question strings&lt;=360000</span></address><address style="text-align: left;"><span style="font-size: medium;"><br /></span></address> <address style="text-align: left;"><span style="font-size: medium;">Output</span></address> <address style="text-align: left;"><span style="font-size: medium;">For each question, output the answer in one line.</span></address> <address style="text-align: left;"><span style="font-size: medium;">Example</span></address>
+<pre style="text-align: left;"><address><span style="font-size: medium;">Input:</span></address><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">3 3</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">hi,I'mChuYuXun..YouaresohandsomethatIfallinlovewithyou</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">butIlovesevenk..you'dbettergoaway</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">55555555555</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">ChuYuXun</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">you</span></span></address></span><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">55555555</span></span></address></span></pre>
+<pre style="text-align: left;"><address><span style="font-size: medium;">Output:</span></address><span style="font-size: medium;"><address><span style="font-size: medium;"><span style="font-style: normal;">1</span></span></address><address><span style="font-size: medium;"><span style="font-style: normal;">2</span></span></address><address style="text-align: left;"><span style="font-size: medium;"><span style="font-style: normal;">1</span></span></address></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wjmzbmr">Tom Chen</a></td></tr>
+<tr><td>Date:</td><td>2010-12-18</td></tr>
+<tr><td>Time limit:</td><td>0.079s-0.161s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

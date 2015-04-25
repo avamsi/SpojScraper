@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VOLNTEER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14049. Annual Day</h1>
+		<h2>Problem code: VOLNTEER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3 style="text-align: left;">Problem Statement</h3>
+<p>The kids at DACT elementary school are very excited since they have their annual day coming up. On this occasion, the students get a chance to display all their projects and art work, as well as perform on stage for all the parents and other guests who will be coming. Since organizing an event so big requires a lot of effort, the poor teachers alone cannot handle it all. So, they decide to ask some of the students to volunteer to lend a hand.<br /><br />You are the class teacher of one such kindergarten class with N students, and you need to select exactly k of your students for the volunteer group. Luckily for you, all the kids are very enthusiastic and excited and everyone wants to help out ! But you also know that many of these students are very naughty and may start playing with each other halfway through instead of doing work. So you want to select this group of students in a smart manner to avoid such a scenario.<br /><br />Since you have been their class teacher for nearly a year, you know beforehand how naughty each kid is, and have assigned "goodness" scores to each of the students accordingly. The higher the score for a student, the less naughty he/she is. You can also use this individual goodness score to calculate the score for a group of students as follows : <br /><strong><br />Goodness( a<sub>1</sub>, a<sub>2</sub>.... a<sub>n</sub> ) = ( |a<sub>1</sub>|+|a<sub>2</sub>|....|a<sub>n</sub>| ) * (-1)<sup>r</sup></strong></p>
+<p>Where a<sub>1</sub>, a<sub>2</sub>... an are the goodness scores of the n students in that group, and r is the number of naughty students in that group. ( <span style="text-decoration: underline;"><strong>Note </strong></span>: <strong>A naughty student is one with a negative goodness score</strong> )</p>
+<p>Also |x| refers to the absolute value of x. ( |x|=x if x&gt;0. Else |x|=-x).</p>
+<p>Given the goodness scores of all the students in your class, it is up to you to select exactly k students such that their group goodness score is maximum.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Input</h3>
+<p>The first line contains 2 space separated integers N and k. ( 1 &lt;= k&lt;=N &lt;= 10<sup>5</sup> ). Here N is the total number of students in your class, and k is the number of students to be selected.</p>
+<p>This is followed by N space separated integers a<sub>1</sub>, a<sub>2</sub>... a<sub>N</sub>, where a<sub>i</sub> is the goodness score of the i<sup>th</sup> student. ( |a<sub>i</sub>| &lt;= 10<sup>9 </sup>)</p>
+<h3 style="text-align: left;">Output</h3>
+<p>On a single line output the maximum possible goodness value of any group of exactly k students that you may select.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Example</h3>
+<pre><strong>Input #1:</strong><br />10 1<br />1 2 3 4 5 6 7 8 -9 9<br />&nbsp;<br /><strong>Output #1:</strong><br />9<br /><strong><br /><br />Input #2:</strong><br />10 3<br />1 2 3 4 5 6 7 -8 -9 9<br /><br /><strong>Output #2:<br /></strong>26<strong><br /><br /><br />Input #3:<br /></strong>3 3<br />12 78 2<strong><br /><br />Output #3: <br /></strong>92<br /><br /><h3 style="text-align: left;">Explanation :</h3></pre>
+<p><span style="text-decoration: underline;">Input #1 </span>: Since you need to select exactly one student, you will select the one with the maximum individual goodness score, so the answer is 9.</p>
+<p><br /><span style="text-decoration: underline;">Input #2 </span>: Here, the maximum score is obtained by selecting the students with scores of { -8, -9, 9 }.</p>
+<p>The corresponding final value is : (|-8|+|-9|+|9|)*(-1)<sup>2</sup> = 26*1 = 26</p>
+<p><br /><span style="text-decoration: underline;">Input #3 </span>: Here you have no choice but to select all the students. So the answer is 92.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arya5691">Gowri Sundaram</a></td></tr>
+<tr><td>Date:</td><td>2013-03-09</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

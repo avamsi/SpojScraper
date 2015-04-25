@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ITRIX_D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8667. Board-Queries</h1>
+		<h2>Problem code: ITRIX_D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>RishiKumar</strong> spends most of his time in solving Querying problems. When solving a 2D Querying problem he got exhausted and he needs the help of someone .yes he got!! .. <strong>Karthi</strong> &nbsp;is in search of his girl and &nbsp;asked Rishi whether he saw his girl on his way . Rishi replied he knew where she has gone but he will disclose the truth if Karthi solve this Bloody Querying problem. Help Karthi to solve this!!!!</p>
+<p>Given two 2D arrays X and Y &nbsp;. Max size of X and Y is 500. (500 x 500)</p>
+<p><strong>There are 3 Operations (Three Types of Queries)</strong></p>
+<p>A)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> 0</strong> &nbsp;x1 y1 x2 y2 ---Swaps the contents of the rectangle given by the points (x1,y1) and (x2,y2) &nbsp;of X and Y</p>
+<p>B)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>1</strong> x1 y1 x2 y2 --- Print the sum of all elements in rectangle given by points (x1,y1) &nbsp;and (x2,y2) of the array X.</p>
+<p>C)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>2</strong> x1 y1 x2 y2 -- - Print the sum of all elements in rectangle given by points (x1,y1)&nbsp; and (x2,y2) of the array Y.</p>
+<p>(Points (x1,y1) and (x2,y2 ) inclusive)</p>
+<p>(x1,y1) &ndash;&shy;Top Left point of the rectangle and(x2,y2) &ndash;Bottom right point of the rectangle</p>
+<p><strong>Input Format:</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first line of the input file contains N &ndash; Dimension of the array (It is clear that array is square array i.e. length=breadth) .The next N lines contains N integers per line separated by space which are the elements of array X .The next N lines contains N integers per line separated by space which are the elements of the array Y. The next line contains and integer Q &ndash;Total number of Queries&nbsp; ..Then each of the following Q lines contains the Queries (as per the above operations)&nbsp;</p>
+<p><strong>Constraints</strong>: N &lt;=500 &nbsp;,&nbsp;0 &lt;=X<sub>ij</sub>,Y<sub>ij</sub> &lt;=10^6</p>
+<p>Q&lt;=100000 (10 power 5)&nbsp;</p>
+<p>Array indexing start from <strong>[1, 1] to [N, N];</strong></p>
+<p><strong>Output Format:</strong></p>
+<p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Print the result of each Query(There will be output &nbsp;for query type B and Query Type C)&nbsp; line by line.</p>
+<p><strong>Sample Input:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+<p>5</p>
+<p>1 2 3 4 5</p>
+<p>6 7 8 9 0</p>
+<p>1 2 3 4 5</p>
+<p>6 7 8 9 0</p>
+<p>9 1 2 3 4</p>
+<p>1 1 1 1 1</p>
+<p>1 1 1 1 1</p>
+<p>1 1 1 1 1</p>
+<p>1 1 1 1 1</p>
+<p>1 1 1 1 1</p>
+<p>4</p>
+<p>1 1 1 4 4</p>
+<p>0 1 1 4 4</p>
+<p>1 1 1 4 4</p>
+<p>2 1 1 4 4</p>
+<p><strong>Sample Output:</strong></p>
+<p>80</p>
+<p>16</p>
+<p>80&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+<p><strong>Warning: Huge I/O, Make Your I/O &nbsp;Fast</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegradhakrish">Radhakrishnan Venkataramani</a></td></tr>
+<tr><td>Date:</td><td>2011-03-27</td></tr>
+<tr><td>Time limit:</td><td>5.010s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

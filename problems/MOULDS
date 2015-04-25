@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOULDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>69. Moulds</h1>
+		<h2>Problem code: MOULDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+	In a factory, moulds for casting metal objects are produced by a special 
+	cutting device. The device is equipped with cuboid-shaped blade of size 1 mm x 
+	1 mm x 30 mm (its height) which operates with each of its sides thus producing 
+	the mould from cuboid of size 250 mm x 250 mm x 30 mm (its height). The end of 
+	the blade newer lowers below the bottom surface of the cuboid. In any moment 
+	the distance between initial and current position doesn't exceed 1000.
+</p>
+<p>
+	The machine understands special command language which has the following 
+	grammar:
+	<pre><tt>&lt;command block&gt; ::= [ &lt;command&gt; ; {&lt;command&gt; ; } ] 
+&lt;command&gt;       ::= &lt;lift&gt; | &lt;shift&gt; | &lt;command block&gt;
+&lt;lift&gt;          ::= ^ &lt;distance&gt;
+&lt;shift&gt;         ::= @ &lt;direction&gt; &lt;distance&gt;
+&lt;direction&gt;     ::= N | S | W | E 
+&lt;distance&gt;      ::= &lt;sign&gt; &lt;number&gt; | &lt;number&gt;
+&lt;number&gt;        ::= &lt;digit&gt; {&lt;digit&gt;}
+&lt;sign&gt;          ::= - | + 
+&lt;digit&gt;         ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+</tt></pre>
+<P>
+	where {exp} means zero or more exps.&nbsp;
+</P>
+<p>
+	The command &lt;lift&gt; causes moving the blade downwards when the distance is 
+	a positive number and upwards otherwise. The command &lt;shift&gt; moves the 
+	blade in the appropriate direction (N--north, S--south, W--west, E--east).
+</p>
+<h3>Task</h3>
+<p>
+	Write a program which for each data set from a sequence of several data sets:
+</p>
+<div align="justify">
+	<ul>
+		<li>
+		reads a command block from input,
+		<li>
+		computes the volume of hollows made by the machine commanded by a given command 
+		block (assuming that before the execution the blade is located 1 mm above the 
+		north-west corner of the virgin cuboid),
+		<li>
+			writes the result to output.</li>
+	</ul>
+</div>
+<h3>Input</h3>
+<p>
+	The first line of the input file contains one integer d, 1 &lt;= d &lt;= 10, 
+	which is the number of data sets. The data sets follow. Each data set occupies 
+	one line of the input file and is a word derived from &lt;command block&gt; of 
+	the above grammar of length not exceeding 10000 characters.
+</p>
+<h3>Output</h3>
+<p>
+	The i-th line of the output file should contain one integer -- the volume (in 
+	cubic mm) of the hollows made by the machine controlled by the command block 
+	given in the i-th data set.
+</p>
+<h3>Example</h3>
+<pre>
+Sample input:
+
+<tt>1 
+[^2;@S2;] 
+</tt>
+
+Sample output:
+
+<tt>3</tt>
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-08</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>III Polish Collegiate Team Programming Contest (AMPPZ), 1998</td></tr>	
+</table>

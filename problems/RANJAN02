@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RANJAN02"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7430. Tower Of Hanoi - Revisited</h1>
+		<h2>Problem code: RANJAN02</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given 3 three pegs: leftmost peg A, middle peg B and rightmost peg C.Find the shortest sequence of moves that transfers a tower of n disks from the left peg A to the right peg C, if direct moves between A and C are disallowed. (Each move must be to or from the middle peg B.)<br /><br /> Constraints:<br /> 1. Initially the left peg A in stacked by n disks in the order of decreasing size.<br /> 2. Only one move cand be done at a time and never moving a larger one onto a smaller.<br /> 3. Number of moves will always be less than 2^64.<br />4. 1 &lt;= n &lt;= 35</p>
+<h3>Input</h3>
+<p>Input begins with a integer t, followed by t lines. Each line has the no. of pegs n.</p>
+<h3>Output</h3>
+<p>For each test case, output the minimum no. of move required to transfer the n disks from peg A to peg C.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />1<br />2<br />5<br />10<br /><br /><strong>Output:</strong><br />2<br />8<br />242<br />59048<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhiranjanlost">abhiranjan</a></td></tr>
+<tr><td>Date:</td><td>2010-09-28</td></tr>
+<tr><td>Time limit:</td><td>0.571s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IIITM Local Contest</td></tr>	
+</table>

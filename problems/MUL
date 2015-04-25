@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MUL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>31. Fast Multiplication</h1>
+		<h2>Problem code: MUL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">Multiply the given numbers.</p>
+<h3>Input</h3>
+<p align="justify">&nbsp;</p>
+<pre><em>n</em> [the number of multiplications &lt;= 1000]
+<em>l1 l2</em> [numbers to multiply (at most 10000 decimal digits each)]
+<p align="left">
+Text grouped in [ ] does not appear in the input file.
+</p>
+</pre>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p align="justify">&nbsp;</p>
+<pre>The results of multiplications.
+</pre>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre>Input:
+5
+4 2
+123 43
+324 342
+0 12
+9999 12345
+
+Output:
+8
+5289
+110808
+0
+123437655
+</pre>
+<p><strong>Warning: large Input/Output data, be careful with certain languages</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/deren">Darek Dereniowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-01</td></tr>
+<tr><td>Time limit:</td><td>1.649s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>PAL</td></tr>	
+</table>

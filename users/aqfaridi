@@ -1,0 +1,18 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/aqfaridi"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CHOTU" target="_blank">18095. Faridi and Yadav</a></td><td><a href="http://www.spoj.com/problems/CHOTU"target="_blank">CHOTU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHAKTI" target="_blank">18150. SHAKTIMAN AND KILWISH</a></td><td><a href="http://www.spoj.com/problems/SHAKTI"target="_blank">SHAKTI</a><br>
+</td></tr>

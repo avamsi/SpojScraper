@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/indy256"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TREEISO" target="_blank">7826. Tree Isomorphism</a></td><td><a href="http://www.spoj.com/problems/TREEISO"target="_blank">TREEISO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DYNALCA" target="_blank">8791. Dynamic LCA</a></td><td><a href="http://www.spoj.com/problems/DYNALCA"target="_blank">DYNALCA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DYNACON2" target="_blank">9576. Dynamic Graph Connectivity</a></td><td><a href="http://www.spoj.com/problems/DYNACON2"target="_blank">DYNACON2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DYNACON1" target="_blank">9577. Dynamic Tree Connectivity</a></td><td><a href="http://www.spoj.com/problems/DYNACON1"target="_blank">DYNACON1</a><br>
+</td></tr>

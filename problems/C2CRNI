@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/C2CRNI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7884. Crni</h1>
+		<h2>Problem code: C2CRNI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Even though he has found all the most amusing rides, Mirko&#8223;s enthusiasm still isn&#8223;t fading. He opened his graph paper notebook and started colouring squares, and a new, even harder problem dawned on him.</p>
+<p>You are given a square table consisting of N rows by N columns. Each cell is either black or white. A set of cells forming a rectangle, with horizontal and vertical edges following cell borders, shall be called a black rectangle if all cells inside the rectangle are black and it consists of at least two cells.</p>
+<p>(IMAGE)</p>
+<p>The left image shows two rectangles which are not black rectangles. The rectangle labelled 1 is not a black rectangle because it contains a white cell, and the rectangle labelled 2 is not a black rectangle because it consists of only one cell. On the other hand, the right image shows three valid black rectangles.</p>
+<p>Calculate the number of possible selections of two black rectangles that have no common cells. As the required number can be extremely large, you should output the remainder of dividing that number by 10 007.</p>
+<h3>Input</h3>
+<p>The first line of input contains the integer N (2 &le; N &le; 1000).</p>
+<p>Each of the next N lines contains a single row of the table, consisting of N symbols. The symbol 'C' represents a black cell, while 'B' represents a white cell.</p>
+<h3>Output</h3>
+<p>The first and only line of output must contain the remainder of dividing the required number by 10 007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 <br />CC <br />CC<br /><br /><strong>Output:</strong><br />2<br /><strong><br />Input:</strong><br />3 <br />CCB <br />CCB <br />CBB<br /><br /><strong>Output:</strong><strong><br /></strong>5<br /><strong><br />Input:</strong><strong><br /></strong>5<br />BCCBB<br />BBCBB<br />BCCBB<br />BBBBB<br />CCBBB<br /><br /><strong>Output:</strong><br />8</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.477s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2010-2011 2-nd Round</td></tr>	
+</table>

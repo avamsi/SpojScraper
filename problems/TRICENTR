@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRICENTR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22. Triangle From Centroid</h1>
+		<h2>Problem code: TRICENTR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Given the length of side a of a triangle and the distances from the centroid (the point of concurrence of the medians - red in the picture) to all sides: a, b and c, calculate this triangle's area and the distance (blue line) from the orthocenter (the point of concurrence of the heights - green in the picture) to the centroid.
+</p>
+<img src="/content/pomyk:tricentr1.gif">
+<H3>Input</h3>
+<P align=justify>
+In the first line integer n - the number of test cases (equal to about 1000). The next n lines - 4 floating point values: the length of side a, and distances from the centroid to sides a, b and c.
+</p>
+<H3>Output</h3>
+<P align=justify>
+n lines consisting of 2 floating point values with 3 digits after the decimal point: the area of the triangle and the distance from the orthocenter to centroid.
+</p>
+<H3>Example</h3>
+<pre>
+<b>Input:</b>
+2
+3.0 0.8660254038 0.8660254038 0.8660254038
+657.8256599140 151.6154399062 213.5392629932 139.4878846649
+
+<b>Output:</b>
+3.897 0.000
+149604.790 150.275
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pomyk">Patryk Pomykalski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-22</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

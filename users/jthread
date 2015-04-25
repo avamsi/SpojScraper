@@ -1,0 +1,34 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/jthread"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11A" target="_blank">9887. Binomial coefficients</a></td><td><a href="http://www.spoj.com/problems/NWERC11A"target="_blank">NWERC11A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11B" target="_blank">9888. Bird tree</a></td><td><a href="http://www.spoj.com/problems/NWERC11B"target="_blank">NWERC11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11C" target="_blank">9889. Movie collection</a></td><td><a href="http://www.spoj.com/problems/NWERC11C"target="_blank">NWERC11C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11D" target="_blank">9890. Piece it together</a></td><td><a href="http://www.spoj.com/problems/NWERC11D"target="_blank">NWERC11D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11E" target="_blank">9891. Please, go first</a></td><td><a href="http://www.spoj.com/problems/NWERC11E"target="_blank">NWERC11E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11F" target="_blank">9892. Pool construction</a></td><td><a href="http://www.spoj.com/problems/NWERC11F"target="_blank">NWERC11F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11G" target="_blank">9893. Smoking gun</a></td><td><a href="http://www.spoj.com/problems/NWERC11G"target="_blank">NWERC11G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11H" target="_blank">9894. Tichu</a></td><td><a href="http://www.spoj.com/problems/NWERC11H"target="_blank">NWERC11H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11I" target="_blank">9895. Tracking RFIDs</a></td><td><a href="http://www.spoj.com/problems/NWERC11I"target="_blank">NWERC11I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC11J" target="_blank">9896. Train delays</a></td><td><a href="http://www.spoj.com/problems/NWERC11J"target="_blank">NWERC11J</a><br>
+</td></tr>

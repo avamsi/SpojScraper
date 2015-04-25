@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC504"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11402. The Indian Connection</h1>
+		<h2>Problem code: DCEPC504</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rajesh Kuthrapali has a weird family structure. Every male member gives birth to a male child first and then a female child whereas every female member gives birth to a female child first and then to a male child. Rajesh analyses this pattern and wants to know what will be the Kth child in his Nth generation. Help him.</p>
+<p>Note:</p>
+<p>1.Every member has exactly 2 children.</p>
+<p>2. The generation starts with a male member(Rajesh).</p>
+<p>3. In the figure given below:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M-------- 1st generation&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F ------- 2nd generation<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp; \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;\<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;&nbsp; F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F&nbsp;&nbsp;&nbsp;&nbsp; M<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3rd child of 3rd generation</p>
+<h3>Input</h3>
+<p>First line specifies T, the number of test cases.</p>
+<p>Next T lines each gives 2 numbers, N and K</p>
+<h3>Output</h3>
+<p>Output 1 line for each test case giving the gender of the Kth child in in Nth generation.</p>
+<p>Print &ldquo;Male&rdquo; for male &ldquo;Female&rdquo; for female (quotes only for clarification).</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=100</p>
+<p>1&lt;=N&lt;=10000</p>
+<p>1&lt;=K&lt;=min(10^15 , 2^(n-1))</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4</pre>
+<pre>1 1</pre>
+<pre>2 1</pre>
+<pre>2 2</pre>
+<pre>4 5 </pre>
+<pre><strong>Output:</strong>
+Male</pre>
+<pre>Male</pre>
+<pre>Female</pre>
+<pre>Female</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-04-18</td></tr>
+<tr><td>Time limit:</td><td>1.726s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

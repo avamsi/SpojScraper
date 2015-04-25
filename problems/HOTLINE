@@ -1,0 +1,331 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HOTLINE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13. Hotline</h1>
+		<h2>Problem code: HOTLINE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Every customer sometimes needs help with new and unusual products. Therefore,
+hotline service is very important for every company. We need a&nbsp;single phone
+number where the customer can always find a&nbsp;friendly voice ready to help with
+anything. On the other hand, many people are needed to serve as hotline
+operators, and human resources are always very expensive. Moreover, it is not
+easy to pretend "friendly voice" at 4am and explain to a&nbsp;drunken man that you
+are really unable to give him the number to House of Parliament. It was
+also found that some of the questions repeat very often and it is very
+annoying to answer them again and again.
+
+<P>
+ACM is a&nbsp;modern company, wanting to solve its hotline problem. They want
+to decrease the number of human operators by creating a&nbsp;complex software
+system that would be able to answer most common questions. The customer's
+voice is analysed by a&nbsp;special Voice Recognition Module (VRM) and converted
+to a&nbsp;plain text. The text is then taken by an Artificial Automatic Adaptive
+Answering Algorithm (AAAAA). The most common questions are recognised and
+answered automatically. The replies are then converted to a&nbsp;sound by
+Text-to-Speech Module (TTS).
+
+<P>
+You are to write the AAAAA module. Because your algorithm should be adaptive,
+it has no explicit knowledge base. But it must be able to listen to sentences
+in English and remember the mentioned facts. Whenever the question is asked
+about such a&nbsp;fact, the system has to answer it properly. The VRM and TTS
+modules are already implemented, so the input and output of AAAAA will be in
+the text form.
+
+<P>
+<H3>Input</h3>
+
+<P>
+There is a&nbsp;single positive integer <VAR>T</var> on the first line of input. It stands
+for the number of dialogues to follow. Each dialogue consists of zero or more
+lines, each of them containing one sentence: either statement or question. The
+statement ends with a&nbsp;dot character (<TT>.</tt>), the question ends with
+a&nbsp;question mark (<TT>?</tt>). No statement will appear more than once, however
+the questions can be repeated. There is one extra line after each dialogue.
+That line ends with an&nbsp;exclamation mark (<TT>!</tt>).
+
+<P>
+Sentences can contain words, spaces and punctuation characters (such as
+commas, colons, semicolons etc.). All words contain only letters of English
+alphabet and are case-sensitive. That means the same word is always written
+the same way, usually in lowercase. Acronyms, names and some other words can
+begin with capital letters. For simplicity, all sentences begin with
+a&nbsp;lowercase letter. Only if the first word should be written with a&nbsp;capital,
+the sentence begins with a&nbsp;capital letter. There are no unneeded spaces
+between words. No line will have more than 100 characters. There will be at
+most 100 statements per each test case.
+
+<P>
+
+<h6 align=left>Statements</h6>
+
+<P>
+Each statement has one of the following two forms ( _ denotes a&nbsp;space):
+<BR>
+<I>subject</i>  _<I>predicate</i>[<TT>s</tt>] [ _<I>object</i>] <TT>.</tt>
+<BR>
+<I>subject</i>  _<TT>don't</tt>|<TT>doesn't</tt>  _<I>predicate</i> [ _<I>object</i>] <TT>.</tt>
+
+<P>
+The square brackets mark an&nbsp;optional part, the vertical line two possible
+variants. Subject is a&nbsp;single word, noun or pronoun in singular. Predicate is
+a&nbsp;verb (single word) denoting some activity. Object can be any text. Object
+does not contain any dots. Any pair "verb + object" determines unique
+activity. The same verb with different objects makes different independent
+activities, i.e. the different and independent meaning of the sentence.
+Sentence without any object can be considered as sentence with an&nbsp;empty
+object. The verb without an&nbsp;object has different and independent meaning than
+the same verb with any non-empty object.
+
+<P>
+The first variant of sentence denotes a&nbsp;positive statement. The word
+"<I>predicate</i>[<TT>s</tt>]" means verb that matches the subject of the sentence.
+If the subject is "<TT>I</tt>" or "<TT>you</tt>", the verb has the same form as the
+infinitive. With any other subject, the letter "<TT>s</tt>" is appended on the
+end of the verb. Assume there are no irregular verbs.
+
+<P>
+The second variant is a&nbsp;negative statement. Verb "<TT>don't</tt>" or
+"<TT>doesn't</tt>" must also match the subject. The form "<TT>don't</tt>" is used
+with either "<TT>I</tt>" or "<TT>you</tt>", "<TT>doesn't</tt>" is used in any other
+case.
+
+<P>
+A&nbsp;special generic subject "<TT>everybody</tt>" can be used. It means the activity
+holds for any subject. Other special subject is "<TT>nobody</tt>". Such sentence
+also holds for any subject, but its meaning is negative. Both of these generic
+subjects can be used with the first variant only (without "<TT>doesn't</tt>").
+The sentence "<TT>nobody likes something</tt>" is exactly equal to
+"<TT>everybody doesn't like something</tt>", except the latter form will never
+occur in the input.
+
+<P>
+
+<h6 align=left>Questions</h6>
+
+<P>
+Each question has one of the following three forms:
+<div align=left>
+<DL COMPACT>
+<DT>1.
+<DD><TT>do</tt>|<TT>does</tt>  _<I>subject</i>  _<I>predicate</i> [ _object] <TT>?</tt>
+<DT>2.
+<DD><TT>who</tt>  _<I>predicate</i><TT>s</tt> [ _<I>object</i>] <TT>?</tt>
+<DT>3.
+<DD><TT>what</tt>  _<TT>do</tt>|<TT>does</tt>  _<I>subject</i> <TT>do</tt> <TT>?</tt>
+</dl>
+</div>
+<P>
+The word "<TT>do</tt>|<TT>does</tt>" always matches the subject ("<TT>do I?</tt>",
+"<TT>do you?</tt>", "<TT>does</tt> any other subject?"). In the second
+type of question, predicate always matches the word "<TT>who</tt>", i.e. the
+"<TT>s</tt>" is always appended. Generic subjects cannot be used in questions.
+
+<P>
+<H3>Output</h3>
+
+<P>
+For each dialogue, your program must output the line <TT>Dialogue #</tt><VAR>D</var><TT>:</tt>,
+where <VAR>D</var> is the sequence number of dialogue, starting with 1. Then print
+exactly three lines for every question: the first line repeats the question,
+the second line contains the answer, and the third line is empty. Print
+nothing for statements. After each dialogue, print the same line with
+an&nbsp;exclamation mark that was in the input. Then print one extra empty line.
+Empty line contains a&nbsp;new-line character only.
+
+<P>
+The answer must be properly formated to be accepted by a&nbsp;TTS module. Only the
+statements appearing in the input before the answer are used for the
+corresponding reply. If there is any contradiction among statements, the
+reply is always <TT>I am abroad.</tt>. If the question and statements consider
+the special subject "<TT>you</tt>", it must be replaced with "<TT>I</tt>" in the
+answer. If the question considers special subject "<TT>I</tt>", it must be
+replaced with "<TT>you</tt>" in the answer. The verb must always match the
+subject of the sentence. The exact form of the correct answer depends on the
+type of question.
+
+<P>
+
+<h6 align=left>1.&nbsp;does subject predicate [object] ?</h6>
+
+<P>
+If there is any positive statement about the mentioned subject (or
+generic subject "<TT>everybody</tt>"), predicate and object, the answer is:
+<BR>
+<TT>yes,</tt>  _<I>subject</i>  _<I>predicate</i>[<TT>s</tt>] [ _<I>object</i>] <TT>.</tt>
+
+<P>
+If there is any negative statement about the mentioned subject (or
+generic subject "<TT>nobody</tt>"), predicate and object, the answer is:
+<BR>
+<TT>no,</tt>  _<I>subject</i>  _<TT>don't</tt>|<TT>doesn't</tt>  _<I>predicate</i> [ _<I>object</i>] <TT>.</tt>
+
+<P>
+Otherwise, the answer is:
+<TT>maybe.</tt>
+
+<P>
+Subject in the answer is always the same subject as the subject of the
+question.
+
+<P>
+
+<h6 align=left>2.&nbsp;who predicates [object] ?</h6>
+
+<P>
+If there is a&nbsp;positive statement considering any subject, the specified
+predicate and object, the answer is:
+<BR>
+<I>subject</i>  _<I>predicate</i>[<TT>s</tt>] [ _<I>object</i>] <TT>.</tt>
+
+<P>
+If two or more subjects match the activity, replace the subject in the answer
+with enumeration of all such subjects, in the same order as the corresponding
+statements have appeared in the input. Subjects are separated with comma and
+space, last two subjects are separated with the word "<TT>and</tt>".
+If "<TT>everybody</tt>" belongs to the group of enumerated subjects, do not
+enumerate subjects, and print "<TT>everybody</tt>" only. If the enumeration
+contains at least two subjects, the predicate matches the plural subject
+(i.e. verb is without trailing "<TT>s</tt>"), otherwise it matches the only
+subject.
+<BR>
+<I>subject1</i> <TT>,</tt>  _<I>subject2</i>  _<TT>and</tt>  _<I>subject3</i> <I>predicate</i> [ _<I>object</i>] <TT>.</tt>
+
+<P>
+If there is a&nbsp;negative statement considering the generic subject "nobody",
+the specified predicate and object, the answer is:
+<BR>
+<I>nobody</i>  _<I>predicate</i><TT>s</tt> [ _<I>object</i>] <TT>.</tt>
+
+<P>
+Otherwise, the answer is:
+<TT>I don't know.</tt>
+
+<P>
+
+<h6 align=left>3.&nbsp;what does subject do ?</h6>
+
+<P>
+If there are one or more sentences (both positive and negative) considering
+the specified subject (or a&nbsp;generic subject "<TT>everybody</tt>" or "<TT>nobody</tt>"), all
+verbs and objects from such sentences must be included in a&nbsp;reply in the same
+order as the corresponding sentences have appeared in the input. No
+verb-object pair can be included more than once (the eventual second
+appearance must be skipped). The verb-object pairs are separated by a&nbsp;comma
+followed by a&nbsp;space, the last verb is separated by a&nbsp;comma and the word
+"<TT>and</tt>". Please note the comma is printed here although there was no comma
+when separating the subjects in the previous type of answer (see above). The
+negative answers have the same form as the statements, that means the verb
+"<TT>don't</tt>" or "<TT>doesn't</tt>" is used:
+<BR>
+<I>subject</i> [ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate1</i>[<TT>s</tt>] [ _<I>object1</i>] <TT>,</tt>
+<BR>
+[ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate2</i>[<TT>s</tt>] [ _<I>object2</i>] <TT>,</tt>
+<BR>
+_<TT>and</tt> [ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate3</i>[<TT>s</tt>] [ _<I>object3</i>] <TT>.</tt>
+<BR>
+<I>subject</i> [ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate1</i>[<TT>s</tt>] [ _<I>object1</i>] <TT>,</tt>
+<BR>
+_<TT>and</tt> [ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate2</i>[<TT>s</tt>] [ _<I>object2</i>] <TT>.</tt>
+<BR>
+<I>subject</i> [ _<TT>don't</tt>|<TT>doesn't</tt>]  _<I>predicate</i>[<TT>s</tt>] [ _<I>object</i>] <TT>.</tt>
+
+<P>
+Otherwise, the answer is:
+<TT>I don't know.</tt>
+
+<h3>Example</h3>
+<p>Sample Input:</p>
+
+<PRE>
+<tt>1
+I like hotdogs.
+nobody likes to work.
+everybody smiles.
+what do I do?
+who smiles?
+what do you do?
+does Joe smile?
+do I like to work?
+everybody hurts sometimes.
+who walks there?
+Michal walks there.
+who walks there?
+what does Michal do?
+do you understand?
+nobody walks there.
+do you understand now?
+bye!
+</tt></pre>
+
+<p>Sample Output:</p>
+
+<PRE>
+<tt>Dialogue #1:
+what do I do?
+you like hotdogs, don't like to work, and smile.
+
+who smiles?
+everybody smiles.
+
+what do you do?
+I don't like to work, and smile.
+
+does Joe smile?
+yes, Joe smiles.
+
+do I like to work?
+no, you don't like to work.
+
+who walks there?
+I don't know.
+
+who walks there?
+Michal walks there.
+
+what does Michal do?
+Michal doesn't like to work, smiles, hurts sometimes, and walks there.
+
+do you understand?
+maybe.
+
+do you understand now?
+I am abroad.
+
+bye!
+</tt></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-09</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 2000</td></tr>	
+</table>

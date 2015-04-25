@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LIS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2371. Another Longest Increasing Subsequence Problem</h1>
+		<h2>Problem code: LIS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a sequence of <b>N</b> pairs of integers, find the length of the <b>longest increasing subsequence</b> of it. 
+<p>An <b>increasing sequence</b> <i>A<sub>1</sub>..A<sub>n</sub></i> is a sequence such that for every <i> i &lt; j</i>, <i>A<sub>i</sub> &lt; A<sub>j</sub></i>. 
+<p>A <b>subsequence</b> of a sequence is a sequence that appears in the same relative order, but not necessarily contiguous. 
+<p>A pair of integers <i> (x<sub>1</sub>, y<sub>1</sub>)</i> is less than <i> (x<sub>2</sub>, y<sub>2</sub>)</i> <b>iff</b> <i>x<sub>1</sub> &lt; x<sub>2</sub></i> and <i> y<sub>1</sub> &lt; y<sub>2</sub></i>. 
+
+<h3>Input</h3>
+<p>The first line of input contains an integer <b> N</b> (2 &#8804; <b> N</b> &#8804; 100000).
+<p>The following <b> N</b> lines consist of <b> N</b> pairs of integers <i>(x<sub>i</sub>, y<sub>i</sub>)</i> (-10<sup>9</sup> &#8804; <i>x<sub>i</sub>, y<sub>i</sub></i> &#8804; 10<sup>9</sup>).
+
+<h3>Output</h3>
+<p>The output contains an integer: the length of the longest increasing subsequence of the given sequence.  
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+8
+1 3
+3 2
+1 1
+4 5
+6 3
+9 9
+8 7
+7 6
+
+<b>Output:</b>
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2008-01-20</td></tr>
+<tr><td>Time limit:</td><td>0.345s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LUCKYNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3639. Lucky Numbers</h1>
+		<h2>Problem code: LUCKYNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/LUCKYNUM/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/LUCKYNUM/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>In some Asian countries, 8 and 6 are considered lucky digits. Any number containing only 8s and 6s is considered lucky number, e.g. 6, 8, 66, 668, 88, 886 &#8230;.
+Nguyen is a student who likes mathematics very much. Nguyen likes lucky numbers but only of the form
+</p>
+<p>
+                      S = 8&#8230;86&#8230;6
+</p>
+<p>
+where S has at least one digit and the number of 8s or 6s can be zero. Examples of S are 8, 88, 6, 66, 86, 886, 8866 &#8230;
+</p>
+<p>
+Given a positive integer X (1 < X < 10 000), Nguyen wants to find the smallest lucky number S which has at most 200 digits and is divisible by X.
+</p>
+<p>
+Your task is to write a program to find that number for Nguyen.
+</p>
+<h3>Input</h3>
+<p>
+The input file consists of several data sets. The first line of the input file contains the number of data sets which is a positive integer and is not bigger than 20. The following lines describe the data sets.
+</p>
+<p>
+For each data test, there is one single line containing the integer X.
+</p>
+<h3>Output</h3>
+<p>
+For each data test, write in one line the smallest lucky number S which is divisible by X. In case there is no such a number which has at most 200 digits, write -1.
+</p>
+<h3>Example</h3>
+<pre>
+<b>Sample Input</b>
+4
+6
+8
+43
+5	
+
+<b>Sample Output</b>
+6
+8
+86
+-1
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2009-01-04</td></tr>
+<tr><td>Time limit:</td><td>0.490s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Regional, Ho Chi Minh City 2008</td></tr>	
+</table>

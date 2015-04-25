@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UNICA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10608. Unique Strings</h1>
+		<h2>Problem code: UNICA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Some people who love strings have decided to call a special group of strings as the <strong>&ldquo;unique strings.&rdquo;</strong></p>
+<p>Let&rsquo;s define <strong>a(S)</strong> as the number of characters &ldquo;a&rdquo; the string S contains, and <strong>b(S)</strong> as the number of characters &ldquo;b&rdquo; the string S contains.</p>
+<p>S is a unique string if:</p>
+<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S only contains the characters &ldquo;a&rdquo; and &ldquo;b&rdquo;</p>
+<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For every substring S&rsquo;of S, | a(S&rsquo;) &ndash; b(S&rsquo;) | &lt;= 3</p>
+<p>For example, &ldquo;abbab&rdquo; is a unique string. However, &ldquo;abbbba&rdquo; is not because it includes the substring &ldquo;bbbb&rdquo; for which | a(&ldquo;bbbb&rdquo;) &ndash; b(&ldquo;bbbbb&rdquo;) | = 4 &gt; 3.</p>
+<p>Let&rsquo;s say we sort the unique strings &ndash; <strong>first by length and then lexicographically</strong>. The N<sup>th</sup> unique string is the string that appears in the position N in the sorted list. The first unique string is assigned the number 1.</p>
+<p>The first 12 unique strings in the sorted list are: <strong>a, b, aa, ab,ba, bb, aaa, aab,&nbsp; aba, abb, baa, bab</strong></p>
+<h3>Input</h3>
+<p>A single number N (1 &lt;= N &lt;= 10<sup>14</sup>). Your task is to find the N<sup>th</sup> unique string in the sorted list.</p>
+<h3>Output</h3>
+<p>A single line: the N<sup>th</sup> unique string in the sorted list.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+10
+
+<strong>Output:</strong>
+abb</pre>
+<pre>_______</pre>
+<pre><strong>Input:</strong></pre>
+<pre>19</pre>
+<pre><strong>Output:</strong></pre>
+<pre>abab</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arpo">Angel Paredes</a></td></tr>
+<tr><td>Date:</td><td>2012-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.006s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Cuban Olympiad in Informatics 2011 - Day 2 Problem A</td></tr>	
+</table>

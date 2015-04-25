@@ -1,0 +1,91 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FTOUR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>944. Free Tour</h1>
+		<h2>Problem code: FTOUR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+In order to celebrate the 2nd anniversary of Travel Agent SPOJ (Safe &#8211; Professional &#8211; hOspitable &#8211; Joyful), the management intend to hold free tours around cities for clients to make them more satisfied with SPOJ. 
+</p>
+<p>
+A tour is a simple cycle, starting at any city (called a source-city) visits some other cities (each city must be visited at most once) and then returns to the source-city. The number of roads in the tour should be an even number because we are celebrating a 2nd anniversary, and 2 is even! Since many tours in different areas of the country are planned, the cost of organising them could turn out quite high. Hence, the management of SPOJ hope to find at least one 'reasonable' tour, which should have as small a number of roads as possible. 
+</p>
+
+<p> 
+You're given maps of the areas where SPOJ wants to hold free tours. For each map, help them figure out a reasonable tour.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of input contains an integer <b>t</b>, the number of maps (<b>t</b> <= 5). <b>t</b> maps follow. 
+</p>
+
+<p>
+For each map:
+</p>
+<ul>
+<li> In the first line there are 2 integers <b>N</b> &#8211; number of cities in that area, <b>M</b> &#8211; number of roads (1 <= <b>N</b> <= 8000, 0 <= <b>M</b> <= 10000)</li>
+<li> In the next <b>M</b> lines, the i-th line describes the i-th road: a line with two integers <b>a b</b> denotes a bidirectional road between city <b>a</b> and city <b>b</b> </li>
+</ul>
+<p>There is one blank line between successive tests.</p>
+
+<h3>Output</h3>
+<p>For each map, if there is no tour satisfying the conditions, write "-1" (without quotes). Otherwise, write one integer representing the number of roads in a reasonable tour, and in the next line show out the tour with form "source-city a b c .. source-city", that means the tour is source-city -> city a -> city b -> &#8230; -> source-city. If there are many tours satisfy in each map, any of them will be accepted.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+
+3 3
+1 2 
+2 3
+3 1
+
+4 4
+1 2
+2 3
+3 4
+4 1
+
+
+<b>Output:</b>
+-1
+4
+1 2 3 4 1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2006-09-16</td></tr>
+<tr><td>Time limit:</td><td>0.151s-0.605s</td></tr>
+<tr><td>Source limit:</td><td>15000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

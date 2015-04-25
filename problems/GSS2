@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1557. Can you answer these queries II</h1>
+		<h2>Problem code: GSS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Being a completist and a simplist, kid Yang Zhe cannot solve but
+  get Wrong Answer from most of the OI problems. And he refuse to
+  write two program of same kind at all. So he always failes in
+  contests.
+
+<p>When having a contest, Yang Zhe looks at the score of every
+  problems first. For the problems of the same score, Yang Zhe will
+  do only one of them. If he's lucky enough, he can get all the scores
+  wanted.
+
+<p>Amber is going to hold a contest in SPOJ. She has made a list of
+  <i>N</i> candidate problems, which fit Yang Zhe very well. So Yang
+  Zhe can solve any problem he want. Amber lined up the problems,
+  began to select. She will select a subsequence of the list as the
+  final problems. Being A girl of great compassion, she'd like to
+  select such a subsequence (can be empty) that Yang Zhe will get the
+  maximal score over all the possible subsequences.
+
+<p>Amber found the subsequence easily after a few minutes. To make
+  things harder, Amber decided that, Yang Zhe can take this contest
+  only if Yang Zhe can answer her <i>Q</i> questions. The question is:
+  if the final problems are limited to be a subsequence
+  of <i>list</i>[<i>X</i>..<i>Y</i>] (1 <= <i>X</i> <= <i>Y</i> <= N),
+  what's the maximal possible score Yang Zhe can get?
+
+<p>As we know, Yang Zhe is a bit idiot (so why did he solve the
+  problem with a negative score?), he got Wrong Answer again... Tell
+  him the correct answer!
+
+<h3>Input</h3>
+<ul>
+  <li>Line 1: integer <i>N</i> (1 <= <i>N</i> <= 100000);
+  <li>Line 2: <i>N</i> integers denoting the score of each problem,
+  each of them is a integer in range [-100000, 100000];
+  <li>Line 3: integer <i>Q</i> (1 <= <i>Q</i> <= 100000);
+  <li>Line 3+<i>i</i> (1 <= <i>i</i> <= <i>Q</i>): two
+  integers <i>X</i> and
+  <i>Y</i> denoting the <i>i</i>th question.
+</ul>
+
+<h3>Output</h3>
+<ul>
+  <li>Line <i>i</i>: a single integer, the answer to the <i>i</i>th
+  question.
+</ul>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+9
+4 -2 -2 3 -1 -4 2 2 -6
+3
+1 2
+1 5
+4 9
+
+<b>Output:</b>
+4
+5
+3
+
+</pre>
+<b>Warning: large input/output data,be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-05-16</td></tr>
+<tr><td>Time limit:</td><td>0.129s-0.641s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Description, standard program and test data by Yang Zhe</td></tr>	
+</table>

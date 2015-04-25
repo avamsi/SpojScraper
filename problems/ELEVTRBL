@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ELEVTRBL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9655. Elevator Trouble</h1>
+		<h2>Problem code: ELEVTRBL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are on your way to your rst job interview as a program tester, and you are already<br />late. The interview is in a skyscraper and you are currently in <br />oor s, where you see an<br />elevator. Upon entering the elvator, you learn that it has only two buttons, marked UP<br />u" and DOWN d". You conclude that the UP-button takes the elevator u <br />floors up<br />(if there aren't enough <br />oors, pressing the UP-botton does nothing, or at least so you<br />assume), whereas the DOWN-button takes you d stories down (or none if there aren't<br />enough). Knowing that the interview is at <br />floor g, and that there are only f <br />floors in<br />the building, you quickly decide to write a program that gives you the amount of button<br />pushes you need to perform. If you simply cannot reach the correct <br />floor, your program<br />halts with the message "use the stairs".<br />Given input f, s, g, u and d (<br />floors, start, goal, up, down), nd the shortest sequence<br />of button presses you must press in order to get from s to g, given a building of floors,<br />or output "use the stairs" if you cannot get from s to g by the given elevator.</p>
+<h3>Input</h3>
+<p>The input will consist of one line, namely f s g u d, where 1 &lt;= s; g &lt;= f &lt;= 1000000 and<br />0 &lt;= u; d &lt;= 1000000. The <br />floors are one-indexed, i.e. if there are 10 stories, s and g be in<br />[1; 10].</p>
+<h3>Output</h3>
+<p>You must reply with the minimum numbers of pushes you must make in order to get from<br />s to g, or output use the stairs if it is impossible given the conguration of the elvator.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+10 1 10 2 1
+<strong>Output:</strong>
+6
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-10-06</td></tr>
+<tr><td>Time limit:</td><td>0.148s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Nordic programming contest</td></tr>	
+</table>

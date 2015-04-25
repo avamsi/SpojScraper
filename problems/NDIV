@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NDIV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12933. n-divisors</h1>
+		<h2>Problem code: NDIV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: medium;">we all know about prime numbers, prime number  is a natural number </span><span style="font-size: medium;">greater </span></span><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">than 1 </span><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">that has no positive&nbsp;</span><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">divisors other than 1 and itself .</span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">we can Classify the numbers by its number of divisors, </span></span><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">as n-divisors-numbers, for example number 1 is 1-divisor number,&nbsp;</span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: medium;">number 4 is 3-divisors-number... ect .</span></span></p>
+<p><span style="font-size: medium;"><strong>Note</strong>: all prime numbers are 2-divisors numbers.</span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><strong>example :<br /> </strong></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">8 is a 4-divisors-number [1,2,4,8].<br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"> <strong> </strong></span></span></p>
+<h1><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Input</strong></span></span></h1>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><strong>three integers a, b, n.</strong></span></span></p>
+<h1><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"> <strong>Output</strong></span></span></h1>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"> </span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">print single line the number of n-divisors numbers between a and b inclusive.</span></span></p>
+<h1><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"> <strong> Example</strong></span></span></h1>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"> </span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Input:<br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 7 2<br /> </span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output:<br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">4</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><strong>constraints</strong></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 &lt;= a,b&lt;=10^9<br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">0 &lt;=b - a &lt;= 10^4 .<br /></span></span><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1&lt;= n &lt;= 100</span></span></span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdelkarim">abdelkarim</a></td></tr>
+<tr><td>Date:</td><td>2012-12-07</td></tr>
+<tr><td>Time limit:</td><td>0.221s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Owner</td></tr>	
+</table>

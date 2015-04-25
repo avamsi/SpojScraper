@@ -1,0 +1,106 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CUCKOO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4036. Cuckoo Hashing</h1>
+		<h2>Problem code: CUCKOO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+One of the most fundamental data structure problems is
+the dictionary problem: given a set <VAR>D</var> of words you want to
+be able to quickly determine if any given query string <VAR>q</var> is
+present in the dictionary <VAR>D</var> or not. Hashing is a well-known
+solution for the problem. The idea is to create a function
+<VAR>h</var> : &#931; <SUP>&#8727;</SUP> &#8594; [0..<VAR>n</var> &#8722; 1] from all strings to the integer range
+0,1,..,<VAR>n</var> &#8722; 1, i.e. you describe a fast deterministic program
+which takes a string as input and outputs an integer between
+0 and <VAR>n</var>&#8722;1. Next you allocate an empty hash table <VAR>T</var> of size
+<VAR>n</var> and for each word <VAR>w</var> in <VAR>D</var>, you set <VAR>T</var>[<VAR>h</var>(<VAR>w</var>)] = <VAR>w</var>. Thus, given a query string <VAR>q</var>, you only
+need to calculate <VAR>h</var>(<VAR>q</var>) and see if <VAR>T</var>[<VAR>h</var>(<VAR>q</var>)] equals <VAR>q</var>, to determine if <VAR>q</var> is in the dictionary.
+Seems simple enough, but aren&#8217;t we forgetting something? Of course, what if two words
+in <VAR>D</var> map to the same location in the table? This phenomenon, called collision, happens
+fairly often (remember the Birthday paradox: in a class of 24 pupils there is more than
+50% chance that two of them share birthday). On average you will only be able to put
+roughly
+&#8730;<VAR>n</var>-sized dictionaries into the table without getting collisions, quite poor space
+usage!
+<p>A stronger variant is Cuckoo Hashing. The idea is to use two hash functions <VAR>h</var><SUB>1</sub>
+and <VAR>h</var><SUB>2</sub>. Thus each string maps to two positions in the table. A query string <VAR>q</var> is now handled
+as follows: you compute both <VAR>h</var><SUB>1</sub>(<VAR>q</var>) and <VAR>h</var><SUB>2</sub>(<VAR>q</var>), and if <VAR>T</var>[<VAR>h</var><SUB>1</sub>(<VAR>q</var>)] = <VAR>q</var>, or <VAR>T</var>[<VAR>h</var><SUB>2</sub>(<VAR>q</var>)] = <VAR>q</var>, you
+conclude that <VAR>q</var> is in <VAR>D</var>. The name &#8220;Cuckoo Hashing&#8221; stems from the process of creating
+the table. Initially you have an empty table. You iterate over the words <VAR>d</var> in <VAR>D</var>, and
+insert them one by one. If <VAR>T</var>[<VAR>h</var><SUB>1</sub>(<VAR>d</var>)] is free, you set <VAR>T</var>[<VAR>h</var><SUB>1</sub>(<VAR>d</var>)] = <VAR>d</var>. Otherwise if <VAR>T</var>[<VAR>h</var><SUB>2</sub>(<VAR>d</var>)] is
+free, you set <VAR>T</var>[<VAR>h</var><SUB>2</sub>(<VAR>d</var>)] = <VAR>d</var>. If both are occupied however, just like the cuckoo with other
+birds&#8217; eggs, you evict the word <VAR>r</var> in <VAR>T</var>[<VAR>h</var><SUB>1</sub>(<VAR>d</var>)] and set <VAR>T</var>[<VAR>h</var><SUB>1</sub>(<VAR>d</var>)] = <VAR>d</var>. Next you put <VAR>r</var> back
+into the table in its alternative place (and if that entry was already occupied you evict
+that word and move it to its alternative place, and so on). Of course, we may end up
+in an infinite loop here, in which case we need to rebuild the table with other choices of
+hash functions. The good news is that this will not happen with great probability even if
+<VAR>D</var> contains up to <VAR>n</var>/2 words
+<h3>Input</h3>
+<p>On the first line of input is a single positive integer 1 &#8804; <VAR>t</var> &#8804; 50 specifying the number of
+test cases to follow. Each test case begins with two positive integers 1 &#8804; <VAR>m</var> &#8804; <VAR>n</var> &#8804; 10000
+on a line of itself, <VAR>m</var> telling the number of words in the dictionary and <VAR>n</var> the size of the
+hash table in the test case. Next follow <VAR>m</var> lines of which the <VAR>i</var>:th describes the <VAR>i</var>:th word
+<VAR>d</var><SUB><VAR>i</var></sub> in the dictionary <VAR>D</var> by two non-negative integers <VAR>h</var><SUB>1</sub>(<VAR>d</var><SUB><VAR>i</var></sub>) and <VAR>h</var><SUB>2</sub>(<VAR>d</var><SUB><VAR>i</var></sub>) less than <VAR>n</var> giving the two hash function values of the word <VAR>d</var><SUB><VAR>i</var></sub>. The two values may be identical.
+
+
+
+<h3>Output</h3>
+<p>For each test case there should be exactly one line of output either containing the string
+&#8220;successful hashing&#8221; if it is possible to insert all words in the given order into the
+table, or the string &#8220;rehash necessary&#8221; if it is impossible.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 3
+0 1
+1 2
+2 0
+5 6
+2 3
+3 1
+1 2
+5 1
+2 5
+<b>Output:</b>
+successful hashing
+rehash necessary
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/andresgalvis">Andres Galvis</a></td></tr>
+<tr><td>Date:</td><td>2009-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.132s-0.626s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Nordic Collegiate Programming Contest 2007</td></tr>	
+</table>

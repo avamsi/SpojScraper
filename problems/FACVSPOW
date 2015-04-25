@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACVSPOW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5161. Factorial vs Power</h1>
+		<h2>Problem code: FACVSPOW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider two integer sequences <b>f(n) = n!</b> and <b>g(n) = a<sup>n</sup></b>, where <b>n</b> is a positive integer. For any integer <b>a > 1</b> the second sequence is greater than the first for a finite number of values. But starting from some integer <b>k</b>, <b>f(n)</b> is greater than <b>g(n)</b> for all <b>n >= k</b>. You are to find the least positive value of <b>n</b> for which <b>f(n) > g(n)</b>, for a given positive integer <b>a > 1</b>.
+
+<h3>Input</h3>
+<p>The first line of the input contains number <b>t</b> &#8211; the amount of tests. Then <b>t</b> test descriptions follow. Each test consist of a single number <b>a</b>.
+
+<h3>Constraints</h3>
+<p>1 &lt;= <b>t</b> &lt;= 100000<br>
+2 &lt;= <b>a</b> &lt;= 10<sup>6</sup></p>
+
+<h3>Output</h3>
+<p>For each test print the least positive value of <b>n</b> for which <b>f(n) > g(n)</b>.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+3
+4
+
+<b>Output:</b>
+4
+7
+9
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2009-11-01</td></tr>
+<tr><td>Time limit:</td><td>0.985s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2009, http://sevolymp.uuuq.com/</td></tr>	
+</table>

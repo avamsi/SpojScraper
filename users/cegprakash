@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/cegprakash"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PROBLEM4" target="_blank">8456. PRIMITIVEROOTS</a></td><td><a href="http://www.spoj.com/problems/PROBLEM4"target="_blank">PROBLEM4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GPA1" target="_blank">8467. GRADE POINT AVERAGE</a></td><td><a href="http://www.spoj.com/problems/GPA1"target="_blank">GPA1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALLIZWEL" target="_blank">10283. ALL IZZ WELL</a></td><td><a href="http://www.spoj.com/problems/ALLIZWEL"target="_blank">ALLIZWEL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WTK" target="_blank">10285. Why this kolaveri di</a></td><td><a href="http://www.spoj.com/problems/WTK"target="_blank">WTK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOTAA" target="_blank">10286. DOTA HEROES</a></td><td><a href="http://www.spoj.com/problems/DOTAA"target="_blank">DOTAA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FANCY" target="_blank">10293. FANCY NUMBERS</a></td><td><a href="http://www.spoj.com/problems/FANCY"target="_blank">FANCY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWOKINGS" target="_blank">10328. TRIVIADOR</a></td><td><a href="http://www.spoj.com/problems/TWOKINGS"target="_blank">TWOKINGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOLDIERS" target="_blank">10334. SOLDIERS</a></td><td><a href="http://www.spoj.com/problems/SOLDIERS"target="_blank">SOLDIERS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODEIT03" target="_blank">10366. Play with Dates</a></td><td><a href="http://www.spoj.com/problems/CODEIT03"target="_blank">CODEIT03</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IPL1" target="_blank">11509. IPL - CRICKET TOURNAMENT</a></td><td><a href="http://www.spoj.com/problems/IPL1"target="_blank">IPL1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUSYMAN" target="_blank">11515. I AM VERY BUSY</a></td><td><a href="http://www.spoj.com/problems/BUSYMAN"target="_blank">BUSYMAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAKEMAZE" target="_blank">11516. VALIDATE THE MAZE</a></td><td><a href="http://www.spoj.com/problems/MAKEMAZE"target="_blank">MAKEMAZE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAMARENA" target="_blank">11517. GAMING ARENA</a></td><td><a href="http://www.spoj.com/problems/GAMARENA"target="_blank">GAMARENA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAMES" target="_blank">12448. HOW MANY GAMES</a></td><td><a href="http://www.spoj.com/problems/GAMES"target="_blank">GAMES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIEHARD" target="_blank">12471. DIE HARD</a></td><td><a href="http://www.spoj.com/problems/DIEHARD"target="_blank">DIEHARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXWOODS" target="_blank">12474. MAXIMUM WOOD CUTTER</a></td><td><a href="http://www.spoj.com/problems/MAXWOODS"target="_blank">MAXWOODS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WINDVANE" target="_blank">13363. WIND VANE</a></td><td><a href="http://www.spoj.com/problems/WINDVANE"target="_blank">WINDVANE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WITTY" target="_blank">13364. THE N WITTY FRIENDS</a></td><td><a href="http://www.spoj.com/problems/WITTY"target="_blank">WITTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GEEKOUNT" target="_blank">13367. EVEN COUNT</a></td><td><a href="http://www.spoj.com/problems/GEEKOUNT"target="_blank">GEEKOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALONE" target="_blank">13469. FOREVER ALONE</a></td><td><a href="http://www.spoj.com/problems/ALONE"target="_blank">ALONE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUNNUMS" target="_blank">13881. FUN WITH LETTERS</a></td><td><a href="http://www.spoj.com/problems/FUNNUMS"target="_blank">FUNNUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WITTYBOY" target="_blank">13882. THE WITTY BOY</a></td><td><a href="http://www.spoj.com/problems/WITTYBOY"target="_blank">WITTYBOY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FLING1" target="_blank">13884. FLING1</a></td><td><a href="http://www.spoj.com/problems/FLING1"target="_blank">FLING1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLOCK_D" target="_blank">13886. BLOCK_D SOLVER</a></td><td><a href="http://www.spoj.com/problems/BLOCK_D"target="_blank">BLOCK_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RANGZER2" target="_blank">13925. ZEROES IN RANGE V2</a></td><td><a href="http://www.spoj.com/problems/RANGZER2"target="_blank">RANGZER2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VENOM" target="_blank">18937. Touch of Venom</a></td><td><a href="http://www.spoj.com/problems/VENOM"target="_blank">VENOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACENEMY" target="_blank">18940. Face the mate</a></td><td><a href="http://www.spoj.com/problems/FACENEMY"target="_blank">FACENEMY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TFRIENDS" target="_blank">18941. True Friends</a></td><td><a href="http://www.spoj.com/problems/TFRIENDS"target="_blank">TFRIENDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POWERCAR" target="_blank">18945. Car with powers</a></td><td><a href="http://www.spoj.com/problems/POWERCAR"target="_blank">POWERCAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CURDPROD" target="_blank">21692. CURD PRODUCERS</a></td><td><a href="http://www.spoj.com/problems/CURDPROD"target="_blank">CURDPROD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHICKEGG" target="_blank">22329. Chicks</a></td><td><a href="http://www.spoj.com/problems/CHICKEGG"target="_blank">CHICKEGG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SELLPHN2" target="_blank">22379. Mobile Company 2</a></td><td><a href="http://www.spoj.com/problems/SELLPHN2"target="_blank">SELLPHN2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KATHTHI" target="_blank">22393. KATHTHI</a></td><td><a href="http://www.spoj.com/problems/KATHTHI"target="_blank">KATHTHI</a><br>
+</td></tr>

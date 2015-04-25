@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HASHIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>29. Hash it!</h1>
+		<h2>Problem code: HASHIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Your task is to calculate the result of the hashing process in a table of 101 elements, containing keys that are strings of length at most 15 letters (ASCII codes '<i>A</i>',...,'<i>z</i>'). 
+Implement the following operations:
+<div align=left>
+<ul>
+<li>find the index of the element defined by the key (ignore, if no such element),
+<li>insert a new key into the table (ignore insertion of the key that already exists),
+<li>delete a key from the table (without moving the others),
+by marking the position in table as <i>empty</i> (ignore non-existing keys in the table)
+</li></ul></div>
+<p>When performing find, insert and delete operations define the following function: <BR>
+<i>integer Hash(string key)</i>,<br>which for a string <i>key</i>=<i>a</i><sub>1</sub></i>...<i>a<sub>n</sub></i> returns the value:<br>
+<i>Hash</i>(<i>key</i>)=<i>h</i>(<i>key</i>) mod 101, where
+<br><i>h</i>(<i>key</i>)=19 *(ASCII(<i>a</i><sub>1</sub>)*1+...+ASCII(<i>a<sub>n</sub></i>)*<i>n</i>).<br>Resolve collisions using the open addressing method, i.e. try to insert the key into the table at the first free position: (<i>Hash</i>(<i>key</i>)+<i>j</i><sup>2</sup>+23*<i>j</i>) mod 101, for <i>j</i>=1,...,19.
+After examining of at least 20 table entries, we assume that the insert operation cannot be performed.
+</p>
+<H3>Input</h3>
+<P align=justify>
+<br><i>t</i> [the number of test cases <= 100]
+<br><i>n</i><sub>1</sub> [the number of operations (one per line)[<= 1000] 
+<br>ADD:string
+<br>[or]
+<br>DEL:string
+[other test cases, without empty lines betwee series]
+</p>
+<H3>Output</h3>
+<P align=justify>
+For every test case you have to create a new table, insert or delete keys, and write to the output:
+<br>
+the number of keys in the table [first line]
+<br>index:key [sorted by indices]
+</p>
+<H3>Example</h3>
+<pre>
+Input:
+1
+11
+ADD:marsz
+ADD:marsz
+ADD:Dabrowski
+ADD:z
+ADD:ziemii
+ADD:wloskiej
+ADD:do
+ADD:Polski
+DEL:od
+DEL:do
+DEL:wloskiej
+<!--
+8
+ADD:my
+ADD:favourite
+ADD:online
+ADD:judge
+ADD:sphere!
+DEL:judge
+DEL:my
+DEL:my-->
+
+Output:
+5
+34:Dabrowski
+46:Polski
+63:marsz
+76:ziemii
+96:z
+<!--3
+15:sphere!
+37:favourite
+70:online-->
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mima">Michał Małafiejski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-01</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>-</td></tr>	
+</table>

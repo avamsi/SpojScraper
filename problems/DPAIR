@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DPAIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9547. Counting d-pairs</h1>
+		<h2>Problem code: DPAIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You're given a sequence A of N non-negative integers. Answer Q queries, where each query consists of two integers: a, b. The answer is number of pairs of integers i and j that satisfy these conditions:<br /><br />(1) 1 &lt;= i &lt;= j &lt;= N</p>
+<p>(2) a &lt;= j-i+1 &lt;= b</p>
+<p>(3) all elements of A with indices from range [i, j] are mutually distinct. (indexing starts with 1)</p>
+<p><strong>Constraints</strong> :<br /><br />1 &lt;= N &lt;= 8*10^5<br />1 &lt;= Q &lt;= 2*10^5<br />0 &lt;= A[k] &lt;= 10^6, for every integer k between 1 and N, inclusive<br /><br />1 &lt;= a &lt;= b &lt;= N</p>
+<h3>Input</h3>
+<p>First line of input contains integer N. Second line contains N integers representing sequence A. Third line is integer Q, number of queries. Next Q lines has 2 integers, a and b.</p>
+<h3>Output</h3>
+<p>In the i-th line output the answer for i-th query.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />1 2 3 4 5<br />1<br />1 1<br /><br /><strong>Output:</strong><br /><br />5<br /><br /><strong>NOTE: IO is huge</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/budabudimir">Buda IM (retired)</a></td></tr>
+<tr><td>Date:</td><td>2011-09-16</td></tr>
+<tr><td>Time limit:</td><td>0.086s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, thanks to lpp</td></tr>	
+</table>

@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HPPROF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16046. Help Professor</h1>
+		<h2>Problem code: HPPROF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One day, TA of one of the course at DA-IICT was checking First In-sem exam papers. The exam was of 20 marks. After checking some of the papers, he decided to give marks of those students to his professor but he messed up here. He forgot to put spaces between the marks. So professor got confused.</p>
+<p>Since you are his favourite student, help him determine the number of ways in which this marks can be seperated (by spaces) so that they are valid marks.</p>
+<p>Marks are valid if they are between 0 to 20 and have no leading zeros. For example, 0, 1, 2, 3 ... 20 are valid but 01, 003, 21, 25 are not valid.</p>
+<p><span style="font-size: 1.17em;"><strong>Input</strong></span></p>
+<p>Input contains only one line, a string of length less than 20 .</p>
+<h3>Output</h3>
+<p>Output the number of ways in which you can put spaces and interprete them as a valid marks of students.</p>
+<h3>Example</h3>
+<pre><strong>Input1 :</strong>
+12
+
+<strong>Output1 :</strong>
+2<strong><br /><br />Input2 :</strong>
+111
+
+<strong>Output2 :</strong>
+3</pre>
+<pre><strong>Input3 :</strong></pre>
+<pre>101</pre>
+<pre><strong>Output3 :</strong></pre>
+<pre>2</pre>
+<pre><br /><strong>Explaination :</strong></pre>
+<pre>In the first case, 12 can be interpreted in two ways,</pre>
+<pre>1) 1 2</pre>
+<pre>2) 12</pre>
+<pre>In the second case, 111 can be interpreted as following ways.</pre>
+<pre>1) 1 1 1</pre>
+<pre>2) 11 1</pre>
+<pre>3) 1 11</pre>
+<pre>In the third case,</pre>
+<pre>1) 1 0 1</pre>
+<pre>2) 10 1</pre>
+<pre>Note that 1 01 can not be valid because 01 has leading zeros.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/savan_popat">Savan Popat</a></td></tr>
+<tr><td>Date:</td><td>2013-09-20</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

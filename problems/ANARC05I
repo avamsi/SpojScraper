@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC05I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4565. What is your Logo</h1>
+		<h2>Problem code: ANARC05I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>   </p>
+<table style="width: 100%; background-color: #44c23c;" border="0">
+<tbody>
+<tr>
+<td style="text-align: center;" width="50%"><a href="%7B$base%7Dproblems/%7B$code%7D/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="%7B$base%7Dproblems/%7B$code%7D/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Imagine a 2D diagram drawn in the following way: Starting at the origin, you&rsquo;re given a sequence of letters which is entirely made of the following four letters &rsquo;U&rsquo;, &rsquo;D&rsquo;, &rsquo;L&rsquo;,and &rsquo;R&rsquo;.A &rsquo;U&rsquo; is an instruction for you to move one unit upward and drawing a segment at the same time. Similarly, &rsquo;D&rsquo; is for moving down, &rsquo;L&rsquo; for left, and &rsquo;R&rsquo; for right.</p>
+<p>For example, &#64257;gure (a) is drawn by giving the sequence &rsquo;UURDLL&rsquo; while &#64257;gure (b) is the result of &rsquo;UURRRDLLLLUURRRDDD&rsquo; (in both &#64257;gures, the starting point is identi&#64257;ed by a small circle.)</p>
+<p><br />While segments are allowed to intersect, they&rsquo;re not allowed to overlap. In other words, any two segments will have, at most, one point in common. We&rsquo;re interested in knowing the number of closed polygons, not containing any lines inside, in such diagrams. Figure (a), has only one closed polygon while &#64257;gure (b) has three. Write a program to do exactly that.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="http://i42.tinypic.com/30kgi9i.jpg" alt="" width="194" height="325" /></p>
+<h1 style="text-align: center;">Input</h1>
+<p>Your program will be tested on one or more test cases. Each test case is speci&#64257;ed on a separate line. The diagram is speci&#64257;ed using a sequence made entirely of (U|D|L|R) and terminated by the letter &rsquo;Q&rsquo;. All letters are capital letters. None of the segments in a test case will overlap.</p>
+<p><br />The end of test cases is identi&#64257;ed by the letter &rsquo;Q&rsquo; on a line by itself.</p>
+<p>Length of each sequence is smaller than 1000.</p>
+<h1 style="text-align: center;">Output</h1>
+<p>For each test case, write the answer on a separate line.</p>
+<h1 style="text-align: center;">Sample</h1>
+<pre style="text-align: justify;">input<br />UURDLLQ<br />UURRRDLLLLUURRRDDDQ<br />Q<br /><br />output<br />1<br />3<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-07-05</td></tr>
+<tr><td>Time limit:</td><td>0.25s-0.790s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ANARC 2005</td></tr>	
+</table>

@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNGDIV69"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16758. Divisible by 6 and 9</h1>
+		<h2>Problem code: SNGDIV69</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Let num (&gt; 0) be n (&gt; 0) digit(s) positive integer. num is represented as N<sub>1</sub>N<sub>2</sub>N<sub>3</sub>N<sub>4</sub>.....N<sub>n-2</sub>N<sub>n-1</sub>N<sub>n </sub>, where N<sub>i</sub> is the i<sup>th</sup> digit of num from left (0 &lt; i &lt; n+1). Digits of num are sorted in descending and ascending order respectively and this sorting generates two new positive integers num<sub>dsc</sub> and num<sub>asc</sub>. The difference between the numbers is diff<sub>num</sub> = <span style="font-size: small;">num</span><sub>dsc</sub><span style="font-size: small;">&nbsp;- num</span><sub>asc </sub>, if <span style="font-size: small;">diff</span><sub>num</sub>&nbsp;is divisible by both 6 and 9, then we say that num is a magic number. Let sum<sub>digits </sub>is defined as following <br /></span></p>
+<p><span style="font-size: small;"><strong>number = diff<sub>num</sub></strong><br /><strong>do { <br /><span style="white-space: pre;"> <span style="white-space: pre;"> <span style="white-space: pre;"> </span>number</span></span>&nbsp;= sum of digits of number<br />&nbsp;</strong></span><span style="font-weight: bold; font-size: small;">} while (number</span><span style="font-weight: bold; font-size: small;">&nbsp;&gt; 10)</span></p>
+<p><span style="font-size: small;">&nbsp;<span style="font-size: small; font-weight: bold;">sum</span><sub>digits </sub><span style="font-weight: bold;">= number</span></span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">First line of input is t (&lt; 101), total number of test cases. Each test case has n (&lt; 10001) as its first input and next n lines contains num (&lt; 10</span><span style="font-size: small;"><span style="font-size: 11px;"><sup>100</sup></span><span style="font-size: x-small;">).&nbsp;</span></span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">For each test case, write exactly n lines containing two/three specifications without space : <br />(i) <span style="color: #ff0000;"><strong>Y</strong></span> if num is magic number otherwise <span style="color: #ff0000;"><strong>N</strong></span>.<br />(ii) Let sum<sub>digits</sub> = c, <span style="color: #ff0000;"><strong>ZER</strong></span> if c is 0 (zero), <strong><span style="color: #ff0000;">ONE</span></strong> if c is 1 (one) if c &gt; 1, <strong><span style="color: #ff0000;">EP</span></strong> if c is even and prime, <strong><span style="color: #ff0000;">ENP</span></strong> if c is even but not prime, <strong><span style="color: #ff0000;">OP</span></strong> if c is odd and prime or <span style="color: #ff0000;"><strong>ONP</strong></span> if c is odd but not prime.<br />(iii) Let diff<sub>num</sub> = d, If num is not a magic number then print <strong><span style="color: #ff0000;">EQL</span></strong> if d is not divisible by both 6 and 9, <strong><span style="color: #ff0000;">LTN</span></strong> if d is not divisible by 6 only, <span style="color: #ff0000;"><strong>GTN</strong></span> if d is not divisible by 9 only.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1<br />2<br />31<br />100</pre>
+<pre><strong>Output:</strong>
+YONP<br />NONPLTN</pre>
+<pre><span style="font-size: small;"><strong><span style="color: #0000ff;"><span style="font-family: terminal, monaco;">0 is divisible by 6 and 9 :)</span></span></strong></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newborn">AvmnuSng</a></td></tr>
+<tr><td>Date:</td><td>2013-10-24</td></tr>
+<tr><td>Time limit:</td><td>0.096s
+</td></tr>
+<tr><td>Source limit:</td><td>1024B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="https://facebook.com/criusabhimanyu">Abhimanyu Singh</a><br><a href="http://goo.gl/KXdHYG">My Problems</a></td></tr>	
+</table>

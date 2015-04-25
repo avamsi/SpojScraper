@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nikola_borisof"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GORELIAN" target="_blank">3133. Here We Go(relians) Again</a></td><td><a href="http://www.spoj.com/problems/GORELIAN"target="_blank">GORELIAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TYPESET" target="_blank">3249. Typesettin</a></td><td><a href="http://www.spoj.com/problems/TYPESET"target="_blank">TYPESET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLINK" target="_blank">3251. Slink</a></td><td><a href="http://www.spoj.com/problems/SLINK"target="_blank">SLINK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDS" target="_blank">3253. Electronic Document Security</a></td><td><a href="http://www.spoj.com/problems/EDS"target="_blank">EDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUARD" target="_blank">3254. Guard</a></td><td><a href="http://www.spoj.com/problems/GUARD"target="_blank">GUARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEXTILE" target="_blank">3307. Hex Tile Equations</a></td><td><a href="http://www.spoj.com/problems/HEXTILE"target="_blank">HEXTILE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRIDGES2" target="_blank">3308. The Bridges of San Mochti</a></td><td><a href="http://www.spoj.com/problems/BRIDGES2"target="_blank">BRIDGES2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BULLETIN" target="_blank">3309. Bulletin Board</a></td><td><a href="http://www.spoj.com/problems/BULLETIN"target="_blank">BULLETIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SERIALN" target="_blank">3310. Serial Numbers</a></td><td><a href="http://www.spoj.com/problems/SERIALN"target="_blank">SERIALN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROUNDT" target="_blank">3372. Round Table</a></td><td><a href="http://www.spoj.com/problems/ROUNDT"target="_blank">ROUNDT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERMCODE" target="_blank">3373. Permutation Code</a></td><td><a href="http://www.spoj.com/problems/PERMCODE"target="_blank">PERMCODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FALLINGI" target="_blank">3420. Falling Ice</a></td><td><a href="http://www.spoj.com/problems/FALLINGI"target="_blank">FALLINGI</a><br>
+</td></tr>

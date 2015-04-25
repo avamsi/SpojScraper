@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/csi_dtu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CRAN01" target="_blank">13768. An Experiment by Penny</a></td><td><a href="http://www.spoj.com/problems/CRAN01"target="_blank">CRAN01</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRAN02" target="_blank">13769. Roommate Agreement</a></td><td><a href="http://www.spoj.com/problems/CRAN02"target="_blank">CRAN02</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRAN04" target="_blank">13780. Audition</a></td><td><a href="http://www.spoj.com/problems/CRAN04"target="_blank">CRAN04</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COD1" target="_blank">16134. Save the cows!</a></td><td><a href="http://www.spoj.com/problems/COD1"target="_blank">COD1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODGRF" target="_blank">16138. Deconnecting</a></td><td><a href="http://www.spoj.com/problems/CODGRF"target="_blank">CODGRF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODCHESS" target="_blank">16139. Naya Shatranj (New Chess)</a></td><td><a href="http://www.spoj.com/problems/CODCHESS"target="_blank">CODCHESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODHASH" target="_blank">16177. Hashcodes and primes</a></td><td><a href="http://www.spoj.com/problems/CODHASH"target="_blank">CODHASH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODFURY" target="_blank">16184. Megatron and his rage</a></td><td><a href="http://www.spoj.com/problems/CODFURY"target="_blank">CODFURY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODPABBU" target="_blank">16214. Pabbu-pneumonia</a></td><td><a href="http://www.spoj.com/problems/CODPABBU"target="_blank">CODPABBU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRNVALEN" target="_blank">18408. The Valentine Confession</a></td><td><a href="http://www.spoj.com/problems/CRNVALEN"target="_blank">CRNVALEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLZBICYC" target="_blank">21352. Avantgarde and Bicycle</a></td><td><a href="http://www.spoj.com/problems/CLZBICYC"target="_blank">CLZBICYC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLZDOUGH" target="_blank">21353. Avantgarde and Doughnut</a></td><td><a href="http://www.spoj.com/problems/CLZDOUGH"target="_blank">CLZDOUGH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLZSTRNG" target="_blank">21354. String Problem</a></td><td><a href="http://www.spoj.com/problems/CLZSTRNG"target="_blank">CLZSTRNG</a><br>
+</td></tr>

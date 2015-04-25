@@ -1,0 +1,36 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/omar_azazy"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BIO1" target="_blank">7486. Rooks</a></td><td><a href="http://www.spoj.com/problems/BIO1"target="_blank">BIO1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10G" target="_blank">7969. A Knights&#8217; Tale</a></td><td><a href="http://www.spoj.com/problems/ACPC10G"target="_blank">ACPC10G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10H" target="_blank">7970. Jumping Beans</a></td><td><a href="http://www.spoj.com/problems/ACPC10H"target="_blank">ACPC10H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10I" target="_blank">7971. The Cyber Traveling Salesman</a></td><td><a href="http://www.spoj.com/problems/ACPC10I"target="_blank">ACPC10I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10F" target="_blank">7972. World of cubes</a></td><td><a href="http://www.spoj.com/problems/ACPC10F"target="_blank">ACPC10F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10E" target="_blank">7973. Sometimes, a penalty is good!</a></td><td><a href="http://www.spoj.com/problems/ACPC10E"target="_blank">ACPC10E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10A" target="_blank">7974. What&#8217;s Next</a></td><td><a href="http://www.spoj.com/problems/ACPC10A"target="_blank">ACPC10A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10D" target="_blank">7975. Tri graphs</a></td><td><a href="http://www.spoj.com/problems/ACPC10D"target="_blank">ACPC10D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10B" target="_blank">7976. Sum the Square</a></td><td><a href="http://www.spoj.com/problems/ACPC10B"target="_blank">ACPC10B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC10C" target="_blank">8106. Normalized Form</a></td><td><a href="http://www.spoj.com/problems/ACPC10C"target="_blank">ACPC10C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KNJIGE" target="_blank">10620. KNJIGE</a></td><td><a href="http://www.spoj.com/problems/KNJIGE"target="_blank">KNJIGE</a><br>
+</td></tr>

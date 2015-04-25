@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBTLEBA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16113. Trucks Transportation</h1>
+		<h2>Problem code: SUBTLEBA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">The Subtle Balloons Company (SBC) is the main balloon provider for programming contests; it has huge factories and warehouses, as well as an extensive truck fleet to ensure the contestants&rsquo; happiness. There are lots of competition sites in Nlogonia, and all of them hired SBC for supplying balloons for their contests. Nlogonia is an archipelago connected by several bridges. Every island of Nlogonia may have several regional sites and may also house several SBC warehouses. When planning the routes for balloon deliveries, SBC faced a problem: for safety issues, every bridge in Nlogonia has some maximum weight limit for vehicles which cross it. And because of the great net weight of the transported merchandise, SBC operations&rsquo; chief asked you to write a program to determine the maximum weight allowed to be transported between warehouses and competition sites.</span></p>
+<h3>Input</h3>
+<div style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+<p style="margin: 0px 0px 15px;">The input contains several test cases. The first line of a test case contains three integers&nbsp;&nbsp;<br /><strong>N</strong>(2 &le;&nbsp;<strong>N</strong>&nbsp;&le; 2 &times; 10<sup>4</sup>),&nbsp;<br /><strong>M</strong>(1 &le;&nbsp;<strong>M</strong>&nbsp;&le; 10<sup>5</sup>),<br /><strong>S</strong>(1 &le;&nbsp;<strong>S</strong>&nbsp;&le; 5 &times; 10<sup>4</sup>)&nbsp;</p>
+<p style="margin: 0px 0px 15px;">which indicate, respectively, the number of islands, the number of bridges that connect the islands and the number of sites. The islands are numbered from 1 to&nbsp;<strong>N</strong>. Each of the next&nbsp;<strong>M&nbsp;</strong>lines describes a bridge. The description of a bridge consists in a line with three integers&nbsp;<strong>A</strong>,&nbsp;<strong>B&nbsp;</strong>and&nbsp;<strong>W</strong>(0 &le;&nbsp;<strong>W</strong>&nbsp;&le; 10<sup>5</sup>), indicating respectively the two islands connected by the bridge and the maximum weight allowed in that bridge, in tons. All bridges are two-way roads; every pair of islands is connected by at most one bridge; and it is possible to reach every other island in the archipelago using only bridges (naturally it may be needed to pass through other islands to do so). Each of the next&nbsp;<strong>S&nbsp;</strong>lines describe a competition site and contains two integers&nbsp;<strong>L&nbsp;</strong>and&nbsp;<strong>H&nbsp;</strong>indicating, respectively, the number of the island where this site is and the number of the island where the wharehouse which will be used to deliver the balloons to the site is.</p>
+<p style="margin: 0px 0px 15px;">(1 &le;&nbsp;<strong>A</strong>,<strong>B</strong>,<strong>L</strong>,<strong>H</strong>&nbsp;&le;&nbsp;<strong>N</strong>,&nbsp;<strong>A</strong>&nbsp;!=&nbsp;<strong>B</strong>,&nbsp;<strong>L</strong>&nbsp;!=&nbsp;<strong>H</strong>)</p>
+</div>
+<h3>Output</h3>
+<p><span style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">For each site in a test case, in the order they were given, your program must produce a single line, containing a single integer, the biggest weight which can be transported by truck from the warehouse to the site.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">4 5 4</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 2 9</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 3 0</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">2 3 8</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">2 4 7</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">3 4 4</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 4</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">2 1</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">3 1</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">4 3</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">4 5 2</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 2 30</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">2 3 20</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">3 4 10</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">4 1 40</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">2 4 50</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 3</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">1 2</span>
+
+<strong>Output:</strong>
+<span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">7</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">9</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">8</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">7</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">20</span><br style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;" /><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;">40</span></pre>
+<pre><span style="font-family: 'Courier New'; font-size: 14px; line-height: 20px; text-align: justify; background-color: #ebebeb;"><br /></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2013-09-25</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>40000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Enhanced version of Brazil Maratona 2013 J</td></tr>	
+</table>

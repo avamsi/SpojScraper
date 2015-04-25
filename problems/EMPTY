@@ -1,0 +1,96 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EMPTY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>199. Empty Cuboids</h1>
+		<h2>Problem code: EMPTY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+We call a cuboid <b> regular</b>  if:
+</p>
+<ul>
+ <li>one of its vertices is a point with coordinates (0,0,0),
+ </li><li>edges beginning in this vertex lie on the positive semi-axes of the coordinate
+  system,
+ </li><li>the edges are not longer than 10<sup>6</sup>
+</li></ul>
+<p>
+There is given a set <b> A</b> of points of space, whose coordinates are integers
+from the interval
+[1..10<sup>6</sup>]. We try to find a regular cuboid of maximal volume which does not
+contain any of the points from the set <b>A</b>. A point belongs to the cuboid
+if it belongs to the interior of the
+cuboid, i.e. it is a point of the cuboid, but not of its wall.
+</p>
+
+<h3>Task</h3>
+<p>Write a program which:</p>
+<ul>
+ <li>reads from the standard input the coordinates of points from the set <b>A</b>,
+ </li><li>finds one of the regular cuboids of maximal volume which does not contain any points from the set
+  <b>A</b>,
+ </li><li>writes the result to standard output.
+</li></ul>
+
+<h3>Input</h3>
+<p>Input begins with a line containing integer t<=10, the number of test cases. t test cases follow.
+<p>In the first line of each test case one non-negative integer <i>n</i> is written
+(<i> n</i> <= <i>5000</i>). It is the number of elements in the set
+<b>A</b>. In the following
+<i> n</i> lines of the input there are triples of integers from the interval
+[1..10<sup>6</sup>], which are the X, Y and Z coordinates of points from <b>A</b>, repectively. Numbers in each line are separated by single spaces.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case there should be three integers separated by single
+spaces. These are the X, Y and Z coordinates (respectively) of the vertex of the
+regular cuboid of maximal volume. If there is more than one such a cuboid, choose whichever. We require that all coordinates be positive.
+</p>
+
+<h3>Example</h3>
+<pre><b>Sample input:</b>
+1
+4
+3 3 300000
+2 200000 5
+90000 3 2000
+2 2 1000
+
+<b>Sample output:</b>
+1000000 200000 1000
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/piotrek">Piotr Łowiec</a></td></tr>
+<tr><td>Date:</td><td>2004-09-13</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>6th Polish Olympiad in Informatics, stage 1</td></tr>	
+</table>

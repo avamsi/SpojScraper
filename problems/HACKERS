@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HACKERS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7425. Hackers</h1>
+		<h2>Problem code: HACKERS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The network of your office is composed of several computers and bidirectional links. Each<br />link connects a given pair of computers and has an access value. Each user in the network<br />has an access privilege, and is able to use any link with access value not exceeding his<br />access privilege.<br />Everything was fine until suddenly you notice that a bunch of hackers are accessing the<br />network. You know that if there is a link between computers A and B, with access value<br />V , and a hacker with access privilege of at least V controls A, then he can control B.<br />Hackers wish to control the most important computers by exploiting problems in the<br />network. They are trying to increase their access privileges in order to use the links, and<br />your task is to measure how safe the network is.<br />Given the description of the network, the computer each hacker currently controls and<br />the target computer each hacker wishes to control, you need to calculate the minimum<br />access privilege each hacker needs to get in order to control his target computer.<br />Hackers act independently, neither they collaborate nor interfere with each other. This<br />means that each hacker may control each computer and use each link independently of<br />what the other hackers do.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains three integers<br />C, L and H, indicating the number of computers, links and hackers in the network,<br />respectively (2 &le; C &le; 3000, 1 &le; L, H &le; 10<sup>5</sup> ); each computer is identified by an integer<br />number between 1 and C. Each of the next L lines describes a different bidirectional link<br />using three integers A, B and V ; the numbers A and B identify two distinct computers<br />that are the endpoints of the link (1 &le; A &lt; B &le; C); the number V is the access value<br />of the link, that is, any hacker must have an access privilege of at least V to use the<br />link (1 &le; V &le; 10<sup>9</sup> ). Each of the last H lines describes a different hacker using two<br />distinct integers S and T that identify the computer that the hacker currently controls<br />and the computer that the hacker wishes to control, respectively (1 &le; S, T &le; C). You<br />may assume that within each test case no two links connect the same pair of computers,<br />and that for any pair of computers there is at least one sequence of links that allow to<br />reach one computer starting from the other. The end of input is indicated with a line<br />containing the number &minus;1 three times.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with H integers representing the minimum access<br />privilege each hacker needs to achieve its goal. The result for each hacker must appear<br />in the same order that the hackers are described in the input.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />5 6 4<br />1 2 4<br />1 3 5<br />2 4 3<br />2 5 1<br />3 4 2<br />4 5 2<br />3 2<br />2 4<br />1 5<br />3 1<br />2 1 1<br />1 2 1<br />2 1<br />2 1 3<br />1 2 1000000000<br />2 1<br />2 1<br />1 2<br />-1 -1 -1
+<br /><strong>Output:</strong> <br />2 2 4 4<br />1<br />1000000000 1000000000 1000000000</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>5.157s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3105. Power Modulo Inverted</h1>
+		<h2>Problem code: MOD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given 3 positive integers <i>x</i>, <i>y</i> and <i>z</i>, you can find <i>k = x<sup>y</sup>%z</i> easily, by fast power-modulo algorithm. Now your task is the inverse of this algorithm. Given 3 positive integers <i>x</i>, <i>z</i> and <i>k</i>, find the smallest non-negative integer <i>y</i>, such that <i>k%z = x<sup>y</sup>%z</i>.</p>
+
+<h3>Input</h3>
+<p>About 600 test cases.
+<p>Each test case contains one line with 3 integers <i>x</i>, <i>z</i> and <i>k</i>.(1<= <i>x</i>, <i>z</i>, <i>k</i> <=10<sup>9</sup>)
+<p>Input terminates by three zeroes.</p>
+
+<h3>Output</h3>
+<p>For each test case, output one line with the answer, or "No Solution"(without quotes) if such an integer doesn't exist.</p>
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+5 58 33
+2 4 3
+0 0 0
+
+<b>Output:</b>
+9
+No Solution
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-10-04</td></tr>
+<tr><td>Time limit:</td><td>3.393s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Folklore, description, standard program and test data by Blue Mary</td></tr>	
+</table>

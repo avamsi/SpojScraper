@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FTHEELF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7104. Feanor The Elf</h1>
+		<h2>Problem code: FTHEELF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Feanor is an elf, and of course, he really likes arrows and bows. Surprisingly enough, Feanor<br />has a laptop, but he knows nothing about programming, so he requires your help.<br />Feanor lives in a tower of height H, and he loves throwing arrows from the top of it. He had a<br />good amount of intesive training and he knows that he always throws his arrows with the same<br />initial speed V . He wants you to make a program that given H and V returns the maximum<br />distance that a Feanor&rsquo;s arrow can reach when it hits the ground, measured from the base<br />of the tower. With this information, he will be able to place a nice circular fence to prevent<br />deoriented little elves from being killed.<br />Newtonian laws apply in Feanor&rsquo;s world and the gravity has the same strength as in ours. These<br />laws can be summarized as follows:<br />&bull; The position of Feanor is assumed to be a point. The same occurs with the position of<br />his arrow at each moment in time.<br />&bull; The initial speed V of the arrow can be expressed as Vx<sup>2</sup> + Vy<sup>2</sup> = V<sup>2</sup> , where Vx and Vy<br />are the horizontal and vertical components of V , respectively. Speed Vx is always non-<br />negative, while speed Vy is positive if the arrow is thrown up, and negative if the arrow<br />is thrown down.<br />&bull; The initial position of the arrow is the position of Feanor.<br />&bull; The horizontal position of the arrow (relative to Feanor&rsquo;s position) at time t is x(t) = Vx * t.<br />&bull; The vertical position of the arrow (relative to Feanor&rsquo;s position) at time t is y(t) = Vy * t &minus; gt<sup>2</sup> / 2, where g = 9.8 m/s2 .</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />two integers V and H separated by a single space. The value V is the initial speed of Feanor&rsquo;s<br />arrow measured in m/s (0 &le; V &le; 1000), while the value H is the tower&rsquo;s height in meters<br />(0 &le; H &le; 1000). The last line of the input contains the number &minus;1 twice separated by a single<br />space and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with the radius of Feanor&rsquo;s fence in meters, rounded up<br />to 6 decimal digits (he wants to be sure that he doesn&rsquo;t kill those cute little elves).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 0<br />10 0<br />100 0<br />1000 0<br />-1 -1<br /><br /><strong>Output:</strong><br /><br />0.102041<br />10.204082<br />1020.408163<br />102040.816327</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.191s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

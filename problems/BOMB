@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOMB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5128. Bomb the Bridge</h1>
+		<h2>Problem code: BOMB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You want to destroy a bridge with bombs. The lower-left corner of the bridge is at (0,0) and the upper-right corner is at (w,l). There are already b bombs exploded, the i-th bomb created a hole of radius ri centering at (xi,yi). You want to throw exactly one more bomb so that the bridge is split into two connected parts(though the two parts can share a finite number of points), so that no one can go through the bridge from y = 0 to y = l. Your task is to find the minimal radius of the last bomb to split the bridge, assuming that the last bomb can explode precisely at the position you want (possibly at non-integer coordinates). Note that you are only allowed to use bombs with integer radius. That is, even if a bomb with radius 1.01 is sufficient, you have to use a bomb with radius 2, since you only have bombs with integer radius.</p>
+<h3>Input</h3>
+<p>The first line contains t (1&le;t&le;10), the number of test cases followed. Each test case begins with three integers w,l,b(1&le;w,1&le;100, 0&le;b&le;10). Each of the following b lines contains three integers integers xi,yi,ri(0&le;x&le;w, 0&le;y&le;l, 0&#65308;r&le;100). The bridge is guaranteed to be connected before the last bomb.</p>
+<h3>Output</h3>
+<p>For each test case, print the minimal radius of the last bomb.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>3<br />100 100 2<br />15 50 20<br />90 50 30<br />100 100 1<br />50 50 40<br />100 100 1<br />10 50 10</p><p>&nbsp;</p>
+<strong>Output:</strong>
+13<br />50<br />40<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/davii">3xian</a></td></tr>
+<tr><td>Date:</td><td>2009-10-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Zhuhai Contest 2008</td></tr>	
+</table>

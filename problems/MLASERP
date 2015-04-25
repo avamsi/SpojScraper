@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MLASERP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3861. Laser Phones</h1>
+		<h2>Problem code: MLASERP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MLASERP/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MLASERP/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+The cows have a new laser-based system so they can have casual
+conversations while out in the pasture which is modeled as a W x H
+grid of points (1 &lt;= W &lt;= 100; 1 &lt;= H &lt;= 100).
+
+The system requires a sort of line-of-sight connectivity in order
+to sustain communication. The pasture, of course, has rocks and
+trees that disrupt the communication but the cows have purchased
+diagonal mirrors ('/' and '\' below) that deflect the laser beam
+through a 90 degree turn. Below is a map that illustrates the
+problem.
+
+H is 8 and W is 7 for this map.  The two communicating cows are
+notated as 'C's; rocks and other blocking elements are notated as
+'*'s:
+
+7 . . . . . . .         7 . . . . . . .
+6 . . . . . . C         6 . . . . . /-C
+5 . . . . . . *         5 . . . . . | *
+4 * * * * * . *         4 * * * * * | *
+3 . . . . * . .         3 . . . . * | .
+2 . . . . * . .         2 . . . . * | .
+1 . C . . * . .         1 . C . . * | .
+0 . . . . . . .         0 . \-------/ .
+  0 1 2 3 4 5 6           0 1 2 3 4 5 6
+
+Determine the minimum number of mirrors M that must be installed
+to maintain laser communication between the two cows, a feat which
+is always possible in the given test data.
+
+</pre>
+
+<cen><h3>INPUT</h3></cen>
+<pre>
+* Line 1: Two space separated integers: W and H
+
+* Lines 2..H+1: The entire pasture.
+
+SAMPLE INPUT  
+
+7 8
+.......
+......C
+......*
+*****.*
+....*..
+....*..
+.C..*..
+.......
+</pre>
+<b>OUTPUT </b>
+<pre>
+* Line 1: A single integer: M
+
+SAMPLE OUTPUT 
+
+3
+</pre>
+ <b>Any suggestted testcase will be welcomed.</b>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.227s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>JAN09 SILVER Division</td></tr>	
+</table>

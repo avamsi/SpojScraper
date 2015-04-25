@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ARCTAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1440. Use of Function Arctan</h1>
+		<h2>Problem code: ARCTAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It's easy to know that arctan(1/2)+arctan(1/3)=arctan(1).The problem is,to some fixed number A,you have to write a program to calculate the minimum sum B+C.A,B and C are all positive integers and satisfy the equation below:</p>
+<p>arctan(1/A)=arctan(1/B)+arctan(1/C)</p>
+<h3>Input</h3>
+<p>The first line contains a integer number T(about 1000).T lines follow,each contains a single integer A, 1<=A<=60000.</p>
+<h3>Output</h3>
+<p>T lines,each contains a single integer which denotes to the minimum sum B+C.</p>
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+1
+1
+
+<b><tt>Sample output:</tt></b>
+5
+</pre>
+<p><b>Some new test data has been added on Feb.15, 2009, 36 users lose their Accepted.</b></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-03-31</td></tr>
+<tr><td>Time limit:</td><td>1.538s
+</td></tr>
+<tr><td>Source limit:</td><td>256B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2001,Day 1; translated by Blue Mary</td></tr>	
+</table>

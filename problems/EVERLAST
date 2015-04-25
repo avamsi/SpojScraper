@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EVERLAST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4324. The fate of the pineapple</h1>
+		<h2>Problem code: EVERLAST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In order to help terraform Mars, astronauts have brought (among other things) N (0&lt;=N&lt;5) young, healthy pineapple plants.</p>
+<p>This particular type of pineapple reproduces asexually in the following way:</p>
+<ol>
+<li>A single pineapple plant produces K (0&lt;=K&lt;15) new pineapple in one growing season. </li>
+<li>At the end of the growing season, the new pineapples are adults, and the old ones are dead. </li>
+<li>Increased levels of radiation have a P (0&lt;=P&lt;=1) chance of sterilizing any new pineapple that develops on Mars.  This probability is independent for each pineapple. </li>
+</ol>
+<p>What is the probability that the pineapple population will never die out?</p>
+<h3>Input</h3>
+<p>The first line is the number of test cases (no more than 10^5). Each of the following lines describes a test case. The integers N and K and the decimal number P are separated by single spaces.</p>
+<h3>Output</h3>
+<p>There will be one line for each test case.  Each line will have the probability of eventual survival in percent, to two decimals, followed by the percent sign.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+1 3 0.6666666666666666
+1 3 0.65
+1 1 0
+1 0 1
+3 4 0.7101634622811129
+
+<strong>Output:</strong>
+0.00%
+13.83%
+100.00%
+0.00%
+70.94%
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/draperp">Paul Draper</a></td></tr>
+<tr><td>Date:</td><td>2009-05-05</td></tr>
+<tr><td>Time limit:</td><td>0.629s-3.255s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

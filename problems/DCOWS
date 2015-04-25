@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCOWS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14955. Dancing Cows</h1>
+		<h2>Problem code: DCOWS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It's the spring dance and, in a rare occurrence, the N (1 &#8804; N &#8804;
+5000) bulls have been invited to dance with the M (N < M &#8804; 5000)
+cows (as long as they stay on their very best behavior).</p>
+
+<p>Farmer John, almost obsessive-compulsive in his organization of
+dances, wants the spectacle to be as visually attractive as possible.
+Thus, he wants to pair up the N bulls with cow partners such that
+the total of all the magnitudes of differences in height is minimized.
+Bulls have heights B_i (1 &#8804; B_i &#8804; 1,000,000) and cows have height
+C_i (1 &#8804; C_i &#8804; 1,000,000). Of course, some cows will be unmatched
+since N-M of them will have no partners; ignore their heights.</p>
+
+<p>
+<b>INPUT FORMAT:</b><br>
+<br>
+* Line 1: Two space-separated integers: N and M.<br>
+* Lines 2..N+1: Line i+1 contains a single integer: B_i.<br>
+* Lines N+2..M+N+1: Line i+N+1 contains a single integer: C_i.<br>
+</p>
+
+<p><b>OUTPUT FORMAT:</b><br>
+<br>
+* Line 1: A single integer that is the minimum of the sum of the absolute value of the height differences that can be achieved.
+</p>
+
+<p><b>SAMPLE INPUT :</b></p>
+<pre>
+5 7
+10
+16
+12
+10
+13
+7
+17
+12
+10
+9
+6
+11
+</pre>
+
+<p><b>SAMPLE OUTPUT :</b></p>
+<pre>
+4
+</pre>
+
+<p><b>INPUT DETAILS:</b></p>
+<pre>
+Five bulls + seven cows with various heights:
+   Bulls:   10 10 12 13 16
+   Cows:    6 7 9 10 11 12 17
+</pre>
+
+<p><b>OUTPUT DETAILS :</b></p>
+<pre>
+Here is one way to achieve a total difference of 4:
+   Bulls:        10 10 12 13 16
+   Cows:    6 7   9 10 11 12 17
+</pre>
+
+</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/blackjaguar97">Se7s</a></td></tr>
+<tr><td>Date:</td><td>2013-05-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C# C++ 4.3.2 C++ 4.9 C++14 C99 strict COB FORT GROOVY HASK JAVA JS2 JS PAS fpc PAS gpc PERL PHP PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 RUBY VB.net </td></tr>
+<tr><td>Resource:</td><td>USACO 2008 Gold</td></tr>	
+</table>

@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CCROSSX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4669. Cross Mountain Climb Extreme</h1>
+		<h2>Problem code: CCROSSX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Somewhere in the neighborhood we have a very nice mountain that gives a splendid view over the surrounding area. There is one problem though: climbing this mountain is very difficult, because of rather large height differences. To make more people able to climb the mountain and enjoy the view, we would like to make the climb easier. To do so, we will model the mountain as follows: the mountain consists of n adjacent stacks of stones, and each of the stacks is h<sub>i</sub> high. The successive height differences are therefore h<sub>i+1</sub> &minus; h<sub>i </sub>(for 1 &le; i &le; n&minus;1). We would like all absolute values of these height differences to be smaller than or equal to some number d.</p>
+<p style="text-align: justify;">We can do this by increasing or decreasing the height of some of the stacks. The first stack (the starting point) and the last stack (the ending point) should remain at the same height as they are initially. Since adding and removing stones requires a lot of effort, we would like to minimize the total number of added stones plus the total number of removed stones. What is this minimum number?</p>
+<h3>Input</h3>
+<p style="text-align: justify;">On the first line one positive number: the number of test cases, at most 50. After that, for each test case:</p>
+<ul style="text-align: justify;">
+<li>One line with two integers n (2 &le; n &le; 10000) and d (0 &le; d &le; 10^9): the number of stacks of stones and the maximum allowed height difference.</li>
+<li style="text-align: justify;">One line with n integers hi (0 &le; h<sub>i&nbsp;</sub>&le; 10^9): the heights of the stacks.</li>
+</ul>
+<h3>Output</h3>
+<p>For each test case, output one line with the minimum number of stones that have to be added or removed, or &ldquo;impossible&rdquo; if it is impossible to achieve the goal.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />10 2<br />4 5 10 6 6 9 4 7 9 8<br />3 1<br />6 4 0<br />4 2<br />3 0 6 3<br /><br /><strong>Output:</strong><br />6<br />impossible<br />4<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lovro">Lovro Puzar</a></td></tr>
+<tr><td>Date:</td><td>2009-08-08</td></tr>
+<tr><td>Time limit:</td><td>0.400s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Problem CCROSS with larger limits (originally from NWERC 2008)</td></tr>	
+</table>

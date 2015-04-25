@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18248. Maggu&#8217;s Solar Panels</h1>
+		<h2>Problem code: IITWPC4E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Summer is here and so is the season of powercuts, everybody here in IITK has installed there own solar panels over the roof. Now while setting panels, nobody cared of there panel was overlapping with others, the end result looks something likes the one shown below. </span><img style="border-style: solid; border-color: transparent;" src="https://lh3.googleusercontent.com/IUxCnMxSwbvs47Trtvon__hmLY0w4pYjtmATBJnNlHIf37Pq1b0WEzZEApU5En0kue90N7T3xLVFj3eStAaF0XpuMqwzr4ywY9oVa3iA6VVeA5ARLURBuJd8Cg" alt="" width="624px;" height="332px;" /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></p><br /><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Clearly, a panel cannot produce electricity from the part where light does not fall. Our Maggu has been given the task of estimating the total electricity output from panels from Hall Office. This task is haunting him. Even Coder cannot do it alone, he needs your help. Assume that all panels produce the same power per unit area and that the area not directly under the sun does not produce any electricity. </span></p><br /><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">You need to print the power that will be produced given the end points of rectangular panels and the power per unit area that panels produce. </span></p><br /><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Note : The sides of the panel will be parallel to the X-axis or Y-axis. Meaning, panels will never be tilted. Hence, a panel can be represented by 4 integers x, y, X and Y. Where (x,y) is the co-ordinate of the bottom left corner of the panel and (X,Y) is the co-ordinate of the top right corner of the panel. </span></p><div><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></div></span></pre>
+<h3>Input</h3>
+<pre><span style="white-space: normal;"><span id="docs-internal-guid-1363df3e-e77b-1c4b-57c7-caee46d39653"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">First line contains two space separated integers N, number of solar panels and R, power per unit area. Next N lines contains the description of N panels. Each line containing 4 space separates integers x, y, X and Y respectively. </span></p></span></span></pre>
+<h3>Output</h3>
+<p><span style="font-family: Arial; font-size: 15px; line-height: 17.25px; white-space: pre-wrap;">You need to output a single integer, the total power that can be generated. </span></p>
+<h3>Constraints</h3>
+<p><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;">-10^8&lt;=x&lt;=X&lt;=10^8</span></p>
+<p><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;">&nbsp;</span><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;">-10^8&lt;=y&lt;=Y&lt;=10^8</span></p>
+<p><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;">1&lt;=N&lt;=100000</span></p>
+<p><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;">1&lt;=R&lt;=100</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre><span style="white-space: normal;"><span id="docs-internal-guid-1363df3e-e77b-1c4b-57c7-caee46d39653"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3 2</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">-6 0 3 6</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">0 4 6 10</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">4 -2 9 6</span></p></span></span></pre>
+</pre>
+<pre><strong>Output:</strong>
+<span style="font-family: Arial; font-size: 15px; line-height: 17.25px; white-space: pre-wrap;">240</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

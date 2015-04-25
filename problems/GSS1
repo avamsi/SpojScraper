@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSS1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1043. Can you answer these queries I</h1>
+		<h2>Problem code: GSS1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence A[1], A[2], ..., A[N] . ( |A[i]| &#8804;  15007 , 1 &#8804; N &#8804; 50000 ). A query is defined as follows:
+<br>
+Query(x,y) = Max { a[i]+a[i+1]+...+a[j] ; x &#8804; i &#8804; j &#8804; y }. 
+<br> 
+Given M queries, your program must output the results of these queries.
+<h3>Input</h3>
+<center>
+<ul>
+<li>The first line of the input file contains the integer N.</li>
+<li>In the second line, N numbers follow.</li>
+<li>The third line contains the integer M.</li>
+<li>M lines follow, where line i contains 2 numbers xi and yi.</li>
+</center>
+</ul>
+
+<h3>Output</h3>
+<ul>
+Your program should output the results of the M queries, one query per line. 
+</ul>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 
+-1 2 3
+1
+1 2
+<b>Output:</b>
+2
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dtmp">Nguyen Dinh Tu</a></td></tr>
+<tr><td>Date:</td><td>2006-11-01</td></tr>
+<tr><td>Time limit:</td><td>0.115s-0.230s</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mohammadkotb"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09A" target="_blank">5449. Seinfeld</a></td><td><a href="http://www.spoj.com/problems/ANARC09A"target="_blank">ANARC09A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09B" target="_blank">5450. Tiles of Tetris, Not!</a></td><td><a href="http://www.spoj.com/problems/ANARC09B"target="_blank">ANARC09B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09C" target="_blank">5451. Not So Flat After All</a></td><td><a href="http://www.spoj.com/problems/ANARC09C"target="_blank">ANARC09C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09D" target="_blank">5452. Hop Do not Walk</a></td><td><a href="http://www.spoj.com/problems/ANARC09D"target="_blank">ANARC09D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09F" target="_blank">5453. Air Strike</a></td><td><a href="http://www.spoj.com/problems/ANARC09F"target="_blank">ANARC09F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCJ101BB" target="_blank">6691. Picking Up Chicks</a></td><td><a href="http://www.spoj.com/problems/GCJ101BB"target="_blank">GCJ101BB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CROBOTS" target="_blank">7034. Crashing Robots</a></td><td><a href="http://www.spoj.com/problems/CROBOTS"target="_blank">CROBOTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRYPTON" target="_blank">7035. The Embarrassed Cryptographer</a></td><td><a href="http://www.spoj.com/problems/CRYPTON"target="_blank">CRYPTON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NECKDEC" target="_blank">7050. Necklace Decomposition</a></td><td><a href="http://www.spoj.com/problems/NECKDEC"target="_blank">NECKDEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IPCELLS" target="_blank">7239. Cells</a></td><td><a href="http://www.spoj.com/problems/IPCELLS"target="_blank">IPCELLS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLYGRND" target="_blank">7240. Playground</a></td><td><a href="http://www.spoj.com/problems/PLYGRND"target="_blank">PLYGRND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERFUME" target="_blank">7249. Perfume</a></td><td><a href="http://www.spoj.com/problems/PERFUME"target="_blank">PERFUME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NUMGAME" target="_blank">7260. Number Game</a></td><td><a href="http://www.spoj.com/problems/NUMGAME"target="_blank">NUMGAME</a><br>
+</td></tr>

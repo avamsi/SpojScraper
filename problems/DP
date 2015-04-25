@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5465. Deliver pizza</h1>
+		<h2>Problem code: DP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Tom McCoffee owns the only pizza delivery place in the mountains. The terrain is represented as a rectangular grid of squares, where each square either contains a building or is empty. Each empty square has an integer height between 0 and 9, inclusive. Today, each building in the area has ordered one pizza, and Tom must use his two delivery boys to fulfill all the orders in the shortest total amount of time possible.</p>
+<p><br />From each square in the grid, you can only move to adjacent squares. Two squares are adjacent if they share an edge. You can only move between two empty squares if the absolute difference of their heights is less than or equal to 1. If the height difference is 0, it takes 1 minute to make the move, and if the absolute height difference is 1, it takes 3 minutes.</p>
+<p>You can always move to a building from any of its adjacent squares and vice versa, regardless of height. This is because all buildings are taller than the highest terrain, and each building has entrances and exits for all its adjacent squares at the correct heights. Moving to or from a square containing a building takes 2 minutes. The delivery boys are allowed to enter buildings even if they are not their final destinations. Note that the pizza place itself is also a building.</p>
+<p><br />Each delivery boy can only carry one pizza at a time. This means that after each delivery, the delivery boy must return to the pizza place to pick up another pizza if there are more deliveries left to do.</p>
+<p><br />Your task is to print the minimum time in minutes at which the last delivery can be made. If it is not possible to deliver all the pizzas, print -1 instead.</p>
+<p><br />Input<br />One line containing an integer C, the number of test cases in the input.<br />For each of the C test cases:<br />&bull; The first line consists of M and N the size of the grid. M is the number of rows and N is<br />the number of columns.<br />&bull; The next M lines consists of a string which length is N. Each character could be &lsquo;$&rsquo;, &lsquo;X&rsquo;<br />or digits from &lsquo;0&rsquo; to &lsquo;9&rsquo;. '$' represents a building from which a pizza was ordered, 'X'<br />represents the location of the restaurant, and the digits '0'-'9' represent the heights of<br />empty squares.</p>
+<p><br />Output<br />For each test case, print the minimum time in minutes at which the last delivery can be made. If<br />it is not possible to deliver all the pizzas, print -1 instead.</p>
+<p><br />Limits<br />1 &lt;= C &lt;= 30<br />1 &lt;= M &lt;= 50<br />1 &lt;= N &lt;= 50<br />There are at most 20 buildings.</p>
+<p>Sample input<br />2<br />3 7<br />3442211<br />34$221X<br />3442211<br />3 7<br />001000$<br />$010X0$<br />0010000</p>
+<p><br />Sample output<br />8<br />13</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/huy391992">sieunhan</a></td></tr>
+<tr><td>Date:</td><td>2009-11-29</td></tr>
+<tr><td>Time limit:</td><td>0.145s-0.774s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Topcoder - ACM Vietnam Practice</td></tr>	
+</table>

@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMATH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1671. Another Mathematical Problem</h1>
+		<h2>Problem code: AMATH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given two numbers n (1&lt;=n&lt;10<sup>100</sup>) and k (1&lt;=k&lt;=100), you are to determine whether there exists a positive integer T which satisfies that for every positive integer a, n<sup>a+T</sup>-n<sup>a</sup> is divisible by 10<sup>k</sup>.</p>
+<h3>Input</h3>
+<p>Multiple test cases. Each test case contains two space-separated integers n and k. Input terminate by EOF.</p>
+<p>The number of test cases will not more than 20.</p>
+<h3>Output</h3>
+<p>For each test case, you should output the smallest positive integer number T which satisfies the condition above, or -1 if it doesn't exist.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+32 2
+
+<strong>Output:</strong>
+4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-07-01</td></tr>
+<tr><td>Time limit:</td><td>0.564s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Folklore, description and standard program by Blue Mary</td></tr>	
+</table>

@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FRS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12007. Fibonaccibonacci (easy)</h1>
+		<h2>Problem code: FRS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Leo would like to play with some really big numbers, OK...</p>
+
+<p>Let  FIB  the Fibonacci function :<br/>
+  FIB(0)=0 ; FIB(1)=1<br/>
+  and<br/>
+  for N>=2  FIB(N) = FIB(N-1) + FIB(N-2)<br/>
+<br/>
+Example : we have FIB(6)=8, and FIB(8)=21, so FIB(FIB(6))=21
+</p>
+
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.<br/>
+In each of the next T lines there are an integer N.
+</p>
+
+<h3>Output</h3>
+<p>For each test case, print  FIB(FIB(N)) ,<br/>
+as the answer could not fit in a 64bit container,<br/>
+give your answer modulo 1000000007.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+0
+5
+6
+
+<b>Output:</b>
+0
+5
+21
+</pre>
+
+
+
+<h3>Constraints</h3>
+<pre>
+1 <= T <= 10^4
+0 <= N <= 10^100
+</pre>
+<p>Time limit is set to allow (sub-optimal) 500B of python3 code to get AC.<br/>
+A near optimal solution is within 0.02 and 0.04s with a fast language, and around 1s in Python2 without psyco. </p>
+<p>Edit(20/I/2015) With Cube cluster, it is not hard to get 0.0s with fast languages, and my old code ended in 0.08s using PY3.4.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2012-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.630s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

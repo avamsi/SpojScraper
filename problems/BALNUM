@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BALNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10606. Balanced Numbers</h1>
+		<h2>Problem code: BALNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Balanced numbers have been used by mathematicians for centuries. A positive integer is considered a balanced number if:</p>
+<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Every <strong>even </strong>digit appears an <strong>odd </strong>number of times in its decimal representation</p>
+<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Every <strong>odd </strong>digit appears an <strong>even </strong>number of times in its decimal representation</p>
+<p>For example, 77, 211, 6222 and 112334445555677 are balanced numbers while 351, 21, and 662 are not.</p>
+<p>Given an interval [A, B], your task is to find the amount of balanced numbers in [A, B] where both <strong>A and B are included.</strong></p>
+<h3>Input</h3>
+<p>The first line contains an integer T representing the number of test cases.</p>
+<p>A test case consists of two numbers A and B separated by a single space representing the interval. You may assume that 1 &lt;= A &lt;= B &lt;= 10<sup>19</sup>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, you need to write a number in a single line: the amount of balanced numbers in the corresponding interval</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+1 1000
+1 9</pre>
+<pre><strong>Output:</strong>
+147
+4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arpo">Angel Paredes</a></td></tr>
+<tr><td>Date:</td><td>2012-02-12</td></tr>
+<tr><td>Time limit:</td><td>0.123s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Cuban Olympiad in Informatics 2012 - Day 2 Problem A</td></tr>	
+</table>

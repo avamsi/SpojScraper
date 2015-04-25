@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRECOUNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11905. Tree Count</h1>
+		<h2>Problem code: TRECOUNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Our superhero Carry Adder has uncovered the secret method that the evil Head Crash uses to</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">generate the entrance code to his fortress in Oakland. The code is always the number of distinct</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">binary search trees with some number of nodes, that have a specific property. To keep this code</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">short, he only uses the least significant nine digits.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The property is that, for each node, the height of the right subtree of that node is within one of</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the height of the left subtree of that node. Here, the height of a subtree is the length of the longest</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">path from the root of that subtree to any leaf of that subtree. A subtree with a single node has a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">height of 0, and by convention, a subtree containing no nodes is considered to have a height of &minus;1.</div>
+<p>
+<p>Our superhero Carry Adder has uncovered the secret method that the evil Head Crash uses to</p>
+<p>generate the entrance code to his fortress in Oakland. The code is always the number of distinct</p>
+<p>binary search trees with some number of nodes, that have a specific property. To keep this code</p>
+<p>short, he only uses the least significant nine digits.</p>
+<p>The property is that, for each node, the height of the right subtree of that node is within one of</p>
+<p>the height of the left subtree of that node. Here, the height of a subtree is the length of the longest</p>
+<p>path from the root of that subtree to any leaf of that subtree. A subtree with a single node has a</p>
+<p>height of 0, and by convention, a subtree containing no nodes is considered to have a height of &minus;1.</p>
+</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>
+<p>Input will be formatted as follows. Each test case will occur on its own line. Each line will contain</p>
+<p>only a single integer, N, the number of nodes. The value of N will be between 1 and 1427, inclusive.</p>
+</p>
+<h3>Output</h3>
+<p>
+<p>Your output is one line per test case, containing only the nine-digit code (note that you must print</p>
+<p>leading zeros).</p>
+</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+3
+6
+21
+
+<strong>Output:</strong></pre>
+<pre>000000001
+000000001
+000000004
+000036900<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.250s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>North America - Pacific Northwest 2011</td></tr>	
+</table>

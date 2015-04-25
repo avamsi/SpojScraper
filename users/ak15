@@ -1,0 +1,160 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ak15"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TRIP" target="_blank">33. Trip</a></td><td><a href="http://www.spoj.com/problems/TRIP"target="_blank">TRIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDIT1" target="_blank">75. Editor</a></td><td><a href="http://www.spoj.com/problems/EDIT1"target="_blank">EDIT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDIT2" target="_blank">76. Editor Inverse</a></td><td><a href="http://www.spoj.com/problems/EDIT2"target="_blank">EDIT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MARBLES" target="_blank">78. Marbles</a></td><td><a href="http://www.spoj.com/problems/MARBLES"target="_blank">MARBLES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RENT" target="_blank">130. Rent your airplane and make money</a></td><td><a href="http://www.spoj.com/problems/RENT"target="_blank">RENT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SQDANCE" target="_blank">131. Square dance</a></td><td><a href="http://www.spoj.com/problems/SQDANCE"target="_blank">SQDANCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HELPR2D2" target="_blank">132. Help R2-D2!</a></td><td><a href="http://www.spoj.com/problems/HELPR2D2"target="_blank">HELPR2D2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHONY" target="_blank">134. Phony Primes</a></td><td><a href="http://www.spoj.com/problems/PHONY"target="_blank">PHONY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAWORK" target="_blank">135. Men at work</a></td><td><a href="http://www.spoj.com/problems/MAWORK"target="_blank">MAWORK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SORTING" target="_blank">229. Sorting is easy</a></td><td><a href="http://www.spoj.com/problems/SORTING"target="_blank">SORTING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERMUT2" target="_blank">379. Ambiguous Permutations</a></td><td><a href="http://www.spoj.com/problems/PERMUT2"target="_blank">PERMUT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BINGO" target="_blank">380. Bullshit Bingo</a></td><td><a href="http://www.spoj.com/problems/BINGO"target="_blank">BINGO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHICAGO" target="_blank">381. 106 miles to Chicago</a></td><td><a href="http://www.spoj.com/problems/CHICAGO"target="_blank">CHICAGO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DECORATE" target="_blank">382. Decorate the wall</a></td><td><a href="http://www.spoj.com/problems/DECORATE"target="_blank">DECORATE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EUROPEAN" target="_blank">383. European railroad tracks</a></td><td><a href="http://www.spoj.com/problems/EUROPEAN"target="_blank">EUROPEAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOOL" target="_blank">384. Any fool can do it</a></td><td><a href="http://www.spoj.com/problems/FOOL"target="_blank">FOOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAME" target="_blank">385. Game schedule required</a></td><td><a href="http://www.spoj.com/problems/GAME"target="_blank">GAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HELP" target="_blank">386. Help the problem setter</a></td><td><a href="http://www.spoj.com/problems/HELP"target="_blank">HELP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MENU" target="_blank">388. Menu</a></td><td><a href="http://www.spoj.com/problems/MENU"target="_blank">MENU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOSPITAL" target="_blank">389. Use of Hospital Facilities</a></td><td><a href="http://www.spoj.com/problems/HOSPITAL"target="_blank">HOSPITAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BILLIARD" target="_blank">390. Billiard</a></td><td><a href="http://www.spoj.com/problems/BILLIARD"target="_blank">BILLIARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RAILROAD" target="_blank">391. Railroads</a></td><td><a href="http://www.spoj.com/problems/RAILROAD"target="_blank">RAILROAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPIN" target="_blank">392. Spin</a></td><td><a href="http://www.spoj.com/problems/SPIN"target="_blank">SPIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEXAGON" target="_blank">393. Hexagon</a></td><td><a href="http://www.spoj.com/problems/HEXAGON"target="_blank">HEXAGON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACODE" target="_blank">394. Alphacode</a></td><td><a href="http://www.spoj.com/problems/ACODE"target="_blank">ACODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/APRIME" target="_blank">395. Anti-prime Sequences</a></td><td><a href="http://www.spoj.com/problems/APRIME"target="_blank">APRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HITOMISS" target="_blank">396. Hit or Miss</a></td><td><a href="http://www.spoj.com/problems/HITOMISS"target="_blank">HITOMISS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONDUIT" target="_blank">397. I Conduit</a></td><td><a href="http://www.spoj.com/problems/CONDUIT"target="_blank">CONDUIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPGAMES" target="_blank">398. Roll Playing Games</a></td><td><a href="http://www.spoj.com/problems/RPGAMES"target="_blank">RPGAMES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANK" target="_blank">399. Team Rankings</a></td><td><a href="http://www.spoj.com/problems/TRANK"target="_blank">TRANK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOANDFRO" target="_blank">400. To and Fro</a></td><td><a href="http://www.spoj.com/problems/TOANDFRO"target="_blank">TOANDFRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSL" target="_blank">401. Translations</a></td><td><a href="http://www.spoj.com/problems/TRANSL"target="_blank">TRANSL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HIKE" target="_blank">402. Hike on a Graph</a></td><td><a href="http://www.spoj.com/problems/HIKE"target="_blank">HIKE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SCANNER" target="_blank">404. Scanner</a></td><td><a href="http://www.spoj.com/problems/SCANNER"target="_blank">SCANNER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TCUTTER" target="_blank">405. Tin Cutter</a></td><td><a href="http://www.spoj.com/problems/TCUTTER"target="_blank">TCUTTER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LOGIC" target="_blank">406. Logic</a></td><td><a href="http://www.spoj.com/problems/LOGIC"target="_blank">LOGIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RNUMBER" target="_blank">407. Random Number</a></td><td><a href="http://www.spoj.com/problems/RNUMBER"target="_blank">RNUMBER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JRIDE" target="_blank">408. Jill Rides Again</a></td><td><a href="http://www.spoj.com/problems/JRIDE"target="_blank">JRIDE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DELCOMM" target="_blank">409. DEL Command</a></td><td><a href="http://www.spoj.com/problems/DELCOMM"target="_blank">DELCOMM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VHUFFM" target="_blank">410. Variable Radix Huffman Encoding</a></td><td><a href="http://www.spoj.com/problems/VHUFFM"target="_blank">VHUFFM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPUZZLES" target="_blank">413. Word Puzzles</a></td><td><a href="http://www.spoj.com/problems/WPUZZLES"target="_blank">WPUZZLES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BONFIRE" target="_blank">414. Equatorial Bonfire</a></td><td><a href="http://www.spoj.com/problems/BONFIRE"target="_blank">BONFIRE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXIMUS" target="_blank">729. Move your armies</a></td><td><a href="http://www.spoj.com/problems/MAXIMUS"target="_blank">MAXIMUS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RSORTING" target="_blank">1526. Ranklist Sorting</a></td><td><a href="http://www.spoj.com/problems/RSORTING"target="_blank">RSORTING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CYLINDER" target="_blank">1681. Cylinder</a></td><td><a href="http://www.spoj.com/problems/CYLINDER"target="_blank">CYLINDER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXPRESS" target="_blank">1683. Expressions</a></td><td><a href="http://www.spoj.com/problems/EXPRESS"target="_blank">EXPRESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FREQUENT" target="_blank">1684. Frequent values</a></td><td><a href="http://www.spoj.com/problems/FREQUENT"target="_blank">FREQUENT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GROCERY" target="_blank">1685. Grocery store</a></td><td><a href="http://www.spoj.com/problems/GROCERY"target="_blank">GROCERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BROKEN" target="_blank">2852. Broken Keyboard</a></td><td><a href="http://www.spoj.com/problems/BROKEN"target="_blank">BROKEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PDECODE" target="_blank">2853. Decode the Strings</a></td><td><a href="http://www.spoj.com/problems/PDECODE"target="_blank">PDECODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOREST2" target="_blank">2855. Forest</a></td><td><a href="http://www.spoj.com/problems/FOREST2"target="_blank">FOREST2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HELPBOB" target="_blank">2856. Help Bob</a></td><td><a href="http://www.spoj.com/problems/HELPBOB"target="_blank">HELPBOB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABSURD" target="_blank">6803. Absurd prices</a></td><td><a href="http://www.spoj.com/problems/ABSURD"target="_blank">ABSURD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEATING" target="_blank">6804. Cheating or Not</a></td><td><a href="http://www.spoj.com/problems/CHEATING"target="_blank">CHEATING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CATTACK" target="_blank">6805. Counter attack</a></td><td><a href="http://www.spoj.com/problems/CATTACK"target="_blank">CATTACK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FPLAN" target="_blank">6825. Field Plan</a></td><td><a href="http://www.spoj.com/problems/FPLAN"target="_blank">FPLAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HACKING" target="_blank">6826. Hacking</a></td><td><a href="http://www.spoj.com/problems/HACKING"target="_blank">HACKING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LMCONSTR" target="_blank">6827. Last Minute Construction</a></td><td><a href="http://www.spoj.com/problems/LMCONSTR"target="_blank">LMCONSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINEUP" target="_blank">6828. Lineup</a></td><td><a href="http://www.spoj.com/problems/LINEUP"target="_blank">LINEUP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYNOM" target="_blank">6829. Polynomial</a></td><td><a href="http://www.spoj.com/problems/POLYNOM"target="_blank">POLYNOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SBETS" target="_blank">6830. Soccer Bets</a></td><td><a href="http://www.spoj.com/problems/SBETS"target="_blank">SBETS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TBGAME" target="_blank">6831. Two Ball Game</a></td><td><a href="http://www.spoj.com/problems/TBGAME"target="_blank">TBGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOSCORE" target="_blank">6832. To Score or not to score</a></td><td><a href="http://www.spoj.com/problems/TOSCORE"target="_blank">TOSCORE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11A" target="_blank">9117. Faculty Dividing Powers</a></td><td><a href="http://www.spoj.com/problems/GCPC11A"target="_blank">GCPC11A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11B" target="_blank">9118. Genetic Fraud</a></td><td><a href="http://www.spoj.com/problems/GCPC11B"target="_blank">GCPC11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11C" target="_blank">9119. Indiana Jones and the lost Soccer Cup</a></td><td><a href="http://www.spoj.com/problems/GCPC11C"target="_blank">GCPC11C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11D" target="_blank">9120. Magic Star</a></td><td><a href="http://www.spoj.com/problems/GCPC11D"target="_blank">GCPC11D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11E" target="_blank">9121. Magical Crafting</a></td><td><a href="http://www.spoj.com/problems/GCPC11E"target="_blank">GCPC11E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11F" target="_blank">9122. Diary</a></td><td><a href="http://www.spoj.com/problems/GCPC11F"target="_blank">GCPC11F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11G" target="_blank">9123. Security Zone</a></td><td><a href="http://www.spoj.com/problems/GCPC11G"target="_blank">GCPC11G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11H" target="_blank">9124. Sightseeing</a></td><td><a href="http://www.spoj.com/problems/GCPC11H"target="_blank">GCPC11H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11I" target="_blank">9125. Suiting Weavers</a></td><td><a href="http://www.spoj.com/problems/GCPC11I"target="_blank">GCPC11I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCPC11J" target="_blank">9126. Time to live</a></td><td><a href="http://www.spoj.com/problems/GCPC11J"target="_blank">GCPC11J</a><br>
+</td></tr>

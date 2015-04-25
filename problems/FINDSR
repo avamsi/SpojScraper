@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FINDSR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7212. Find String Roots</h1>
+		<h2>Problem code: FINDSR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In mathematics, the N-th root of a number M, is a number K such that K<sup>N</sup> = M , i.e. KKK . . . K = M where K is multiplied N times.<br />We can translate this into strings. In string notation, the yuxtaposition is concatenation instead of multiplication. So, the N-th root of a string S is another string T such that T<sup>N</sup> = S, where T N = T T T . . . T is the string T concatenated N times. For instance, if S = &ldquo;abcabcabcabc&rdquo;, for N = 2 the string T = &ldquo;abcabc&rdquo; is the N-th root of S, while for N = 4 its N-th root is T = &ldquo;abc&rdquo;. Note that for N = 1 any string S is the N-th root<br />of S itself.<br />Given a string S you have to find the maximum N such that the N-th root of S exists. In the above example the answer would be 4, because there is no N-th root of S = &ldquo;abcabcabcabc&rdquo; for N &gt; 4.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in a single line. The line contains<br />a non-empty string S of at most 10<sup>5</sup> characters, entirely formed of digits and lowercase<br />letters. The last line of the input contains a single asterisk (&ldquo;*&rdquo;) and should not be<br />processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with the greatest integer N such that there exists<br />a string T that concatenated N times is equal to S.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />abcabcabcabc<br />abcdefgh012<br />aaaaaaaaaa<br />*<br /><br /><strong>Output:</strong>
+4<br />1<br />10</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-22</td></tr>
+<tr><td>Time limit:</td><td>0.613s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2009</td></tr>	
+</table>

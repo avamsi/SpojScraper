@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZIGZAG2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14905. Zig when you zag</h1>
+		<h2>Problem code: ZIGZAG2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We say that a sequence of numbers x(1),x(2),...,x(k) is zigzag if no three of its consecutive elements create a nonincreasing or nondecreasing sequence. More precisely, for all i=1,2,...,k-2 either x(i+1)&lt;x(i),x(i+2) or x(i+1)&gt;x(i),x(i+2).</p>
+<p>You are given two sequences of numbers a(1),a(2),...,a(n) and b(1),b(2),...,b(m). The problem is to compute the length of their longest common zigzag subsequence.  In other words, you're going to delete elements from the two  sequences so that they are equal, and so that they're a zigzag sequence. If the minimum number of elements required to do this is k then your answer is m+n-2k.</p>
+<h3>Input</h3>
+<p>There is a single integer t (t&le;100) on the first line of input. Then t test cases follow. Each of them consists of two lines. The first line contains the length of the first sequence n (1&le;n&le;2000) and n integers a(1),a(2),...,a(n). The second line contains the length of the second sequence m (1&le;m&le;2000) and m integers b(1),b(2),...,b(m). All a(i) and b(i) are from [-10<sup>9</sup>,10<sup>9</sup>].  (REPEAT: the first number on the line is not part of the sequence,  it's the length of the sequence.)</p>
+<h3>Output</h3>
+<p>For each test case output one line containing the length of the longest common zigzag subsequence of a and b.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+5 1 2 5 4 3
+5 4 1 2 5 3
+3 1 2 1
+2 1 1
+<strong>Output:</strong>
+3
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2013-05-10</td></tr>
+<tr><td>Time limit:</td><td>1s-4s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

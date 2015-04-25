@@ -1,0 +1,111 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VOCV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>666. Con-Junctions</h1>
+		<h2>Problem code: VOCV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="left">
+The city of <B>Y-O</B> is a network of two-way streets and junctions with the following properties:
+
+<ol>
+<li> There is no more than one street between each pair of junctions.
+<li> Every junction is connected to every other junction either directly via a street or through other junctions by a unique path.
+<li> When a light is placed at a junction, all the streets meeting at this junction are also lit.
+</ol>
+</p>
+
+<p align="left">
+A valid lighting is a set of  junctions such that if lights were placed at these, all the streets would be lit.
+An optimal lighting is a valid lighting such that it contains the least number of junctions.
+</p>
+
+<p align="left">
+The task is divided into two subtasks:
+<ol>
+<li> Find the number of lights in an optimal lighting.
+<li> Find the total number of such optimal lightings in the city.
+</ol>
+</p>
+
+<h3>Input</h3>
+
+<ul>
+<li> The first line of the input contains a positive integer <B>t <= 20</B>, denoting the number of test cases.
+<li> The description of the test cases follows one after the other.
+
+
+<li><B>Network Description:</B>
+<ul> 
+<li> The first line of description of a network consists of a positive integer <B>n <= 100010</B> denoting the number of junctions in the network. 
+<li> Each junction is numbered with a unique integer between <B>1</B> and <B>n</B>.
+<li> The following <B>n-1</B> lines contain a pair of integers <B>u v (1 <= u,v  <=  n)</B> separated by a single space denoting that there is a street between junction <B>u</B> and junction <B>v</B>.
+</ul>
+</ul>
+</p>
+
+<h3>Output</h3>
+<p align="left">
+The output must consist of <B>t</B> lines, the <B>k<sup>th</sup></B> line corresponding to the <B>k<sup>th</sup></B> network; <B>(1 <= k <= t)</B>.
+The <B>k<sup>th</sup></B> line must contain two integers separated by a single space.
+The first integer on the <B>k<sup>th</sup></B> line must be the number of junctions in an optimal lighting of network <B>k</B>.
+The second integer must be <B>N%10007</B>, which is the remainder left by the number of optimal lightings when divided by <B>10007</B>.
+</p>
+
+<h3>Example</h3>
+
+<tt>
+<p align="left">
+<B>Input:</B>
+
+<BR>2
+<BR>4
+<BR>1 2
+<BR>2 3
+<BR>3 4
+<BR>3
+<BR>1 2
+<BR>1 3
+</FONT>
+</p>
+
+<p align="left">
+
+<B>Output:</B>
+<BR>2 3
+<BR>1 1
+</p>
+</tt>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simba">Kashyap KBR</a></td></tr>
+<tr><td>Date:</td><td>2005-12-12</td></tr>
+<tr><td>Time limit:</td><td>1.887s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: JAR NEM NICE NODEJS PERL 6 SCM chicken SCM qobi ST VB.net </td></tr>
+	
+</table>

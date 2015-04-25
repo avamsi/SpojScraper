@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CANDY3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2148. Candy III</h1>
+		<h2>Problem code: CANDY3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A class went to a school trip. And, as usually, all <b>N</b> kids have got their backpacks stuffed with candy. But soon quarrels started all over the place, as some of the kids had more candies than others. Soon, the teacher realized that he has to step in: "Everybody, listen! Put all the candies you have on this table here!" </p>
+
+<p>Soon, there was quite a large heap of candies on the teacher's table. "Now, I will divide the candies into <b>N</b> equal heaps and everyone will get one of them." announced the teacher. </p>
+
+<p>"Wait, is this really possible?" wondered some of the smarter kids. </p>
+
+<h3>Problem specification</h3>
+<p>You are given the number of candies each child brought. Find out whether the teacher can divide the candies into <b>N</b> exactly equal heaps. (For the purpose of this task, all candies are of the same type.) </p>
+
+<h3>Input specification</h3>
+<p>The first line of the input file contains an integer <b>T</b> specifying the number of test cases. Each test case is preceded by a blank line. </p>
+
+<p>Each test case looks as follows: The first line contains <b>N</b> : the number of children. Each of the next <b>N</b> lines contains the number of candies one child brought. </p>
+
+<h3>Output specification</h3>
+<p>For each of the test cases output a single line with a single word "YES" if the candies can be distributed equally, or "NO" otherwise. </p>
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+
+5
+5
+2
+7
+3
+8
+
+6
+7
+11
+2
+7
+3
+4
+
+<b>Output:</b>
+YES
+NO
+</pre>
+<b>Note: the input file will not exceed 1MB.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>0.275s-0.774s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2006</td></tr>	
+</table>

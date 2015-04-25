@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROOKS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7248. Chess part1</h1>
+		<h2>Problem code: ROOKS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">Two rooks are to be placed on a chess like N*N game board . each square contains a single non negative integer . the rooks must be placed on different squares.</p>
+<p style="text-align: left;">We say that some squares on the board are attacked if that square in the same row or same column with the rook but squares containing rooks are not attacked.</p>
+<p style="text-align: left;">We want to place our rooks so that the total sum of the numbers of all attacked squares is as large as possible . write a program that will find this maximum sum.</p>
+<p align="right">&nbsp;</p>
+<h3>Input</h3>
+<p style="text-align: left;">The first line on input will contain N , 2&lt;=N&lt;=300</p>
+<p style="text-align: left;">Each of the following N lines N integers . each number will be greater than or equal zero and less that 1000 these are numbers on board</p>
+<p align="right">&nbsp;</p>
+<h3>Output</h3>
+<p style="text-align: left;">the only line should contain single integer &ndash; the maximum sum from the task description</p>
+<p align="right">&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>0 1 4</pre>
+<pre>3 0 2</pre>
+<pre>1 4 1
+
+<strong>Output:</strong>
+15
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohamed_maher">Kawmia Institutes</a></td></tr>
+<tr><td>Date:</td><td>2010-08-30</td></tr>
+<tr><td>Time limit:</td><td>0.268s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Croatian Highschool Competitions in Informatics 2006</td></tr>	
+</table>

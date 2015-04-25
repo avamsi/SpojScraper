@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/rudradevbasak"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TEAMNIM" target="_blank">11273. Team Nim</a></td><td><a href="http://www.spoj.com/problems/TEAMNIM"target="_blank">TEAMNIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIGHTPZ" target="_blank">11274. Lights and Switches</a></td><td><a href="http://www.spoj.com/problems/LIGHTPZ"target="_blank">LIGHTPZ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADVNTURE" target="_blank">11276. Adventure</a></td><td><a href="http://www.spoj.com/problems/ADVNTURE"target="_blank">ADVNTURE</a><br>
+</td></tr>

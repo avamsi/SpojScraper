@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GONE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10790. G-One Numbers</h1>
+		<h2>Problem code: GONE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The War of Evil vs Good continues and Ra-One and G-One continue to be on respective sides.</p>
+<p>After saving all the cities with <a href="https://www.spoj.pl/problems/RAONE/">Ra-One Numbers</a> G-One realised that some cities whose population is a "G-One Number" can be easy target for Ra-One.</p>
+<p>A G-One number is a number sum of whose digits is a prime number</p>
+<p>For eg. 12 .. sum = 1+2 =3 ... 3 is a prime number.</p>
+<p>G-One wants to find out all the populations which can be g-One numbers....</p>
+<p>Can You help Him.?</p>
+<p>&nbsp;</p>
+<p>You will be given the range of population and you have to tell him how many in this range are G-One Numbers.</p>
+<h3>Input</h3>
+<p>first line has number 'c' indicating the number of ranges.</p>
+<p>'c' lines follow and contain two numbers ..... 'f' and 't' inclusive.</p>
+<h3>Output</h3>
+<p>Print a single line per case giving the number of populations which are G-One numbers.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />10 19<br />1 9<br />20 29<br /><br /><br />&nbsp;<strong>Output:</strong>
+<br />4<br />4<br />5<br /><br /><strong>Note</strong>: c will be less than 100<br />t and f will be less than 10^8 inclusive<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/keedap">Devil D</a></td></tr>
+<tr><td>Date:</td><td>2012-02-24</td></tr>
+<tr><td>Time limit:</td><td>0.171s
+</td></tr>
+<tr><td>Source limit:</td><td>30000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

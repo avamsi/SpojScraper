@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ININT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2421. Incrementing The Integer</h1>
+		<h2>Problem code: ININT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Starting from the number '1', every time you can choose a digit from the current number and add it to the number itself.  23, for example, could be changed into 25 or 26. To get 100, using the above scheme, paths A and B are both possible. A requires 21 steps, but B needs only 17 (which is also the minimum) <br><br>
+
+A. 1-2-4-8-16-17-18-19-20-22-24-28-36-39-48-56-62-68-76-83-91-100<br/>
+B. 1-2-4-8-16-17-24-28-36-39-48-56-62-68-76-83-91-100<br/><br>
+
+C is another 17 step solution for 100.<br/>
+<br/>
+C. 1-2-4-8-16-22-24-28-36-39-48-56-62-68-76-83-91-100<br/>
+<br/>
+
+Now, you are given several numbers, for each number, print the minimum steps S and number of solutions T. As T could be quite large, you should print T%1000000007 instead.<br />
+
+<h3>Input</h3>
+<p>Each line of input contains a integer K as a test case. Input ends with End Of File.
+
+<h3>Output</h3>
+<p>For each test case print the minimum steps and solutions in a single line. If it's impossible to get the number, print "IMPOSSIBLE" instead. ( without the quotes ).
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+16
+100
+87
+
+<b>Output:</b>
+4 1
+17 2
+IMPOSSIBLE
+</pre>
+
+<h3>Constraints and Limits</h3>
+<p>Number of test cases &#8804; 100, 1 &#8804; K &#8804; 10^9.
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ajaysomani">Ajay Somani</a></td></tr>
+<tr><td>Date:</td><td>2008-02-05</td></tr>
+<tr><td>Time limit:</td><td>0.814s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://felicity.iiit.ac.in/codecraft/">CodeCraft 08</a>, Problem Setter: Jin Bin</td></tr>	
+</table>

@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TSPAGAIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6503. Travelling Salesman Again !</h1>
+		<h2>Problem code: TSPAGAIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are N cities numbered from 0..N-1. A salesman is located at city 0. He wishes to visit all cities exactly once and return back to city 0. There are K toll booths. Each toll booth has a certain range of functioning. The parameters for toll k are given as x_k and y_k. If the salesman travels from city i to j, he has to pay 1 dollar toll fee to each toll p having x_p &gt;= i and y_p &lt;= j. Calculate the cheapest way for the salesman to complete his tour.</p>
+<p><br />Input :</p>
+<p>The first line contains T the number of test cases. T test cases follow. The first line of each test case contains two space seperated integers N and K. Each of the next K lines contains 2 integers, the ith line containing x_i and y_i (0 &lt;= x_i,y_i &lt; N). A blank line seperates two test cases.<br /><br /><br />Output :<br /><br />Output T lines, one for each test case, containing the required answer.<br /><br /><br />Sample Input :<br /><br />2<br />3 2<br />2 0<br />0 2<br /><br />3 4<br />1 0<br />2 1<br />0 1<br />1 2<br /><br />Sample Output :<br /><br />3<br />6<br /><br />Constraints :</p>
+<p>1 &lt;= T &lt;= 50<br />2 &lt;= n &lt;= 1000<br />1 &lt;= K &lt;= 10000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-04-13</td></tr>
+<tr><td>Time limit:</td><td>0.430s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Codechef APRIL10 contest</td></tr>	
+</table>

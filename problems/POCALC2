@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POCALC2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8542. Modern Pocket Calculator</h1>
+		<h2>Problem code: POCALC2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Adam likes pocket calculators, not only the  <a href="../../problems/POCALC1/">early ones</a>, but also the modern ones with a  two line LCD-display and mathematically correct operator precedence. The upper (input-)line shows the expression you typed in, the (output-)line below shows the result immediately after the [=] key has been pressed. Given the calculator's input-line, the program's task is to produce its output-line. Using the calculator's [S-D] key, the display switches between fractional and decimal representation of the result, so output must contain both  representations.</p>
+<p style="text-align:center"><img src="../../../content/numerix:pocalc2-b-300-gr.jpg" alt="Display left" width="300" height="114" /> <img src="../../../content/numerix:pocalc2-a-300-gr.jpg" alt="Display right" width="300" height="114" /></p>
+<!--
+<p style="text-align:center" mce_style="text-align:center"><img src="pocalc2-b-300-gr.jpg" mce_src="pocalc2-b-300-gr.jpg"></img> <img src="pocalc2-a-300-gr.jpg" mce_src="pocalc2-a-300-gr.jpg"></img></p>
+-->
+<h3>Input</h3>
+<p>Input starts with a positive integer t (t&lt;1000) in a single line, then t testcases follow. Every testcase consists of either three lines or a single line, representing the expression in the calculator's input-line, followed by a blank line.  An expression contains n numbers (0 &lt; n &lt; 10) with exactly one operator (+, -, x, :) between any two numbers and exactly one space to separate number and operator. There will be no invalid expression and no undefined operation.<br /> A number is given as a decimal, a fraction or a mixed number and will be non-negative. If a number is positive, its decimal value is between 10<sup>-9</sup> and 10<sup>9</sup>, numerator and denominator are also non-negative and not larger than 10<sup>9</sup> each, given decimals have at most 9 digits overall. These constraints also hold for all calculations, if done properly. The length of the fraction bar depends on the maximum length of the numerator or the denominator respectively. If lengths of numerator and denominator are different, the shorter one will be centered based on the fraction bar. If centering isn't possible, it is set one digit to the right.</p>
+<h3>Output</h3>
+<p>For each testcase print the result the calculator will display in its output-line: first fractional, then decimal, both representations separated by " [S-D] ". If a result is negative, the negative sign has to be printed directly (i.e. no space) in front of the integer part or the fraction bar.<br /> The fractional representation has to be printed in lowest terms either as a proper fraction or mixed number. If the number has an integer representation, that has to be printed instead. Numerator and denominator have to be placed as described in the input section.<br /> After " [S-D] " the exact(!) decimal represenation has to be printed.  As the screenshot shows, the calculator is even able to display a repeating decimal in its decimal representation using a vinculum, so that's what the program has to do as well, using underscores in the line above. You can assume that no decimal expansion is longer than 100 digits (it's a calculator with XXL-display).</p>
+<p>The number of lines for every output depends on the result. It may be three lines (if fractions appear) or a single line (if result is an integer). Print a blank line after every testcase except the last one. Be careful not to print any trailing spaces.</p>
+<p><strong>For more clarity of input and output format please look at the examples below.</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />  9          50<br />2-- + 0.26 x --<br /> 11          15<br /><br />        4   9<br />5.88 - -- : -<br />       18   5<br /><br />3 - 5.125<br /><br />9 + 14<br /><br /> 1       <br />--- x 0.5<br />100      <br /><br /><br /><strong>Output:</strong><br /> 113          __<br />3--- [S-D] 3.684<br /> 165<br /><br /> 1532           _________<br />5---- [S-D] 5.75654320987<br /> 2025<br /><br />  1<br />-2- [S-D] -2.125<br />  8<br /><br />23 [S-D] 23<br /><br /> 1<br />--- [S-D] 0.005<br />200<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/numerix">numerix</a></td></tr>
+<tr><td>Date:</td><td>2011-03-12</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

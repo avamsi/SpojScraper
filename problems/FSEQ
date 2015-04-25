@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9975. No Stories Any More!</h1>
+		<h2>Problem code: FSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Have you ever wished to be given a direct problem statement in the contest? Do you hate the boring stories that problem setters write...starting from &ldquo;john was going on a trip&rdquo;&hellip;passing with &ldquo;blablabla&rdquo;&hellip;and ending with &ldquo;kindly help John J&rdquo;. We all know that there is no John so why wasting contestants time. As we were contestants and know that feeling very well, we decided to break that boring way and save your time&hellip;</p>
+<p>Given the following sequence details:&nbsp; <strong>F(0) = 0, F(1) = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>and<strong>&nbsp;</strong></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SUM F(i) [i from 0 to n] = F(n+2) - 1</strong></p>
+<p>For a given integer M, we will generate another infinite sequence defined as:&nbsp; <strong>T(i) = F(i) % M</strong>. We noticed that this is a repeating sequence: it repeats itself after some <strong>C</strong> iterations, where C is the cycle length for sequence T. Let&rsquo;s define <strong>H(j),</strong> as the finite, <em>most left</em>, strictly increasing <strong>sub</strong>-sequence starting at position <strong>j</strong> in the sequence T, <em>preserving</em> the elements order of T. In other words:</p>
+<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>H(0), </strong>the<strong> </strong>first element in H, is<strong> T(j)</strong></p>
+<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>H(1)</strong>&nbsp; = T(k1), where T(k1) is the first element &gt; T(j) where j &lt; k1</p>
+<p>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>H(2)</strong>&nbsp; = T(k2), where T(k2) is the first element &gt; T(k1) where k1 &lt; k2, and so on</p>
+<p>For example, if M = 4, then T = [<strong>0 1 1 2 3 1</strong>&nbsp;&nbsp; 0 1 1 2 3 1&nbsp;&nbsp; 0 1 1 2 &hellip;]. Furthermore: H(0) = [0 1 2 3], H(3) = [2 3], and H(5) = [1 2 3]. <strong>Length(&nbsp; H(j) )</strong> is the number of elements in that sequence, e.g. <strong>Length(H(5))</strong> = 3. The <strong>Cycle length(C)</strong> for sequence T is 6.</p>
+<p>&nbsp;</p>
+<p>For a given M, you will calculate its C, and <strong>evaluate</strong> the following <strong>summation</strong>:</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SUM Length( H(k) ) [k = 0 to C-1]</strong></p>
+<p><strong>Input Specification:</strong></p>
+<p>The first line of input contains an integer T that represents the number of test cases, then follow T lines each contains an integer 1 &le; M &le; 10<sup>5</sup>. NOTE: for any <strong><em>given</em></strong> test case, sequence T repeats after maximum C iterations where C &le; 10<sup>5</sup>.</p>
+<p><strong>Output Specification:</strong></p>
+<p>For each test case, output a single line of output in the form <strong>&ldquo;Case K: summation&rdquo;</strong> where K is the number of the test case and summation is as defined in the problem statement.</p>
+<p>&nbsp;</p>
+<p><strong>Sample input:</strong></p>
+<p>1</p>
+<p>4</p>
+<p><strong>Sample Output:</strong></p>
+<p>Case 1: 16</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mostafa_saad">Mostafa Saad</a></td></tr>
+<tr><td>Date:</td><td>2011-11-13</td></tr>
+<tr><td>Time limit:</td><td>1.489s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>10th Egyptian Collegiate Programming Contest</td></tr>	
+</table>

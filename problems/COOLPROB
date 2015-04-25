@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COOLPROB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22532. Cool Problem</h1>
+		<h2>Problem code: COOLPROB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Prem Kamal went to Tokyo, where one day he decided to tour the city.  He will be visiting a number of regions. In each region, there are N  buildings of heights H<sub>1,</sub>H<sub>2...</sub>H<sub>N</sub>.<br />A region is represtented across x-axis with buildings placed at positions 1..N, next to each other in a <em>random</em> order (let the order be represented as h<sub>1,</sub>h<sub>2...</sub>h<sub>N</sub>).<br />Prem  Kamal, known for his cool acts, decides to calculate the coolness of  the region. Each position has some coolness score (C(i)) associated with  it. But that coolness score is added only if there is a cool building  at that position. A building is cool if it is <em>strictly taller</em> than its left and right neighbor (<em>first and last buildings are not considered cool</em>). Moreover, since it gets boring going through the same region, the coolness score of later positions is lesser. <strong>See the formal definitions carefully.</strong></p>
+<p><em>Formal Definitions:</em><br />C(1) = 1<br />C(i) = C(i-1)*0.99<br />The heights H<sub>i</sub> are generated as follows:<br />H<sub>1</sub> = X<br />H<sub>i</sub> = (H<sub>i-1</sub> * X) mod <strong>10007</strong></p>
+<p>Given N and X, what is the expected overall coolness of the region.</p>
+<p><strong>Constraints<br /></strong>T = 2000<br />1&lt;=N&lt;=10^3<br />2&lt;=X&lt;=10^3</p>
+<p><strong>Input<br /></strong>First line consists of the number of test cases <strong>T</strong>. <strong>T</strong> test cases follow. Each test cases consist of a space separated integers <strong>N</strong> and <strong>X</strong>.</p>
+<p><strong>Output<br /></strong>For each teste case, print the expected overall coolness score of the region. Round the results and print <strong>exactly </strong>6 decimal places. ('%.6lf' format specifier for double in C)</p>
+<pre><strong>Sample Input<br /></strong>2<br />3 3<br />2 10</pre>
+<pre><strong>Sample Output<br /></strong>0.330000<br />0.000000</pre>
+<p><strong>Explanation</strong></p>
+<p>For first sample case, the heights are (3, 9, 27) and position scores are (1, 0.99, 0.99*0.99)<br />However there are only two possible configurations out of 6 where there exists a cool building.<br />Coolness of (3, 27, 9) = 0.99&nbsp; (there is a cool building at position 2)<br />Coolness of (9, 27, 3) = 0.99<br />Expected coolness = 0.99*1/6 + 0.99*1/6 = 0.33</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nims11">VV</a></td></tr>
+<tr><td>Date:</td><td>2015-01-28</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (CQM 7, BIT Mesra)</td></tr>	
+</table>

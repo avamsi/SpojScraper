@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CT25C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7025. Roads in Berland</h1>
+		<h2>Problem code: CT25C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are <span><em>n</em></span> cities numbered from 1 to <span><em>n</em></span> in Berland. Some of them are connected by two-way roads. Each road has  its own length &mdash; an integer number from 1 to 1000. It is known that from  each city it is possible to get to any other city by existing roads.  Also for each pair of cities it is known the distance between  them. Berland Government plans to build <span><em>k</em></span> new roads. For each of the planned road it is known its length, and  what cities it will connect. To control the correctness of the  construction of new roads, after the opening of another road Berland  government wants to check the sum of the shortest distances between all  pairs of cities. Help them &mdash; for a given matrix of distances on  the old roads and plans of all new roads, find out how the sum of the  shortest distances between all pairs of cities changes after  construction of each road.</p>
+<h3>Input</h3>
+<p>The first line contains integer <span><em>n</em></span> (<span>2&thinsp;&le;&thinsp;<em>n</em>&thinsp;&le;&thinsp;300</span>) &mdash; amount of cities in Berland. Then there follow <span><em>n</em></span> lines with <span><em>n</em></span> integer numbers each &mdash; the matrix of distances. <span><em>j</em></span>-th integer in the <span><em>i</em></span>-th row &mdash; <span><em>d</em><sub><em>i</em>,&thinsp;<em>j</em></sub></span>, the distance between cities <span><em>i</em></span> and <span><em>j</em></span>. It is guaranteed that <span><em>d</em><sub><em>i</em>,&thinsp;<em>i</em></sub>&thinsp;=&thinsp;0,&thinsp;<em>d</em><sub><em>i</em>,&thinsp;<em>j</em></sub>&thinsp;=&thinsp;<em>d</em><sub><em>j</em>,&thinsp;<em>i</em></sub></span>,  and a given matrix is a matrix of distances for some set of  two-way roads with integer lengths from 1 to 1000, such that from each  city it is possible to get to any other city using these roads.</p>
+<p>Next line contains integer <span><em>k</em></span> (<span>1&thinsp;&le;&thinsp;<em>k</em>&thinsp;&le;&thinsp;300</span>) &mdash; amount of planned roads. Following <span><em>k</em></span> lines contain the description of the planned roads. Each road is described by three space-separated integers <span><em>a</em><sub><em>i</em></sub></span>, <span><em>b</em><sub><em>i</em></sub></span>, <span><em>c</em><sub><em>i</em></sub></span> (<span>1&thinsp;&le;&thinsp;<em>a</em><sub><em>i</em></sub>,&thinsp;<em>b</em><sub><em>i</em></sub>&thinsp;&le;&thinsp;<em>n</em>,&thinsp;<em>a</em><sub><em>i</em></sub>&thinsp;&ne;&thinsp;<em>b</em><sub><em>i</em></sub>,&thinsp;1&thinsp;&le;&thinsp;<em>c</em><sub><em>i</em></sub>&thinsp;&le;&thinsp;1000</span>) &mdash; <span><em>a</em><sub><em>i</em></sub></span> and <span><em>b</em><sub><em>i</em></sub></span> &mdash; pair of cities, which the road connects, <span><em>c</em><sub><em>i</em></sub></span> &mdash; the length of the road. It can be several roads between a pair of cities, but no road connects the city with itself.</p>
+<h3>Output</h3>
+<p>Output <span><em>k</em></span> lines, each line contains one integers <span><em>q</em><sub><em>i</em></sub></span> (<span>1&thinsp;&le;&thinsp;<em>i</em>&thinsp;&le;&thinsp;<em>k</em></span>). <span><em>q</em><sub><em>i</em></sub></span> should be equal to the sum of shortest distances between all pairs of  cities after the construction of roads with indexes from 1 to <span><em>i</em></span>.  Roads are numbered from 1 in the input order. Each pair of cities  should be taken into account in the sum exactly once, i. e. we count  unordered pairs.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>3<br />0 4 5<br />4 0 9<br />5 9 0<br />2<br />2 3 8<br />1 2 1</pre>
+<br /><br /><br /><br /><strong>Output:</strong><br />17 <br />12<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-08-06</td></tr>
+<tr><td>Time limit:</td><td>0.126s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Based on codeforces</td></tr>	
+</table>

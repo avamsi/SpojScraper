@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCJ2012C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11386. Recycled Numbers</h1>
+		<h2>Problem code: GCJ2012C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Do you ever become frustrated with television because you keep seeing the same things, recycled over and over again? Well I personally don't care about television, but I do sometimes feel that way about numbers.
+
+<p>Let's say a pair of distinct positive integers (n, m) is recycled if you can obtain m by moving some digits from the back of n to the front without changing their order. For example, (12345, 34512) is a recycled pair since you can obtain 34512 by moving 345 from the end of 12345 to the front. Note that n and m must have the same number of digits in order to be a recycled pair. Neither n nor m can have leading zeros.
+
+<p>Given integers A and B with the same number of digits and no leading zeros, how many distinct recycled pairs (n, m) are there with A &#8804; n < m &#8804; B?
+
+<p>Limits<br/>
+1 &#8804; T &#8804; 55<br/>
+A and B have the same number of digits.<br/>
+1 &#8804; A &#8804; B &#8804; 2000000.<br/>
+
+<p>Are we sure about the output to Case #4?<br/>
+Yes, we're sure about the output to Case #4.
+
+<h3>Input</h3>
+<p>The first line of the input gives the number of test cases, T. T test cases follow. Each test case consists of a single line containing the integers A and B.
+
+<h3>Output</h3>
+<p>For each test case, output one line containing "Case #x: y", where x is the case number (starting from 1), and y is the number of recycled pairs (n, m) with A &#8804; n < m &#8804; B.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+1 9
+10 40
+100 500
+1111 2222
+
+<b>Output:</b>
+Case #1: 0
+Case #2: 3
+Case #3: 156
+Case #4: 287
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shkoorah">Ruslan Sennov</a></td></tr>
+<tr><td>Date:</td><td>2012-04-15</td></tr>
+<tr><td>Time limit:</td><td>1.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>GCJ2012</td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nikhil"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NG0FRCTN" target="_blank">5640. Fractions on Tree</a></td><td><a href="http://www.spoj.com/problems/NG0FRCTN"target="_blank">NG0FRCTN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NG1FRCTN" target="_blank">5673. Fractions on Tree ( reloaded !)</a></td><td><a href="http://www.spoj.com/problems/NG1FRCTN"target="_blank">NG1FRCTN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITD1" target="_blank">7565. Another Sorting Algorithm</a></td><td><a href="http://www.spoj.com/problems/IITD1"target="_blank">IITD1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITD5" target="_blank">7566. Expected Cycle Sums</a></td><td><a href="http://www.spoj.com/problems/IITD5"target="_blank">IITD5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITD4" target="_blank">7567. Divisor Summation Powered</a></td><td><a href="http://www.spoj.com/problems/IITD4"target="_blank">IITD4</a><br>
+</td></tr>

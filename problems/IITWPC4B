@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18245. Maggu and Triangles</h1>
+		<h2>Problem code: IITWPC4B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Maggu has a wire of length n. He has to make triangles out of it such that the side lengths of each triangle are integers. He now wants to know the number of distinct (not congruent) triangles that he can create using the wire of length n. Note that he has to use all of the wire in making the triangle.</p>
+<h3>Input</h3>
+<p>First line contains T: number of test cases. (1 &lt;= T &lt;= 10^5)<br />For each test case, there is a single line containging an integer n (n &gt;= 1 &amp;&amp; n &lt;= 10^9)</p>
+<h3>Output</h3>
+<p>Each test case output a single integer representing the number of triangles he can create.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />5<br />7<br />9
+
+<strong>Output:</strong><br />1<br />2<br />3
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

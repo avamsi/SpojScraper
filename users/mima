@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mima"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TEST" target="_blank">1. Life, the Universe, and Everything</a></td><td><a href="http://www.spoj.com/problems/TEST"target="_blank">TEST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ONP" target="_blank">4. Transform the Expression</a></td><td><a href="http://www.spoj.com/problems/ONP"target="_blank">ONP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BSHEEP" target="_blank">26. Build the Fence</a></td><td><a href="http://www.spoj.com/problems/BSHEEP"target="_blank">BSHEEP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SBANK" target="_blank">27. Sorting Bank Accounts</a></td><td><a href="http://www.spoj.com/problems/SBANK"target="_blank">SBANK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HMRO" target="_blank">28. Help the Military Recruitment Office!</a></td><td><a href="http://www.spoj.com/problems/HMRO"target="_blank">HMRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HASHIT" target="_blank">29. Hash it!</a></td><td><a href="http://www.spoj.com/problems/HASHIT"target="_blank">HASHIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NHAY" target="_blank">32. A Needle in the Haystack</a></td><td><a href="http://www.spoj.com/problems/NHAY"target="_blank">NHAY</a><br>
+</td></tr>

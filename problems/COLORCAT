@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COLORCAT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19037. The colors of cats</h1>
+		<h2>Problem code: COLORCAT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a circle with n cats, includes white cats, red cats and green cats. When two cats with different color talk with each other, they both change to third color. If they are same color, nothing will happen.</p>
+<p>At i-th step, the 1<sup>st</sup> cat talks with 2<sup>nd</sup> cat, the 2<sup>nd</sup> cat talks with the 3<sup>rd</sup> cat,&hellip; and the n<sup>th</sup> cat talks with 1<sup>st</sup> cat.</p>
+<p>Given the original color of n cats, your task is find the color of n cats after k steps.</p>
+<p><strong>Input :</strong></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First line : n and k (1 &le; n &le; 20000, 1 &le; k &le; 30000)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second line : n characters, the i-th charater denotes color of the i-th cat at first state</p>
+<p><strong>Output :</strong></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n charaters denotes the color of n cats after k steps.</p>
+<p><strong>Sample :</strong></p>
+<p>Input :</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 1</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GRR</p>
+<p>Output :</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RGR</p>
+<p>Input :</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 4</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WRWRW</p>
+<p>Output :</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GGGWG</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2014-03-13</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>VNOI</td></tr>	
+</table>

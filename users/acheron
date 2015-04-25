@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/acheron"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/AUT" target="_blank">15827. Vending Machine</a></td><td><a href="http://www.spoj.com/problems/AUT"target="_blank">AUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAVE2" target="_blank">15892. Cave</a></td><td><a href="http://www.spoj.com/problems/CAVE2"target="_blank">CAVE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUSINESS" target="_blank">16185. Mining your own business</a></td><td><a href="http://www.spoj.com/problems/BUSINESS"target="_blank">BUSINESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LUCKY" target="_blank">16483. Lucky Cities</a></td><td><a href="http://www.spoj.com/problems/LUCKY"target="_blank">LUCKY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IE1" target="_blank">16607. Sweets</a></td><td><a href="http://www.spoj.com/problems/IE1"target="_blank">IE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IE2" target="_blank">16636. Journey</a></td><td><a href="http://www.spoj.com/problems/IE2"target="_blank">IE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IE4" target="_blank">16639. Endless Knight</a></td><td><a href="http://www.spoj.com/problems/IE4"target="_blank">IE4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWOGAME" target="_blank">17559. Two Game</a></td><td><a href="http://www.spoj.com/problems/TWOGAME"target="_blank">TWOGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SAWMILL" target="_blank">17877. Two Swamills</a></td><td><a href="http://www.spoj.com/problems/SAWMILL"target="_blank">SAWMILL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IE5" target="_blank">18393. Hamiltonian Cycles</a></td><td><a href="http://www.spoj.com/problems/IE5"target="_blank">IE5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MINSUB" target="_blank">20863. Largest Submatrix</a></td><td><a href="http://www.spoj.com/problems/MINSUB"target="_blank">MINSUB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNIM" target="_blank">20951. Pebbles</a></td><td><a href="http://www.spoj.com/problems/SNIM"target="_blank">SNIM</a><br>
+</td></tr>

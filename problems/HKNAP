@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HKNAP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>699. Huge Knap Sack</h1>
+		<h2>Problem code: HKNAP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+Our King has won the brutal battle and this whole land is now ours. The special thing about this land is that it has many beautiful golden statues. Our King wants to take back as much gold as possible to his palace. We have found that there are <strong>N</strong> types of statues
+and -- almost unbelievably -- that there is an unlimited
+number of each type of statue. Each statue of type <strong>i</strong> has a weight of <strong>W[i]</strong> units and occupies <strong>V[i]</strong> units of volume. Our King wants to maximize the amount of gold he
+carries back to his palace. We may use <strong>S</strong> sacks for this purpose, each of volume <strong>Y</strong>.
+All sacks are filled up independently by golden statues. However, there is a provision to stitch two sacks together, at the cost of <strong>C</strong>
+units of gold. Stitching three sacks costs 2*C because it requires two stitchings, and so on. Your task is to find
+how much gold our King can possibly gain, i.e. the
+total weight of the statues brought back, minus the stitching charges.</p>
+<h3>Input</h3>
+<p>  T &#8211; The number of test cases.<br>
+  For each test case :<br>
+
+  N S Y C // 1st line<br>
+Next N lines two numbers W[i] and V[i] each.</p>
+<h3>Output</h3>
+<p>One integer, the maximum gain in gold for our King.<br>
+  This gain is the total amount of gold transported minus stitching charges.</p>
+<p><strong>Constraints :</strong><br>
+  1<= S <= 1000 <br>
+
+  1<= Y <= 1000 000 000<br>
+  1<= N <= 1000<br>
+  1<= W[i] <= 100; (for all i)<br>
+  1<= V[i] <= 18; <br>
+
+  The Output will fit into a 64-Bit integer. <br>
+  1<=T<=20<br>
+  All W[i] & V[i] are guaranteed to be either prime or equal to 1.</p>
+<h3>Example</h3>
+<tt>
+<p><strong>Sample Input:</strong><br>
+
+  2<br>
+  2 5 3 1<br>
+  1 2<br>
+  5 7<br>
+  2 5 3 1<br>
+  1 2<br>
+
+  7 5<br>
+  <br>
+  <strong>Sample Output:</strong><br>
+6<br>
+17</p>
+</tt>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2006-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.266s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://pragyan.org/bytecode/2k6/"> ByteCode '06 </a></td></tr>	
+</table>

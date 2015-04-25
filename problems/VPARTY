@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPARTY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3872. Party At School</h1>
+		<h2>Problem code: VPARTY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Today there is a party at school. N girls and M boys attend this party. The principal wants to give some presents to the girl and he decides to make the boy do that. Each boy has told the principal the name of the two girls that he wants to give the present to so the principal wants the form teacher to choose some boys to do that. However, he is short in cash now so he wants the number of boys selected is minimum but he also wants all the girls to have at least one present. If you select a boy, then he will give the presents to both of the girls he has chosen.
+
+<h3>Input</h3>
+<p>The first line contains two integers N and M (2 &#8804; N &#8804; 1000, 1 &#8804; M &#8804; 1000) which is the number of the girls and boys. </p>
+<p>The i-th line of the following M lines contains two integers ai and bi (1 &#8804; ai, bi &#8804; N) which are the two girls that the i-th boy wants to give present to
+
+<h3>Output</h3>
+<p>One single integer number, which is the minimum boys the form teacher should choose.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 3
+1 2
+2 3
+1 3
+
+<b>Output:</b>
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nkvuong">Phenomenal</a></td></tr>
+<tr><td>Date:</td><td>2009-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IOICAMP</td></tr>	
+</table>

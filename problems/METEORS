@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/METEORS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10264. Meteors</h1>
+		<h2>Problem code: METEORS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Byteotian Interstellar Union (BIU) has recently discovered a new planet in   a nearby galaxy.  The planet is unsuitable for colonisation due to strange   meteor showers, which on the other hand make it an exceptionally interesting   object of study.</p>
+<p>The member states of BIU have already placed space stations close to the   planet's orbit.  The stations' goal is to take samples of the rocks flying by.   The BIU Commission has partitioned the orbit into <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.1.png" alt="" /></span> sectors, numbered   from <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.2.png" alt="" /></span> to <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.3.png" alt="" /></span>, where the sectors <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.4.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.5.png" alt="" /></span> are adjacent.  In each sector   there is a single space station, belonging to one of the <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.6.png" alt="" /></span> member states.</p>
+<p>Each state has declared a number of meteor samples it intends to gather before   the mission ends.  Your task is to determine, for each state, when it can   stop taking samples, based on the meter shower predictions for the years to   come.</p>
+<h2>Input</h2>
+<p>The first line of the standard input gives two integers, <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.7.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.8.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.9.png" alt="" /></span>), separated by a single space, that denote,     respectively, the number of BIU member states and the number of sectors     the orbit has been partitioned into.</p>
+<p>In the second line there are <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.10.png" alt="" /></span> integers <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.11.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.12.png" alt="" /></span>),     separated by single spaces, that denote the states owning stations in     successive sectors.</p>
+<p>In the third line there are <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.13.png" alt="" /></span> integers <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.14.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.15.png" alt="" /></span>),     separated by single spaces, that denote the numbers of meteor samples that     the successive states intend to gather.</p>
+<p>In the fourth line there is a single integer <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.16.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.17.png" alt="" /></span>)     that denotes the number of meteor showers predictions.     The following <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.18.png" alt="" /></span> lines specify the (predicted) meteor showers     chronologically.  The <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.19.png" alt="" /></span>-th of these lines holds three integers     <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.20.png" alt="" /></span>, <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.21.png" alt="" /></span>, <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.22.png" alt="" /></span> (separated by single spaces), which denote that     a meteor shower is expected in sectors     <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.23.png" alt="" /></span> (if <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.24.png" alt="" /></span>)     or sectors <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.25.png" alt="" /></span> (if <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.26.png" alt="" /></span>),     which should provide each station in those sectors with <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.27.png" alt="" /></span> meteor samples     (<span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.28.png" alt="" /></span>).</p>
+<h2>Output</h2>
+<p>Your program should print <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.30.png" alt="" /></span> lines on the standard output.     The <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.31.png" alt="" /></span>-th of them should contain a single integer <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.32.png" alt="" /></span>, denoting the number     of shower after which the stations belonging to the <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.33.png" alt="" /></span>-th state are     expected to gather at least <span><img src="http://main.edu.pl/en/images/OI18/met-en-tex.34.png" alt="" /></span> samples, or the word <tt>NIE</tt> (Polish     for <em>no</em>) if that state is not expected to gather enough samples in the     foreseeable future.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>3 5
+1 3 2 1 3
+10 5 7
+3
+4 2 4
+1 3 1
+3 5 2</pre>
+<p>the correct result is:</p>
+<pre>3
+NIE
+1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-12-20</td></tr>
+<tr><td>Time limit:</td><td>0.101s-1.540s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>XVIII POI 3rd stage</td></tr>	
+</table>

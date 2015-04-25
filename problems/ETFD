@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ETFD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22382. Euler Totient Function Depth</h1>
+		<h2>Problem code: ETFD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Lucky is fond of Number theory,
+ one day he was solving a problem related to Euler Totient Function (phi) and
+ found an interesting property of phi :
+ phi(1) = 1, and for x > 1: phi(x) < x.</br>
+
+ So if we define a sequence with a<sub>0</sub> = x, and for n > 0: a<sub>n</sub> = phi(a<sub>n-1</sub>), this sequence will be constant equal to 1 starting from some point. Lets define depth(x) as minimal n such that a<sub>n</sub> = 1. <br />
+
+ Now he is wondering how many numbers in a given range have depth equal to given number <strong>k</strong>.
+ As you are a good programmer help Lucky with his task.
+</p>
+
+
+<h3>Input</h3>
+<p>Your input will consist of a single integer <strong>T</strong>
+ followed by a newline and <strong>T</strong> test cases.</br>
+
+ Each test cases consists of a single line containing integers 
+<strong>m</strong>, <strong>n</strong>, and <strong>k</strong>.
+</p>
+
+<h3>Output</h3>
+<p>
+Output for each test case one line containing the count of all numbers whose depth equals to <strong>k</strong> in given range [<strong>m</strong>, <strong>n</strong>].</p>
+
+<h3>Constraints</h3>
+<pre>
+T < 10001
+1 &#8804; m &#8804; n &#8804; 10^6
+0 &#8804; k < 20
+</pre>
+
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+1 3 1
+1 10 2
+1 10 3
+1 100 3
+1 1000000 17
+
+<strong>Output:</strong>
+1
+3
+5
+8
+287876</pre>
+
+<p>Explanation ::suppose number is 5 ; its depth will be 3. ( 5 -> 4 -> 2 -> 1 )</p>
+<p>Note ::Depth for 1 is 0.</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/luckymastermin">[Lakshman]</a></td></tr>
+<tr><td>Date:</td><td>2015-01-14</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ETF</td></tr>	
+</table>

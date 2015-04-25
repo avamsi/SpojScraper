@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ITRIX12E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11050. R  Numbers</h1>
+		<h2>Problem code: ITRIX12E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>R - Numbers</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;R-numbers are numbers which have the property that they do not have the digit '0 ' and sum of every two adjacent digits of the number is prime. 123 is a R-number because 1+2 =3 and 2+3 =5 and 3 , 5 are primes.</p>
+<p>How many R-numbers can be formed with atmost length N?</p>
+<p>i.e R-numbers of length 1 + R-numbers of length 2 + R-numbers of length 3+....... R-numbers of length N</p>
+<p>Length of a number = Number of digits in the number</p>
+<p>Only four single digit numbers are R-numbers which are nothing but single digit primes 2,3,5,7</p>
+<p><strong>Input Specification:</strong></p>
+<p>&nbsp;&nbsp; The first line of the input file contains T which denotes the number of Test cases.The next T lines contain an integer N &lt;= 10^9</p>
+<p><strong>Output Specification:</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Print the numbers of R-numbers modulo 1000000007. [10^9+7];</p>
+<p><strong>Sample Input</strong></p>
+<p><strong>2</strong></p>
+<p>1</p>
+<p>2</p>
+<p><strong>Sample Output</strong></p>
+<p>4</p>
+<p>33</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegradhakrish">Radhakrishnan Venkataramani</a></td></tr>
+<tr><td>Date:</td><td>2012-03-12</td></tr>
+<tr><td>Time limit:</td><td>0.125s-0.25s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VAL_GAM4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18438. Happy Valentine Day (Valentine Adventure Game)</h1>
+		<h2>Problem code: VAL_GAM4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Happy valentine day! In this problem you'll play adventure game, where you should bring chocolate to your home on 1D virtual world. You start from location 0 and your home located on <strong>h</strong>. You will take the journey from 0 to <strong>h</strong>&nbsp;but in the middle of your way to home there could be some bad person who want to steal your chocolate, so you will war with them, if you win, you'll continue the journey, else you'll restart the game. There also some flag, if you successfully take the flag, when you restart the game you'll continue at that flag location but you lose that flag and try to take that flag again, if you take multiple flag, the latest flag that you take will be used and the other flag that you successfully take will be keep.</p>
+<p><img title="Adventure Game" src="http://1.bp.blogspot.com/-Jv_1HASPMS8/Uv2bJrby7QI/AAAAAAAAAag/z8h2kcCf9bo/s1600/Adventure_Image.png" alt="Illustraition" width="757" height="161" /></p>
+<p>Now given the map that contain all flag location + probability that you'll successfully take that flag, all war location + probability that you'll win the war, and your home location. Calculate the expected time needed to finish the game. Assume your move speed is constant: 1 unit per time and you do the war and take the flag in no time.</p>
+<h3>Input</h3>
+<p>There are multiple test case in one file,</p>
+<p>For each test case:</p>
+<p>- First line there are two integers <strong>h</strong> and <strong>q</strong>&nbsp;denoting the home location and number of object between 0 and <strong>h</strong>.</p>
+<p>- Next <strong>q</strong>&nbsp;lines there are one character and 3 integers, <strong>c</strong>, <strong>n</strong>, <strong>a</strong>, <strong>b</strong>:</p>
+<p style="padding-left: 30px;"><strong>--&gt; </strong><strong>c</strong>&nbsp;is denoting the type of object ('X' means war, and 'F' means flag)<br /><strong>--&gt;&nbsp;</strong><strong>n</strong>&nbsp;is denoting the location of object, it's guaranteed that <strong>n</strong>&nbsp;will be strictly increasing (larger than previous <strong>n</strong>)<br /><strong>--&gt;&nbsp;</strong><strong>a</strong>&nbsp;and <strong>b</strong>&nbsp;denoting numerator and denominator the probability, so the probability is <strong>a</strong>/<strong>b</strong>.</p>
+<p>The last line in input file there are two zeros, indicating end of sequence of cases, and your program should terminate.</p>
+<h3>Output</h3>
+<p>For each test case output the expected time needed to finish the game. Since the answer could be very large, output it modulo 10<sup>9</sup>+7. All cases is designed such that it's guaranteed the expected time will be an integer.</p>
+<h3>Constraints</h3>
+<p>0 &lt; <strong>h</strong> &le; 10<sup>18</sup></p>
+<p>0 &le;&nbsp;<strong>q</strong> &le; 10<sup>4</sup></p>
+<p>0 &lt; <strong>n</strong> &lt; <strong>h </strong></p>
+<p>0 &lt; <strong>b</strong>&nbsp;&lt; 10<sup>9</sup>+7</p>
+<p>0 &lt; <strong>a</strong> &le; <strong>b </strong></p>
+<p>Input File Size &lt; 500 KB</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>32 0</pre>
+<pre>32 1</pre>
+<pre>X 16 1 2</pre>
+<pre>32 2</pre>
+<pre>F 8 1 1</pre>
+<pre>X 16 1 2</pre>
+<pre>32 2</pre>
+<pre>F 8 1 2</pre>
+<pre>X 16 1 2</pre>
+<pre>0 0
+
+<strong>Output:</strong></pre>
+<pre>32</pre>
+<pre>48</pre>
+<pre>40</pre>
+<pre>44</pre>
+<p>&nbsp;</p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2014-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.310s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

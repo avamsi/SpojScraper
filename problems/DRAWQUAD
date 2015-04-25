@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DRAWQUAD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7409. Drawing Quadrilaterals</h1>
+		<h2>Problem code: DRAWQUAD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A quadrilateral consists of 4 points A, B, C and D in the plane, together with the<br />segments AB, BC, CD and DA. Points are called vertices, while segments are called<br />sides. The quadrilateral is simple if opposite sides (i.e., sides that do not share a vertex)<br />do not intersect. Notice that it is possible to have a simple quadrilateral that looks like<br />a triangle, with exactly 3 collinear vertices.<br />Demetrio has just drawn N points on the wall of his room. He planned to draw a<br />simple quadrilateral having 4 of these points as vertices, and then paint it with blue ink.<br />Demetrio is going to buy the ink right now, but he has not chosen the 4 points yet. Can<br />you tell him the maximum area a simple quadrilateral drawn on his wall can have? In<br />this way Demetrio will be sure he will not run out of blue ink before the work is done.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains an integer N<br />indicating the number of points drawn on the wall (4 &le; N &le; 1000). Each of the next N<br />lines describes a different point of the set using two integers X and Y (&minus;10<sup>7</sup> &le; X, Y &le;<br />10<sup>7</sup> ); these values represent the coordinates of the point in the XY plane. You may<br />assume that within each test case no two points have the same location, neither are all<br />collinear. The end of input is indicated with a line containing a single &minus;1.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with a single decimal number representing the<br />maximum area of a simple quadrilateral having as vertices 4 different points of the input<br />set. Round the result to the closest rational number with one decimal place. In case of<br />ties, round up. Always use exactly one digit after the decimal point, even if it means<br />finishing with a zero.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />6<br />-100 0<br />100 0<br />-100 50<br />0 55<br />0 -65<br />1 1<br />4<br />-1 0<br />10000 0<br />0 0<br />0 1<br />-1
+<strong>Output:</strong> <br />12000.0<br />5000.5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-26</td></tr>
+<tr><td>Time limit:</td><td>6.986s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

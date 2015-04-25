@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC10C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8106. Normalized Form</h1>
+		<h2>Problem code: ACPC10C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>As you most probably know, any boolean expression can be expressed in either a disjunctive normal form or a conjunctive normal form. In a disjunctive normal form, a boolean expression is written as a disjunct (logical or) of one-or more sub-expressions where each of these sub-expressions is written in a conjunctive normal form. Similarly, an expression written in a conjunctive normal form is a conjunct (logical and) of sub-expressions each written in a disjunctive normal form.</p>
+<p style="text-align: center;"><img title="a" src="../../../content/omar_azazy:ACPC10C" alt="a" width="171" height="187" /></p>
+<p><br />An AND/OR tree is a tree-like graphical-representation of boolean ex- pressions written as either conjunctive- or disjunctive-normal form. Since the sub-expressions of a normalized form alternate in being either disjunctive or conjunctive forms, you&rsquo;d expect the sub-trees on an AND/OR tree to alternate in being AND- or OR- trees depending on the sub-tree&rsquo;s depth-level. The example upwards illustrates this observation for the boolean expression (A (B C)) (D E) where the trees in the 1st (top-most) and 3rd levels are AND-trees.<br />Write a program that evaluates a given and/or tree.</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case is specified on exactly one line (which is no longer than 32,000 characters) of the form:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( E1 E2 . . . En )<br />where n &gt; 0 and Ei is either T for true, F for false, or a sub-expression using the same format.<br />The trees at the deepest level are AND-trees. The last test case is followed by a dummy line made of ().</p>
+<h3>Output</h3>
+<p>For each test case, print the following line:<br />k. E<br />Where k is the test case number (starting at one,) and E is either true or false depending on the value of the expression in that test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />((F(TF))(TF))<br />(TFT)<br />((TFT)T)<br />()<br /><br /><strong>Output:</strong><br />1. false<br />2. false<br />3. true</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/omar_azazy">Omar ElAzazy</a></td></tr>
+<tr><td>Date:</td><td>2010-12-27</td></tr>
+<tr><td>Time limit:</td><td>0.717s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACPC 2010</td></tr>	
+</table>

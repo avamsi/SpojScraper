@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DSUBSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2416. Distinct Subsequences</h1>
+		<h2>Problem code: DSUBSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a string, count the number of distinct subsequences of it ( including empty subsequence ). For the uninformed, A subsequence of a string is a new string which is formed from the original string by deleting some of the characters without disturbing the relative positions of the remaining characters.
+<br/>For example, "AGH" is a subsequence of "ABCDEFGH" while "AHG" is not.
+
+<h3>Input</h3>
+<p>First line of input contains an integer T which is equal to the number of test cases. You are required to process all test cases. Each of next T lines contains a string s.
+
+<h3>Output</h3>
+<p>Output consists of T lines. Ith line in the output corresponds to the number of distinct subsequences of ith input string. Since, this number could be very large, you need to output ans%1000000007 where ans is the number of distinct subsequences.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+AAA
+ABCDEFG
+CODECRAFT
+
+
+<b>Output:</b>
+4
+128
+496
+</pre>
+
+<h3>Constraints and Limits</h3>
+<p>T &#8804; 100, length(S) &#8804; 100000<br/>
+All input strings shall contain only uppercase letters.
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ajaysomani">Ajay Somani</a></td></tr>
+<tr><td>Date:</td><td>2008-02-05</td></tr>
+<tr><td>Time limit:</td><td>0.245s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://felicity.iiit.ac.in/codecraft/">CodeCraft 08</a>, Problem Setter: Jin Bin</td></tr>	
+</table>

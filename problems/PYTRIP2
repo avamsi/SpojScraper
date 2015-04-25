@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PYTRIP2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14542. Pythagorean triples (medium)</h1>
+		<h2>Problem code: PYTRIP2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Pythagoras is credited, by tradition, for the first proof of the relation
+<strong><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup></strong>
+ in any right angled triangle where <strong><em>c</em></strong> is hypotenuse and <strong><em>a</em></strong> and <strong><em>b</em></strong> are the <a href="http://en.wikipedia.org/wiki/Cathetus">catheti</a>.
+</p>
+<p>
+We define a Pythagorean triple as a set of three positive integers <strong><em>a</em></strong>, <strong><em>b</em></strong>, and <strong><em>c</em></strong> which satisfy the above equation , ie ,
+<strong><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup></strong>. <br>
+{3,4,5} is the most common example of such triples.
+</p>
+
+<h3>Input</h3>
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</p>
+
+<p> Each of the next <strong><em>T</em></strong> lines contains
+ two integers <strong><em>N</em></strong>, <strong><em>M</em></strong>.</p>
+
+<h3>Output</h3>
+<p>For each test case, print on a single line the number of Pythagorean triplet <strong><em>{a,b,c}</em></strong>
+ such that <strong><em>N &#8804; a,b,c &#8804; M</em></strong>.</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+1 5
+4 10
+10 100
+
+<strong>Output:</strong>
+1
+1
+45
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T < 100
+0 < N < M
+0 < T × M < 1.21×10^8
+</pre>
+<p>There are several input files.</br>
+Time limit is ×10 my top speed with C language (1kB of code).
+</br>
+For your information, my total best time is 1.09s for the 6 input files ; 1.7MB of total memory print.
+</br>
+Warning, it could be hard with interpreted languages.</br>
+You can try before the quite similar tutorial problem : <a href="http://www.spoj.com/problems/PYTRIP/">PYTRIP</a> before.</p>
+
+<h3>Information</h3>
+<p>
+This problem is part of the <a href="http://www.bubblecup.org/Problem/Overall">Bubble Cup competition</a> qualification round (April 2014).</br>
+@students: good luck. GNU_salutations.</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-04-11</td></tr>
+<tr><td>Time limit:</td><td>1s-3.299s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

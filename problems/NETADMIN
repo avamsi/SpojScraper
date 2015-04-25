@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NETADMIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>287. Smart Network Administrator</h1>
+		<h2>Problem code: NETADMIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+The citizens of a small village are tired of being the only inhabitants around without a connection to the Internet. After nominating the future network administrator, his house was connected to the global network. All users that want to have access to the Internet must be connected directly to the admin's house by a single cable (every cable may run underground along streets only, from the admin's house to the user's house). Since the newly appointed administrator wants to have everything under control, he demands that cables of different colors should be used. Moreover, to make troubleshooting easier, he requires that no two cables of the same color go along one stretch of street.
+<p>
+Your goal is to find the minimum number of cable colors that must be used in order to connect every willing person to the Internet.
+
+<h3>Input</h3>
+<p>
+<i>t</i> [the number of test cases, t<=500]<br>
+<i>n m k</i> [<i>n</i> <=500 the number of houses (the index of the admin's house is 1)]<br>
+      [<i>m</i> the number of streets, <i>k</i> the number of houses to connect]<br>
+<i>h</i><sub>1</sub> <i>h</i><sub>2</sub> ... <i>h<sub>k</sub></i> [a list of <i>k</i> houses wanting to be conected to the network, 2<=<i>h<sub>i</sub></i><=<i>n</i>]<br>
+[The next <i>m</i> lines contain pairs of house numbers describing street ends]<br>
+<i>e</i><sub>11</sub> <i>e</i><sub>12</sub><br>
+<i>e</i><sub>21</sub> <i>e</i><sub>22</sub><br>
+...<br>
+<i>e</i><sub><i>m</i>1</sub> <i>e</i><sub><i>m</i>2</sub><br>
+[next cases]
+<h3>Output</h3>
+<p>
+For each test case print the minimal number of cable colors necessary to make all the required connections.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+5 5 4
+2 3 4 5
+1 2
+1 3
+2 3
+2 4
+3 5
+8 8 3
+4 5 7
+1 2
+1 8
+8 7
+1 3
+3 6
+3 2
+2 4
+2 5
+
+<b>Output:</b>
+2
+1
+</pre>
+
+<p><img src="/content/cyborg:netadmin.png" alt="Illustration to the first example"/></p>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cyborg">Tomasz Niedzwiecki</a></td></tr>
+<tr><td>Date:</td><td>2005-01-23</td></tr>
+<tr><td>Time limit:</td><td>4.072s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>DASM Programming League 2004, problemset 6</td></tr>	
+</table>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC12B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17394. Bits Game</h1>
+		<h2>Problem code: DCEPC12B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Pranjali and Nancy are playing an amazing game. The game starts with a string of bits (i.e. string of 0&rsquo;s and 1&rsquo;s). Game progresses in the form of right to left bit by bit scans. Pranjali takes turn when a &ldquo;1&rdquo; bit comes while scanning the string and Nancy takes turn when a &ldquo;0&rdquo; bit comes while scanning. In their respective turns, they can either choose to toggle their bit or keep it unchanged. The goal is to make all bits 0 at the end of scan, failing which means the scanning starts again from right to left. If all the bits are 0 at the end of a scan, the game ends and Pranjali is declared a winner. There is no win for Nancy. The game either ends to the goal described or the scanning continues indefinitely. So it can be seen that Pranjali has to win the game and in an optimal number of scans whereas Nancy&rsquo;s aim is to not let Pranjali win (by making it an indefinite play) or to delay Pranjali&rsquo;s win if it&rsquo;s sure. So now assuming that they both play with their optimal strategy, can you please tell if Pranjali can win the game or not?</p>
+<p>Note: There has to be AT LEAST 1 scan before the game can end.</p>
+<h3>Input</h3>
+<p>First line contains T, the number of test cases.</p>
+<p>Each of the next T lines contains a string of 0&rsquo;s and 1&rsquo;s.</p>
+<h3>Output</h3>
+<p>For each string given in the input, output either &ldquo;WIN m&rdquo;, without quotes, if Pranjali can force her win in &ldquo;m&rdquo; scans in an optimal play, or output &ldquo;INFINITE PLAY&rdquo; if the game cannot be reached to the above mentioned goal in an optimal play.</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=20</p>
+<p>1&lt;= Length of string &lt;=50</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>1</pre>
+<pre>10
+
+<strong>Output:</strong>
+WIN 1</pre>
+<pre>WIN 2</pre>
+<h3>Explanation</h3>
+<p>In the 2<sup>nd</sup> test case, during the first scan, Nancy gets the first turn because the right most bit is 0. She has to toggle it or the game will be over in a single scan. In the next turn, Pranjali chooses to keep her bit unchanged. So after first scan, the string is now &ldquo;11&rdquo;. In the next scan, Nancy has no turns. So Pranjali will toggle both 1 bit and thus end the game.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-12-07</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+	
+</table>

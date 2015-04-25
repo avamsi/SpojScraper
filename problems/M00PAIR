@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/M00PAIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3973. 0 0 Pairs</h1>
+		<h2>Problem code: M00PAIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/M00PAIR/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/M00PAIR/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>A sequence consisting of one digit,  the number 1  is  initially written into a computer. At each successive  time  step,  the  computer  simultaneously tranforms each digit 0 into  the  sequence 1 0 and each digit 1  into the sequence 0 1.</p>
+<p>So, after  the  first time step,  the sequence 0 1  is obtained; after the second, the sequence 1 0 0 1, after the third, the sequence 0 1 1 0 1 0 0 1 and so on.</p>
+<p>How many pairs of consequitive zeroes will appear in the sequence after n steps?</p>
+<h3 style="text-align: center;">Input</h3>
+<p>Clarification for this Problem: The Range of inputs is from 1 to 999 in some order and in particular not in ascending order</p>
+<h3 style="text-align: center;">Output</h3>
+<p style="text-align: center;">For each input n print the number of consequitive zeroes pairs that will appear in the sequence after n steps.</p>
+<h3 style="text-align: center;">Sample</h3>
+<pre>Sample Input <br />1<br />2 <br />3 <br />4<br />5 <br />Sample output <br />0<br />1 <br />1<br />3<br />5<br /> </pre>
+<p><strong>Notice : Long output - 1.45MB </strong> - there are a lot of input/output so it is easy to TLE if you dont optimize in/out if you use Java ... </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-27</td></tr>
+<tr><td>Time limit:</td><td>0.326s
+</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Southeastern European 2005</td></tr>	
+</table>

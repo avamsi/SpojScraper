@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FRSCR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21672. Frustrated CR and His Class</h1>
+		<h2>Problem code: FRSCR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">As we all know that our CR gets Frustrated by all the work he is given by CSE Department . This time he is thinking of dividing the work to the whole class.<br />HOD of the department has given a project on DBMS to CR which must be completed in&nbsp;<strong>P&nbsp;</strong>units of time. Project consist of two types of task&nbsp;<br />1-&gt; You have to find some tables from database .<br />2-&gt; You have to execute certain queries on them.</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">Now our CR decides to divide the class in two groups of strength&nbsp;<strong>n</strong>&nbsp;and&nbsp;<strong>m</strong>(say A &amp; B) . Group A is given the task of finding tables from database &amp; group B is given the task of executing certain queries on tables provided by group A.&nbsp;<strong>Group B will start their queries on tables only after they have received all the tables from group A. There is no time lag between end of task of group A and beginning of task of group B.&nbsp;</strong>.</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">Every student has his/her own capability of doing the task.</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">Suppose a student of group A can finds first table in X minute then he will find the second table in 2X more minutes and third table in 3X more minutes and so on.(Eg: if a student finds first table in 3 minutes then he will find second table in 6 more minute and third table in 9 more minutes.This means that he can find a total of 3 tables in 18 minutes. Therefore from 18th minute uptil 29th minute he can find only 3 tables ) . The same goes for second group.</span></p>
+<p style="border: 0px; font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, 'Lucida Grande', sans-serif; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong><span style="font-size: small;">A project is said to be complete if and only if at least one query is executed on every table found by group A.<br />All members of a group start working simultaneously.<br />You can assume every member of group A always finds a new unique table.</span></strong></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">Now if the project is complete, the HOD gives a score to the CR which is equal to the numbers of tables sucessfully found by first group and successfully queried by the second group. If the project is incomplete, CR gets 0 score.</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><br /></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>INPUT</strong><br />First line contains an integer&nbsp;<strong>t</strong>&nbsp;denoting the number of test cases.<br />Each test case consists of 4 lines.<br />First line contains and integer&nbsp;<strong>p</strong>&nbsp;denoting time given by HOD.<br />Next line contains integers&nbsp;<strong>n</strong>&nbsp;&amp;&nbsp;<strong>m</strong>&nbsp;denoting the strength of first and second group respectively.<br />Next line contains n integers representing the capability of students in group A.<br />Next line contains m integers representing the capability of students in group B.<br /></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>OUTPUT</strong>&nbsp;<br />For each test case print the maximum score obtained by our CR or 0 is project remains incomplete.<br /></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>CONSTRAINTS:&nbsp;</strong><br />0 &lt; T &lt;= 1000<br />0 &lt; p &lt;= 10^7<br />0 &lt; n,m &lt;=100</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">0&lt;capability&lt;=10</span></p>
+<p style="border: 0px; font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, 'Lucida Grande', sans-serif; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong><span style="font-size: small;">EXAMPLE</span></strong></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>INPUT</strong>&nbsp;<br />1<br />20<br />2 2<br />2 3<br />1 2</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>OUTPUT</strong><br />5</span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>EXPLANATION</strong><br />For given test case group A can find 5 table in first 12 minute and group B can perform 5 query in remaining 8 minute . Here we cannot get more than 5 points in any other case.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nr3600">NISHANT RAJ</a></td></tr>
+<tr><td>Date:</td><td>2014-11-03</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

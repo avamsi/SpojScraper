@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LEGO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4198. Lego</h1>
+		<h2>Problem code: LEGO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It's Christmas morning, and you've got what you wanted: a box of Lego&trade;! (Okay, maybe not, but better than nothing)<br /> <br /> Lego is pretty fun to tinker with, and you've decided to build some sort of shape.<br /> (For the sake of this problem, let's say your shape is basically 2-dimensional - it'll be a slab)<br /> <br /> But once you pick it up, you discover that you didn't plan it properly, and your wonderful shape just falls apart.<br /> Now, you're planning to build something big, and so you're going to use the computer to help you.<br /> Write a program, that given the layout of a Lego design, outputs the number of pieces it would break into if picked up.<br /> (Assume that the bricks bind together perfectly)<br /> <br /> The Legos will be built on a x-y coordinate plane, with (0,0) being the bottom left corner.<br /> The blocks are flat on your carpet, so a block will never 'fall down'.<br /> (If you haven't seen a Lego brick before: A Lego brick has grooves on its top that match with notches on the bottom.<br /> If a groove and a notch bind, the bricks will stay together. See the diagram.<br /> A brick will bind with another brick securely even if just a single notch touches another groove.</p>
+<h3>Input:</h3>
+<p>The first line contains <em>N</em> (the number of Lego pieces), 1 &le; <em>N</em> &le; 100000.<br /> <em>N</em> lines follow, each with 4 integers <em>x</em><sub>1</sub>, <em>y</em><sub>1</sub>, <em>x</em><sub>2</sub>, <em>y</em><sub>2</sub> (0 &le; <em>x</em><sub>1</sub> &lt; <em>x</em><sub>2</sub> &le; 2&times;10<sup>9</sup>, 0 &le; <em>y</em><sub>1</sub> &lt; <em>y</em><sub>2</sub> &le; 2&times;10<sup>9</sup>)<br /> <br /> This means that there is a brick with bottom left corner (<em>x</em><sub>1</sub>,<em>y</em><sub>1</sub>) and top right corner (<em>x</em><sub>2</sub>,<em>y</em><sub>2</sub>). <em>x</em> denotes the horizontal coordinate and <em>y</em> the vertical coordinate. Two bricks will bind if one's bottom <em>y</em>-coordinate coincides with the other's top <em>y</em>-coordinate and the intersection of the two intervals (the bottom of one and the top of the other) has nonzero length.<br /> No bricks will overlap.</p>
+<h3>Output:</h3>
+<p>A single line containing the number of separate pieces that these blocks form.</p>
+<h3>Sample Input:</h3>
+<pre>4
+0 0 2 2
+1 2 3 4
+2 0 4 2
+4 0 6 2</pre>
+<h3>Sample Output:</h3>
+<pre>2</pre>
+<h3>Explanation</h3>
+<p>Blocks #1,2,3 are joined securely.<br /> However, #4 is just hanging around.<br /> <br /> <img src="http://spoj.pl/content/bbi5291:lego.png" alt="" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bbi5291">Brian Bi</a></td></tr>
+<tr><td>Date:</td><td>2009-04-10</td></tr>
+<tr><td>Time limit:</td><td>0.118s-0.356s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://spoj.com/users/hansonw1">Hanson Wang</a></td></tr>	
+</table>

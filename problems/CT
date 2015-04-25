@@ -1,0 +1,45 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5464. Counting triangles</h1>
+		<h2>Problem code: CT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider a 2D integer grid with lower left corner at (0, 0) and upper right corner at (X, Y). We are interested in isosceles right triangles which all the 3 corners at the grid node (integer coordinates). Your task is to count the number of those triangles.</p>
+<p><br />Input<br />The input begins with C &ndash; number of test cases.<br />Each test case consists of X, Y.</p>
+<p><br />Output<br />For each test case, output the result in a line.</p>
+<p><br />Limits<br />C &lt;= 20<br />0 &lt;= X, Y &lt;= 1000</p>
+<p><br />Sample input<br />2<br />0 3<br />1 1</p>
+<p><br />Sample output<br />0<br />4</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/huy391992">sieunhan</a></td></tr>
+<tr><td>Date:</td><td>2009-11-29</td></tr>
+<tr><td>Time limit:</td><td>0.300s-1.5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Le Don Khue - ACM Vietnam Practice</td></tr>	
+</table>

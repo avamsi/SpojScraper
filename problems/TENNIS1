@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TENNIS1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18175. TENNIS CHAMPIONSHIP</h1>
+		<h2>Problem code: TENNIS1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>N (2&lt;=N&lt;=10^18) players take part in tennis championship. In every match loser is out. Two players can play a game if in that moment the difference of played games of that two players is not more than 1. They are interested, how many matches will be in the champioship (maximal possible number) and what's the maximal possible number of games in which can take part the champion in that case.</p>
+<h3>Input</h3>
+<p>Single number N.</p>
+<h3>Output</h3>
+<p>Two numbers - answers to the questions.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4
+
+<strong>Output:</strong>
+2 3
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/albertg">albertg</a></td></tr>
+<tr><td>Date:</td><td>2014-01-26</td></tr>
+<tr><td>Time limit:</td><td>0.028s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

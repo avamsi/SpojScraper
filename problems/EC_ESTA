@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EC_ESTA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16793. Statistics Applied</h1>
+		<h2>Problem code: EC_ESTA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem we will be looking for medians of data set. Median is the central element in ordered data group. For example: for the set {2,6,3,3,2} the median would be 3. In general, if we have n elements {a1, a2, a3 ... an}, we define the median as element a<sub>(n+1)/2</sub> if n is odd and (a<sub>n/2</sub>+a<sub>n/2+1</sub>)/2 otherwise.</p>
+<p>You will be given N numbers and you must calculate N medians. i-th median is taken on the subset [a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, .., a<sub>i</sub>] for 1 <= i <= N.</p>
+<h3>Input</h3>
+<p>The first line contains the number of test cases. Each case consists of an integer N (1 <= N <= 100000). N integers a<sub>i</sub> (0 <= a<sub>i</sub> <2<sup>31</sup>) follow, elements in data set.</p>
+<h3>Output</h3>
+<p>For each case, print N lines with the medians. If the result is non-integral, print the exact value using decimal point (see example).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+4
+3 5 7 3
+2
+3 4</pre>
+<pre><strong>Output:</strong>
+3
+4
+5
+4
+3
+3.5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eddycael">Eddy Cael</a></td></tr>
+<tr><td>Date:</td><td>2013-10-26</td></tr>
+<tr><td>Time limit:</td><td>0.112s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+<tr><td>Resource:</td><td>COMPETENCIA CCBOL2013</td></tr>	
+</table>

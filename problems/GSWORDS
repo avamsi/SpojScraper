@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSWORDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11947. Counting Words</h1>
+		<h2>Problem code: GSWORDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><em>Supervin likes counting. In this problem, he invites you to count together</em></p>
+<p>Supervin defines a <strong>word</strong>&nbsp;as "a string only consist of 'o' or 'x'", and additional requirement, for each substring with prime-length, the number of 'o' is not less than the number of 'x'.</p>
+<p>Supervin gives you an integer <strong>N</strong>&nbsp;(1 &lt;= <strong>N </strong>&lt;= 10^12). Supervin challenges you to determine how many <strong>words </strong>can be made with exactly <strong>N</strong>-length.</p>
+<p>You are having difficulties, make a program to determine how many <strong>N</strong>-length&nbsp;<strong>words</strong>. Because the output can be too big, output the number of <strong>words </strong>modulo 1 000 000 007</p>
+<h3>Input</h3>
+<p>One line, an integer <strong>N</strong></p>
+<h3>Output</h3>
+<p>One line, an integer indicates how many <strong>N</strong>-length <strong>words</strong>&nbsp;modulo 1 000 000 007</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+
+<strong>Output:</strong>
+3</pre>
+<pre><strong>Input:</strong></pre>
+<pre>3</pre>
+<pre><strong>Output:</strong></pre>
+<pre>4</pre>
+<pre><strong>Explanation :</strong></pre>
+<pre>In the first sample, the <strong>words</strong> can be made are : "oo", "ox", "xo".</pre>
+<pre>In the second sample, the <strong>words </strong>can be made are : "ooo", "oox", "oxo", "xoo"</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/johngs">Jonathan Irvin Gunawan</a></td></tr>
+<tr><td>Date:</td><td>2012-08-06</td></tr>
+<tr><td>Time limit:</td><td>0.813s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Jonathan Irvin Gunawan, used in TOKI OpenContest March 2012</td></tr>	
+</table>

@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NUMG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8074. God of Number Theory</h1>
+		<h2>Problem code: NUMG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In ACM_DIY, there is one master called &ldquo;ShaZai&rdquo;. As we know, he is the god of &ldquo;Number Theory&rdquo;. He always kills the problem about &ldquo;Number Theory&rdquo; in seconds! But of course we do not have any idea about these problems~ One day in ACM_DIY, ShaZai asks us one problem:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You are given three non-negative integers A, B and K, you are expected to find the number of number that satisfy</p>
+<p>(1)&nbsp;&nbsp; X^A = B( mod (2K + 1) )</p>
+<p>(2)&nbsp;&nbsp; X is in the ranger [0, 2K];</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course we have no idea about this problem, so could you help us?</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line is one integer T indicates the number of the test cases. (T &lt;= 1000)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then for every case, only one line contains three integers A, B and K. (1 &lt;= A, B &lt;= 10^9, 1 &lt;= K &lt;= 5 * 10^8)</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>Output the answer in a single line.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><p>3<br />213 46290770 80175784<br />3 46290770 80175784<br />3333 46290770 80175784</p><p>&nbsp;</p><br /><strong>Output:</strong>
+
+27<br />27<br />297</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aekdycoin">aekdycoin</a></td></tr>
+<tr><td>Date:</td><td>2010-12-15</td></tr>
+<tr><td>Time limit:</td><td>0.288s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

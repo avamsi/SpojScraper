@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ALMISPY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14761. Almost-isosceles Pythagorean triple (easy)</h1>
+		<h2>Problem code: ALMISPY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>(3, 4, 5)</strong> is the smallest almost-isosceles Pythagorean triple,
+as <strong>4 - 3 = 1</strong>.</br>
+Let <strong>S = { (<em>a</em>, <em>a</em>+1, <em>c</em>) | <em>a</em><sup>2</sup> + (<em>a</em>+1)<sup>2</sup> = <em>c</em><sup>2</sup> with <em>a</em> and <em>c</em> positive integers}</strong>.
+</br>
+One can prove that the set <strong>S</strong> of almost-isosceles Pythagorean triples is infinite.</br>
+There is an obvious total order on this set.</p>
+
+<h3>Input</h3>
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</br>
+On each of the next <strong><em>T</em></strong> lines, your are given
+two integers <strong><em>n</em></strong> and <strong><em>m</em></strong>.
+</p>
+
+<h3>Output</h3>
+<p>For each test case,
+you have to find the <strong><em>n</em></strong>th triple
+<strong>(<em>a</em>, <em>a</em>+1, <em>c</em>)</strong>
+ in the ordered set <strong>S</strong>,
+and print <strong><em>a</em></strong> and <strong><em>c</em></strong>.
+As the answer could not fit in a 64-bit container, simply output your answer modulo <strong><em>m</em></strong>.
+</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+1 10
+2 123
+4 289
+</pre>
+<pre><strong>Output:</strong>
+3 5
+20 29
+118 118
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T < 10^4
+0 < n < 10^18
+1 < m < 10^9
+</pre>
+<p>For your information, my 500B-python3 code get AC in 1.61s with 12MB of memory print.</br>
+In Python2.7 : (2.49s, 4.0MB), in Python2+psyco (2.04s, 36MB).</br>
+My 1kB C code ran in (0.04s, 1.6MB), and time limit is ×125 this one.</br>
+<strong>Have fun ;-)</strong></br>
+(edit) With wisfaq observation, all my best timings are divided by exactly two!!! 
+</p>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-04-30</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

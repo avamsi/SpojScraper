@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BEHAPPY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9805. Be Awesome As Barney Stinson</h1>
+		<h2>Problem code: BEHAPPY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Barney Stinson ;) is way too flirty. He has many girlfriends and he wants to keep all of them happy. He has <strong>M </strong>girlfriends. He bought <strong>N </strong>gifts for them. Now he knows that some girlfriends need more gifts and some need less. So he decided that he will give atleast <strong>Ai </strong>gifts and at most <strong>Bi</strong> gifts to his <strong>i</strong>th girlfriend. He has to give away all the <strong>N </strong>gifts. Tell us in how many different ways he can do this.</p>
+<p><strong>INPUT:</strong></p>
+<p>For each test case, first line contains two integers <strong>M</strong> and <strong>N, </strong>then follows M lines each having two integers <strong>Ai</strong> and <strong>Bi</strong> (1&lt;=i&lt;=M). Input ends with M and N both equal to 0 and that case should not be processed.</p>
+<p><strong>OUTPUT:</strong></p>
+<p>For each test case, output the number of different ways in which he can distribute those gifts in a single line.</p>
+<p><strong>Example:</strong></p>
+<p>Input:</p>
+<p>3 5</p>
+<p>0 1</p>
+<p>1 3</p>
+<p>1 4</p>
+<p>0 0</p>
+<p>&nbsp;</p>
+<p>Output:</p>
+<p>6</p>
+<p>&nbsp;</p>
+<p>Explanation: He can distribute 5 gifts in his 3 girlfriends in 6 different ways as follows (0 1 4), (0 2 3), (0 3 2), (1 1 3), (1 2 2), (1 3 1).</p>
+<p>&nbsp;</p>
+<p>Constraints: 1&lt;=M&lt;=20, 1&lt;=N&lt;=100, 0&lt;=Ai,Bi,&lt;=100</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ankitism">Ankit Kumar Vats </a></td></tr>
+<tr><td>Date:</td><td>2011-10-21</td></tr>
+<tr><td>Time limit:</td><td>0.490s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Inspired</td></tr>	
+</table>

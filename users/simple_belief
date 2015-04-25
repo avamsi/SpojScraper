@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/simple_belief"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BUZZOFF" target="_blank">12250. Buzz Trouble</a></td><td><a href="http://www.spoj.com/problems/BUZZOFF"target="_blank">BUZZOFF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MADHULK" target="_blank">12251. Mad Hulk</a></td><td><a href="http://www.spoj.com/problems/MADHULK"target="_blank">MADHULK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HARSHAD" target="_blank">12260. Devlali Numbers</a></td><td><a href="http://www.spoj.com/problems/HARSHAD"target="_blank">HARSHAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RLCAT" target="_blank">18050. Robert Langdon & Class Attendance</a></td><td><a href="http://www.spoj.com/problems/RLCAT"target="_blank">RLCAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RLCIPHER" target="_blank">18056. Robert Langdon & Cipher</a></td><td><a href="http://www.spoj.com/problems/RLCIPHER"target="_blank">RLCIPHER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RLTOUR" target="_blank">18094. Robert Langdon & Florence</a></td><td><a href="http://www.spoj.com/problems/RLTOUR"target="_blank">RLTOUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RLTHREE" target="_blank">18153. Robert Langdon & The Rule of Three</a></td><td><a href="http://www.spoj.com/problems/RLTHREE"target="_blank">RLTHREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TANDC" target="_blank">20562. Tracy and Charlie</a></td><td><a href="http://www.spoj.com/problems/TANDC"target="_blank">TANDC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCIRCLE" target="_blank">20563. Minion Circle</a></td><td><a href="http://www.spoj.com/problems/MCIRCLE"target="_blank">MCIRCLE</a><br>
+</td></tr>

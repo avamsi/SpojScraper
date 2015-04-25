@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/petar_v"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RETRO" target="_blank">23507. Retrovirus</a></td><td><a href="http://www.spoj.com/problems/RETRO"target="_blank">RETRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEGFAULT" target="_blank">23511. Segfault</a></td><td><a href="http://www.spoj.com/problems/SEGFAULT"target="_blank">SEGFAULT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRONT" target="_blank">23536. Front</a></td><td><a href="http://www.spoj.com/problems/FRONT"target="_blank">FRONT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CARINA" target="_blank">23538. Carina</a></td><td><a href="http://www.spoj.com/problems/CARINA"target="_blank">CARINA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPLITS" target="_blank">23539. Split</a></td><td><a href="http://www.spoj.com/problems/SPLITS"target="_blank">SPLITS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZAMENA" target="_blank">23772. Zamena</a></td><td><a href="http://www.spoj.com/problems/ZAMENA"target="_blank">ZAMENA</a><br>
+</td></tr>

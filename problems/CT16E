@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CT16E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6852. Fish</h1>
+		<h2>Problem code: CT16E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div>
+<p><span><em>n</em></span> fish, numbered  from <span>1</span> to <span><em>n</em></span>,  live in a lake. Every day right one pair of fish meet, and the  probability of each other pair meeting is the same. If two fish with  indexes i and j meet, the first will eat up the second with the  probability <span><em>a</em><sub><em>ij</em></sub></span>,  and the second will eat up the first with the probability <span><em>a</em><sub><em>ji</em></sub>&thinsp;=&thinsp;1&thinsp;-&thinsp;<em>a</em><sub><em>ij</em></sub></span>. The described process goes  on until there are at least two fish in the lake. For each fish find out  the probability that it will survive to be the last in the lake.</p>
+</div>
+<h3>Input</h3>
+<p>The first line contains integer <span><em>n</em></span> (<span>1&thinsp;&le;&thinsp;<em>n</em>&thinsp;&le; &thinsp;18</span>) &mdash; the amount of fish in the lake. Then there follow <span><em>n</em></span> lines with <span><em>n</em></span> real numbers each &mdash; matrix <span><em>a</em></span>. <span><em>a</em><sub><em>ij</em></sub></span> (<span>0&thinsp;&le;&thinsp;<em>a</em><sub><em>ij</em></sub>&thinsp; &le;&thinsp;1</span>) &mdash; the probability that fish with index <span><em>i</em></span> eats up fish with index <span><em>j</em></span>. It's guaranteed that the main diagonal  contains zeros only, and for other elements the following is true: <span><em>a</em><sub><em>ij</em></sub>&thinsp;=&thinsp;1&thinsp;- &thinsp;<em>a</em><sub><em>ji</em></sub></span>. All real  numbers are given with not more than 6 characters after the decimal  point.</p>
+<h3>Output</h3>
+<p>Output <span><em>n</em></span> space-separated real numbers accurate to not less than 6 decimal  places. Number with index <span><em>i</em></span> should  be equal to the probability that fish with index <span><em>i</em></span> will survive to be the last in the lake.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>5<br />0 1 1 1 1<br />0 0 0.5 0.5 0.5<br />0 0.5 0 0.5 0.5<br />0 0.5 0.5 0 0.5<br />0 0.5 0.5 0.5 0</pre>
+<br /><strong>Output:</strong> <br />
+<pre>1.000000 0.000000 0.000000 0.000000 0.000000 </pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-06-22</td></tr>
+<tr><td>Time limit:</td><td>0.288s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces</td></tr>	
+</table>

@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GRAPHCUT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10568. Graph Cut</h1>
+		<h2>Problem code: GRAPHCUT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a graph G, and a subset of its vertices X. The associated cut of X is the set of edges<br />associated to X is the subset of all edges in G such that exactly one of the two vertices it joins<br />belongs to X.<br />In thinks, you will be given a graph and a subset of its edges, and you will have to determine<br />whether there exists a subset of the vertices of the graph for which the given subset of the edges<br />is its associated cut.</p>
+<h3>Input</h3>
+<p>The first line contains an integer T, the number of test cases (1 &le; T &le; 40). Each test case, consists of<br />a line which contains three integers N (2 &le; N &le; 500),E (1 &le; E &le; 104),K (1 &le; K &le; E), the number of<br />vertices in the graph, and the number of edges in the subset for which we want to know whether<br />it is an associated cut or not. Then, E lines follow, each of them contains two integers u,v (1 &le; u,v &le;<br />N) which are the vertices joined by the edge, the first K of these E lines represent the asked subset.</p>
+<h3>Output</h3>
+<p>Output T lines, one for each test case. If the asked subset is an associated cut, then print &ldquo;YES&rdquo;,<br />otherwise print &ldquo;NO&rdquo;.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br /><br />3 3 1<br />1 2<br />2 3<br />1 3<br /><br />12 17 6<br />3 4<br />5 6<br />10 11<br />1 5<br />6 10<br />4 8<br />1 2<br />2 3<br />6 7<br />7 8<br />9 10<br />11 12<br />5 9<br />2 6<br />3 7<br />7 11<br />8 12
+
+<strong>Output:</strong>
+NO<br />YES <br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>0.150s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UNI</td></tr>	
+</table>

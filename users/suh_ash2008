@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/suh_ash2008"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BCHOCO" target="_blank">6499. Breaking Chocolates</a></td><td><a href="http://www.spoj.com/problems/BCHOCO"target="_blank">BCHOCO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCOUNT" target="_blank">6500. Counting Diameter</a></td><td><a href="http://www.spoj.com/problems/DCOUNT"target="_blank">DCOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_A" target="_blank">8419. Traversing Grid</a></td><td><a href="http://www.spoj.com/problems/BTCODE_A"target="_blank">BTCODE_A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_B" target="_blank">8420. Finding Minimum</a></td><td><a href="http://www.spoj.com/problems/BTCODE_B"target="_blank">BTCODE_B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_C" target="_blank">8421. Fun With Inequalities</a></td><td><a href="http://www.spoj.com/problems/BTCODE_C"target="_blank">BTCODE_C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_D" target="_blank">8422. Maximum Profit</a></td><td><a href="http://www.spoj.com/problems/BTCODE_D"target="_blank">BTCODE_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_E" target="_blank">8423. Recover Polynomials</a></td><td><a href="http://www.spoj.com/problems/BTCODE_E"target="_blank">BTCODE_E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_F" target="_blank">8424. Life Game</a></td><td><a href="http://www.spoj.com/problems/BTCODE_F"target="_blank">BTCODE_F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_G" target="_blank">8425. Coloring Trees</a></td><td><a href="http://www.spoj.com/problems/BTCODE_G"target="_blank">BTCODE_G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_H" target="_blank">8426. Trie Expectation</a></td><td><a href="http://www.spoj.com/problems/BTCODE_H"target="_blank">BTCODE_H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_I" target="_blank">8427. Permutation Game</a></td><td><a href="http://www.spoj.com/problems/BTCODE_I"target="_blank">BTCODE_I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_J" target="_blank">8428. Grid Tiling</a></td><td><a href="http://www.spoj.com/problems/BTCODE_J"target="_blank">BTCODE_J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTCODE_K" target="_blank">8429. Array Sorting</a></td><td><a href="http://www.spoj.com/problems/BTCODE_K"target="_blank">BTCODE_K</a><br>
+</td></tr>

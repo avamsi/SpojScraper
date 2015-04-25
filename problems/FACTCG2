@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACTCG2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10818. Medium Factorization</h1>
+		<h2>Problem code: FACTCG2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">The task in this problem is to write a number in a multiplication of prime numbers separated by &ldquo; x&rdquo;. You need to put the</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">number 1 in this multiplication.</span></span></p><p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p><h1><span style="font-size: medium;"><strong><span style="font-family: arial, helvetica, sans-serif;">Input</span></strong></span></h1><p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">The input consists of several lines.</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Each line consists of one integer N (1 &lt;= N &lt;= 10^7) .</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></p><h1><span style="font-size: medium;"><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output</span></span></strong></span></h1><p><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">For each line you need to output the factorization separated by &ldquo; x&rdquo; and including 1.</span></span></p><p><span style="font-size: x-small;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p><h1><span style="font-size: medium;"><strong><span style="font-family: arial, helvetica, sans-serif;">Sample Input</span></strong></span></h1><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">4</span></span></p><p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">8</span></span></p><span style="font-family: arial, helvetica, sans-serif;">
+</span><h1><strong><span style="font-family: arial, helvetica, sans-serif;">Sample Output</span></strong></h1><div><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1</span></span></div><div><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 x 2</span></span></div><div><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 x 2 x 2</span></span></div><div><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 x 2 x 2 x 2</span></span></div></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/phyllipe">Phyllipe Medeiros</a></td></tr>
+<tr><td>Date:</td><td>2012-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.517s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CNT_LUCK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13444. Counting Lucky Numbers</h1>
+		<h2>Problem code: CNT_LUCK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Find out how many numbers between a and b (inclusive) when represented as binary numbers have sum of digits lucky.</p>
+<p>A number is lucky if it's decimal representation contains digits 4 and 7 only.</p>
+<p>eg. 4, 7, 47 , 77 etc. where as &nbsp;14 , 41 etc. are not.</p>
+<p>Note that 0 &lt;= a &lt;= b &lt;= 10^19.</p>
+<h3>Input</h3>
+<p>T: no of test cases T&lt;=10^5</p>
+<p>Next T lines have a and b in every line. a &lt;= b</p>
+<h3>Output</h3>
+<p>for every test case output as described in problem statement</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>15 15</pre>
+<pre>63 63
+
+<strong>Output:</strong>
+1</pre>
+<pre>0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-01-21</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>general</td></tr>	
+</table>

@@ -1,0 +1,544 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ATOURISM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3646. Adventure Tourism</h1>
+		<h2>Problem code: ATOURISM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/ATOURISM/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/ATOURISM/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>
+There has been a growing interest in adventure tourism lately. However, organizing adventure tours is not an easy task. It requires very careful preparation with attention to specific details.
+</p>
+<p>
+This tour has p young male and q female participants. In addition to the logistic and rescue team, the organizers also assign k more guides to join the tour. In the first stage of the tour, the road is quite narrow passing a cliff; the group will have to go in one line. To be able to help each other, a female participant has to go next to, i.e. before or after, a male participant or a guide. Furthermore, there must be at least one participant next to a guide. Given these constraints, there are several ways the group can form a line. Let&#8217;s denote B, G and M as a male participant, a female participant and a guide respectively. A line formation can be represented by a string of length (p+q+k) containing characters from the set (B, G, M). Two line formations are different if their string representations are different. For example, the group having 2 male, 2 female and a guide (p = q = 2, k = 1) has 24 different way to form a line as follows:
+</p>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	(font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;)
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	(mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Arial;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Arial;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;)
+.MsoChpDefault
+	(mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Arial;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Arial;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Arial;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;)
+.MsoPapDefault
+	(mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;)
+@page Section1
+	(size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;)
+div.Section1
+	(page:Section1;)
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	(mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Arial;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;)
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=VI style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid #F79646 1.0pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ 1.0pt solid #F79646;mso-border-insidev:1.0pt solid #F79646'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=41 style='width:30.4pt;border:solid #F79646 1.0pt;border-bottom:
+  solid #F79646 2.25pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'>
+	<b><i><span style="font-size: 11.0pt; font-family: Times New Roman">Index</span></i></b></p>
+  </td>
+
+  <td width=72 style='width:54.0pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'>
+	<b><i>Group Line</i></b></p>
+  </td>
+  <td width=41 style='width:30.4pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class="MsoNormal" align="center" style="margin-bottom: 6.0pt"><b><i>
+	<span style="font-size: 11.0pt; font-family: Times New Roman">Index</span></i></b></td>
+  <td width=78 style='width:58.5pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class="MsoNormal" align="center" style="margin-bottom: 6.0pt"><b><i>Group 
+	Line</i></b></td>
+  <td width=41 style='width:30.4pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class="MsoNormal" align="center" style="margin-bottom: 6.0pt"><b><i>
+	<span style="font-size: 11.0pt; font-family: Times New Roman">Index</span></i></b></td>
+  <td width=78 style='width:58.5pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'>
+	<b><i>Group Line</i></b></p>
+  </td>
+  <td width=41 style='width:30.4pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class="MsoNormal" align="center" style="margin-bottom: 6.0pt"><b><i>
+	<span style="font-size: 11.0pt; font-family: Times New Roman">Index</span></i></b></td>
+  <td width=78 style='width:58.5pt;border-top:solid #F79646 1.0pt;border-left:
+  none;border-bottom:solid #F79646 2.25pt;border-right:solid #F79646 1.0pt;
+  mso-border-left-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'>
+	<b><i>Group Line</i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;background:#FDE4D0;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>1<o:p></o:p></b></p>
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'>BBGGM<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>7<o:p></o:p></p>
+
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>BGMBG<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>13<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>MGBBG<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>19<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GBGMB<o:p></o:p></p>
+
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>2<o:p></o:p></b></p>
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'>BBGMG<o:p></o:p></p>
+
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>8<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>BGMGB<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>14<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>MGBGB<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>20<o:p></o:p></p>
+
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GBMBG<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;background:#FDE4D0;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>3<o:p></o:p></b></p>
+
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'>BGBGM<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>9<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>BMGBG<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>15<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>MGGBB<o:p></o:p></p>
+
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>21<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>GBMGB<o:p></o:p></p>
+  </td>
+ </tr>
+
+ <tr style='mso-yfti-irow:4'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>4<o:p></o:p></b></p>
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>BGBMG<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>10<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>BMGGB<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>16<o:p></o:p></p>
+
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GBBGM<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>22<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal>GMBBG<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;background:#FDE4D0;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>5<o:p></o:p></b></p>
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal>BGGBM<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>11<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>MBGBG<o:p></o:p></p>
+
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>17<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GBBMG<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>23<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  background:#FDE4D0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GMBGB<o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
+  <td width=41 valign=top style='width:30.4pt;border:solid #F79646 1.0pt;
+  border-top:none;mso-border-top-alt:solid #F79646 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'><b>6<o:p></o:p></b></p>
+  </td>
+  <td width=72 valign=top style='width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>BGGMB<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>12<o:p></o:p></p>
+
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>MBGGB<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>18<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>GBGBM<o:p></o:p></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;text-align:justify'>24<o:p></o:p></p>
+  </td>
+  <td width=78 valign=top style='width:58.5pt;border-top:none;border-left:none;
+  border-bottom:solid #F79646 1.0pt;border-right:solid #F79646 1.0pt;
+  mso-border-top-alt:solid #F79646 1.0pt;mso-border-left-alt:solid #F79646 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>GMGBB<o:p></o:p></p>
+
+  </td>
+ </tr>
+</table>
+
+<p>
+Given p, q, and k, let&#8217;s denote n as the number of different ways to form a line. Your task is to write a program to calculate the remainder of n divided by 10<sup>7</sup>.
+</p>
+<h3>Input</h3>
+<p>
+The input file consists of several data sets. The first line of the input file contains the number of data sets which is a positive integer and is not bigger than 20. The following lines describe the data sets.
+</p>
+<p>
+For each data test, there is only one line containing three integers p, q and k (0 &#8804; p, q &#8804; 1 000, 0 &#8804; k &#8804; 10) separated by space.
+</p>
+<h3>Output</h3>
+<p>
+For each data test, write in one line the remainder of the number of different line formations divided by 10<sup>7</sup>.
+</p>
+<h3>Example</h3>
+<pre>
+<b>Sample Input</b>
+1
+2 2 1	
+
+<b>Sample Output</b>
+24
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2009-01-04</td></tr>
+<tr><td>Time limit:</td><td>0.426s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Regional, Ho Chi Minh City 2008</td></tr>	
+</table>

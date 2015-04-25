@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/anilshanbhag"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SPIDY" target="_blank">12249. Spiderman vs Sandman</a></td><td><a href="http://www.spoj.com/problems/SPIDY"target="_blank">SPIDY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KMEDIAL" target="_blank">13362. Median of sub-sequences</a></td><td><a href="http://www.spoj.com/problems/KMEDIAL"target="_blank">KMEDIAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOULDER" target="_blank">13365. Move the boulder</a></td><td><a href="http://www.spoj.com/problems/BOULDER"target="_blank">BOULDER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KINDERPC" target="_blank">13382. Kindergarten Painting Competition </a></td><td><a href="http://www.spoj.com/problems/KINDERPC"target="_blank">KINDERPC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NICEBTRE" target="_blank">13384. Nice Binary Trees</a></td><td><a href="http://www.spoj.com/problems/NICEBTRE"target="_blank">NICEBTRE</a><br>
+</td></tr>

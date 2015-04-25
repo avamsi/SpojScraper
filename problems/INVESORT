@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INVESORT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7232. Inversion Sort</h1>
+		<h2>Problem code: INVESORT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You have just bought an old fashioned jukebox that can hold 10 music albums. Albums<br />are mantained as a sequence, each album represented by a unique lowercase letter between<br />&ldquo;a&rdquo; and &ldquo;j&rdquo;, inclusive. The jukebox allows you to select a subsequence of contiguous<br />albums and a mechanical arm inverts that part of the sequence. For instance, if the<br />current sequence is &ldquo;abcdefghij&rdquo; and you select the subsequence &ldquo;bcd&rdquo;, the result of<br />the inversion would be &ldquo;adcbefghij&rdquo;. Soon you notice that it is possible to get the<br />albums into any desired order using simply inversions. However, you are interested in<br />doing so with the minimum number of operations.<br />Given the current order and a desired order of the 10 music albums, find the minimum<br />number of inversion operations needed to obtain the desired order.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in a single line. The line contains<br />two strings C and D separated by a single space, representing the current and desired<br />orders of the music albums, respectively. Each of the strings has exactly 10 characters<br />and contains the characters of &ldquo;abcdefghij&rdquo; in some order. The last line of the input<br />contains two asterisks (&ldquo;*&rdquo;) separated by a single space and should not be processed as<br />a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an integer representing the minimum number<br />of inversions needed to transform the current order given by C, into the desired order<br />given by D.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />abcdefghij adcbefghij<br />abcdefghij abcdefghij<br />bcdaefghji beagfcdhji<br />* *<br /><br /><strong>Output:</strong>
+1<br />0<br />2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-24</td></tr>
+<tr><td>Time limit:</td><td>89.26s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2009</td></tr>	
+</table>

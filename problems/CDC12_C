@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12558. Collision Issue</h1>
+		<h2>Problem code: CDC12_C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">When Ronny finished his routines, received a call from the Center of Extraordinary Investiga-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">tions Defining Excluded Creatures (or CEIDEC by its acronym).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC found a planet going through the orbit of the Earth at a great velocity, the planet was</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">named Rainbowland by its fancy colors. We don&rsquo;t know if this planet contains living creatures,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">what CEIDEC knows is that the collision is almost imminent. However, that&rsquo;s why the CEI-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">DEC calls you: to create a program that, given three points in the space and assuming that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the space only has two dimensions, compute if the three given points makes a perfect triangle,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">an isosceles triangle or an scalene triangle.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">In addition, CEIDEC would like to know the angle formed by these three points. Computing</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">this would make the calculations for collision easier to perform. Obviously, CEIDEC will give</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">you a useful formula to discover the angle &theta; on the triangle knowing the length of sides A,B</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">and C. You must manipulate the following formula in order to get the angle formed by these</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">three points:</div>
+<p>&nbsp;</p>
+<p>When Ronny finished his routines, received a call from the Center of Extraordinary Investiga-</p>
+<p>tions Defining Excluded Creatures (or CEIDEC by its acronym).</p>
+<p>CEIDEC found a planet going through the orbit of the Earth at a great velocity, the planet was</p>
+<p>named Rainbowland by its fancy colors. We don&rsquo;t know if this planet contains living creatures,</p>
+<p>what CEIDEC knows is that the collision is almost imminent. However, that&rsquo;s why the CEI-</p>
+<p>DEC calls you: to create a program that, given three points in the space and assuming that</p>
+<p>the space only has two dimensions, compute if the three given points makes a perfect triangle,</p>
+<p>an isosceles triangle or an scalene triangle.</p>
+<p>In addition, CEIDEC would like to know the angle formed by these three points. Computing</p>
+<p>this would make the calculations for collision easier to perform. Obviously, CEIDEC will give</p>
+<p>you a useful formula to discover the angle &theta; on the triangle knowing the length of sides A,B</p>
+<p>and C. You must manipulate the following formula in order to get the angle formed by these</p>
+<p>three points:</p>
+<div style="padding-left: 30px; ">sqrt( (A&sup2;) + (B&sup2;) - [ {8*A&sup3;*B&sup3;}^(1/3) * sin&sup3;(&oslash;) * cot&sup3;(&oslash;) * sec&sup2;(&oslash;) ] ) = c</div>
+<div>
+<p>That formula will find the angle between the vertex a and b.<br />you must find if a triangle is Equilateral, Isosceles or Scalene and, in addition,<br />you must find the name of the interior angular triangle, knowing that.</p>
+<p style="padding-left: 30px;"><br />&bull; The sum of all interior angles must be equal to 180&#9702;<br />&bull; A triangle will be Equiangular if all the angles are the same.<br />&bull; A triangle will be Right Triangle if one and only one angle is equal to 90&#9702;<br />&bull; A triangle will be Obtuse if one angle is greater than 90&#9702;<br />&bull; A triangle will be Acute if all the angles are lesser than 90&#9702;</p>
+<p><br />Two floating points numbers will be considered equal if their absolute difference is lower than<br />10&#8315;&sup2; . (Rounded), by instance, 3.14159265 it is considered 3.14.</p>
+<p><br /><strong>Input<br /></strong>The first line contains an integer T , which specifies the number of test cases. Then, will follow<br />the descriptions of T test cases.<br />Each case will contain 3 lines, each of these three lines will contain two integers, denoting the<br />coordinates (x,y) of every vertex in the triangle.<br />The input must be read from standard input.</p>
+<p><br /><strong>Output<br /></strong>For each input case you must print the string "Scenario #i:" where i is the test case you are<br />analyzing (starting by 1) followed by the name by side of the triangle and (only for large cases)<br />the name by interior angle of the triangle separated by a single space.<br />The output must be written to standard output.</p>
+<table border="2">
+<tbody>
+<tr>
+<td>Input</td>
+<td>Output</td>
+</tr>
+<tr align="left" valign="top">
+<td>4<br /> 0 0<br /> 0 3<br /> 3 0<br /> 0 0<br /> 0 4<br /> 3.464 2<br /> 1 1<br /> 5 5<br /> 4 0<br /> 1252 1322<br /> 1904 1950<br /> 1700 1700<br /></td>
+<td>Scenario #1: Isosceles Right Triangle<br /> Scenario #2: Equilateral Equiangular<br /> Scenario #3: Scalene Acute<br /> Scenario #4: Scalene Obtuse<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Constraints</strong></p>
+<p style="padding-left: 30px;">&bull; 1 &le; T &le; 100</p>
+<p style="padding-left: 30px;">&bull; -1,000,000 &le; X &le; 1,000,000</p>
+<p style="padding-left: 30px;">&bull; -1,000,000 &le; Y &le; 1,000,000</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>0.184s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

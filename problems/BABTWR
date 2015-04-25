@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BABTWR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>100. Tower of Babylon</h1>
+		<h2>Problem code: BABTWR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img src="/content/ahven:tower.png" style="float: right" hspace="5">Apart from the Hanging Gardens the Babylonians (around 3000-539 b.c.) built the Tower of Babylon as well. The tower was meant to reach the sky, but the project failed because of a confusion of language imposed from much higher above.</p>
+<p>For the 2638th anniversary a model of the tower will be rebuilt. <i>n</i> different types of blocks are available. Each one of them may be duplicated as many times as you like. Each type has a height <i>y</i>, a width <i>x</i> and a depth <i>z</i>. The blocks are to be stacked one upon eachother so that the resulting tower is as high as possible. Of course the blocks can be rotated as desired before stacking. However for reasons of stability a block can only be stacked upon another if <i>both</i> of its baselines are shorter.</p>
+
+<h3>Input</h3>
+<p>The number of types of blocks <i>n</i> is located in the first line of each test case. On the subsequent <i>n</i> lines the height <i>y<sub>i</sub></i>, the width <i>x<sub>i</sub></i> and the depth <i>z<sub>i</sub></i> of each type of blocks are given. There are never more than 30 different types available.</p>
+<p>There are many test cases, which come one by one. Input terminates with n = 0.</p>
+
+<h3>Output</h3>
+<p>For each test case your program should output one line with the height of the highest possible tower.</p>
+
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+5
+31 41 59
+26 53 58
+97 93 23
+84 62 64
+33 83 27
+1
+1 1 1
+0
+
+<b><tt>Sample output:</tt></b>
+342
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahven">Michał Czuczman</a></td></tr>
+<tr><td>Date:</td><td>2004-07-06</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Swiss Olympiad in Informatics 2004</td></tr>	
+</table>

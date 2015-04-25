@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FENCE3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4587. Electric Fences</h1>
+		<h2>Problem code: FENCE3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Farmer John has decided to construct electric fences. He has fenced his fields into a number of bizarre shapes and now must find the optimal place to locate the electrical supply to each of the fences.
+<br><br>
+A single wire must run from some point on each and every fence to the source of electricity. Wires can run through other fences or across other wires. Wires can run at any angle. Wires can run from any point on a fence (i.e., the ends or anywhere in between) to the electrical supply.
+<br><br>
+Given the locations of all F (1 <= F <= 150) fences (fences are always parallel to a grid axis and run from one integer gridpoint to another, 0 <= X,Y <= 100), your program must calculate both the total length of wire required to connect every fence to the central source of electricity and also the optimal location for the electrical source.
+<br><br>
+The optimal location for the electrical source might be anywhere in Farmer John's field, not necessarily on a grid point. 
+
+<h3>Input</h3>
+<p>The first line contains F, the number of fences.
+<br>F subsequent lines each contain two X,Y pairs each of which denotes the endpoints of a fence.
+
+<h3>Output</h3>
+<p> On a single line, print three space-separated floating point numbers, each with a single decimal place. Presume that your computer's output library will round the number correctly.
+<br><br>
+The three numbers are:
+<br><br>
+* the X value of the optimal location for the electricity,
+<br>* the Y value for the optimal location for the electricity, and
+<br>* the total (minimum) length of the wire required. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+0 0 0 1
+2 0 2 1
+0 3 2 3
+
+<b>Output:</b>
+1.0 1.6 3.7
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahmed_aly">Ahmed Aly</a></td></tr>
+<tr><td>Date:</td><td>2009-07-15</td></tr>
+<tr><td>Time limit:</td><td>0.181s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>USACO</td></tr>	
+</table>

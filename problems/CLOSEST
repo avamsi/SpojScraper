@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CLOSEST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7209. Closest Triplet</h1>
+		<h2>Problem code: CLOSEST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Closest pair is an old problem that asks to find, given a set of N points in the plane,<br />the pair that minimizes the distance between them. This problem can easily be solved<br />using roughly N 2 operations by testing all possible pairs of points and keeping at each<br />step the optimal pair. With a more clever approach, the problem has been solved using<br />&sim; N log N operations.<br />Closest triplet is an analogous problem which also takes a set of N points as input, and<br />asks for the triplet (group of three points) that minimizes the sum of the three distances<br />between each pair of them. In this case there is also a trivial solution that tests all possible<br />triplets using roughly N<sup>3</sup> operations. However, since you are a clever programmer, we<br />are confident that you are able to find a better algorithm.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in several lines. The first line<br />contains an integer N indicating the number of points in the set (3 &le; N &le; 3000). Each<br />of the next N lines describes a different point of the set using two integers X and Y<br />separated by a single space (1 &le; X, Y &le; 10<sup>6</sup> ); these values represent the coordinates of<br />the point in the XY plane. You may assume that within each test case no two points<br />have the same location. The last line of the input contains a single &minus;1 and should not<br />be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with a real number representing the sum of the<br />distances between each pair of points of any closest triplet of the set of points. Round<br />the result to the closest rational number with three decimal places. In case of ties, round<br />up. Always use exactly three digits after the decimal point, even if it means finishing<br />with a zero.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />1 1<br />4 1<br />1 5<br />1000 1000<br />9<br />100000 200000<br />200000 200000<br />150000 286603<br />60000 140000<br />240000 140000<br />150000 340000<br />1 340000<br />300000 340000<br />150000 87087<br />-1<br /><br /><strong>Output:</strong>
+12.000<br />300000.796</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-22</td></tr>
+<tr><td>Time limit:</td><td>37.47s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2009</td></tr>	
+</table>

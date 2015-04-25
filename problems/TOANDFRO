@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TOANDFRO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>400. To and Fro</h1>
+		<h2>Problem code: TOANDFRO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mo and Larry have devised a way of encrypting messages. They first decide secretly on the number of
+columns and write the message (letters only) down the columns, padding with extra random letters so
+as to make a rectangular array of letters. For example, if the message is &#8220;There&#8217;s no place like home on
+a snowy night&#8221; and there are five columns, Mo would write down
+</p>
+<p><pre>
+t o i o y
+h p k n n
+e l e a i
+r a h s g
+e c o n h
+s e m o t
+n l e w x
+</pre>
+</p>
+<p>Note that Mo includes only letters and writes them all in lower case. In this example, Mo used the
+character &#8216;x&#8217; to pad the message out to make a rectangle, although he could have used any letter.
+Mo then sends the message to Larry by writing the letters in each row, alternating left-to-right and
+right-to-left. So, the above would be encrypted as
+</p>
+<p><pre>toioynnkpheleaigshareconhtomesnlewx</pre>
+</p>
+<p>Your job is to recover for Larry the original message (along with any extra padding letters) from the
+encrypted one.</p>
+<h3>Input</h3>
+<p>There will be multiple input sets. Input for each set will consist of two lines. The first line will contain
+an integer in the range 2...20 indicating the number of columns used. The next line is a string of up
+to 200 lower case letters. The last input set is followed by a line containing a single 0, indicating end of
+input.</p>
+<h3>Output</h3>
+<p>Each input set should generate one line of output, giving the original plaintext message, with no spaces.</p>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+5
+toioynnkpheleaigshareconhtomesnlewx
+3
+ttyohhieneesiaabss
+0
+
+<b>Output:</b>
+
+theresnoplacelikehomeonasnowynightx
+thisistheeasyoneab
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-09</td></tr>
+<tr><td>Time limit:</td><td>0.959s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td> ACM East Central North America Regional Programming Contest 2004</td></tr>	
+</table>

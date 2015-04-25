@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEGMENTS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2321. Segments</h1>
+		<h2>Problem code: SEGMENTS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are N horizontal line segments in the plane.  The ith segment
+has some height h<sub>i</sub> (which may be negative) and runs from x = a<sub>i</sub>
+to x = b<sub>i</sub> (a<sub>i</sub> < b<sub>i</sub>).  Segments do not contain their endpoints.
+You must draw a set of vertical lines (note <i>lines</i> and not <i>line segments</i>) so that every given horizontal segment is
+intersected at least once and at most R times by vertical lines in such a way that R
+is minimized.
+
+<h3>Input</h3>
+<p>The first line of the input is N (1 &#8804; N &#8804; 400), the number of
+horizontal line segments.  N lines then follow, where the ith line
+is "a<sub>i</sub> b<sub>i</sub> h<sub>i</sub>".  Each of a<sub>i</sub>,b<sub>i</sub>,h<sub>i</sub> are 32-bit signed
+integers.  Horizontal segments may overlap.
+
+<h3>Output</h3>
+<p>Your output should consist of a single integer, the smallest value of
+R that is achievable, followed by a newline.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+0 1 5
+0 2 -2
+1 2 7
+
+<b>Output:</b>
+2
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>1.524s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/team1/index.html">MIT 1st Team Contest 2007</a></td></tr>	
+</table>

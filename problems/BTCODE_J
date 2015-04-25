@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTCODE_J"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8428. Grid Tiling</h1>
+		<h2>Problem code: BTCODE_J</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Vikas is the chief interior designer incharge of the Taj Palace, Mumbai. He wants to make an impressive and colourful pattern in the courtyard. Importing exotic tiles has become very difficult after the Mumbai terror attacks, and therefore Vikas has only 4 kinds of tiles to choose from:</p>
+<pre>A&nbsp;&nbsp;&nbsp;&nbsp; B&nbsp;&nbsp;&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; D
+==    ==    ==&nbsp;&nbsp; ==
+XX    X     X&nbsp;&nbsp;&nbsp; X
+XX    X     XX
+
+</pre>
+<p>Any rotation of above tiles is also permitted.</p>
+<p>Each tile is available in 'k' different colors, and there's an infinite supply of all tiles. The courtyard has dimensions 2 * 'n'. Vikas wants to tile the courtyard in such a way that no two adjacent tiles have the same color. Two tiles are considered adjacent if they share a common side. Two tilings are considered different if:</p>
+<p>1) The arrangement of tiles is different. <br />2) There is atleast 1 position (1*1 square) which has different colors in the two arrangements.</p>
+<p>Can you help Vikas find the number of different ways in which he can tile the courtyard, subject to the above conditions?</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer 't', denoting the number of test cases. <br />Each of the next 't' lines contains 2 space separated integers 'n' and 'k'.</p>
+<h3>Output</h3>
+<p>For each test case output one integer, denoting the number of different ways in which the courtyard can be tiled.</p>
+<p>Two tiles are considered adjacent if they share an edge. Two tiles which just share a common point are not considered adjacent.</p>
+<p>Since the answers can be large, print all the quantities modulo 1000000007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+1 1
+1 2
+
+<strong>Output:</strong>
+1
+4
+
+<strong>Constraints:</strong>
+t &lt;= 1000
+1 &lt;= n &lt;= 10^9
+1 &lt;= k &lt;= 1000
+
+</pre>
+<p><strong>Explanation:</strong></p>
+<p>Test case 1: There is only 1 way to tile the courtyard, by using a 2*1 tile. <br />Test case 2: Let '1' and '2' be the available colors. The grid can be tiled in 4 ways - 1) place one 2*1 tile of color '1', 2) place one 2*1 tile of color '2', 3) Place two 1*1 tiles (color '1' above and color '2' below), 4) Place two 1*1 tiles (color '2' above and color '1' below)</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/suh_ash2008">suhash</a></td></tr>
+<tr><td>Date:</td><td>2011-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.198s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2011, NIT Trichy, India</td></tr>	
+</table>

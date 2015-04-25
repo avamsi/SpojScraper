@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PRISMSA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8371. TRIANGULAR PRISM</h1>
+		<h2>Problem code: PRISMSA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a far away nation, all the liquid substance are stored in a can of shape of a triangular prism. According to belief, this will bring security to their children. As they are very resource conservative people, unlike the earth natives, they want to use as less as possible amount of the raw material to be used for producing the can, which directly depends on the surface area of the can. Mr. Buzz Light Year, of Star Command, is provided with the responsiblity to find the minimal suface area required to prodce a can of a given volume.</p>
+<p><strong>Notes</strong></p>
+<p>- Consider the material the can is made of to be infinitely thin.</p>
+<p>- The base of the prism is equilateral triangle.</p>
+<p>- Some formuls:</p>
+<p>&nbsp; a: triangle side's length.</p>
+<p>&nbsp; h: height of the prism.</p>
+<p>&nbsp; Volume, V =&nbsp; (a<sup>2</sup> * sin(60&deg;) * h)/2</p>
+<p>&nbsp; Surface Area, S = a<sup>2</sup>*sin(60&deg;) + 3*a*h</p>
+<p>&nbsp;- If not provided by a library, use the alue of 2*acos(0) for PI(&pi;).</p>
+<p>&nbsp;- Reminder</p>
+<p>&nbsp;&nbsp;&nbsp; If your result is within 10<sup>-2</sup> of the expected result, your solution will be evaluated as correct.</p>
+<p>&nbsp;&nbsp;&nbsp; If your result is between (1-10<sup>-2</sup>)*expected and (1+10<sup>-2</sup>)*expected, it will be evaluated as correct.</p>
+<p>&nbsp;</p>
+<p><img title="Prism" src="http://cat4mba.com/Notes/Maths/geometry/SpaceFigure_files/image012.gif" alt="Prism" width="265" height="131" /></p>
+<p>&nbsp;</p>
+<p><strong>Constriants:</strong></p>
+<p>&nbsp;- Volume will be between 1 and 100000, inclusive.</p>
+<p>&nbsp;- Volume will always be a integer.</p>
+<h3>Input</h3>
+<p>Input begins with a integer t, number of test cases. Then follows t lines, each one containing an integer, V, given volume.</p>
+<h3>Output</h3>
+<p>For each volume, print the minimum surface area required to produce the can in separate line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />10<br />5<br />100<br />245<br />5421<br /><br /><strong>Output:</strong><br />30.3872837089<br />19.1427891970<br />141.0452767471<br />256.3318686611<br />2020.2796324002<br /><br /><em><span style="text-decoration: underline;">Explanation for test case 1:</span></em> Volume = 10<br /> a = 3.41995<br /> h = 1.97451<br /> Minimum Surface Area = 30.3872837089</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhiranjanlost">abhiranjan</a></td></tr>
+<tr><td>Date:</td><td>2011-02-18</td></tr>
+<tr><td>Time limit:</td><td>0.375s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IIITM Local Contest</td></tr>	
+</table>

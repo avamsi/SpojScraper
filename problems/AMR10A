@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8055. Playground</h1>
+		<h2>Problem code: AMR10A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>My kid's school cleared a large field on their property recently to convert it into a playing area.&nbsp; The field is polygonal.&nbsp; The school administration decided to separate the field into two areas by building a straight picket fence between the area for the older kids and the area for the younger kids.&nbsp; The fence would go between two non-adjacent vertices of the polygonal field, and given the shape of the field, all such possible fences would lie strictly and entirely within the field. <br />Naturally, the smaller of the two areas would go to the younger kids.&nbsp; So can you help the school determine what the area of the smaller play-area would be for different fence positions? <br />&nbsp;<br /><strong>INPUT</strong><br />The first line contains 2 numbers N denoting the number of points in the convex polygon and Q denoting the number of possible locations of straight line fences. <br />The next N lines contain 2 integers each. The ith line contains the integers xi yi denoting the coordinates of the ith point of the polygon. The points are given in clockwise order. <br />The next Q lines contain 2 integers a b denoting that a straight line fence is to be drawn connecting a and b. <br />&nbsp;<br /><strong>OUTPUT</strong><br />Output Q lines one corresponding to each query. For each query, output the area of the smaller region for the corresponding query truncated to 1 decimal place. Always have 1 digit after the decimal place, so if the answer is 1, output it as 1.0 instead. <br />&nbsp;<br /><strong>CONSTRAINTS</strong> <br />4 &lt;= N &lt;= 50000 <br />1 &lt;= Q &lt;= 50000 <br />-20,000,000 &lt;= x,y &lt;= 20,000,000 <br />0 &lt;= a &lt; b-1 <br />b &lt; N <br />&nbsp;<br /><strong>SAMPLE INPUT</strong><br />4 2 <br />0 0 <br />0 1 <br />1 2 <br />1 0 <br />1 3 <br />0 2 <br />&nbsp;<br /><strong>SAMPLE OUTPUT</strong><br />0.5 <br />0.5 <br />&nbsp;<br /><strong>EXPLANATION</strong><br />The polygon is given by the points (0,0) (0,1) (1,2) (1,0). &nbsp;<br />In the first query, we join the points (0,1) and (1,0) which leads to the 2 areas given by (0,0) (0,1) (1,0) and (0,1) (1,2) (1,0). The first triangle has an area of 0.5 and the second triangle has an area of 1. The minimum of these 2 is 0.5. <br />In the second query, we join the points (0,0) and (1,2) which leads to the 2 areas given by (0,0) (0,1) (1,2) and (0,0) (1,2) (1,0). The first triangle has an area of 0.5 and the second triangle has an area of 1. The minimum of these 2 is 0.5.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>0.670s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

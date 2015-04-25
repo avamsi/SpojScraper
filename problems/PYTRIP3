@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PYTRIP3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19913. Counting Pythagorean Triples</h1>
+		<h2>Problem code: PYTRIP3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+<script type="text/x-mathjax-config">// <![CDATA[
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+// ]]></script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</p>
+<p>We define a Pythagorean triple as a set of three positive integers $a$, $b$ and $c$ which satisfy $a^2 + b^2 = c^2$.</p>
+<p>Let $P(N)$ denote the number of Pythagorean triples whose hypotenuses ($= c$) are less than or equal to $N$ (i.e. $c \le N$).</p>
+<p>Your task is to find $P(N)$.</p>
+<h3>Input</h3>
+<p>The first line of input contains a positive integer $N$</p>
+<h3>Output</h3>
+<p>Print on a single line the value of $P(N)$.</p>
+<h3>Constraints</h3>
+<p>$1 \le N \le 1234567891011$</p>
+<h3>Example</h3>
+<p><strong>Input1:</strong></p>
+<p>5</p>
+<p><strong>Output1:</strong></p>
+<p>1</p>
+<p>&nbsp;</p>
+<p><strong>Input2:</strong></p>
+<p>15</p>
+<p><strong>Output2:</strong></p>
+<p>4</p>
+<p>&nbsp;</p>
+<p><strong>Input3:</strong></p>
+<p>10000</p>
+<p><strong>Output3:</strong></p>
+<p>12471</p>
+<p>&nbsp;</p>
+<p><strong>Input4:</strong></p>
+<p>1000000000000</p>
+<p><strong>Output4:</strong></p>
+<p>4179478903392</p>
+<p>&nbsp;</p>
+<h3>Explanation for Input2</h3>
+<p>There are four Pythagorean triples: $\{3, 4, 5\}$, $\{5, 12, 13\}$, $\{6, 8, 10\}$, $\{9, 12, 15\}$</p>
+<h3>Information</h3>
+<p>There are 15 test cases.</p>
+<p>The sum of the time limits is 93 sec. (My solution runs in 14.03 sec.)</p>
+<p>Source Limit is 5 KB.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/min_25">Min_25</a></td></tr>
+<tr><td>Date:</td><td>2014-05-26</td></tr>
+<tr><td>Time limit:</td><td>1s-30s</td></tr>
+<tr><td>Source limit:</td><td>5120B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

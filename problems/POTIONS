@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POTIONS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19416. Potions Class</h1>
+		<h2>Problem code: POTIONS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">Its time for the Potions class. Harry absolutely HATES potions because he has to face mockery by the potions teacher Snape everytime he has a potions class. Snape never leaves any chance of insulting him in front of everyone.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">Snape is not in a good mood today, which is not good for Harry. Snape challenges Harry to answer his question. If Harry fails to answer, he will have to spend the whole week in detention!.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">He gives Harry n numbers ( a1, a2, a3,...., an ) and q queries. Each query will consist of four integers,<strong>w, x, y, z</strong> . The result of a query is given by the following equation:</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;"><img title="Equation" src="../../../content/abhinav92003:equation_potions" alt="Equation" width="173" height="77" /></p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;"><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">Help Harry or else he'll miss his Quidditch match against Slytherin because of his detention..!!</span></p>
+<h3>Input</h3>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">The first line of the input contains <strong>T</strong>, the number of test cases. <strong>T</strong> test cases follow.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">The first line of each test case contains <strong>n</strong> and <strong>q</strong>.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">The second line of each test case contains <strong>n</strong> integers <strong>(a1, a2, a3,..,an)</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">Each of the next <strong>q</strong> lines contain <strong>w, x, y, z</strong>.</p>
+<h3>Output</h3>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">For each test case output the result as given by the equation.</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">The answer may be very large, so output it <strong>modulo 10^9+7</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;"><strong>Constraints:</strong></p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1<= <strong>T</strong> <=10</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1<= <strong>n, q</strong> <=10^5</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1<= <strong>x+i</strong> <=n ( for all y<=i<=z )</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">0<= <strong>ai</strong> <=10^9 ( for all 1<=i<=n)</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1<= <strong>w</strong> <=10^6</p>
+<p style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;"><strong>0<=y<=z</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1</span><br style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;" /><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">5 2</span><br style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;" /><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">2 1 4 7 2</span><br style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;" /><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1 1 0 2</span><br style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;" /><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">1 5 0 0</span></pre>
+<pre><strong>Output:</strong>
+<span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">16</span><br style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;" /><span style="font-family: Arial, sans-serif; font-size: 13px; line-height: 18px;">2</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhinav92003">Abhinav92003</a></td></tr>
+<tr><td>Date:</td><td>2014-04-06</td></tr>
+<tr><td>Time limit:</td><td>1s-5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

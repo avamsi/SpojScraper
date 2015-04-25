@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CONHONPR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13398. Contest Hall Preparation</h1>
+		<h2>Problem code: CONHONPR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-family: 'Times New Roman'; font-size: medium; white-space: normal;">Before the ACM-ACPC regional contest, the site director and the volunteers were very busy preparing for the contest. One of their tasks is to assign a table for each team such that no two teams from</span></pre>
+<pre><span style="font-family: 'Times New Roman'; font-size: medium; white-space: normal;">&nbsp;the same university are adjacent to each other. The site director decided not to waste his time doing this task and asked the judges to do it. The judges thought this could be a good problem to be used in</span></pre>
+<pre><span style="font-family: 'Times New Roman'; font-size: medium; white-space: normal;">&nbsp;the contest problems set. As they were very busy preparing for the contest, the judges decided to solve part of the problem and ask the contestants to solve the rest.</span><br /><span style="white-space: normal;">
+<p style="font-family: 'Times New Roman'; font-size: medium;">The judges will generate a number of layouts for the teams assignment to the tables and will ask the contestants to write a program to check whether each of these layouts is valid or not.</p><p style="font-family: 'Times New Roman'; font-size: medium;">&nbsp;If a layout is not valid the program should count how many different universities have at least two of their teams sitting adjacent to each other. ``Well, you may use those solutions for the next year's contest",&nbsp;</p><p style="font-family: 'Times New Roman'; font-size: medium;">said by the chief judge&nbsp;Ahmed Aly&nbsp;to the site director.</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">The contest hall can be represented as a 2D grid of&nbsp;<em>N</em>&nbsp;rows with&nbsp;<em>M</em>&nbsp;cells in each row. Each cell in the grid is either occupied by a team or empty. There could be up to 8 teams adjacent to a single team.</p><p style="font-family: 'Times New Roman'; font-size: medium;">&nbsp;A team may have less than 8 adjacent teams if it is seated next to a hall edge or some of its adjacent cells are empty.</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">For example, in the layout shown in the following figure, team E has 7 adjacent teams, named A, B, C, D, F, G and H, while the adjacent teams to team A are B, D and E.</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">&nbsp;</p>
+<div style="font-family: 'Times New Roman'; font-size: medium;"><img src="https://icpcarchive.ecs.baylor.edu/external/63/p6326.png" border="0" alt="\epsfbox{p6326.eps}" width="254" height="254" align="BOTTOM" /></div>
+<h2 style="font-family: 'Times New Roman'; text-align: left;"><span style="color: #ff0000; font-size: small;">Input</span></h2>
+<p style="font-family: 'Times New Roman'; font-size: medium;">Your program will be tested on one or more test cases. The first line of the input will be a single integer&nbsp;<em>T</em>, the number of test cases&nbsp;(1<img src="https://icpcarchive.ecs.baylor.edu/external/63/6326img2.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" /><em>T</em><img src="https://icpcarchive.ecs.baylor.edu/external/63/6326img2.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" />100). Followed by the test cases, each one starts with a line containing 2 integers separated by a single space&nbsp;<em>N</em>&nbsp;and&nbsp;<em>M</em>&nbsp;(1<img src="https://icpcarchive.ecs.baylor.edu/external/63/6326img2.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" /><em>N</em>,&nbsp;<em>M</em><img src="https://icpcarchive.ecs.baylor.edu/external/63/6326img2.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" />100)&nbsp;representing the dimensions of the hall, followed by&nbsp;<em>N</em>&nbsp;lines each line contains&nbsp;<em>M</em>&nbsp;integers separated by a single space, representing the tables assignment in this row. Each integer represents the university ID of the team assigned to this table or `<tt>-1</tt>' if it is empty. All universities IDs are positive integers not greater than 100.</p>
+<p style="font-size: medium; text-align: left;"><span style="color: #ff0000;">Output</span></p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">For each test case, print on a single line integer, the number of different universities having at least two of their teams adjacent to each other.</p>
+<p style="font-size: medium;"><span style="color: #ff0000;">Sample Input</span></p>
+<pre>3
+3 3
+1 2 3
+2 2 2 
+1 1 1
+3 3 
+1 2 3 
+3 -1 1 
+2 -1 2 
+3 3 
+1 2 3 
+-1 1 5 
+1 2 4</pre>
+<h2 style="font-family: 'Times New Roman'; text-align: left;"><span style="color: #ff0000; font-size: small;">Sample Output</span></h2>
+<pre>2 
+0 
+1</pre>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohamed_maher">Kawmia Institutes</a></td></tr>
+<tr><td>Date:</td><td>2013-01-18</td></tr>
+<tr><td>Time limit:</td><td>0.384s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2012</td></tr>	
+</table>

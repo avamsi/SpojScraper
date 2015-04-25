@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITKWPCN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15567. Playing With Balls</h1>
+		<h2>Problem code: IITKWPCN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;&nbsp;&nbsp; There are W white balls and B black balls in a bag. A magician is performing tricks by drawing balls from the bag.</p>
+<p>&nbsp;&nbsp;&nbsp; In each step, the magician randomly removes any two balls from the bag. If the drawn balls are of the same color, he will put one white ball in the bag, otherwise he will put a black ball in it. The two drawn balls from the bag from the ball are discarded.</p>
+<p>&nbsp;&nbsp;&nbsp; He keeps on doing the above tricks until there is only one ball remaining in the bag.</p>
+<p>&nbsp;&nbsp;&nbsp; Given W and B, you have to determine the probability that the color of last ball remaining in the bag is black. You should print the answer with accuracy of upto 6 decimal digits.</p>
+<h3>Input</h3>
+<p>&nbsp;&nbsp;&nbsp; T : no of test cases (1 &lt;= T &lt;= 10^4)</p>
+<p>&nbsp;&nbsp;&nbsp; For every test case W and B&nbsp; are given (0 &lt;= W &lt;= 10^8 and 0 &lt;= B &lt;= 10^8 and W + B != 0)</p>
+<h3>Output</h3>
+<p>&nbsp;&nbsp;&nbsp; For each test case, output the probability as stated in the problem statement.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />1 1
+1 2<br /><strong>Output:</strong><br />1.000000<br />0.000000</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

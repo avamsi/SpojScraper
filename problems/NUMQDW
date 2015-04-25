@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NUMQDW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>411. Number of quite different words</h1>
+		<h2>Problem code: NUMQDW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Let's consider the alphabet consisting of the first <b>c</b> roman uppercase letters, i.e. {A, B, C, D, E, F} if <b>c</b> is 6.
+<br>
+We will call two words <i>quite different</i>, if there is no common subsequence of length more than one between those two words. For example ABC and CBA are quite different, but ABBA and CADDCAD aren't, because AA is a subsequence of both words.
+<br>
+Given a word <b>w</b> you are to find the number of words of length <b>n</b> that are quite different from <b>w</b>.
+
+<h3>Input</h3>
+<p>
+The first line will contain the number of test cases (at most 20). Then there will be pairs of lines, the first one containing the numbers <b>n</b> (<b>n</b> will fit into a 32-bit signed integer and will be non-negative) and <b>c</b> (1 <= <b>c</b> <= 6), the second one the word <b>w</b>. <b>w</b> will only consist of the first <b>c</b> letters of the roman alphabet and will have at most 10000 characters.
+
+<h3>Output</h3>
+<p>
+Print one line for each test case, consisting only of the number of words that are quite different from <b>w</b>. As this number can be quite large, you just have to output its remainder when dividing by 4242.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+3 3
+ABC
+4 4
+CADDCAD
+100 3
+A
+
+<b>Output:</b>
+10
+13
+2223
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/overwise">Robin Nittka</a></td></tr>
+<tr><td>Date:</td><td>2005-08-04</td></tr>
+<tr><td>Time limit:</td><td>2.712s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>self-invented</td></tr>	
+</table>

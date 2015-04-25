@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18202. HUGE GCD</h1>
+		<h2>Problem code: HG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>RK</strong> has received a homework assignment to compute the <strong>greatest common divisor</strong> of the two positive integers <strong>A</strong> and <strong>B</strong>. Since the numbers are quite large, the professor provided him with <strong>N</strong> smaller integers whose product is <strong>A</strong>, and <strong>M</strong> integers with product <strong>B</strong>.</p>
+<p style="font-family: verdana;">RK would like to verify his result, so he has asked you to write a program to solve his problem. If the result is more than 9 digits long, output only the <strong>last 9</strong> digits.</p>
+<p style="font-family: verdana;"><strong>INPUT</strong></p>
+<p style="font-family: verdana;">The first line of input contains the positive integer <strong>N</strong> (1&lt;= <strong>N</strong>&lt;= 1000).<br /> The second line of input contains <strong>N</strong> space-separated positive integers less than 10^9, whose product is the number <strong>A</strong>.<br /> The third line of input contains the positive integer <strong>M</strong> (1 &lt;=<strong>M</strong> &lt;= 1000).<br /> The fourth line of input contains <strong>M</strong> space-separated positive integers less than 10^9, whose product is the number <strong>B</strong>.</p>
+<p>&nbsp;</p>
+<p style="font-family: verdana;"><strong>OUTPUT</strong></p>
+<p style="font-family: verdana;">The first and only line of output must contain the greatest common divisor of numbers <strong>A</strong> and <strong>B</strong>. If the result is more than 9 digits long, output only the last (least significant) 9 digits.</p>
+<p style="font-family: verdana;"><strong>SAMPLE</strong></p>
+<p style="font-family: verdana;"><strong>Input</strong><br /> 3<br /> 2 3 5<br /> 2<br /> 4 5<br /> <strong>Output</strong><br /> 10</p>
+<p style="font-family: verdana;"><strong>Input</strong><br /> 3<br /> 358572 83391967 82<br /> 3<br /> 50229961 1091444 8863<br /> <strong>Output</strong><br /> 000012028<br /><br /> First sample description: The greatest common divisor of numbers A = 30 and B = 20 equals 10.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ipg_2011090">BLANKRK</a></td></tr>
+<tr><td>Date:</td><td>2014-01-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

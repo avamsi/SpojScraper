@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STC01"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15568. Fire Extinguishers</h1>
+		<h2>Problem code: STC01</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Byteasar has had a new palace built. It consists of N chambers and N-1 corridors connecting them. Each corridor connects exactly two chambers. The rooms are numbered from 1 to N. There is only a single entrance to the palace, which leads to chamber no. 1. For each chamber there is exactly one route leading to it from the entrance, without turning back on the way. In other words, the chambers and the corridors form a <em>tree</em> - a connected acyclic graph.</p>
+<p>The fire marshal who is to approve the building demands placing fire extinguishers inside. The following are his exact requirements:</p>
+<ul>
+<li>The fire extinguishers should be placed in (some) chambers, and one chamber may store any number of extinguishers.</li>
+<li>Each chamber has to be assigned one fire extinguisher, though it may be stored in another chamber.</li>
+<li>Each fire extinguisher can be assigned to at most S different chambers.</li>
+<li>For each room its assigned extinguisher is within the range of K corridors.</li>
+</ul>
+<p>Byteasar has a week spot for lavish palaces, so it is no surprise he has very little money now, right after completion of another splendid palace. Therefore he is interested in the minimum number of fire extinguishers sufficient for satisfying fire marshal's demands.</p>
+<p> </p>
+<h2>Input</h2>
+<p>The first line of the standard input contains three integers N, S and K separated by single spaces, 1 <= N <= 100000, 1 <= S <= N, 1 <= K <= 20. Each of the following N-1 lines holds two integers separated by a single space. Line no. i+1 contains the numbers X<sub>i</sub> Y<sub>i</sub> denoting the corridor connecting chambers no. X<sub>i</sub> and Y<sub>i</sub>.</p>
+<h2>Output</h2>
+<p>The first and only line of the standard output is to hold one integer - the minimum number of fire extinguishers that have to be installed in palace.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>12 3 1
+1 12
+3 8
+7 8
+8 9
+2 12
+10 12
+9 12
+4 8
+5 8
+8 11
+6 8
+</pre>
+<p>the correct result is:</p>
+<pre>4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>POI XVI</td></tr>	
+</table>

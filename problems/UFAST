@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UFAST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>695. Unite Fast</h1>
+		<h2>Problem code: UFAST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+The Agents need to unite. They are on a road and each of them possess a special device which can both send and receive signals, in both directions upto a maximal distance of D units. Apart from this small limitation, the devices work very efficiently so that the time
+taken for interdevice communication is practically zero. Now that the agents are at different points on the road, for them to be able to communicate with each other at will, every agent should be connected to every other agent through one or more intermediate devices. For
+example: agent A may communicate to agent C via agent B&#8217;s device, when A and C are not close enough. This happens when <strong>dist</strong>(A,C)>D, but <strong>dist</strong>(A,B)<=D and <strong>dist</strong>(B,C)<=D.</p>
+
+<p>Getting the line ready, is the process of agents moving from their current positions in order to get the network fully connected. That is, from every agent to every other agent, there is a communication path. </p>
+
+<p>The agent&#8217;s final positions (in two cases that are going to follow) are decided by a programmer, who watches the scene from above and instructs each agent of the time to move and the final position to move to. Each agent moves a unit distance in unit time.</p>
+
+<p>We need to find the minimal time taken for the programmer to &#8220;get the line ready&#8221; if he moves the agents:<br>
+
+1. Independently: In other words, every agent moves to their final
+position without waiting for any other agent; all agents are told of
+their final positions at time zero.<br>
+2. Sequentially: In this the agents form a definite sequence of movement. No two agents are moving at the same time.</p>
+<h3>Input</h3>
+<p>T &#8211; number of test cases. For each test case :<br>
+  N D &#8211; where N is the number of agents, D is the maximal communication distance<br>
+  The i-th line, of the N-lines that follow gives the position of the i-th agent on the road currently.</p>
+<h3>Output</h3>
+<p>For each test case, output two integers;<br>
+1st &#8211; minimal time taken to unite if they move independently<br>
+2nd - minimal time taken to unite if they move sequentially</p>
+<p><strong>Constraints:</strong><br>
+  T<=20<br>
+  1<=N,D<=100 ; <br>
+
+  Each agent's initial position is between 0 and 1000.</p>
+
+<h3>Example</h3>
+<tt>
+<p><strong>Sample Input:</strong><br>
+  2<br>
+  4 3<br>
+  10 20 30 35<br>
+  5 3<br>
+
+  1 2 3 4 30</p>
+<p><strong>Sample Output:</strong><br>
+  8 23<br>
+  12 23<br>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2006-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.439s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://pragyan.org/bytecode/2k6/"> ByteCode '06 </a></td></tr>	
+</table>

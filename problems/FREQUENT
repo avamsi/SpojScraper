@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FREQUENT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1684. Frequent values</h1>
+		<h2>Problem code: FREQUENT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of <strong>n</strong> integers
+<strong>a<sub>1</sub> , a<sub>2</sub> , ... , a<sub>n</sub></strong>
+in non-decreasing order. In addition to that, you are given several
+queries
+consisting of indices <strong>i</strong> and <strong>j</strong> (<i>1
+&#8804; i &#8804; j &#8804; n</i>). For each query, determine the
+most
+frequent value among the integers <strong>a<sub>i</sub> , ... , a<sub>j</sub></strong>.
+</p>
+<h4>Input Specification</h4>
+<p>
+The input consists of several test cases.
+Each test case starts with a line containing two integers <strong>n</strong>
+and <strong>q</strong> (<i>1 &#8804; n, q &#8804; 100000</i>).
+The next line contains <strong>n</strong> integers
+<strong>a<sub>1</sub> , ... , a<sub>n</sub></strong>
+(<i>-100000 &#8804; a<sub>i</sub> &#8804; 100000</i>, for each <i>i &#8712; {1, ..., n}</i>)
+separated by spaces.
+You can assume that for each <i>i &#8712; {1, ..., n-1}: a<sub>i</sub> &#8804; a<sub>i+1</sub></i>.
+The following <strong>q</strong> lines contain one query each,
+consisting of two integers <strong>i</strong> and <strong>j</strong>
+(<i>1 &#8804; i &#8804; j &#8804; n</i>), which indicate the boundary indices for the
+query.
+</p>
+<p>
+The last test case is followed by a line containing a single <i>0</i>.
+</p>
+<h4>Output Specification</h4>
+<p>
+For each query, print one line with one integer:
+The number of occurrences of the most frequent value within
+the given range.
+</p>
+<h4>Sample Input</h4>
+<pre>10 3
+-1 -1 1 1 1 1 3 10 10 10
+2 3
+1 10
+5 10
+0
+</pre>
+<h4>Sample Output</h4>
+<pre>1
+4
+3
+</pre>
+<hr>
+<i>A naive algorithm may not run in time!</i>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2007-07-06</td></tr>
+<tr><td>Time limit:</td><td>0.936s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>University of Ulm Local Contest 2007</td></tr>	
+</table>

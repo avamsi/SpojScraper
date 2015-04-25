@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NPC2014F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21461. Field</h1>
+		<h2>Problem code: NPC2014F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Andy is a successful farmer. He has a field sized 1 x N tiles, where each tile can be planted a plant. Andy has 26 kind of plant, which represented by the letter 'a' - 'z'.</p>
+<p>Each month Andy has to pay tax to the government. The government in his place is very picky. He wants the tax in the form of a block of tiles. He also demands that the block must contain at least Xi number of plant type Yi. A block of tiles is all the tile from range a to b. To minimize the loss, Andy will pay in the smallest block possible. Help Andy to find the length of the smallest block to satisfy the government.</p>
+<h3>Input</h3>
+<p>Starts with a number N. The next line is a string of length N containing the letter 'a' to 'z'. The next line is a number K, and for the next K lines are the Xi and Yi, number and type of plants that must be fulfilled.</p>
+<h3>Output</h3>
+<p>Minimum length of block to pay the tax. If Andy can't pay the tax, output "Andy rapopo".</p>
+<h3>Sample Input 1</h3>
+<pre>5<br />aabac<br />3<br />1 a<br />1 b<br />1 c</pre>
+<h3>Sample Output 1</h3>
+<pre>3</pre>
+<h3>Sample Input 2</h3>
+<pre>5<br />aabac<br />3<br />1 a<br />1 b<br />2 c</pre>
+<h3>Sample Output 2</h3>
+<pre>Andy rapopo</pre>
+<div style="border: 1px solid #FC0; background-color: #ffc; padding: 5px; margin-bottom: 10px;">
+<h3>Constraint</h3>
+<ul>
+<li>1 &le; N &le; 100000</li>
+<li>1 &le; K &le; 26</li>
+<li>1 &le; X &le; 100000</li>
+<li>Yi is a character from 'a' to 'z'</li>
+<li>Each Yi type will not appear more than once</li>
+</ul>
+</div>
+<p><span style="font-weight: bold;">Time limit is very strict, some language might not be able to pass.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/andypertamax">Andy</a></td></tr>
+<tr><td>Date:</td><td>2014-10-21</td></tr>
+<tr><td>Time limit:</td><td>0.100s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>NPC Schematics 2014</td></tr>	
+</table>

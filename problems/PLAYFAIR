@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PLAYFAIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4476. Playfair Cracker</h1>
+		<h2>Problem code: PLAYFAIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem, you will crack Playfair cyphers or decide a multiple solutions exist, or decide no solution exist.</p>
+<p>Rules:</p>
+<p>1) Convert all letters in the text to uppercase and omit all non-alphabetic characters.</p>
+<p>2) Replace all letters 'J' by 'I'.</p>
+<p>3) Form digraphs, but avoid having twice the same letter in a digraph. Insert an extra 'X' between the identical letters if necessary. If the repeated letter is an 'X', insert a 'Q' instead.</p>
+<p><br />4) If the last digraph would be incomplete, append an extra 'X' to the text (or a 'Q' if the last letter in the text is an 'X').</p>
+<p>Consider the following message: "Programming in C and Pascal is easy; I will learn Java next year." The digraph representation would be:&nbsp;<br /><br />PR OG RA MX MI NG IN CA ND PA SC AL IS EA SY IW IL LX LE AR NI AV AN EX TY EA RX<br /><br />Note the extra 'X' between the two 'M's of 'programming'. There is no extra 'X' between the two 'L's of 'will', because they are in different digraphs, but there is one between 'will' and 'learn'. There is also an extra 'X' at the end of the message. The 'J' in 'Java' is replaced by an 'I'.<br />To illustrate the exceptions for the letter 'X' in the original text, consider the message "I am an ex-xenophobe, attempting to relax!". This becomes:&nbsp;<br /><br />IA MA NE XQ XE NO PH OB EA TX TE MP TI NG TO RE LA XQ<br /><br />The next stage is the replacement of each digraph by an other digraph according to the following rules:</p>
+<p><img src="http://uva.onlinejudge.org/external/109/p10955.gif" alt="" width="212" height="211" /></p>
+<p>The uppercase letters, 'J' excluded, are placed in a 5X5 square in some predetermined order. This is the key for the encryption.</p>
+<p><br />If the two letters of the digraph are in the same row of the square, replace them by the letters occuring at the immediate right of each one. If one of the letters is in the rightmost column, replace it by the letter in the first column of the same row (wrap around).</p>
+<p><br />If the two letters of the digraph are in the same column of the square, replace them by the letters occuring immediately below each one. Wrap around to the same column in the top row if one of them is in the bottom row.&nbsp;<br />If the letters are neither in the same row nor the same column, replace the first letter by the letter in the same row as the first letter and the same column as the second letter. Replace the second letter by the letter in the same row as the second letter and the same column as the first letter.&nbsp;<br /><br />The resulting digraphs form the encrypted code.<br /><br /></p>
+<h3>Input</h3>
+<p>The input contains several cases, the number of which is on the first line. Every case has three parts. The first part is the plaintext and consists of one or more lines of ordinary text. The second part is the code that is the result of encrypting the first part. The third part is code for the text you are to decrypt. The parts are terminated by a hashmark ('#') on a line by itself. Code parts are printed as uppercase digraphs, 20 digraphs on a line, separated by one space. The last line of a code part can contain fewer than 100 digraphs. No code part will contain more than 5000 digraphs.</p>
+<h3>Output</h3>
+<p>For each case, first output a line "Case x:" where x is the case number (starting from 1).<br />Then output the decrypted code represented as digraphs in the same format as the code parts in the input. &nbsp;If more than one solution exist, output the following on a single line.</p>
+<p>MULTIPLE SOLUTIONS</p>
+<p>If no solutions exist output in one line:</p>
+<p>NO SOLUTIONS</p>
+<p>Separate the cases by an empty line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />Programming in C and Pascal is easy; I will learn Java next year.<br />#<br />FV CV GE PH PW AS UX GL UY ZX GY LZ UV HE NS UI UQ IA QA EG<br />XU XG EA HN KC HE VE<br />#<br />LX ZH AH EI NH XY MX KV HE OE RQ PD OQ AS KY EQ ZL EI<br />#<br />It is full moon!<br />Meet me at Hammersmith Bridge tonight.<br />#<br />MP PI NZ AZ RN QV UG GD DO GD RQ AR KY GD HD NK PR DA MS OG<br />UP GK IC QY<br />#<br />HL WT UP MC HQ RW PI CX DC ZD HB HG KL PM GI FP SK GE QR MF<br />MP AR BH HM HA SP DP TC WM DZ PO RL SG MU DC SB OD SM MU CS<br />UH RX BL MH HG WS DC BH MF KR MZ GT CD PU CS HD GH LK DP CT<br />GI RZ CD EV KY GD MF IP GT IF KG IC EH TE SD QV QG PR RQ EV<br />MU HK IF RC CR EQ OU PR SB GE CD PR PI UP DR UE EV FS BH MF<br />EV FS DA BC MK GI<br />#<br />
+<strong><br />Output:</strong>
+Case 1:<br />IA MA NE XQ XE NO PH OB EA TX TE MP TI NG TO RE LA XQ<br /><br />Case 2:<br />CR YP TO GR AP HY IS AV ER YF AS CI NA TI NG SU BI EC TA ND<br />IT HA SA RI CH HI ST OR YI FY OU AR EI NT ER ES TE DI NT HE<br />PL AY FA IR CI PH ER SA ND MA NY MO RE OT HE RS IC AN ST RO<br />NG LY RE CO MX ME ND SI MO NS IN GH SC OD EB OX OK TH AT CO<br />NT AI NS AL LA BO UT TH ES EC RE TH IS TO RY OF CO DE SA ND<br />CO DE BR EA KI NG<br /><br />
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2009-06-05</td></tr>
+<tr><td>Time limit:</td><td>30s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Enhanced Version of Regional Warmup Contest 2005</td></tr>	
+</table>

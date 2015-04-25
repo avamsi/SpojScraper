@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/dtmp"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ASSIGN4" target="_blank">684. Another Assignment Problem</a></td><td><a href="http://www.spoj.com/problems/ASSIGN4"target="_blank">ASSIGN4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQPAR" target="_blank">685. Partition the sequence</a></td><td><a href="http://www.spoj.com/problems/SEQPAR"target="_blank">SEQPAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXPAND" target="_blank">702. Barn Expansion</a></td><td><a href="http://www.spoj.com/problems/EXPAND"target="_blank">EXPAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SERVICE" target="_blank">703. Mobile Service</a></td><td><a href="http://www.spoj.com/problems/SERVICE"target="_blank">SERVICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATRIX2" target="_blank">912. Submatrix of submatrix</a></td><td><a href="http://www.spoj.com/problems/MATRIX2"target="_blank">MATRIX2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GSS1" target="_blank">1043. Can you answer these queries I</a></td><td><a href="http://www.spoj.com/problems/GSS1"target="_blank">GSS1</a><br>
+</td></tr>

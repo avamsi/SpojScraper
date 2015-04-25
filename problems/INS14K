@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14K"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19152. Digo Goes Training</h1>
+		<h2>Problem code: INS14K</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">&nbsp;</p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">Digo is being trained for shooting as it is a very integral part of his missions. His trainer sets up a training arena for him to practice for it. Digo is taken to the ground where many strong penetrable walls are placed in arbitrary manner. Consider the ground to be a rectangular grid with cartesian coordinates. Digo fires the bullets from a given point on the X-axis. The bullets can only travel parallel to the Y-axis. Given the endpoints of the walls and Digo's current position on the X-axis, he wants to know how many walls he will penetrate with each shot. The shots will only penetrate the wall, they are not powerful enough to break them. As he is very weak in mathematics, he asks you to help him.<br /><br />Input :<br /><br />The first line consists of the number of test cases, T.<br />The second line contains the number of walls N.<br />Then N lines follow. Each line contains 4 integers denoting the endpoints of the walls i.e. x1 y1 x2 y2.<br />Next line denotes Q, the number of queries.<br />Queries can be of two types:<br />1 x1 y1 x2 y2 : which denotes the endpoints of new wall placed.<br />0 pos : where pos tells about the x coordinate of Digo&rsquo;s position. The position will be a floating point number.having exactly two digits after the decimal.<br /><br />Output Format:<br /><br />Output one line for each query of form 0. For each query of the form &lsquo;0 pos&rsquo; output the numbers of walls penetrated.<br /><br />Input Constraints:<br /><br />1 &lt;= T &lt;= 10<br />1 &lt;= N &lt;= 1000<br />1 &lt;= Q &lt;= 1000<br />0 &lt;= x1, y1, x2, y2 &lt;= 20000<br />0.00 &lt;= pos &lt;= 20000.00<br /><br />Sample Input:<br /><br />1<br />3<br />3 5 7 8<br />1 3 5 6<br />2 4 8 9<br />4<br />0 6.73<br />1 4 7 9 8<br />1 2 5 6 3<br />0 3.55<br /><br />Sample Output:<br /><br />2<br />4</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

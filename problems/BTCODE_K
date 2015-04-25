@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTCODE_K"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8429. Array Sorting</h1>
+		<h2>Problem code: BTCODE_K</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sumit specialises in sorting algorithms, and Abhishek decides to test Sumit's coding skills. An array of 'n' numbers a[0], a[1], a[2], ..., a[n-1] is given. Abhishek gives a sequence of inputs of the form "v i j". Each input is either a query or an update (query if 'v' is 0, update otherwise).</p>
+<p>For any input of the form "0 i j" ,Sumit's output should be as follows: <br /> If the subarray a[i], a[i+1], ... a[j] is unsorted, output 0. <br /> If the subarray a[i], a[i+1], ... a[j] is sorted in non-descending order, output 1. <br /> If the subarray a[i], a[i+1], ... a[j] is sorted in non-ascending order, output 2. <br /> If the subarray a[i], a[i+1], ... a[j] is sorted in both non-ascending and non-descending order (i.e, if all the elements in the  range are equal), output 3.</p>
+<p>Any other input "v i j" (v!=0) should be treated as an update, as follows: <br /> For each element in the subarray a[i], a[i+1], ... a[j], Sumit has to replace the element a[k] with v-a[k].</p>
+<p>Sumit is really tired and does not want to write a program. Can you write a program for Sumit, which responds to Abhishek's instructions?</p>
+<h3>Input</h3>
+<p>The first line of input contains 2 space separated integers 'n' and 'q'. The second line contains 'n' integers a[0], a[1], ....., a[n-1]. Each of the next 'q' lines contain 3 integers 'v', 'i', 'j'.</p>
+<h3>Output</h3>
+<p>For each query, output a single integer 0, 1, 2 or 3, denoting the answer.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4 5
+3 -2 -5 1
+1 1 3
+0 0 3
+0 0 2
+0 2 3
+0 0 1
+
+<strong>Output:</strong>
+0
+1
+2
+3
+
+<strong>Constraints:</strong>
+1 &lt;= n &lt;= 100000
+1 &lt;= q &lt;= 100000
+-5000 &lt;= a[i] &lt;= 5000
+-5000 &lt;= v &lt;= 5000
+
+</pre>
+<p><strong>Explanation</strong> <br />Initial array is {3, -2, -5, 1}. After first update, the array will be {3, 3, 6, 0}. Now, from indices '0' to '3', it is unsorted. From indices '0' to '2', it is sorted in non-descending order. From indices '2' to '3', it is sorted in non-ascending order. Between indices '0' and '1', the values are equal.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/suh_ash2008">suhash</a></td></tr>
+<tr><td>Date:</td><td>2011-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.227s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2011, NIT Trichy, India</td></tr>	
+</table>

@@ -1,0 +1,100 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BASE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>870. Basically Speaking</h1>
+		<h2>Problem code: BASE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+
+The Really Neato Calculator Company, Inc. has recently hired your team
+to help design their Super Neato Model I calculator.  As a computer
+scientist you suggested to the company that it would be neato if this
+new calculator could convert among number bases.  The company thought
+this was a stupendous idea and has asked your team to come up with the
+prototype program for doing base conversion.  The project manager of
+the Super Neato Model I calculator has informed you that the
+calculator will have the following neato features: <P>
+
+<UL>
+<LI> It will have a 7-digital display.
+<LI> Its buttons will include the capital letters A through F in addition
+to the digits 0 through 9.
+<LI> It will support bases 2 through 16.
+</UL>
+
+The input for your prototype program will consist of one base
+conversion per line.  There will be three numbers per line.  The first
+number will be the number in the base you are converting from.  The
+second number is the base you are converting from.  The third number
+is the base you are converting to.  There will be one or more blanks
+surrounding (on either side of) the numbers.  There are several lines
+of input and your program should continue to read until the end of
+file is reached. <P>
+
+The output will only be the converted number as it would appear on the
+display of the calculator.  The number should be right justified in
+the 7-digit display.  If the number is to large to appear on the
+display, then print ``ERROR'' (without the quotes) right justified in
+the display. <P>
+
+A sample input file is shown here: <P>
+
+<PRE>
+1111000  2 10
+1111000  2 16
+2102101  3 10
+2102101  3 15
+  12312  4  2
+     1A 15  2
+1234567 10 16
+   ABCD 16 15
+</PRE>
+
+<p>The following output file should be produced from the above sample
+input: <P>
+
+
+<PRE>
+    120
+     78
+   1765
+    7CA
+  ERROR
+  11001
+ 12D687
+   D071
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2006-06-01</td></tr>
+<tr><td>Time limit:</td><td>0.179s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Mid Central Regionals 1995</td></tr>	
+</table>

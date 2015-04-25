@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAXOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11444. MAXOR</h1>
+		<h2>Problem code: MAXOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="color: #000020; font-size: x-small;"><span style="white-space: normal;"><p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">You are given a sequence A[1], A[2], ..., A[N] . ( 0 <span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">&le;&nbsp;</span>A[i] &lt;&nbsp;2<sup>31</sup> , 1 &le; N &le; 12000 ).</p><p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">A query is defined as follows: <br style="color: #000020; font-size: 13px; text-align: justify;" /><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">Q</span>uery(x,y) = Max { a[i] xor a[i+1] xor ... xor a[j] ; l &le; i &le; j &le; r }. <br style="color: #000020; font-size: 13px; text-align: justify;" /><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">l = min (&nbsp;</span><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">((x+lastans) mod N)+1 ,&nbsp;<span>((y+lastans) mod N)+1&nbsp;</span></span><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">).<br style="color: #000020; font-size: 13px; text-align: justify;" /><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">r = max (&nbsp;</span><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">((x+lastans) mod N)+1 ,&nbsp;<span>((y+lastans) mod N)+1&nbsp;</span></span><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">)<span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;"><span>.</span></span><br style="color: #000020; font-size: 13px; text-align: justify;" /><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">lastans[1] = 0 , lastans[i] = Query[i-1].<br style="color: #000020; font-size: 13px; text-align: justify;" /><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">G</span></span></span></span>iven M queries, your program must output the results of these queries. ( 0 <span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">&le;&nbsp;</span>M <span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">&le; 6000&nbsp;</span>).</p><p style="font-size: 13px; text-align: justify; background-color: #f6f9e0;"><span style="color: #ff0000;"><strong>IMPORTANT : PROBLEM ENHANCED. ( I'M SO SORRY.. )</strong></span></p>
+<h3 style="font-size: 15px; color: #000020; text-align: center; background-color: #f6f9e0;">Input</h3>
+<ul style="text-align: justify;">
+<li>The first line of the input file contains 2 numbers : N M.</li>
+<li>In the second line, N numbers follow.</li>
+<li>M lines follow, where line i contains 2 numbers xi and yi.</li>
+</ul>
+<h3 style="font-size: 15px; color: #000020; text-align: center; background-color: #f6f9e0;">Output</h3>
+<ul style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">
+Your program should output the results of the M queries, one query per line.
+</ul>
+<h3 style="font-size: 15px; color: #000020; text-align: center; background-color: #f6f9e0;">Example</h3>
+<pre style="font-size: 13px; text-align: left; color: #000020; background-color: #f6f9e0;"><strong>Input:</strong>
+3 3
+1 4 3
+0 1
+0 1
+4 3</pre>
+<pre style="font-size: 13px; text-align: left; color: #000020; background-color: #f6f9e0;"><strong>Output:</strong>
+5
+7
+7</pre>
+</span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fotile">Fotile</a></td></tr>
+<tr><td>Date:</td><td>2012-04-23</td></tr>
+<tr><td>Time limit:</td><td>0.499s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.spoj.pl/users/seter">seter</a></td></tr>	
+</table>

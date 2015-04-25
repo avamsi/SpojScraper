@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PON"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>288. Prime or Not</h1>
+		<h2>Problem code: PON</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given the number, you are to answer the question: "Is it prime?"<BR><BR>
+<b>Solutions to this problem can be submitted in C, C++, Pascal, Perl, Python, Ruby, Lisp, Hask, Ocaml, Prolog, Whitespace, Brainf**k and Intercal only.
+</b>
+</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follows. [t <= 500]<BR>
+Each line contains one integer: <i>N</i> [2 <= <i>N</i> <= 2^63-1]<BR>
+
+<h3>Output</h3>
+<p>For each test case output string "YES" if given number is prime and "NO" otherwise.<BR>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+5
+2
+3
+4
+5
+6
+
+<b>Output:</b>
+YES
+YES
+NO
+YES
+NO
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-01-24</td></tr>
+<tr><td>Time limit:</td><td>21s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ADA ASM BASH C# CLPS D ERL FORT ICON JAR JAVA JS LUA NEM NICE PHP PIKE SCM chicken ST </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2005.02/zpon.php">ZCon 2005</a></td></tr>	
+</table>

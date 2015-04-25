@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MDST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>735. Minimum Diameter Spanning Tree</h1>
+		<h2>Problem code: MDST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Solve the minimum diameter spanning tree problem for the simple graphs.
+<p>For a given list of adjacent vertices of a graph G find the minimum diameter spanning tree T and write down the diameter of this tree diam(T). 
+<p>Each graph has only one connected component, so there is at least one spanning tree, which connects all the vertices.
+
+<h3>Input</h3>
+<p>t [the number of test graphs]<br/>
+Graph:<br/>
+<i>n</i> [1 <= <i>n</i> <= 1000 the number of graph vertices]<br/>
+<i>i m v<sub>1</sub> v<sub>2</sub> ... v<sub>m</sub></i> [the list of <i>m</i> adjacent vertices to vertex <i>i</i>]
+
+<h3>Output</h3>
+<p>For each test case output:<br/>
+<i>d</i> [diameter of the minimum diameter spanning tree]
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+6
+
+10
+1 3 2 3 4
+2 3 1 5 7
+3 3 1 5 6
+4 3 1 6 8
+5 3 2 3 9
+6 3 3 4 10
+7 1 2
+8 1 4
+9 1 5
+10 1 6
+
+10
+1 4 4 5 7 9
+2 1 8
+3 4 4 7 8 10
+4 3 1 3 9
+5 2 1 9
+6 2 8 9
+7 4 1 3 8 9
+8 5 2 3 6 7 9
+9 7 1 4 5 6 7 8 10
+10 2 3 9
+
+1
+1 0
+
+2
+1 1 2
+2 1 1
+
+3
+1 1 2
+2 2 1 3
+3 1 2
+
+5
+1 2 2 4
+2 3 1 3 4
+3 1 2
+4 3 2 5 1
+5 1 4
+
+<b>Output:</b>
+5
+3
+0
+1
+2
+3
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fak">Bartłomiej Kowalski</a></td></tr>
+<tr><td>Date:</td><td>2006-02-09</td></tr>
+<tr><td>Time limit:</td><td>0.170s-6.184s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td> </td></tr>	
+</table>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MYQ9"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10647. Divide And Conquer</h1>
+		<h2>Problem code: MYQ9</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> </p>
+<p>The King of Thuvax decided to conquer the neighbouring country of Silicon Valley. In order to conquer  a country, he has to successfully invade every city in the country. But he always doesn't get into action unless he plans it properly. He knows that severing a city's communications with all other cities before invading it is the only way to conquer it. He has the information regarding how the cities communicate with each other through his spy. The spy has lived in Silicon Valley right from the time when it was a single city, much before its development into a country. He gives information about how every new city established communication links with other cities. The spy's information is represented as below.</p>
+<p> </p>
+<p>Every city can establish its communications with the help of only one other city. It can do it in one of the three ways.</p>
+<p>Type 1-It can establish a single communication link with another city 'c'.</p>
+<p>Type 2-It can establish communication links with all cities that communicate with another city 'c', but it can't have a communication link with 'c'.</p>
+<p>Type 3-It can establish communication links with all cities that communicate with another city 'c' and with 'c' also.</p>
+<p> </p>
+<p> </p>
+<p>All communication links are two-way. Having this information, he finds out that it is not possible for him to invade Silicon Valley in a fair way. So he hires a terrorist gang to bomb some cities and destroy them so that he can invade the country successfully. But the terrorists demanded a huge amount of money for bombing a city. Help the King to find out the minimum number of cities that should be bombed so that he can conquer the country of Silicon Valley successfully.</p>
+<p> </p>
+<p>Input</p>
+<p> </p>
+<p>The first line consists of number of test cases t(1&lt;=t&lt;=10)</p>
+<p>The first line of each test case consists of the number of cities n(1&lt;=n&lt;=10^4) in Silicon Valley.</p>
+<p>Each of the next n-1 lines consists of two integers x and c.</p>
+<p>The ith(1&lt;=i&lt;=n-1) line represents that city i+1 establishes a type 'x' communication link with the help of the city 'c'(1&lt;=c&lt;=i).(The country initially contains city 1 alone.)</p>
+<p> </p>
+<p>Output</p>
+<p> </p>
+<p>Output one line for each test case containing the minimum number of cities that should be bombed so that the King can conquer the country.</p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/chakradarraju">jack(chakradarraju)</a></td></tr>
+<tr><td>Date:</td><td>2012-02-14</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2012</td></tr>	
+</table>

@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBSUMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3749. Subset Sums</h1>
+		<h2>Problem code: SUBSUMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a sequence of N (1 &#8804; N &#8804; 34) numbers S<sub>1</sub>, ..., S<sub>N</sub> (-20,000,000 &#8804; S<sub>i</sub> &#8804; 20,000,000), determine how many subsets of S (including the empty one) have a sum between A and B (-500,000,000 &#8804; A &#8804; B &#8804; 500,000,000), inclusive.</p>
+
+<h3>Input</h3>
+<p>The first line of standard input contains the three integers N, A, and B. The following N lines contain S<sub>1</sub> through S<sub>N</sub>, in order.</p>
+
+<h3>Output</h3>
+<p>Print a single integer to standard output representing the number of subsets satisfying the above property. Note that the answer may overflow a 32-bit integer.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 -1 2
+1
+-2
+3
+
+<b>Output:</b>
+5
+</pre>
+
+<p>The following 5 subsets have a sum between -1 and 2:</p>
+<ul>
+<li>0 = 0 (the empty subset)</li>
+<li>1 = 1</li>
+<li>1 + (-2) = -1</li>
+<li>-2 + 3 = 1</li>
+<li>1 + (-2) + 3 = 2</li>
+</ul>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2009-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.328s-0.657s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+	
+</table>

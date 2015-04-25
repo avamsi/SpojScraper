@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOMARBLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6694. D - Playing with Marbles</h1>
+		<h2>Problem code: BOMARBLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;"><strong>PROBLEM D</strong></p>
+<p style="text-align: center;"><strong> PLAYING WITH MARBLES</strong></p>
+<p>Pablo was assigned in his class to construct pentagons inside pentagons with marbles but he doesn&#8217;t know how many marbles he will need. He knows that for one pentagon he needs 5 marbles</p>
+<p><img title="Marble . 6694" src="../../content/francky:marble6694" alt="Imagen2" /></p>
+<p>The only way he knows to insert a second pentagon is putting a marble in the middle of each segment and drawing three lines as shown. He puts a marble in the intersecting lines and removes them. To insert a third pentagon inside he first divides all segments in two including the ones that are not needed, and repeats the procedure. Drawing a second pentagon will require 12 marbles. A third pentagon will require 22 marbles. Given the information of how many pentagons will be created, write a program to calculate the number of marbles needed.</p>
+<p><strong>Input</strong></p>
+<p>The input contains several test cases. Each test case contains one integer N indicating the number of pentagons to create (1<=N<=10<sup>3</sup>). The end of input is indicated by a line containing only one zero.</p>
+<p><strong>Output</strong></p>
+<p>For each test case in the input, your program must print a single line, containing one single integer, the number of marbles required.<strong> </strong></p>
+<p><strong>Sample Input</strong></p>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>0</p>
+<p><strong>Sample Output</strong></p>
+<p>5</p>
+<p>12</p>
+<p>22</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/javier2387">Alvaro Javier Medina Balboa</a></td></tr>
+<tr><td>Date:</td><td>2010-05-25</td></tr>
+<tr><td>Time limit:</td><td>0.140s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+	
+</table>

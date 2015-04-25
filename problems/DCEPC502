@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC502"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11405. Just Like the Good Old Days</h1>
+		<h2>Problem code: DCEPC502</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sheldon and Penny are neighbours. Penny really likes grid games so Sheldon develops a new grid based game for Penny. The game consists of a MXN grid (M rows, N columns) and an infinite number of black and white knights. The grid has some open and some closed blocks. In the beginning of the game each player chooses his colour of knight.The rule says that each player on his turn can place his knight on any of the open blocks such that none of his knights attack any knight of other colour (he may attack any knight of the same colour). You are given a MXN grid. Specify the maximum number of knights (black+white) which can be placed on the grid. The game stops when any one player cannot place any more knights.</p>
+<p>Note: In one turn, Knight can move exactly two squares horizontally and one square vertically, or two squares vertically and one square horizontally.</p>
+<h3>Input</h3>
+<p>First line specifies T, the number of test cases.</p>
+<p>First line of each test case gives M and N seperated by a single space</p>
+<p>This is followed by a grid of size MXN consisting of &lsquo;.&rsquo; And &lsquo;#&rsquo;. Each &lsquo;.&rsquo; represents an open<br />position and each &lsquo;#&rsquo; represents closed position.</p>
+<h3>Output</h3>
+<p>Output 1 line for each test case giving the maximum possible value of knights that can be placed.</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=5<br />1&lt;=M,N&lt;=10<br />0&lt;= No. of open positions "." &lt;=10</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+3 3
+...
+...
+...
+3 3
+...
+.#.
+...
+
+<strong>Output:</strong>
+7
+6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-04-18</td></tr>
+<tr><td>Time limit:</td><td>0.566s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

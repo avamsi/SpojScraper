@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CFRAC2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1285. Continuous Fractions Again</h1>
+		<h2>Problem code: CFRAC2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A simple continuous fraction has the form:
+<p><br>
+<center><img src='/content/steinersp:cfrac.jpg'alt='subir imagenes' border='0'></center>
+
+<p><br><br>where the ai&#8217;s are integer numbers.
+
+<p><br>The previous continuous fraction could be noted as [a1, a2, . . . , an]. It is not difficult to show that any rational number p / q , with integers p > q > 0, can be represented in a unique way by a simple continuous fraction with n terms, such that p / q = [a1, a2, . . . , an&#8722;1, 1], where n and the ai&#8217;s are positive natural numbers.
+
+<p><br>Now given a simple continuous fraction, your task is to calculate a rational number which the continuous fraction most corresponds to it. 
+
+<p><br>
+<h3>Input</h3>
+<p>Input for each case will consist of several lines. The first line is two integer m and n,which describe a char martrix,then followed m lines,each line cantain n chars.
+The char martrix describe a continuous fraction The continuous fraction is described by the following rules:
+
+<p><br>
+<li>Horizontal bars are formed by sequences of dashes `-'.
+
+<p>
+<br><li>The width of each horizontal bar is exactly equal to the width of the denominator under it.
+<br><li>Blank characters should be printed using periods `.'
+
+<p>
+<br><li>The number on a fraction numerator must be printed center justified. That is, the number of spaces at either side must be same, if possible; in other case, one more space must be added at the right side.
+</p>
+
+<p>The end of the input is indicated by a line containing 0 0. </p>
+
+<h3>Output</h3>
+<p>Output will consist of a series of cases, each one in a line corresponding to the input case. A line describing a case contains p and q, two integer numbers separated by a space, and you can assume that 10^20 > p > q > 0. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+9 17
+..........1......
+2.+.-------------
+............1....
+....4.+.---------
+..............1..
+........1.+.-----
+................1
+............5.+.-
+................1
+5 10
+......1...
+1.+.------
+.........1
+....11.+.-
+.........1
+0 0
+
+<b>Output:</b>
+75 34
+13 12
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-01-31</td></tr>
+<tr><td>Time limit:</td><td>0.250s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>HNU Contest</td></tr>	
+</table>

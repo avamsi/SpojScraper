@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ISO4371"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23738. ISOMORPH2</h1>
+		<h2>Problem code: ISO4371</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<ol>
+<li><strong>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Introduction<br /> <span style="text-decoration: underline;">Definition :</span> </strong>An <strong>isomorphism</strong> from a simple graph G to a simple graph H is a bijection f:V(G) -&gt;  V(H) such that uv belongs to E(G) if and only if f(u)f(v) belongs to  E(H) . We say &ldquo;G is <strong>isomorphic to</strong> H&rdquo;, if there is an isomorphism from G to H.<br /> <strong><span style="text-decoration: underline;">Example :</span></strong> The following two graphs are isomorphic. </li>
+</ol>
+<p><img src="http://s14.postimg.org/ukxuj07b5/dsa.png" alt="input example" width="433" height="171" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G<sub>1</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; G<sub>2</sub></p>
+<p>Our objective in this problem is to find isomorphic graphs.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Input  is read from STDIN. Each test case consists of graphs all with same  number of vertices. Your task in this assignment will be to divide the  given set of graphs into classes within which graphs are pairwise  isomorphic.&nbsp;</p>
+<p>k v [k is the number of graphs (&lt;=20) in the test case and v is the number of vertices (&lt;=20) in each of these graphs]&nbsp;</p>
+<p>e<sub>1 </sub>[number of edges in first graph, call this graph &lsquo;1&rsquo;]</p>
+<p>u<sub>1</sub> w<sub>1</sub></p>
+<p>u<sub>2</sub> w<sub>2</sub></p>
+<p>...</p>
+<p>u<sub>e1 </sub>w<sub>e1 </sub></p>
+<p>e<sub>2 </sub>[number of edges in second graph, call this graph &lsquo;2&rsquo;]</p>
+<p>u<sub>1</sub> w<sub>1</sub></p>
+<p>u<sub>2</sub> w<sub>2</sub></p>
+<p>...</p>
+<p>u<sub>e2 </sub>w<sub>e2 </sub></p>
+<p>e<sub>3</sub><br /> ...</p>
+<p>...</p>
+<p>...</p>
+<p>e<sub>k</sub> [number of edges in the last graph, call this graph &lsquo;k&rsquo;]</p>
+<p>u<sub>1</sub> w<sub>1</sub></p>
+<p>u<sub>2</sub> w<sub>2</sub></p>
+<p>...</p>
+<p>u<sub>ek </sub>w<sub>ek</sub></p>
+<p>[Note: all n graphs themselves are named &lsquo;1&rsquo;, &lsquo;2&rsquo;...&rsquo;n&rsquo; in the order in which they appear in the input. Hence the graph with e<sub>1 </sub>edges is called &lsquo;1&rsquo; and so on]<br /> [Note: all graphs are simple &amp; undirected; vertices are labelled with numbers, not alphabets.]</p>
+<h3>Output</h3>
+<p>An isomorphic class is simply a list of graphs which belong to it. And Output is written to STDOUT.<br />The output should follow the below format:<br />1. Output is a listing of all isomorphic classes, one on each line, sorted in ascending order by the first<br />graph of the class.<br />2. Within an isomorphic class, the members are printed in ascending order.<br />(Thus, the class containing graph &lsquo;1&rsquo; is always on line 1.)</p>
+<h3>Remarks</h3>
+<p>Problem statement is as described in the assignment pdf. Input output format is also descibed there.<br /><br />More test cases will be added soon.<br /><br />Do let us know if you find any errors/hit time limits/etc.<br /><br />REMEMBER: This is an individual assignment.</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sakethbsv">Saketh BSV</a></td></tr>
+<tr><td>Date:</td><td>2015-04-15</td></tr>
+<tr><td>Time limit:</td><td>1s-10s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

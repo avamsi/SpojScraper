@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FREQ2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9055. Most Frequent Value</h1>
+		<h2>Problem code: FREQ2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of <strong>n</strong> integers <strong>a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub></strong>. You are also given several queries consisting of indices <strong>i</strong> and <strong>j</strong> (<em>0 &le; i &le; j &le; n-1</em>). For each query, determine the number of occurrences of the most frequent value among the integers <strong>a<sub>i</sub>, ..., a<sub>j</sub></strong>.</p>
+<h3>Input</h3>
+<p>First line contains two integers <strong>n</strong> and <strong>q</strong> (<em>1 &le; n, q &le; 100000</em>). The next line contains <strong>n</strong> integers <strong>a<sub>0</sub>, ... ,a<sub>n-1</sub></strong> (<em>0 &le; a<sub>i</sub> &le; 100000</em>, for each <em>i &isin; {0, ..., n-1}</em>) separated by spaces. The following <strong>q</strong> lines contain one query each, consisting of two integers <strong>i</strong> and <strong>j</strong> (<em>0 &le; i &le; j &le; n-1</em>), which indicates the boundary indices for the query.</p>
+<h3>Output</h3>
+<p>For each query, print one line with one integer: The number of occurrences of the most frequent value within the given range.</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /><br /></strong>5 3<br />1 2 1 3 3<br />0 2<br />1 2<br />0 4
+
+<strong>Output:</strong>
+<br />2<br />1<br />2<br /><br />NOTE - This problem is similar to a problem Frequent values.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dgleich">Dominik Gleich</a></td></tr>
+<tr><td>Date:</td><td>2011-06-20</td></tr>
+<tr><td>Time limit:</td><td>0.090s-0.453s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own problem.</td></tr>	
+</table>

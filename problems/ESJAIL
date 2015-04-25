@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ESJAIL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7188. Escape from Jail</h1>
+		<h2>Problem code: ESJAIL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Harry is currently a prisoner of the International Common Prison for Criminals (ICPC), the<br />most secure prison in the world. It was designed by and old gamer and as such, the prison is<br />not necesarilly closed, but only an incredibly logical and fast mind can get out.<br />The prison is made of N chambers connected by M corridors. Each corridor connects exactly<br />two chambers and can be traversed in any direction. Each chamber is either empty, contains<br />a single unbreakable door, or contains a single key. No chamber contains both a door and a<br />key. There are K doors and K keys in the whole prison. Each key opens a different door, and<br />each door is opened by a different key. If a chamber contains a door, the corresponding key is<br />needed to enter the chamber, regardless of which corridor was used to reach it.<br />Harry found the complete map of the prison, including the location of each door and each key,<br />and wants to know how to get out that hell hole. According to the map, Harry is now in<br />chamber number 1, and the exit is in chamber N . Given the information on the map, let Harry<br />know if it is possible to escape or if he is doomed forever.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in several lines. The first line of each<br />test case contains three integers N , K, and M separated by single spaces. The value N is the<br />number of chambers in the prison (4 &le; N &le; 10<sup>5</sup> ); each chamber is identified by an integer<br />number between 1 and N . The value K is the number of doors and keys (1 &le; K &le; N/2), while<br />M is the number of corridors (1 &le; M &le; 10<sup>5</sup> ). Each of the next K lines describes a door and its<br />corresponding key using two integers A and B separated by a single space, with the following<br />meaning: chamber A cointains the key that opens the door in chamber B (2 &le; A, B &le; N &minus; 1).<br />The last M lines of the test case describe the corridors. Each of these lines cointains two integers<br />C and D separated by a single space, indicating that there is a corridor connecting chambers<br />C and D (1 &le; C &lt; D &le; N ). You may assume that no two corridors connect the same pair of<br />chambers. The last line of the input contains the number &minus;1 three times separated by single<br />spaces and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an uppercase &ldquo;Y&rdquo; if it is possible for Harry to escape<br />from the prison, or an uppercase &ldquo;N&rdquo; otherwise.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 1 4<br />2 3<br />3 4<br />2 3<br />1 3<br />2 4<br />6 2 5<br />5 4<br />3 2<br />2 6<br />2 5<br />1 4<br />1 5<br />3 4<br />4 1 1<br />3 2<br />2 3<br />-1 -1 -1<br /><br /><strong>Output:</strong>
+N<br />Y<br />N</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.968s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

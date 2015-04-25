@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HARDP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1689. Hard Problem</h1>
+		<h2>Problem code: HARDP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+[This space is intentionally left blank.]
+
+<h3>Input</h3>
+<p>Multiple test cases. Each contains a single integer N(1<=N<=50). Input terminates by EOF.</p>
+<h3>Output</h3>
+<p>For each test case, output one line contains the answer. See the example.</p>
+<h3>Example</h3>
+<pre><p>Input:</p>
+8
+9
+10
+
+<p>Output:</p>
+8=90*(0+0+0+0+45-3+20-42+60+10)
+9=20*(0-3+10-14+15+2+0+0+0+0+10)
+10=66*(0+0+0+0+0+33+5-33+66-66+55+6)
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-07-14</td></tr>
+<tr><td>Time limit:</td><td>1.447s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on a problem from an ACM/ICPC Regional Contest</td></tr>	
+</table>

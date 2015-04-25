@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VILLAGES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8916. Villages by the River</h1>
+		<h2>Problem code: VILLAGES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a far away country there is a wide river, N villages on the left and N villages on the right side of this river (denoted by 1..N on each side). There are also M small ships, each of them connecting one village from the left and one village from the right side (in both ways).</p>
+<p>You are to organize a film festival in four of these villages: two from the left and two from the right side. Each two of these four villages must be connected by a ship (directly) if they belong to opposite sides of the river.</p>
+<p>Help yourself to choose these four villages and first find out; in how many ways can you choose them?</p>
+<h3>Input</h3>
+<p>In the first line there are integers N &le; 1000 and M &le; N<sup>2</sup>.</p>
+<p>In the next M lines there are two integers from the interval [1, N] representing the village from the left and the village from the right side connected by this ship.</p>
+<h3>Output</h3>
+<p>Print the required number of ways to choose villages for the festival.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 5<br />1 1<br />1 2<br />1 3<br />2 2<br />2 3<br />
+<strong>Output:</strong>
+1<br /><br />(the only possibility is to choose the villages 1, 2 from the left and 2, 3 from the right side)</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/askurdija">Adrian Satja Kurdija</a></td></tr>
+<tr><td>Date:</td><td>2011-05-21</td></tr>
+<tr><td>Time limit:</td><td>0.175s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian junior team selection test 2011</td></tr>	
+</table>

@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LARSUBP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20063. Large subsequence Problem</h1>
+		<h2>Problem code: LARSUBP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a string <strong>S</strong> which contains only digit-characters. How many  subsequences can be obtained from S such that every digit is strictly  greater than all previous digits in that subsequence.<br />As for example if S=7598 then there are 8 subsequences which follow  the above constraint. These are 7,5,9,8,79,78,59,58. Notice that 7598 is  not a required subsequence because 7&gt;5 and 9&gt;8.</p>
+<p>Note: A subsequence is a sequence that can be derived from another  sequence by deleting some elements without changing the order of the  remaining elements.</p>
+<h3>Input</h3>
+<p>Input starts with an integer&nbsp;<strong>T (&le; 1000)</strong>, denoting the number of test cases. Each case contains a string <strong>S</strong>. The length of S does not exceed <strong>10000</strong>. S does not contain any leading zeros.</p>
+<h3>Output</h3>
+<p>For each case, print the a string(without quotes) <strong>"Case i: "</strong> follwed by number of subsequences where "i" is test case number. Answer may be very large, so output it&nbsp;<strong>modulo 10^9+7</strong>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>2<br />4<br />7598
+
+<strong>Output:</strong>
+Case 1: 1<br />Case 2: 8</p><p>For small constraints: <strong>www.spoj.com/problems/SUBP/</strong></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pankaj22">P_Quantum</a></td></tr>
+<tr><td>Date:</td><td>2014-06-21</td></tr>
+<tr><td>Time limit:</td><td>1s-4s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sgog"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/VONNY" target="_blank">224. Vonny and her dominos</a></td><td><a href="http://www.spoj.com/problems/VONNY"target="_blank">VONNY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HAN01" target="_blank">351. Ha-noi!</a></td><td><a href="http://www.spoj.com/problems/HAN01"target="_blank">HAN01</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LISA" target="_blank">364. Pocket Money</a></td><td><a href="http://www.spoj.com/problems/LISA"target="_blank">LISA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CSTREET" target="_blank">368. Cobbled streets</a></td><td><a href="http://www.spoj.com/problems/CSTREET"target="_blank">CSTREET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BENEFACT" target="_blank">372. The Benefactor</a></td><td><a href="http://www.spoj.com/problems/BENEFACT"target="_blank">BENEFACT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAXI" target="_blank">377. Taxi</a></td><td><a href="http://www.spoj.com/problems/TAXI"target="_blank">TAXI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WM06" target="_blank">850. Soccer Choreography</a></td><td><a href="http://www.spoj.com/problems/WM06"target="_blank">WM06</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HALLOW" target="_blank">1677. Halloween treats</a></td><td><a href="http://www.spoj.com/problems/HALLOW"target="_blank">HALLOW</a><br>
+</td></tr>

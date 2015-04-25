@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DETER3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2832. Find The Determinant III</h1>
+		<h2>Problem code: DETER3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a NxN matrix A, find the <a href="http://en.wikipedia.org/wiki/Determinant">Determinant</a> of A % P.
+
+<h3>Input</h3>
+<p>Multiple test cases (the size of input file is about 3MB, all numbers in each matrix are generated randomly).
+<p>The first line of every test case contains two integers , representing N (0 < N < 201) and P (0 < P < 1,000,000,001). The following N lines each contain N integers, the j-th number in i-th line represents A[i][j] (- 1,000,000,001 < A[i][j] < 1,000,000,001).
+
+<h3>Output</h3>
+<p>For each test case, print a single line contains the answer. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 10
+-528261590
+2 2
+595698392 -398355861
+603279964 -232703411
+3 4
+-840419217 -895520213 -303215897
+537496093 181887787 -957451145
+-305184545 584351123 -257712188
+
+<b>Output:</b>
+0
+0
+2
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2008-07-05</td></tr>
+<tr><td>Time limit:</td><td>2.541s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

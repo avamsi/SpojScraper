@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOOKS1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>43. Copying Books</h1>
+		<h2>Problem code: BOOKS1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>Before the invention of book-printing, it was very hard to
+make a copy of a book. All the contents had to be re-written by hand by
+so called <I>scribers</I>. The scriber had been given a book and after
+several months he finished its copy. One of the most famous scribers lived
+in the 15th century and his name was Xaverius Endricus Remius Ontius
+Xendrianus (<I>Xerox</I>). Anyway, the work was very annoying and boring.
+And the only way to speed it up was to hire more scribers.
+
+<P>Once upon a time, there was a theater ensemble that wanted to play famous
+Antique Tragedies. The scripts of these plays were divided into many books
+and actors needed more copies of them, of course. So they hired many scribers
+to make copies of these books. Imagine you have <VAR>m</VAR> books (numbered
+<VAR>1, 2 ... m</VAR>) that may have different number of pages
+(<VAR>p<SUB>1</SUB>, p<SUB>2</SUB> ... p<SUB>m</SUB></VAR>) and you want to
+make one copy of each of them. Your task is to divide these books among
+<VAR>k</VAR> scribes, <VAR>k &lt;= m</VAR>.
+Each book can be assigned to a single scriber only, and every scriber
+must get a continuous sequence of books. That means, there exists
+an increasing succession of numbers <VAR>0 = b<SUB>0</SUB> &lt;
+b<SUB>1</SUB> &lt; b<SUB>2</SUB>, ... &lt; b<SUB>k-1</SUB> &lt;=
+b<SUB>k</SUB> = m</VAR> such that <VAR>i</VAR>-th scriber gets a sequence
+of books with numbers between <VAR>b<SUB>i-1</SUB>+1</VAR> and
+<VAR>b<SUB>i</SUB></VAR>.
+The time needed to make a copy of all the books is determined by the scriber
+who was assigned the most work. Therefore, our goal is to minimize the
+maximum number of pages assigned to a single scriber. Your task is to find
+the optimal assignment.
+
+
+<H3>Input</H3>
+
+<P>The input consists of <VAR>N</VAR> cases (equal to about 200). The first line of the input
+contains only positive integer <VAR>N</VAR>. Then follow the cases.
+Each case consists of exactly two lines. At the first line, there are 
+two integers <VAR>m</VAR> and <VAR>k</VAR>, <VAR>1 &lt;= k &lt;= m &lt;=
+500</VAR>.
+At the second line, there are integers <VAR>p<SUB>1</SUB>, p<SUB>2</SUB>,
+... p<SUB>m</SUB></VAR>
+separated by spaces. All these values are positive and less than 10000000.
+
+
+<H3>Output</H3>
+
+<P>For each case, print exactly one line.
+The line must contain the input succession <VAR>p<SUB>1</SUB>,
+p<SUB>2</SUB>, ... p<SUB>m</SUB></VAR> divided into exactly <VAR>k</VAR>
+parts such that the maximum sum of a single part should be as small as
+possible. Use the slash character ('<TT>/</TT>') to separate the parts.
+There must be exactly one space character between any two successive numbers
+and between the number and the slash.
+
+<P>If there is more than one solution, print the one that minimizes the work
+assigned to the first scriber, then to the second scriber etc. But each
+scriber must be assigned at least one book.
+
+<H3>Example</H3>
+
+<PRE>
+
+Sample input:
+
+2
+9 3
+100 200 300 400 500 600 700 800 900
+5 4
+100 100 100 100 100
+
+Sample output:
+
+100 200 300 400 500 / 600 700 / 800 900
+100 / 100 / 100 / 100 100
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1998</td></tr>	
+</table>

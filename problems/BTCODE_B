@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTCODE_B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8420. Finding Minimum</h1>
+		<h2>Problem code: BTCODE_B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given 'n' integers k<sub>1</sub>, k<sub>2</sub>, ...., k<sub>n</sub> and an integer 'x', which satisfy the equation x<sub>1</sub><sup>k<sub>1</sub></sup> * x<sub>2</sub><sup>k<sub>2</sub></sup> * ..... * x<sub>n</sub><sup>k<sub>n</sub></sup> = x. You are also given values a<sub>1</sub>, a<sub>2</sub>, ...., a<sub>n</sub> and y<sub>1</sub>, y<sub>2</sub>, ...., y<sub>n</sub>. Your task is to find the least positive value 'v', that can be taken by the expression: a<sub>1</sub>*x<sub>1</sub><sup>y<sub>1</sub></sup> + a<sub>2</sub>*x<sub>2</sub><sup>y<sub>2</sub></sup> + ... + a<sub>n</sub>*x<sub>n</sub><sup>y<sub>n</sub></sup>. Note that x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..... x<sub>n</sub> are some variables (not necessarily integers), which can only take positive values.</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer 't', denoting the number of test cases. <br />The first line of each testcase contains two space separated integers 'n' and 'x'. <br />Next line contains 'n' integers k<sub>1</sub>, k<sub>2</sub>, ..., k<sub>n</sub>. <br />Next line contains 'n' integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>. <br />Next line contains 'n' integers y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>n</sub>.</p>
+<h3>Output</h3>
+<p>For each testcase output the least positive value 'v' that can be taken by the expression. To avoid floating point errors, round it off to the nearest integer.</p>
+<p>For example, 12.6 is rounded off to 13, and 12.4 is rounded off to 12. To avoid ambiguity, there will be no test case for which the fractional part of the answer equals 0.5.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+1 4
+2
+3
+3
+2 6
+1 1
+1 1
+1 1
+
+<strong>Output:</strong>
+24
+5
+
+<strong>Constraints:</strong>
+t &lt;= 25
+1 &lt;= n &lt;= 20
+1 &lt;= x &lt;= 1000000
+1 &lt;= k<sub>i</sub>, a<sub>i</sub>, y<sub>i</sub> &lt;=20
+x<sub>i</sub> &gt; 0
+
+</pre>
+<p><strong>Explanation:</strong></p>
+<p>Test case 1: x<sub>1</sub><sup>2</sup> = 4. Therefore, x<sub>1</sub> = 2 and 3*x<sub>1</sub><sup>3</sup> = 24. <br />Test case 2: x<sub>1</sub>*x<sub>2</sub> = 6. Minimum value of x<sub>1</sub> + x<sub>2</sub> is 2*sqrt(6) = 4.89897. x<sub>1</sub> = sqrt(6) and x<sub>2</sub> = sqrt(6) gives this solution. Answer is 4.89897, which when rounded off to the nearest integer equals 5.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/suh_ash2008">suhash</a></td></tr>
+<tr><td>Date:</td><td>2011-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.405s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2011, NIT Trichy, India</td></tr>	
+</table>

@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mcsharma1990"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NOVICE43" target="_blank">8442. Problem 3</a></td><td><a href="http://www.spoj.com/problems/NOVICE43"target="_blank">NOVICE43</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN72" target="_blank">8545. Subset sum</a></td><td><a href="http://www.spoj.com/problems/MAIN72"target="_blank">MAIN72</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN73" target="_blank">8546. Manoj and Pankaj </a></td><td><a href="http://www.spoj.com/problems/MAIN73"target="_blank">MAIN73</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN74" target="_blank">8547. Euclids algorithm revisited </a></td><td><a href="http://www.spoj.com/problems/MAIN74"target="_blank">MAIN74</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN75" target="_blank">8549. BST again</a></td><td><a href="http://www.spoj.com/problems/MAIN75"target="_blank">MAIN75</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN8_C" target="_blank">8756. Shake Shake Shaky</a></td><td><a href="http://www.spoj.com/problems/MAIN8_C"target="_blank">MAIN8_C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN8_D" target="_blank">8757. Coing tossing </a></td><td><a href="http://www.spoj.com/problems/MAIN8_D"target="_blank">MAIN8_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN8_E" target="_blank">8758. Cover the string</a></td><td><a href="http://www.spoj.com/problems/MAIN8_E"target="_blank">MAIN8_E</a><br>
+</td></tr>

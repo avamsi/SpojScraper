@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/xfastx"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GPINTRI" target="_blank">4717. Grid Points in a Triangle</a></td><td><a href="http://www.spoj.com/problems/GPINTRI"target="_blank">GPINTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DAGCNT2" target="_blank">4882. Counting in a DAG</a></td><td><a href="http://www.spoj.com/problems/DAGCNT2"target="_blank">DAGCNT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LPRIME" target="_blank">5703. Primes of Lambda</a></td><td><a href="http://www.spoj.com/problems/LPRIME"target="_blank">LPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEGTREE" target="_blank">6578. Segment Tree</a></td><td><a href="http://www.spoj.com/problems/SEGTREE"target="_blank">SEGTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MEPPERM" target="_blank">6895. Maximum Edge of Powers of Permutation</a></td><td><a href="http://www.spoj.com/problems/MEPPERM"target="_blank">MEPPERM</a><br>
+</td></tr>

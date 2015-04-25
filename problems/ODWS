@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ODWS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23516. One day with string</h1>
+		<h2>Problem code: ODWS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Rafa always interested in string problem and playing with string <br />when feel bored. One day he is trying to write all the string which is <br />lexicographically larger than string s and lexicographically smaller <br />than string t and the length of the strings are same as the length of s <br />and t. The string s and t consist of lowercase English letters of same <br />length. After a few moment he got tired and thinking to solve it with <br />computer. As he is so tired he want you to write a program to find how <br />many string exist for the given constrains.</h3>
+<h3>Input</h3>
+<p>Input starts with the number of test cases T (T&lt;=100). Each input contains<br /> two lines, the first line contains string s (1&thinsp;&le;&thinsp;|s|&thinsp;&le;&thinsp;100), consisting<br /> of lowercase English letters. Here, |s| denotes the length of the <br />string.<br /><br />The second line contains string t (|t|&thinsp;=&thinsp;|s|), consisting of lowercase English letters.<br /><br />It is guaranteed that the lengths of strings s and t are the same and string s is lexicographically less than string t.</p>
+<h3>Output</h3>
+<p>Print the case number and the result. Since the result may be large you should print the result modulo 1,000,000,007. For better understand check the input and output given below.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />a<br />d<br />abcdefg<br />abcdefh<br />xy<br />yz
+
+<strong>Output:</strong>
+Case 1: 2<br />Case 2: 0<br />Case 3: 26</pre>
+<h3>Problem Setter:</h3>
+<p>Md. Istiyak ahmed <br />Daffodil International University, Dhaka</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shuvo">shuvo karmakar</a></td></tr>
+<tr><td>Date:</td><td>2015-04-03</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

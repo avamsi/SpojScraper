@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kingpin"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KPMATRIX" target="_blank">1329. Matrix</a></td><td><a href="http://www.spoj.com/problems/KPMATRIX"target="_blank">KPMATRIX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPMAZE" target="_blank">1335. Maze</a></td><td><a href="http://www.spoj.com/problems/KPMAZE"target="_blank">KPMAZE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPPOLY" target="_blank">1431. Projections Of A Polygon</a></td><td><a href="http://www.spoj.com/problems/KPPOLY"target="_blank">KPPOLY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPSUM" target="_blank">1433. The Sum</a></td><td><a href="http://www.spoj.com/problems/KPSUM"target="_blank">KPSUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPEQU" target="_blank">1434. Equation</a></td><td><a href="http://www.spoj.com/problems/KPEQU"target="_blank">KPEQU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPARCH" target="_blank">2648. Archiver</a></td><td><a href="http://www.spoj.com/problems/KPARCH"target="_blank">KPARCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPSORT" target="_blank">2649. Weird sorting</a></td><td><a href="http://www.spoj.com/problems/KPSORT"target="_blank">KPSORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPGAME" target="_blank">4060. A game with probability</a></td><td><a href="http://www.spoj.com/problems/KPGAME"target="_blank">KPGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPGRAPHS" target="_blank">4420. Counting Graphs</a></td><td><a href="http://www.spoj.com/problems/KPGRAPHS"target="_blank">KPGRAPHS</a><br>
+</td></tr>

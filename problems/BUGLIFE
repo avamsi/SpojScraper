@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BUGLIFE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3377. A Bug&#8217;s Life</h1>
+		<h2>Problem code: BUGLIFE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Professor Hopper is researching the sexual behavior of a rare species of bugs. He assumes that
+they feature two different genders and that they only interact with bugs of the opposite gender. In
+his experiment, individual bugs and their interactions were easy to identify, because numbers were
+printed on their backs.<br><br>
+Given a list of bug interactions, decide whether the experiment supports his assumption of two
+genders with no homosexual bugs or if it contains some bug interactions that falsify it.
+
+
+<h3>Input</h3>
+<p>The first line of the input contains the number of scenarios. Each scenario starts with one line
+giving the number of bugs (at least one, and up to 2000) and the number of interactions (up to
+1000000) separated by a single space. In the following lines, each interaction is given in the form of
+two distinct bug numbers separated by a single space. Bugs are numbered consecutively starting
+from one.
+
+
+<h3>Output</h3>
+<p>The output for every scenario is a line containing &#8220;Scenario #i:&#8221;, where i is the number of the
+scenario starting at 1, followed by one line saying either &#8220;No suspicious bugs found!&#8221; if the
+experiment is consistent with his assumption about the bugs&#8217; sexual behavior, or &#8220;Suspicious
+bugs found!&#8221; if Professor Hopper&#8217;s assumption is definitely wrong.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 3
+1 2
+2 3
+1 3
+4 2
+1 2
+3 4
+
+
+<b>Output:</b>
+Scenario #1:
+Suspicious bugs found!
+Scenario #2:
+No suspicious bugs found!
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dilaang">Daniel Gómez Didier</a></td></tr>
+<tr><td>Date:</td><td>2008-11-17</td></tr>
+<tr><td>Time limit:</td><td>0.150s-0.189s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>2007 PUJ - Circuito de Maratones ACIS / REDIS</td></tr>	
+</table>

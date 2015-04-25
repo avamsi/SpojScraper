@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STSTRING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3112. Strings</h1>
+		<h2>Problem code: STSTRING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given two strings A and B, we define the operator &#265; on {A,B} for string C as C &#265; {A,B}.
+<pre>
+if length(A) < length(C) < length(B), then C satisfies the above operator.
+else
+      if length(A)=length(C), then C must be lexicographically greater than A.
+      if length(B)=length(C), then C must be lexicographically smaller than B.
+</pre> 
+
+<h3>Input</h3>
+<p>Given two strings A,B with length(A) < = length(B) <= 6.  A,B can contain any characters between A and J (capital letters).
+
+<h3>Output</h3>
+<p>Print the number of strings satisfying the above criteria.
+C must also satisfy criteria of A and B. Any two adjacent
+characters in string C may neither be the same nor consecutve (i.e. the absoulte difference between the ASCII values of adjacent characters is greater than 1). 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+A J
+AA BCD
+ABC DEFG
+
+<b>Output:</b>
+8
+129
+1770
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eleusive">John Rizzo</a></td></tr>
+<tr><td>Date:</td><td>2008-10-04</td></tr>
+<tr><td>Time limit:</td><td>0.256s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Al-Khawarizm 2008 - Set by FameofLight and Challenger</td></tr>	
+</table>

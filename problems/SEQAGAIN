@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEQAGAIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11777. Easy Sequence!</h1>
+		<h2>Problem code: SEQAGAIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your task is to find the n<sup>th </sup>term of the following sequence :</p>
+<p>F(n) = [F(n-1)*F(n-2)]<sup>K</sup> for n&gt;1</p>
+<p>F(0), F(1), n and K will be provided as input. <span style="text-decoration: line-through;">Modulus for all calculations is 1000000007.</span>&nbsp;You should print the answer modulo 1000000007 i.e. F(n)%1000000007</p>
+<h3>Input</h3>
+<p>Input starts with a line containing an integer T &le; 5000 which is the number of test cases in the file. Your program will be run on several input files.</p>
+<p>Each test case consists of four space separated integers : F(0), F(1), n and K.</p>
+<h3>Output</h3>
+<p>T lines containing one integer each, corresponding to the answers for the T test cases.</p>
+<h3>Constraints</h3>
+<p>0 &le; n &le; 10<sup>18</sup></p>
+<p>0 &le; K &le; 10<sup>9</sup></p>
+<p>0 &le; F(0), F(1) &le; 10<sup>6</sup></p>
+<h3>Example</h3>
+<pre style="text-align: left;"><strong>Input:</strong>
+1
+1 1 2 1<br /><br /><strong>Output:</strong>
+1<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/zingoba">zingoba</a></td></tr>
+<tr><td>Date:</td><td>2012-06-26</td></tr>
+<tr><td>Time limit:</td><td>0.737s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

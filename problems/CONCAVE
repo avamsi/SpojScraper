@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CONCAVE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10312. Concave quadrilaterals</h1>
+		<h2>Problem code: CONCAVE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given is a grid consisting of <span><em>r</em></span> rows by <span><em>c</em></span> columns of grid points.</p>
+<p>Count the number of ways in which it is possible to draw a strictly  concave quadrilateral with vertices in four of the given grid points.</p>
+<p>(A quadrilateral is strictly concave if and only if one of its  two diagonals contains a point that is strictly outside the  quadrilateral. Shifted and/or rotated copies of the same quadrilateral  count as distinct ways of drawing it.)</p>
+<h2><span id="Input_specification">Input specification</span></h2>
+<p>The input has a single line with the two integers <span><em>r</em></span> and <span><em>c</em></span>.</p>
+<p>You may assume that the total number of grid points is at most 3000.</p>
+<h2><span id="Output_specification">Output specification</span></h2>
+<p>Output a single line with a single integer: the number of concave quadrilaterals with vertices on the grid.</p>
+<h2><span id="Examples">Examples</span></h2>
+<table border="0">
+<tbody>
+<tr>
+<td><strong>input</strong>
+<pre>2 10
+</pre>
+</td>
+<td><strong>output</strong>
+<pre>0
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0">
+<tbody>
+<tr>
+<td><strong>input</strong>
+<pre>3 3
+</pre>
+</td>
+<td><strong>output</strong>
+<pre>24
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="http://people.ksp.sk/%7Eacm/images/8/81/Concave.png" alt="" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xellos0">Jakub Šafin</a></td></tr>
+<tr><td>Date:</td><td>2011-12-30</td></tr>
+<tr><td>Time limit:</td><td>0.089s-0.100s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>people.ksp.sk/~acm, ACM ICPC selection round of Comenius University</td></tr>	
+</table>

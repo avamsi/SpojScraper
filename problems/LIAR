@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LIAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>696. Liar Liar</h1>
+		<h2>Problem code: LIAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Professor Millman hates us, and worse, characterizes us as
+liars. We don&#8217;t care if he means it or not, but we (more professional
+that him!) planned to give the lower and upper bound on the number of
+liars in the class (so that you know what happens the next time he
+scolds us! ).</p>
+<p>To start with we took a survey of all students in the class. Each
+student gave a reply about every student saying whether that student is
+a liar or not. These answers are in the form of a Matrix A, where
+A[i][j] represents the reply given by the i-th student about the j-th
+student. If that character is &#8216;L&#8217; &#8211; it means he/she is a liar; if it&#8217;s
+&#8216;T&#8217; &#8211; then it means that, that student is a truth speaker.</p>
+<p>We take the following as our definition of the terms Truth-Speaker, and Liar:<br>
+  Truth-Speaker (&#8216;T&#8217;): All his/her replies are true.<br>
+  Liar (&#8216;L&#8217;) : (S)he has made at least one false reply.</p>
+
+<h3>Input</h3>
+<p>
+  T &#8211; the number of test cases; For each test case :<br>
+
+  N &#8211; total number of students in the class<br>
+  Matrix A of NxN characters, without space separation;</p>
+
+<h3>Output</h3>
+<p>For i-th test case output one line of the form &#8220;Class Room#i contains atleast A and atmost B liars&#8221;, where A and B are the lower and the upper bounds on the number of liars respectively. If there is a paradoxical class room, instead of the above line, print &#8220;Class Room#i is paradoxical&#8221;.</p>
+<p><strong>Constraints:</strong><br>
+  T<=50; Our class rooms contain atmost 70 students.</p>
+
+<h3>Example</h3>
+<tt>
+<p><strong>Sample Input:</strong><br>
+
+  4<br>
+  2<br>
+  LL<br>
+  TT<br>
+  3<br>
+  TTT<br>
+
+  TTT<br>
+  TTT<br>
+  4<br>
+  TLLL<br>
+  LTLL<br>
+  LLTL<br>
+
+  LLLT<br>
+  5<br>
+  TLTLT<br>
+  TTTTT<br>
+  LLTLL<br>
+  LLLLL<br>
+
+  TLTLT</p>
+<p><strong>Sample Output:</strong><br>
+  Class Room#1 is paradoxical<br>
+  Class Room#2 contains atleast 0 and atmost 3 liars<br>
+  Class Room#3 contains atleast 3 and atmost 4 liars<br>
+  Class Room#4 contains atleast 4 and atmost 4 liars<br>
+</p>
+</tt>
+<p> Here a paradox occurs if a person can't be classified as a liar or a truth-speaker.<br>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2006-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://pragyan.org/bytecode/2k6/"> ByteCode '06 </a></td></tr>	
+</table>

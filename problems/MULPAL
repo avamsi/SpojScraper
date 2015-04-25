@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MULPAL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7960. Multiplicative Palindrome</h1>
+		<h2>Problem code: MULPAL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a sequence of N integers. Find two disjoint contiguous palindromic subsequences. Lets call them X and Y. Your task is to find X and Y such that product of their lengths is maximal possible.</p>
+<h3>Input</h3>
+<pre>First line will contain one integer N (1 <span>&le;</span> N <span>&le;</span> 10<sup>6</sup>).<br />Second line will contain N integers representing a sequnce from the text of the task (0 <span>&le;</span> A<sub>i </sub><span>&le;</span> 2*10<sup>9</sup>).</pre>
+<h3>Output</h3>
+<pre>First and only line of output should contain only one integer, the maximum possible product from the text of problem.</pre>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />1 1<br /><br /><strong>Output:</strong><br />1<strong><br /><br /><br /><br />Input:<br /></strong>4<br />1 1 2 2<br /><br /><strong>Output:</strong><br />4<br /><br /><br /><br /><strong>Input:</strong><br />6<br />10 11 12 12 11 10<br /><strong><br />Output:</strong><br />4<br /><br /><br /><br /><strong>Input:</strong><br />6<br />0 1 0 1 0 1<br /><br /><strong>Output:</strong><br />9<br /><br /><strong>&nbsp;</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/zmedic">Zvonimir Medic</a></td></tr>
+<tr><td>Date:</td><td>2010-11-28</td></tr>
+<tr><td>Time limit:</td><td>0.112s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

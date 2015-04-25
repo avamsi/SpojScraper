@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OAE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6172. OAE</h1>
+		<h2>Problem code: OAE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Having joined forces and preparing for the war with the terminators the humans do know that it will be a tough battle. They plan to strike each base of the terminator and destroy them one by one. A genius computer engineer UD willing to extend his help to his fellow humans found out that each base of the terminator has password protected doors. He was able to recognise the pattern between the passwords. The password is an n character string having even number of zeroes. As you know many strings of this type exist. Help him to find out the total number of such strings. Each character in the password string is a digit from 0 to 9.</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer t&lt;=50, the number of test cases. Then t test cases follow each containing a line with a single integer n (1&lt;=n&lt;=10<sup>6</sup>).</p>
+<h3>Output</h3>
+<p>A single line for each test case, containing the answer modulo 314159.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>2</p><p>2</p><p>1</p>
+<strong>Output:</strong>
+<p>82</p><p>9</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/troika_bytes">Troika::Bytes</a></td></tr>
+<tr><td>Date:</td><td>2010-02-18</td></tr>
+<tr><td>Time limit:</td><td>0.180s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+	
+</table>

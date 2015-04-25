@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITKWPCH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15561. Find Number Of Pair of Friends </h1>
+		<h2>Problem code: IITKWPCH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;&nbsp;&nbsp; You are given n numbers. Any two number are called friends if they have some digit common. eg. (11, 12) and (15, 4561) are friends but (33, 556) is not.</p>
+<p>&nbsp;&nbsp;&nbsp; Find out no of pairs which are friends.</p>
+<p>&nbsp;&nbsp; &nbsp;(Formally speaking Let us assume the n numbers be are stored in array a[]. You have to find out number of i and j pairs such that i &lt; j and a[i] and a[j] are friends.).</p>
+<h3>Input</h3>
+<p>T : no of test cases (T &gt;= 1 &amp;&amp; T &lt;= 7)&nbsp;<br />For each test case, you will be given two lines, first line will contain n &lt;= 10^6<br />then in next n line each line will contain a single integer representing a[i] (a[i] &gt;= 1 &amp;&amp; a[i] &lt;= 10^18)</p>
+<h3>Output</h3>
+<p>For every test case print a line <br />containing number of such pairs as mentioned in the problem statement.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4</pre>
+<pre>2</pre>
+<pre>12&nbsp;13</pre>
+<pre>3</pre>
+<pre>10&nbsp;12&nbsp;24</pre>
+<pre>3</pre>
+<pre>5&nbsp;6&nbsp;7</pre>
+<pre>4</pre>
+<pre>10&nbsp;11&nbsp;211&nbsp;3</pre>
+<p><strong>Output:</strong> <br />1<br />2<br />0<br />3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-08-05</td></tr>
+<tr><td>Time limit:</td><td>0.318s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>general problem</td></tr>	
+</table>

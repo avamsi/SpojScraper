@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IE4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16639. Endless Knight</h1>
+		<h2>Problem code: IE4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: Arial, sans-serif; font-size: small;">In the game of chess, there is a piece called the knight. A knight is special -- instead of moving in a straight line like other pieces, it jumps in an "L" shape. Specifically, a knight can jump from square (r1, c1) to (r2, c2) if and only if (r1 - r2)<sup>2</sup> + (c1 - c2)<sup>2</sup>&nbsp;</span><span style="font-family: Arial, sans-serif; font-size: small;">= 5.</span></p>
+<p><span style="font-family: Arial, sans-serif; font-size: small;"><span style="font-family: Arial, sans-serif; font-size: small;">In this problem, one of our knights is going to undertake a chivalrous quest of moving from the top-left corner (the (1, 1) square) to the bottom-right corner (the (</span><strong>H</strong><span style="font-family: Arial, sans-serif; font-size: small;">,&nbsp;</span><strong>W</strong><span style="font-family: Arial, sans-serif; font-size: small;">) square) on a gigantic board. The chessboard is of height&nbsp;</span><strong>H</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;and width&nbsp;</span><strong>W</strong><span style="font-family: Arial, sans-serif; font-size: small;">.</span></span></p>
+<p style="font-family: Arial, sans-serif; font-size: small;">Here are some restrictions you need to know.</p>
+<ul style="font-family: Arial, sans-serif; font-size: small;">
+<li style="margin-bottom: 0.25em;">The knight is so straightforward and ardent that he is only willing to move towards the right&nbsp;<em>and</em>&nbsp;the bottom. In other words, in each step he only moves to a square with a bigger row number and a bigger column number. Note that, this might mean that there is no way to achieve his goal, for example, on a 3 by 10 board.</li>
+<li style="margin-bottom: 0.25em;">There are&nbsp;<strong>R</strong>&nbsp;squares on the chessboard that contain rocks with evil power. Your knight may not land on any of such squares, although flying over them during a jump is allowed.</li>
+</ul>
+<p><span style="font-family: Arial, sans-serif; font-size: small;">Your task is to find the number of unique ways for the knight to move from the top-left corner to the bottom-right corner, under the above restrictions. It should be clear that sometimes the answer is huge. You are asked to output the remainder of the answer when divided by 10007, a prime number.</span></p>
+<h3>Input</h3>
+<p style="font-family: Arial, sans-serif; font-size: small;">Input begins with a line containing a single integer,&nbsp;<strong>N</strong>.&nbsp;<strong>N</strong>&nbsp;test cases follow.</p>
+<p style="font-family: Arial, sans-serif; font-size: small;">The first line of each test case contains 3 integers,&nbsp;<strong>H</strong>,&nbsp;<strong>W</strong>, and&nbsp;<strong>R</strong>. The next&nbsp;<strong>R</strong>&nbsp;lines each contain 2 integers each,&nbsp;<strong>r</strong>&nbsp;and&nbsp;<strong>c</strong>, the row and column numbers of one rock. You may assume that (1, 1) and (<strong>H</strong>,&nbsp;<strong>W</strong>) never contain rocks and that no two rocks are at the same position.</p>
+<h3>Output</h3>
+<p><span style="font-family: Arial, sans-serif; font-size: small;">For each test case, output a single line of output, prefixed by "Case #</span><strong>X</strong><span style="font-family: Arial, sans-serif; font-size: small;">: ", where&nbsp;</span><strong>X</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;is the 1-based case number, followed by a single integer indicating the number of ways of reaching the goal, modulo 10007.</span></p>
+<h3>Limits</h3>
+<p><span style="font-family: Arial, sans-serif; font-size: small;">1 &le;&nbsp;</span><strong>N</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; 100</span><br style="font-family: Arial, sans-serif; font-size: small;" /><span style="font-family: Arial, sans-serif; font-size: small;">0 &le;&nbsp;</span><strong>R</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; 10</span></p>
+<p><span style="font-family: Arial, sans-serif; font-size: small;"><span style="font-family: Arial, sans-serif; font-size: small;">1 &le;&nbsp;</span><strong>W</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; 10</span><sup>8</sup><br style="font-family: Arial, sans-serif; font-size: small;" /><span style="font-family: Arial, sans-serif; font-size: small;">1 &le;&nbsp;</span><strong>H</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; 10</span><sup>8</sup><br style="font-family: Arial, sans-serif; font-size: small;" /><span style="font-family: Arial, sans-serif; font-size: small;">1 &le;&nbsp;</span><strong>r</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; H</span><br style="font-family: Arial, sans-serif; font-size: small;" /><span style="font-family: Arial, sans-serif; font-size: small;">1 &le;&nbsp;</span><strong>c</strong><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;&le; W</span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">5</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">1 1 0</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">4 4 1</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">2 1</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">3 3 0</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">7 10 2</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">1 2</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">7 1</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">4 4 1</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">3 2</span>
+
+<strong>Output:</strong>
+<span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">Case #1: 1</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">Case #2: 2</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">Case #3: 0</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">Case #4: 5</span><br style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;" /><span style="font-family: 'bogus font here', monospace; font-size: 12.800000190734863px; background-color: #efefef;">Case #5: 1</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2013-10-20</td></tr>
+<tr><td>Time limit:</td><td>1.107s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Google Codejam 2008</td></tr>	
+</table>

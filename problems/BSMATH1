@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BSMATH1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5530. Math with Bases (Easy)</h1>
+		<h2>Problem code: BSMATH1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Little Ben had just learned different bases in math. He learned very quickly how to add and subtract in multiple bases, so his teacher provided him with a worksheet to work on. Each section provided a different base and gave an example.</p>
+<p>Unfortunately, Little Ben's teacher forgot to write what base each question was in! Please help Little Ben do his homework; he'll be very grateful!</p>
+<p style="text-align: center;"><strong>Input</strong></p>
+<p>The first line of input contains an integer <code>n</code> (1 &le; n &lt; 36) that indicates the amount of sections (test cases). Each test case is as follows:</p>
+<pre><span style="font-family: 'courier new', courier;">A - B = C
+I
+X1 op Y1 =
+X2 op Y2 =
+...
+XI op YI =</span></pre>
+<p>where <code>A - B = C</code> is the correct example, <code>I</code> (1 &le; I &le; 1000) is the number of questions in that section, <code>Xi</code> and <code>Yi</code> are the operands of each problem (<code>Xi</code> = |<code>Xi</code>|, <code>Yi</code> = |<code>Yi</code>|), and <code>op</code> is either + or -, denoting addition or subtraction.</p>
+<p style="text-align: center;"><br /> <strong>Output</strong></p>
+<p>Your program should output in the following format:</p>
+<pre><span style="font-family: 'courier new', courier;">SECTION 1 (BASE b)<br />  X1 op Y1 = Z1<br />  X2 op Y2 = Z2<br />  ...<br />  Xi op Yi = Zi<br />SECTION 2 (BASE b)<br />  X1 op Y1 = Z1<br />  X2 op Y2 = Z2<br />  ...<br />  Xi op Yi = Zi<br />...<br />SECTION N (BASE b)<br />  X1 op Y1 = Z1<br />  X2 op Y2 = Z2<br />  ...<br />  Xi op Yi = Zi</span></pre>
+<p>where <code>Zi</code> is the solution to <code>Xi op Yi</code>, and <code>b</code> is the base used. (2 &le; b &le; 36). <em>If the base is ambiguous, use the smallest base for which the example is correct and the questions are valid.</em>&nbsp;You may assume all solutions fit inside a 64-bit integer and that each base will appear at most once.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p><strong>Input:</strong></p>
+<pre><span style="font-family: 'courier new', courier;">4
+110 - 101 = 1
+2
+1111111 + 1 =
+100 - 1 =
+177 + 1 = 200
+2
+7712347 + 7 =
+11111 + 7777 =
+ZAP + DZ = ZOO
+1
+E + PI =
+10 + 1 = 11
+1
+5 + 5 =</span></pre>
+<p><strong>Output:</strong></p>
+<pre><span style="font-family: 'courier new', courier;">SECTION 1 (BASE 2)
+  1111111 + 1 = 10000000
+  100 - 1 = 11
+SECTION 2 (BASE 8)
+  7712347 + 7 = 7712356
+  11111 + 7777 = 21110
+SECTION 3 (BASE 36)
+  E + PI = PW
+SECTION 4 (BASE 6)
+  5 + 5 = 14</span></pre>
+<p style="text-align: center;"><strong>Notes: </strong></p>
+<ul>
+<li>large input/output data, be careful with certain languages</li>
+<li>Tricky input/output; please read problem statement carefully</li>
+</ul>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jargon">Jargon</a></td></tr>
+<tr><td>Date:</td><td>2009-12-04</td></tr>
+<tr><td>Time limit:</td><td>0.093s-0.279s</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASM BASH BF C C++ 4.3.2 C++ 4.9 C++14 C99 strict CLPS LISP sbcl D FORT ICK NEM CAML PAS fpc PAS gpc PRLG PYTH 2.7 RUBY SCALA SCM guile SCM qobi ST TCL TECS TEXT WSPC </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

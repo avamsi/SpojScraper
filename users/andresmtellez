@@ -1,0 +1,36 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/andresmtellez"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DOUTI" target="_blank">8894. Double Time</a></td><td><a href="http://www.spoj.com/problems/DOUTI"target="_blank">DOUTI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POCRI" target="_blank">8895. Power Crisis</a></td><td><a href="http://www.spoj.com/problems/POCRI"target="_blank">POCRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PATT" target="_blank">8896. Pattern Matching</a></td><td><a href="http://www.spoj.com/problems/PATT"target="_blank">PATT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAME31" target="_blank">9430. The game of 31</a></td><td><a href="http://www.spoj.com/problems/GAME31"target="_blank">GAME31</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUZZW" target="_blank">9433. Buzzwords</a></td><td><a href="http://www.spoj.com/problems/BUZZW"target="_blank">BUZZW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NEWH" target="_blank">9434. New Horizons</a></td><td><a href="http://www.spoj.com/problems/NEWH"target="_blank">NEWH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIPHERJ" target="_blank">9525. Cipher</a></td><td><a href="http://www.spoj.com/problems/CIPHERJ"target="_blank">CIPHERJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEPARTJ" target="_blank">9527. Department</a></td><td><a href="http://www.spoj.com/problems/DEPARTJ"target="_blank">DEPARTJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JTRIP" target="_blank">9528. Johns Trip</a></td><td><a href="http://www.spoj.com/problems/JTRIP"target="_blank">JTRIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAYCA" target="_blank">9529. Maya Calendar</a></td><td><a href="http://www.spoj.com/problems/MAYCA"target="_blank">MAYCA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSJ" target="_blank">9532. Transportation</a></td><td><a href="http://www.spoj.com/problems/TRANSJ"target="_blank">TRANSJ</a><br>
+</td></tr>

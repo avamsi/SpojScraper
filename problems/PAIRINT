@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PAIRINT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>682. Pairs of Integers</h1>
+		<h2>Problem code: PAIRINT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+You are to find all pairs of integers such that their sum is equal to the given integer number N and the second number results from the first one by striking out one of its digits. The first integer always has at least two digits and starts with a non-zero digit. The second integer always has one digit less than the first integer and may start with a zero digit.
+<h3>Input</h3>
+<p>
+The first line of the input file is the integer number t ( 1 &#8804; t &#8804; 20 ), the number of test cases. Then t lines follow, each test case in one line; the line consists of a single integer N (10 &#8804; N &#8804; 10^9).
+<h3>Output</h3>
+<p>
+For each test case: <p>
+On the first line write the total number of different pairs of integers that satisfy the problem statement. On the following lines write all those pairs. Write one pair on a line in ascending order of the first integer in the pair. Each pair must be written in the following format<p>
+
+<p>X + Y = N<p>
+
+Here X, Y, and N, must be replaced with the corresponding integer numbers. There should be exactly one space on both sides of '+' and '=' characters.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+302
+11
+
+<b>Output:</b>
+5
+251 + 51 = 302
+275 + 27 = 302
+276 + 26 = 302
+281 + 21 = 302
+301 + 01 = 302
+1
+10 + 1 = 11
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hard7771988">Nguyen Minh Hieu</a></td></tr>
+<tr><td>Date:</td><td>2006-01-01</td></tr>
+<tr><td>Time limit:</td><td>0.127s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 C99 strict CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>2001-2002 ACM Northeastern European Regional Programming Contest</td></tr>	
+</table>

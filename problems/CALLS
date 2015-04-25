@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CALLS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>329. Calls</h1>
+		<h2>Problem code: CALLS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> A young archeologist Senoj Anaidni recently made a very important discovery which will make him famous (or at least he thinks so). He found several scraps of paper resembling advertisement flyers of an ancient phone company. His research showed that modern phone companies follow a few basic rules to compose their flyers (and there is no reason to assume that old companies were an exception). <BR><BR>
+
+Each company operates certain number of phone lines. Each phone line connects a pair of cities, and it can be used in both directions. The cost of using each line is a fixed positive number. A call from city A to city B may be routed through one or more other cities, in which case the cost of the call is the sum of the costs of all lines used. (In fact, sometimes it is cheaper to route the call through several other cities than to use the direct connection, even if there exists one.) <BR><BR>
+
+To make the information comprehensible to the customer, the phone company lists the cost of the cheapest possible call between every pair of cities serviced by the company. To impress the customer even more, the company also lists the number of lines it operates. <BR><BR>
+
+Indeed, each of Senoj's ancient flyers start like this: "Using our 47 telephone lines, we serve 10 most important cities of the world! A call from Sparta to Troja costs 12 dennario, Sparta to Athens is 15 dennario, ...". The list of all pairs of cities and the respective costs of the cheapest possible call between them follows. <BR><BR>
+
+This supports Senoj's hypothesis about the origin of the papers, but he is not sure whether they are really genuine. Other archeologists often play dirty jokes on him by making ridiculous forgeries in a hope, that he will make a fool of himself. Luckily, they are often not very meticulous, so we can safely assume, that a flyer is a forgery if and only if it could not have been published by any phone company. 
+<BR>
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input file gives the number <i>t</i> of flyers found by Senoj. [<i>t</i> <= 50] Each flyer is described in a separate block starting with a line containing two integers - N and K - where N is the number of cities and K is the number of phone lines. [N <= 300 K <= 1200] The block continues with N-1 lines giving the costs of the cheapest calls between all pairs of cities. In particular, the i-th line contains (N-i) numbers, where j-th number represents the cost of a call between the cities i and (i+j). 
+</p>
+
+<h3>Output</h3>
+<p>For every input block, output a line containing either "YES" or "NO". "YES" should be printed, if it is possible to assign costs to the phone lines operated by the company so that the cheapest calls are as advertised in the flyer. "NO" should be printed if this is not possible.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 3
+1 2
+2
+3 2
+1 2
+2
+
+
+<b>Output:</b>
+YES
+NO
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-04-17</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2004</td></tr>	
+</table>

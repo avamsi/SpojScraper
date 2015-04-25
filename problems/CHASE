@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHASE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1326. A Chase In WonderLand</h1>
+		<h2>Problem code: CHASE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice is in Wonderland. It is March and March Hare is raving mad. It begins to chase Alice. Alice runs as fast as she can, but she comes to the the edge of a quicksand pool. Now this pool has several safe spots where she may comfortably step on without being swallowed by the quicksand. She may step onto any safe spot from solid ground, but thereafter she can jump from spot to spot only in a straight line, and she cant turn back. March Hare is still hot on her heels, so she needs to know the maximum number of jumps she can make.
+</p>
+
+<h3>Input</h3>
+<p>On the first line there will be a single integer n, denoting the number of test cases.
+Each test case will consist of a single integer k by itself on a line, followed by k lines containing the x and y co-ordinates of the safe spots , seperated by a single space. Both coordinates are integer values. There are no leading or trailing spaces or blank lines. 0&lt;k&le;2200</p>
+
+<h3>Output</h3>
+<p>For each case print a single integer by itself on a line, with no leading or trailing spaces. Do not print blank lines.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+5
+0 0
+1 1
+2 2
+4 8
+2 75
+3
+0 0
+1 2
+3 4
+
+
+<b>Output:</b>
+2
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhilash_i">Abhilash I</a></td></tr>
+<tr><td>Date:</td><td>2007-02-22</td></tr>
+<tr><td>Time limit:</td><td>0.192s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Code Craft 2007</td></tr>	
+</table>

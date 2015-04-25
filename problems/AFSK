@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AFSK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14175. Power Factor Sum Sum (hard)</h1>
+		<h2>Problem code: AFSK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Here is a mixed edition of
+ <a href="http://www.spoj.com/problems/IITD4/" target="next"> Divisor Summation Powered </a> and <a href="http://www.spoj.com/problems/AFS2/" target="next"> Amazing Factor Sequence (medium)</a>.</p>
+
+<h3>The powered factor sequence</h3>
+<p> For <strong><em>k</em></strong> an integer number, we define our powered factor sequence with:</p>
+
+<p> <strong><em>a<sub>k</sub>[0] = 0;  a<sub>k</sub>[1] = 1</em></strong>, and</p>
+<p>for  <strong><em>n > 1, a<sub>k</sub>[n] = a<sub>k</sub>[n - 1] + sum({x^k | 0 < x &#8804; n and n % x = 0})</em></strong>.</p>
+
+<h3>Input</h3>
+
+<p>First line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</p>
+
+<p> Each of the next <strong><em>T</em></strong> lines contains
+ three integers <strong><em>n, k, m</em></strong>.</p>
+
+<h3>Output</h3>
+<p>For each test case, print <strong><em>a<sub>k</sub>[n]</em></strong> on a single line.</br>
+As the answer could be a big number, you just have to output it modulo <strong><em>m</em></strong>. </p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+3 1 10
+4 2 55
+5 3 97</pre>
+<pre><strong>Output:</strong>
+8
+37
+43</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T < 101
+0 < n < 10^9
+0 < k < 11
+1 < m < 10^17
+</pre>
+<p>Numbers <strong><em>n, k, m</em></strong> are uniform-randomly chosen.</br>
+For your information, there's two input files, the first one is 'easy' with n&#8804;100.</br>
+My (1kB)-python code get AC around 2.4s. I have a much slower basic PIKE AC (19s).</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-03-17</td></tr>
+<tr><td>Time limit:</td><td>30s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

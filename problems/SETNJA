@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SETNJA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3362. Setnja</h1>
+		<h2>Problem code: SETNJA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/SETNJA/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/SETNJA/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+
+<p>In an infinite binary tree:
+<ul>
+<li> Each node has exactly two children &#8211; a left and a right child.
+<li> If a node is labeled with the integer X, then its left child is labeled 2*X and its right child
+2*X+1.
+<li>The root of the tree is labeled 1.
+</ul>
+<p>A walk on the binary tree starts in the root. Each step in the walk is either a jump onto the left child,
+onto the right child, or pause for rest (stay in the same node).
+<p>A walk is described with a string of letters 'L', 'R' and 'P':
+<ul>
+<li> 'L' represents a jump to the left child;
+<li> 'R' represents a jump to the right child;
+<li> 'P' represents a pause.
+</ul>
+<p>The value of the walk is the label of the node we end up on. For example, the value of the walk LR is
+5, while the value of the walk RPP is 3.
+<p>A set of walks is described by a string of characters 'L', 'R', 'P' and '*'. Each '*' can be any of the three
+moves; the set of walks contains all walks matching the pattern.
+<p>For example, the set L*R contains the walks LLR, LRR and LPR. The set ** contains the walks LL, LR,
+LP, RL, RR, RP, PL, PR and PP.
+<p>Finally, the value of a set of walks is the sum of values of all walks in the set.
+<p>Calculate the value of the given set of walks.
+<h3>Input</h3>
+<p>A string describing the set. Only characters 'L', 'R', 'P' and '*' will appear and there will be at most
+10000 of them.
+<h3>Output</h3>
+<p>Output the value of the set.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+L*R
+
+<b>Output:</b>
+25
+
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2008-11-16</td></tr>
+<tr><td>Time limit:</td><td>0.221s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COCI 2008-2009</td></tr>	
+</table>

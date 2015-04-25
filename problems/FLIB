@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FLIB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7487. Flibonakki</h1>
+		<h2>Problem code: FLIB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>G(n) is defined as</p>
+<p>G(n) = G(n-1) + f(4n-1)   , for n &gt; 0</p>
+<p>and    G(0) = 0</p>
+<p>f(i) is ith Fibonacci number. Given n you need to evaluate G(n) modulo 1000000007.</p>
+<h3>Input</h3>
+<p>First line contains number of test cases t (t&lt;40000). Each of the next t lines contain an integer n ( 0 &lt;= n &lt; 2^51).</p>
+<h3>Output</h3>
+<p>For each test case print G(n) modulo 1000000007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>2<br />2<br />4<br /></pre>
+<br /><br /><strong>Output:</strong><br /><br />
+<pre>15<br />714<br /><br /></pre>
+<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mandark">Prof_Utonium_&#3209;&#3246;&#3270;&#3254;&#3277;</a></td></tr>
+<tr><td>Date:</td><td>2010-10-05</td></tr>
+<tr><td>Time limit:</td><td>0.149s-0.448s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>MNNIT IOPC 2010</td></tr>	
+</table>

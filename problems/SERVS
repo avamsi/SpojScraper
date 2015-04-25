@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SERVS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17302. Servers</h1>
+		<h2>Problem code: SERVS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div class="Exercise" style="text-align: left;"><strong></strong>Suppose we want to replicate a file over a collection of n servers, labeled <span class="formula"><em>S</em><sub>1</sub>,&#8197;<em>S</em><sub>2</sub>,&#8197;...,&#8197;<em>S</em><sub><em>n</em></sub></span>. To place a copy of the file at server <span class="formula"><em>S</em><sub><em>i</em></sub></span> results in a placement cost of <span class="formula"><em>c</em><sub><em>i</em></sub></span>, for an integer <span class="formula"><em>c</em><sub><em>i</em></sub> &gt;&#8197;0</span>. Now, if a user requests the file from server <span class="formula"><em>S</em><sub><em>i</em></sub></span>, and no copy of the file is present at <span class="formula"><em>S</em><sub><em>i</em></sub></span>, then the servers <span class="formula"><em>S</em><sub><em>i</em> +&#8197;1</sub>,&#8197;<em>S</em><sub><em>i</em> +&#8197;2</sub>,&#8197;<em>S</em><sub><em>i</em> +&#8197;3</sub>...</span> are searched in order until a copy of the file is finally found, say at server <span class="formula"><em>S</em><sub><em>j</em></sub></span>, where <span class="formula"><em>j</em> &gt;&#8197;<em>i</em></span>. This results in an access cost of <span class="formula"><em>j</em>&minus;<em>i</em></span>. (Note that the lower-indexed servers <span class="formula"><em>S</em><sub><em>i</em>&minus;1</sub>,&#8197;<em>S</em><sub><em>i</em>&minus;2</sub>,&#8197;...</span> are not consulted in this search.) The access cost is <span class="formula">0</span> if <span class="formula"><em>S</em><sub><em>i</em></sub></span> holds a copy of the file. We will require that a copy of the file be placed at server <span class="formula"><em>S</em><sub><em>n</em></sub></span>, so that all such searches will terminate, at the latest, at <span class="formula"><em>S</em><sub><em>n</em></sub></span>.</div>
+<div class="Exercise" style="text-align: left;">We&rsquo;d like to place copies of the files at the servers so as to minimize the sum of placement and access costs. Formally, we say that a configuration is a choice, for each server <span class="formula"><em>S</em><sub><em>i</em></sub></span> with <span class="formula"><em>i</em> =&#8197;1,&#8197;2,&#8197;...,&#8197;<em>n</em>&minus;1</span>, of whether to place a copy of the file at <span class="formula"><em>S</em><sub><em>i</em></sub></span> or not. (Recall that a copy is always placed at <span class="formula"><em>S</em><sub><em>n</em></sub></span>.) The total cost of a configuration is the sum of all placement costs for servers with a copy of the file, plus the sum of all access costs associated with all <span class="formula"><em>n</em></span> servers.</div>
+<div class="Exercise" style="text-align: left;">Write a program which reads from the standard input the placement costs and writes a single number, the minimum cost of a configuration. First line of the input consists of the number <span class="formula"><em>n</em></span> of servers (<span class="formula">1&#8197;&le;&#8197;<em>n</em> &le;&#8197;1000</span>). In the next <span class="formula"><em>n</em></span> lines you are given the placement costs, in line <span class="formula"><em>i</em> +&#8197;1</span> you are given the placement cost <span class="formula"><em>c</em><sub><em>i</em></sub></span> of server <span class="formula"><em>S</em><sub><em>i</em></sub></span>.</div>
+<div class="Exercise" style="text-align: left;"><strong>Example</strong></div>
+<div class="Exercise" style="text-align: left;">For the input:</div>
+<div class="Exercise" style="text-align: left;">4</div>
+<div class="Exercise" style="text-align: left;">1</div>
+<div class="Exercise" style="text-align: left;">1</div>
+<div class="Exercise" style="text-align: left;">1</div>
+<div class="Exercise" style="text-align: left;">9</div>
+<div class="Exercise" style="text-align: left;">the answer is:</div>
+<div class="Exercise" style="text-align: left;">12</div>
+<div class="Exercise" style="text-align: left;">and for the input:</div>
+<div class="Exercise" style="text-align: left;">4</div>
+<div class="Exercise" style="text-align: left;">4</div>
+<div class="Exercise" style="text-align: left;">3</div>
+<div class="Exercise" style="text-align: left;">2</div>
+<div class="Exercise" style="text-align: left;">1</div>
+<div class="Exercise" style="text-align: left;">the answer is:</div>
+<div class="Exercise" style="text-align: left;">6</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/marekpiotr">Marek Adamczyk</a></td></tr>
+<tr><td>Date:</td><td>2013-11-28</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

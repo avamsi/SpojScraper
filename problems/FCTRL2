@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FCTRL2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>24. Small factorials</h1>
+		<h2>Problem code: FCTRL2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+You are asked to calculate factorials of some small positive integers.
+</p>
+<H3>Input</h3>
+<P align=justify>
+An integer t, 1<=t<=100, denoting the number of testcases, followed by t lines, each containing a single integer n, 1<=n<=100.</p>
+<H3>Output</h3>
+<P align=justify>
+For each integer n given at input, display a line with the value of n!</p>
+<H3>Example</h3>
+<div align=left>
+Sample input:
+<pre>
+4
+1
+2
+5
+3
+</pre>
+<p>
+Sample output:
+<pre>
+1
+2
+120
+6
+</pre>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>2000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

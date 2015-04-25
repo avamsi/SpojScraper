@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PROBMOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10586. Problems in Moria</h1>
+		<h2>Problem code: PROBMOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Balin, in his last days, needed to put more workers on the tunnels of Moria to build a<br />lot of shelters to his people and to discovery the depths of that land. However, he didn't know<br />where to put a collection point in order to take all the rocks in the way and bring all of them<br />outside of Moria. The only thing he knew was this collection point needed to be fix in a<br />junction point that connects two independent parts. If there's no point with this feature, any<br />junction point, that's not the source one, can be used.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test is given by a line with two integers<br />X &#57502;0&#57476; X &le;100&#57503; and Y &#57502;Y &#57477;0&#57503; . The first one is the number of points and the second, the<br />number of tunnels. Then, the next Y lines are followed by three integers: A&#57502; 0&#57476; A&le;100&#57503; ,<br />B &#57502;0&#57476;B&le;100&#57503; e C &#57502;C&#57477;0&#57503; , which means, there's a link between A and B with a<br />capacity C of workers that can walk through there. After that, there's a line with only one<br />integer which is the start point, in the other words, the point where the workers are divided.</p>
+<h3>Output</h3>
+<p>For each test case, display it's case number followed by a blank line. In the next line<br />display the number Z of points that can be used as a collection point and, in the next Z<br />lines shows in decreasing order the maximum number of workers that can be used.<br />Each test case is separated by a blank line as the sample output.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+45 <br />125 <br />148 <br />233 <br />2 4 11 <br />346 <br />1 <br />56 <br />125 <br />148 <br />233 <br />2 4 11 <br />346 <br />4 5 12 <br />2
+
+<strong>Output:</strong>
+Case 1<br />Points: 3<br />13<br />13<br />9<br />Case 2<br />Points: 1<br />19</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-10</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UFAM</td></tr>	
+</table>

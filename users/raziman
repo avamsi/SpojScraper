@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/raziman"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SCROLL" target="_blank">8320. Spreadsheet scrolling</a></td><td><a href="http://www.spoj.com/problems/SCROLL"target="_blank">SCROLL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHOCDIST" target="_blank">8321. Chocolate distribution</a></td><td><a href="http://www.spoj.com/problems/CHOCDIST"target="_blank">CHOCDIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIEQUAL" target="_blank">8323. Triangle equality</a></td><td><a href="http://www.spoj.com/problems/TRIEQUAL"target="_blank">TRIEQUAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MILPATR" target="_blank">8324. Military patrol</a></td><td><a href="http://www.spoj.com/problems/MILPATR"target="_blank">MILPATR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARTPLNE" target="_blank">8325. Partitioning the plane</a></td><td><a href="http://www.spoj.com/problems/PARTPLNE"target="_blank">PARTPLNE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LEAKCONT" target="_blank">8326. Leaky containers</a></td><td><a href="http://www.spoj.com/problems/LEAKCONT"target="_blank">LEAKCONT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROGPROG" target="_blank">8327. Progressive progressions</a></td><td><a href="http://www.spoj.com/problems/PROGPROG"target="_blank">PROGPROG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOVEBOOK" target="_blank">8328. Move the books</a></td><td><a href="http://www.spoj.com/problems/MOVEBOOK"target="_blank">MOVEBOOK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROADTRIP" target="_blank">8329. Road trip</a></td><td><a href="http://www.spoj.com/problems/ROADTRIP"target="_blank">ROADTRIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNTFNTN" target="_blank">8330. Giant fountain</a></td><td><a href="http://www.spoj.com/problems/GNTFNTN"target="_blank">GNTFNTN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SSTRCITS" target="_blank">8331. Sister cities</a></td><td><a href="http://www.spoj.com/problems/SSTRCITS"target="_blank">SSTRCITS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKISLOPE" target="_blank">8332. Ski slopes</a></td><td><a href="http://www.spoj.com/problems/SKISLOPE"target="_blank">SKISLOPE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLCNMGME" target="_blank">8333. Place-name game</a></td><td><a href="http://www.spoj.com/problems/PLCNMGME"target="_blank">PLCNMGME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENUMRTNL" target="_blank">8334. Enumeration of rationals</a></td><td><a href="http://www.spoj.com/problems/ENUMRTNL"target="_blank">ENUMRTNL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNTTEAMS" target="_blank">8335. Counting the teams</a></td><td><a href="http://www.spoj.com/problems/CNTTEAMS"target="_blank">CNTTEAMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1200" target="_blank">10420. Hardware upgrade</a></td><td><a href="http://www.spoj.com/problems/IOPC1200"target="_blank">IOPC1200</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1201" target="_blank">10422. Rubiks cube</a></td><td><a href="http://www.spoj.com/problems/IOPC1201"target="_blank">IOPC1201</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1202" target="_blank">10437. Quadrilaterals</a></td><td><a href="http://www.spoj.com/problems/IOPC1202"target="_blank">IOPC1202</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1203" target="_blank">10438. Crazy texting</a></td><td><a href="http://www.spoj.com/problems/IOPC1203"target="_blank">IOPC1203</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1204" target="_blank">10460. A function over factors</a></td><td><a href="http://www.spoj.com/problems/IOPC1204"target="_blank">IOPC1204</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1205" target="_blank">10461. The magical escape</a></td><td><a href="http://www.spoj.com/problems/IOPC1205"target="_blank">IOPC1205</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1206" target="_blank">10476. Fair bases</a></td><td><a href="http://www.spoj.com/problems/IOPC1206"target="_blank">IOPC1206</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOPC1207" target="_blank">10477. GM plants</a></td><td><a href="http://www.spoj.com/problems/IOPC1207"target="_blank">IOPC1207</a><br>
+</td></tr>

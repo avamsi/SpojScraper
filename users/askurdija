@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/askurdija"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BLOCK" target="_blank">6711. Transform a Sequence</a></td><td><a href="http://www.spoj.com/problems/BLOCK"target="_blank">BLOCK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALL" target="_blank">8391. The Ball</a></td><td><a href="http://www.spoj.com/problems/BALL"target="_blank">BALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABCD" target="_blank">8551. Colours A, B, C, D</a></td><td><a href="http://www.spoj.com/problems/ABCD"target="_blank">ABCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REVSEQ" target="_blank">8578. Reverse the Sequence</a></td><td><a href="http://www.spoj.com/problems/REVSEQ"target="_blank">REVSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAME2" target="_blank">8720. Looks like Nim - but it is not</a></td><td><a href="http://www.spoj.com/problems/GAME2"target="_blank">GAME2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAKETREE" target="_blank">8728. Hierarchy</a></td><td><a href="http://www.spoj.com/problems/MAKETREE"target="_blank">MAKETREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHARLIE" target="_blank">8734. Charlie and the Chocolate Factory</a></td><td><a href="http://www.spoj.com/problems/CHARLIE"target="_blank">CHARLIE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WORD" target="_blank">8750. Wordplay</a></td><td><a href="http://www.spoj.com/problems/WORD"target="_blank">WORD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKIING" target="_blank">8759. Alpine Skiing</a></td><td><a href="http://www.spoj.com/problems/SKIING"target="_blank">SKIING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOMINO1" target="_blank">8786. The Longest Chain of Domino Tiles</a></td><td><a href="http://www.spoj.com/problems/DOMINO1"target="_blank">DOMINO1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VILLAGES" target="_blank">8916. Villages by the River</a></td><td><a href="http://www.spoj.com/problems/VILLAGES"target="_blank">VILLAGES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLUSEVI" target="_blank">8917. How Many Plusses</a></td><td><a href="http://www.spoj.com/problems/PLUSEVI"target="_blank">PLUSEVI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAME3" target="_blank">9842. Yet Another Fancy Game</a></td><td><a href="http://www.spoj.com/problems/GAME3"target="_blank">GAME3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLASS" target="_blank">9856. The Glazier</a></td><td><a href="http://www.spoj.com/problems/GLASS"target="_blank">GLASS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EIGHT" target="_blank">9857. Eight Directions Crossword</a></td><td><a href="http://www.spoj.com/problems/EIGHT"target="_blank">EIGHT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WALK1" target="_blank">9858. Štef and Barica</a></td><td><a href="http://www.spoj.com/problems/WALK1"target="_blank">WALK1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLASS2" target="_blank">9860. The Glazier 2</a></td><td><a href="http://www.spoj.com/problems/GLASS2"target="_blank">GLASS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOTELS" target="_blank">9861. Hotels Along the Croatian Coast</a></td><td><a href="http://www.spoj.com/problems/HOTELS"target="_blank">HOTELS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REMOVE" target="_blank">9862. Help the Airline Company</a></td><td><a href="http://www.spoj.com/problems/REMOVE"target="_blank">REMOVE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAGES" target="_blank">19224. Lights, Snakes and Cages</a></td><td><a href="http://www.spoj.com/problems/CAGES"target="_blank">CAGES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUFFIX" target="_blank">23530. Suffixes</a></td><td><a href="http://www.spoj.com/problems/SUFFIX"target="_blank">SUFFIX</a><br>
+</td></tr>

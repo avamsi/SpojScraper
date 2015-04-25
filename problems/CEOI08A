@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CEOI08A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12981. Fences</h1>
+		<h2>Problem code: CEOI08A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One morning, fruit farmer Fred visits his apple trees and notices that one of them was cut overnight. This means a loss of 111e &ndash; the money he can make from the apples of a tree on average. In order to prevent further losses, he decides to erect a fence on his plantation.<br />The fence consists of posts connected by wire.</p>
+<p>The fence posts can only be placed at a given set of pre-drilled holes. While Fred can get wire for free, he needs to buy the fence posts for 20e each. So it might not always be worth or even possible to fence in all of his trees.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img title="fences" src="http://www.shafaetsplanet.com/uploads/spoj/Fences.png" alt="fences" width="340" height="169" /></p>
+<p>The plantation is square and 1 000 &times; 1 000 m2 large. In bird&rsquo;s eye view, the lower left corner has<br />coordinates (0, 0), the upper right (1 000, 1 000). In this example there are four pre-drilled holes (circles) and three trees (squares). It is optimal to buy three fence posts and put them into selected holes (filled circles), to connect them by wire (lines), and to leave the upper left hole empty. The cost of erecting the fence is 3 &middot; 20e + 1 &middot; 111e = 171e since three posts were bought and one tree could not be fenced in (which means a loss of that tree&rsquo;s harvest).</p>
+<p><br />Write a program that reads the positions of the pre-drilled holes and the trees on Fred&rsquo;s plan-tation and outputs the minimum cost of erecting a fence or erecting no fence at all. You can neglect the actual shape of the trees and calculate with their positions only.</p>
+<p><strong>Input</strong></p>
+<p>The first line contains two integers N and M (3 &le; N &le; 100, 1 &le; M &le; 100). N is the number of pre-drilled holes, and M is the number of trees. This line is followed by N lines that describe the positions of the holes, and then by M lines that describe the positions of the trees. Allpositions are given as pairs of integers x y on one line (0 &le; x, y &le; 1 000). You can expect thatno two positions (of holes and trees) coincide and that no three positions are colinear.</p>
+<p><br /><strong>Output</strong><br />Output a single line containing one integer: Fred&rsquo;s minimum cost. In case Fred buys P posts<br />and fails to fence in T trees, his cost are 20P + 111T .</p>
+<p>&nbsp;</p>
+<p><strong>Sample Input</strong></p>
+<p>4 3<br />800 300<br />200 200<br />200 700<br />600 700<br />400 300<br />600 500<br />800 900</p>
+<p><strong>Output:</strong></p>
+<p>171</p>
+<p>This example corresponds to the picture above.</p>
+<p><strong>(Official Test Data)</strong></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shafaet_csedu">Shafaet</a></td></tr>
+<tr><td>Date:</td><td>2012-12-13</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>15th Central Europe Olympiad in Informatics, Germany </td></tr>	
+</table>

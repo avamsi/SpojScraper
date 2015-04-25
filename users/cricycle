@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/cricycle"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PONY1" target="_blank">9916. Help Dr Whooves</a></td><td><a href="http://www.spoj.com/problems/PONY1"target="_blank">PONY1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY2" target="_blank">10594. Decoding Number Stations with Dr Whooves</a></td><td><a href="http://www.spoj.com/problems/PONY2"target="_blank">PONY2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY3" target="_blank">11054. Discords Dilemma </a></td><td><a href="http://www.spoj.com/problems/PONY3"target="_blank">PONY3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY4" target="_blank">11116. Discord is Cornered</a></td><td><a href="http://www.spoj.com/problems/PONY4"target="_blank">PONY4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY5" target="_blank">11756. Teaming up for the competition</a></td><td><a href="http://www.spoj.com/problems/PONY5"target="_blank">PONY5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY6" target="_blank">12413. Toward Infinity</a></td><td><a href="http://www.spoj.com/problems/PONY6"target="_blank">PONY6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY8" target="_blank">13500. Discord is at it again</a></td><td><a href="http://www.spoj.com/problems/PONY8"target="_blank">PONY8</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PONY9" target="_blank">16048. Help Rarity Collect Crystals</a></td><td><a href="http://www.spoj.com/problems/PONY9"target="_blank">PONY9</a><br>
+</td></tr>

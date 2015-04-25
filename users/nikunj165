@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nikunj165"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HANDS" target="_blank">9046. Clock Hands</a></td><td><a href="http://www.spoj.com/problems/HANDS"target="_blank">HANDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPEED" target="_blank">9199. Circular Track</a></td><td><a href="http://www.spoj.com/problems/SPEED"target="_blank">SPEED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN12A" target="_blank">11102. SelfDescribingSequenceProblem</a></td><td><a href="http://www.spoj.com/problems/MAIN12A"target="_blank">MAIN12A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN12B" target="_blank">11103. PrimeFactorofLCM</a></td><td><a href="http://www.spoj.com/problems/MAIN12B"target="_blank">MAIN12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAIN12C" target="_blank">11105. Email ID</a></td><td><a href="http://www.spoj.com/problems/MAIN12C"target="_blank">MAIN12C</a><br>
+</td></tr>

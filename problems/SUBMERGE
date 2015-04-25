@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBMERGE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14956. Submerging Islands</h1>
+		<h2>Problem code: SUBMERGE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Vice City is built over a group of islands, with bridges connecting them. As anyone in Vice City knows, the biggest fear of vice-citiers is that some day the islands will submerge. The big problem with this is that once the islands submerge, some of the other islands could get disconnected. You have been hired by the mayor of Vice city to tell him how many islands, when submerged, will disconnect parts of Vice City. You should know that initially all the islands of the city are connected.</p>
+<h3>Input</h3>
+<p>The input will consist of a series of test cases. Each test case will start with the number N (1 &#8804; N &#8804; 10^4) of islands, and the number M of bridges (1 &#8804; M &#8804; 10^5). Following there will be M lines each describing a bridge. Each of these M lines will contain two integers Ui, Vi (1 &#8804; Ui,Vi &#8804; N), indicating that there is a bridge connecting islands Ui and Vi. The input ends with a case where N = M = 0.</p>
+<h3>Output</h3>
+<p>For each case on the input you must print a line indicating the number of islands that, when submerged, will disconnect parts of the city.</p>
+<h3>Example</h3>
+<pre><b><u>Input:</u></b>
+3 3
+1 2
+2 3
+1 3
+6 8
+1 3
+6 1
+6 3
+4 1
+6 4
+5 2
+3 2
+3 5
+0 0
+
+
+<b><u>Output:</u></b>
+0
+1
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/henu">Hector Navarro</a></td></tr>
+<tr><td>Date:</td><td>2013-05-16</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>MiniMaraton 2013 - UCV</td></tr>	
+</table>

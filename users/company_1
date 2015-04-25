@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/company_1"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PBCGAME" target="_blank">6052. PBCGAME</a></td><td><a href="http://www.spoj.com/problems/PBCGAME"target="_blank">PBCGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZUMA" target="_blank">6340. ZUMA</a></td><td><a href="http://www.spoj.com/problems/ZUMA"target="_blank">ZUMA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT101CC" target="_blank">6706. Making Chess Boards</a></td><td><a href="http://www.spoj.com/problems/CT101CC"target="_blank">CT101CC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT14E" target="_blank">6732. Camels</a></td><td><a href="http://www.spoj.com/problems/CT14E"target="_blank">CT14E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CFJUN21" target="_blank">6823. Seller Bob</a></td><td><a href="http://www.spoj.com/problems/CFJUN21"target="_blank">CFJUN21</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTFLAG" target="_blank">6824. Flag</a></td><td><a href="http://www.spoj.com/problems/CTFLAG"target="_blank">CTFLAG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT10R3B" target="_blank">6851. Fence</a></td><td><a href="http://www.spoj.com/problems/CT10R3B"target="_blank">CT10R3B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT16E" target="_blank">6852. Fish</a></td><td><a href="http://www.spoj.com/problems/CT16E"target="_blank">CT16E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT23E" target="_blank">6926. Tree game </a></td><td><a href="http://www.spoj.com/problems/CT23E"target="_blank">CT23E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTOI10D2" target="_blank">6949. PIN</a></td><td><a href="http://www.spoj.com/problems/CTOI10D2"target="_blank">CTOI10D2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTOI10D3" target="_blank">6950. A HUGE TOWER</a></td><td><a href="http://www.spoj.com/problems/CTOI10D3"target="_blank">CTOI10D3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTOI10D1" target="_blank">6951. MP3 Player</a></td><td><a href="http://www.spoj.com/problems/CTOI10D1"target="_blank">CTOI10D1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTOI09_1" target="_blank">6956. IOI2009 Mecho</a></td><td><a href="http://www.spoj.com/problems/CTOI09_1"target="_blank">CTOI09_1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CT25C" target="_blank">7025. Roads in Berland</a></td><td><a href="http://www.spoj.com/problems/CT25C"target="_blank">CT25C</a><br>
+</td></tr>

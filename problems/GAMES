@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GAMES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12448. HOW MANY GAMES</h1>
+		<h2>Problem code: GAMES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>Problem Statement:</strong><br /><br /> A player has played unknown number of games. We know the average score of the player (sum of scores in all the games / no. of games). Find the minimum number of games the player should have played to achieve that average.<br /><br /> The player can score any non-negative integer score in a game.<br /><br /> <strong>Input:</strong></p>
+<p>The first line consists of an integer t, the number of test cases. Each test case consists of a single <a href="http://en.wikipedia.org/wiki/Rational_number"> Rational Number </a> which represents the average score of the player.</p>
+<p><br /> <strong>Output:</strong><br /><br /> For each test case, find the minimum number of matches the player should have played to achieve that average.<br /><br /> <strong>Input Constraints:</strong><br /><br /> 1&lt;=t&lt;=1000<br /> 1&lt;=avg&lt;=1000000 (maximum 4 digits after the decimal place)<br /><br /> <strong>Example:</strong></p>
+<p><strong>Sample Input:</strong></p>
+<p>3</p>
+<p>5</p>
+<p>5.5</p>
+<p>30.25</p>
+<p>&nbsp;</p>
+<p><strong>Sample Output:</strong></p>
+<p>1</p>
+<p>2</p>
+<p>4</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2012-10-12</td></tr>
+<tr><td>Time limit:</td><td>0.185s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

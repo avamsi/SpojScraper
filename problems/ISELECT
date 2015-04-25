@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ISELECT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20846. Interesting Selection</h1>
+		<h2>Problem code: ISELECT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">There is a giant circular container which is divided into N segments numbered from 0 to N-1.&nbsp;<br /><br />Each segment has two bottles, one is a bottle of cold-drink and other is a bottle of poision. Drinking from bottle of cold-drink increases your energy by A[i] while drinking from bottle of poision decreases your energy by B[i].<br /><br />The corresponding energies for the same are given in input.<br /><br />Now as it is circular, so bottles in segment N-1 and segment 0 are adjacent. If you do not drink from bottle of cold-drink, then you have to drink from bottle of poision in that segment. Furthermore you cannot drink from bottle of cold-drink in adjacent segments. You have to drink in such a way so that your energy maximizes. Find this maximum value.</span></p>
+<p style="border: 0px; font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, 'Lucida Grande', sans-serif; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong><span style="font-size: small;">Note : Your initial energy will be 0 and the final maximum energy can be negative.</span></strong></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Input Format</strong><br />There will be T test cases and in each test case there will be an integer N which is the size of the container.<br />Next line contain N integers denoting the first array and the second line also contain N integers denoting the second array.</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Output Format</strong><br />There will be T lines each containing the output for each test case.</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Constraints</strong><br />1 &le; T &le; 10<br />1 &le; N &le; 10000<br />1 &le; A[i],B[i] &le; 10<span style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 0; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative; top: -0.5em;">9</span></span></p>
+<p><span style="font-size: small;"><strong>Sample Input</strong><br />1<br />3<br />1 2 3<br />4 5 6</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Sample Output</strong><br />-6</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Explanation</strong><br />There are 3 segments and the pairs are (1,4), (2,5) ,(3,6)<br />The optimal solution is to drink third potion and first two bottle of poision.<br />The answer in this case is (-4 + - 5 + 3 ) = -6&nbsp;</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aayushagarwal">Aayush Agarwal</a></td></tr>
+<tr><td>Date:</td><td>2014-08-30</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for codecracker</td></tr>	
+</table>

@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STACK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3359. Stack</h1>
+		<h2>Problem code: STACK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alan loves to construct a stack of building bricks. His stack consists of many cuboids with square
+base. All cuboids have the same height 1. Alan puts the consecutive cuboids one over another.
+<p>Recently in math class, the concept of volume was introduced to Alan. Consequently, he wants to
+compute the volume of his stack now. The lengths of cuboids bases (from top to bottom) are constructed
+by Alan in the following way:</p>
+<div align="justify">
+    <ul>
+        <li>
+	 Length of edge of the first square is one. i.e. <b>a<sub>1</sub></b> = 1.
+        <li>
+        Next, Alan fixes the length of the edge of the second square <b>a<sub>2</sub></b>.
+        <li>
+        Next, Alan calculates the length <b>a<sub>n</sub></b> (n > 2) by <b>2*a<sub>2</sub>*a<sub>n-1</sub> - a<sub>n-2</sub></b>. Do not ask why he chose such a formula; let us just say that he is a really peculiar young fellow.
+        </li>
+    </ul>
+</div>
+<p>For example, if Alan fixes <b>a<sub>2</sub></b> = 2, then <b>a<sub>3</sub></b> = 7. If Alan fixes <b>a<sub>2</sub></b> = 1, then <b>a<sub>n</sub></b> = 1 holds for all n.
+<p>Now Alan wonders if he can calculate the volume of stack of <b>N</b> consecutive building bricks. Help
+Alan and write the program that computes this volume. Since it can be quite large, it is enough to
+compute the answer modulo given natural number <b>m</b>.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. The first line contains the number t (t <= 100000) denoting the number
+of test cases. Then t test cases follow. Each of them is given in a separate line containing three integers
+<b>a<sub>2</sub></b>, <b>N</b>, <b>m</b> (1 <= <b>a<sub>2</sub></b>, <b>m</b> <= 10<sup>9</sup>, 2 <= <b>N</b> <= 10<sup>9</sup>) separated by a single space.</p>
+<h3>Output</h3>
+<p>For each test case compute the volume of stack of <b>N</b> consecutive bricks constructed by Alan
+according to steps 1 to 3 and output its remainder modulo <b>m</b>.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+3
+2 3 100
+1 4 1000
+3 3 1000000000
+
+<b>Output:</b>
+54
+4
+299
+</pre>
+<p><b>Warning: large input/output data, be careful with certain languages</b>
+<p><b>Warning: A naive algorithm won't terminate in even 2 minutes.</b></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-11-15</td></tr>
+<tr><td>Time limit:</td><td>5.449s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Wroc³aw 2008</td></tr>	
+</table>

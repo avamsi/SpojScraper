@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GOPI_SW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18857. Gopi and Sandwich</h1>
+		<h2>Problem code: GOPI_SW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Gopi is fond of sandwiches. Once his friend asks him to give part of his sandwich. But, Gopi wants to give him as little sandwich as possible. So, he devices a method.</p>
+<p>He divides the sandwich into <strong>n</strong>&nbsp;parts, where each part is a unit fraction( fractions of the form <strong>1/p</strong>&nbsp;where p is integer) of the original sandwich. Among all these parts he chooses the smallest part and gives it to his friend. Help Gopi to find the smallest part possible.</p>
+<h3>Input</h3>
+<p>First line contains <strong>t(1&lt;=t&lt;=10<sup>5</sup>) </strong>the number of test cases. The next <strong>t</strong>&nbsp;lines contain one integer per line denoting <strong>n(2&lt;=n&lt;=10<sup>6</sup>) </strong>the number of parts the sandwich can be divided.</p>
+<h3>Output</h3>
+<p>Output one line per test case containing the denominator of the smallest part. Since, the answer can be very large, print <strong>Answer modulo 10<sup>9</sup>&nbsp;+ 7</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>3
+
+<strong>Output:</strong>
+6</pre>
+<pre><strong>Explaination:</strong></pre>
+<pre>The possible ways of dividing the sandwich into 3 parts are:</pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 172px; width: 1px; height: 1px; overflow: hidden;"><span style="white-space: pre;"> </span>1/3, 1/3, 1/3</div>1/3,1/3,1/3</pre>
+<pre>1/6,1/2,1/3</pre>
+<pre>1/4,1/4,1/2</pre>
+<pre>Among these, the second way has the smallest part. Hence the output is <strong>6</strong>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 172px; width: 1px; height: 1px; overflow: hidden;"><span style="white-space: pre;"> </span>1/6, 1/2, 1/3</div></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nitish712">nitish rao</a></td></tr>
+<tr><td>Date:</td><td>2014-03-05</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own Problem</td></tr>	
+</table>

@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19145. Digo Needs Guns</h1>
+		<h2>Problem code: INS14D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">&nbsp;</p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">Digo was given the task to secure a very important room where many famous personalities were residing. So the government provided him with some automated guns which he could fit on the line of intersection between any two walls in the room. The guns can rotate anywhere about the point on the line they are placed, but cannot shoot through walls. Since the country was suffering from financial crisis and automated guns were very expensive, Digo thought of using the minimum number of guns and returning the rest. But Digo did not know the configuration of the room as it was very confidential. He just knew the number of sides the room had. The shape of the room can be any simple polygon. What is the minimum number of guns he must carry with him so it is possible for him to secure every possible polygonic room having n walls.<br /><br /><br />Input:-<br /><br />The first line consists of a single integer T denoting the number of test cases.<br />T lines follow each containing an integer N denoting the number of sides.<br /><br />Output:-<br /><br />For each test case print the required answer.<br /><br />Constraints:-<br /><br />1 &lt;= T &lt;= 1000000<br /><br />3 &lt;= n &lt;= 1000000000<br /><br /><br />Sample Input :<br /><br />1<br />4<br /><br />Sample Output :<br /><br />1</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Note : This question has large I/O files, faster I/O methods are needed to get an AC.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>0.587s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

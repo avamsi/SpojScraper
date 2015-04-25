@@ -1,0 +1,161 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WSCIPHER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>899. Ws Cipher</h1>
+		<h2>Problem code: WSCIPHER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Weird Wally's Wireless Widgets, Inc. manufactures an eclectic assortment
+of small, wireless, network capable devices, ranging from dog collars,
+to pencils, to fishing
+bobbers. All these devices have very small memories.
+Encryption algorithms like Rijndael, the candidate for the Advanced
+Encryption Standard (AES) are demonstrably secure but they don't fit 
+in such a tiny memory. In order to provide some security for 
+transmissions to and from the devices, WWWW uses the following algorithm,
+which you are to implement.
+</P>
+
+<P>
+Encrypting a message requires three integer keys, <I>k<SUB>1</SUB></I>,
+
+<I>k<SUB>2</SUB></I>, and <I>k<SUB>3</SUB></I>. The letters [a-i] form
+one group, [j-r] a second group, and everything else ([s-z] and underscore) the
+third group. Within each group the letters are rotated <I>left</I> by
+<I>k<SUB>i</SUB></I> positions in the message.
+Each group is rotated independently
+of the other two.  Decrypting the message means doing
+a <I>right</I> rotation 
+by <I>k<SUB>i</SUB></I> positions within each group.
+
+</P>
+
+<P>
+Consider 
+the message <TT>the_quick_brown_fox</TT> encrypted with 
+<I>k<SUB>i</SUB></I> values of 2, 3 and 1. The
+encrypted string is <TT>_icuo_bfnwhoq_kxert</TT>. 
+The figure below shows the decrypting right rotations for one
+character in each of the three character groups.
+</P>
+<center><img src="https://www.spoj.pl/content/wanderley:wscipher.png"></center>
+<P>
+Looking at all the letters in the group [a-i] we see
+{<tt>i</tt>,<tt>c</tt>,<tt>b</tt>,<tt>f</tt>,<tt>h</tt>,<tt>e</tt>} 
+appear at positions {2,3,7,8,11,17} within the encrypted message.
+After a right rotation of <I>k<SUB>1</SUB></I>=2, these positions contain the
+letters {<tt>h</tt>,<tt>e</tt>,<tt>i</tt>,<tt>c</tt>,<tt>b</tt>,<tt>f</tt>}.
+The table below shows the intermediate strings that come from doing
+all the rotations in the first group, then all rotations in the second group,
+then all the rotations in the third group. Rotating letters in one group will
+not change any letters in any of the other groups. 
+
+</P>
+<TABLE width="100%">
+ <TR>
+   <TH></TH>
+   <TH>[a-i], <I>k<SUB>1</SUB></I>= 2</TH>
+   <TH>[j-r], <I>k<SUB>2</SUB></I>= 3</TH>
+
+   <TH>[s-z] and _, <I>k<SUB>3</SUB></I>= 1</TH>
+ </TR>
+
+ <TR>
+   <TD>Encrypted:</TD>
+   <TD><TT>_icuo_bfnwhoq_kxert</TT></TD>
+
+   <TD><TT>_heuo_icnwboq_kxfrt</TT></TD>
+   <TD><TT>_heuq_ickwbro_nxfot</TT></TD>
+</TR>
+<TR>
+   <TD>Decrypted:</TD>
+   <TD><TT>_heuo_icnwboq_kxfrt</TT></TD>
+   <TD><TT>_heuq_ickwbro_nxfot</TT></TD>
+
+   <TD><TT>the_quick_brown_fox</TT></TD>
+</TR>
+<TR>
+   <TD>Changes:</TD>
+   <TD><PRE><TT> ^^   ^^  ^     ^  </TT></PRE></TD>
+   <TD><PRE><TT>    ^   ^  ^^ ^  ^  </TT></PRE></TD>
+   <TD><PRE><TT>^  ^ ^   ^   ^ ^  ^  </TT></PRE></TD>
+
+</TR>
+</TABLE>
+
+<P>
+All input strings contain only lowercase letters and underscores(_).
+Each string
+will be at most 80 characters long. The <I>k<SUB>i</SUB></I> are all positive 
+integers in the range 1-100.
+</P>
+
+<P>
+Input consists of information for one or more encrypted messages.
+Each problem begins with
+one line containing <I>k<SUB>1</SUB></I>, <I>k<SUB>2</SUB></I>, and
+
+<I>k<SUB>3</SUB></I>
+followed by a line
+containing the encrypted message.
+The end of the input is signalled by a line with all key values of 0.
+</P>
+
+<P>For each encrypted message, the output is a single line containing
+the decrypted string.
+</P>
+
+<PRE>
+<b>Input:</b>
+2 3 1
+_icuo_bfnwhoq_kxert
+1 1 1
+bcalmkyzx
+3 7 4
+wcb_mxfep_dorul_eov_qtkrhe_ozany_dgtoh_u_eji
+2 4 3
+cjvdksaltbmu
+0 0 0
+</PRE>
+
+<PRE>
+<b>Output:</b>
+the_quick_brown_fox
+abcklmxyz
+the_quick_brown_fox_jumped_over_the_lazy_dog
+ajsbktcludmv
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2006-06-09</td></tr>
+<tr><td>Time limit:</td><td>0.194s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Mid Central Regionals 2001</td></tr>	
+</table>

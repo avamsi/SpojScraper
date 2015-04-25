@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TAILS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8594. Tails all the way </h1>
+		<h2>Problem code: TAILS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">John and James planned to play a game with coins. John has 20 coins and he places it on the table in a random manner(i.e either with heads(1) or tails(0) facing up). John asked james to convert all heads into tails in minimum number of flips with the condition that if a coin is flipped the coins present to the right and left of the chosen coin should also be flipped.</p>
+<h3>Input</h3>
+<p>A single line with 20 space-separated integers</p>
+<h3>Output</h3>
+<p style="text-align: justify;">The minimum number of coin flips necessary to convert all heads into tails (i.e., to 0). For the inputs given, it will always be possible to find some combination of flips that will manipulate the coins to 20 tails.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />0 0 1 1 1 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0<br /><br /><strong>Output:</strong>
+3<br /><br /><strong>Hint </strong><br />Explanation of the sample: <br />&nbsp;<br />Flip coins 4, 9, and 11 to make them all tails: <br />0 0 1 1 1 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 [initial state] <br />0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 [after flipping coin 4] <br />0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 [after flipping coin 9] <br />0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 [after flipping coin 11]</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aswinkumargopi">Infinity</a></td></tr>
+<tr><td>Date:</td><td>2011-03-21</td></tr>
+<tr><td>Time limit:</td><td>0.138s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC AWK BF C C# C++ 4.3.2 C++ 4.9 C++14 C99 strict COB GROOVY HASK JAVA JS2 JS NODEJS PAS fpc PAS gpc PERL PERL 6 PHP PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 RUBY SCALA SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QUEST5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>661. Nail Them</h1>
+		<h2>Problem code: QUEST5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+To get to the treasure, <b>Jones</b> must complete one more task. He comes across a table, where there are a number of wooden planks lying along the length of the table. He notices that the width of the table is exactly equal to the width of every plank on it. The planks are so heavy that they cannot be manually moved in any way. Some of these wooden planks are overlapping. <b>Jones</b> has a hammer and the Gods grant him infinite nails. The planks have to be joined to the table with nails such that every plank is connected to the table through at least one nail.  The nails are of sufficient length, and have to be hammered vertically into the table. One or more planks can be joined to the table through a single nail provided they have a common overlap. Find out the minimum number of nails he needs to nail all planks to the table.
+</p>
+
+<p align="center"><center>
+<IMG src="/content/adrian:quest5.jpg" WIDTH="500" BORDER="0" ALT="Planks"></center>
+</p>
+
+<h3>Input</h3>
+
+<ul>
+	<li> The first line of the input is a positive integer <B>t <= 20</B>, denoting the number of tables.
+	<li> The descriptions of the table follow one after the other.
+
+	<li> <B>Table description:</B>
+	<ul>
+	
+		<li> The first line of the description of the <B>k<sup>th</sup></B> table contains a positive integer <B>n (n <= 10010)</B>, the number of planks on it. 
+		<li> This is followed by <B>n</B> lines containing the description of the planks.
+		<li> The description of each plank is a pair of integers <B>a</B> and <B>b</B> <B>(0 <= a <= b <= 10000010)</B>, denoting the distance of the left end and right end of the plank from the left end of the table.
+	</ul>
+</ul>
+</p>
+
+<h3>Output</h3>
+<p>The output must contain <B>t</B> lines , the <B>k<sup>th</sup></B> line corresponding to the <B>k<sup>th</sup></B> table.
+The output on the <B>k<sup>th</sup></B> line must be an integer <B>i<sub>k</sub></B>, the minimum number of nails required.
+</P>
+
+<h3>Example</h3>
+<tt>
+<P align="left"><B>Input:</B>
+<br>2
+<br>3
+<br>1 5
+<br>3 5
+<br>2 4
+<br>2
+<br>1 4 
+<br>4 5
+</p>
+
+<P align="left">
+<B>Output:</B>
+<br>1
+<br>1
+</p>
+</tt>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simba">Kashyap KBR</a></td></tr>
+<tr><td>Date:</td><td>2005-12-08</td></tr>
+<tr><td>Time limit:</td><td>0.465s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

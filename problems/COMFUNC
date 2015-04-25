@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COMFUNC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7783. Commuting Functions</h1>
+		<h2>Problem code: COMFUNC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Two functions f and g (f, g: X &rarr; X) are commuting if and only if f(g(x)) = g(f(x)) for each x in X.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">For example, functions f(x) = x + 1 and g(x) = x &minus; 2 are commuting, whereas functions f(x) = x + 1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">and g(x) = 2x are not commuting.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Each function h (h: N_n &rarr; N_n, where N_n = 1, 2, ..., n and n is positive integer) can be represented as a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">value list &mdash; a list in which the i-th element is equal to h(i). For example, a function h(x) = ceil(x/2) from</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">N_5 to N_5 has the value list [1, 1, 2, 2, 3].</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The value lists are ordered lexicographically: list [a1 ... an] is smaller than list [b1 ... bn] if and only if</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">there exists such an index k that a_k &lt; b_k, and a_l = b_l for any index l &lt; k.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The function f (f: X &rarr; X) is bijective if for every y in X, there is exactly one x in X such that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">f(x) = y.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Given a bijective function f (f: N_n &rarr; N_n, n is positive integer), find the function g that is commuting</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">with f and has the lexicographically smallest possible value list.</div>
+<p>&nbsp;</p>
+<p>Two functions f and g (f, g: X &rarr; X) are commuting if and only if f(g(x)) = g(f(x)) for each x in X.&nbsp;For example, functions f(x) = x + 1 and g(x) = x &minus; 2 are commuting, whereas functions f(x) = x + 1&nbsp;and g(x) = 2x are not commuting.</p>
+<p>&nbsp;</p>
+<p>Each function h (h: N<sub>n</sub> &rarr; N<sub>n</sub>, where N<sub>n</sub> = {1, 2, ..., n} and n is positive integer) can be represented as a&nbsp;value list &mdash; a list in which the i-th element is equal to h(i). For example, a function h(x) = ceil(x/2) from&nbsp;N<sub>5</sub> to N<sub>5</sub> has the value list [1, 1, 2, 2, 3].</p>
+<p>&nbsp;</p>
+<p>The value lists are ordered lexicographically: list [a<sub>1</sub> ... a<sub>n</sub>] is smaller than list [b<sub>1</sub> ... b<sub>n</sub>] if and only if&nbsp;there exists such an index k that a<sub>k</sub> &lt; b<sub>k</sub>, and a<sub>l</sub> = b<sub>l</sub> for any index l &lt; k.</p>
+<p>&nbsp;</p>
+<p>The function f (f: X &rarr; X) is bijective if for every y in X, there is exactly one x in X such that&nbsp;f(x) = y.</p>
+<p>&nbsp;</p>
+<p>Given a bijective function f (f: N<sub>n</sub> &rarr; N<sub>n</sub>, n is positive integer), find the function g that is commuting&nbsp;with f and has the lexicographically smallest possible value list.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line of the input file contains the number of test cases. Each test case is described by a line containing a single integer number n &mdash; the number of the elements in the value list of a bijective function f (1 &le; n &le; 200000), followed by another line which contains the value list of the function f.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing n integer numbers &mdash; the value list of function g that commutes with the function f and has the lexicographically smallest value list.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+10
+1 2 3 4 5 6 7 8 9 10
+10
+2 3 4 5 6 7 8 1 9 10
+
+<strong>Output:</strong>
+1 1 1 1 1 1 1 1 1 1
+1 2 3 4 5 6 7 8 9 9<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2010-11-08</td></tr>
+<tr><td>Time limit:</td><td>0.307s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2010, NEERC, Northern Subregional Contest</td></tr>	
+</table>

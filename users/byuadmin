@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/byuadmin"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/COLONY" target="_blank">16554. Linearian Colony</a></td><td><a href="http://www.spoj.com/problems/COLONY"target="_blank">COLONY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PEGS" target="_blank">16556. Triangle</a></td><td><a href="http://www.spoj.com/problems/PEGS"target="_blank">PEGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FORMAT" target="_blank">16557. HTML Formatting</a></td><td><a href="http://www.spoj.com/problems/FORMAT"target="_blank">FORMAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FONTSIZE" target="_blank">18530. Font Size</a></td><td><a href="http://www.spoj.com/problems/FONTSIZE"target="_blank">FONTSIZE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRLRIDER" target="_blank">18531. Barrelrider</a></td><td><a href="http://www.spoj.com/problems/BRLRIDER"target="_blank">BRLRIDER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREEORD" target="_blank">18532. Tree _order</a></td><td><a href="http://www.spoj.com/problems/TREEORD"target="_blank">TREEORD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LAWRENCE" target="_blank">18637. Lawrence of Arabia</a></td><td><a href="http://www.spoj.com/problems/LAWRENCE"target="_blank">LAWRENCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYU15W_2" target="_blank">23429. Grid Arithmetic</a></td><td><a href="http://www.spoj.com/problems/BYU15W_2"target="_blank">BYU15W_2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYU15W_4" target="_blank">23435. Game Calculator</a></td><td><a href="http://www.spoj.com/problems/BYU15W_4"target="_blank">BYU15W_4</a><br>
+</td></tr>

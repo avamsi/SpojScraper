@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/hnue"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SPHIWAY" target="_blank">5115. Two "Ways"</a></td><td><a href="http://www.spoj.com/problems/SPHIWAY"target="_blank">SPHIWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GERGOVIA" target="_blank">5117. Wine trading in Gergovia</a></td><td><a href="http://www.spoj.com/problems/GERGOVIA"target="_blank">GERGOVIA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XOINC" target="_blank">5271. A Coin Game</a></td><td><a href="http://www.spoj.com/problems/XOINC"target="_blank">XOINC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPFIBO" target="_blank">7891. Fibonacci Sequence</a></td><td><a href="http://www.spoj.com/problems/SPFIBO"target="_blank">SPFIBO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPQUEUE" target="_blank">8096. Queue</a></td><td><a href="http://www.spoj.com/problems/SPQUEUE"target="_blank">SPQUEUE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADJDUCKS" target="_blank">21193. Adjusting Ducks</a></td><td><a href="http://www.spoj.com/problems/ADJDUCKS"target="_blank">ADJDUCKS</a><br>
+</td></tr>

@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/eleusive"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DICTSUB" target="_blank">3106. Dictionary Subsequences</a></td><td><a href="http://www.spoj.com/problems/DICTSUB"target="_blank">DICTSUB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ODDDIV" target="_blank">3107. Odd Numbers of Divisors</a></td><td><a href="http://www.spoj.com/problems/ODDDIV"target="_blank">ODDDIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAPHGAM" target="_blank">3108. Charlesbert and Merangelou</a></td><td><a href="http://www.spoj.com/problems/GRAPHGAM"target="_blank">GRAPHGAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRLCP" target="_blank">3109. Longest Common Prefix</a></td><td><a href="http://www.spoj.com/problems/STRLCP"target="_blank">STRLCP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALNUM" target="_blank">3110. Palindromic Number</a></td><td><a href="http://www.spoj.com/problems/PALNUM"target="_blank">PALNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STABARDS" target="_blank">3111. Stabards</a></td><td><a href="http://www.spoj.com/problems/STABARDS"target="_blank">STABARDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STSTRING" target="_blank">3112. Strings</a></td><td><a href="http://www.spoj.com/problems/STSTRING"target="_blank">STSTRING</a><br>
+</td></tr>

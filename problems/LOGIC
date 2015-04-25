@@ -1,0 +1,138 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LOGIC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>406. Logic</h1>
+		<h2>Problem code: LOGIC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider a  10x10  grid. Cells in this grid can contain one of
+five logic operations (AND, OR, NOT,
+Input, Output). These can be joined together to form a logic circuit.
+Given a description of a circuit
+and a set of boolean values, build the logic circuit and execute the input
+stream against it.
+<P>
+<h3>Input</h3>
+<p>The first line of the input contains a single integer <I>n</I>, which specifies the number of circuits to be
+processed. There will then be <I>n</I> groups of circuit descriptions and test values.
+<P>
+<P>
+A circuit is made up of a number of operations. Each line describing an operation begins with three
+characters: the co-ordinates for a cell, 0-9 on the <I>X</I>-axis then 0-9 on the <I>Y</I>-axis, followed by a single
+character to represent the operation of that cell (`<TT>&</TT>' for AND, `<TT>|</TT>' for OR,
+`<TT>!</TT>' for NOT, `<TT>i</TT>' for Input and `<TT>o</TT>'
+for Output). Optionally following each triple is a set of co-ordinate
+pairs which represent the <I>x</I> and <I>y</I>
+
+co-ordinates of cells that take the output of this cells operation as an input for theirs. This (possibly
+empty) output list is terminated by `<TT>..</TT>'. The list of operations is terminated by a line containing the
+word `<TT>end</TT>'.
+</P>
+<P>
+Next, for each circuit, comes the set of test values. The first line contains
+an integer <I>t</I> which gives the number of test cases your program must run. Next, there are <I>t</I> lines, each line containing a
+sequence of `<TT>0</TT>' and `<TT>1</TT>' characters symbolising the input values for one test case. The number of inputs will always correspond to the number of inputs defined by the circuit description. The input
+values are to be applied to the inputs in the order in which the input
+operations were defined in the circuit description.
+</P>
+<P>
+The next circuit description, if any, will then follow.
+<P>
+<h3>Output</h3>
+<p>For each circuit, your program should output one line for each test case given in the input. The line
+should contain one `<TT>0</TT>' or `<TT>1</TT>' character for each output defined by the circuit description in the order in
+which the outputs were defined.
+<P>
+<P>
+Your program should output a blank line after each set of test cases.
+<P>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+1
+00i 11 13 ..
+02i 11 13 ..
+11& 21 ..
+21o ..
+13| 23 ..
+23o ..
+end
+4
+00
+01
+10
+11
+
+<b>Output:</b>
+
+00
+01
+01
+11
+</pre>
+<p>
+<B>Notes:</B>
+<UL><LI> i, o and ! operations will always have exactly one input.<LI> & and <TT>|</TT> operations will always have exactly two inputs.<LI> Even if an operation can feed others, it does not have to.<LI> No recursive circuits.<LI> o can also be an input for another gate
+
+</UL>
+<P>
+<P>
+<P>
+<B>Hint:</B>
+Sample input specifies a circuit consiting of an `AND' and an `OR' operation
+in parallel both fed from the same two inputs:
+<P>
+<PRE>               +---------\
+3              |          |OR #----------OUT(2)
+               |     +---/
+               |     |
+2     IN(2)----+     |
+               |     |
+               +---------\
+1                    |    |AND#----------OUT(1)
+                     +---/
+                     |
+0      IN(1)---------+
+
+         0                 1              2</PRE>
+<P>
+In grid terms this is two inputs at 0,0 and 1,0. The first input feeds the <TT>AND</TT> operation at 1,1 and the
+
+<TT>OR</TT> operation at 1,3. The second input operation feeds the second input for the same <TT>AND</TT> and <TT>OR</TT>
+operations. The <TT>AND</TT> operation then feeds an output operation at 2,1. The <TT>OR</TT> operation also feeds an output operation, this one at 2,3.
+<P>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.897s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Northwestern European Regional Contest 1993</td></tr>	
+</table>

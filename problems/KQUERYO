@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KQUERYO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23776. K-Query Online</h1>
+		<h2>Problem code: KQUERYO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Given a sequence of n numbers a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">1</span>, a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">2</span>, ..., a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">n</span>&nbsp;and a number of k- queries. A k-query is a triple (i, j, k) (1 &le; i &le; j &le; n). For each k-query (i, j, k), you have to return the number of elements greater than k in the subsequence a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">i</span>, a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">i+1</span>, ..., a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">j</span>.</p>
+<h3>Input</h3>
+<ul style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+<li style="box-sizing: border-box;">Line 1: n (1 &le; n &le; 30000).</li>
+<li style="box-sizing: border-box;">Line 2: n numbers a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">1</span>, a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">2</span>, ..., a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">n</span>&nbsp;(1 &le; a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">i</span>&nbsp;&le; 10<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; top: -0.5em;">9</span>).</li>
+<li style="box-sizing: border-box;">Line 3: q (1 &le; q &le; 200000), the number of k- queries.</li>
+<li style="box-sizing: border-box;">In the next q lines, each line contains 3 numbers a, b, c representing a k-query. You should do the following:</li>
+<li style="box-sizing: border-box;">i = a xor last_ans</li>
+<li style="box-sizing: border-box;">j = b xor last_ans</li>
+<li style="box-sizing: border-box;">k = c xor last_ans</li>
+<li style="box-sizing: border-box;">After that <span style="color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">1 &le; i &le; j &le; n, 1 &le; k &le; 10</span><span style="color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; top: -0.5em;">9</span>&nbsp; holds.<span style="color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; top: -0.5em;">&nbsp;</span></li>
+</ul>
+<p>Where last_ans = the answer to the last query (for the first query it's 0).</p>
+<h3>Output</h3>
+<ul style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: #555555; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+<li style="box-sizing: border-box;">For each k-query (i, j, k), print the number of elements greater than k in the subsequence a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">i</span>, a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">i+1</span>, ..., a<span style="box-sizing: border-box; position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; bottom: -0.25em;">j</span>&nbsp;in a single line. </li>
+</ul>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 298px; width: 1px; height: 1px; overflow: hidden;">6</div>6
+8 9 3 5 1 9
+5
+2 3 5
+3 3 7
+0 0 11
+0 0 2
+3 7 4
+</pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 298px; width: 1px; height: 1px; overflow: hidden;">3 3 26 8 9 3 5 1 9 5 2 3 5 3 3 7 0 0 11 0 0 2 3 7 4</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 298px; width: 1px; height: 1px; overflow: hidden;">0 5</div>
+<strong>Output:</strong>
+<pre style="box-sizing: border-box; overflow: auto; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 11px; padding: 10px; margin: 20px 0px; line-height: 1.42857143; color: #333333; word-break: break-all; word-wrap: break-word; border-radius: 3px; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 50%; background-repeat: initial; border: 1px 1px 1px 5px solid #eeeeee #eeeeee #eeeeee #5bc0de;"><span style="font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; color: #333333;"><span style="font-size: 11px; line-height: 15.7142858505249px;">1
+1
+0
+0
+2</span></span></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/amirmd76">amirmd76</a></td></tr>
+<tr><td>Date:</td><td>2015-04-17</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

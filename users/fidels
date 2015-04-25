@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/fidels"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/COMFUNC" target="_blank">7783. Commuting Functions</a></td><td><a href="http://www.spoj.com/problems/COMFUNC"target="_blank">COMFUNC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEFKIN" target="_blank">7804. Defense of a Kingdom</a></td><td><a href="http://www.spoj.com/problems/DEFKIN"target="_blank">DEFKIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KITROB" target="_blank">7805. Kitchen Robot</a></td><td><a href="http://www.spoj.com/problems/KITROB"target="_blank">KITROB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUREAU" target="_blank">8184. Bureaucracy</a></td><td><a href="http://www.spoj.com/problems/BUREAU"target="_blank">BUREAU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCSCR" target="_blank">8189. Circles On A Screen</a></td><td><a href="http://www.spoj.com/problems/CIRCSCR"target="_blank">CIRCSCR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012A" target="_blank">12364. Awari 2</a></td><td><a href="http://www.spoj.com/problems/TAP2012A"target="_blank">TAP2012A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012B" target="_blank">12365. Ball of Reconciliation</a></td><td><a href="http://www.spoj.com/problems/TAP2012B"target="_blank">TAP2012B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012C" target="_blank">12366. Cantor</a></td><td><a href="http://www.spoj.com/problems/TAP2012C"target="_blank">TAP2012C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012D" target="_blank">12367. Designing T-Shirts</a></td><td><a href="http://www.spoj.com/problems/TAP2012D"target="_blank">TAP2012D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012E" target="_blank">12368. Emma s Domino</a></td><td><a href="http://www.spoj.com/problems/TAP2012E"target="_blank">TAP2012E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012F" target="_blank">12369. Fixture</a></td><td><a href="http://www.spoj.com/problems/TAP2012F"target="_blank">TAP2012F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012G" target="_blank">12370. Generating Alien DNA</a></td><td><a href="http://www.spoj.com/problems/TAP2012G"target="_blank">TAP2012G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2012H" target="_blank">12371. High Mountains</a></td><td><a href="http://www.spoj.com/problems/TAP2012H"target="_blank">TAP2012H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013A" target="_blank">16275. On the side of the road</a></td><td><a href="http://www.spoj.com/problems/TAP2013A"target="_blank">TAP2013A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013C" target="_blank">16277. Little Red-Cap</a></td><td><a href="http://www.spoj.com/problems/TAP2013C"target="_blank">TAP2013C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013D" target="_blank">16278. Watching the game</a></td><td><a href="http://www.spoj.com/problems/TAP2013D"target="_blank">TAP2013D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013E" target="_blank">16279. Escaping from escaping</a></td><td><a href="http://www.spoj.com/problems/TAP2013E"target="_blank">TAP2013E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013F" target="_blank">16280. Flowers of Babylon</a></td><td><a href="http://www.spoj.com/problems/TAP2013F"target="_blank">TAP2013F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013G" target="_blank">16281. War</a></td><td><a href="http://www.spoj.com/problems/TAP2013G"target="_blank">TAP2013G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013H" target="_blank">16282. Horace and his primes</a></td><td><a href="http://www.spoj.com/problems/TAP2013H"target="_blank">TAP2013H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013I" target="_blank">16283. Treasure Island</a></td><td><a href="http://www.spoj.com/problems/TAP2013I"target="_blank">TAP2013I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2013J" target="_blank">16284. Game of stones</a></td><td><a href="http://www.spoj.com/problems/TAP2013J"target="_blank">TAP2013J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOSTONES" target="_blank">16307. Game of stones II</a></td><td><a href="http://www.spoj.com/problems/GOSTONES"target="_blank">GOSTONES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATPROD" target="_blank">19684. Symmetric matrix</a></td><td><a href="http://www.spoj.com/problems/MATPROD"target="_blank">MATPROD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATPROD2" target="_blank">19687. Symmetric matrix 2</a></td><td><a href="http://www.spoj.com/problems/MATPROD2"target="_blank">MATPROD2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014B" target="_blank">21169. Balanced base-3</a></td><td><a href="http://www.spoj.com/problems/TAP2014B"target="_blank">TAP2014B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014C" target="_blank">21170. Constellation of the parallelogram</a></td><td><a href="http://www.spoj.com/problems/TAP2014C"target="_blank">TAP2014C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014D" target="_blank">21171. Fractal domino</a></td><td><a href="http://www.spoj.com/problems/TAP2014D"target="_blank">TAP2014D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014E" target="_blank">21172. Erdos et al</a></td><td><a href="http://www.spoj.com/problems/TAP2014E"target="_blank">TAP2014E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014F" target="_blank">21173. String fertilization</a></td><td><a href="http://www.spoj.com/problems/TAP2014F"target="_blank">TAP2014F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014G" target="_blank">21174. Gallantry</a></td><td><a href="http://www.spoj.com/problems/TAP2014G"target="_blank">TAP2014G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014H" target="_blank">21175. Rush hour</a></td><td><a href="http://www.spoj.com/problems/TAP2014H"target="_blank">TAP2014H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014I" target="_blank">21176. Stapled intervals</a></td><td><a href="http://www.spoj.com/problems/TAP2014I"target="_blank">TAP2014I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014J" target="_blank">21177. Distracted judges</a></td><td><a href="http://www.spoj.com/problems/TAP2014J"target="_blank">TAP2014J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAP2014K" target="_blank">21178. Encryption kit</a></td><td><a href="http://www.spoj.com/problems/TAP2014K"target="_blank">TAP2014K</a><br>
+</td></tr>

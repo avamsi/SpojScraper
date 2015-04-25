@@ -1,0 +1,120 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DELTACA2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14700. Delta catheti II (Hard)</h1>
+		<h2>Problem code: DELTACA2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>(3, 4, 5)</strong> is a famous Pythagorean triple,
+it gives a quick answer to the question:</br>
+
+For a given integer <strong><em>d</em></strong>, is there a Pythagorean triple
+ <strong>(<em>a, b, c</em>)</strong> such that <strong><em>b - a = d</em></strong>?</p>
+
+
+<p>
+A solution is <strong>(3<em>d</em>, 4<em>d</em>, 5<em>d</em>)</strong>,
+ and in fact one can easily prove that the set of solutions is infinite, and
+that there is an obvious total order on those solutions.</br>
+Given <strong><em>n</em></strong>, you'll have to find the
+ <strong><em>n</em></strong>th term of the sequence of solutions.
+</p>
+
+<p>Geometrically, it is the study of right triangles for which the difference of the
+catheti are equal to <strong><em>d</em></strong>.</p>
+
+<h3>Input</h3>
+
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</p>
+<p><strong>2<em>T</em></strong> lines fallow. Each case is on two lines.</br>
+The first line of the case contains
+ three integers <strong><em>n, d, m</em></strong>.</br>
+The second line contains an integer <strong><em>L</em></strong> and
+ <strong>2<em>L</em></strong> other integers (p, e), which give the prime factorization of <strong><em>d</em></strong> in standard format (d = product p^e).</p>
+
+<h3>Output</h3>
+<p>For each test case, compute the <strong><em>n</em></strong>th term amongst
+the solutions <strong>(<em>a, b, c</em>)</strong> for the problem :</br>
+<strong><em>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></em></strong> with <strong><em>b - a = d</em></strong>
+and <strong><em>0 < a < b < c </em></strong>.</p>
+<p>As the answer could not fit in a 64-bit container, simply output your answer modulo <strong><em>m</em></strong>.</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+1 1 235813
+0
+3 21 1000
+2 3 1 7 1
+9 119 11
+2 7 1 17 1
+</pre>
+<pre><strong>Output:</strong>
+3 4 5
+63 84 105
+5 3 1
+</pre>
+
+<h3>Explanations</h3>
+<p>For the first case, the first solution is <strong>(3, 4, 5)</strong>, as 4 - 3 = 1.</p>
+<p>For the second case, the firsts solutions are:</br>
+<strong>(15, 36, 39), (24, 45, 51), (63, 84, 105), (144, 165, 219), (195, 216, 291), (420, 441, 609), ...</strong></br>
+The third one is <strong>(63, 84, 105)</strong>.</p>
+<p>For the third case, the first solutions are:</br>
+<strong>(24, 143, 145), (49, 168, 175), (57, 176, 185), (85, 204, 221), (136, 255, 289),
+ (180, 299, 349), (196, 315, 371), (261, 380, 461), (357, 476, 595), (481, 600, 769),
+ (616, 735, 959), ... </strong></br>
+The 9th solution is <strong>(357, 476, 595)</strong>, reduced modulo 11, we get
+<strong>(5, 3, 1)</strong>.
+
+</p>
+<h3>Constraints</h3>
+<pre>
+0 < T < 10^4
+0 < n < 10^18
+0 < d < 10^14
+1 < m < 10^9
+</pre>
+<p><strong><em>d</em></strong> is the product of two integers lower than 10^7.</br>
+<strong><em>n, d<sub>1</sub>, d<sub>2</sub>, m</em></strong> : Uniform randomly chosen in their range.</br>
+Those constraints are set to allow C-like users to work only with 64bit containers.</p>
+<p>For your information, my 3kB-python3 code get AC in 2.80s with 12MB of memory print.</br>
+It should be much faster with a compiled language.</br>
+<strong>Warning</strong> : It's my hardest problem.
+Have fun ;-)</p>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-04-21</td></tr>
+<tr><td>Time limit:</td><td>10s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

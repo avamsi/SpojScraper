@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MINNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16034. Minimum Number</h1>
+		<h2>Problem code: MINNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<pre><strong><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">  </span></span><span style="text-decoration: underline;"><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">Problem Statement:</span></span></span></strong><span style="white-space: normal;"><pre><span style="white-space: normal;"><pre><span style="white-space: normal;"><p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: small;">Prana has given a number. Now she wonder what will be the maximum number of digits that the sum of these digits is equals to the given number. After thinking sometimes she laughed at herself, cause the number is infinite.</span></span></p><span style="font-size: small;">
+</span><p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: small;">Now your task is to find the minimum number of digits that the sum of these digits is equals to the given number.</span></span></p><p><strong><span style="text-decoration: underline;"><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">Input:</span></span></span></strong></p><p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: small;">The input contain a single integer <strong>N ( 0 </strong><strong>&le;&nbsp;&thinsp;N &le;</strong><strong>&thinsp;10<sup>31</sup> )</strong>. The input is terminated by a line containing <strong>-1</strong>.</span></span></p><p><strong><span style="text-decoration: underline;"><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">Output:</span></span></span></strong></p><p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: small;">Output a single line the number of digits that the sum of the digits is equals to the given number.&nbsp;See the sample input/output for exact formatting.</span></span></p><p><strong><span style="text-decoration: underline;"><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">Sample Input/Output:</span></span></span></strong></p><table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td width="324" valign="top"><p style="text-align: center;"><strong><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;">Sample Input</span></span></strong></p></td><td width="240" valign="top"><p style="text-align: center;"><strong><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;">Sample Output</span></span></strong></p></td></tr><tr><td width="324" valign="top"><p><span style="font-family: 'comic sans ms', sans-serif; font-size: x-small;"><strong>&nbsp;11</strong></span></p><p><span style="font-family: 'comic sans ms', sans-serif; font-size: x-small;"><strong>&nbsp;1</strong></span></p><p><span style="font-family: 'comic sans ms', sans-serif; font-size: x-small;"><strong>&nbsp;-1</strong></span></p></td><td width="240" valign="top"><p><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;2</span></span></strong></p><p><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;1</span></span></strong></p></td></tr></tbody></table><pre><span style="white-space: normal;"><p><strong><br /></strong></p><p><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;"><strong><span style="text-decoration: underline;">Explanation </span></strong>:</span></span></p>
+<p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">For the first test case given number is 11. Some possible way to make 11 is</span></span></p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">
+</span></span><p><span style="font-size: small;">7+4=11 which costs 2 digits.</span></p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">
+</span></span><p><span style="font-size: small;">2+3+6=11 which costs 3 digits.</span></p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">
+</span></span><p><span style="font-size: small;">1+2+3+5=11 which costs 4 digits.</span></p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">
+</span></span><p><span style="font-size: small;">1+2+3+0+5=11 which costs 5 digits.</span></p><p><span style="font-size: small;"><br /></span></p><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: x-small;">
+</span></span><p><span style="font-size: small;">So, here first example costs the minimum number of digits which is 2.</span></p><p><span style="font-size: small;">Note: There are no extra new lines between different numbers.</span></p><p><strong>____________________________________________________________________________________________<br /><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;"><span style="text-decoration: underline;">Problem setter</span>: Abu Sufian, Dept. of CSE</span></span></strong></p><p><strong><em><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;">Bangladesh University of Business and Technology (BUBT)</span></span></em></strong></p></span></pre>
+</span></pre>
+</span></pre>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shipu_a">Shipu Ahamed</a></td></tr>
+<tr><td>Date:</td><td>2013-09-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>3100B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 PAS fpc PAS gpc </td></tr>
+	
+</table>

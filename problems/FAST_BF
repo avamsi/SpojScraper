@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FAST_BF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13223. The BrainFast Processing! Classical version</h1>
+		<h2>Problem code: FAST_BF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>Warning</strong>: Only <a title="Wiki BF" href="http://en.wikipedia.org/wiki/Brainfuck" target="_blank">Brainf**k</a> language is allowed.</p>
+<p>After I solve <a title="AMR12D in BF" href="../../../ranks/AMR12D/lang=BF" target="_blank">this problem in 0.00s using BF</a>&nbsp;, I have an idea to set new BF problems, now here I come <img title="Wink" src="../../../gfx/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" border="0" alt="Wink" /></p>
+<p>The task is simple, given a &lt;string&gt;(1&le;"length of string"&le;1000) just check if the string is palindrome or not.</p>
+<p>The string contains character in range ASCII(32)&le;char&le;ASCII(126)</p>
+<h3>Input</h3>
+<p>The first line, there is an integer <strong>T</strong>(1&le;<span style="font-weight: bold;">T</span>&le;1000)&nbsp;denoting number of test cases then you should process only next <strong>T</strong>&nbsp;lines, each line is a &lt;string&gt; terminated by new line character ('\n') ASCII(10)</p>
+<h3>Output</h3>
+<p>For each test case:</p>
+<p>if &lt;string&gt; is palindrome, output: "&lt;string&gt;" is palindrome</p>
+<p>else, output: "&lt;string&gt;" is not palindrome</p>
+<p>remember to put '\n' after each test case</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>11</pre>
+<pre>abba</pre>
+<pre>abba&nbsp;</pre>
+<pre> abba</pre>
+<pre> abba&nbsp;</pre>
+<pre>Tjandra Satria Gunawan</pre>
+<pre>Tjandra Satria Gunawan nawanuG airtaS ardnajT
+</pre>
+<pre>()</pre>
+<pre>((</pre>
+<pre>kasur ini rusak</pre>
+<pre>Kasur ini rusak</pre>
+<pre>x</pre>
+<pre>Don't process this case because T is 11</pre>
+<pre>And also this problem use exact judge so be careful put space and '\n'</pre>
+<pre>Only brainf**k is allowed</pre>
+<pre>and soure limit is 1500 bytes</pre>
+<pre><strong>Output:</strong></pre>
+<pre>"abba" is palindrome</pre>
+<pre>"abba " is not palindrome</pre>
+<pre>" abba" is not palindrome</pre>
+<pre>" abba " is palindrome</pre>
+<pre>"Tjandra Satria Gunawan" is not palindrome</pre>
+<pre>"Tjandra Satria Gunawan nawanuG airtaS ardnajT" is palindrome</pre>
+<pre>"()" is not palindrome</pre>
+<pre>"((" is palindrome</pre>
+<pre>"kasur ini rusak" is palindrome</pre>
+<pre>"Kasur ini rusak" is not palindrome</pre>
+<pre>"x" is palindrome</pre>
+<p>&nbsp;</p>
+<p><span style="color: #339966;"><span style="color: #339966;"><strong><span style="text-decoration: underline;">Time limit ~2x <a title="ScreenShoot" href="http://2.bp.blogspot.com/-x91x0X_0omU/UO68VO8xS-I/AAAAAAAAAPs/tfaKXeN5rrc/s1600/BF+fast.png" target="_blank">My fastest BF code</a></span></strong></span></span></p>
+<p>If you TLE here, you may try <a title="AMR12D" href="../AMR12D/" target="_blank">this problem</a> first.</p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-01-10</td></tr>
+<tr><td>Time limit:</td><td>100s
+</td></tr>
+<tr><td>Source limit:</td><td>1500B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF </td></tr>
+<tr><td>Resource:</td><td><a href="https://www.spoj.com/problems/AMR12D" target="blank">The Mirror of Galadriel</a> Problem plus my own idea ;-)</td></tr>	
+</table>

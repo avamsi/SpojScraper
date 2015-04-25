@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SAMER08F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3410. Feynman</h1>
+		<h2>Problem code: SAMER08F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Richard Phillips Feynman was a well known American physicist and a recipient of the Nobel Prize in Physics. He worked in theoretical physics and also pioneered the field of quantum computing.  He visited South America for ten months, giving lectures and enjoying life in the tropics.  He is also known for his books "Surely You're Joking, Mr.  Feynman!" and "What Do You Care What Other People Think?", which include some of his adventures below the equator.</p>
+<p>His life-long addiction was solving and making puzzles, locks, and cyphers.  Recently, an old farmer in South America, who was a host to the young physicist in 1949, found some papers and notes that is believed to have belonged to Feynman. Among notes about mesons and electromagnetism, there was a napkin where he wrote a simple puzzle: "how many different squares are there in a grid of <em>N</em> &times;<em>N</em> squares?".</p>
+<p>In the same napkin there was a drawing which is reproduced below, showing that, for <em>N</em>=2, the answer is 5. <br /><br /></p>
+<img src="../../../content/disatoba:feynman.gif" border="0" alt="subir imagenes" />
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is composed of a single line, containing only one integer <em>N</em>, representing the number of squares in each side of the grid (1   &le; <em>N</em> &le; 100).</p>
+<p>The end of input is indicated by a line containing only one zero.</p>
+<h3>Output</h3>
+<p>For each test case in the input, your program must print a single line, containing the number of different squares for the corresponding input.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+1
+8
+0
+
+
+<strong>Output:</strong>
+5
+1
+204
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/disatoba">Diego Satoba</a></td></tr>
+<tr><td>Date:</td><td>2008-11-23</td></tr>
+<tr><td>Time limit:</td><td>0.165s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA PAS fpc PAS gpc TECS </td></tr>
+<tr><td>Resource:</td><td>South American Regional Contests 2008</td></tr>	
+</table>

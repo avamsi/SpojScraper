@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNIM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20951. Pebbles</h1>
+		<h2>Problem code: SNIM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">Johny and Margaret are playing "pebbles". Initially there is a certain number of pebbles on a table, grouped in&nbsp;</span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><img src="http://main.edu.pl/en/images/OI16/kam-en-tex.1.png" alt="" /></span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;piles. The piles are next to each other, forming a single row. The arrangement of stones satisfies an additional property that each pile consists of at least as many pebbles as the one to the left (with the obvious exception of the leftmost pile). The players alternately remove any number of pebbles from a single pile of their choice. They have to take care, though, not to make any pile smaller than the one left to it. In other words, the piles have to satisfy the initial property after the move as well. When one of the players cannot make a move (i.e. before his move there are no more pebbles on the table), he loses. Johny always starts, to compensate for Margaret's mastery in this game.</span></span></p>
+<p><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><span style="font-family: arial, helvetica, sans-serif;">In fact Margaret is so good that she always makes the best move, and wins the game whenever she has a chance. Therefore Johny asks your help - he would like to know if he stands a chance of beating Margaret with a particular initial arrangement. Write a programme that determines answers to Johny's inquiries.</span></span></p>
+<h3>Input</h3>
+<p style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><span style="font-family: arial, helvetica, sans-serif;">In the first line of the standard input there is a single integer&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.2.png" alt="" />&nbsp;(<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.3.png" alt="" />) denoting the number of initial pebble arrangements to analyse. The following&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.4.png" alt="" />&nbsp;lines contain descriptions of these arrangements; each one takes exactly two lines.</span></p>
+<p style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><span style="font-family: arial, helvetica, sans-serif;">The first line of each description contains a single integer&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.5.png" alt="" />,&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.6.png" alt="" />&nbsp;- the number of piles. The second line of description holds&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.7.png" alt="" />&nbsp;non-negative integers&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.8.png" alt="" />separated by single spaces and denoting the numbers of pebbles in successive piles, left to right. These numbers satisfy the following inequality&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.9.png" alt="" />. The total number of pebbles in any arrangement does not exceed&nbsp;<img src="http://main.edu.pl/en/images/OI16/kam-en-tex.10.png" alt="" />.</span></p>
+<h3>Output</h3>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">Precisely&nbsp;</span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><img src="http://main.edu.pl/en/images/OI16/kam-en-tex.11.png" alt="" /></span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;lines should be printed out on the standard output. The&nbsp;</span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><img src="http://main.edu.pl/en/images/OI16/kam-en-tex.12.png" alt="" /></span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">-th of these lines (for&nbsp;</span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><img src="http://main.edu.pl/en/images/OI16/kam-en-tex.13.png" alt="" /></span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">) should hold the word&nbsp;</span><tt style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">TAK</tt><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;(</span><em>yes</em><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;in Polish), if Johny can win starting with the&nbsp;</span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><img src="http://main.edu.pl/en/images/OI16/kam-en-tex.14.png" alt="" /></span><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">-th initial arrangement given in the input, or the word&nbsp;</span><tt style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">NIE</tt><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;(</span><em>no</em><span style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;">&nbsp;in Polish), if Johny is bound to lose that game, assuming optimal play of Margaret.</span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><span style="font-family: arial, helvetica, sans-serif;">2
+2
+2 2
+3
+1 2 4</span></pre>
+<strong>Output:</strong>
+<pre style="color: #444444; font-size: 13.142857551574707px; line-height: 18.285715103149414px;"><span style="font-family: arial, helvetica, sans-serif;">NIE
+TAK</span></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2014-09-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Polish Olympiad in Informatics</td></tr>	
+</table>

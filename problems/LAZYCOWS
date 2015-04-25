@@ -1,0 +1,122 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LAZYCOWS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>347. Lazy Cows</h1>
+		<h2>Problem code: LAZYCOWS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/LAZYCOWS/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/LAZYCOWS/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>Farmer John regrets having applied high-grade fertilizer to his
+pastures since the grass now grows so quickly that his cows no
+longer need to move around when they graze. As a result, the cows
+have grown quite large and lazy... and winter is approaching.
+<p>
+Farmer John wants to build a set of barns to provide shelter for
+his immobile cows and believes that he needs to build his barns
+around the cows based on their current locations since they won't
+walk to a barn, no matter how close or comfortable.
+<p>
+The cows' grazing pasture is represented by a 2 x B (1 <= B <=
+15,000,000) array of cells, some of which contain a cow and some
+of which are empty.  N (1 <= N <= 1000) cows occupy the cells in
+this pasture:
+<p>
+<pre>
+-------------------------------------------------------
+|     | cow |     |     |     | cow | cow | cow | cow |
+-------------------------------------------------------
+|     | cow | cow | cow |     |     |     |     |     |
+-------------------------------------------------------
+</pre>
+<p>Ever the frugal agrarian, Farmer John would like to build a set of
+just K (1 <= K <= N) rectangular barns (oriented with walls parallel
+to the pasture's edges) whose total area covers the minimum possible
+number of cells.  Each barn covers a rectangular group of cells in
+their entirety, and no two barns may overlap.  Of course, the barns
+must cover all of the cells containing cows.
+
+<p>By way of example, in the picture above if K=2 then the optimal
+solution contains a 2x3 barn and a 1x4 barn and covers a total of
+10 units of area.
+
+<h3>Input</h3>
+<p>
+The first line of the input contains integer t representing the number of test cases. Then t cases follow. Each case has the following form:
+<ul>
+<li> Line 1: Three space-separated integers, N, K, and B.
+
+<li> Lines 2..N+1: Two space-separated integers in the range (1,1) to
+        (2,B) giving the  coordinates of the cell containing each cow.
+         No cell contains more than one cow.
+</ul>
+<h3>Output</h3>
+<p>For each test case, output the minimum area required by the K barns in order to cover
+all of the cows.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+8 2 9
+1 2
+1 6
+1 7
+1 8
+1 9
+2 2
+2 3
+2 4
+
+<b>Output:</b>
+10
+<p>
+<b>Input details:</b>
+As pictured above.
+<p>
+<b>Output details:</b>
+As discussed above.
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2005-05-03</td></tr>
+<tr><td>Time limit:</td><td>9s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>US Open International 2005 Gold Division</td></tr>	
+</table>

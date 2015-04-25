@@ -1,0 +1,118 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MILAR10"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7763. Ingenious Metro</h1>
+		<h2>Problem code: MILAR10</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<p>   </p>
+</div>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<table style="cursor: default; width: 748px; background-color: #44c23c; font-size: 10px; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;" border="0">
+<tbody>
+<tr>
+<td style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; cursor: text; text-align: center; margin: 8px; border: 1px dashed #bbbbbb;" width="50%"><a href="/SPOJ/problems/MTEMP/en/">English</a></td>
+<td style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; cursor: text; text-align: center; margin: 8px; border: 1px dashed #bbbbbb;" width="50%"><a href="/SPOJ/problems/MTEMP/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<div style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10px;"></p>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><span><span style="font-size: small;">The King of Logonia will inaugurate soon a new and revolutionary metro, based on an invention&nbsp;</span></span><span><span style="font-size: small;">of the Royal Engineers, which allows teletransportation.&nbsp;</span></span></p>
+<p style="text-align: justify;"><span><span style="font-size: small;">The new metro consists of a very long tunnel with a station at each kilometer. There are also T&nbsp;</span></span><span><span style="font-size: small;">teletransporters, which are located at some of the stations. In each station there is a keyboard&nbsp;</span></span><span><span style="font-size: small;">with T keys, where each key corresponds to one teletransporter. The &#64257;gure below illustrates a&nbsp;</span></span><span><span style="font-size: small;">metro system with three teletransporters, located in stations marked A, B and C.</span></span></p>
+<p>&nbsp;</p>
+<p style="text-align: center; color: #000000;"><span><span style="font-size: small;"><img src="http://i52.tinypic.com/a4tyxu.jpg" alt="" width="571" height="84" /></span></span></p>
+<p style="text-align: justify; font-size: 10px; color: #000000;"><span style="font-size: small;">&nbsp;</span></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><span><span style="font-size: small;">The metro works as follows. The user goes in a station (the start station) and presses the key&nbsp;</span></span><span><span style="font-size: small;">corresponding to the teletransporter he wants to use. The user is then teletransported to the&nbsp;</span></span><span><span style="font-size: small;">station which is at the same distance from the teletransporter as the start station, but on the&nbsp;</span></span><span><span style="font-size: small;">opposite side relative to the teletransporter. More precisely, if the location of the start station&nbsp;</span></span><span><span style="font-size: small;">is i and the user presses the key corresponding to the teletransporter located in position j, he&nbsp;</span></span><span><span style="font-size: small;">will be taken to the station located at position 2 &times; j &minus; i. For example, if the user is in station&nbsp;</span></span><span><span style="font-size: small;">6 and wants to go to station &minus;2, he can use the teletransporter C (goes from 6 to 10) and then&nbsp;</span></span><span><span style="font-size: small;">the teletransporter A (goes from 10 to &minus;2).</span></span></p>
+<p style="text-align: justify;"><span><span style="font-size: small;">The King, however, knows that it is possible that there is no sequence of teletransporters that&nbsp;</span></span><span><span style="font-size: small;">will take the user from a given station X to a given station Y . To avoid that the users keep&nbsp;</span></span><span><span style="font-size: small;">trying to go where they cannot go, he wants to make a program available in the Internet to help&nbsp;</span></span><span><span style="font-size: small;">users. The King wants you to write a program which, given the position of each teletransporter,&nbsp;</span></span><span><span style="font-size: small;">answers a series of queries. For each query the start and the destination stations are given, and&nbsp;</span></span><span><span style="font-size: small;">your program must determine if it is possible for the user to go from start to destination.</span></span></p>
+<p>&nbsp;</p>
+<p style="color: #000000;"><span style="font-size: small;">&nbsp;</span></p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">Gene and Gina have a particular kind of farm. Instead of growing animals and vegetables, as</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">it is usually the case in regular farms, they grow strings. A string is a sequence of characters.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">Strings have the particularity that, as they grow, they add characters to the left and/or to the</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">right of themselves, but they never lose characters, nor insert new characters in the middle.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">Gene and Gina have a collection of photos of some strings at di&#64256;erent times during their growth.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">The problem is that the collection is not annotated, so they forgot to which string each photo</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">belongs to. They want to put together a wall to illustrate strings growing procedures, but they</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">need your help to &#64257;nd an appropriate sequence of photos.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">Each photo illustrates a string. The sequence of photos must be such that if si comes imme-</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">diately before si+1 in the sequence, then si+1 is a string that may have grown from si (i.e., si</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">appears as a consecutive substring of si+1). Also, they do not want to use repeated pictures,</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">so all strings in the sequence must be di&#64256;erent.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">Given a set of strings representing all available photos, your job is to calculate the size of the</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 448px; width: 1px; height: 1px; overflow: hidden; color: #000000; font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; border: 1px dashed #bbbbbb;"><span style="font-size: small;">largest sequence they can produce following the guidelines above.</span></div>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: justify;">&nbsp;</p>
+<h1 style="font-size: 2em; text-align: center; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">Input</h1>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><span><span style="font-size: small;">Each test case is given using several lines. The &#64257;rst line contains two integers T and Q indi</span></span><span><span style="font-size: small;">cating respectively the number of teletransporters (1 &le; T &le; 10^5</span></span><span><span style="font-size: small;">) and the number of queries&nbsp;</span></span><span><span style="font-size: small;">(1 &le; Q &le; 10). The second line contains T di&#64256;erent integers ti indicating the position of the&nbsp;</span></span><span><span style="font-size: small;">teletransporters (&minus;10^7&nbsp;</span></span><span><span style="font-size: small;">&le; ti &le; 10^7</span></span><span><span style="font-size: small;">). Each of the Q following lines describes a query and con</span></span><span><span style="font-size: small;">tains two distinct integers S and D indicating the position of the start and destination stations&nbsp;</span></span><span><span style="font-size: small;">(&minus;10^7</span></span><span><span style="font-size: small;">&le; S,D &le; 10^7</span></span><span><span style="font-size: small;">).</span></span></p>
+<p style="text-align: justify;"><span><span style="font-size: small;">The last test case is followed by a line containing two zeros.</span></span></p>
+<p>&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<h1 style="font-size: 2em; text-align: center; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">Output</h1>
+<p style="text-align: justify;"><span style="font-size: 10px;"><span style="font-size: small;">For each test case output a single line containing the answers to the Q queries, in the same&nbsp;</span><span style="font-size: small;">order that the queries were given in the input. For each query you must output an uppercase&nbsp;</span></span><span><span style="font-size: small;">&lsquo;Y&rsquo; if it is possible to reach the destination station from the start station using the metro, or&nbsp;</span></span><span><span style="font-size: small;">an uppercase &lsquo;N&rsquo; otherwise.</span></span></p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<h1 style="font-size: 2em; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;">Sample</h1>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-align: justify; margin: 8px;"><span style="font-size: x-small;"><strong><span style="font-size: small;">input</span></strong><br /></span><span style="font-size: small;">1 1<br />-2<br />-6 2<br />5 2<br />10 20 30 40 50<br />10 15<br />20 40<br />5 3<br />0 5 -3 -8 4<br />-1 499<br />4 237<br />-1 -591<br />0 0</span><span style="font-size: x-small;"><br /><br /></span><strong><span style="font-size: small;">output</span></strong><span style="font-size: x-small;"><br /></span><span style="font-size: small;">Y<br />N Y<br />Y N Y</span></pre>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;"> </p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+<p style="font-size: 10px; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2010-11-05</td></tr>
+<tr><td>Time limit:</td><td>0.140s-0.806s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC2010 &#8211; Latin American Regional</td></tr>	
+</table>

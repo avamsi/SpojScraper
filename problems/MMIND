@@ -1,0 +1,177 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMIND"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12. The Game of Master-Mind</h1>
+		<h2>Problem code: MMIND</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+If you want to buy a&nbsp;new cellular phone, there are many various types to
+choose from. To decide which one is the best for you, you have to consider
+several important things: its size and weight, battery capacity, WAP support,
+colour, price. One of the most important things is also the list of games the
+phone provides. Nokia is one of the most successful phone makers because of
+its famous Snake and Snake&nbsp;II. ACM wants to make and sell its own phone and
+they need to program several games for it. One of them is Master-Mind, the
+famous board logical game.
+
+<P>
+The game is played between two players. One of them chooses a&nbsp;<EM>secret code</em>
+consisting of <VAR>P</var>&nbsp;ordered pins, each of them having one of the predefined set of
+<VAR>C</var>&nbsp;colours. The goal of the second player is to guess that secret sequence of
+colours. Some colours may not appear in the code, some colours may appear more
+than once.
+
+<P>
+The player makes guesses, which are formed in the same way as the secret
+code. After each guess, he/she is provided with an&nbsp;information on how
+successful the guess was. This feedback is called a&nbsp;<EM>hint</em>. Each hint
+consists of <VAR>B</var> black points and <VAR>W</var> white points. The black point stands for
+every pin that was guessed right, i.e. the right colour was put on the right
+position. The white point means right colour but on the wrong position. For
+example, if the secret code is "white, yellow, red, blue, white" and the
+guess was "white, red, white, white, blue", the hint would consist of one
+black point (for the white on the first position) and three white points
+(for the other white, red and blue colours). The goal is to guess the
+sequence with the minimal number of hints.
+
+<P>
+The new ACM phone should have the possibility to play both roles. It can make
+the secret code and give hints, but it can also make its own guesses. Your
+goal is to write a&nbsp;program for the latter case, that means a&nbsp;program that
+makes Master-Mind guesses.
+
+<P>
+<H3>Input</h3>
+
+<P>
+There is a&nbsp;single positive integer <VAR>T</var> on the first line of input. It stands
+for the number of test cases to follow. Each test case describes one game
+situation and you are to make a&nbsp;guess. On the first line of each test case,
+there are three integer numbers, <VAR>P</var>, <VAR>C</var> and <VAR>M</var>. <VAR>P</var> (
+1 &lt;= <VAR>P</var> &lt;= 10) is
+the number of pins, <VAR>C</var> (1 &lt;= <VAR>C</var> &lt;= 100) is the number of colours, and <VAR>M</var> 
+(1 &lt;= <VAR>M</var> &lt;= 100) is the number of already played guesses.
+
+<P>
+Then there are 2 <VAR>x M</var> lines, two lines for every guess. At the first line of
+each guess, there are <VAR>P</var> integer numbers representing colours of the guess.
+Each colour is represented by a&nbsp;number <VAR>G</var><SUB><VAR>i</var></sub>, 
+1 &lt;= <VAR>G</var><SUB><VAR>i</var></sub> &lt;= <VAR>C</var>. The second
+line contains two integer numbers, <VAR>B</var> and <VAR>W</var>, stating for the number of
+black and white points given by the corresponding hint.
+
+<P>
+Let's have a&nbsp;secret code 
+<VAR>S</var><SUB>1</sub>, <VAR>S</var><SUB>2</sub>, ... <VAR>S</var><SUB><VAR>P</var></sub> and the guess
+
+<VAR>G</var><SUB>1</sub>, <VAR>G</var><SUB>2</sub>, ... <VAR>G</var><SUB><VAR>P</var></sub>. Then we can make a&nbsp;set <VAR>H</var> containing pairs of numbers
+(<VAR>I</var>,<VAR>J</var>) such that <VAR>S</var><SUB><VAR>I</var></sub> = <VAR>G</var><SUB><VAR>J</var></sub>, and that any number can appear at most once on
+the first position and at most once on the second position. That means for
+every two different pairs from that set, (<VAR>I</var><SUB>1</sub>,<VAR>J</var><SUB>1</sub>) and (<VAR>I</var><SUB>2</sub>,<VAR>J</var><SUB>2</sub>), we
+have 
+<VAR>I</var><SUB>1</sub> &lt;&gt; <VAR>I</var><SUB>2</sub> and 
+<VAR>J</var><SUB>1</sub> &lt;&gt; <VAR>J</var><SUB>2</sub>. Then we denote <VAR>B</var>(<VAR>H</var>) the number of
+pairs in the set, that meet the condition <VAR>I</var> = <VAR>J</var>, and <VAR>W</var>(<VAR>H</var>) the number of
+pairs with <VAR>I</var> &lt;&gt; <VAR>J</var>.
+
+<P>
+We define an&nbsp;ordering of every two possible sets <VAR>H</var><SUB>1</sub> and <VAR>H</var><SUB>2</sub>. Let's say
+
+<VAR>H</var><SUB>1</sub> &lt;= <VAR>H</var><SUB>2</sub> if and only if one of the following holds:
+<div align=left>
+<UL>
+<LI>
+<VAR>B</var>(<VAR>H</var><SUB>1</sub>) &lt; <VAR>B</var>(<VAR>H</var><SUB>2</sub>), or
+<LI>
+<VAR>B</var>(<VAR>H</var><SUB>1</sub>)  =  <VAR>B</var>(<VAR>H</var><SUB>2</sub>) and 
+<VAR>W</var>(<VAR>H</var><SUB>1</sub>) &lt;= <VAR>W</var>(<VAR>H</var><SUB>2</sub>)</ul></div><p>Then we can find a&nbsp;maximal set <VAR>H</var><SUB><VAR>max</var></sub> according to this ordering. The
+numbers 
+<VAR>B</var>(<VAR>H</var><SUB><VAR>max</var></sub>) and 
+<VAR>W</var>(<VAR>H</var><SUB><VAR>max</var></sub>) are the black and white points for that
+hint.
+
+<P>
+<H3>Output</h3>
+
+<P>
+For every test case, print the line containing <VAR>P</var> numbers representing <VAR>P</var> 
+colours of the next guess. Your guess must be valid according to all previous
+guesses and hints. The guess is valid if the sequence could be a&nbsp;secret code,
+i.e. the sequence was not eliminated by previous guesses and hints.
+
+<P>
+If there is no valid guess possible, output the sentence
+<TT>You are cheating!</tt>. If there are more valid guesses, output the one
+that is lexicographically smallest. I.e. find such guess <VAR>G</var> that for every
+other valid guess <VAR>V</var> there exists such a&nbsp;number <VAR>I</var> that:
+<div align=left>
+<UL>
+<LI><VAR>G</var><SUB><VAR>J</var></sub> = <VAR>V</var><SUB><VAR>J</var></sub> for every <VAR>J</var>&lt;<VAR>I</var>, and
+<LI><VAR>G</var><SUB><VAR>I</var></sub>&lt;<VAR>V</var><SUB><VAR>I</var></sub>.
+</ul></div>
+<h3>Example</h3>
+<p>Sample Input:</p>
+
+<PRE>
+<tt>3
+4 3 2
+1 2 3 2
+1 1
+2 1 3 2
+1 1
+4 6 2
+3 3 3 3
+3 0
+4 4 4 4
+2 0
+8 9 3
+1 2 3 4 5 6 7 8
+0 0
+2 3 4 5 6 7 8 9
+1 0
+3 4 5 6 7 8 9 9
+2 0
+</tt></pre>
+
+<p>Sample Output</p>
+
+<PRE>
+<tt>1 1 1 3
+You are cheating!
+9 9 9 9 9 9 9 9
+</tt></pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-09</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 2000</td></tr>	
+</table>

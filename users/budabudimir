@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/budabudimir"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DPAIR" target="_blank">9547. Counting d-pairs</a></td><td><a href="http://www.spoj.com/problems/DPAIR"target="_blank">DPAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPAIR2" target="_blank">11676. Counting diff-pairs</a></td><td><a href="http://www.spoj.com/problems/CPAIR2"target="_blank">CPAIR2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIFFV" target="_blank">12609. Different Vectors </a></td><td><a href="http://www.spoj.com/problems/DIFFV"target="_blank">DIFFV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RIOI_2_3" target="_blank">12612. Path of the righteous man</a></td><td><a href="http://www.spoj.com/problems/RIOI_2_3"target="_blank">RIOI_2_3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RIOI_3_2" target="_blank">12943. Counting</a></td><td><a href="http://www.spoj.com/problems/RIOI_3_2"target="_blank">RIOI_3_2</a><br>
+</td></tr>

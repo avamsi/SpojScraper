@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PIBO2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13940. Fibonacci vs Polynomial (HARD)</h1>
+		<h2>Problem code: PIBO2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Define a sequence&nbsp;<em>Pib</em>(n) as following</p>
+<ul style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">
+<li><em>Pib</em>(0) = 1</li>
+<li><em>Pib</em>(1) = 1</li>
+<li>otherwise,&nbsp;<em>Pib</em>(n) =&nbsp;<em>Pib</em>(n-1) +&nbsp;<em>Pib</em>(n-2) +&nbsp;<strong>P</strong>(n)</li>
+</ul>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Here&nbsp;<strong>P</strong>&nbsp;is a polynomial.</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Given&nbsp;<strong>n</strong>&nbsp;and&nbsp;<strong>P</strong>, find&nbsp;<em>Pib</em>(n) modulo 1,111,111,111.</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Maybe you should solve <a href="../PIBO/">PIBO</a>&nbsp;before this task, it has lower constraints.</p>
+<h3>Input</h3>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;"><span style="font-size: 1.17em; color: #000000;">&nbsp;</span>First line of input contains two integer&nbsp;<strong>n</strong>&nbsp;and&nbsp;<strong>d</strong>&nbsp;(0 &le;&nbsp;<strong>n</strong>&nbsp;&le; 10<sup>9</sup>, 0 &le;&nbsp;<strong>d</strong>&nbsp;&le; 10000),&nbsp;<strong>d</strong>&nbsp;is the degree of polynomial.</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">The second line contains&nbsp;<strong>d</strong>+1 integers&nbsp;<strong>c</strong><sub>0</sub>,<strong>c</strong><sub>1</sub>&nbsp;&hellip;&nbsp;<strong>c</strong><sub>d</sub>, represent the coefficient of the polynomial (Thus&nbsp;<strong>P</strong>(x) can be written as &Sigma;<strong>c</strong><sub>i</sub>x<sup>i</sup>). 0 &le;&nbsp;<strong>c</strong><sub>i</sub>&nbsp;&lt; 1,111,111,111 and&nbsp;<strong>c</strong><sub>d</sub>&nbsp;&ne; 0 unless d = 0.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p style="text-align: justify;"><span style="font-family: monospace; color: #000020; font-size: x-small;"><span style="white-space: pre-wrap;"><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">A single integer represents the answer.</span></span></span></p>
+<h3>Example</h3>
+<pre><strong><pre style="font-size: 13px; color: #000020; background-color: #f6f9e0;"><strong>Input:</strong>
+10 0
+0
+
+<strong>Output:</strong>
+89
+
+<strong>Input:</strong>
+10 0
+1
+
+<strong>Output:</strong>
+177
+
+<strong>Input:</strong>
+100 1
+1 1
+
+<strong>Output:</strong>
+343742333
+</pre>
+</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mikhaelkh">Michael Kharitonov</a></td></tr>
+<tr><td>Date:</td><td>2013-02-28</td></tr>
+<tr><td>Time limit:</td><td>0.100s-10s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

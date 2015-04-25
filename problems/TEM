@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TEM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>757. Thermal Luminescence</h1>
+		<h2>Problem code: TEM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> After many years of hard work a group of scientists developed a shiny new state-of-the-art processor with a 3D configuration. Due to the high clock frequency at which this processor works, the silicon cube uses up too much energy. Even with its powerful cooling system, the processor is unable to cope with the heat discharge in some of its cubical blocks. With the help of special analysis methods, scientists have developed the overheat rate for each of the cubical blocks of the system. As it conveniently happens, this overheat rate is an integer value, either positive or negative depending on many factors (such as the proximity of ventilators, refrigerators, etc.).<p>
+Science can do no more, so now the developers of the processor need your support. For a given three-dimensional matrix representing the overheat rate of elements of the processor, you have to find a submatrix for which the sum of overheat rates coming from all its elements is maximal.</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; number of test cases [<i>t</i> <= 99], then t tests follow. <BR>
+Each test begins with 3 integers: x, y, z &#8211; the width, length and height of matrix [5 <= x, y, z <= 50]. Then there follows the description of x rectangular 2D matrixes of height y and width z. In total there are x*y*z integers, which absolute value does not exceed 10000.
+</p>
+
+<h3>Output</h3>
+<p>For each test case you should output 6 integers: x1, y1, z1, x2, y2, z2, where each triple (xi, yi, zi) defines one of the two opposite corners of submatrix, resulting in the maximum overheat. [1 <= x1 <= x2 <= x] [1 <= y1 <= y2 <= y] [1 <= z1 <= z2 <= z]
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+5 5 5
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+-1 -1 -10 -1 -1
+-1 -1 -10 -1 -1
+-1 -1 -10 -1 -1
+-1 -1 -10 -1 -1
+-1 -1 -10 -1 -1
+20 2 2 2 20
+20 2 2 2 20
+20 2 2 2 20
+20 2 2 2 20
+20 2 2 2 20
+5 5 5 5 5
+5 5 5 5 5
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+-10 10 -10 10 -10
+-10 10 -10 10 -10
+-10 10 -10 10 -10
+-10 10 -10 10 -10
+-10 10 -10 10 -10
+
+
+<b>Output:</b>
+3 1 1 4 5 5 
+
+<b>Note:</b>
+The maximum overheat for the example is equal to 295.
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-04-11</td></tr>
+<tr><td>Time limit:</td><td>2.316s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2006.02/ztem.php">ZCon 2006</a></td></tr>	
+</table>

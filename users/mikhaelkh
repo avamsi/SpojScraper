@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mikhaelkh"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PIBO2" target="_blank">13940. Fibonacci vs Polynomial (HARD)</a></td><td><a href="http://www.spoj.com/problems/PIBO2"target="_blank">PIBO2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DTPOLY2" target="_blank">13953. Divide Polygon (HARD)</a></td><td><a href="http://www.spoj.com/problems/DTPOLY2"target="_blank">DTPOLY2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARCARD1" target="_blank">15256. Partition function (EASY)</a></td><td><a href="http://www.spoj.com/problems/PARCARD1"target="_blank">PARCARD1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARCARD2" target="_blank">15257. Partition function (HARD)</a></td><td><a href="http://www.spoj.com/problems/PARCARD2"target="_blank">PARCARD2</a><br>
+</td></tr>

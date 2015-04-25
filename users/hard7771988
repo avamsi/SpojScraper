@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/hard7771988"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/LSORT" target="_blank">676. Sorting is not easy</a></td><td><a href="http://www.spoj.com/problems/LSORT"target="_blank">LSORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HANOI07" target="_blank">681. Building the Tower</a></td><td><a href="http://www.spoj.com/problems/HANOI07"target="_blank">HANOI07</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAIRINT" target="_blank">682. Pairs of Integers</a></td><td><a href="http://www.spoj.com/problems/PAIRINT"target="_blank">PAIRINT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NICEDAY" target="_blank">709. The day of the competitors</a></td><td><a href="http://www.spoj.com/problems/NICEDAY"target="_blank">NICEDAY</a><br>
+</td></tr>

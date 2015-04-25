@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/pankaj4u4m"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/WINGOLD" target="_blank">8316. Win gold medal </a></td><td><a href="http://www.spoj.com/problems/WINGOLD"target="_blank">WINGOLD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SIGNGAME" target="_blank">8317. Red Balls</a></td><td><a href="http://www.spoj.com/problems/SIGNGAME"target="_blank">SIGNGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLAYSIGN" target="_blank">8318. color the balls</a></td><td><a href="http://www.spoj.com/problems/PLAYSIGN"target="_blank">PLAYSIGN</a><br>
+</td></tr>

@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/shkoorah"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BRI" target="_blank">4871. Bridge</a></td><td><a href="http://www.spoj.com/problems/BRI"target="_blank">BRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRII" target="_blank">4951. Bridges! More bridges!</a></td><td><a href="http://www.spoj.com/problems/BRII"target="_blank">BRII</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQ6" target="_blank">6650. Consecutive sequence</a></td><td><a href="http://www.spoj.com/problems/SEQ6"target="_blank">SEQ6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCJ101AB" target="_blank">6700. Make it Smooth</a></td><td><a href="http://www.spoj.com/problems/GCJ101AB"target="_blank">GCJ101AB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CF33C" target="_blank">7507. Wonderful Randomized Sum</a></td><td><a href="http://www.spoj.com/problems/CF33C"target="_blank">CF33C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CF36D" target="_blank">7602. New Game with a Chess Piece</a></td><td><a href="http://www.spoj.com/problems/CF36D"target="_blank">CF36D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNUM" target="_blank">8886. Guess number!</a></td><td><a href="http://www.spoj.com/problems/GNUM"target="_blank">GNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCJ2012C" target="_blank">11386. Recycled Numbers</a></td><td><a href="http://www.spoj.com/problems/GCJ2012C"target="_blank">GCJ2012C</a><br>
+</td></tr>

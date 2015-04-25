@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MATRIX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>374. Count maximum matrices</h1>
+		<h2>Problem code: MATRIX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a matrix A of M rows and N columns, consisting of numbers 0 and 1. For a rectangle in A (sides >= 1), X1 is the number of ones on its sides, X0 is the number of zeros on its sides, and its <i>value</i> is defined as X1 &#8211; X0. Let us consider W, the maximum value taken over submatrices of A, and S, the number of submatrices with value W. Your task is to find W and S.
+
+<h3>Input</h3>
+<p>The first line of input contains the number of testcases t (t <= 15).
+The first line of each testcase contains the numbers M, N (1 <= M, N <= 200) Then M lines follow. In each line, there are N numbers 0 or 1. 
+
+<h3>Output</h3>
+<p>For each testcase, you should output a single line with numbers W and S.
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+5 6
+1 1 1 1 1 1
+1 0 0 0 0 1
+1 0 0 0 0 1
+1 0 0 0 0 1
+1 1 1 1 1 1
+
+<b>Output:</b>
+18 1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/beo_chay_so">L&#234; Đôn Khu&#234;</a></td></tr>
+<tr><td>Date:</td><td>2005-06-08</td></tr>
+<tr><td>Time limit:</td><td>2.538s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

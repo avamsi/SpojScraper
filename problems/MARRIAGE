@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MARRIAGE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22177. RajaRani</h1>
+		<h2>Problem code: MARRIAGE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The practice of polygamy is said to have origanted in the Salt Lake City where gender is not an important constraint. In order to obtain a clear count of marriages, each unmarried person living in the city is assigned a unique number. Some believe that love marraiges results in happiness while the rest believe in arranged marriages.<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Whatsoever, its the parents who choose their heir's fiances/fiancees. Once their parents take a decision, their marriage is bound to happen in the near future. But recent studies on this city say that,<br /><br />1) A marriage between two persons having a difference of belief, results in a divorce.<br /><br />2) In order to avoid this from happening, some people often change their belief on the day of their marriage.&nbsp;&nbsp; &nbsp;<br /><br />&nbsp;&nbsp;&nbsp; But it is sad to note that, both these scenarios results in a death of one of their well-wishers. Given the information about each unmarried person in the city and their fiances/fiancees, help them so that there is minimum number of deaths.<br /><br /><strong>Input:</strong><br /><br />The first line contains a single integer T, the number of test cases.<br /><br />T test cases follow:<br /><br />The first line of each test case contains two integers, N and M.<br />N : Number of unmarried persons.<br />M : Number of pairs for which their marriage has been fixed.<br /><br />M lines follow:<br /><br />Each of the M lines contains two integers : i &amp; j<br /><br />In the following N lines,the belief of each unmarried person is listed, either "Love" or "Arranged" . ( quotes for claification ).<br /><br />&nbsp;<br /><strong>Output:</strong><br /><br />For each test case, print a single line: "Number of Deaths"(quotes for qualification), followed by a colon(:) &amp; a space, and then a single integer containg the minimum number of deaths. Refer the sample output for clarification.<br /><br /><strong>Constraints:</strong><br /><br />1 &lt;= T &lt;= 100<br />1 &lt;= N &lt;= 140<br />1 &lt;=M &lt;=10000<br />1 &lt;= i &lt;= N<br />1 &lt;= j &lt;= N<br /><br /><strong>Example:</strong><br /><br /><strong>Input:</strong><br /><br />1<br />3 2<br />1 2<br />2 3<br />Love<br />Arranged<br />Love<br /><br /><strong>Output:</strong><br /><br />Number of Deaths: 1</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohan1005k">Mohan K</a></td></tr>
+<tr><td>Date:</td><td>2014-12-20</td></tr>
+<tr><td>Time limit:</td><td>0.310s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

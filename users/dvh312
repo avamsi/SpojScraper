@@ -1,0 +1,18 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/dvh312"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HPREFIX" target="_blank">17258. Yungom</a></td><td><a href="http://www.spoj.com/problems/HPREFIX"target="_blank">HPREFIX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HFLY" target="_blank">17382. Airplane Parking</a></td><td><a href="http://www.spoj.com/problems/HFLY"target="_blank">HFLY</a><br>
+</td></tr>

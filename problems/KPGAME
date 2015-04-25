@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KPGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4060. A game with probability</h1>
+		<h2>Problem code: KPGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice and Bob play the following game. First, they collect N small stones and put them together in one pile.
+After that, they throw a coin one by one. Alice starts first. If a player throws heads then he takes exactly one
+stone from the pile. In case of tails he don't do anything. The one who takes the last stone wins.
+For each player, his skill of throwing a coin is known (to everyone, including himself and his opponent).
+More precisely, if Alice wants to throw some specific side of the coin, she always succeeds with probability P.
+The same probability for Bob is Q.
+
+You are to find probability that Alice will win the game if both guys play optimally.
+
+<h3>Input</h3>
+<p>Input starts with a line containing one integer T - a number of test cases (1 <= T <= 50).
+Then T test cases follow. Each of them is one line with three numbers N, P, and Q separated with a space
+(1 <= N <= 99999999, 0.5 <= P, Q <= 0.99999999). P and Q have not more than 8 digits after decimal point.
+
+<h3>Output</h3>
+<p>For each test case output one line with a probability that Alice will win the game.
+Your answer must be precise up to 10^-6.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+1 0.5 0.5
+
+<b>Output:</b>
+0.666666667
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kingpin">Pavel Kuznetsov</a></td></tr>
+<tr><td>Date:</td><td>2009-03-16</td></tr>
+<tr><td>Time limit:</td><td>0.080s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Vologda 2009</td></tr>	
+</table>

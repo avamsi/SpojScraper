@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/xellos0"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SHELL" target="_blank">10292. Shell game</a></td><td><a href="http://www.spoj.com/problems/SHELL"target="_blank">SHELL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JUMPY" target="_blank">10301. A jumpy cycle</a></td><td><a href="http://www.spoj.com/problems/JUMPY"target="_blank">JUMPY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONCAVE" target="_blank">10312. Concave quadrilaterals</a></td><td><a href="http://www.spoj.com/problems/CONCAVE"target="_blank">CONCAVE</a><br>
+</td></tr>

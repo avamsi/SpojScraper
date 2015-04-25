@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KRECT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4329. Counting K-Rectangle</h1>
+		<h2>Problem code: KRECT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/KRECT/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/KRECT/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>
+Given a M*N square board. Each square contains a letter of the English alphabet ('A' .. 'Z').
+</p>
+
+<p>
+A K-rectangle of the board is a rectangle whose sides are parallel to the sides of the board, and contains exactly K different types of letter.
+</p>
+
+<p>
+For example, with this 4*3 board:
+</p>
+
+<pre>
+CED
+CEB
+CBC
+DDA
+</pre>
+
+<p>The rectangle [(1,1), (2,2)] is a 2-rectangle of the board because it contains 2 different letters: C and E.
+</p>
+
+<p>
+Given M, N, K and the M*N board. Determine how many K-rectangles there are in the board.
+</p>
+
+<h3>Input</h3>
+<p>The first line contains 3 integers M, N and K. (1 &#8804; M, N &#8804; 100, 1 &#8804; K &#8804; 26)</p>
+<p>The following M lines, each contains N letters of the English alphabet ('A' .. 'Z')</p>
+
+<h3>Output</h3>
+<p>Write one integer - the number of K-rectangles in the given board.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4 3 3
+CED
+CEB
+CBC
+DDA
+
+
+<b>Output:</b>
+12
+
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-05</td></tr>
+<tr><td>Time limit:</td><td>0.343s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Based on problem <a href='https://vn.spoj.pl/problems/CRECT/'>CRECT</a>  -  <a href='http://vnoi.info/'>@vnoi</a></td></tr>	
+</table>

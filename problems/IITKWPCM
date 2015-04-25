@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITKWPCM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15566. Coprime Again</h1>
+		<h2>Problem code: IITKWPCM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;&nbsp;&nbsp;&nbsp; As You had known upto now that Feluda is very good in mathematics, Now he decided to understand the properties of coprime numbers. Two numbers are called coprime if greatest common divisor of those numbers is 1. One day feluda was reading mysterious book in which he found this problem.</p>
+<p>&nbsp;&nbsp;&nbsp; For a given positive integer n, Find out product of all the numbers from 1 to n excluding those which are not coprime to n. As this product can grow very large and Feluda being a small child gets scared from large numbers. Hence he wants that you should output the product modulo n.</p>
+<p>&nbsp;&nbsp; Help little Feluda to solve this problem.</p>
+<h3>Input</h3>
+<p>T : number of test cases. (T &gt;= 1 &amp;&amp; T &lt;= 10^4)</p>
+<p>For next T lines, you are given an integer n such that 1 &lt;= n &lt;= 10 ^ 18.</p>
+<h3>Output</h3>
+<p>For each test case, output one line as stated in the problem statement.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />2<br />5<br /><strong>Output:</strong><br />1<br />4</pre>
+<pre>For Who are going TLE and want to solve easier version. Please go to <a href="../IITKWPCQ">http://www.spoj.com/problems/IITKWPCQ/</a></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>4s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

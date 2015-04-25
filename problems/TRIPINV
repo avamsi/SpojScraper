@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRIPINV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9650. Mega Inversions</h1>
+		<h2>Problem code: TRIPINV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The n^2 upper bound for any sorting algorithm<br />is easy to obtain: just take two elements<br />that are misplaced with respect to each other<br />and swap them. Conrad conceived an algorithm<br />that proceeds by taking not two, but three misplaced<br />elements. That is, take three elements<br />ai &gt; aj &gt; ak with i &lt; j &lt; k and place them in<br />order ak; aj ; ai. Now if for the original algorithm<br />the steps are bounded by the maximum number<br />of inversions n(n-1)/2, Conrad is at his wits' end as<br />to the upper bound for such triples in a given sequence. He asks you to write a program<br />that counts the number of such triples.</p>
+<h3>Input</h3>
+<p>The rst line of the input is the length of the sequence, 1 &lt;= n &lt;= 10^5.<br />The next line contains the integer sequence a1; a2..an.<br />You can assume that all ai belongs [1; n].</p>
+<h3>Output</h3>
+<p>Output the number of inverted triples.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4<br />3 3 2 1
+<strong>Output:</strong>
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-10-05</td></tr>
+<tr><td>Time limit:</td><td>0.123s-0.643s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Nordic programming contest</td></tr>	
+</table>

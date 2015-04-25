@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CF36D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7602. New Game with a Chess Piece</h1>
+		<h2>Problem code: CF36D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Petya and Vasya are inventing a new game that requires a rectangular board and one chess piece. At the beginning of the game the piece stands in the upper-left corner of the board. Two players move the piece in turns. Each turn the chess piece can be moved either one square to the right or one square down or jump <b><i>k</i></b> squares diagonally down and to the right. The player who can&#8217;t move the piece loses.
+<p><center><img border="0" src="/content/shkoorah:cf36d.png"></center>
+<p>The guys haven&#8217;t yet thought what to call the game or the best size of the board for it. Your task is to write a program that can determine the outcome of the game depending on the board size.
+
+<h3>Input</h3>
+<p>The first input line contains one integer 1 &#8201;&#8804;&#8201; <b><i>t</i></b>&#8201; &#8804;&#8201; 20202. Each of the following <b><i>t&#8201;</i></b> lines contains three numbers:  <b><i>k</i></b> and <b><i>n</i></b>, <b><i>m</i></b> - the jump length and the board&#8217;s length and width (1 &#8201;&#8804; <b><i>&#8201;n,&#8201;m&#8201;,k</i></b> &#8804;&#8201; 10<sup>9</sup>).
+
+<h3>Output</h3>
+<p>Output <b><i>t</i></b> lines that can determine the outcomes of the game on every board. Write &#171;+&#187; if the first player is a winner, and &#171;-&#187; otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+10
+1 1 1
+1 2 1
+2 1 2
+2 2 2
+1 3 2
+2 3 2
+3 1 3
+3 2 3
+3 3 3
+4 3 3
+
+<b>Output:</b>
+-
++
++
+-
++
++
+-
++
+-
+-
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shkoorah">Ruslan Sennov</a></td></tr>
+<tr><td>Date:</td><td>2010-10-19</td></tr>
+<tr><td>Time limit:</td><td>0.124s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces #36</td></tr>	
+</table>

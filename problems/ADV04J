@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04J"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7870. Invisible point</h1>
+		<h2>Problem code: ADV04J</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Daniel marked a point on a plane with sympathetic ink and he has also drawn a regular n-gon with normal ink. Max can see the n-gon, but can't see the point. Max can draw a line and ask Daniel which side of the line the point is. What is the minimum number of questions Max have to ask to define if the point is inside the n-gon in the worst case?
+
+<h3>Input</h3>
+<p>First line of the input contains number t - the amount of test cases. Each test consists of the single integer n - the amount of sides of the n-gon.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 100<br />
+3 <= n <= 1000000
+
+<h3>Output</h3>
+<p>For each test case print a single number - the anwer to the questiong in the statement.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+4
+
+<b>Output:</b>
+3
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.988s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/REVADD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20926. Special Numbers (Reverse and Add)</h1>
+		<h2>Problem code: REVADD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Michael likes to <em>reverse and add</em> numbers.  When he finds a number, he reverses its digits and adds it to the original number.&nbsp;</p>
+<p>One day, when he was doing "reverse and add", he found that some numbers (<em>special numbers</em>) can be obtained from two distinct digit numbers. The number 121 is one of them. He can get it from 47 (2-digit) and 110 (3-digit). He tried to find many of these special numbers, but he could find only two numbers under 10000.</p>
+<p>He wants to know the first 5,000 special numbers in ascending order. Can you help him ?</p>
+<h3>Input</h3>
+<p>This problem has no input data.</p>
+<h3>Output</h3>
+<p>Output the first 5,000 special numbers in ascending order. (One special number per one line.)</p>
+<h3>Example</h3>
+<p><strong>Output:</strong></p>
+<pre>121
+1111
+...
+[4998 lines]
+...
+</pre>
+<h3>Information</h3>
+<p>Source Limit is 10 KB.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/min_25">Min_25</a></td></tr>
+<tr><td>Date:</td><td>2014-09-05</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>10240B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

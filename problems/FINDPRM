@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FINDPRM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5970. Finding Primes</h1>
+		<h2>Problem code: FINDPRM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One commonly used method to calculate all primes in the range [2..n] is to start with the number 2, mark it as prime, and mark all its multiples (excluding itself) as not prime. Then, we find the next smallest unmarked number, mark it as prime, and mark all its multiples (excluding itself) as not prime. Continuing this way, we get a list of all primes. <br /><br />Now, let us say that we modified the above algorithm, and start with n instead of 2. We mark it as prime, and mark all its factors (excluding itself) as not prime. Then we find the next greatest unmarked number, mark it as prime, and mark all its factors (excluding itself) as not prime. Continuing this way, we get a list of all primes.<br /><br />Now you wonder, given a value of n, how many numbers are such that both the above algorithms will mark them as prime?</p>
+<p style="text-align: center;"><br /><strong>Input</strong></p>
+<p><strong></strong><br />The first line contains T the number of test cases. Each of the next T lines contain an integer n.</p>
+<p style="text-align: center;"><br /><strong>Output</strong></p>
+<p>Output T lines, one for each test case, containing the required answer.</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p>Sample Input :<br />3<br />2<br />4<br />7<br /><br />Sample Output :<br />1<br />1<br />2<br /><br /></p>
+<p style="text-align: center;"><strong>Constraints</strong></p>
+<p>1 &lt;= T &lt;= 100000<br />2 &lt;= n &lt;= 10000000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-01-24</td></tr>
+<tr><td>Time limit:</td><td>0.254s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem used for Codechef Snackdown Onsite</td></tr>	
+</table>

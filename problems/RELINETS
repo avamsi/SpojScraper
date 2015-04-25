@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RELINETS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1707. Reliable Nets</h1>
+		<h2>Problem code: RELINETS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+You&#8217;re in charge of designing a campus network between buildings and are very worried about its
+reliability and its cost. So, you&#8217;ve decided to build some redundancy into your network while keeping it
+as inexpensive as possible. Specifically, you want to build the cheapest network so that if any one line
+is broken, all buildings can still communicate. We&#8217;ll call this a <i>minimal reliable net</i>.
+
+<h3>Input</h3>
+<p>
+There will be multiple test cases for this problem. Each test case will start with a pair of integers n (<=15) and m (<= 20) on a line indicating the number of buildings (numbered 1 through n) and the
+number of potential inter-building connections, respectively. (Values of n = m = 0 indicate the end of
+the problem.) The following m lines are of the form b<sub>1</sub> b<sub>2</sub> c (all positive integers) indicating that it costs
+c to connect building b<sub>1</sub> and b<sub>2</sub>. All connections are bidirectional.
+
+<h3>Output</h3>
+<p>
+For each test case you should print one line giving the cost of a minimal reliable net. If there is a
+minimal reliable net, the output line should be of the form:
+
+<p><p>
+<b><i>The minimal cost for test case p is c.</i></b>
+
+<p><p>
+where <i>p</i> is the number of the test case (starting at 1) and <i>c</i> is the cost. If there is no reliable net possible,
+output a line of the form:
+
+<p><p>
+There is no reliable net possible for test case p.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4 5
+1 2 1
+1 3 2
+2 4 2
+3 4 1
+2 3 1
+2 1
+1 2 5
+0 0
+
+<b>Output:</b>
+The minimal cost for test case 1 is 6.
+There is no reliable net possible for test case 2.
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.459s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>East Central North America 2005</td></tr>	
+</table>

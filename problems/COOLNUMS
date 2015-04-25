@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COOLNUMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1875. Cool Numbers</h1>
+		<h2>Problem code: COOLNUMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div align="justify">
+<p>
+Cool numbers are those, whose digits can be partitioned into two sets such that the sum of the digits in either sets are equal. <br>
+Example: 23450 is cool because 3+4+0 = 2+5; So is 91125;<br>
+The numbers 567, 34523 are not cool, since there is no such digit partition.<br>
+<br>
+Write a program that prints the number of cool numbers in the inclusive range [A,B].<br>
+</p>
+<br>
+<b>Input Format:</b><br>
+The input file consists of multiple testcases. <br>
+Each case contains one line containing two 32-bit unsigned integers A and B. (1 &lt;= A &lt;= B &lt;= 4*10<sup>9</sup>).<br>
+Input terminates with a line containing two zeros and must not be processed.<br>
+<br>
+<b>Output Format:</b><br>
+For each testcase print a single line containing one integer saying the number of cool numbers between A and B, inclusive.<br>
+<br>
+
+<b>Sample Input:</b><br>
+<pre>
+1 11
+12 20
+1 20
+3 100
+6354 234363
+123456789 234567891
+0 0
+</pre>
+
+<b>Sample Output:</b><br>
+<pre>
+1
+0
+1
+9
+82340
+54801678
+</pre>
+<br>
+<b>Test Data:</b><br>
+About 50 testcases.<br>
+<br>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2007-10-08</td></tr>
+<tr><td>Time limit:</td><td>5.673s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NITT ACM ICPC Local Contest 2007 [Topcoder problem with Constraints raised]</td></tr>	
+</table>

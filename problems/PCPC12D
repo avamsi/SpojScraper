@@ -1,0 +1,104 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PCPC12D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13090. New Strategy </h1>
+		<h2>Problem code: PCPC12D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Meeda will compete this year in the ACM-ICPC world finals, but he is a crazy guy, he created a new strategy to attack the problem set. His new strategy is to solve the problems according to their names. He&rsquo;ll sort the problem set according to the following rules.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Remove all whitespace characters from the problem names.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Replace any capital letters with the corresponding small one. i.e &lsquo;A&rsquo; will be &lsquo;a&rsquo;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>count the occurrence of each character</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Problem A comes before problem B, if A contains lexicographically smaller characters more than B i.e A = &ldquo;cba&rdquo; comes before B = &ldquo;bc&rdquo; because A contains 1 'a' and B contains 0 'a'.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">But as you may know that meeda is a very lazy guy and he needs to train for this strategy before the world finals, so he needs your help to write an efficient program to help him in the training.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Input Specification</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">The first line of the input contains T, number of test cases, each test case starts with an integer n (0&lt;n&lt;1000) number of problems, follow n lines each containing string s. The ith line is the name of the ith problem. s will be a sequence of characters (a-z, A-Z or any white space character), length of s is less than 100 characters.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Output Specification</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">First line of each test case should contains &ldquo;case: &rdquo; without double quotes followed by the test case number starting from 1, then follow problem names sorted as described above.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Sample Input</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">abc</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">ab</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">bcsaasd</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">dbasaaaa</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">azzz</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">bayy</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Sample Output</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">case: 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">ab</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">abc</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">case: 2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">dbasaaaa</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">bcsaasd</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">bayy</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">azzz</span></div>
+<p>&nbsp;</p>
+<p><span style="font-size: small;">Meeda will compete this year in the ACM-ICPC world finals, but he is a crazy guy, he created a new strategy to attack the problem set. His new strategy is to solve the problems according to their names. He&rsquo;ll sort the problem set according to the following rules.</span></p>
+<p><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Remove all whitespace characters from the problem names.</span></p>
+<p><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Replace any capital letters with the corresponding small one. i.e &lsquo;A&rsquo; will be &lsquo;a&rsquo;</span></p>
+<p><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>count the occurrence of each character</span></p>
+<p><span style="font-size: small;">&bull;<span style="white-space: pre;"> </span>Problem A comes before problem B, if A contains lexicographically smaller characters more than B i.e A = &ldquo;cba&rdquo; comes before B = &ldquo;bc&rdquo; because A contains 1 'a' and B contains 0 'a'.</span></p>
+<p><span style="font-size: small;">But as you may know that meeda is a very lazy guy and he needs to train for this strategy before the world finals, so he needs your help to write an efficient program to help him in the training.</span></p>
+<p><span style="font-size: small;"><strong>Input Specification</strong></span></p>
+<p><span style="font-size: small;">The first line of the input contains T, number of test cases, each test case starts with an integer n (0&lt;n&lt;1000) number of problems, follow n lines each containing string s. The ith line is the name of the ith problem. s will be a sequence of characters (a-z, A-Z or any white space character), length of s is less than 200 characters.</span></p>
+<p><span style="font-size: small;"><strong>Output Specification</strong></span></p>
+<p><span style="font-size: small;">First line of each test case should contains &ldquo;case: &rdquo; without double quotes followed by the test case number starting from 1, then follow problem names sorted as described above.</span></p>
+<p><span style="font-size: small;"><strong>Sample Input</strong></span></p>
+<p><span style="font-size: medium;">2</span></p>
+<p><span style="font-size: medium;">2</span></p>
+<p><span style="font-size: medium;">abc</span></p>
+<p><span style="font-size: medium;">ab</span></p>
+<p><span style="font-size: medium;">4</span></p>
+<p><span style="font-size: medium;">bcsaasd</span></p>
+<p><span style="font-size: medium;">dbasaaaa</span></p>
+<p><span style="font-size: medium;">azzz</span></p>
+<p><span style="font-size: medium;">bayy</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>Sample Output</strong></span></p>
+<p><span style="font-size: medium;">case: 1</span></p>
+<p><span style="font-size: medium;">abc</span></p>
+<p><span style="font-size: medium;">ab</span></p>
+<p><span style="font-size: medium;">case: 2</span></p>
+<p><span style="font-size: medium;">dbasaaaa</span></p>
+<p><span style="font-size: medium;">bcsaasd</span></p>
+<p><span style="font-size: medium;">bayy</span></p>
+<p><span style="font-size: medium;">azzz</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: medium;">note :&nbsp;</span></strong><span style="font-size: small;">sorry for the wrong description .</span></p>
+<p><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;max length is 200 .</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdelkarim">abdelkarim</a></td></tr>
+<tr><td>Date:</td><td>2012-12-28</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>The First Palestinian Collegiate Programming Contest </td></tr>	
+</table>

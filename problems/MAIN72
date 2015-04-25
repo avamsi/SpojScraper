@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN72"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8545. Subset sum</h1>
+		<h2>Problem code: MAIN72</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">you are given an array of N integers. Now you want to find the sum of all those integers which can be expressed as the sum of at least one subset of the given array.</div>
+<p>You are given an array of N integers. Now you want to find the sum of all those integers which can be expressed as the sum of at least one subset of the given array.</p>
+<h3>Input</h3>
+<p>First line contains T the number of test case. then T test cases follow,first line of each test case contains N (1&lt;=N&lt;=100) the number&nbsp;of integers, next line contains N integers, each of them is between 0 and 1000 (inclusive). &nbsp;</p>
+<h3>Output</h3>
+<p>For each test case print the answer in a new line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+2
+0 1
+3
+2 3 2
+
+<strong>Output:</strong>
+1
+21</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.211s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for NSIT-IIITA main contest #7</td></tr>	
+</table>

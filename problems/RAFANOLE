@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RAFANOLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16696. Nadal vs Djokovic</h1>
+		<h2>Problem code: RAFANOLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rafael Nadal vs Novak Djokovic is probably the fiercest rivalry in tennis right now. Now your task is very simple.<br /> You are given a string containing the scores of a single set(A set consists of many games) between these two stalwarts.<br /> N denotes Nadal and D denoted Djokovic.<br /> For those who are new to tennis , have a look of the rules online.<br /> Anyway small desciption about the rules:</p>
+<p>Now how a player wins a single game?</p>
+<p>In a game scores are incremented as follows:<br /> 15,30,40<br /> A player wins if scores are like 40-0,40-15,40-30.<br /> If tied at 40-40., it is called Deuce.<br /> If N wins next he has an Advantage and if he loses the next volley&nbsp;he comes back to Deuce.<br /> After Advantage if the player wins the immediate volley he wins that game.</p>
+<p>Simply put the player who wins 6 games first (provided he has won two games more than his opponent) wins the set.<br /> For eg., 6-1,6-2,6-3,6-4 are all valid.<br /><br /> If 1 player has won 6 games and the other has won 5 games the match continues.(7-5 is also a valid scoreline)<br /> If both the players are deadlocked at 6-6, then we have a tiebreaker.<br /> In the tiebreaker the scores are counted normally (1,2,3,....)<br /> The person who reaches 7 points first and is atleast 2 more than his opponent wins the set.<br /> Eg: 7-0,7-1,7-2.....7-5 are valid.<br /> If the scenario is 7-6 the match proceeds until one of the players scores two points more than the other.<br /> Eg: Even 10-8 is valid.</p>
+<p><strong>Input:</strong><br /> 1st line - No. of test cases<br /><br /> Next T lines consist of strings denoting who won a volley.<br /><br /> <strong>Output:</strong></p>
+<p>Winner&nbsp; Score (tie breaker score if any)</p>
+<p>Loser&nbsp; Score</p>
+<p><strong>Example:</strong><br /><br /> Input:<br /> 2<br /> N N N N N N N N N N N N N N N N N N N N D D D D D D D D N N N N<br /> D D D D N N N N D D D D N N N N D D D D N N N N D D D D N N N N D D D D N N N N D D D D N N N N D D D D D D N N N N N D <br /><br /> Output:<br /> N 6<br /> D 2<br /><br /> D 7 (7-5)<br /> N 6</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newusers">n.7n</a></td></tr>
+<tr><td>Date:</td><td>2013-10-21</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

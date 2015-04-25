@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMITR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>237. Sums in a Triangle</h1>
+		<h2>Problem code: SUMITR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Let us consider a triangle of numbers in which a number appears in the first line, two 
+numbers appear in the second line etc. Develop a program which will compute the largest 
+of the sums of numbers that appear on the paths starting from the top
+towards the base, so that:
+<ul>
+<li> on each path the next number is located on the row below, more precisely 
+either directly below or below and one place to the right;
+</li>
+<li>
+the number of rows is strictly positive, but less than 100;
+</li>
+<li> all numbers are positive integers between O and 99.
+</li>
+</ul>
+<p>
+Take care about your fingers, do not use more than <b>256</b> bytes of code. 
+
+<h3>Input</h3>
+<p>
+In the first line integer n - the number of test cases (equal to about 1000). 
+Then n test cases follow. Each test case starts with the number of lines which is followed by their content.
+<h3>Output</h3>
+<p>
+For each test case write the determined value in a separate line. 
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+1
+2 1
+1 2 3
+4 
+1 
+1 2 
+4 1 2
+2 3 1 1 
+
+<b>Output:</b>
+5
+9
+</pre>
+
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kuszi">kuszi</a></td></tr>
+<tr><td>Date:</td><td>2004-12-01</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>256B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>6-th International Olympiad In Informatics July 3-10. 1994. Stockholm - Sweden, Problem 1</td></tr>	
+</table>

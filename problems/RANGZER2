@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RANGZER2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13925. ZEROES IN RANGE V2</h1>
+		<h2>Problem code: RANGZER2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given two integers a and b. Find the number of zeroes in the digits of all the numbers in the range [a,b] inclusive.</p>
+<p><strong>Input:</strong></p>
+<p>The first line consists of an integer t, the number of test cases.  For each test case you will be given two integers a and b (a&lt;=b).</p>
+<p><br /><strong>Output:</strong></p>
+<p>For each test case print the required answer.</p>
+<p>&nbsp;</p>
+<p><strong>Input Constraints:</strong></p>
+<p>1&lt;=t&lt;=1000</p>
+<p>1&lt;=a&lt;=b&lt;=10^9</p>
+<p><br /><strong>Sample Input:</strong></p>
+<p>2</p>
+<p>1 10</p>
+<p>1 100</p>
+<p><br /><strong>Sample Output:</strong></p>
+<p>1</p>
+<p>11<strong><br /></strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2013-02-27</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

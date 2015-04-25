@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIXIE001"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14334. Evil Overlord Cypher</h1>
+		<h2>Problem code: DIXIE001</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">You have been imprisoned by an evil, but stupid alien overlord. You told them it was a trap. It's not your fault. IT'S NOT YOUR FAULT.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">You can pass notes containing information to other prisoners to coordinate your escape. You want to use an algorithm that can be easily deciphered by your fellow prisoners, in between torture sessions of forced &ldquo;Buffy the Vampire Slayer&rdquo; marathons. But you also want the notes to remain unreadable to evil alien overlord and his minions should the notes be discovered.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">Therefore, you choose to implement a simple Caesar cypher given the following rule:</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">When the characters in the document are sorted by frequency, then by ASCII code (case sensitive), each character is replaced by the character in the same position in the reversely sorted set. <strong>Make a single character frequency lookup for ENTIRE file.</strong><br /></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">Given an arbitrary body of text as input, produce the appropriate output based on the cypher.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">The first line of the input will contain a count of all the remaining lines, the remaining line are all part of the text to be encrypted. <br /></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>Note:</strong> The <strong>&para;</strong> symbol in the examples below represents a newline character. You may also ignore (strip/pop off) the first line of the input. It was added for languages that have difficulty (or lack of ability) detecting EOF.<br /></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">Also note that the newlines in the input text are treated as any other character and are encoded with the rest of the text. Note in particular that the last line of output may not end with a newline character. <strong>THIS IS WHITESPACE SENSITIVE.</strong></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>The sample input contains no whitespace characters at the end of a line unless marked with </strong></span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para; symbol at which point there is a newline</strong></span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong> character.</strong><br /></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: courier new,courier;"><strong>Sample Input 1</strong></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">1<strong>&para;</strong><br />Aliens are dumb<strong>&para;</strong> <br /></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong><br /><span style="font-size: medium;">Sample Output 1</span></strong></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: courier new,courier;">&nbsp;mn<strong>&para;</strong><br />ibAud<strong>&para;</strong><br />Aralse</span></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: small;"><br /><br /><span style="font-size: medium;"><strong>Sample Input 2</strong></span></span></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: small;">1</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br />Mississippi</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;">&nbsp;</span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br /><br /><strong><span style="font-size: medium;">Sample Output 2</span></strong></span></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: small;">spMMpMMpiip<br /></span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: courier new,courier;"><strong><span style="font-size: medium;">Sample Input 3</span></strong></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: small;">2</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br /></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;">Missi</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br /></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;">ssippi</span><span style="font-size: medium;"><strong></strong></span></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: medium;"><strong>Sample Output 3</strong></span></span></p>
+<p><span style="font-family: courier new,courier;"><span style="font-size: small;">iM</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br /></span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><br /><span style="font-family: courier new,courier;"><span style="font-size: small;">Ms</span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;<br /></strong></span></span><span style="font-size: small;"><span style="font-family: courier new,courier;"><strong>&para;</strong></span></span><span style="font-family: courier new,courier;"><span style="font-size: small;"><br />MppM</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dsu_cit">Dixie State University</a></td></tr>
+<tr><td>Date:</td><td>2013-03-30</td></tr>
+<tr><td>Time limit:</td><td>0.336s-1.003s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Created by Daniel Evans for the DSU 2013 ACM Competition</td></tr>	
+</table>

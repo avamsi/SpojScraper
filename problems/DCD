@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9331. DCD</h1>
+		<h2>Problem code: DCD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!-- p { margin-bottom: 0.08in; } -->
+<p>Once upon a time, there was a secret group of boys. People used to call them 'Dushtu Cheler Dol' (Gang of Naughty boys) or DCD in short. Members of DCD were very good at making fool of people.<br /><br />Suppose, you are a member of DCD and you want to borrow money from <strong>N</strong> people ( you are definitely not going to return the money because that will go against the values of DCD ). Some of&nbsp; the <strong>N</strong> people will not lend you money as they know about DCD. But at first you don't know how many of them know about it. Then there are <strong>M</strong> members of DCD who want to borrow money from you. As you know none of the <strong>M</strong> people will return your money, you will try to escape from them when they will ask you for money, but you are not sure of being able to escape. Failure of escaping means, you must give them the money they want. So, before starting you wanted to determined how much money you will have after the whole process. As many solutions are possible, you will determine an interval, which contains the maximum number of possible solutions. The difference between the starting point and ending point will be of definite size (given in the input).</p>
+<h3 style="text-align: left;"><span style="font-size: small;"><span style="text-decoration: underline;">Input</span></span></h3>
+<p>Test cases start with two integers <strong>N</strong> and <strong>M</strong>. Next, there will be <strong>N</strong> integers in the same or different lines where <strong>[0&lt;=N<span style="font-size: xx-small;">i</span>&lt;=<span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: x-small;">10<sup>15</sup></span></span>]</strong> is the amount of money you will borrow form ith person. Then there will be <strong>M</strong> integers in the same or different lines, where <strong>[0&lt;=M<span style="font-size: xx-small;">i</span>&lt;=<span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: x-small;">10<sup>15</sup></span></span>]</strong> is the amount of money ith DCD member will ask for.&nbsp;<strong> (N+M)&lt;=17</strong>. Then you will be given an integer <strong>D [1&lt;=D&lt;=<span style="font-size: x-small;"><span style="font-family: comic sans ms,sans-serif;">10<sup>15</sup></span></span>]</strong>, the difference between the starting point and ending point of the desired interval.</p>
+<p>There will be at most <strong>200</strong> test cases.</p>
+<p style="text-align: left;"><span style="font-size: small;"><span style="text-decoration: underline;"><strong>Output</strong></span></span></p>
+<p>For each test case, you have to print three integers <strong>S</strong>,<strong>T</strong> and <strong>E</strong>. <strong>S</strong> and <strong>T</strong> are the endpoints of an interval of difference<strong> D, (S&lt;=T)</strong>. <strong>E</strong> is  the  number of solutions between <strong>S </strong>and <strong>T</strong>(inclusive).</p>
+<p>If there are several solutions, print the interval where <strong>S</strong> itself is a possible solution. If still there are several solutions, print the interval having minimum value of <strong>S</strong>.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Note</span> : 1. Same money values achieved by different ways are considered different.<br />2. If you can't escape, you will have to pay money even if you have zero or less money left. Then your amount will be considered negative.<br />3. If the starting value of the interval is <strong>X</strong>, the ending value will be<strong> X+D-1.</strong></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: small;"><span style="text-decoration: underline;"><strong>Example</strong></span></span></p>
+<pre><span style="font-size: small;"><strong>Input:</strong><br />2 0<br />1 2<br />1<br />4 1<br />5 6 9 9<br />2<br />5<br /><br /><strong>Output:</strong><br />0 0 1<br />11 15 9</span><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bidhan">Bidhan</a></td></tr>
+<tr><td>Date:</td><td>2011-08-06</td></tr>
+<tr><td>Time limit:</td><td>0.136s-6.864s</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own, Alternate Writer: Hasnain Heickal Jami</td></tr>	
+</table>

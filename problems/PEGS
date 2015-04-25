@@ -1,0 +1,195 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PEGS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16556. Triangle</h1>
+		<h2>Problem code: PEGS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<style>
+  .center-text-container {
+    text-align: center;
+  }
+
+  .center-text-container > * {
+    display: inline-block;
+  }
+
+  .example-table {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .example-table td {
+    vertical-align: top; 
+  }
+
+  .section {
+    margin-top: 19px;
+    margin-bottom:19px;
+  }
+
+  .paragraph {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .paragraph ul, .paragraph ol {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+</style>
+
+<div class="section">
+  <h3>Description</h3>
+  <div class="paragraph">
+    Consider the following common single-player game.
+  </div>
+  <div class="paragraph">
+    A board has fifteen holes, arranged in a triangular pattern. Pegs fit in these holes.
+  </div>
+  <div class="paragraph">
+    A valid move is to take a peg and jump in a straight line over an adjacent peg to the an empty hole two positions away from the starting position. The peg that was jumped is removed from the board. The player wins the game when there is only one peg remaining.
+  </div>
+  <div class="paragraph">
+For example, in the game below, the player wins in two moves.
+    <div class="center-text-container">
+<pre>    x             .            .
+   x .           . .          . .
+  . . .   =>    x . .   =>   . . .
+ . x . .       . x . .      . . . .
+. . . . .     . . . . .    . . x . .</pre>
+    </div>
+  </div>
+  <div class="paragraph">
+    In the game below, the player has no possible moves and loses.
+    <div class="center-text-container">
+<pre>    x
+   . .
+  x . .
+ . . . .
+. . . . .
+</pre>
+    </div>
+  </div>
+  <div class="paragraph">
+    Given a starting position, determine if it is possible to win.    
+  </div>
+</div>
+
+<div class="section">
+  <h3>Input</h3>
+  <div class="paragraph">
+    The first line is N, the number of starting pegs (0 < N < 15).
+  </div>
+  <div class="paragraph">
+    The next N lines are the pegs' positions. The positions on the board are numbered as following:
+    <div class="center-text-container">
+<pre>        1
+      2   3
+    4   5   6
+  7   8   9  10
+11  12  13  14  15
+</pre>
+    </div>
+  </div>
+</div>
+
+<table class="section example-table">
+  <tr>
+    <th>Input</th>
+    <th>Input</th>
+    <th>Input</th>
+  </tr>
+  <tr>
+    <td>
+<pre>3
+1
+2
+8</pre>
+    </td>
+    <td>
+<pre>14
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15</pre>
+    </td>
+    <td>
+<pre>13
+2
+3
+13
+5
+8
+11
+10
+9
+12
+4
+14
+15
+13</pre>
+    </td>
+  </tr>
+  <tr>
+    <th>Output</th>
+    <th>Output</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>
+<pre>yes</pre>
+    </td>
+    <td>
+<pre>yes</pre>
+    </td>
+    <td>
+<pre>yes</pre>
+    </td>
+  </tr>
+</table>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/byuadmin">BYU Admin</a></td></tr>
+<tr><td>Date:</td><td>2013-10-18</td></tr>
+<tr><td>Time limit:</td><td>25s-50s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

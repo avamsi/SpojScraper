@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ETFS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22268. Euler Totient Function Sieve</h1>
+		<h2>Problem code: ETFS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img title="http://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg" src="../../content/francky:Euler" alt="Leonhard Euler" />
+<img title="http://en.wikipedia.org/wiki/Euler%27s_totient_function#mediaviewer/File:EulerPhi.svg" src="../../content/francky:EulerPhi" style="width: 50%; height: 50%" alt="Totient" />
+</p>
+<p>In number theory, the totient <em>phi(n)</em> of a positive integer <em>n</em> is defined to be
+ the number of positive integers less than or equal to <em>n</em> that are coprime to <em>n</em>.</p>
+
+<h3>Input</h3>
+<p>
+	The lonely line in input contains two integers <em>a</em>, <em>b</em>.
+</p>
+
+<h3>Output</h3>
+<p>
+	Print <em>phi(n)</em> for <em>n</em> from <em>a</em> to <em>b</em> (inclusive).
+</p>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 5
+
+<b>Output:</b>
+1
+1
+2
+2
+4
+
+</pre>
+
+<h3>Constraints</h3>
+<pre>0 < a < b < 10^14
+b - a < 10^5
+</pre>
+<p>Python can get AC under half the time limit (for any test case). My total PY3.4 time is 3.23s for 5 input files.</br>
+Have fun ;-)</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-12-29</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ETF</td></tr>	
+</table>

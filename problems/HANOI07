@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HANOI07"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>681. Building the Tower</h1>
+		<h2>Problem code: HANOI07</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+There are N cubes in a toy box which has 1-unit height, the width is double the height. The teacher organizes a tower-building game. The tower is built by the cubes. The height of the tower is H (h levels). The bottom of the tower contains M cubes; and for all above level, each must contains a number of cubes which is exactly 1 less than or greater than the number of cubes of the level right below it.  
+
+Your task is to determine how many different towers can be there. Two towers are considered different if there is at least one number i (1< i <=H) so that the i'th level of one tower contains a different number of cubes to the i'th level of the other tower.
+
+<h3>Input</h3>
+<p>
+The first line of input file is the integer number t ( 0 < t < 1002 ) , the number of test cases . Each test case in one line , the line contains three positive number N, H and M (N <= 32767, H<=60, M<=10). 
+<h3>Output</h3>
+<p>
+With each test case , write in one line , the total of different towers that can be founded. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+7 3 2
+22 5 4
+<b>Output:</b>
+2
+10
+(* In the first test case , all the towers are : 2-1-2 , 2-3-2 . *)
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hard7771988">Nguyen Minh Hieu</a></td></tr>
+<tr><td>Date:</td><td>2005-12-30</td></tr>
+<tr><td>Time limit:</td><td>0.349s
+</td></tr>
+<tr><td>Source limit:</td><td>7777B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM</td></tr>	
+</table>

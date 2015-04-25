@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MINTRIAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2423. Minimal Triangulations of Graphs</h1>
+		<h2>Problem code: MINTRIAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Check whether the given graph is <a href="http://mathworld.wolfram.com/ChordalGraph.html">chordal</a>.
+
+<h3>Input</h3>
+<p>The first line contains an integer 1<=t<=200 denoting the number of test cases. Then t graphs are given (not necessarily connected). Each graph is described by two lines. The first line contains a string of the form:
+
+n=nodes,m=edges:
+
+The second line gives the edges of the graph separated by commas. Each edge is given as a pair of vertices: {u,v}. Vertices of the graph are denoted with integers 0...,n-1. 
+<h3>Output</h3>
+<p>For each test case print YES if the graph is chordal, or NO if it isn't.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+n=6,m=4
+{0,1} {2,3} {3,4} {3,5} 
+n=6,m=7
+{0,3} {1,2} {1,3} {2,4} {2,5} {3,4} {3,5} 
+
+<b>Output:</b>
+YES
+NO
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/goluch">Tomasz Goluch</a></td></tr>
+<tr><td>Date:</td><td>2008-02-05</td></tr>
+<tr><td>Time limit:</td><td>6.919s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

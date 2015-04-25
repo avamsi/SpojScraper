@@ -1,0 +1,104 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/pabloh"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ADVEDIST" target="_blank">7099. Advanced Edit Distance</a></td><td><a href="http://www.spoj.com/problems/ADVEDIST"target="_blank">ADVEDIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BACKTPOL" target="_blank">7100. Back To The Polygon</a></td><td><a href="http://www.spoj.com/problems/BACKTPOL"target="_blank">BACKTPOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CANDN" target="_blank">7101. Charly And Nito</a></td><td><a href="http://www.spoj.com/problems/CANDN"target="_blank">CANDN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DTWW" target="_blank">7102. Doing The Word Wrap</a></td><td><a href="http://www.spoj.com/problems/DTWW"target="_blank">DTWW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDDIST" target="_blank">7103. Edit Distance</a></td><td><a href="http://www.spoj.com/problems/EDDIST"target="_blank">EDDIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FTHEELF" target="_blank">7104. Feanor The Elf</a></td><td><a href="http://www.spoj.com/problems/FTHEELF"target="_blank">FTHEELF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GK" target="_blank">7107. G Key</a></td><td><a href="http://www.spoj.com/problems/GK"target="_blank">GK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEPNUM" target="_blank">7108. Heptadecimal Numbers</a></td><td><a href="http://www.spoj.com/problems/HEPNUM"target="_blank">HEPNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INDIPROG" target="_blank">7109. Indicator of progression</a></td><td><a href="http://www.spoj.com/problems/INDIPROG"target="_blank">INDIPROG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AXIS" target="_blank">7184. Axis of Symmetry</a></td><td><a href="http://www.spoj.com/problems/AXIS"target="_blank">AXIS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYECAKES" target="_blank">7185. Bye Bye Cakes</a></td><td><a href="http://www.spoj.com/problems/BYECAKES"target="_blank">BYECAKES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COUNTPAS" target="_blank">7186. Counting Pascal</a></td><td><a href="http://www.spoj.com/problems/COUNTPAS"target="_blank">COUNTPAS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DINOSM" target="_blank">7187. Dinosaur Menace</a></td><td><a href="http://www.spoj.com/problems/DINOSM"target="_blank">DINOSM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ESJAIL" target="_blank">7188. Escape from Jail</a></td><td><a href="http://www.spoj.com/problems/ESJAIL"target="_blank">ESJAIL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FALTAENV" target="_blank">7189. Falta Envido</a></td><td><a href="http://www.spoj.com/problems/FALTAENV"target="_blank">FALTAENV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUESSTHE" target="_blank">7190. Guess the Number</a></td><td><a href="http://www.spoj.com/problems/GUESSTHE"target="_blank">GUESSTHE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEXBOARD" target="_blank">7191. Hexagonal Board</a></td><td><a href="http://www.spoj.com/problems/HEXBOARD"target="_blank">HEXBOARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INTEGMAX" target="_blank">7192. Integral Maximization</a></td><td><a href="http://www.spoj.com/problems/INTEGMAX"target="_blank">INTEGMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BORW" target="_blank">7208. Black or White</a></td><td><a href="http://www.spoj.com/problems/BORW"target="_blank">BORW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLOSEST" target="_blank">7209. Closest Triplet</a></td><td><a href="http://www.spoj.com/problems/CLOSEST"target="_blank">CLOSEST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRAWM" target="_blank">7210. Draw Mountains</a></td><td><a href="http://www.spoj.com/problems/DRAWM"target="_blank">DRAWM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ELASTIC" target="_blank">7211. Elastic Bands</a></td><td><a href="http://www.spoj.com/problems/ELASTIC"target="_blank">ELASTIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FINDSR" target="_blank">7212. Find String Roots</a></td><td><a href="http://www.spoj.com/problems/FINDSR"target="_blank">FINDSR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GARBAGE" target="_blank">7230. Garbage Collection</a></td><td><a href="http://www.spoj.com/problems/GARBAGE"target="_blank">GARBAGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOMEW" target="_blank">7231. Homework</a></td><td><a href="http://www.spoj.com/problems/HOMEW"target="_blank">HOMEW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INVESORT" target="_blank">7232. Inversion Sort</a></td><td><a href="http://www.spoj.com/problems/INVESORT"target="_blank">INVESORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACTIV" target="_blank">7386. Activities</a></td><td><a href="http://www.spoj.com/problems/ACTIV"target="_blank">ACTIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BEENUMS" target="_blank">7406. Beehive Numbers</a></td><td><a href="http://www.spoj.com/problems/BEENUMS"target="_blank">BEENUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAMELOT" target="_blank">7408. Camelot</a></td><td><a href="http://www.spoj.com/problems/CAMELOT"target="_blank">CAMELOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRAWQUAD" target="_blank">7409. Drawing Quadrilaterals</a></td><td><a href="http://www.spoj.com/problems/DRAWQUAD"target="_blank">DRAWQUAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ESCJAILA" target="_blank">7422. Escape from Jail Again</a></td><td><a href="http://www.spoj.com/problems/ESCJAILA"target="_blank">ESCJAILA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FILRTEST" target="_blank">7423. File Recover Testing</a></td><td><a href="http://www.spoj.com/problems/FILRTEST"target="_blank">FILRTEST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GIRLSNBS" target="_blank">7424. Girls and Boys</a></td><td><a href="http://www.spoj.com/problems/GIRLSNBS"target="_blank">GIRLSNBS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HACKERS" target="_blank">7425. Hackers</a></td><td><a href="http://www.spoj.com/problems/HACKERS"target="_blank">HACKERS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMPUNITS" target="_blank">7426. Imperial Units</a></td><td><a href="http://www.spoj.com/problems/IMPUNITS"target="_blank">IMPUNITS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JARA" target="_blank">7427. Jara&#8217;s Legacy</a></td><td><a href="http://www.spoj.com/problems/JARA"target="_blank">JARA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACANVAS" target="_blank">9636. A Canvas Building</a></td><td><a href="http://www.spoj.com/problems/ACANVAS"target="_blank">ACANVAS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BANDW" target="_blank">9637. Black and White</a></td><td><a href="http://www.spoj.com/problems/BANDW"target="_blank">BANDW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCUITS" target="_blank">9638. Circuits</a></td><td><a href="http://www.spoj.com/problems/CIRCUITS"target="_blank">CIRCUITS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EQUI" target="_blank">9640. Equilibrium</a></td><td><a href="http://www.spoj.com/problems/EQUI"target="_blank">EQUI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FBRIDGES" target="_blank">9641. Factory of Bridges</a></td><td><a href="http://www.spoj.com/problems/FBRIDGES"target="_blank">FBRIDGES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GETFAST" target="_blank">9642. Getting There Fast</a></td><td><a href="http://www.spoj.com/problems/GETFAST"target="_blank">GETFAST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEISLAZY" target="_blank">9643. He is Lazy</a></td><td><a href="http://www.spoj.com/problems/HEISLAZY"target="_blank">HEISLAZY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMPER" target="_blank">9644. Imperialism</a></td><td><a href="http://www.spoj.com/problems/IMPER"target="_blank">IMPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JOCTENIS" target="_blank">9645. Joy of CompuTenis</a></td><td><a href="http://www.spoj.com/problems/JOCTENIS"target="_blank">JOCTENIS</a><br>
+</td></tr>

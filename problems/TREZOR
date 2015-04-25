@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TREZOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3733. Trezor</h1>
+		<h2>Problem code: TREZOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/TREZOR/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/TREZOR/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+
+<p>Mirko decided to open a new business &#8211; bank vaults. A branch of the bank can be visualized in a plane,vaults being points in the plane. Mirko's branch contains exactly L&#183;(A+1+B) vaults, so that each point
+with integer coordinates inside the rectangle with corners (1, &#8722;A) and (L, B) contains one vault.</p>
+<p>The vaults are watched by two guards &#8211; one at (0, &#8722;A), the other at (0, B). A guard can see a vault if
+there are no other vaults on the line segment connecting them.</p>
+<p>A vault is not secure if neither guard can see it, secure if only one guard can see it and super-secure if
+both guards can see it.</p>
+<p>Given A, B and L, output the number of insecure, secure and super-secure vaults.</p>
+
+<h3>Input</h3>
+<p>The first line contains integers A and B separated by a space (1 &#8804; A &#8804; 2000, 1 &#8804; B &#8804; 2000).</p>
+<p>The second line contains the integer L (1 &#8804; L &#8804; 1 000 000 000).</p>
+
+<h3>Output</h3>
+<p>Output on three separate lines the numbers of insecure, secure and super-secure vaults.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 1
+3
+
+<b>Output:</b>
+2
+2
+5
+</pre>
+
+
+<pre>
+<b>Input:</b>
+2 3
+4
+
+<b>Output:</b>
+0
+16
+8
+</pre>
+
+<pre>
+<b>Input:</b>
+7 11
+1000000
+
+<b>Output:</b>
+6723409
+2301730
+9974861
+</pre>
+
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-01-18</td></tr>
+<tr><td>Time limit:</td><td>0.548s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COCI 2008/2009</td></tr>	
+</table>

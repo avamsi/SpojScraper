@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AFS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14138. Amazing Factor Sequence</h1>
+		<h2>Problem code: AFS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Bhelu is the classmate of Bablu who made the <a href="https://www.spoj.com/problems/APS/" target="next"> Amazing Prime Sequence </a>.</p>
+<p style="text-align: justify;">He felt jealous of his classmate and decides to make his own sequence. Since he was not very imaginative, he came up with almost the same definition just making a difference in f(n):</p>
+<p style="text-align: justify;">a[0] = a[1] = 0;</p>
+<p style="text-align: justify;">For n &gt; 1, a[n] = a[n - 1] + f(n), where f(n) is the sum of natural numbers in the following set S.</p>
+<p style="text-align: justify;">S = {x | x &lt; n and n % x = 0}</p>
+<p style="text-align: justify;">Now, Bablu asked him to make a code to find f(n) as he already had the code of his sequence. So, Bhelu asks for your help since he doesn't know Programming. Your task is very simple, just find a[n] for a given value of n(&lt; 10^6).</p>
+<h3>Input</h3>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Your code will be checked for multiple Test Cases.</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">First Line of Input contains T (&lt;= 100), the number of Test Cases.</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">Next T lines contain a single number N. (1 &lt; N &lt; 10^6).</p>
+<h3>Output</h3>
+<p><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">Single line containing a[n] i.e. nth number of the sequence for each test case.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>3</pre>
+<pre>4</pre>
+<pre>5</pre>
+<pre><strong>Output:</strong>
+2
+</pre>
+<pre>5</pre>
+<pre>6</pre>
+<pre>Explanation:</pre>
+<pre>f(2) = 1 {1}</pre>
+<pre>f(3) = 1 {1}</pre>
+<pre>f(4) = 3 {1, 2}</pre>
+<pre>f(5) = 1 {1}</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ksh15">c[R]@zY f[R]0G</a></td></tr>
+<tr><td>Date:</td><td>2013-03-15</td></tr>
+<tr><td>Time limit:</td><td>0.457s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

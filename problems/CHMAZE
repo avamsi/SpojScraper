@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHMAZE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3387. Changing Maze</h1>
+		<h2>Problem code: CHMAZE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Luke Skywalker and his sister/love interest Leia are trying to get through a killer maze. And I
+mean killer! Every time step, the boundaries change. If our twins/lovebirds ever visit a square the
+same time a boundary appears, they&#8217;re toast. There is no need to panic; the Force will guide them
+through the maze, and they will not die. However, the Force needs to know what advice to give
+and is therefore asking you for help.<br><br>
+Luke and Leia begin in the northwest corner of a maze. They want to make it to the southeast
+corner of the maze. At any given time step, Luke and Leia can move one square north, south, east,
+or west, or they can stay where they are. At every time step, the boundaries of the maze change:
+there is a finite list of patterns; if Luke and Leia are still in the maze when the list of patterns
+is exhausted, the maze cycles through again from the beginning of the list. You need to compute
+whether Luke and Leia can make it to the southeast corner of the maze, and, if so, the minimum
+number of time steps necessary for them to get there. Remember, the Force is counting on you! If
+you give the Force bad advice, we&#8217;ll have to wait around for A Newer Hope and Force Knows how
+long that could take!
+
+
+<h3>Input</h3>
+<p>The input consists of several test cases. Each case (but the last) will begin with a line containing
+three decimal integers. The first is the number of rows in the maze; the second is the number of
+columns in the maze; the third is the number of patterns in the list. The first two numbers will
+be inclusively between 1 and 20; the third will be inclusively between 1 and 10. The integers will
+be separated by exactly one space and will be followed by one <EOL>. Immediately following this
+line will be a number of patterns, equal to the number specified on the first line. Each pattern will
+consist of r lineas each containing c characters, where r is the number of rows and c is the number
+of columns indicated on the first line. Each character will be either 0 (indicating no boundary) or
+1 (indicating a boundary). Each line will be terminated by <EOL>, and an extra <EOL> will follow
+each pattern. The northwest corner of the first pattern will always be zero, since Luke and Leia
+will be starting from there. The last case will be three zeros, separated by exactly one space and
+followed by exactly one <EOL>. This case is not to be processed; it indicates the end of input.
+
+
+<h3>Output</h3>
+<p>The output cases are to appear in the same order in wich they appear in the input. Each output
+case should be of the form <i>Case c: Luke and Leia can escape in s steps.</i> or of the form
+<i>Case c: Luke and Leia cannot escape.</i> c and s are decimal integers. c in the number of the
+case being processed (starting with 1) and s is the minimum number of time steps Luke and Leia
+require to reach the southeast corner. Each line should be terminated by exactly one <EOL>.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5 5 1
+00000
+00000
+00000
+00000
+00000
+5 5 2
+00000
+00000
+00000
+00000
+00000
+01110
+01110
+11111
+01110
+01110
+0 0 0
+
+<b>Output:</b>
+Case 1: Luke and Leia can escape in 8 steps.
+Case 2: Luke and Leia cannot escape.
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dilaang">Daniel Gómez Didier</a></td></tr>
+<tr><td>Date:</td><td>2008-11-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>2007 U.Nacional - Circuito de Maratones ACIS / REDIS</td></tr>	
+</table>

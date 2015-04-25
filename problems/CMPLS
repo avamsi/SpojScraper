@@ -1,0 +1,137 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CMPLS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8. Complete the Sequence!</h1>
+		<h2>Problem code: CMPLS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+
+You probably know those quizzes in Sunday magazines: given the sequence 1, 2,
+3, 4, 5, what is the next number? Sometimes it is very easy to answer,
+sometimes it could be pretty hard. Because these "sequence problems" are very
+popular, ACM wants to implement them into the "Free Time" section of their
+new WAP portal.
+
+<P>
+ACM programmers have noticed that some of the quizzes can be solved by
+describing the sequence by polynomials. For example, the sequence 1, 2, 3, 4, 5
+can be easily understood as a trivial polynomial. The next number is 6. But even
+more complex sequences, like 1, 2, 4, 7, 11, can be described by a polynomial.
+In this case, 
+1/2.<VAR>n</var><SUP>2</sup>-1/2.<VAR>n</var>+1 can be used. Note that even
+if the members of the sequence are integers, polynomial coefficients may be any
+real numbers.
+
+<P>
+Polynomial is an expression in the following form:
+<BR><P></p>
+<DIV ALIGN="CENTER">
+<VAR>P</var>(<VAR>n</var>) = <VAR>a</var><SUB><VAR>D</var></sub>.<VAR>n</var><SUP><VAR>D</var></sup>+<VAR>a</var><SUB><VAR>D</var>-1</sub>.<VAR>n</var><SUP><VAR>D</var>-1</sup>+...+<VAR>a</var><SUB>1</sub>.<VAR>n</var>+<VAR>a</var><SUB>0</sub>
+
+</div>
+<BR CLEAR="ALL">
+<p>
+If <VAR>a</var><SUB><VAR>D</var></sub> <> 0, the number <VAR>D</var> is called a <EM>degree</em> of the polynomial. Note
+that constant function <VAR>P</var>(<VAR>n</var>) = <VAR>C</var> can be considered as polynomial of degree 0, and
+the zero function <VAR>P</var>(<VAR>n</var>) = 0 is usually defined to have degree -1.
+</p>
+
+<P>
+<H3>Input</h3>
+
+<P>
+There is a single positive integer <VAR>T</var> on the first line of input (equal to about 5000). It stands
+for the number of test cases to follow. Each test case consists of two
+lines. First line of each test case contains two integer numbers <VAR>S</var> and
+<VAR>C</var> separated by a single space, 
+1 <= <VAR>S</var> < 100, 
+1 <= <VAR>C</var> < 100,
+
+(<VAR>S</var>+<VAR>C</var>) <= 100. The first number, <VAR>S</var>, stands for the length of the given
+sequence, the second number, <VAR>C</var> is the amount of numbers you are to find to
+complete the sequence.
+
+
+<P>
+The second line of each test case contains <VAR>S</var> integer numbers
+
+<VAR>X</var><SUB>1</sub>, <VAR>X</var><SUB>2</sub>, ... <VAR>X</var><SUB><VAR>S</var></sub> separated by a space. These numbers form the given
+sequence. The sequence can always be described by a polynomial <VAR>P</var>(<VAR>n</var>) 
+such that for every <VAR>i</var>, 
+
+<VAR>X</var><SUB><VAR>i</var></sub> = <VAR>P</var>(<VAR>i</var>). Among these polynomials, we can find the
+polynomial <VAR>P</var><SUB><VAR>min</var></sub> with the lowest possible degree. This polynomial should be
+used for completing the sequence.
+
+<P>
+<H3>Output</h3>
+
+<P>
+
+For every test case, your program must print a single line containing <VAR>C</var> 
+integer numbers, separated by a space. These numbers are the values
+completing the sequence according to the polynomial of the lowest possible
+degree. In other words, you are to print values
+
+<VAR>P</var><SUB><VAR>min</var></sub>(<VAR>S</var>+1), <VAR>P</var><SUB><VAR>min</var></sub>(<VAR>S</var>+2), .... <VAR>P</var><SUB><VAR>min</var></sub>(<VAR>S</var>+<VAR>C</var>).
+
+
+<P>
+It is guaranteed that the results 
+<VAR>P</var><SUB><VAR>min</var></sub>(<VAR>S</var>+<VAR>i</var>) will be non-negative and
+will fit into the standard <EM>integer</em> type.
+
+<h3>Example</h3>
+
+<p>Sample Input:</p><PRE><tt>4
+6 3
+1 2 3 4 5 6
+8 2
+1 2 4 7 11 16 22 29
+10 2
+1 1 1 1 1 1 1 1 1 2
+1 10
+3
+</tt>
+</pre>
+
+<p>Sample Output:</p><PRE><tt>7 8 9
+37 46
+11 56
+3 3 3 3 3 3 3 3 3 3</tt>
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-08</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 2000</td></tr>	
+</table>

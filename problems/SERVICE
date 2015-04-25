@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SERVICE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>703. Mobile Service</h1>
+		<h2>Problem code: SERVICE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+A company provides service for its partners that are located in different towns. The company 
+has three mobile service staff employees. If a request occurs at some location, an employee of 
+the  service  staff  must  move  from  his  current  location  to  the  location  of  the  request  (if  no 
+employee  is  there)  in  order  to  satisfy  the  request.  Only  one  employee  can  move  at  any 
+moment.  They  can  move  only  on  request  and  are  not  allowed  to  be  at  the  same  location. 
+Moving  an  employee  from  location  p  to  location  q  incurs  a  given  cost  C(p,q).  The  cost 
+function  is  not  necessarily  symmetric,  but  the  cost  of  not  moving  is  0,  i.e.  C(p,p)=0.  The 
+company must satisfy the received requests in a strict first-come, first-serve basis. The goal is 
+to minimize the total cost of serving a given sequence of requests. 
+<p>
+Task  
+<p>
+You are to write a program that decides which employee of the service staff is to move for 
+each request such that the total cost of serving the given sequence of requests is as small as 
+possible.
+
+<h3>Input</h3>
+<p>
+The first line of input contains the number of test cases - nTest. Each test case contains:
+<p>
+The first line of each test cases contains two integers, L and N. L (3 <= L <= 200) is the  number  of  locations  and  N  (1 <= N <= 1000)  is  the  number  of  requests.  Locations  are 
+identified  by  the  integers  from  1  to  L.  Each  of  the  next  L  lines  contains  L  non-negative 
+integers. The jth number in the line i+1 is the cost C(i,j), and it is less than 2000. <p> 
+The last of each test cases contains  N  integers,  the  list  of  the  requests.  A  request  is  identified  by  the  identifier  of  the 
+location where the request occurs.  Initially, the three service staff employees are located  at 
+location 1, 2 and 3, respectively. 
+
+<h3>Output</h3>
+<p>
+For each test case write the minimal total cost in a separate line.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+5 9
+0 1 1 1 1
+1 0 2 3 2
+1 1 0 4 1
+2 1 5 0 1
+4 2 3 4 0
+4 2 4 1 5 4 3 2 1
+<b>Output:</b>
+5
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dtmp">Nguyen Dinh Tu</a></td></tr>
+<tr><td>Date:</td><td>2006-01-17</td></tr>
+<tr><td>Time limit:</td><td>2.448s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>CEOI 2005, Day 1</td></tr>	
+</table>

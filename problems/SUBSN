@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBSN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14929. Subsequence</h1>
+		<h2>Problem code: SUBSN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;"> </p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">A subsequence is a sequence that can be derived from another sequence by deleting some</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">elements without changing the order of the remaining elements. For example &#8220;abd&#8221; is a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">subsequence of &#8220;abcdef&#8221;. - Wikipedia</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">Your task in this problem is to decide if a given string is a subsequence of another string or not?</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">Easy?</div>
+<p style="text-align: justify;">A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. For example &#8220;abd&#8221; is a subsequence of &#8220;abcdef&#8221;. - Wikipedia.</p>
+<p style="text-align: justify;">Your task in this problem is to decide if a given string is a subsequence of another string or not?</p>
+<p style="text-align: justify;">Easy?</p>
+<h3 style="text-align: justify;">Input</h3>
+<p style="text-align: justify;">The first line of input will be the number of test cases. Each test case will start with a line contains a string S, S will have letters from 'a' to 'z' and the length of S <= 100,000. This line will be followed by a number Q which is the number of queries you have to answer for the given string S, 1 <= Q <= 1000. Each of the next Q lines will contain a string T, T will have letter from 'a' to 'z' and the length of T <= 200. For each T you have to decide if T is a subsequence of S or not.</p>
+<h3 style="text-align: justify;">Output</h3>
+<p style="text-align: justify;">For each test case print Q + 1 lines, The first line will have &#8220;Case C:&#8221; without quotes where C is the case number starting with 1. The next Q lines will have either &#8220;YES&#8221; or &#8220;NO&#8221; if the cross-ponding T is a subsequence of S or not respectively.</p>
+<h3>Example</h3>
+<pre><strong><u>Input:</u></strong>
+1
+abcdef
+3
+abd
+adb
+af
+
+<strong><u>Output:</u></strong>
+Case 1:
+YES
+NO
+YES</pre>
+
+<br>
+<p><b><u>Editors note:</u></b><br>
+Strings in the input can be empty. Read data carefully to avoid issues. There should be no extra withespaces, of course except '\n'.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hossamyosef">hossamyosef</a></td></tr>
+<tr><td>Date:</td><td>2013-05-13</td></tr>
+<tr><td>Time limit:</td><td>0.408s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FCIS/ASU Local Contest 2013</td></tr>	
+</table>

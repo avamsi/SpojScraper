@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JAVAC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1163. Java vs C &#43&#43</h1>
+		<h2>Problem code: JAVAC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Apologists of Java and C++ can argue for hours proving each other that their programming language is the best one. Java people will tell that their programs are clearer and less prone to errors, while C++ people will laugh at their inability to instantiate an array of generics or tell them that their programs are slow and have long source code.
+
+<p><br>
+Another issue that Java and C++ people could never agree on is identifier naming. In Java a multiword identifier is constructed in the following manner: the first word is written starting from the small letter, and the following ones are written starting from the capital letter, no separators are used. All other letters are small. Examples of a Java identifier are javaIdentifier, longAndMnemonicIdentifier, name, nEERC.
+
+<p><br>
+Unlike them, C++ people use only small letters in their identifiers. To separate words they use underscore character &#8216;_&#8217;. Examples of C++ identifiers are c_identifier, long_and_mnemonic_identifier, name (you see that when there is just one word Java and C++ people agree), n_e_e_r_c.
+
+<p><br>
+You are writing a translator that is intended to translate C++ programs to Java and vice versa. Of course, identifiers in the translated program must be formatted due to its language rules &#8212; otherwise people will never like your translator.
+
+<p><br>
+The first thing you would like to write is an identifier translation routine. Given an identifier, it would detect whether it is Java identifier or C++ identifier and translate it to another dialect. If it is neither, then your routine should report an error. Translation must preserve the order of words and must only change the case of letters and/or add/remove underscores.
+
+<p><br>
+<h3>Input</h3>
+<p>The input file consists of several lines that contains an identifier. It consists of letters of the English alphabet and underscores. Its length does not exceed 100.
+
+<p><br>
+<h3>Output</h3>
+<p>If the input identifier is Java identifier, output its C++ version. If it is C++ identifier, output its Java version. If it is none, output 'Error!' instead.
+
+<p><br>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+long_and_mnemonic_identifier
+anotherExample
+i
+bad_Style
+
+<b>Output:</b>
+longAndMnemonicIdentifier
+another_example
+i
+Error!
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2006-12-14</td></tr>
+<tr><td>Time limit:</td><td>0.157s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Northeastern Europe 2006</td></tr>	
+</table>

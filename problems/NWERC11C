@@ -1,0 +1,100 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NWERC11C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9889. Movie collection</h1>
+		<h2>Problem code: NWERC11C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>  Movie collection</h3>
+<!--l. 3-->
+<p>Mr. K. I. has a very big movie collection. He has organized his collection in a big stack. Whenever he wants to watch one of the movies, he locates the movie in this stack and removes it carefully, ensuring that the stack doesn&#8217;t fall over. After he finishes watching the movie, he places it at the top of the stack. <!--l. 9--></p>
+<p>Since the stack of movies is so big, he needs to keep track of the position of each movie. It is sufficient to know for each movie how many movies are placed above it, since, with this information, its position in the stack can be calculated. Each movie is identified by a number printed on the movie box. <!--l. 15--></p>
+<p>Your task is to implement a program which will keep track of the position of each movie. In particular, each time Mr. K. I. removes a movie box from the stack, your program should print the number of movies that were placed above it before it was removed. <!--l. 20--></p>
+<p> </p>
+<h4>Input</h4>
+<!--l. 21-->
+<p>On the first line a positive integer: the number of test cases, at most 100. After that per test case:</p>
+<ul>
+<li>one line with two integers <em>m </em>and <em>r </em>(1 &#8804; <em>m,r </em>&#8804; 100<span style="margin-left:0.3em"> 000): the number of movies in       the stack and the number of locate requests. </li>
+<li>one line with <em>r </em>integers <em>a</em><sub>1</sub><em>,</em><em>&#8230;</em><em>,a</em><sub>r</sub> (1 &#8804; <em>a</em><sub>i</sub> &#8804; <em>m</em>) representing the identification numbers       of movies that Mr. K. I. wants to watch.</li>
+</ul>
+<!--l. 31-->
+<p>For simplicity, assume that the initial stack contains the movies with identification numbers 1<em>, </em>2<em>,</em><em>&#8230;</em><em>,m </em>in increasing order, where the movie box with label 1 is the top-most box.  <!--l. 35--></p>
+<p> </p>
+<h4>Output</h4>
+<!--l. 36-->
+<p>Per test case:</p>
+<ul>
+<li>one line with <em>r </em>integers, where the <em>i</em>-th integer gives the number of movie boxes above       the box with label <em>a</em><sub>i</sub>, immediately before this box is removed from the stack.</li>
+</ul>
+<!--l. 43-->
+<p>Note that after each locate request <em>a</em><sub>i</sub>, the movie box with label <em>a</em><sub>i</sub> is placed at the top of the stack. <!--l. 46--></p>
+<p> </p>
+<h4>Sample in- and output</h4>
+<table align="center" id="TBL-1" border="1" cellspacing="5" cellpadding="5" rules="groups">
+<colgroup><col id="TBL-1-1"></col></colgroup><colgroup id="TBL-1-2g"><col id="TBL-1-2"></col></colgroup>
+<tbody>
+<tr id="TBL-1-1-" style="vertical-align:baseline;">
+<td id="TBL-1-1-1" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Input</span></p>
+</td>
+<td id="TBL-1-1-2" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Output</span></p>
+</td>
+</tr>
+<tr id="TBL-1-2-" style="vertical-align:baseline;">
+<td id="TBL-1-2-1" style="white-space:wrap; text-align:left;"><!--l. 46-->
+<pre>2
+3 3
+3 1 1
+5 3
+4 4 5</pre>
+</td>
+<td id="TBL-1-2-2" style="white-space:wrap; text-align:left;"><!--l. 50-->
+<pre>2 1 0
+3 0 4</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<h4>Copyright notice</h4>
+<p>
+This problem text is copyright by the NWERC 2011 jury. It is
+licensed under the Creative Commons Attribution-Share Alike license
+version 3.0; The complete license text can be found at:
+<a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">http://creativecommons.org/licenses/by-sa/3.0/legalcode</a>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jthread">Jeroen Bransen</a></td></tr>
+<tr><td>Date:</td><td>2011-11-02</td></tr>
+<tr><td>Time limit:</td><td>2.630s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://2011.nwerc.eu/team.php">NWERC 2011 Jury</a></td></tr>	
+</table>

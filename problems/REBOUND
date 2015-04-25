@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/REBOUND"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11604. The return of the Cake</h1>
+		<h2>Problem code: REBOUND</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It is well known that, in byteland, when you throw a cake, the angle of reflexion is not the angle of incidence. Measured from the ground, the angle is the double, in byteland!</p>
+<p><img title="rebound" src="../../content/francky:rebound-fig2" alt="rebound" /></p>
+<p>You stand at point A(0, z), and you want to throw a cake in Leo's face. Leo stands at B(x, y) and is a very dangerous man, so you decide to use the ground in order to make your cake rebound.</p>
+<p>Your shot is precise only if you can use an integer value t in the intervall [0, x], in order to reflect on C(t, 0). Sometimes it's possible, sometimes not!</p>
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line. In each of the next T lines there are three integers x, y and z, explaining the locations : you A(0, z), Leo B(x, y).</p>
+<h3>Output</h3>
+<p>For each test case, find and print the only integer t such 0 <= t <= x, that allow this perfect shot. If it's not possible, output "Not this time.".</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+5 4 1
+6 5 2
+7 3 1
+
+<strong>Output:</strong>
+2
+Not this time.
+3
+</pre>
+<p>Comment : the last case is the one illustrated above.</p>
+<h3>Constraints</h3>
+<pre>1 < T < 100 000
+0 < x < 1 000 000 000
+0 < y < 1 000 000 000
+0 < z < 1 000 000 000</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2012-05-26</td></tr>
+<tr><td>Time limit:</td><td>1.702s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

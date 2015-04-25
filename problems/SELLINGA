@@ -1,0 +1,110 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SELLINGA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15460. Selling Art</h1>
+		<h2>Problem code: SELLINGA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="docs-internal-guid-1414a13e-35a2-4d58-7696-29bb6daa3d55"> </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">To the best of her friends&rsquo; knowledge, Irina is a great artist. That is why she decided to expose her work and conquer the world. Well, just sell it alright. To help her, her friends executed a decent strategy. For a whole month they went to &ldquo;The Man&eacute;ge&rdquo;, an arts exhibition hall in Saint Petersburg. They wrote down on a piece of paper the times at which collectionists enter and leave. Then they consolidated the data and realized that the times at which collectionists enter and leave is the same for every day. For example, collectionist A enters at time </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">eA</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> and leaves at time </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">lA</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> every day from Sunday to Saturday.</span></p>
+<p><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">To maximize exposure on any given day, she should arrive at the time the first collectionist enters and leave when the last to leave collectionist leaves, of course. This is impossible because she works every day and her boss won&rsquo;t allow a day off. She can take several short breaks, fortunately. </span></p>
+<div><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Her friends told her that as soon as she enters the Man&eacute;ge at a time </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">t</span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">, all the collectionists currently present will see her work. Because of this, she realizes she can take </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">k</span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;"> breaks. So, she can take a break, enter at a time </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">t </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">and go back to work and this will guarantee her that all currently present &nbsp;collectionists will take a look at her work. </span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">She&rsquo;s  quite an artist but unfortunately not good with numbers. Knowing the  times at which each collectionist enters and leaves the exhibition hall,  she wants to know the minimum number of breaks </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">k</span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;"> she needs to take in order to guarantee exposure to all collectionists. Help her. Write an awesome program for her.</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Note:  actually, this problem is from a parallel universe so times are not the  same as in ours. In this universe, the first second of a day is 0 and  the last second of a day is 399,999.</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Input description</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">The  first line of input contains N (<span id="docs-internal-guid-1414a13e-35a4-c159-7a3a-e4f80115ec8c"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1 &lt;= N &lt;= 2 * 10^5</span></span>), the number of collectionists  attending the Man&eacute;ge on this day. Then follow N lines. The i-th line  contains two space-separated positive integers (si,fi) &nbsp;(0 &lt;= si &lt; fi &lt;= 399 999),  the seconds at which the i-th collectionist enters and leaves,  respectively.</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Output description</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">First print </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">k</span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">, the minimum number of breaks Irina needs to take, on a single line. Then print </span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;">k</span><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;"> lines. On the i-th line print the time at which Irina needs to show up for the i-th break. </span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">If there are several answers, print the one with earliest break times, in order.</span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Sample cases</span></p>
+<p>&nbsp;</p>
+<div dir="ltr">
+<table style="border: none; border-collapse: collapse; width: 624px;" border="0">
+<colgroup><col width="*"></col><col width="*"></col></colgroup> 
+<tbody>
+<tr style="height: 0px;">
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;text-align: center;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Sample Input</span></p>
+</td>
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;text-align: center;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">Sample Output</span></p>
+</td>
+</tr>
+<tr style="height: 0px;">
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">3</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">0 5</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">1 4</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">2 6</span></p>
+</td>
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">1</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">2</span></p>
+</td>
+</tr>
+<tr style="height: 0px;">
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">3</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">0 1</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">2 3</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">4 5</span></p>
+</td>
+<td style="border:1px solid #000000;vertical-align:top;padding:7px 7px 7px 7px">
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">3</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">0</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">2</span></p>
+<p style="line-height:1;margin-top:0pt;margin-bottom:0pt;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">4</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">In  the first sample case, three collectionists are present. The first  collectionist arrives at second 0 and leaves at second 5. The second  collectionist arrives at second 1 and leaves at second 4. The third  collectionist arrives at second 2 and leaves at second 6. Irina can  choose to arrive at seconds 2, 3, 4 and be guaranteed to have all three  collectionists see her work. However, she chooses to arrive at second 2  because it is the earliest time. </span></p>
+<p>&nbsp;</p>
+<p style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;" dir="ltr"><span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">In the second sample case, she must take 3 breaks: no more than one collectionist is present at any given time.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kojak_">kojak_</a></td></tr>
+<tr><td>Date:</td><td>2013-07-25</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Olimpiada de Programación PUCMM ACM-ISC 2013</td></tr>	
+</table>

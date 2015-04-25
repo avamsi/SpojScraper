@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCD3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5084. Discrete Math Problem</h1>
+		<h2>Problem code: GCD3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given N, M and K (1 <= N, M <= 100^200 and 1 <= K <= 16) which<br /><br />N = a + b<br />M = a^2 + b^2 - (2^K - 2) * a * b<br /><br />with a > 0, b > 0 and gcd(a, b) = 1.<br /><br />Your task is to find gcd(N, M).</p>
+<h3>Input</h3>
+<p>The input file consists of several data sets. The first line contains<br />the number of data sets T (1 <= T <= 10000). The fallowing T lines<br />describe the data sets, one triple (N, M, K) for each.</p>
+<h3>Output</h3>
+<p>For each data test in the input write the gcd(N, M).</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /><br /></strong>2<br />648570884104668119354133 420644191708310845403065233058235585438328857465 5<br />8017723549 59173349743176010825 9<br />
+<strong>Output:<br /><br /></strong>1<br />1<br /><hr /><br />Note: For the first trio a = 648570884104668119354126 and b = 7.<br />For the second a = 8016478423 and b = 1245126.<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/frankr">Frank Rafael Arteaga</a></td></tr>
+<tr><td>Date:</td><td>2009-10-24</td></tr>
+<tr><td>Time limit:</td><td>0.011s-0.034s</td></tr>
+<tr><td>Source limit:</td><td>1000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ADA ASM BASH BF C C# C++ 4.9 C99 strict CLPS D ERL FORT ICON ICK JAR JS LUA NEM NICE CAML PAS fpc PAS gpc PERL PRLG SCALA SCM guile SCM qobi ST TCL TEXT WSPC </td></tr>
+<tr><td>Resource:</td><td>Discrete Math</td></tr>	
+</table>

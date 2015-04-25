@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/vplcontest"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DARKASLT" target="_blank">11948. Dark Assault</a></td><td><a href="http://www.spoj.com/problems/DARKASLT"target="_blank">DARKASLT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IGALAXY" target="_blank">11952. Intergalactic Highways</a></td><td><a href="http://www.spoj.com/problems/IGALAXY"target="_blank">IGALAXY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLACKOUT" target="_blank">12030. Blackout</a></td><td><a href="http://www.spoj.com/problems/BLACKOUT"target="_blank">BLACKOUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_A" target="_blank">12556. Another Traffic Problem</a></td><td><a href="http://www.spoj.com/problems/CDC12_A"target="_blank">CDC12_A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_B" target="_blank">12557. Basic Routines</a></td><td><a href="http://www.spoj.com/problems/CDC12_B"target="_blank">CDC12_B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_C" target="_blank">12558. Collision Issue</a></td><td><a href="http://www.spoj.com/problems/CDC12_C"target="_blank">CDC12_C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_D" target="_blank">12559. Drastic Race</a></td><td><a href="http://www.spoj.com/problems/CDC12_D"target="_blank">CDC12_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_E" target="_blank">12560. External Falling Objects</a></td><td><a href="http://www.spoj.com/problems/CDC12_E"target="_blank">CDC12_E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_F" target="_blank">12561. Forbidden Machine</a></td><td><a href="http://www.spoj.com/problems/CDC12_F"target="_blank">CDC12_F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_G" target="_blank">12562. Glory War</a></td><td><a href="http://www.spoj.com/problems/CDC12_G"target="_blank">CDC12_G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDC12_H" target="_blank">12563. Halt The War</a></td><td><a href="http://www.spoj.com/problems/CDC12_H"target="_blank">CDC12_H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL0_A" target="_blank">12958. Another Gift Problem</a></td><td><a href="http://www.spoj.com/problems/VPL0_A"target="_blank">VPL0_A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL0_B" target="_blank">12959. Basic Grapes Instinct</a></td><td><a href="http://www.spoj.com/problems/VPL0_B"target="_blank">VPL0_B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL0_C" target="_blank">12960. Collision on Christmas Eve</a></td><td><a href="http://www.spoj.com/problems/VPL0_C"target="_blank">VPL0_C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL0_D" target="_blank">12961. Drastic Grapes</a></td><td><a href="http://www.spoj.com/problems/VPL0_D"target="_blank">VPL0_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL1_AA" target="_blank">14031. Spring Primality</a></td><td><a href="http://www.spoj.com/problems/VPL1_AA"target="_blank">VPL1_AA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL1_AB" target="_blank">14032. Summer Game</a></td><td><a href="http://www.spoj.com/problems/VPL1_AB"target="_blank">VPL1_AB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL1_AC" target="_blank">14033. Late Summer Searching</a></td><td><a href="http://www.spoj.com/problems/VPL1_AC"target="_blank">VPL1_AC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL1_AD" target="_blank">14034. Autumn Leaves</a></td><td><a href="http://www.spoj.com/problems/VPL1_AD"target="_blank">VPL1_AD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL1_AE" target="_blank">14035. Winter Crush</a></td><td><a href="http://www.spoj.com/problems/VPL1_AE"target="_blank">VPL1_AE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_AA" target="_blank">15241. Luis Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_AA"target="_blank">VPL2_AA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_AB" target="_blank">15242. Betos Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_AB"target="_blank">VPL2_AB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_AC" target="_blank">15243. Primos Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_AC"target="_blank">VPL2_AC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_AD" target="_blank">15244. Davids Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_AD"target="_blank">VPL2_AD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_BC" target="_blank">15310. Peter Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_BC"target="_blank">VPL2_BC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPL2_BE" target="_blank">15312. Annoying Coins Quest</a></td><td><a href="http://www.spoj.com/problems/VPL2_BE"target="_blank">VPL2_BE</a><br>
+</td></tr>

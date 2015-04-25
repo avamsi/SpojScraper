@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CPU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4004. Exploding CPU</h1>
+		<h2>Problem code: CPU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The well known hardware manufacturing company Processors for Professors is about to release a highly specialized CPU with exceptional functionality in, amongst other areas, number theory. It has, for example, an instruction PFACT that takes one parameter and returns all prime factors of that parameter, with an outstanding execution speed. It has, however, one considerable problem. The scientists at the testing lab has just found out that the PFACT instruction for some special input values freaks out and makes the entire processor explode. Even though this could be an amusing effect, it is not the way it was intended to work. The skilled mathematicians have, by trial and error, found that the explosive numbers all share the same interesting number theoretic properties, which might be of help when troubleshooting. An explosive number is a number x = p0p1p2 . . . pn where all pis are distinct prime numbers such that pi = Api&minus;1 +B for i = 1, 2, . . . , n. n &gt;= 3, p0 = 1. A and B are always integers, and might be different for different explosive numbers. For example, the processor will explode when factorizing the number 4505, because 4505 = 1 &middot; 5 &middot; 17 &middot; 53 and 5 = 3 &middot; 1 + 2, 17 = 3 &middot; 5 + 2 and 53 = 3 &middot; 17 + 2 and the numbers 5, 17 and 53 are all prime numbers. In this case A = 3 and B = 2. You are kindly asked to write a computer program that will aid this company in estimating the impact of the errors, by calculating the amount of explosive numbers that exists within a given range of integers.</p>
+<h3>Input</h3>
+<p>The input starts with a row containing the number 0 &lt;= N &lt;= 100 of test cases that will follow. For each test case, there will be one row containing two integers, xL and xH separated by a single space. These numbers are such that 0 &lt;= xL &lt;= xH &lt;= 2,000,000,000.</p>
+<h3>Output</h3>
+<p>For each test case, output the number of explosive numbers that exist in the range xL &lt;= x &lt;= xH.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+4505 4505
+0 5000
+
+<strong>Output:</strong>
+1
+5
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fabio">Fabio Avellaneda</a></td></tr>
+<tr><td>Date:</td><td>2009-03-01</td></tr>
+<tr><td>Time limit:</td><td>8.183s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>I maratón interuniversitaria del circuito Redis - Acis. Sedes: Politécnico - Javeriana</td></tr>	
+</table>

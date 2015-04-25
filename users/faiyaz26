@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/faiyaz26"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CNTPRIME" target="_blank">13015. Counting Primes </a></td><td><a href="http://www.spoj.com/problems/CNTPRIME"target="_blank">CNTPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BADXOR" target="_blank">17725. Bad XOR</a></td><td><a href="http://www.spoj.com/problems/BADXOR"target="_blank">BADXOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXRAD" target="_blank">17730. Maximum Radius</a></td><td><a href="http://www.spoj.com/problems/MAXRAD"target="_blank">MAXRAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUYINT" target="_blank">17731. Buying Integers</a></td><td><a href="http://www.spoj.com/problems/BUYINT"target="_blank">BUYINT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SALMAN" target="_blank">17732. Salary Management</a></td><td><a href="http://www.spoj.com/problems/SALMAN"target="_blank">SALMAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREEPAL" target="_blank">17755. Tree and Palindrome</a></td><td><a href="http://www.spoj.com/problems/TREEPAL"target="_blank">TREEPAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHARCHOC" target="_blank">17779. Charlie and the Chocolate Factory</a></td><td><a href="http://www.spoj.com/problems/CHARCHOC"target="_blank">CHARCHOC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPACEBRG" target="_blank">17789. Space Bridges</a></td><td><a href="http://www.spoj.com/problems/SPACEBRG"target="_blank">SPACEBRG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XYI" target="_blank">17819. XYI</a></td><td><a href="http://www.spoj.com/problems/XYI"target="_blank">XYI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MNIU" target="_blank">17821. My Name is UMMM!</a></td><td><a href="http://www.spoj.com/problems/MNIU"target="_blank">MNIU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARRHUDAI" target="_blank">20167. Array with Hudai Calculation</a></td><td><a href="http://www.spoj.com/problems/ARRHUDAI"target="_blank">ARRHUDAI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COLORSEG" target="_blank">20170. Coloring Segments</a></td><td><a href="http://www.spoj.com/problems/COLORSEG"target="_blank">COLORSEG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOI02TRI" target="_blank">20327. Triangles</a></td><td><a href="http://www.spoj.com/problems/BOI02TRI"target="_blank">BOI02TRI</a><br>
+</td></tr>

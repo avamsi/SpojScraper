@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FCTRHELL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13591. Factor y Hell</h1>
+		<h2>Problem code: FCTRHELL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Factorial(N) in base B : The number of trailing zeros.</h3>
+
+<p>
+Factorial(<b>19</b>) in base <b>9</b>×10^<b>0</b>=9 can be written 72573550063508<b>0000</b>, ending with <b>4</b> zeros.
+</br>
+Factorial(<b>43</b>) in base <b>2</b>×10^<b>1</b>=20 can be written 59HHHFECFCCEGH5G7I7A3A8G88F8CD8G<b>000000000</b>, ending with <b>9</b> zeros.
+</br>
+What about working with serious constraints and tricky cases ?</br>
+Factorial(<b>N</b>) will be a huge one, the base will be dummy too and have the special form : <b>B</b>×10^<b>E</b>.
+</p>
+
+
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.</br>
+In each of the next T lines there are three integers : N, B, E.</p>
+
+<h3>Output</h3>
+<p>
+For each test case, print the number of zeros at the end of Factorial(N) written in base B×10^E.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+19 9 0
+43 2 1
+10000 100 10
+
+<b>Output:</b>
+4
+9
+208
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+1 <= T < 2000
+1 <= N < 10^1000
+1 <= B < 10^9
+0 <= E < 10^9
+</pre>
+
+<h3>Informations</h3>
+<p>Don't worry about the 'special' base 1 (B=1 and E=0), it is absent from input.
+</br>
+About distribution : random input (N : log-uniform, B : uniform, E : uniform) in their range. Some tricky cases are added.
+</br>
+It is recommended to solve <a href="http://www.spoj.com/problems/FACTBASE/">FACTBASE</a> first, and find a way to solve
+<a href="http://www.spoj.com/problems/FCTRL/">FCTRL</a> much faster than common solutions.
+</br> Time limit is ×12 my best Python3 time, or ×1.2 my "basic" one.
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-02-03</td></tr>
+<tr><td>Time limit:</td><td>6s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

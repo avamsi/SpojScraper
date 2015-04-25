@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AP3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11066. AP - Complete The Series v2</h1>
+		<h2>Problem code: AP3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>After solving "AP - Complete The Series (easy)" very fast, Lucifer decided to make it little more interesting.</p>
+<p>He said</p>
+<p>He will be give you the 3rd term , 4th last term and the sum of the AP series. You need print length of the series & the series.</p>
+<h3>Input</h3>
+<p>First line will contain a number indicating the number of test cases.</p>
+<p>Each of the following t lines will have 3 number '3term' ,'4Lastterm' and 'sum'</p>
+<p>3term  - is the 3rd term in the series and</p>
+<p>4Lastterm  - is the 4th term in the series and</p>
+<p>sum - is the sum of the series.</p>
+<h3>Output</h3>
+<p>For each input of the test case, you need to print 2 lines.</p>
+<p>fist line should have 1 value- number of terms in the series.</p>
+<p>2nd line of the output should print the series numbers separated by single space.</p>
+<p> </p>
+<h3>Example</h3>
+<p> </p>
+<pre><strong>Input:</strong>
+<br />1<br />3 7 55<br /><strong><br /><br />Output:</strong><br />10<br />1 2 3 4 5 6 7 8 9 10<br /><strong><br />NOTE </strong>- In all the test cases all the series elements are positive integers.<br />The series will have at least 7 elements.<br />number of test cases <=100.<br />All the numbers will fit in 64 bits(long long in C)</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/keedap">Devil D</a></td></tr>
+<tr><td>Date:</td><td>2012-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.096s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

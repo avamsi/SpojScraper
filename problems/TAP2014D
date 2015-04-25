@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TAP2014D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21171. Fractal domino</h1>
+		<h2>Problem code: TAP2014D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>[Due to SPOJ restrictions, this problem has been modified with respect to the original version used in the Argentinian Programming Tournament of 2014 in order to have multiple test cases per input file. The original version of this problem (in Spanish) can be found at <a title="http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf" href="http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf">http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf</a> ]&nbsp;</strong></p>
+<p>A question we may ask ourselves if we have a lot of free time (or if we are mathematicians, which is practically the same thing) is the following: given a board of <strong>N &times;&nbsp;N</strong> square cells, in how many ways can we cover it with dominoes so that the pieces do not overlap and there are no cells left uncovered? Dominoes are rectangles composed of two adjacent square cells, and can be either horizontal (<strong>1 &times;&nbsp;2</strong>) or vertical (<strong>2 <strong>&times;</strong>&nbsp;1</strong>). For example, there are only two ways to cover a <strong>2 &times;&nbsp;2</strong> board, but there are <strong>12,988,816</strong> ways to cover an <strong>8 &times;&nbsp;8</strong> board.</p>
+<p style="text-align: center;"><img title="Figure 1" src="../../content/fidels:TAP2014D1.png" alt="Figure 1" /></p>
+<p><span style="font-size: xx-small;"><strong>Figure 1:</strong> <strong>(a)</strong> The two ways to cover a <strong>2 <strong>&times;</strong>&nbsp;2</strong> board with horizontal dominoes (left) and vertical dominoes (right); <strong>(b)</strong> a possible covering of an <strong>8 <strong>&times;</strong>&nbsp;8</strong> board.</span></p>
+<p>For those with even more free time, there is a variant of this question in which we consider a board with some of its cells <em>occupied</em>, so that we should count the number of coverings in which the domino pieces cover only the unoccupied cells without overlapping or leaving holes. For example, there are two ways to cover a <strong>3 <strong>&times;</strong>&nbsp;3</strong> board in which the central cell is occupied, and <strong>75,272</strong> ways to do so in a <strong>7 <strong>&times;</strong>&nbsp;7</strong> board.</p>
+<p>In this problem we will turn our attention to a variant of this variant of the original question, specifically thought for those of you with too much free time. We will again consider an <strong>N <strong>&times;</strong>&nbsp;N</strong> board in which some cells can be occupied, but we now want to cover it using <em>fractal dominoes </em>of order <strong>K</strong>.</p>
+<p style="text-align: center;"><img title="Figure 2" src="../../content/fidels:TAP2014D2.png" alt="Figure 2" /></p>
+<p><span style="font-size: xx-small;"><strong>Figure 2:</strong> <strong>(a)</strong> A <strong>4 <strong>&times;</strong>&nbsp;4</strong> board with two occupied cells; <strong>(b)</strong> one of the <strong>89</strong> horizontal dominoes of order one for this board; <strong>(c)</strong> one of the <strong>52</strong> vertical dominoes of order one for the same board; <strong>(d)</strong> a covering of the board in (a) with the fractal dominoes of order one in (b) and (c).</span></p>
+<p>Given an <strong>N <strong>&times;</strong>&nbsp;N</strong> board, a fractal domino of order <strong>K = 0</strong> is a regular domino piece, i.e. a rectangle of <strong>1 <strong>&times;</strong>&nbsp;2</strong> or <strong>2 <strong>&times;</strong>&nbsp;1</strong> cells. A fractal domino piece of order <strong>K &gt; 0</strong> consists of a regular domino in which each cell is a copy of the given <strong>N <strong>&times;</strong>&nbsp;N</strong> board, and the piece as a whole is covered by fractal dominoes of order <strong>K-1</strong>.</p>
+<p>Note that in general for <strong>K &gt; 1</strong> there can be more than one fractal domino piece of order <strong>K-1</strong> of each type (horizontal or vertical). In this case, we assume that when using a domino piece it is chosen with uniform probability among all possible fractal domino pieces of the same type and order. In a similar fashion, if there is more than one possible covering for a given board or fractal domino, we will assume all of them are equally probable.</p>
+<p>When covering a board with fractal dominoes of order <strong>K</strong> one will use a certain amount of pieces of order <strong>K</strong>, a larger amount of pieces of order <strong>K-1</strong>, an even larger amount of pieces of order <strong>K-2</strong>, and so on. This will go on up to the point where one uses a possibly huge amount of pieces of order zero, i.e. regular domino pieces with nothing inside. For example, in Figure 2d the board is covered with seven fractal dominoes of order one and <strong>98</strong> fractal dominoes of order zero.</p>
+<p>The task in this problem is to calculate the expected proportion of fractal dominoes of order zero (i.e. regular pieces) that are vertical, if we assume that all coverings of a given board with fractal dominoes of a given order <strong>K</strong> are equally probable.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line contains an integer number <strong>T</strong>, the number of test cases (<strong>1 &le; T &le; 200</strong>). <strong>T</strong> test cases follow.</p>
+<p>The first line of each test case contains two integers <strong>N</strong> and <strong>K</strong>, representing the size of the board and the order of the fractal dominoes that we want to use to cover it, respectively (<strong>2 &le;&nbsp;N &le;&nbsp;8</strong> and <strong>0 &le;&nbsp;K &le;&nbsp;10<sup>9</sup></strong>). The following <strong>N</strong> lines contain <strong>N</strong> numbers each, being the <strong>j</strong>-th number in the <strong>i</strong>-th line a <strong>1</strong> if the cell in row <strong>i</strong> and column <strong>j</strong> of the board is occupied, and <strong>0</strong> otherwise. The given board is not completely occupied, and it is always possible to cover it using dominoes.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, print a single line containing a rational number representing the expected proportion of fractal dominoes of order zero that are vertical, when we consider that all coverings of the given board with fractal dominoes of order <strong>K</strong> are equally probable. Print the result using exactly <strong>5</strong> decimal digits after the decimal point, rounding if necessary.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 1px; width: 1px; height: 1px; overflow: hidden;">1</div><span style="font-family: 'courier new', courier;">1
+4 2
+0 0 0 0
+0 1 1 0
+0 0 0 0
+0 0 0 0</span></pre>
+<pre><strong>Output:</strong>
+<span style="font-family: 'courier new', courier;">0.50750</span><span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2014-09-29</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Argentinian Programming Tournament 2014</td></tr>	
+</table>

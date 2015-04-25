@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CAGES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19224. Lights, Snakes and Cages</h1>
+		<h2>Problem code: CAGES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="result_box" lang="en"><span>In the</span> <span>zoo</span> <span>there are</span> <span>N</span> <span>cages</span> <span>in which</span> <span>we keep N</span> <span>snakes</span><span>:</span> <span>each snake</span> <span>in its</span> <span>cage</span><span>.</span> <span>For</span> <span>experimental</span> <span>reasons</span><span>,</span> in a <span>month</span> <span>we will move each snake to a different cage: this reordering is given in the input.</span><br /><br /><span>Each</span> <span>cage</span> <span>is</span> <span>illuminated by</span> <span>special</span> <span>light</span><span>, which</span> <span>may</span> <span>be</span> <span>of type</span> <span>A</span><span>,</span> <span>type</span> <span>B</span> <span>or</span> <span>type</span> <span>C.</span> <span>Your</span> <span>task</span> <span>is</span> to <span>assign the lights</span> <span>A</span><span>,</span> <span>B</span><span>,</span> <span>C</span> <span>to the cages so that</span><span>:</span> </span></p>
+<p><span id="result_box" lang="en">1) <span>each</span> <span>snake</span> will<span> change</span> its<span> lighting</span><span>, i.e. it will be moved</span> to<span> the cage</span> <span>illuminated</span> <span>differently</span> <span>from</span> <span>the cage</span> it<span> currently inhabits</span><span>;</span> </span></p>
+<p><span id="result_box" lang="en">2) <span>lighting</span>s <span>are</span> <span>equally</span> distributed<span>,</span> <span>i.e. the</span> <span>number</span> <span>of cages</span> <span>A</span><span>,</span> the <span>number</span> <span>of cages</span> <span>B and</span> the number <span>of cages</span> <span>C</span> <span>differ by at most one.</span></span></p>
+<h3>Input</h3>
+<p><span id="result_box" lang="en"><span>The first</span> <span>line contains an</span> <span>integer N</span> <span>(</span><span>2</span> <span>&le;</span> <span>N</span> <span>&le; 300 000</span><span>)</span><span>, the number</span> <span>of snakes</span> <span>and</span> <span>cages</span><span>.</span> <span>Cages</span> <span>are numbered</span> <span>from</span> <span>1</span> <span>to N.</span> <br /><br /><span>Each of the next N</span> <span>lines contains</span> <span>an integer</span><span>.</span> When <span>K</span><span>-th</span> <span>of these</span> <span>lines</span> <span>contains the number</span> <span>L</span><span>,</span> it means that <span>the snake</span> <span>from the cage K</span> will be moved <span>to</span> <span>the cage</span> <span>L</span> <span>(</span><span>K</span> <span>&ne;</span> <span>L</span><span>)</span><span>.</span> <span>Two</span> <span>snakes</span> <span>will not</span> <span>move</span> to <span>the same</span> <span>cage</span><span>.</span></span></p>
+<h3>Output</h3>
+<p><span id="result_box" lang="en"><span>Print the</span> <span>string</span> <span>composed</span> <span>of the</span> <span>characters</span> <span>A</span><span>,</span> <span>B and C</span><span>,</span> <span>such that</span> <span>the K-th</span> <span>character denotes</span><span> the</span> lighting of the <span>cage</span> <span>K.</span> <br /><span>If</span> <span>there are multiple</span> <span>solutions</span><span>,</span> <span>print</span> <strong><span>any</span></strong><span>.</span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4<br />4<br />3<br />2<br />1<br /><br /><strong>Output:</strong>
+ACBC<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/askurdija">Adrian Satja Kurdija</a></td></tr>
+<tr><td>Date:</td><td>2014-03-24</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatia nationals 2014 (6th grade, 3rd problem "Zmije")</td></tr>	
+</table>

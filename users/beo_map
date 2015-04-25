@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/beo_map"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/IVAN" target="_blank">734. Ivan and his interesting game</a></td><td><a href="http://www.spoj.com/problems/IVAN"target="_blank">IVAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYSTIC" target="_blank">5102. Mystic  Craft</a></td><td><a href="http://www.spoj.com/problems/MYSTIC"target="_blank">MYSTIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOP10" target="_blank">5103. Top 10</a></td><td><a href="http://www.spoj.com/problems/TOP10"target="_blank">TOP10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPAMD" target="_blank">5104. Spam Detection</a></td><td><a href="http://www.spoj.com/problems/SPAMD"target="_blank">SPAMD</a><br>
+</td></tr>

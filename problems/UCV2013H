@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UCV2013H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15436. Slick</h1>
+		<h2>Problem code: UCV2013H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A maritime accident has caused oil to spill onto the seas of Felipistonia, which is a major natural disaster. The Felipistonia's government wants to clean up this mess before more damage occurs. To do this, they first have to know how serious was the accident and the amount of oil that has been spilled into the sea. The only instrument the Felipistonia's government has to get<br />information of the magnitude of this disaster, is the use of satellite images. With these images they can estimate how much money they have to spend to clean this mess. For this, the number of slicks in the seas and the size of each slick must be know. A slick is a patch of oil floating on water. Unfortunately, the Felipistonia's people are not very bright, so they have hired you<br />to help them process the image.</p>
+<p><br />An example of an image obtained by the satellites is shown in Figure 1(a). This image can be transformed to 0's and 1's as seen in Figure 1(b). Given this binary matrix, your job is to count the number of slicks in the ocean and their corresponding size. Two adjacent pixels in the image are considered to be in the same slick if they are in the same row or the same column.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="../../../content/henu:ucv2013H" alt="(a) A satellite image of the spilled oil. (b) The representation of the image in a binary matrix" width="376" height="164" /></p>
+<p style="text-align: center;"><br />Figure 1: (a) A satellite image of the spilled oil. (b) The representation of the image in a binary<br />matrix</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one corresponding to a dierent satellite image. The first line of each case contains two integers that indicate the number of rows (N) and columns (M) in the image (1 &lt;= N,M &lt;= 250). Then N lines follows with M integers each, containing the information of the image.</p>
+<p><br />The end of input is indicated by a test case with N = M = 0. This case should not be processed.</p>
+<h3>Output</h3>
+<p>For each image, output the number of slicks in the sea. Additionally, output the size of each slick in ascending order and the number of slicks of that size.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+10 10<br />1 1 1 1 1 1 1 1 1 1<br />1 1 1 1 0 0 0 0 0 0<br />1 1 1 0 0 0 0 1 1 1<br />1 1 0 0 1 0 0 1 1 1<br />1 0 1 0 0 1 1 0 0 0<br />0 0 0 0 0 0 0 0 0 0<br />0 0 0 0 0 0 0 0 0 0<br />1 1 1 1 1 1 1 1 1 1<br />0 0 0 0 0 0 0 0 0 0<br />1 1 1 1 1 1 1 1 1 1<br />0 0
+
+<strong>Output:</strong>
+7<br />1 2<br />2 1<br />6 1<br />10 2<br />20 1<br />&nbsp;</pre>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp;</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/henu">Hector Navarro</a></td></tr>
+<tr><td>Date:</td><td>2013-07-22</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Local UCV 2013. Francisco Sans</td></tr>	
+</table>

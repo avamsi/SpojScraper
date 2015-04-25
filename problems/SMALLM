@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SMALLM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22463. Smallest Number (medium)</h1>
+		<h2>Problem code: SMALLM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>60 is divisible by 2, 3, 4 and 5. No smaller number than 60 have this property.</p>
+
+<h3>Input</h3>
+<p>
+On the first line, you will be given two integers
+ <em>T</em> (the number of test cases), and
+ <em>M</em> (an integer).
+</br>
+Each of the next <em>T</em> lines contains an integer <em>N</em>.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output on one line, the smallest number that is divisible
+by all integers from 1 to <em>N</em> (inclusive).
+</br>
+As the answer may be a big number, output it modulo <em>M</em>.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 1000000007
+5
+<b>Output:</b>
+60
+</pre>
+
+
+<h3>Constraints</h3>
+<pre>
+T <= 10^5
+10^8 <= M <= 2×10^9, a prime number
+0 < N < 10^8
+</pre>
+
+<h3>Information</h3>
+<p>There's one easy input file, and several harder ones. Time limit allows unoptimized code with fast languages to get AC ; for slower languages it may be hard.</br>
+<strong>Good luck and have fun ;-)</strong>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2015-01-24</td></tr>
+<tr><td>Time limit:</td><td>2s-4s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>SMALL</td></tr>	
+</table>

@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HAMSTER1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4200. Hamster flight</h1>
+		<h2>Problem code: HAMSTER1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a competition of flying hamsters in Hamsterburg. Each competing hamster is thrown from a sling. The judges rate the flight according to its length and height. Let X meters be the distance of the flight, and Y meters &#8211; maximum height to which the hamster rose during the flight. The hamster will receive K1*X + K2*Y points for such a flight. The initial speed of the hamsters is V0 m/s. Free fall acceleration is g = 10 m/s<sup>2</sup>. There is no air friction. The size of the hamster and the sling are negligible. When the hamster is thrown from the sling its height is 0 meters. You should determine the angle at which the hamster must be thrown so that he receives maximum points.</p>
+
+<h3>Input</h3>
+<p>The first line of input contains number t &#8211; the amount of tests. Then  t tests follow one per line. The description of each test consists of three integers separated by single spaces. The first integer is V0, the second &#8211; K1, the third &#8211; K2.</p>
+
+<h3>Constraints</h3>
+<p>1 <= t <= 10000<br>
+1 <= V0 <= 100<br>
+0 <= K1, K2 <= 1000<br>
+0 < K1 + K2
+
+<h3>Output</h3>
+<p>For each test output the angle in radians at which the hamster must be thrown, and the amount of points it will receive. The numbers should be separated with spaces. Print the numbers with exactly three digits in the fractional part.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+10 10 0
+10 0 10
+10 10 10
+
+<b>Output:</b>
+0.785 100.000
+1.571 50.000
+0.908 128.078
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2009-04-10</td></tr>
+<tr><td>Time limit:</td><td>0.418s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2009, http://sevolymp.uuuq.com/</td></tr>	
+</table>

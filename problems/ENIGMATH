@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ENIGMATH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15965. PLAY WITH MATH</h1>
+		<h2>Problem code: ENIGMATH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">You have been fed up with competitive programming questions so far ,now it is time to solve little math .</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Assume u have a equation A * x - B * y = 0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">For a given value of A and B , find the minimum value of x and y that satisfies this equation.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Input :</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">first line contains T ,number of test cases &nbsp;0&lt;= T &lt;=1000</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">firstline of each test case contains two space seperated integers A and B. 0&lt;=A,B&lt;=1000000000&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Ouput :</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">For each test case output a single line containing two integers x and y (seperated by a single space )</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Example :</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Input :</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">2 3&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Ouput :</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">3 2&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">Note:Be careful with the datatype u choose .Also note the input range carefully.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 29px; width: 1px; height: 1px; overflow: hidden;">negative number cases is avoided to make the problem easy.But look brute force wont pass .</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>You would have been fed up with competitive programming questions so far ,now it is time to solve little math .</p>
+<p>Assume u have a equation A * x - B * y = 0</p>
+<p>For a given value of A and B , find the minimum positive integer value of x and y that satisfies this equation.</p>
+<p>Input :</p>
+<p>first line contains T ,number of test cases &nbsp;0&lt;= T &lt;=1000<br />followed by T lines&nbsp;</p>
+<p>firstline of each test case contains two space seperated integers A and B. 1&lt;=A,B&lt;=1000000000&nbsp;</p>
+<p>Ouput :</p>
+<p>For each test case output a single line containing two integers x and y (seperated by a single space ) .Print new line after each test case.</p>
+<p>Example :</p>
+<p>Input :</p>
+<p>1</p>
+<p>2 3&nbsp;</p>
+<p>Ouput :</p>
+<p>3 2&nbsp;</p>
+<p>Note: Brute force wont pass the given constraint.</p>
+<p>Negative number cases is avoided to make the problem easy.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/brarvind">B.R.ARVIND</a></td></tr>
+<tr><td>Date:</td><td>2013-09-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

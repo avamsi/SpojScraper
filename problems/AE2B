@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AE2B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4302. (K,N)-Knight</h1>
+		<h2>Problem code: AE2B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+  Bytean chess is one of the most peculiar variants of chess in the world.
+  Playing each match is a major difficulty, because the game is played on an infinite chessboard.
+  The basic ability learnt by young enthusiasts of Bytean chess is considering
+  all possible situations on a chessboard after millions of moves.
+  To perform this, they need to know whether a given chess piece can get from one given square to another one.
+</p>
+<p>
+  The most powerful chess piece in Bytean chess is a (K, N)-knight.
+  Its moves resemble the moves of a knight in traditional chess.
+  Each of its moves consists of: either moving K squares vertically
+  and afterwards N squares horizontally, or moving N squares vertically and afterwards
+  K squares horizontally.
+  The knight from traditional chess can therefore be thought of as (2, 1)-knight or
+  (1, 2)-knight.
+
+</p>
+<p>
+  The task is to verify, for two given squares of the chessboard, if a (K, N)-knight can get
+  from the first square to the second one (the number of necessary moves is not important).
+</p>
+    <h2>Input</h2>
+<p>
+  The first line of the standard input contains one integer T
+  (1 &#8804; T &#8804; 20000) denoting the number of test cases.
+  Each of the following T lines contains a description of a single test case
+  in the form of six integers K, N, x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>
+
+  (0 &#8804; K, N &#8804; 10<sup>9</sup>, K + N > 0, -10<sup>9</sup> &#8804; x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub> &#8804; 10<sup>9</sup>)
+  separated by single spaces.
+  K and N describe the possible moves of the knight.
+  The knight starts its movement in square (x<sub>1</sub>, y<sub>1</sub>). We would like to check if it can get to square (x<sub>2</sub>, y<sub>2</sub>).
+  </p>
+	
+    <h2>Output</h2>
+    <p>
+
+  For each test case exactly one line should be written to the standard output.
+  It should contain a word <tt>TAK</tt> (meaning YES) or <tt>NIE</tt> (meaning NO)
+  depending on whether a (K, N)-knight starting from square (x<sub>1</sub>, y<sub>1</sub>)
+  can get to square (x<sub>2</sub>, y<sub>2</sub>).
+</p>
+
+<h2>Example</h2>
+
+<p>For the input data:</p><pre>3
+2 1 0 0 3 3
+1 1 1 1 1 2
+1 0 2 3 4 6</pre>
+<p>the correct result is:</p><pre>TAK
+NIE
+TAK</pre>
+
+<p><i>Task author: Jakub Onufry Wojtaszczyk.</i></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-03</td></tr>
+<tr><td>Time limit:</td><td>0.213s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Algorithmic Engagements 2009</td></tr>	
+</table>

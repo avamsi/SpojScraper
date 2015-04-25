@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KATHTHI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22393. KATHTHI</h1>
+		<h2>Problem code: KATHTHI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><span style="font-size: small;"><span style="font-family: verdana, geneva;"><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kathiresan is initially locked at cell (0,0) in a highly guarded rectangular prison of order RxC. He must reach the gate at (R-1,C-1) in order to escape from the prison. Kathiresan can move from any cell, to any of it's 4 adjacent cells (North, East, West and South).&nbsp;If Kathiresan is currently at (x1,y1), then he can move to (x2,y2) if and only if abs(x2-x1)+abs(y2-y1) == 1 and 0&lt;=x2&lt;R and 0&lt;=y2&lt;C</p><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">Kathiresan somehow manages to get the map of the prison.<br />If map[x1][y1] == map[x2][y2] then Kathiresan can move from (x1,y1) to (x2,y2) without killing any guards.<br />If map[x1][y1] != map[x2][y2], then Kathiresan can move from (x1,y1) to (x2,y2) by killing a guard.<br /><br />Given the map of the prison, find the minimum number of guards Kathiresan must kill in order to escape from the prison.</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">&nbsp;</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;"><strong>Input:</strong></p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">The first line consists of an integer t, the number of test cases. For each test case, the first line consists of two integers R and C representing the order of the rectangular prison followed by R strings representing the map of the rectangular prison.</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">&nbsp;</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;"><strong>Output:</strong></p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">For each test case find the minimum number of guards Kathiresan must kill in order to escape from the prison.</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">&nbsp;</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;"><strong>Input Constraints:</strong></p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">1 &lt;= t &lt;= 10</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2 &lt;= R &lt;= 1000</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2 &lt;= C &lt;= 1000</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">'a' &lt;= map[i][j] &lt;= 'z'</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;"><strong>Sample Input:</strong></p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">4</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2 2</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">aa</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">aa</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2 3</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">abc</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">def</p><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">6 6</p><p><span style="white-space: normal;">akaccc</span></p><p><span style="white-space: normal;">aaacfc</span></p><p><span style="white-space: normal;">amdfcc</span></p><p><span style="white-space: normal;">aokhdd</span></p><p><span style="white-space: normal;">zyxwdp</span></p><p><span style="white-space: normal;">zyxwdd</span></p><p><span style="white-space: normal;">5 5</span></p><p><span style="white-space: normal;">abbbc</span></p><p><span style="white-space: normal;">abacc</span></p><p><span style="white-space: normal;">aaacc</span></p><p><span style="white-space: normal;">aefci</span></p><p><span style="white-space: normal;">cdgdd</span></p><p>&nbsp;</p><p><strong>Sample Output:</strong></p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">0</p><span style="white-space: normal;">
+</span><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">3</p><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2</p><p style="font-family: verdana, geneva; font-size: small; white-space: normal;">2</p></span></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2015-01-16</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

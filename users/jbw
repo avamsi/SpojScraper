@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/jbw"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GOALFR" target="_blank">4987. Goal for Raúl</a></td><td><a href="http://www.spoj.com/problems/GOALFR"target="_blank">GOALFR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOWS" target="_blank">4988. Madrids One Way Streets</a></td><td><a href="http://www.spoj.com/problems/MOWS"target="_blank">MOWS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIM" target="_blank">5010. Lost in Madrid</a></td><td><a href="http://www.spoj.com/problems/LIM"target="_blank">LIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LFM" target="_blank">5011. Library for Madrid</a></td><td><a href="http://www.spoj.com/problems/LFM"target="_blank">LFM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIVIL" target="_blank">7704. Civil Engineering</a></td><td><a href="http://www.spoj.com/problems/CIVIL"target="_blank">CIVIL</a><br>
+</td></tr>

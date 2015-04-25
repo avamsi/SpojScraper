@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IOPC1202"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10437. Quadrilaterals</h1>
+		<h2>Problem code: IOPC1202</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">You are given the coordinates of the vertices of a square in the 2-d plane. All vertex coordinates will be integers.</p>
+<p align="justify">Now consider all convex quadrilaterals which also have integer coordinates for their vertices such that the midpoints of their edges are the vertices of the original square. Find the sum of areas of all such quadrilaterals.</p>
+<h3>Input</h3>
+<p align="justify">The first line of input gives T, the number of test cases (1&le;T&le;25000). Following this are the descriptions of the individual testcases. Each testcase consists of four lines, each line containing two space separated integers - the x and y coordinates of a distinct vertex of the square. The coordinate limits are -1000000000&le;x<sub>i</sub>,y<sub>i</sub>&le;1000000000. It is assured that the four vertices will correspond to a square.</p>
+<h3>Output</h3>
+<p align="justify">For each testcase output the total area of quadrilaterals with the given property. Since the answer could be very large, give the answer modulo 100000007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+0 0
+1 1
+1 0
+0 1
+0 1
+1 0
+0 -1
+-1 0
+
+<strong>Output:</strong>
+0
+4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2012-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.140s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>http://www.codechef.com/IOPC2012/</td></tr>	
+</table>

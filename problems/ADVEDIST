@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADVEDIST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7099. Advanced Edit Distance</h1>
+		<h2>Problem code: ADVEDIST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The edit distance of two strings S and T is the minimum number of edit operations that need to be done to transform S into T . The valid edit operations are:<br />&bull; Insert a single character at any position.<br />&bull; Modify an existing character.<br />&bull; Remove an existing character.<br />For example, the edit distance of &ldquo;pantera&rdquo; and &ldquo;aorta&rdquo; is 5, because the following chain of<br />edits is valid (and there is no shorter chain):<br />&ldquo;pantera&rdquo; &gt;&gt;&gt; &ldquo;antera&rdquo; &gt;&gt;&gt; &ldquo;aotera&rdquo; &gt;&gt;&gt; &ldquo;aoera&rdquo; &gt;&gt;&gt; &ldquo;aora&rdquo; &gt;&gt;&gt; &ldquo;aorta&rdquo;.</p>
+<p>We define the advanced edit distance in a similar way, but adding the swap of two adjacent characters as an extra valid operation. With this setting, the advanced edit distance of &ldquo;pantera&rdquo; and &ldquo;aorta&rdquo; is 4:<br />&ldquo;pantera&rdquo; &gt;&gt;&gt; &ldquo;antera&rdquo; &gt;&gt;&gt; &ldquo;antra&rdquo; &gt;&gt;&gt; &ldquo;aotra&rdquo; &gt;&gt;&gt; &ldquo;aorta&rdquo;.</p>
+<p><br />You need to write a program that calculates the advanced edit distance of two given words.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />two non-empty words, each of them of at most 1000 lowercase letters, separated by a single<br />space. The last line of the input contains two asterisks separated by a single space and should<br />not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an integer representing the advanced edit distance<br />of the two input words.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br />pantera aorta<br />zero zero<br />* *<br /><br /><strong>Output:</strong><br /><br />4<br />0<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>22.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

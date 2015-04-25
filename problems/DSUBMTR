@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DSUBMTR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9519. Distinct Submatrices</h1>
+		<h2>Problem code: DSUBMTR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider an matrix of capital letters. By selecting consecutive columns and rows, we can define the sub-matrix as the elements on chosen columns and rows.
+<p>Two sub-matrices should be regarded the same if and only if they have the same detentions and characters (which, of course, are capital letters) on corresponding position. It is your task to find the number of distinct sub-matrices of a given letter matrix.
+<h3>Input</h3>
+
+<p>The input contains a lot of test cases. The first line of input contains exactly one integer, indicating the number of test cases.
+<p>For each of the test case, the first line contains two integers <b>N</b> and <b>M</b>, denoting the number of rows and columns of the given matrix. (1 <= <b>N</b>, <b>M</b> <= 128)
+<p>The next <b>N</b> lines contain only capital letters, indicating the given matrix.
+
+<h3>Output</h3>
+
+<p>For each test case, output a single integer denoting the number of distinct sub-matrices.
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+2 2
+AB
+BA
+3 3
+ABA
+BAA
+AAA
+
+<b>Output:</b>
+Case #1: 7
+Case #2: 22
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2011-09-08</td></tr>
+<tr><td>Time limit:</td><td>1.451s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC Regionals, Shanghai 2011 Preliminary, by g201513</td></tr>	
+</table>

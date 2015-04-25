@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITD5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7566. Expected Cycle Sums</h1>
+		<h2>Problem code: IITD5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We are given a sequence S of N distinct integers. Denote by S[i] as ith element of S.<br />Hardik picks up a random permutation of S , breaks it into product of disjoint cycles &amp; looks at cycle containing S[i].He notes down the sum of all element of this cycle. Call the expected value of this sum as cycleSum[i]. Your task is to find the minimum value amongst all cycleSums.<br /><br />Assume all permutations of these N numbers are equally likely.<br /><br /><br /><strong>Input Format :</strong><br /><br />First line contains an integer T which denotes the number of test cases. Then follow description of T test scenarios. Each test scenario takes 2 lines. First line contains a single integer N, the size of S. Then follows second line containing N elements of S.<br /><br /><br /><strong>Output Format :</strong></p>
+<p><strong></strong><br />Print answer for each test case , rounded to exactly one decimal place , in one line each. <br /><br /><strong>Sample Input :</strong><br />2<br />1<br />1<br />2<br />1 2<br /><br /><br /><strong>Sample Output:</strong><br />1.0<br />2.0<br /><br /><br /><strong>Note:</strong> Notion of cycles for any sequence is defined by using index in the sequence (1-N).<br /><br /></p>
+<p><strong>Explaination for sample output</strong> :</p>
+<p>In first case only possible permutation is (1)&nbsp; So answer is trivially 1.0</p>
+<p>In second case possible permutations are (1)(2) &amp; (12).&nbsp; As both of these are equally likely, cycleSum[1] = 1/2 * 1 + 1/2 * (1+2) = 2.0</p>
+<p>And cycleSum[2] = 1/2 * 2 + 1/2 * (1+2) = 2.5.&nbsp; Smaller of these is 2.0 , hence the answer.</p>
+<p><strong>Constraints :</strong><br /><br />1&lt;=T&lt;=500<br />1&lt;=N&lt;=5000<br />All elements of S are distinct integers in range 0 to 10^5</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikhil">Nikhil Garg</a></td></tr>
+<tr><td>Date:</td><td>2010-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.194s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem, used for IIT Delhi ACM ICPC provincial contest 2010</td></tr>	
+</table>

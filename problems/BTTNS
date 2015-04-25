@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTTNS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10508. Buttons</h1>
+		<h2>Problem code: BTTNS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><br />Luis has a new toy, is a weird board with NxM cells. The cells can be white or<br />black.<br />Each cell has a button inside, when you press a button every cell with Manhattan<br />distance equal or less than K to the cell with the button pressed change of color<br />( white to black, or black to white ).<br />At the beginning, every cell is white but somebody pressed some buttons and now<br />the board has some black cells.<br />Help Luis to find how many buttons were pressed.<br />You can assume that no button will be pressed two or more times.<br />There will be always only one configuration of buttons pressed that generate the<br />final board.</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer t&lt;=10, the number of test cases. It is<br />followed by t test cases, each consisting of N+1 lines. The first line of each case<br />contains three integers N,M,K separated by space (1&lt;=N,M&lt;=20 , 0&lt;=K&lt;=20).<br />The next N lines contains M integers, each integer can be 0 or 1, the final state of<br />each cell. ( 0 is white, 1 is black )</p>
+<h3>Output</h3>
+<p>For each case, output a single line consisting of the number of buttons pressed.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />2 2 0<br />1 0<br />0 1<br />2 2 1<br />1 1<br />1 1
+
+<strong>Output:</strong>
+2<br />4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-30</td></tr>
+<tr><td>Time limit:</td><td>0.152s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UGTO</td></tr>	
+</table>

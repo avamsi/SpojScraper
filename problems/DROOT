@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DROOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4172. Multiplicative digital root</h1>
+		<h2>Problem code: DROOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For an integer find the multiplicative digital root of it! Multiple all nonzero digits of that number and repeat this process until it is only a single digit. We call that digit the multiplicative digital root of the number. For example the multiplicative digital root of <i>n</i>=2009 is 8, because the first iteration is: 2*9=18, the second is 1*8=8, and we stop here.
+
+<h3>Input</h3>
+<p>
+The first line of the input file contains one integer <i>T</i>, the number of test cases.
+The following <i>T</i> lines each contains a big positive integer: <i>n</i>, where <i>n</i><10<sup>10000</sup>
+
+<h3>Output</h3>
+<p>Output the mulplicative digital root for each n.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+6
+2009
+555555555
+847938630482747410708417738635300464477112059683336648877683
+
+<b>Output:</b>
+6
+8
+5
+2
+</pre>
+<b>Warning: large input data, be careful with certain languages </b>
+<br><br>
+<b>Warning: not every languages are available for this task </b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-04-06</td></tr>
+<tr><td>Time limit:</td><td>0.400s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>DOC ASMGCC AWK C C++ 4.3.2 C++ 4.9 C++14 CLOJ COB F# GO GROOVY JS2 NODEJS PAS fpc PAS gpc PDF PERL 6 PS PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SED TCL TECS TEXT VB.net </td></tr>
+<tr><td>Resource:</td><td>classic, own input</td></tr>	
+</table>

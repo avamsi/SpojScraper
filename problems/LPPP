@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LPPP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20674. Lov-e Pap Pap-e Polti</h1>
+		<h2>Problem code: LPPP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Little Jitu, Tipu and Vitu, three brothers, are probably very happy this Eid day. This is the day for getting eid-bonus more and more. No one wants to get less bonus amount than other. So, they only take the bonuses if all of them get same bonus amount from his father (in this case they are very happy), otherwise they will not take bonuses and hence this is the worst Eid day for them.</p>
+<p>Now their father has N coins, he has to distribute all these coins in such a fashion so that all of them get equal bonus.</p>
+<p>Now the task is yours!. Please tell their father if he will be able to distribute all N coins so that all of three gets equal bonus amount.</p>
+<p><strong><span style="text-decoration: underline;">Sample Input:</span></strong></p>
+<p>The first line of the input is the integer <strong>T(T&lt;=50)</strong> denoting the number of test cases. T lines follows. Each line contains <strong>N(1&lt;=N&lt;=50)</strong> space separated integers denoting the values of the i<sup>th</sup> coin which is between 1 to 50 inclusive.</p>
+<p><strong><span style="text-decoration: underline;">Sample Output:</span></strong></p>
+<p>For each case of input, print the case number and &ldquo;Happy Eid Day&rdquo; if it is possible to give equal bonus amount, print &ldquo;Lov-e Pap Pap-e Polti&rdquo; otherwise.</p>
+<p><strong><span style="text-decoration: underline;">Sample Input:</span></strong></p>
+<p>2</p>
+<p>10</p>
+<p>2 4 3 2 4 9 7 8 6 9</p>
+<p>3</p>
+<p>1 2 3</p>
+<p><strong><span style="text-decoration: underline;">Sample Output:</span></strong></p>
+<p>Case 1: Happy Eid Day</p>
+<p>Case 2: Lov-e Pap Pap-e Polti</p>
+<p><strong><span style="text-decoration: underline;">Explanation:</span></strong></p>
+<p>One Possible solution for&nbsp; test case 1:</p>
+<p>Jitu will get bonus amount=2+7+9=18</p>
+<p>Tipu will get bonus amount=3+9+6=18</p>
+<p>Vitu will get bonus amount=4+2+4+8=18</p>
+<p>So all of them can get equal bonus amount.</p>
+<p>For test case test 2, there are no way to distribute coins so that all of them can get equal bonus amount.</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/alim14">Md Abdul Alim</a></td></tr>
+<tr><td>Date:</td><td>2014-08-13</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

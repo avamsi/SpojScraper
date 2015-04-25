@@ -1,0 +1,136 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12559. Drastic Race</h1>
+		<h2>Problem code: CDC12_D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Rainbowland and planet Earth made a giant and a fancy collision! Now Ronny ran out of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC worried and running to search his family, however, when he was running to his car, a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Rainbowlandian explode the car, teddy bears flew out of it and Ronny was the first to discover</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">officially that we&rsquo;re not alone on this universe.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Angry about his car explosion, Ronny shouted to the Rainbowlandian all sort of swearings,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">then, in the blink of an eye, several Rainbowlandians appeared with some strange vehicles de-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">scribing circles around Ronny and challenging him to do a race to some point of the empty</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">highway. What the rainbowlandians don&rsquo;t know is that Ronny got some special compound that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">gives him super reflexes and he can, with that, overtake the rainbowlandians by increasing his</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">speed to the limit. However, this compound is very limited so Ronny must to use it wisely. He</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">wants to reach his destination as soon as possible and faster than any other rainbowlandian</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">chasing him, otherwise, the rainbowlandian will blow him up as they did with the car. Can you</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">help him to determine whether he can win the race?</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">You should take the following aspects in count:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; Ronny can use the compound if and only if he is able to.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; Ronny can restore the compound if and only if he stays still without moving.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; Ronny can only win if his time is lesser than the fastest Rainbowland, so, in case of tie,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Ronny lose.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer T , which specifies the number of test cases. Then, will follow</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the descriptions of T test cases.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each case will have 6 integers P , M , V , S, K, D, each of these denotes, respectively, the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">time that will take to the fastest rainbowlandian to get to the finish line, the meters up to the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">finish line, the normal velocity of Ronny, the boost that Ronny acquires when using the com-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">pound, the time that he can use the ability and the amount of compound he restores by second.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">(Have in count that he will not restore the compound more than what is given at the beginning)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The input must be read from standard input.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC 2012 - Contest Session</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">11</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each input case you must print the string "Scenario #i: " where i is the test case you&rsquo;re</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">analyzing (starting by 1) followed by the string "Ronny wins in time R" if and only if Ronny</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">is able to win the race, R is the units of time that Ronny takes to win the race, otherwise print</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">"Ronny will be annihilated". (Quotes for clarity)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The output must be written to standard output.</div>
+<p>Rainbowland and planet Earth made a giant and a fancy collision! Now Ronny ran out of the</p>
+<p>CEIDEC worried and running to search his family, however, when he was running to his car, a</p>
+<p>Rainbowlandian explode the car, teddy bears flew out of it and Ronny was the first to discover</p>
+<p>officially that we&rsquo;re not alone on this universe.</p>
+<p>Angry about his car explosion, Ronny shouted to the Rainbowlandian all sort of swearings,</p>
+<p>then, in the blink of an eye, several Rainbowlandians appeared with some strange vehicles de-</p>
+<p>scribing circles around Ronny and challenging him to do a race to some point of the empty</p>
+<p>highway. What the rainbowlandians don&rsquo;t know is that Ronny got some special compound that</p>
+<p>gives him super reflexes and he can, with that, overtake the rainbowlandians by increasing his</p>
+<p>speed to the limit. However, this compound is very limited so Ronny must to use it wisely. He</p>
+<p>wants to reach his destination as soon as possible and faster than any other rainbowlandian</p>
+<p>chasing him, otherwise, the rainbowlandian will blow him up as they did with the car. Can you</p>
+<p>help him to determine whether he can win the race?</p>
+<p>You should take the following aspects in count:</p>
+<p style="padding-left: 30px;">&bull; Ronny can use the compound if and only if he is able to.</p>
+<p style="padding-left: 30px;">&bull; Ronny can restore the compound if and only if he stays still without moving.</p>
+<p style="padding-left: 30px;">&bull; Ronny can only win if his time is lesser than the fastest Rainbowland, so, in case of tie,</p>
+<p>Ronny lose.</p>
+<p>&nbsp;</p>
+<p><strong>Input</strong></p>
+<p>The first line contains an integer T , which specifies the number of test cases. Then, will follow</p>
+<p>the descriptions of T test cases.</p>
+<p>Each case will have 6 integers P , M , V , S, K, D, each of these denotes, respectively, the</p>
+<p>time that will take to the fastest rainbowlandian to get to the finish line, the meters up to the</p>
+<p>finish line, the normal velocity of Ronny, the boost that Ronny acquires when using the com-</p>
+<p>pound, the time that he can use the ability and the amount of compound he restores by second.</p>
+<p>(Have in count that he will not restore the compound more than what is given at the beginning)</p>
+<p>The input must be read from standard input.</p>
+<p>&nbsp;</p>
+<p><strong>Output</strong></p>
+<p>For each input case you must print the string "Scenario #i: " where i is the test case you&rsquo;re</p>
+<p>analyzing (starting by 1) followed by the string "Ronny wins in time R" if and only if Ronny</p>
+<p>is able to win the race, R is the units of time that Ronny takes to win the race, otherwise print</p>
+<p>"Ronny will be annihilated". (Quotes for clarity)</p>
+<p>The output must be written to standard output.</p>
+<div>
+<table border="2">
+<tbody>
+<tr align="center" valign="top">
+<td>INPUT</td>
+<td>OUTPUT</td>
+</tr>
+<tr align="center" valign="top">
+<td style="text-align: left;">2<br /> 10 500 40 40 5 1 <br /> 7 1000 40 40 5 1 <br /></td>
+<td style="text-align: left;">Scenario #1: Ronny wins in time 8<br /> Scenario #2: Ronny will be annihilated<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Constraints</strong></p>
+<p>&bull; 1 &le; T &le; 20</p>
+<p>&bull; 1 &le; P &le; 10,000</p>
+<p>&bull; 1 &le; M &le; 10,000</p>
+<p>&bull; 1&le;V &le;M</p>
+<p>&bull; 1&le;S&le;M</p>
+<p>&bull; 1 &le; K &le; 100</p>
+<p>&bull; 1&le;D&le;K</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

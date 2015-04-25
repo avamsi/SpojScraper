@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FLING1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13884. FLING1</h1>
+		<h2>Problem code: FLING1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Fling! is a popular puzzle game created by the well-known developers at CandyCane LLC.</p>
+<p style="text-align: center;"><img src="https://dl.dropboxusercontent.com/u/78558568/fling%21.jpg" alt="" width="320" height="480" /></p>
+<p>The premise of the game is simple. You are given a certain number of balls on the screen to start. The goal is to fling one into another in order to knock the other off the screen. The puzzle is considered solved if you can do so while leaving only one ball remaining on the screen. Some might read this and think that it might not be too difficult, but the game gets challenging quickly. The problem is that you cannot fling two balls that are adjacent (i.e. next to) each other.</p>
+<p>The first ball you choose can fling the 2nd ball if and only if..<br />&nbsp;&nbsp;&nbsp; 1) The two balls exist in same row or same column<br />&nbsp;&nbsp;&nbsp; 2) The two balls are not adjacent<br />&nbsp;&nbsp;&nbsp; 3) There is no other ball in between the two balls</p>
+<p>If there exist a 3rd ball after the 2nd ball in the same line of action, the 2nd ball takes the position just before the third ball, pushes the 3rd ball and the 3rd ball gets flinged. (This continues till a ball gets knocked off the screen. Note that 2nd ball and 3rd ball can be adjacent).</p>
+<p><br />Given a Fling! puzzle, just print "Yes" if it is a valid puzzle(solvable) or "No" otherwise.<br /><br />For better understanding of gameplay you may have a look at this <a href="http://www.youtube.com/watch?v=HfteaRTGyVw">video</a>. (optional)</p>
+<p>&nbsp;</p>
+<p><strong>Input:</strong></p>
+<p><br />The first line of the input consists of an integer t, the number of test cases. For each test case, the first line consists of two integers m and n, the number of rows and columns of the puzzle. Then follows the description of the board. A[i][j] is '.' if the cell is empty or 'B' if the cell has a ball.</p>
+<p><strong>Output:</strong></p>
+<p>For each test case print "Yes" if the puzzle is valid or "No" otherwise. (case-sensitive).</p>
+<p><strong>Input Constraints:</strong></p>
+<p>1&lt;=t&lt;=100</p>
+<p>1&lt;=m,n&lt;=10</p>
+<p>You can assume that the number of balls in the board is approximately equal to ( m x n ) /10<br /><br /><strong>Sample Input:</strong></p>
+<p>4</p>
+<p>5 5</p>
+<p>.....<strong>&nbsp;</strong></p>
+<p>.....</p>
+<p>..B..</p>
+<p>.....</p>
+<p>.B..B</p>
+<p>5 4</p>
+<p>....</p>
+<p>B...</p>
+<p>B...</p>
+<p>....</p>
+<p>B...</p>
+<p>3 4</p>
+<p>BB..</p>
+<p>....</p>
+<p>.B..</p>
+<p>1 1</p>
+<p>B</p>
+<p><strong>Sample Output:</strong></p>
+<p>Yes</p>
+<p>Yes</p>
+<p>No<strong>&nbsp;</strong></p>
+<p>Yes</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2013-02-24</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

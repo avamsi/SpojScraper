@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC08H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4557. Musical Chairs</h1>
+		<h2>Problem code: ANARC08H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+In the traditional game of Musical Chairs, N + 1  children run around N  chairs (placed in a circle) as long as music is playing. The moment the music stops, children run and try to sit on an available chair. The child still standing leaves the game, a chair is removed, and the game continues with N  children. The last child to sit is the winner.
+<br><br>
+In an attempt to create a similar game on these days' game consoles, you modify the game in the following manner: N Children are seated on N chairs arranged around a circle. The chairs are numbered from 1 to N . Your program pre-selects a positive number D . The program starts going in circles counting the children starting with the first chair. Once the count reaches D , that child leaves the game, removing his/her chair. The program starts counting again, beginning with the next chair in the circle. The last child remaining in the circle is the winner.<br>
+<p style="text-align: center;"><img src=http://www.spoj.pl/content/ahmed_aly:ANARC08H.png></p>
+<p style="text-align: left;">For example, consider the game illustrated in the figure above for N = 5  and D = 3 . In the figure, the dot indicates where counting starts and ×  indicates the child leaving. Starting off, child #3 leaves the game, and counting restarts with child #4. Child #1 is the second child to leave and counting restart with child #2 resulting in child #5 leaving. Child #2 is the last to leave, and child #4 is the winner. Write a program to determine the winning child given both N  and D .
+
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case specifies two positive integers N  and D  on a single line, separated by one or more spaces, where N, D < 1,000,000 .
+<br><br>
+The last line of the input file contains two 0's and is not part of the test cases. 
+
+<h3>Output</h3>
+<p>For each test case, write the winner using the following format:
+<br><br>
+N D W
+<br><br>
+Where N and D are as above, is a space character, and W is the winner of that game. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5 3
+7 4
+0 0
+
+<b>Output:</b>
+5 3 4
+7 4 2
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahmed_aly">Ahmed Aly</a></td></tr>
+<tr><td>Date:</td><td>2009-07-04</td></tr>
+<tr><td>Time limit:</td><td>13.93s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href=http://www.icpc-anarc.org/yr/2008/ target=_blank>ANARC 2008</a></td></tr>	
+</table>

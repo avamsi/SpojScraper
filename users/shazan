@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/shazan"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SPIKES" target="_blank">15609. Spiky Mazes</a></td><td><a href="http://www.spoj.com/problems/SPIKES"target="_blank">SPIKES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TIEROPE" target="_blank">15621. Tie the Rope</a></td><td><a href="http://www.spoj.com/problems/TIEROPE"target="_blank">TIEROPE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLUS" target="_blank">15631. On the Plus Side</a></td><td><a href="http://www.spoj.com/problems/PLUS"target="_blank">PLUS</a><br>
+</td></tr>

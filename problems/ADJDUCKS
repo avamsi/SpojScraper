@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADJDUCKS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21193. Adjusting Ducks</h1>
+		<h2>Problem code: ADJDUCKS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="font-size: medium;"><span style="font-family: georgia, palatino;">Wojtek's ducks' constant quacking annoys Tomek a great deal. When approached about the issue, Wojtek told Tomek to take it easy... Things got serious when Tomek bought a sling. They held a diplomatic meeting to reach a compromise. It turns out that when two or more ducks have the same quacking pitch, the sound becomes so constant, that they do not disturb Tomek at all. Fortunately enough, the local veterinarian can alter the pitches of ducks. For changing a duck's quacking pitch fromatob, he demands |b - a| zlotys. How many zlotys does Wojtek have to spend to make it so no duck is alone at its pitch?</span></span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;"><span style="font-family: georgia, palatino;">Input</span></span></span></h3>
+<p><span style="font-family: georgia, palatino; font-size: medium;">The first line of the input contains an integer n (2 &le; n &le; 10</span><sup>5</sup><span style="font-family: georgia, palatino; font-size: medium;">), the number of ducks. The second line contains n integers a</span><sub>1</sub><span style="font-family: georgia, palatino; font-size: medium;">,...,a</span><sub>n</sub><span style="font-family: georgia, palatino; font-size: medium;">&nbsp;(1 &le; a</span><sub>i</sub><span style="font-family: georgia, palatino; font-size: medium;">&nbsp;&le; 10</span><sup>18</sup><span style="font-family: georgia, palatino; font-size: medium;">),the pitches of the ducks.</span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;"><span style="font-family: georgia, palatino;">Output</span></span></span></h3>
+<p><span style="font-family: georgia, palatino; font-size: medium;">Output the minimal cost of adjusting the ducks' pitches so that Tomek is no longer annoyed.</span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;"><span style="font-family: georgia, palatino;">Example</span></span></span></h3>
+<p><strong><span style="font-family: georgia, palatino; font-size: medium;">Input:</span></strong></p>
+<p><strong></strong><span style="font-family: georgia, palatino; font-size: medium;">5</span></p>
+<p><span style="font-family: georgia, palatino; font-size: medium;">42 1 3 3 6</span></p>
+<p><span style="font-weight: bold; font-family: georgia, palatino; font-size: medium;">Output:</span></p>
+<p><span style="font-family: georgia, palatino; font-size: medium;">38</span></p>
+<p><strong>Note</strong></p>
+<p><strong></strong><span style="font-family: georgia, palatino; font-size: medium;">One possible solution is to adjust the pitch of the second duck to 3 (for a price of 2) and the pitch of the last duck to 42 (for a price of 36)</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hnue">HNUE</a></td></tr>
+<tr><td>Date:</td><td>2014-10-02</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>HUST</td></tr>	
+</table>

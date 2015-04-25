@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8061. Christmas Play</h1>
+		<h2>Problem code: AMR10G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>My kid's kindergarten class is putting up a Christmas play.&nbsp; (I hope he gets the lead role.)&nbsp; The kids are all excited, but the teacher has a lot of work.&nbsp; She has to produce costumes for a scene with K soldiers.&nbsp; She wants to buy all the costumes in the same size, allowing for some small amount of length alteration to be done by the kids' parents later.&nbsp; So she has taken all the kids' height measurements.&nbsp; Can you help her select K kids from her class of N to play the soldier role, such that the height difference between the tallest and shortest in the group is minimized, and alternations will be easiest?&nbsp; Tell her what this minimum difference is. <br />&nbsp;<br />&nbsp;<br /><strong>INPUT</strong> <br />The first line contains the number of test cases T. T test cases follow each containing 2 lines. <br />&nbsp;<br />The first line of each test case contains 2 integers N and K. <br />The second line contains N integers denoting the height of the N kids. <br />&nbsp;<br /><strong>OUTPUT</strong> <br />Output T lines, each line containing the required answer for the corresponding test case. <br />&nbsp;<br /><strong>CONSTTRAINTS</strong> <br />T &lt;= 30 <br />1 &lt;= K &lt;= N &lt;= 20000 <br />1 &lt;= height &lt;= 1000000000 <br />&nbsp;<br /><strong>SAMPLE INPUT</strong><br />3 <br />3 1 <br />2 5 4 &nbsp;<br />3 2 <br />5 2 4 &nbsp;<br />3 3 <br />2 5 4 &nbsp;<br />&nbsp;<br />&nbsp;<br /><strong>SAMPLE OUTPUT</strong> <br />0 <br />1 <br />3 <br />&nbsp;<br /><strong>EXPLANATION</strong><br />In the first test case, the teacher needs to only select 1 kid and hence she can choose any kid since the height difference is going to be 0. <br />In the second test case, the teacher can choose kids with height 4 and 5. <br />In the third test case, the teacher is forced to choose all 3 kids and hence the answer = 5-2 = 3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>0.635s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

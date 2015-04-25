@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RPAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6906. Raining Parabolas</h1>
+		<h2>Problem code: RPAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">It's raining parabolas!</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">Nowdays you just can't predict what'll fall on your head tomorrow..</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">Because we don't care about the nature, it is now striking back:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; it's raining parabolas!</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">The parabolas that are falling are given in form of quadratic</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">fuctions: f(x) = ax^2 + bx + c. The ground can be defined as a line</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">with N blocks, numbered from 0 to N-1, initially having height 0.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">At some point, a block can have some positive height, but when it exceeds</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">10006 ( we don't actually know why, but measurements have shown it is a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">weird regularity.. ) it falls back to 0 . When a parabola falls on the ground,&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">it interacts with its current configuration ( the parabolas that have</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">fallen before it ) by summing with them.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">Today you somehow came in possesion of some sort of schedule which defines</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">the order in which the parabolas will fall on the ground. Apart from that,&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">you're interested total heights ( sums of heights ) of consecutive blocks</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">of ground.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">You're given two integers: N and M ( 1 &lt;= N, M &lt;= 100000 ). N specifies</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">the number of blocks on the floor, and M is the number of queries.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">As we already said, we have two types of queries of form:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; 0 x0 x1 a b c ( x0 &lt;= x1, 0 &lt;= a, b, c &lt;= 10006 )</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; &nbsp; &nbsp;this type of query just tells you that a parabola has</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; &nbsp; &nbsp;fallen into the interval [x0, x1], and it function is f(x) = ax^2 + bx + c</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; 1 x0 x1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; &nbsp; &nbsp;this is the type of query you have to answer - output the sum of heights</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">&nbsp;&nbsp; &nbsp; &nbsp;of all the blocks from interval [x0, x1] modulo 10007</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">All numbers in the input are integers.</div>
+<p style="text-align: justify;"><span style="font-size: small;">Nowdays you just can't predict what'll fall on your head the next day..&nbsp;Because we don't care about the nature, it is now striking back:&nbsp;it's raining parabolas!</span></p>
+<p style="text-align: justify;"><span style="font-size: small;">The parabolas that are falling are given in form of quadratic&nbsp;functions:</span><strong><span style="font-size: small;"> f(x) = ax</span></strong><sup><strong><span style="font-size: small;">2</span></strong></sup><strong><span style="font-size: small;"> + bx + c</span></strong><span style="font-size: small;">. The ground can be defined as a line&nbsp;with N blocks, numbered from 0 to N-1, initially having height 0.&nbsp;At some point, a block can have some positive height, but when it exceeds&nbsp;10006 ( we don't actually know why, but measurements have shown it is a&nbsp;weird regularity.. ) it falls back to 0. When a parabola falls on some block,&nbsp;it interacts with its current configuration ( the parabolas that have&nbsp;fallen there before it ) by summing with it. More precisely, if we are given an interval [x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">, x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">] in which the next parabola will fall, and the function of our parabola is f(x) ( defined above ), some block </span><span style="font-size: xx-small; "><span style="font-size: small;">i ( x</span><sub><span style="font-size: small;">0 &nbsp;</span></sub><span style="font-size: small;">&lt;= i &lt;= x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">&nbsp;), with height h</span><sub><span style="font-size: small;">i</span></sub><span style="font-size: small;">, the new height of that block becomes</span><strong><span style="font-size: small;"> </span></strong></span><span style="font-size: xx-small;"><strong><span style="font-size: small;">(h</span></strong><sub><strong><span style="font-size: small;">i</span></strong></sub><strong><span style="font-size: small;">&nbsp;+ f(i)) modulo 10007</span></strong><span style="font-size: small;">.</span></span></p>
+<p style="text-align: justify;"><span style="font-size: small;">Today you somehow came in possesion of some sort of schedule which defines&nbsp;the order in which the parabolas will fall on the ground. Apart from that, you're interested total heights ( sums of heights ) of consecutive blocks&nbsp;of ground.&nbsp;</span><span style="font-size: x-small; "><span style="font-size: small;">When we want to find the total height of some interval [x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">, x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">], we're looking for the<strong> sum of h</strong></span><sub><span style="font-size: small;"><strong>i</strong></span></sub><span style="font-size: small;"><strong>&nbsp;for all i</strong> (&nbsp;x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">&nbsp;&lt;= i &lt;= x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">&nbsp;) <strong>modulo 10007</strong>.</span></span></p>
+<p style="text-align: justify;"><span style="font-size: small;">Before the first parabola falls, the ground is flat ( all heights are 0 ).</span></p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="font-size: small;">The first line of input contains two integers: N and M ( 1 &lt;= N, M &lt;= 100000 ). N specifies&nbsp;the number of blocks on the floor, and M is the number of queries. Each of the next M lines contains a query. As we already said, we have two types of queries of form:</span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; 0 x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">&nbsp;x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">&nbsp;a b c (0 &lt;= x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">&nbsp;&lt;= x</span><sub><span style="font-size: small;">1&nbsp;</span></sub><span style="font-size: small;">&lt; N, 0 &lt;= a, b, c &lt;= 10006, </span><strong><span style="font-size: small;">all integers</span></strong><span style="font-size: small;"> )</span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; &nbsp; &nbsp;this type of query just tells you that a parabola has</span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; &nbsp; &nbsp;fallen into the interval [x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">, x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">], and its function is f(x) = ax</span><sup><span style="font-size: small;">2</span></sup><span style="font-size: small;">&nbsp;+ bx + c</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; 1 x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">&nbsp;x</span><sub><span style="font-size: small;">1&nbsp;</span></sub><span style="font-size: small;">( 0 &lt;= x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">&nbsp;&lt;= x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">&nbsp;&lt; N, </span><strong><span style="font-size: small;">all integers</span></strong><span style="font-size: small;"> )</span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; &nbsp; &nbsp;this is the type of query you have to answer - output the sum of heights</span></p>
+<p><span style="font-size: small;">&nbsp;&nbsp; &nbsp; &nbsp;of all the blocks from interval [x</span><sub><span style="font-size: small;">0</span></sub><span style="font-size: small;">, x</span><sub><span style="font-size: small;">1</span></sub><span style="font-size: small;">] modulo 10007</span></p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p style="text-align: justify;"><span style="font-size: small;">For each query of type 1, output a single line containing the sum of all the heights in the given interval modulo 10007.</span></p>
+<h3>Example</h3>
+<p><strong>Input:</strong> <br />10 2<br /> 0 0 9 1 0 0<br /> 1 0 3 <br /> <strong>Output:</strong> <br />14&nbsp;</p>
+<pre>(the sum of the first 4 squares ( from 0 to 3 ) is 14 )</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syntax_error">gustav</a></td></tr>
+<tr><td>Date:</td><td>2010-07-05</td></tr>
+<tr><td>Time limit:</td><td>0.132s-0.628s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

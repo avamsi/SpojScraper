@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AVOIDSOS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6999. Avoiding SOS Grids</h1>
+		<h2>Problem code: AVOIDSOS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a grid having N rows and M columns. Some squares are contain letters 'S' or 'O', whereas the other squares are unfilled. A filled grid is called "Avoiding SOS" if there is no occurance of the string "SOS" in the grid either vertically or horizontally. In how many ways can the grid be completed by filling the unfilled squares with either 'S' or 'O' such that the resultant grid is "Avoiding SOS" ?<br /><br /><br />Input :<br />The first line contains T the number of test cases. T test cases follow. The first line for the test case contains N and M, the number of rows and columns in the grid respectively. N lines follow, each containing M characters. The jth character in the ith line is a '.' if the corresponding square in the grid is unfilled, otherwise it contains either the letter 'S' or the letter 'O'. A blank line seperates two test cases.<br /><br />Output :<br />Output T lines, one for each test case, containing the desired answer for the corresponding test case. Output each result modulo 1000000007.<br /><br />Sample Input :<br />5<br />2 3<br />...<br />...<br /><br />1 4<br />....<br /><br />3 3<br />.O.<br />S.S<br />.O.<br /><br />1 3<br />SOS<br /><br />1 3<br />SOO<br /><br />Sample Output :<br />49<br />12<br />9<br />0<br />1<br /><br />Constraints :<br />1 &lt;= T &lt;= 100<br />1 &lt;= N,M &lt;= 8</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-07-29</td></tr>
+<tr><td>Time limit:</td><td>0.490s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Indian ICPC training camp</td></tr>	
+</table>

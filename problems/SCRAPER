@@ -1,0 +1,125 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCRAPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>47. Skyscraper Floors</h1>
+		<h2>Problem code: SCRAPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>What a great idea it is to build skyscrapers! Using not too
+large area of land, which is very expensive in many cities today, the
+skyscrapers offer an extremely large utility area for flats or offices. 
+The only disadvantage is that it takes too long to get to the upper 
+floors. Of course these skyscrapers have to be equiped not only 
+with a stairway but also with several elevators. But even using 
+ordinary elevators is very slow. Just imagine you want to get from 
+the very top floor to the base floor and many other people on other 
+floors want the same. As a result the elevator stops on almost every 
+floor and since its capacity is limited and the elevator is already 
+full from the upper floors, most stops are useless and just cause 
+a delay. If there are more elevators in the skyscrapers, this problem 
+is a little bit eliminated but still not completely. Most people just 
+press all the buttons of all the elevators and then take the first 
+one so that all elevators will stop on the floor anyway.
+
+<P>However, the solution exists as we shall see. The Antique Comedians of
+Midilesia headquarters reside in a skyscraper with a very special
+elevator system. The elevators do not stop on every floor but only on
+every <VAR>X</VAR>-th floor.
+Moreover each elevator can go just to a certain floor <VAR>Y</VAR>
+(called starting floor) and cannot go any lower. There is one
+high-capacity elevator which can stop on every elevator's starting
+floor.
+
+<P>The ACM has a big problem. The headquarters should be moved to
+another office this week, possibly on a different floor. 
+Unfortunately, the high-capacity elevator is
+out of order right now so it is not always possible to go to the base
+floor. One piece of furniture cannot be moved using the stairway because it
+is too large to pass through the stairway door. You are to write
+a program that decides whether it is possible to move a piece of
+furniture from the original office to the other.
+
+
+<H3>Input</H3>
+
+<P>The input consists of <VAR>N</VAR> cases (equal to about 2000). The first line contains only
+one positive integer <VAR>N</VAR>. Then follow the cases.
+Each case starts with a line containing four integers 
+<VAR>F</VAR>, <VAR>E</VAR>, <VAR>A</VAR>, <VAR>B</VAR>, where <VAR>F</VAR>,
+<VAR>1 &lt;= F &lt; 50000000</VAR> determines the number of floors in the
+skyscraper (this means that there are floors <VAR>0</VAR> to
+<VAR>F-1</VAR>),
+<VAR>E</VAR>, <VAR>0 &lt; E &lt; 100</VAR> is the number of elevators and
+<VAR>A</VAR>, <VAR>B</VAR>, <VAR>0 &lt;= A,B &lt; F</VAR> are numbers of the
+two floors between which the piece of furniture should be moved. Then
+follow <VAR>E</VAR> lines. Each of them contains description of one elevator.
+There are exactly two integers <VAR>X</VAR> and <VAR>Y</VAR>, <VAR>X &gt;
+0</VAR>, <VAR>Y &gt;= 0</VAR> at
+each line. <VAR>Y</VAR> determines, that the elevator starts on the
+<VAR>Y</VAR>-th floor and <VAR>X</VAR> determines, that it stops on every
+<VAR>X</VAR>-th floor, eg. for <VAR>X = 3</VAR>, <VAR>Y = 7</VAR> the
+elevator stops on floors 7, 10, 13, 16, etc.).
+
+
+<H3>Output</H3>
+
+<P>For each case, print exactly one line.
+If floor <VAR>B</VAR> is reachable from floor <VAR>A</VAR> not using the
+stairway, print the sentence
+'<TT>It is possible to move the furniture.</TT>', otherwise print 
+'<TT>The furniture cannot be moved.</TT>'.
+
+
+<H3>Example</H3>
+<PRE>
+Sample input:
+
+2
+22 4 0 6
+3 2
+4 7
+13 6
+10 0
+1000 2 500 777
+2 0
+2 1
+
+Sample output:
+
+It is possible to move the furniture.
+The furniture cannot be moved.
+</PRE>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>13s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1998</td></tr>	
+</table>

@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OPBIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17309. Operation Bits</h1>
+		<h2>Problem code: OPBIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Operation bits - A new operation conducted by the secret team currently working on a project on security enhancement. Mr.Abay, the team head, has found a new pattern on the perfect squares. This can be used as a outer cover for his project as its securing power is low. So he assign you this problem to find the key based on the given conditions:</p>
+<p>"An two adjacent perfect squares have their absolute difference as an odd number except when a and b are equal. Your task is to find the key which is deined as:&nbsp;</p>
+<p><span style="white-space: pre;"> </span>key(a,b) where a and b are perfect squares is ( ( AND( absolute difference betwen every adjacent perfect squares in [a,b]) ) AND ( XOR( absolute difference betwen every adjacent perfect squares in [a,b]) ) )"</p>
+<p>Find the key for the given inputs :)</p>
+<h3>Input</h3>
+<p>The input begins with a number T (1&lt;=T&lt;=1000) where T is the number of testcases.</p>
+<p>T lines follow</p>
+<p>Each line has two numbers a and b (0 &lt; a &lt;= b &lt;= 10^6)</p>
+<p>It is assured that a and b are perfect squares.</p>
+<h3>Output</h3>
+<p>For each test case print the corresponding key&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>1 4</pre>
+<pre>25 49</pre>
+<pre><strong>Output:</strong>
+3</pre>
+<pre>0</pre>
+<pre>for test case 1 we have key=(3)&amp;(3)=3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codaemonhsirk">Benkindersophobia</a></td></tr>
+<tr><td>Date:</td><td>2013-11-30</td></tr>
+<tr><td>Time limit:</td><td>0.015s-0.085s</td></tr>
+<tr><td>Source limit:</td><td>40000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My Own</td></tr>	
+</table>

@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GEOPROB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2901. One Geometry Problem</h1>
+		<h2>Problem code: GEOPROB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+This is a problem of Euclidean Geometry. See the figure below.
+<p>
+<IMG SRC="/content/frankr:ff"></img>
+<p>
+<p>
+
+Your task is as follows: given the lengths of segments b, c, and d, calculate the length of segment a.
+
+<h3>Input</h3>
+<p>
+The input begins with the number t of test cases in a single line (t<=300). In each of
+the next t lines there are three integers b, c and d  (0 <= b, c and d <= 10<sup>200</sup> ; b,d < c)
+separated by a space.
+
+<h3>Output</h3>
+<p>
+For every test case print the length of the segment a, one number per line.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 8 5
+10 18 12
+
+<b>Output:</b>
+8
+14
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/frankr">Frank Rafael Arteaga</a></td></tr>
+<tr><td>Date:</td><td>2008-07-30</td></tr>
+<tr><td>Time limit:</td><td>0.230s-0.461s</td></tr>
+<tr><td>Source limit:</td><td>4000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>My own Resource</td></tr>	
+</table>

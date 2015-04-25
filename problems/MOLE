@@ -1,0 +1,110 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1505. Whac-a-Mole</h1>
+		<h2>Problem code: MOLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+<img src="/content/abhilash_i:whac" style="float: right" vspace="3" hspace="8" alt="Map">
+While visiting a traveling fun fair you
+suddenly have an urge to break the high
+score in the Whac-a-Mole game. The goal
+of the Whac-a-Mole game is to... well...
+whack moles. With a hammer. To make
+the job easier you have &#64257;rst consulted
+the fortune teller and now you know the
+exact appearance patterns of the moles.
+    The moles appear out of holes occupying the n<sup>2</sup> integer points (x, y) 
+satisfying 0 &#8804; x, y &lt;n in a 
+two-dimensional coordinate system. 
+At each time step, some moles will 
+appear and then disappear again before 
+the next time step. After the moles appear 
+but before they disappear, you are able
+ to move your hammer in a straight line 
+to any position (x2 , y2 ) that is at ditance 
+at most d from your current position (x1 , y1 ). For simplicity, we assume that yo
+can only move your hammer to a point having integer coordinates. A mole is whacke
+if the center of the hole it appears out of is located on the line between (x1 , y1 ) an
+(x2 , y2 ) (including the two endpoints). Every mole whacked earns you a point. Whe
+the game starts, before the &#64257;rst time step, you are able to place your hammer anywher
+you see &#64257;t.
+
+
+
+<h3>Input</h3>
+<p>
+The input consists of several test cases. Each test case starts with a line containing three
+integers n, d and m, where n and d are as described above, and m is the total number
+of moles that will appear 
+(1 &#8804; n &#8804; 20, 1 &#8804; d &#8804; 5, and 1 &#8804; m &#8804; 1000). Then follow
+m lines, each containing three integers x, y and t giving the position and time of the
+appearance of a mole (0 &#8804; x, y < n and 1 &#8804; t &#8804; 10). No two moles will appear at the
+same place at the same time.
+    The input is ended with a test case where n = d = m = 0. This case should not be
+processed.
+
+
+<h3>Output</h3>
+<p>For each test case output a single line containing a single integer, the maximum
+possible score achievable.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4 2 6
+0 0 1
+3 1 3
+0 1 2
+0 2 2
+1 0 2
+2 0 2
+5 4 3
+0 0 1
+1 2 1
+2 4 1
+0 0 0
+
+
+<b>Output:</b>
+4
+2
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhilash_i">Abhilash I</a></td></tr>
+<tr><td>Date:</td><td>2007-04-19</td></tr>
+<tr><td>Time limit:</td><td>0.297s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

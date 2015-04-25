@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ENCONDIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1787. Run Length Encoding</h1>
+		<h2>Problem code: ENCONDIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+Your task is to write a program that performs a simple form of run-length encoding, as described by the rules below.
+
+</p><p>
+
+Any sequence of between 2 to 9 identical characters is encoded by two characters.
+The first character is the length of the sequence, represented by one of the characters <code>2</code> through <code>9</code>.
+The second character is the value of the repeated character.
+A sequence of more than 9 identical characters is dealt with by first encoding 9 characters, then the remaining ones.
+
+</p><p>
+
+Any sequence of characters that does not contain consecutive repetitions of any characters is represented by a <code>1</code> character followed by the sequence of characters, terminated with another <code>1</code>.
+If a <code>1</code> appears as part of the sequence, it is escaped with a <code>1</code>, thus two <code>1</code> characters are output.
+
+</p><h3>Input Specification</h3><p>
+
+The input consists of letters (both upper- and lower-case), digits, spaces, and punctuation.
+Every line is terminated with a newline character and no other characters appear in the input.
+
+</p><h3>Output Specification</h3><p>
+
+Each line in the input is encoded separately as described above.
+The newline at the end of each line is not encoded, but is passed directly to the output.
+
+</p><h3>Sample Input</h3><p>
+
+</p><pre>AAAAAABCCCC
+12344
+</pre>
+
+<h3>Sample Output</h3><p>
+
+</p><pre>6A1B14C
+11123124
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2007-09-19</td></tr>
+<tr><td>Time limit:</td><td>0.303s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>University of Ulm Local Contest 2004</td></tr>	
+</table>

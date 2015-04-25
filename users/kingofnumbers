@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kingofnumbers"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PERMTGEN" target="_blank">14819. Permutation Generator</a></td><td><a href="http://www.spoj.com/problems/PERMTGEN"target="_blank">PERMTGEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRTREE" target="_blank">14943. Dynamically-Rooted Tree</a></td><td><a href="http://www.spoj.com/problems/DRTREE"target="_blank">DRTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACQUIRE" target="_blank">15086. Land Acquisition</a></td><td><a href="http://www.spoj.com/problems/ACQUIRE"target="_blank">ACQUIRE</a><br>
+</td></tr>

@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PROBLEM4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8456. PRIMITIVEROOTS</h1>
+		<h2>Problem code: PROBLEM4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Problem 4:   PRIMITIVEROOTS</p>
+<p> </p>
+<p><strong>Introduction to Primitive Roots:</strong></p>
+<p>a <strong>primitive root modulo <em>n</em></strong> is any number <em>g</em> with the property that any number <a href="http://en.wikipedia.org/wiki/Coprime">coprime</a> to <em>n</em> is <a title="Modular arithmetic" href="http://en.wikipedia.org/wiki/Modular_arithmetic#Congruence_relation">congruent</a> to a power of <em>g</em> modulo <em>n</em>.</p>
+<p> </p>
+<p>The number 3 is a primitive root modulo 7. because</p>
+<p> </p>
+<p><img style="vertical-align: middle;" src="http://upload.wikimedia.org/math/9/0/6/9067f634e30d7ae5f9b974a2e8e40490.png" alt="" /></p>
+<p> </p>
+<p> </p>
+<p><strong>Problem Statement:</strong></p>
+<p>Given a number n as input you&#8217;ve to find the (product all the primitive roots of n) % n if n is prime.</p>
+<p> </p>
+<p><strong>Input</strong>:</p>
+<p>The first line consists of t the number of test cases followed by t lines. Each line consists of a prime number n.</p>
+<p> </p>
+<p><strong>Output:</strong></p>
+<p>For each test case print  the test case number followed by &#8216;:&#8217; followed by (product of all primitive roots of n) % n. If it is not a prime then print &#8220;NOTPRIME&#8221;</p>
+<p><strong> </strong></p>
+<p><strong>Input Specifications</strong></p>
+<p>1&lt;=t&lt;=100</p>
+<p>10000>=n>=3</p>
+<p><strong>Example</strong></p>
+<p><strong>Sample Input</strong></p>
+<p>3</p>
+<p>6</p>
+<p>7</p>
+<p>9</p>
+<p><strong>Sample Output</strong></p>
+<p>1:NOTPRIME</p>
+<p>2:1</p>
+<p>3:NOTPRIME</p>
+<p> </p>
+<p><strong>Description for test case #2:</strong></p>
+<p>The primitive roots of 7 are 3 and 5. The product % 7 = 15%7  =1</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2011-03-04</td></tr>
+<tr><td>Time limit:</td><td>0.594s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Edited question from Kurukshetra 2011</td></tr>	
+</table>

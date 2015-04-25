@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KPSUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1433. The Sum</h1>
+		<h2>Problem code: KPSUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One of your friends wrote numbers 1, 2, 3, ..., N on the sheet of paper. After that he placed signs + and - between every pair of adjacent digits alternately. Now he wants to find the value of the expression he has made. Help him.
+<br /><br />For example, if N=12 then
++1 -2 +3 -4 +5 -6 +7 -8 +9 -1+0 -1+1 -1+2 = 5
+
+<h3>Input</h3>
+<p>Each line contains one integer number N (1&#8804; N &#8804; 10<sup>15</sup>). Last line contains 0 and shouldn't be processed. Number of lines in the input does not exceed 40.
+
+<h3>Output</h3>
+<p>For every line in the input write the answer on a separate line.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+12
+0
+
+<b>Output:</b>
+5
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kingpin">Pavel Kuznetsov</a></td></tr>
+<tr><td>Date:</td><td>2007-03-26</td></tr>
+<tr><td>Time limit:</td><td>0.114s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Vologda 2007</td></tr>	
+</table>

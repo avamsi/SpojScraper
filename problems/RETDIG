@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RETDIG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14820. Return of the Digger</h1>
+		<h2>Problem code: RETDIG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+<script type="text/x-mathjax-config">// <![CDATA[
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+// ]]></script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</p>
+<p>The adventures of &ldquo;Digger&rdquo; continue as he once again searches for treasure. This time, his money senses detect it underground. His plan is to dig down to it using an automatic pickaxe and his souped-up pneumatic drill.</p>
+<p>The treasure is within a thin stretch of land, running West to East, that is made up of dirt and some rocks. This stretch is $L$ ($1 \leq L \leq 200$) metres long. Digger&rsquo;s money senses are very exact, and he knows the location of the treasure he seeks &ndash; it is no more than $10000$ metres below the surface. In addition to money senses, he apparently also has rock senses, which can pinpoint $N$ ($1 \leq N \leq 5000$) rocks among the dirt, none of which will be at a depth of more than $10000$ metres.</p>
+<p>Digger&rsquo;s specially-designed pneumatic drill can only go straight down, and it can tunnel through dirt easily &ndash; however, it isn&rsquo;t equipped with brakes, so it keeps on going until it hits a rock. When this happens, it stops just above the rock, but the drill bit also breaks. This time, Digger doesn&rsquo;t have to worry about fuel &ndash; instead, he just wants to avoid breaking his drill bits! Once stationary, Digger can also use his pickaxe to dig left and right (yes, even through rocks!), but he can&rsquo;t dig up or down with it.</p>
+<p>The treasure is pretty fragile, so Digger definitely doesn&rsquo;t want to drill right into it. Instead, he can either get to the same depth as it and use his pickaxe to dig to it, or he can use his pneumatic drill to go right past it (either 1 metre to the left or right of it). However, once he gets his hands on the treasure, Digger&rsquo;s plan isn&rsquo;t complete &ndash; he intends to keep drilling down until he gets to China. As such, he must first navigate past the deepest of the $N$ rocks &ndash; at that point, it&rsquo;s all dirt (or so he hopes...).</p>
+<p>Digger can start anywhere on the surface. Determine the minimum amount of drill bits that he must break in order to retrieve the treasure and dig down past all the rocks, if it&rsquo;s possible at all.</p>
+<h3>Input</h3>
+<p>Line $1$: $L$ and $N$ &ndash; respectively, the length of the stretch of land (in metres) and the number of rocks.</p>
+<p>Lines $2..N+1$: $A$ and $B$ &ndash; the $i$th line gives the location of the ($i-1$)th rock, where $A$ is its depth, and $B$ is its distance from the West edge of the stretch of land (both in metres).</p>
+<p>Line $N+2$: $Y$ and $X$ &ndash; the location of the treasure, where $Y$ is its depth, and $X$ is its distance from the West edge of the stretch of land (both in metres). The treasure will not be within a rock.</p>
+<h3>Output</h3>
+<p>If it&rsquo;s impossible for Digger to reach the treasure and dig down past all the rocks, output &ldquo;Use dynamite&rdquo;.</p>
+<p>Otherwise, output a single number &ndash; the minimum number of drill bits Digger must break to accomplish this.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre><span style="font-family: 'courier new', courier;">10 20</span>
+<span style="font-family: 'courier new', courier;">1 5</span>
+<span style="font-family: 'courier new', courier;">2 1</span>
+<span style="font-family: 'courier new', courier;">2 2</span>
+<span style="font-family: 'courier new', courier;">2 4</span>
+<span style="font-family: 'courier new', courier;">2 5</span>
+<span style="font-family: 'courier new', courier;">2 6</span>
+<span style="font-family: 'courier new', courier;">2 8</span>
+<span style="font-family: 'courier new', courier;">2 9</span>
+<span style="font-family: 'courier new', courier;">3 3</span>
+<span style="font-family: 'courier new', courier;">4 7</span>
+<span style="font-family: 'courier new', courier;">4 8</span>
+<span style="font-family: 'courier new', courier;">4 9</span>
+<span style="font-family: 'courier new', courier;">5 3</span>
+<span style="font-family: 'courier new', courier;">5 4</span>
+<span style="font-family: 'courier new', courier;">5 5</span>
+<span style="font-family: 'courier new', courier;">5 6</span>
+<span style="font-family: 'courier new', courier;">6 3</span>
+<span style="font-family: 'courier new', courier;">10 1</span>
+<span style="font-family: 'courier new', courier;">10 2</span>
+<span style="font-family: 'courier new', courier;">10 7</span>
+<span style="font-family: 'courier new', courier;">8 6</span></pre>
+<pre><strong>Output:</strong></pre>
+<pre><span style="font-family: 'courier new', courier;">3</span></pre>
+<pre><span style="font-weight: bold;">Explanation of Sample:</span></pre>
+<p>Digger starts on the surface, 7 metres from the West edge of the stretch of land. He drills down for 3 metres until he hits a rock and breaks his first drill bit. He then uses his pickaxe to walk to the left, and drills down another metre, hitting another rock and breaking his second drill bit. He then walks to the right (through a rock), and drills down for 5 metres, picking up the treasure on the way, until he hits another rock and breaks his third and final drill bit. He then walks to the right and drills down past the last rock. This route is shown below (&lsquo;.&rsquo;: dirt, &lsquo;x&rsquo;: rock, &lsquo;T&rsquo;: treasure, &lsquo;D&rsquo;: drill, &rsquo;&lt;&rsquo; or &lsquo;&gt;&rsquo;: pickaxe):</p>
+<pre><span style="font-family: 'courier new', courier;">.....x.D..</span>
+<span style="font-family: 'courier new', courier;">.xx.xxxDxx</span>
+<span style="font-family: 'courier new', courier;">...x..&lt;D..</span>
+<span style="font-family: 'courier new', courier;">......D&gt;xx</span>
+<span style="font-family: 'courier new', courier;">...xxxxD..</span>
+<span style="font-family: 'courier new', courier;">...x...D..</span>
+<span style="font-family: 'courier new', courier;">.......D..</span>
+<span style="font-family: 'courier new', courier;">......TD..</span>
+<span style="font-family: 'courier new', courier;">.......D&gt;.</span>
+<span style="font-family: 'courier new', courier;">.xx....xD.</span>
+<span style="font-family: 'courier new', courier;">........D.</span></pre>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sourspinach">Jacob Plachta</a></td></tr>
+<tr><td>Date:</td><td>2013-05-06</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

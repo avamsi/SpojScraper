@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CSLIKAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13076. Slikar</h1>
+		<h2>Problem code: CSLIKAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The evil emperor Cactus has in his possession the Magic Keg and has flooded the Enchanted <br />Forest! The Painter and the three little hedgehogs now have to return to the Beaver's den where they &nbsp;<br />will be safe from the water as quickly as possible! &nbsp;<br />The map of the Enchanted Forest consists of R rows and C columns. Empty fields are represented <br />by '.' characters, flooded fields by '*' and rocks by 'X'. Additionally, the Beaver's den is represented <br />by 'D' and the Painter and the three little hedgehogs are shown as 'S'. &nbsp;<br />Every minute the Painter and the three little hedgehogs can move to 4 neighbouring fields (up, &nbsp;<br />down, left or right). Every minute the flood expands as well so that all empty fields that have at least &nbsp;<br />one common side with a flooded field become flooded as well. Neither water nor the Painter and <br />the three little hedgehogs can pass through rocks. Naturally, the Painter and the three little &nbsp;<br />hedgehogs cannot pass through flooded fields, and water cannot flood the Beaver's den. <br />Write a program that will, given a map of the Enchanted Forest, output the shortest time needed &nbsp;<br />for the Painter and the three little hedgehogs to safely reach the Beaver's den. <br />Note:&nbsp; The Painter and the three little hedgehogs cannot move into a field that is about to be &nbsp;<br />flooded (in the same minute).</p>
+<h3>Input</h3>
+<p>The first line of input will contain two integers, R and C, smaller than or equal to 50. &nbsp;<br />The following R lines will each contain C characters ('.', '*', 'X', 'D' or 'S'). The map will contain &nbsp;<br />exactly one 'D' character and exactly one 'S' character</p>
+<h3>Output</h3>
+<p>Output the&nbsp; shortest possible time needed for the Painter and the three little hedgehogs to safely &nbsp;<br />reach the Beaver's den. If this is impossible output the word &ldquo;KAKTUS&rdquo; on a line by itself.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 6<br />D...*.<br />.X.X..<br />....S.<br /><br /><strong>Output:</strong><br />6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/trubilo">Erik Lončarek</a></td></tr>
+<tr><td>Date:</td><td>2012-12-27</td></tr>
+<tr><td>Time limit:</td><td>0.095s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI</td></tr>	
+</table>

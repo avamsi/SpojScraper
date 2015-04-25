@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AE5B2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4310. Permutacja</h1>
+		<h2>Problem code: AE5B2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of positive integers a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>. We would like to order the numbers from 1 to
+n in such a way, that the i-th number is not greater than a<sub>i</sub> (for each i). In other words, we are looking for
+a permutation p of numbers from 1 to n, which satisfies: p<sub>i</sub> &#8804; a<sub>i</sub> for each 1 &#8804; i &#8804; n. There is one more problem,
+the sequence ai may change over time. . .</p>
+<h3>Input</h3>
+<p>The first line of standard input contains one integer n (1 &#8804; n &#8804; 200 000), the number of elements of the a<sub>i</sub>
+sequence. In the second line, there is a sequence of n positive integers a<sub>i</sub> (1 &#8804; a<sub>i</sub> &#8804; n), separated by single
+spaces. The third line contains one integer m (0 &#8804; m &#8804; 500 000), representing the number of modifications
+made to the ai sequence. The following m lines describe these modifications. Each description consists of two
+integers j<sub>i</sub> and w<sub>i</sub> (1 &#8804; j<sub>i</sub>, w<sub>i</sub> &#8804; n for 1 &#8804; i &#8804; m), separated by single spaces and meaning that j<sub>i</sub>-th element
+of the sequence becomes w<sub>i</sub>. The operations take place in turns, so the i-th modification is applied to the
+sequence altered by (i &#8722; 1) previous modifications.</p>
+<h3>Output</h3>
+<p>Your program should output exactly m + 1 lines to the standard output. Each of those lines should contain
+one word TAK (meaning YES) or NIE (meaning NO). The word in the first line should tell if there exists
+a permutation p, which satisfies p<sub>i</sub> &#8804; a<sub>i</sub> for each i (for the original a<sub>i</sub> sequence), whereas the words from
+following lines answer the question whether there exist any (potentially different) permutations that satisfy
+the given conditions for the ai sequence after each modification.</p>
+<h3>Example</h3>
+<p>For the input data:</p>
+<pre>
+5
+3 4 3 2 5
+2
+5 4
+1 5
+</pre>
+<p>the correct result is:</p>
+<pre>
+TAK
+NIE
+TAK
+</pre>
+<p>Explanation of the example. For the original ai sequence, the condition is satisfied by permutation
+2, 4, 3, 1, 5. After the first modification, the sequence becomes 3, 4, 3, 2, 4 and for this sequence no valid
+permutation exists. After the second modification, the sequence is 5, 4, 3, 2, 4. An example of a permutation
+p satisfying all constraints for this sequence is 5, 1, 3, 2, 4.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-03</td></tr>
+<tr><td>Time limit:</td><td>0.729s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Algorithmic Engagements 2009</td></tr>	
+</table>

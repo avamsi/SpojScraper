@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MUDDY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>282. Muddy Fields</h1>
+		<h2>Problem code: MUDDY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rain has pummeled on the cows' field, a rectangular grid of R rows and C columns (1 <= R <= 50, 1 <= C <= 50). While good for the grass,
+the rain makes some patches of bare earth quite muddy. The cows, being meticulous grazers, don't want to get their hooves dirty while they eat.
+<p>
+
+To prevent those muddy hooves, Farmer John will place a number of wooden boards over the muddy parts of the cows' field.  Each of the boards is 1 unit wide, and can be any length long.  Each board must be aligned parallel to one of the sides of the field.<p>
+
+Farmer John wishes to minimize the number of boards needed to cover the muddy spots, some of which might require more than one board to cover.  The boards may not cover any grass and deprive the cows of grazing area but they can overlap each other.<p>
+
+Compute the minimum number of boards FJ requires to cover all the mud in the field.
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follows. <BR>
+Each test case is of the following form: <br>
+Two space-separated integers: <i>R</i> and <i>C</i>, then R lines follows<BR>
+Each line contains a string of C characters, with '*' representing a muddy patch, and '.' representing a grassy patch. No spaces are present.
+
+<h3>Output</h3>
+<p>For each test case output a single integer representing the number of boards FJ needs.<BR>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1
+4 4
+*.*.
+.***
+***.
+..*.
+
+<b>Output:</b>
+4
+
+<b>Output details:</b>
+Boards 1, 2, 3 and 4 are placed as follows:
+1.2.
+.333
+444.
+..2.
+Board 2 overlaps boards 3 and 4.
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-01-19</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>30000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO January 2005 Gold Division</td></tr>	
+</table>

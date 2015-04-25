@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/dce_coders"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC204" target="_blank">10809. Unlock it !</a></td><td><a href="http://www.spoj.com/problems/DCEPC204"target="_blank">DCEPC204</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC206" target="_blank">10810. Its a Murder!</a></td><td><a href="http://www.spoj.com/problems/DCEPC206"target="_blank">DCEPC206</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC202" target="_blank">10814. Unique Paths</a></td><td><a href="http://www.spoj.com/problems/DCEPC202"target="_blank">DCEPC202</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC207" target="_blank">10815. Finally a Treat</a></td><td><a href="http://www.spoj.com/problems/DCEPC207"target="_blank">DCEPC207</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC203" target="_blank">10820. Obsession</a></td><td><a href="http://www.spoj.com/problems/DCEPC203"target="_blank">DCEPC203</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC200" target="_blank">10822. The Prime Minister</a></td><td><a href="http://www.spoj.com/problems/DCEPC200"target="_blank">DCEPC200</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC301" target="_blank">10945. Foodie Golu</a></td><td><a href="http://www.spoj.com/problems/DCEPC301"target="_blank">DCEPC301</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC505" target="_blank">11401. Bazinga!</a></td><td><a href="http://www.spoj.com/problems/DCEPC505"target="_blank">DCEPC505</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC504" target="_blank">11402. The Indian Connection</a></td><td><a href="http://www.spoj.com/problems/DCEPC504"target="_blank">DCEPC504</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC501" target="_blank">11404. Save Thy Toys</a></td><td><a href="http://www.spoj.com/problems/DCEPC501"target="_blank">DCEPC501</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC502" target="_blank">11405. Just Like the Good Old Days</a></td><td><a href="http://www.spoj.com/problems/DCEPC502"target="_blank">DCEPC502</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC604" target="_blank">11440. Unlock it ! Part 2</a></td><td><a href="http://www.spoj.com/problems/DCEPC604"target="_blank">DCEPC604</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC701" target="_blank">11472. Amazing Maze</a></td><td><a href="http://www.spoj.com/problems/DCEPC701"target="_blank">DCEPC701</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC702" target="_blank">11473. NOS</a></td><td><a href="http://www.spoj.com/problems/DCEPC702"target="_blank">DCEPC702</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC703" target="_blank">11474. Totient Game</a></td><td><a href="http://www.spoj.com/problems/DCEPC703"target="_blank">DCEPC703</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC705" target="_blank">11476. Weird Points</a></td><td><a href="http://www.spoj.com/problems/DCEPC705"target="_blank">DCEPC705</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC706" target="_blank">11477. Meeting For Party</a></td><td><a href="http://www.spoj.com/problems/DCEPC706"target="_blank">DCEPC706</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC803" target="_blank">11997. Trip To London</a></td><td><a href="http://www.spoj.com/problems/DCEPC803"target="_blank">DCEPC803</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC804" target="_blank">11998. Totient Fever</a></td><td><a href="http://www.spoj.com/problems/DCEPC804"target="_blank">DCEPC804</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC807" target="_blank">12001. Bit by Bit</a></td><td><a href="http://www.spoj.com/problems/DCEPC807"target="_blank">DCEPC807</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC810" target="_blank">12004. Cousin Wars</a></td><td><a href="http://www.spoj.com/problems/DCEPC810"target="_blank">DCEPC810</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA02" target="_blank">12887. Ant Colony Optimization</a></td><td><a href="http://www.spoj.com/problems/DCEPCA02"target="_blank">DCEPCA02</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA10" target="_blank">12889. MAD</a></td><td><a href="http://www.spoj.com/problems/DCEPCA10"target="_blank">DCEPCA10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA04" target="_blank">12893. Short Select</a></td><td><a href="http://www.spoj.com/problems/DCEPCA04"target="_blank">DCEPCA04</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA01" target="_blank">12902. Good Luck </a></td><td><a href="http://www.spoj.com/problems/DCEPCA01"target="_blank">DCEPCA01</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA08" target="_blank">12903. Saving BOB - 2</a></td><td><a href="http://www.spoj.com/problems/DCEPCA08"target="_blank">DCEPCA08</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA06" target="_blank">12912. Saving BOB</a></td><td><a href="http://www.spoj.com/problems/DCEPCA06"target="_blank">DCEPCA06</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA03" target="_blank">12914. Totient Extreme</a></td><td><a href="http://www.spoj.com/problems/DCEPCA03"target="_blank">DCEPCA03</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPCA09" target="_blank">12916. MMM</a></td><td><a href="http://www.spoj.com/problems/DCEPCA09"target="_blank">DCEPCA09</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11F" target="_blank">16207. Football Fever</a></td><td><a href="http://www.spoj.com/problems/DCEPC11F"target="_blank">DCEPC11F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11C" target="_blank">16208. Challenge Accepted</a></td><td><a href="http://www.spoj.com/problems/DCEPC11C"target="_blank">DCEPC11C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11I" target="_blank">16210. Impossible Boss</a></td><td><a href="http://www.spoj.com/problems/DCEPC11I"target="_blank">DCEPC11I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11B" target="_blank">16211. Boring Factorials</a></td><td><a href="http://www.spoj.com/problems/DCEPC11B"target="_blank">DCEPC11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11J" target="_blank">16212. Jailbreak</a></td><td><a href="http://www.spoj.com/problems/DCEPC11J"target="_blank">DCEPC11J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC11E" target="_blank">16240. Easy Password</a></td><td><a href="http://www.spoj.com/problems/DCEPC11E"target="_blank">DCEPC11E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12B" target="_blank">17394. Bits Game</a></td><td><a href="http://www.spoj.com/problems/DCEPC12B"target="_blank">DCEPC12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12D" target="_blank">17396. Dazzling Pearls</a></td><td><a href="http://www.spoj.com/problems/DCEPC12D"target="_blank">DCEPC12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12E" target="_blank">17397. End of Fun</a></td><td><a href="http://www.spoj.com/problems/DCEPC12E"target="_blank">DCEPC12E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12F" target="_blank">17398. Fitting in the Team</a></td><td><a href="http://www.spoj.com/problems/DCEPC12F"target="_blank">DCEPC12F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12G" target="_blank">17399. G Force</a></td><td><a href="http://www.spoj.com/problems/DCEPC12G"target="_blank">DCEPC12G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12H" target="_blank">17400. Height of Expectation</a></td><td><a href="http://www.spoj.com/problems/DCEPC12H"target="_blank">DCEPC12H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC12J" target="_blank">17402. Joy of Arbitrage</a></td><td><a href="http://www.spoj.com/problems/DCEPC12J"target="_blank">DCEPC12J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC13E" target="_blank">23133. World Cup 2015</a></td><td><a href="http://www.spoj.com/problems/DCEPC13E"target="_blank">DCEPC13E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCEPC13F" target="_blank">23134. Help Me Please!</a></td><td><a href="http://www.spoj.com/problems/DCEPC13F"target="_blank">DCEPC13F</a><br>
+</td></tr>

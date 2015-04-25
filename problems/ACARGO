@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACARGO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1873. Accumulate Cargo</h1>
+		<h2>Problem code: ACARGO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div align="justify">
+<p>
+A cargo shipment containing N (1 &lt;= <b>N</b> &lt;= 10<sup>5</sup>) boxes, has just arrived and it requires some regrouping. 
+All the cargo is currently placed on a long circular conveyor belt of length <b>L</b> metres (1 &lt;= <b>L</b> &lt;= 10<sup>9</sup>), 
+which you can control and perform the following operations.
+<ul>
+<li>Rotate the wheel clock wise or anti-clockwise (free of cost).
+<li>Hold the cargo at some point and not let it move, while the belt is rolling. 
+This causes the cargo behind it to come closer to this cargo by one step. 
+Any consecutive sequence of cargo is grouped together and called as a luggage. The aim of the program is to group all cargo as a single luggage. Now the cost of this holding operation for one second is equal to the weight of the <i>luggage</i> that is held fixed. Also please note that you can hold the luggage only at ends of the luggage and never at inbetween points.
+</ul>
+Each unit of cargo weighs exactly one Kg. The conveyor belt rotates at a speed of one meters per second.<br>
+This cost function directly reflects the human effort required to group the cargo. Workers would be happy if you can write a program that prints the minimal required effort to group the cargo, assuming an intelligent sequence of operations. <br>
+</p>
+<br>
+<b>Input Format:</b><br>
+The input file consists of multiple testcases. <br>
+The first line of each testcase contains two integers, <b>N</b> and <b>L</b>. <br>
+The following <b>N</b> lines contain one integer each specifying the position of the <b>i<sup>th</sup></b> cargo on the belt. The positions will be between 0 & <b>L-1</b>. <br>
+Input terminates with a line containing N=0 and L=0 which must not be processed. <br>
+<br>
+<b>Output Format:</b><br>
+For each testcase print one integer in a single line, which is the minimal required cost for grouping all the cargo into a single luggage.<br>
+<br>
+<b>Sample Input:</b><br>
+<pre>
+3 5
+0
+1
+3
+2 3
+0
+1
+5 20
+2
+7
+12
+9
+13
+0 0
+</pre>
+
+<b>Sample Output:</b><br>
+<pre>
+1
+0
+10
+</pre>
+
+NOTE: Please use 64-bit integers.
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2007-10-08</td></tr>
+<tr><td>Time limit:</td><td>0.095s-1.621s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NITT ACM ICPC Local Contest 2007 [Idea from a Topcoder problem]</td></tr>	
+</table>

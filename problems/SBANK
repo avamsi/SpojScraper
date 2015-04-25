@@ -1,0 +1,91 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SBANK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>27. Sorting Bank Accounts</h1>
+		<h2>Problem code: SBANK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+In one of the internet banks thousands of operations are being performed every day. Since certain customers do business more actively than others, some of the bank accounts occur many times in the list of operations. Your task is to sort the bank account numbers in ascending order. If an account appears twice or more in the list, write the number of repetitions just after the account number.
+The format of accounts is as follows: <b>2</b> control digits, an <b>8</b>-digit code of the bank, <b>16</b> digits identifying the owner (written in groups of four digits), for example (at the end of each line there is exactly one space):
+<table align=center><td bgcolor=navy><font color=yellow><b>30 10103538 2222 1233 6160 0142 </b></font></td></table></p>
+<p>
+<b>Banks are real-time institutions and they need FAST solutions. If you feel you can meet the challenge within a very stringent time limit, go ahead!</b> A well designed sorting algorithm in a fast language is likely to succeed. <H3>Input</h3>
+<P align=justify>
+<br><i>t</i> [the number of tests <= <b>5</b>]
+<br><i>n</i> [the number of accounts<= <b>100 000</b>]
+<br>[list of accounts]
+<br>[empty line]
+<br>[next test cases]
+</p>
+<H3>Output</h3>
+<P align=justify>
+<br>[sorted list of accounts with the number of repeated accounts]
+<br>[empty line]
+<br>[other results]
+</p>
+<H3>Example</h3>
+<pre>
+Input:
+2
+6
+03 10103538 2222 1233 6160 0142 
+03 10103538 2222 1233 6160 0141 
+30 10103538 2222 1233 6160 0141 
+30 10103538 2222 1233 6160 0142 
+30 10103538 2222 1233 6160 0141 
+30 10103538 2222 1233 6160 0142 
+
+5
+30 10103538 2222 1233 6160 0144 
+30 10103538 2222 1233 6160 0142 
+30 10103538 2222 1233 6160 0145 
+30 10103538 2222 1233 6160 0146 
+30 10103538 2222 1233 6160 0143 
+
+Output:
+03 10103538 2222 1233 6160 0141 1
+03 10103538 2222 1233 6160 0142 1
+30 10103538 2222 1233 6160 0141 2
+30 10103538 2222 1233 6160 0142 2
+
+30 10103538 2222 1233 6160 0142 1
+30 10103538 2222 1233 6160 0143 1
+30 10103538 2222 1233 6160 0144 1
+30 10103538 2222 1233 6160 0145 1
+30 10103538 2222 1233 6160 0146 1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mima">Michał Małafiejski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-01</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>-</td></tr>	
+</table>

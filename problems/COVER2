@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COVER2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1448. 3D Cover</h1>
+		<h2>Problem code: COVER2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In the 3D Cartesian coordinate system, there are n cubes.These cubes are all axis-paralleled. What's the volume of the union of these cubes?</p>
+<h3>Input</h3>
+<p>There is a single integer m in the very first line of the input, the number of test cases. m blocks follow.</p>
+<p>For each test, the first line contains a single integer n(1<=n<=100), the number of cubes. n lines follow, each contains four integers x,y,z,r(-1000<=x,y,z<=1000,1<=r<=200), separated by spaces.
+x,y,z are the X,Y,Z coordinates of the center of the  cube, and r is the distance between the center and any surface of the cube.</p>
+<h3>Output</h3>
+<p>m lines,each contains a single integer - the answer.</p>
+<h3>Example</h3>
+<pre><b><tt>Sample Input:</tt></b>
+1
+3
+0 0 0 3
+1 -1 0 1
+19 3 5 6
+<b><tt>Sample Output:</tt></b>
+1944
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>0.203s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 1997,Day 2; description by Blue Mary</td></tr>	
+</table>

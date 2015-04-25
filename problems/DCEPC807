@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC807"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12001. Bit by Bit</h1>
+		<h2>Problem code: DCEPC807</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice and Bob play an interesting game. They start with a number &ldquo;n&rdquo; and follow some rules until the game ends. The rules for the game are:</p>
+<ol>
+<li>Let F(n) denotes the total no. of set bits in binary representation of numbers from 0 to (2^n) -1.</li>
+<li>Each player plays alternatively until the game ends and one of them wins the game.</li>
+<li>In each turn a player either unsets a single set bit from binary representation of &ldquo;n&rdquo; or unsets 2 consecutive set bits from the binary representation of &ldquo;n&rdquo;. Let&rsquo;s call the resulting number after such move as &ldquo;x&rdquo;.</li>
+<li>The game ends when F(x) is a power of 2. (0 is also a power of 2).</li>
+<li>The player with no move loses the game and so other player wins the game.</li>
+<li>Alice starts the game always.</li>
+<li>Both of them play optimally.</li>
+</ol>
+<p>Given &ldquo;n&rdquo; can you predict the winner of the game?</p>
+<h3>Input</h3>
+<p>First line contains T, the no. of test cases.</p>
+<p>Next T lines contains one integer per line, &ldquo;n&rdquo; (quotes for clarity).</p>
+<h3>Output</h3>
+<p>Output T lines, each containing either &ldquo;Alice&rdquo; if Alice wins the game or &ldquo;Bob&rdquo; if Bob wins the game.&nbsp;</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=10</p>
+<p>0&lt;=N&lt;=10^6</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>4</pre>
+<pre>10</pre>
+<pre><strong>Output:</strong>
+Bob</pre>
+<pre>Alice</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.845s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

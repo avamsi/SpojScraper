@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL1_AD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14034. Autumn Leaves</h1>
+		<h2>Problem code: VPL1_AD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Autumn is a particular season, because it&#8217;s the season when all leaves fall down. Sometimes, the leaves fall in places that are not convenient, such as the ants garden. Andy the ant was  playing one day at his garden when Autumn season started. All leaves started to fall down  on Andy&#8217;s garden, Andy ran to his house and when the leaves stopped falling he went out. He realized that there were not only leaves but sticks on his garden. It is proved that an ant can  carry at most ten times his weight, but a stick is much more than that, so Andy decided to  clean the leaves and leave the sticks. This, of course, is a problem, because Andy can only  jump over K sticks. Andy is very lazy, so he wants the better way to remove all leaves of his  garden, but he doesn&#8217;t know how to figure out that, so he ask for your help in order to know  that path. Andy always start at point (0,0) (his house), and he doesn&#8217;t need to come back to  his house, so the last leave is the last point on his path, but he has visit at least one time each  leave. For simplicity, leaves will be indexed from 1 to N , and Andy&#8217;s house will be assumed as  point 0. Please note that Andy, like all ants, can&#8217;t break his walk line, so he can&#8217;t go around  any stick, he can only jump over them.</p>
+<p style="margin-bottom: 0in;"> </p>
+<p style="margin-bottom: 0in;"><strong>Input </strong></p>
+<p style="margin-bottom: 0in;">The first line contains an integer T , which specifies the number of test cases. Then, will follow  the descriptions of T test cases.</p>
+<p style="margin-bottom: 0in;">Each test case starts with 3 integers, N , M and K, these are the number of leaves, the number  of sticks and the total number of sticks that andy can jump on his path. N lines will follow, each one  with 2 integers, Xi and Yi , separated by spaces, indicating the position of the leaf i on Andy&#8217;s  garden. Then M lines will follow, each one with 4 integers, X1i , Y1i , X2i and Y2i , separated  by spaces, indicating the position of the start and ending point of stick i on Andy&#8217;s garden.</p>
+<p style="margin-bottom: 0in;"> </p>
+<p style="margin-bottom: 0in;"><strong>Output </strong></p>
+<p style="margin-bottom: 0in;">For each input case you must print the string "Scenario #i: " where i represents the test  case you are analyzing (starting from 1), followed by the minimum distance that Andy have to  walk in order to clean the leaves of his garden. Then one line with Andy&#8217;s path, if there are  more than one path that has the minimal distance, print the less one lexicographically ordered.  If there exist no path then you should print "-1".</p>
+<p style="margin-bottom: 0in;"> </p>
+<p> </p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><strong>INPUT</strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><strong>OUTPUT</strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>2</p>
+<p>6 3 1</p>
+<p>1 6</p>
+<p>2 2</p>
+<p>5 1</p>
+<p>5 5</p>
+<p>5 9</p>
+<p>10 2</p>
+<p>2 5 4 3</p>
+<p>3 7 8 7</p>
+<p>6 0 8 3</p>
+<p>4 3 2</p>
+<p>-2 -2</p>
+<p>2 2</p>
+<p>5 -1</p>
+<p>6 6</p>
+<p>0 3 1 0</p>
+<p>-2 -5 5 2</p>
+<p>0 5 7 0</p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p>Scenario #1: 26.044</p>
+<p>0 2 3 6 4 1 5</p>
+<p>Scenario #2: -1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: small;"><span style="white-space: normal;"> </span></span></p>
+<p style="margin-bottom: 0in;"> </p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 1 (10%) </strong></p>
+<p style="margin-bottom: 0in;"> 1 &#8804; T , N, K &#8804; 4</p>
+<p style="margin-bottom: 0in;"> M =0</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; Xi , Yi &#8804; 1000</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; X1i , Y1i , X2i , Y2i &#8804; 1000</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 2 (15%) </strong></p>
+<p style="margin-bottom: 0in;"> 1 &#8804; T , N , K &#8804; 10</p>
+<p style="margin-bottom: 0in;"> M =0</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; Xi , Yi &#8804; 1000</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; X1i , Y1i , X2i , Y2i &#8804; 1000</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 3 (25%) </strong></p>
+<p style="margin-bottom: 0in;"> 1 &#8804; T , N, M, K &#8804; 4</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; Xi , Yi &#8804; 1000</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; X1i , Y1i , X2i , Y2i &#8804; 1000</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 4 (50%) </strong></p>
+<p style="margin-bottom: 0in;"> 1 &#8804; T , N , M , K &#8804; 10</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; Xi , Yi &#8804; 1000</p>
+<p style="margin-bottom: 0in;"> -1000 &#8804; X1i , Y1i , X2i , Y2i &#8804; 1000 </p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-03-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

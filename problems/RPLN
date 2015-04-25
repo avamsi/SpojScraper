@@ -1,0 +1,110 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RPLN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11772. Negative Score</h1>
+		<h2>Problem code: RPLN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">&nbsp;Orianna is a great swimmer and she's going to a swimming competition this month and needs your help as she is highly paranoic about the results of the competition.</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> The competition consists in some sort of evaluations, every judge makes a score and, based on that score and the score of other contestants she will get a score belonging to her results, those scores are final, meaning that will not change in the competition.</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> Orianna requires this solution with urgency, she is getting evaluated on a lot of ways and she is very worried about her results, so she wants to know what is the worst score from an evaluation A to other evaluation B inclusive.</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"><strong>INPUT:</strong></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> The first line of the test data will start with an integer T representing the T test cases, then, T cases will follow, each of the cases starts with two integers N and Q, denoting the number of evaluations Orianna had, then, N integers will follow denoting the score on each evaluation, after that, Q queries will begin, each query consist on two integers A and B.</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"><strong>OUTPUT:</strong></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> You must output the string &ldquo;Scenario #i:&ldquo;, a blank line and then the result of each query, remember, Orianna is interested on the worst score from evaluation A to evaluation B inclusive.</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p align="CENTER"><span style="font-family: 'Liberation Sans', sans-serif;"><strong>INPUT</strong></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p align="CENTER"><span style="font-family: 'Liberation Sans', sans-serif;"><strong>OUTPUT</strong></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">2</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">5 3</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 2 3 4 			5</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 5</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 3</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">2 4</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">5 3</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 -2 -4 			3 -5</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 5</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 3</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">2 4</span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">Scenario 			#1:</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">2</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">Scenario 			#2:</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">-5</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">-4</span></p>
+<p align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">-4</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"><strong>CONSTRAINTS:</strong></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">1 &lt;= T &lt;= 100</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">Small input (30%):</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= N &lt;= 1,000</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= Q &lt;= 1,000</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> -10^9 &lt;= Ni &lt;= 10^9</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= A &lt;= B &lt;= N</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;">Large input (70%):</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= N &lt;= 100,000</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= Q &lt;= 100,000</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> -10^9 &lt;= Ni &lt;= 10^9</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"> 1 &lt;= A &lt;= B &lt;= N</span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><strong>Solutions rejudged due to weak test cases.</strong></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-family: 'Liberation Sans', sans-serif;"><br /></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/david_8k">david_8k</a></td></tr>
+<tr><td>Date:</td><td>2012-06-22</td></tr>
+<tr><td>Time limit:</td><td>0.742s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem used for the RPL contest</td></tr>	
+</table>

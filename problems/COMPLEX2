@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COMPLEX2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11723. HELP ABHISHEK(version-II)</h1>
+		<h2>Problem code: COMPLEX2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><p>ABHISHEK is weak of mathematics he is not able to solve the sequences frequently.&nbsp;</p><p>So he invited topcoders to develop a program for solving the sequence. He managed to solve the other kind of sequences except one kind.</p><p>The sequence description is as follows:</p><p>(x-w)(x-w^2)(x-w^3)(x-w^4).............(x-w^n-1)<br /><br />here x is a number and w is nth root of unity.&nbsp;</p><h3>Input</h3><p>first line contain number of test cases t. Then t line follow x and n. x and n seprated by a space.</p><p>Constraints:-</p><p>2&lt;=x&lt;=1000</p><p>2&lt;=n&lt;=1000</p><p>t&lt;=410</p><h3>Output</h3><p>print result per case according to above sequence and also keep in mind if there is any term in&nbsp;</p><p>decimal then write it in form of &nbsp;num/deno. see the I/O for further detail</p><h3>Example</h3><h3><span style="font-size: small;">Input:</span></h3><h3>1</h3><h3>5 10</h3><h3><span style="font-size: small;">Output:</span></h3><h3>9765624/4</h3><h3><strong>warning:</strong></h3><h3>Time limit is too strict so optimise your solution as you can.First try the tuorial version of this</h3><pre><strong><a href="../COMPLEX1/">http://www.spoj.pl/problems/COMPLEX1/</a>&nbsp;</strong></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abh123">Abhishek Mishra</a></td></tr>
+<tr><td>Date:</td><td>2012-06-17</td></tr>
+<tr><td>Time limit:</td><td>0.141s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own</td></tr>	
+</table>

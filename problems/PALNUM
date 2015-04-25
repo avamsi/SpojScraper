@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PALNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3110. Palindromic Number</h1>
+		<h2>Problem code: PALNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A postive integer A is called a "palindrome number" if the reverse of the decimal representaion is the same as the original one. Ex. 13231 is a palindrome number, but 13333 is not.
+<br><br>
+Given a number A(1 <= A <= 1e18), find the number of pairs (a,b) such that a,b are both palindrome numbers, and the sum of a and b is A.
+<br><br>
+If A is 391, there are 6 ways:
+8 + 383 = 383 + 8 = 391
+88 + 303 = 303 + 88 = 391
+99 + 292 = 292 + 99 = 391
+
+<h3>Input</h3>
+<p>The first Line contains the number of test cases T <= 10.
+Each test case contains a number A.
+
+<h3>Output</h3>
+<p>Output the number of ways.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+391
+
+<b>Output:</b>
+6
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eleusive">John Rizzo</a></td></tr>
+<tr><td>Date:</td><td>2008-10-04</td></tr>
+<tr><td>Time limit:</td><td>0.870s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Al-Khawarizm 2008</td></tr>	
+</table>

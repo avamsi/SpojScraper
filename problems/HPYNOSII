@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HPYNOSII"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7753. Happy Numbers II</h1>
+		<h2>Problem code: HPYNOSII</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The process of &ldquo;<strong>breaking</strong>&rdquo; an integer is defined as summing the squares of its digits. For example, the<br />result of breaking the integer <strong>125 </strong>is (<strong>12</strong> + <strong>22 </strong>+ <strong>52</strong>) = <strong>30</strong>. An integer <strong>N</strong> is <strong>happy </strong>if after &ldquo;<strong>breaking</strong>&rdquo; it<br />repeatedly the result reaches 1. If the result never reaches 1 no matter how many times the<br />&ldquo;<strong>breaking</strong>&rdquo; is repeated, then N is not a happy number.</p>
+<h3><span style="font-size: small;"><strong>TASK</strong></span></h3>
+<p>Write a program that given an integer <strong>T</strong> (number of test cases) and <strong>T </strong>integers, determines for each number whether it is a happy number or not.</p>
+<h3><span style="font-size: small;"><strong>CONSTRAINTS</strong></span></h3>
+<p><strong>1 &le; T &le; 1,080,000</strong></p>
+<p><strong>2 &le; N &le; </strong><strong>2,147,483,647&nbsp; (number for determining whether it is happy or not)<br /></strong></p>
+<h3>Input</h3>
+<p>&nbsp;&nbsp;&nbsp; &bull; The first line contains an integer <strong>T</strong>.</p>
+<p>&nbsp; &nbsp; &bull; next 1...T lines contain an integer <strong>N</strong> for detemining whether it is happy or not.</p>
+<h3>Output</h3>
+<p>&nbsp;&nbsp;&nbsp; &bull; T lines containing a single integer <strong>N</strong> which is the number of times the process had to be<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; done to determine that N is happy, or <strong>-1</strong> if <strong>N</strong> is not happy.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />19<br />204<br /><br /><strong>Output:</strong><br />4<br />-1<br /><br /><br />1) 19   : 1<sup>2</sup> + 9<sup>2</sup> = 82<br />2) 82   : 82 + 2<sup>2</sup> = 68<br />3) 68   : 6<sup>2</sup> + 8<sup>2</sup> = 100<br />4) 100 : 1<sup>2 </sup>+ 0<sup>2</sup> + 0<sup>2</sup> = 1<br /><br />The solution for 19 is 4 because we discovered that the integer 19 is happy after we repeated the process 4<br />times.<br /><br /><br /></pre>
+<h4>204 &ndash;&gt; <span style="font-size: small;"><strong>20</strong></span> &ndash;&gt; 4 &ndash;&gt; 16 &ndash;&gt; 37 &ndash;&gt; 58 &ndash;&gt; 89 &ndash;&gt; 145 &ndash;&gt; 42 &ndash;&gt; <strong><span style="font-size: small;">20</span></strong> &ndash;&gt; 4 &ndash;&gt; 16 &ndash;&gt; 37 &ndash;&gt; 58 &ndash;&gt; 89 &ndash;&gt; 145 &hellip;&hellip;..</h4>
+<pre><pre><br /><br /><strong>204 </strong>is not a happy number because after breaking it several times the results start repeating so we<br />can deduce that if we continue breaking it, the result will never reach 1.<br /></pre>
+<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rofael">Rofael Emil</a></td></tr>
+<tr><td>Date:</td><td>2010-11-05</td></tr>
+<tr><td>Time limit:</td><td>0.230s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>(modified) Egyptian Olympiad in Informatics ( EOI ) 2009, August 14 - 21, Cairo</td></tr>	
+</table>

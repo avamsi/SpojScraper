@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PONY8"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13500. Discord is at it again</h1>
+		<h2>Problem code: PONY8</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Princess Celestia has allowed Discord to be released in order to reform him. Discord, of course, does not wish to be reformed. While loose, he secretly destroyed all of Twilight Sparkle's books on reforming spells.  But only the books.  The information is still there, locked behind his chaotic magic. 
+
+<p>His chaotic magic created what is known as Mega String. To create this string, start by writing down the numbers 1, 2, 3, ..., and so on, and do this without putting 
+any space between the numbers or digits.
+
+<p>So it would look like this: 12345678910111213141516....
+
+<p>However, for some reason, at that time, chaos dislikes the number 5.
+
+<p>So any number that contains 5 as a digit, anywhere, isn't included in the Mega String.
+
+<p>So the real Mega String looks like this:
+<p>1234678910111213141617...
+<p>and much later it looks like this:
+<p>.., 47, 48, 49, ...
+<p>...474849606162...
+
+<p>The question Twilight Sparkle needs to answer is, what is the digit that is at index K in the Mega String?
+Make sure to answer quickly, or else the information hidden by the Mega String will surely be lost to Twilight Sparkle.
+
+<p>The Mega String is 0-indexed.
+
+<h3>Input format:</h3>
+The first line is an integer T, which is the number of test cases to follow.
+The following T, line i+1 will contain an integer K_i.
+
+<h3>Output format:</h3>
+T lines are to be output,
+and on line i should be the digit at index K_i in the Mega String.
+
+<pre>
+<b>Sample Input:</b>
+5
+0
+1
+2
+3
+4
+
+<b>Sample Output:</b>
+1
+2
+3
+4
+6
+</pre>
+
+<h4>Limits:</h4>
+1 <= T <= 10^5 and 0 <= K_i <= 10^18
+<h5>Time: x5 my fastest Java solution.</h5>
+<h5>Warning: Big Input Files</h5>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cricycle">Alex Anderson</a></td></tr>
+<tr><td>Date:</td><td>2013-01-25</td></tr>
+<tr><td>Time limit:</td><td>0.574s-1.118s</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own problem</td></tr>	
+</table>

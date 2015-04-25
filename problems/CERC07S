@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CERC07S"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2059. Robotic Sort</h1>
+		<h2>Problem code: CERC07S</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Somewhere deep in the Czech Technical University buildings, there are laboratories for examin-
+ing mechanical and electrical properties of various materials. In one of yesterday's presentations,
+you have seen how was one of the laboratories changed into a new multimedia lab. But there
+are still others, serving to their original purposes.
+
+<p>In this task, you are to write software for a robot that handles samples in such a laboratory.
+Imagine there are material samples lined up on a running belt. The samples have different
+heights, which may cause troubles to the next processing unit. To eliminate such troubles, we
+need to sort the samples by their height into the ascending order.
+
+<p>Reordering is done by a mechanical robot arm, which is able to pick up any number of consecutive
+samples and turn them round, such that their mutual order is reversed. In other words, one
+robot operation can reverse the order of samples on positions between A and B.
+
+<p>A possible way to sort the samples is to find the position of the smallest one (P_1) and reverse
+the order between positions 1 and P_1, which causes the smallest sample to become first. Then
+we find the second one on position P_2 and reverse the order between 2 and P_2. Then the third
+sample is located etc.
+
+<p><center><img src="/content/carl:cerc07s.jpg" alt="example"></center>
+
+<p>The picture shows a simple example of 6 samples. The smallest one is on the 4th position,
+therefore, the robot arm reverses the first 4 samples. The second smallest sample is the last one,
+so the next robot operation will reverse the order of five samples on positions 2-6. The third
+step will be to reverse the samples 3-4, etc.
+
+<p>Your task is to find the correct sequence of reversal operations that will sort the samples using the above algorithm. If there are more samples with the same height, their mutual order must
+be preserved: the one that was given first in the initial order must be placed before the others
+in the final order too.
+
+
+<h3>Input</h3>
+<p>The input consists of several scenarios. Each scenario is described by two lines. The first line
+contains one integer number N, the number of samples, 1 <= N <= 100 000. The second line lists
+exactly N space-separated positive integers, they specify the heights of individual samples and
+their initial order.
+
+<p>The last scenario is followed by a line containing zero.
+
+
+<h3>Output</h3>
+<p>For each scenario, output one line with exactly N integers P_1,P_2,...P_N, separated by a space.
+Each P_i must be an integer (1 <= P_i <= N) giving the position of the i-th sample just before the
+i-th reversal operation.
+
+<p>Note that if a sample is already on its correct position P_i, you should output the number P_i
+anyway, indicating that the "interval between P_i and P_i" (a single sample) should be reversed.
+
+<h3>Example</h3>
+<pre>
+<b>Input</b>
+6
+3 4 5 1 6 2
+4
+3 3 2 1
+0
+
+<b>Output</b>
+4 6 4 5 6 6
+4 2 4 4
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/carl">Rafal</a></td></tr>
+<tr><td>Date:</td><td>2007-11-16</td></tr>
+<tr><td>Time limit:</td><td>0.372s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Central European Programming Contest, Prague 2007</td></tr>	
+</table>

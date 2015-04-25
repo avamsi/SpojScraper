@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/APS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19975. Amazing Prime Sequence (hard)</h1>
+		<h2>Problem code: APS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+<script type="text/x-mathjax-config">// <![CDATA[
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+// ]]></script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</p>
+<p>This problem is a harder version of <a href="../APS">APS</a>.</p>
+<p>&nbsp;</p>
+<p>Let $f(n)$ be the smallest prime factor of $n$. For example, $f(2) = 2,\ f(4) = 2$ and $f(35) = 5$.</p>
+<p>The sequence $S(n)$ is defined for all positive integers as follows:</p>
+<p>- $S(1) = 0$</p>
+<p>- $S(n) = S(n-1) + f(n)$ (if $n \ge 2$)</p>
+<p>You task is to find $S(N)$ modulo $2^{64}$.</p>
+<h3>Input</h3>
+<p>First line of Input contains $T$ ($1 \le T \le 10000$), the number of test cases.</p>
+<p>Next $T$ lines contain a single number $N$. ($1 \le N \le 1234567891011$)</p>
+<h3>Output</h3>
+<p>For each number $N$, output a single line containing $S(N)$ modulo $2^{64}$.</p>
+<h3>Example</h3>
+<p><strong>Input:</strong></p>
+<pre>5<br />1<br />4<br />100<br />1000000<br />1000000000000</pre>
+<p><strong>Output:</strong></p>
+<pre>0<br />7<br />1257<br />37568404989<br />7294954823202325427</pre>
+<h3>Explanation for Input</h3>
+<p>- $S(4) = 2 + 3 + 2 = 7$</p>
+<p>- $S(10^{12}) = 18435592284459044389811 \equiv 7294954823202325427 \pmod{2^{64}}$</p>
+<h3>Information</h3>
+<p>There are 6 test cases.</p>
+<p>- Test case 0: $1 \le T \le 10000,\ 1 \le N \le 10000,\ TL = 1$s.</p>
+<p>- Test case 1: $1 \le T \le 1000,\ 1 \le N \le 10^{8},\ TL = 20$s.</p>
+<p>- Test case 2: $1 \le T \le 200,\ 1 \le N \le 10^{9},\ TL = 20$s.</p>
+<p>- Test case 3: $1 \le T \le 40,\ 1 \le N \le 10^{10},\ TL = 20$s.</p>
+<p>- Test case 4: $1 \le T \le 7,\ 1 \le N \le 10^{11},\ TL = 20$s.</p>
+<p>- Test case 5: $T = 1,\ 1 \le N \le 1234567891011,\ TL = 20$s.</p>
+<p>My solution which is optimized for the Test case 5 runs in 12.75 sec. (total time)</p>
+<p>Source Limit is 8 KB.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/min_25">Min_25</a></td></tr>
+<tr><td>Date:</td><td>2014-06-05</td></tr>
+<tr><td>Time limit:</td><td>1s-20s</td></tr>
+<tr><td>Source limit:</td><td>8192B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>APS</td></tr>	
+</table>

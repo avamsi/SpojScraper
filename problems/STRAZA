@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STRAZA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10141. STRAZA</h1>
+		<h2>Problem code: STRAZA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;"><span style="font-family: helvetica;">Near a military base there is a system of trenches, modeled as line segments on a plane. During nighttime, when most soldiers are fast asleep, three guards stand watch of the trenches. Two guards can see each other if there is a trench (or a row of trenches) along the entire straight line segment&nbsp;</span><span style="font-family: helvetica;">between them and there is no third guard on that line segment.</span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;">&nbsp;</span><span style="font-family: helvetica;">For security reasons, the guards must be placed so that each guard sees the other two. How many ways can they be placed?</span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;"><span style="white-space: pre;"> </span></span></p>
+<p style="text-align: center;"><strong><span style="font-family: helvetica;">&nbsp;INPUT</span></strong></p>
+<p style="text-align: center;"><span style="font-family: helvetica;">The first line contains the integer N (1 &le; N &le; 20), the number of trenches. Each of the next N lines contains the description of one trench: four positive integers X1, Y1, X2, Y2 (all less than or equal to 1000), where X1 and Y1 are coordinates of one end, while X2 and Y2 are coordinates of the other &nbsp;end&nbsp;of the trench.</span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;">&nbsp;</span><span style="font-family: helvetica;">Trenches in the input may overlap and share endpoints.</span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;"><br /></span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;"><strong>&nbsp;OUTPUT</strong></span><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-family: helvetica;">in a single line, output the number of ways the guards can be placed.</span></p>
+<p style="text-align: justify; ">&nbsp;</p>
+<p style="text-align: center;"><strong>SAMPLE TEST DATA</strong></p>
+<p style="text-align: center;"><strong><span style="white-space: pre;"> </span></strong></p>
+<p style="text-align: center;"><img src="http://i42.tinypic.com/2saxmcn.png" alt="" width="358" height="153" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/zubieta">Santiago Zubieta</a></td></tr>
+<tr><td>Date:</td><td>2011-11-30</td></tr>
+<tr><td>Time limit:</td><td>0.039s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian Open Competition in Informatics (COCI), Contest 2 - November 25, 2006 </td></tr>	
+</table>

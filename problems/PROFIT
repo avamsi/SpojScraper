@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PROFIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1476. Maximum Profit</h1>
+		<h2>Problem code: PROFIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>CS&T, the well-known cellphone company, is going to set some new service stations among n possible ones, which are numbered 1,2,...,n. The costs of setting these stations are known as P1,P2,..,Pn. Also the company has made a survey among the cellphone users, and now they know that there are m user groups numbered 1,2,...,m, which will communicate by service station Ai and Bi, and the company can profit Ci.</p>
+<p>Now CS&T wants to know which service stations are to be set that the company will profit most.</p>
+<h3>Input</h3>
+<pre>T [The number of tests]
+n m [n<=5000 m<=50000]
+P1 P2 P3 ... Pn [Pi<=100]
+A1 B1 C1 
+A2 B2 C2
+...
+Am Bm Cm [1<=Ai,Bi<=n, Ci<=100]
+[other tests]
+<p>At least 80% of the tests satisfy that n<=200, m<=1000.</p>
+</pre>
+<h3>Output</h3>
+<pre>MaximumProfit
+[other tests]
+</pre>
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1
+5 5
+1 2 3 4 5
+1 2 3
+2 3 4
+1 3 3
+1 4 2
+4 5 3
+
+<b>Output:</b>
+4
+<b>Hints:</b>
+The service stations to be set are 1,2,3.
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>1.213s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2006,Day 2; translated by Blue Mary</td></tr>	
+</table>

@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CUTSQRS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>92. Cutting off Squares</h1>
+		<h2>Problem code: CUTSQRS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Two players take it in turns to cut off squares from a rectangle. If the lengths of the sides of the rectangle are <i>a</i> and <i>b</i> (a<=b) at the beginning of a player's turn, he may cut off as many squares with a side of length <i>a</i> as he likes (but at least 1 square), provided the square he is cutting off has at least three of its sides lying on the sides of the rectangle he is trimming. After every cut, the cut off square is removed from the rectangle. When the last part of the rectangle is removed, the game ends and the person who cut it off wins.
+</p>
+<p>
+Michael, a friend of the players', is taking down a log of the games they are playing in the form of a sequence of consecutive numbers, each number denoting how many squares a player cut off in his turn. Since the game is rather slow, Michael is getting a little bored and he has started writing a detailed analysis of the game in his notebook. For given starting dimensions a and b, he always writes down:
+</p>
+<div align=left>
+<ul>
+<li>the number of different possible game sequences,
+<li>the number of different possible game sequences in which the starting player wins,
+<li>the word 'first' if the starting player can win (provided he does not make any mistakes) regardless of what the other player does, and the word 'second' in all other cases.
+</ul>
+</div>
+<p>
+After writing for several hours Michael began to worry whether he had enough room left in his notebook for all the information he wanted to write down. Please help him answer this question.
+<H3>Input</h3>
+<P align=justify>
+An integer t denoting the number of test cases, (t<=10000) followed by t pairs of integers a, b, (1&lt;=a&lt;=b&lt;=10<sup>9</sup>) given in separate lines. 
+</p>
+<H3>Output</h3>
+<P align=justify>
+For each test case, output the number of characters Michael has to write down (excluding spaces).
+</p>
+<H3>Example</h3>
+<pre>
+<tt><b>Sample input:</b></tt>
+2
+1 1
+2 3
+
+<tt><b>Sample output:</b></tt>
+7
+8
+</pre>
+<p>
+(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-22</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>DASM Programming League 2004 (problemset 1)</td></tr>	
+</table>

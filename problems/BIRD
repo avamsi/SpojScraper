@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BIRD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5463. Bird or not bird</h1>
+		<h2>Problem code: BIRD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are studying animals in a forest, and are trying to determine which animals are birds and which are not.</p>
+<p><br />You do this by taking two measurements of each animal &ndash; their height and their weight. For an animal to be a bird, its height needs to be within some range, and its weight needs to be within another range, but you're not sure what the height and weight ranges are. You also know that every animal that satisfies these ranges is a bird.</p>
+<p><br />You have taken some of the animals you have measured and shown them to biologists, and they have told you which are birds and which are not. This has given you some information on what the height and weight ranges for a bird must be. For the remaining animals, your program should determine if they are definitely birds, definitely not birds, or if you don't know from the information you have.</p>
+<p><br />Input<br />One line containing an integer C, the number of test cases in the input.<br />For each of the C test cases:<br />&bull; One line containing an integer N, the number of animals you have shown to the<br />biologists.<br />&bull; N lines, one for each of these animals, each of the format "H W X", where H is the height<br />of the animal, W is the weight of the animal, and X is either the string "BIRD" or "NOT<br />BIRD". All numbers are positive integers.<br />&bull; One line containing an integer M, the number of animals you have not shown to the<br />biologists.<br />&bull; M lines, one for each of these animals, each of the format "H W", where H is the height<br />of the animal and W is the weight of the animal. All numbers are positive integers.</p>
+<p><br />Output<br />For each of the C test cases:<br />&bull; One line containing the string "Case #X:" where X is the number of the test case, starting<br />from 1.<br />&bull; M lines, each containing one of "BIRD", "NOT BIRD", or "UNKNOWN" (quotes are<br />just for clarity and should not be part of the output).</p>
+<p><br />Limits<br />1 &lt;= C &lt;= 20<br />1 &lt;= all heights and weights &lt;= 1000000<br />1 &lt;= N &lt;= 1000<br />1 &lt;= M &lt;= 1000</p>
+<p>Sample input<br />3<br />5<br />1000 1000 BIRD<br />2000 1000 BIRD<br />2000 2000 BIRD<br />1000 2000 BIRD<br />1500 2010 NOT BIRD<br />3<br />1500 1500<br />900 900<br />1400 2020<br />3<br />500 700 NOT BIRD<br />501 700 BIRD<br />502 700 NOT BIRD<br />2<br />501 600<br />502 501<br />1<br />100 100 NOT BIRD<br />3<br />107 93<br />86 70<br />110 115</p>
+<p><br />Sample output<br />Case #1:<br />BIRD<br />UNKNOWN<br />NOT BIRD<br />Case #2:<br />UNKNOWN<br />NOT BIRD<br />Case #3:<br />UNKNOWN<br />UNKNOWN<br />UNKNOWN</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/huy391992">sieunhan</a></td></tr>
+<tr><td>Date:</td><td>2009-11-29</td></tr>
+<tr><td>Time limit:</td><td>0.186s-0.934s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Google Code Jam - ACM Vietnam Practice</td></tr>	
+</table>

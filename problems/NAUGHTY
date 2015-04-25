@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NAUGHTY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18182. Naughty and Balls</h1>
+		<h2>Problem code: NAUGHTY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"> Mr. Naughty likes to play with balls. So his friend, Mr Nice, gave him <strong>n</strong> balls to play a game. Each ball has exactly two numbers (the number on the top   and the number on the bottom). In one move Mr Naughty can rotate any ball so   that its bottom now becomes the top. Mr Nice knows the minimum number of such   moves that can make at least half of the balls show same number on their top.   So to win Mr Nice's game, Mr Naughty should figure out the minimum number of   moves. Its not always possible to make such moves that satisfy the given   condition.In this case Mr Naughty should figure out that it is <strong>"Impossible"</strong> to   make such moves.</span></p>
+<p><span style="font-size: small;"> Help Mr Naughty to win the game. </span></p>
+<h3><span style="font-size: small;">Input Format:</span></h3>
+<p><span style="font-size: small;"> The first line contains a single integer <strong>n</strong> - the number of balls. The   following <strong>n</strong> lines contain the description of all balls, one ball per line.   Each description has a pair of non-negative integers not exceeding <strong>10^5</strong> -   numbers on top and bottom. The first number in a line is the number on top,   the second one - on the bottom. The number on the top of the ball may be same   as the number on the bottom.<br /> The numbers in the lines are separated by single spaces. </span></p>
+<h3><span style="font-size: small;">Output Format:</span></h3>
+<p><span style="font-size: small;"> On a single line print a single integer - the minimum number of moves to win   the game. If it is impossible to make the set funny, print <strong>"Impossible"</strong> (quotes for clarity). </span></p>
+<h3><span style="font-size: small;">Constraints:</span></h3>
+<p><span style="font-size: small;"><strong> 1 &le; n &le; 10^5</strong> </span></p>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">3
+3 100
+100 3
+5 4</span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">1</span></pre>
+<h3><span style="font-size: small;">Explanation:</span></h3>
+<p><span style="font-size: small;"> In this case Mr Naughty can rotate the first ball so that number on the top   becomes 100. Since two of the three balls have same number on their top (100),   you do not need to change anything else, so the answer is 1. </span></p>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">5 
+5 9
+5 9
+3 2
+1 4
+5 7</span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">0</span></pre>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">3
+1 2
+3 4
+5 6 </span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">Impossible</span></pre>
+<p><span style="font-size: small;"><br /> <strong>Problem Setter: Prateek Sachdev</strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/darkshadows">darkshadows</a></td></tr>
+<tr><td>Date:</td><td>2014-01-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

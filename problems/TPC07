@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TPC07"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16178.  Change</h1>
+		<h2>Problem code: TPC07</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span lang="en">How many ways are there to pay <em>n</em> cents? We assume that the payment must be made with pennies (1 cent),  nickels (5 cents), dimes (10 cents), quarters (25 cents), and  half-dollars (50 cents). </span></p>
+<p>For example, there are four ways to pay 13 cents, namely (13 pennies),  (2 nickels, 3 pennies), (1 nickel, 8 pennies), and (1 dime, 3 pennies).</p>
+<h3>Input</h3>
+<p>The input will contain multiple test cases. Each test case contains a single line with a single integer <em>n</em> (1 &le; <em>n</em> &le; 1000000000).</p>
+<p>The input will be terminated by the end of file.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each input integer <em>n</em>, output how many ways are there to pay <em>n</em> cents in a single line.</p>
+<h3>Sample Input</h3>
+<p><tt> </tt></p>
+<pre><tt>13
+100000000
+</tt></pre>
+<p><tt> </tt></p>
+<p>&nbsp;</p>
+<h3>Sample Output</h3>
+<p><tt> </tt></p>
+<pre><tt>4
+66666793333412666685000001
+</tt></pre>
+<p><tt> </tt></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdelkarim">abdelkarim</a></td></tr>
+<tr><td>Date:</td><td>2013-09-28</td></tr>
+<tr><td>Time limit:</td><td>2.929s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>TJU Programming Contest 2007</td></tr>	
+</table>

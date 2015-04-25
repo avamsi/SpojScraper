@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JLEAGUE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2180. Justice League</h1>
+		<h2>Problem code: JLEAGUE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Thirty five years ago, a group of super heroes was chosen to form the Justice League, whose
+purpose was to protect the planet Earth from the villains. After all those years helping mankind,
+its members are retiring and now it is time to choose the new members of the Justice League.
+
+<p><p>
+In order to keep their secret identity, let&#8217;s say, secret, super heroes usually use an integer number
+to identify themselves. There are H super heroes on Earth, identified with the integers from 1
+to H. With a brief look at the newspapers anyone can find out if two super heroes have already
+worked together in a mission. If this happened, we say that the two heroes have a relationship.
+
+<p><p>
+There must be only <i>one</i> Justice League in the world, which could be formed by any number of
+super heroes (even only one). Moreover, for any two heroes in the new league, they <i>must</i> have
+a <i>relationship</i>.
+
+<p><p>
+Besides, consider the set of the heroes not chosen to take part in the Justice League. For any
+two heroes on that set, they <i>must not</i> have a relationship. This prevents the formation of
+unofficial justice leagues.
+
+<p><p>
+You work for an agency in charge of creating the new Justice League. The agency doesn&#8217;t know
+if it is possible to create the League with the restrictions given, and asked for your programming
+skills. Given a set of super heroes and their relationships, determine if it is possible to select
+any subset to form the Justice League, according to the given restrictions.
+
+<h3>Input</h3>
+<p>The input is composed of several test cases. The first line of each test case contains two integers
+separated by a single space, H (2 <= H <= 5×10<sup>4</sup>) and R (1 <= R <= 10<sup>5</sup>), indicating, respectively,
+the number of heroes and the number of relationships. Each of the following R lines contains
+two integers separated by a single space, A and B (1 <= A < B <= H), indicating that super
+hero A has a relationship with super hero B. Note that if A has a relationship with B, B also
+has a relationship with A. A relationship is never informed twice on a test case.
+
+<p><p>
+The end of input is indicated by H = R = 0.
+
+<h3>Output</h3>
+<p>For each test case in the input print a single line, containing the uppercase letter &#8220;Y&#8221; if it
+is possible to select a subset of heroes to form the Justice League according to the given
+restrictions, or the uppercase letter &#8220;N&#8221; otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5 5
+1 2
+2 3
+1 3
+1 4
+3 5
+9 8
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+4 3
+1 2
+2 3
+3 4
+0 0
+
+<b>Output:</b>
+Y
+N
+Y
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-12-02</td></tr>
+<tr><td>Time limit:</td><td>0.774s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>The 2007 ACM South American Programming Contest</td></tr>	
+</table>

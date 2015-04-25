@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIVISER9"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7623. Divisors VI</h1>
+		<h2>Problem code: DIVISER9</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Find the the smallest integer with exactly <strong>N</strong> odd divisors, where each divisor is greater or equal to 1 !!!</p>
+<p>For example for 3 odd divisors, 9 (factors 1, 3, 9) is minimum.</p>
+<table style="width: 644px; height: 14px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="5"><br /></td>
+<td align="left" valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h3>Input</h3>
+<p>Each line contain <strong>N (0 &lt; N &lt; 10<sup>14</sup>)</strong>.&nbsp; There are 100 inputs total.</p>
+<h3>Output</h3>
+<p>One answer on each line for each <strong>N</strong>, <strong>Modulo 1000000007.</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />3<br />1024<br /><br /><strong>Output:</strong> <br />9<br />97947700<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2010-10-22</td></tr>
+<tr><td>Time limit:</td><td>0.219s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+	
+</table>

@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPCA06"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12912. Saving BOB</h1>
+		<h2>Problem code: DCEPCA06</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice and Bob start playing a new game. Alice writes 2 numbers - N and K. She asks Bob to find an integer which is N digits long such that the absolute difference in the adjacent digits is greater than or equal to K. Bob realizes that a lot of integers satisfy this condition. &nbsp;Can you help Bob to find the total number of N digit integers which satisfy the condition set by Alice?<br />Since the answer can be very large, print the answer modulus 1000000007.</p>
+<p>Note :</p>
+<p>The adjacent digits to a digit constitute both the left and right neighbor of the digit. Starting from the left, only the second digit is regarded as adjacent to the first digit and only the second last digit is regarded as adjacent to the last digit.</p>
+<h3>Constraints</h3>
+<p>T = 100<br /> 2 &lt;= N &lt;= 10^9<br /> 0 &lt;= K &lt;= 9</p>
+<h3>Input</h3>
+<p>First line contains T- the number of test cases. The next T lines contains two numbers N and K as given by Alice.</p>
+<h3>Output</h3>
+<p>Print T lines each containing the total number of integers of N digit mod 1000000007 which satisfy the condition set by Alice.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />2 9<br />2 8<br />&nbsp;<br /><strong>Output:</strong>
+1<br />4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-12-05</td></tr>
+<tr><td>Time limit:</td><td>0.252s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

@@ -1,0 +1,117 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MBLAST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4082. BLAST</h1>
+		<h2>Problem code: MBLAST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MBLAST/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MBLAST/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<p>
+There are given two strings, A and B. 
+An expansion of some string X is a string created by adding or 
+inserting any number (zero, one or more) of blanks anywhere in 
+the string, or in the beggining or the end of the string. Eg., if the 
+string X is &#8216;abcbcd&#8217;, then the strings 'abcb-cd', '-a-bcbcd-' 
+and 'abcb-cd-' are expansions of the string X (blanks are denoted by 
+the character &#8216;-&#8216;). </p><p>
+If A1 is an expansion of the string A, and B1 is and expansion of 
+the string B, and if A1 and B1 are of the same length, then we define 
+the distance of the strings A1 and B1 as the sum of the distances of the 
+characters on the same positions in these strings. We define the 
+distance of two characters as the absolute difference of their ASCII codes, 
+except the distance of the blank and another character, 
+which is given 
+(and equal for all characters). </p><p>
+You are to write a program which finds the expansions A1 and B1 of 
+strings A and B, that have the smallest difference. </p>
+  
+</pre>
+<h3>Input</h3>
+<p>
+The first line of the input file consists of the string A, and the 
+second line of string B. They are consisted only of lower case characters 
+of the english alphabet (a-z), and the number of characters in 
+any of the strings is less than or equal to 2000.</p><p> 
+The third line consists of an integer K, 1 &#8804; K &#8804; 100, the distance of 
+the blank and the other characters. </p>
+</pre>
+<h3>Output</h3>
+<p> 
+The first only line of the input file should consist of the smallest
+distance as defined in the text of the task. 
+ 
+</p>
+<h3>Sample</h3><p>
+<pre>
+blast.in 
+ 
+cmc 
+snmn 
+2 
+ 
+blast.out 
+ 
+10 
+
+blast.in 
+ 
+koiv 
+ua 
+1 
+ 
+blast.out 
+ 
+5
+
+blast.in 
+ 
+mj 
+jao 
+4 
+ 
+blast.out 
+ 
+12 
+
+</pre></p>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-03-20</td></tr>
+<tr><td>Time limit:</td><td>0.152s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 02</td></tr>	
+</table>

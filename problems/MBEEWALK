@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MBEEWALK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3944. Bee Walk</h1>
+		<h2>Problem code: MBEEWALK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MBEEWALK/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MBEEWALK/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+A bee larva living in a hexagonal cell of a large honey comb decides to creep 
+for a walk. In each &#8220;step&#8221; the larva may move into any of the six adjacent cells
+and after n steps, it is to end up in its original cell.
+Your program has to compute, for a given n, the number of different such larva walks.
+</pre>
+<a href="http://tinypic.com" target="_blank"><img src="http://i39.tinypic.com/iwu9nr.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+<h3>Input</h3>
+<pre>
+The &#64257;rst line contains an integer giving the number of test cases to follow. 
+Each case consists of one line containing an integer n, where 1 &#8804; n &#8804; 14.
+
+SAMPLE INPUT
+2
+2
+4
+</pre>
+<h3>Output</h3>
+
+<pre> 
+For each test case, output one line containing the number of walks. Under the
+assumption 1 &#8804; n &#8804; 14, the answer will be less than 2^31.
+
+SAMPLE OUTPUT
+6
+90
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-24</td></tr>
+<tr><td>Time limit:</td><td>0.133s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+	
+</table>

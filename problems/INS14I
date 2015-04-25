@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19150. Infinite Sequence</h1>
+		<h2>Problem code: INS14I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">Digo and Sharry like to play with numbers and sequences. They decide to write an infinite sequence. For this they start by choosing a number each. They start making the sequence by following these rules :&nbsp;<br /><br />(i)Digo writes his number on a piece of paper. This is the 0th number of the sequence.<br />(ii)Then Sharry writes his number on the paper, as many times as Digo&rsquo;s number. eg if Digo wrote 2, then Sharry would write his number 2 times, making the total sequence of length 3.<br />(iii)Then Digo writes his number on the paper, which becomes the next element of the sequence.<br />(iv)Then Sharry writes his number as many times as the number indexed 1 in the sequence.<br />(v)Then Digo writes his number on the paper, which becomes the next element of the sequence.<br />(vi)Then Sharry writes his number as many times as the number indexed 2 in the sequence.<br />&hellip;.<br /><br />And the cycle goes on.<br /><br />Now Digo starts to feel that the sequence that they are generating is very trivial. He claims he can tell the digit at the nth place without having to play the game. So Sharry challenges him to tell the digit which will come at the nth place.<br /><br />Help Digo complete Sharry's challenge.<br /><br />It is given that Digo chooses 4 as his number and Sharry chooses 5 as his number.<br /><br />Input Format:-&nbsp;<br /><br />First line of the input contains an integer T - the number of testcases.<br />T lines follow, each containing an integer N.<br /><br />Output Format:-&nbsp;<br /><br />Print T lines. For every test case, print the digit that appears in the Nth place.<br /><br />Constraints :&nbsp;<br /><br />1 &lt; T &lt; 100<br />0 &lt;= N &lt; 1000000000<br /><br />Sample Input :&nbsp;<br /><br />3<br />0<br />4<br />7<br /><br />Sample Output :&nbsp;<br /><br />4<br />5<br />5<br /><br /><br />Explanation :&nbsp;<br /><br />The sequence is 4, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5 ...</div>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

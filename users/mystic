@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mystic"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DIV15" target="_blank">416. Divisibility by 15</a></td><td><a href="http://www.spoj.com/problems/DIV15"target="_blank">DIV15</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LAZYPROG" target="_blank">417. The lazy programmer</a></td><td><a href="http://www.spoj.com/problems/LAZYPROG"target="_blank">LAZYPROG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NECKLACE" target="_blank">418. Necklace</a></td><td><a href="http://www.spoj.com/problems/NECKLACE"target="_blank">NECKLACE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INCR" target="_blank">598. Increasing Subsequences</a></td><td><a href="http://www.spoj.com/problems/INCR"target="_blank">INCR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TFSETS" target="_blank">707. Triple-Free Sets</a></td><td><a href="http://www.spoj.com/problems/TFSETS"target="_blank">TFSETS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIOPT" target="_blank">827. Trigonometric optimization</a></td><td><a href="http://www.spoj.com/problems/TRIOPT"target="_blank">TRIOPT</a><br>
+</td></tr>

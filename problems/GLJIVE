@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GLJIVE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8319. GLJIVE</h1>
+		<h2>Problem code: GLJIVE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In front of Super Mario there are 10 mushrooms, arranged in a row. A certain amount of points is<br />awarded for picking each of the mushrooms. Super Mario must pick mushrooms in order they appear,<br />but is not required to pick them all &ndash; his goal is to score a number of points as close as possible to<br />100.<br />In case there exist two such numbers which are equally close to 100 (e.g. 98 and 102), Mario will pick<br />the greater one (in this case 102).<br />Help Super Mario and tell him how many points he will score.</p>
+<h3>Input</h3>
+<p>Input consists of 10 lines, each of which contains one positive integer less than or equal to 100,<br />denoting the scores awarded for picking each mushroom, in the order that Mario can pick them in.</p>
+<h3>Output</h3>
+<p><span style="font-family: Garamond;">
+<p>The first and only line of output must contain the required number of points.</p>
+</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: Courier; font-size: small;"><span style="font-family: Courier; font-size: small;"><p align="left">10</p><p align="left">20</p><p align="left">30</p><p align="left">40</p><p align="left">50</p><p align="left">60</p><p align="left">70</p><p align="left">80</p><p align="left">90</p><p>100</p></span></span>
+
+<strong>Output:</strong>
+<span style="font-family: Courier; font-size: small;"><span style="font-family: Courier; font-size: small;"><p>100</p></span></span>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/akaki96">akaki</a></td></tr>
+<tr><td>Date:</td><td>2011-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.205s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>coci</td></tr>	
+</table>

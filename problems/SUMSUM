@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMSUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15766. Enjoy Sum with Operations</h1>
+		<h2>Problem code: SUMSUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre>You are given N numbers  of the array (N&lt;=100000),all less than 10^8 and greater than 0.
+Now ,you are given 2 queries:
+1. 1 x i : Change the ith number to x . (10^8=&gt;x&gt;=0)
+2. 2 Op i1 i2: Compute the sum of all two elements taken at a time within index i1 to i2(both inclusive) under the operation Op.
+Op could be XOR,OR or AND
+For exp:
+N=4 Query=3
+10 20 30 40--&gt; Initial array
+
+2 OR 1 3
+1 0 1
+2 OR 1 3
+
+Answer:
+
+2 OR 1 3--&gt; (10 OR 20) + (20 OR 30) + (10 OR 30)
+1 0 1   --&gt; Now array becomes 0 20 30 40
+2 OR 1 3--&gt; (0 OR 20) + (20 OR 30) + (0 OR 30)<br /><br /><strong>Input</strong> <br />4 3<br />10 20 30 40<br />2 OR 1 3
+1 0 1
+2 OR 1 3<br /><br /><strong>Output<br /><br /></strong>90<br />80<br /><br /><strong></strong></pre>
+<pre><strong>NOTE: </strong>If i1 is equal to i2,alwyas output 0.</pre>
+<p><a href="../../problems/INTRO/">Click here to see my set of problems at Spoj.</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/devendrag">devu</a></td></tr>
+<tr><td>Date:</td><td>2013-08-30</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

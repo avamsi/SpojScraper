@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6772. Happy Coins</h1>
+		<h2>Problem code: HC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: medium;">&nbsp; <span style="font-family: Times New Roman;"><span style="color: blue;">Happy Coins</span></span></span></p>
+<p><span style="font-size: medium;">A line of coins are given, some belongs to lxh while others belongs to hhb. Now the two guys are about to play a game. In every round of game, each player can select any two consecutive coins and change them into one coin, if the two coins belongs to the same person, the new one will be gained to hhb, or else it will belongs to lxh. The two guys take turns playing this game, lxh always play first. The game runs round by round. You can easily make sense that we will get only one coin at the end of game. Now the question is, suppose the two players perform optimally in the game, which person does the final coin belongs to? </span></p>
+<p><span style="font-size: medium;"><span lang="en">
+<h3>Input</h3>
+The first line of the input contains one integer <em>T</em>, which indicate the number of test cases.
+<p>Following each test, the first line contains an integer <em>N</em> (<em>N</em> &le; 10<sup>5</sup>), the number of coins. Following <em>N</em> lines, each line contains a name, lxh or hhb, the name of whom this coins belongs to.</p>
+<h3>Output</h3>
+For each case, output a line contains the name of whom the final coin belongs to.
+<h3>Sample Input</h3>
+<pre><span style="font-size: large;">1<br />2<br />lxh<br />hhb<br /></span><br /></pre>
+<h3>Sample Output</h3>
+<pre><span style="font-size: large;">lxh</span></pre>
+</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/master_algo">Kumar Anurag</a></td></tr>
+<tr><td>Date:</td><td>2010-06-09</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>TJU </td></tr>	
+</table>

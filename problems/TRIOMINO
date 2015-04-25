@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRIOMINO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2961. Triomino Game</h1>
+		<h2>Problem code: TRIOMINO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/TRIOMINO/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/TRIOMINO/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>
+<img src="https://www.spoj.pl/content/racer:Figure2" style="float:right">
+X and Y are playing the following game:
+They start with an empty 2xN board and move alternately. X moves first. In a move, a player must place an L-triomino (shown on the right), in any of the 4 possible orientations, on the board. The piece placed must not overlap with a piece that has already been placed. The player that is unable to make a valid move loses. </p>
+<p>
+Given the size of the board, find out who will win the game assuming that both X and Y play optimally
+
+<h3>Input</h3>
+<p>
+Input consists of multiple test-cases. The first line contains a single integer T, the number of test cases. (T<=50)</p> <p> 
+Each test-case consists of a single line containing a single integer N, the size of the board. (N<=800) 
+<h3>Output</h3>
+<p>
+For each test-case, output a single line containing "X" or "Y" depending on who wins that game. 
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+4
+
+<b>Output:</b>
+X
+Y
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2008-08-31</td></tr>
+<tr><td>Time limit:</td><td>0.790s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Byte Code</td></tr>	
+</table>

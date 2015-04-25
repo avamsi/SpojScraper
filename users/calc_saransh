@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/calc_saransh"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NACCI" target="_blank">8505. Nacci Fear</a></td><td><a href="http://www.spoj.com/problems/NACCI"target="_blank">NACCI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRATA" target="_blank">8869. Roti Prata</a></td><td><a href="http://www.spoj.com/problems/PRATA"target="_blank">PRATA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIGALGE" target="_blank">10712. Easy Calculation</a></td><td><a href="http://www.spoj.com/problems/TRIGALGE"target="_blank">TRIGALGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IEEEBGAM" target="_blank">11175. The Ball Game</a></td><td><a href="http://www.spoj.com/problems/IEEEBGAM"target="_blank">IEEEBGAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MONEYYTU" target="_blank">11178. Save money for YTU</a></td><td><a href="http://www.spoj.com/problems/MONEYYTU"target="_blank">MONEYYTU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPWORLD" target="_blank">11179. Korra in the Spirit World</a></td><td><a href="http://www.spoj.com/problems/SPWORLD"target="_blank">SPWORLD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NUMTSN" target="_blank">11180. 369 Numbers</a></td><td><a href="http://www.spoj.com/problems/NUMTSN"target="_blank">NUMTSN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUILDTOW" target="_blank">11181. Build the Tower</a></td><td><a href="http://www.spoj.com/problems/BUILDTOW"target="_blank">BUILDTOW</a><br>
+</td></tr>

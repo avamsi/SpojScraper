@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CIRU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8073. The area of the union of circles</h1>
+		<h2>Problem code: CIRU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given N circles and expected to calculate the area of the union of the circles !</p>
+<h3>Input</h3>
+<p>The first line is one integer n indicates the number of the circles. (1 &lt;= n &lt;= 1000)</p>
+<p>Then follows n lines every line has three integers</p>
+<p>Xi Yi Ri</p>
+<p>indicates the coordinate of the center of the circle, and the radius. (|Xi|. |Yi|&nbsp; &lt;= 1000, Ri &lt;= 1000)</p>
+<p><span style="color: #ff0000;"><strong>Note that in this problem Ri may be 0 and it just means one point ! </strong></span></p>
+<h3>Output</h3>
+<p>The total area that these N circles with&nbsp;3 digits after decimal point</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3</pre>
+<pre>0 0 1<br />0 0 1<br />100 100 1<br /><br /><br /><strong>Output:</strong><br />6.283<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aekdycoin">aekdycoin</a></td></tr>
+<tr><td>Date:</td><td>2010-12-15</td></tr>
+<tr><td>Time limit:</td><td>0.005s-2.235s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>https://www.spoj.pl/problems/VCIRCLES/</td></tr>	
+</table>

@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10628. Count on a tree</h1>
+		<h2>Problem code: COT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a tree with <strong>N</strong> nodes.The tree nodes are numbered from <strong>1</strong> to <strong>N</strong>.Each node has an integer weight.</p>
+<p>We will ask you to perform the following operation:</p>
+<ul>
+<li><strong>u v k</strong> : ask for the kth minimum weight on the path from node <strong>u</strong> to node <strong>v</strong></li>
+</ul>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>In the first line there are two integers <strong>N</strong> and <strong>M</strong>.(<strong>N,M</strong>&lt;=100000)</p>
+<p>In the second line there are <strong>N</strong> integers.The ith integer denotes the weight of the ith node.</p>
+<p>In the next <strong>N-1</strong> lines,each line contains two integers <strong>u</strong> <strong>v</strong>,which describes an edge (<strong>u</strong>,<strong>v</strong>).</p>
+<p>In the next <strong>M</strong> lines,each line contains three integers <strong>u</strong> <strong>v</strong> <strong>k</strong>,which means an operation asking for the kth minimum weight on the path from node <strong>u</strong> to node <strong>v</strong>.</p>
+<h3>Output</h3>
+<p>For each operation,print its result.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 320px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">8 5</div>8 5
+105 2 9 3 8 5 7 7
+1 2        
+1 3
+1 4
+3 5
+3 6
+3 7
+4 8<br />2 5 1<br />2 5 2<br />2 5 3<br />2 5 4<br />7 8 2&nbsp;</pre>
+<pre><strong>Output:</strong>
+2<br />8<br />9<br />105<br />7&nbsp;</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fotile">Fotile</a></td></tr>
+<tr><td>Date:</td><td>2012-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.129s-0.516s</td></tr>
+<tr><td>Source limit:</td><td>6000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY NODEJS PYPY PYTH 3.2.3 n PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Just for fun...</td></tr>	
+</table>

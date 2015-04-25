@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PGCD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4491. Primes in GCD Table</h1>
+		<h2>Problem code: PGCD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Johnny has created a table which encodes the results of some operation -- a function of two arguments. But instead of a boring multiplication table of the sort you learn by heart at prep-school, he has created a GCD (greatest common divisor) table! So he now has a table (of height <var>a</var> and width <var>b</var>), indexed from (1,1) to (<var>a</var>,<var>b</var>), and with the value of field (<var>i</var>,<var>j</var>) equal to gcd(<var>i</var>,<var>j</var>). He wants to know how many times he has used prime numbers when writing the table.</p>
+<h3>Input</h3>
+<p>First, <var>t</var> &le; 10, the number of test cases. Each test case consists of two integers, 1 &le; <var>a</var>,<var>b</var> &lt; 10<sup>7</sup>.</p>
+<h3>Output</h3>
+<p>For each test case write one number - the number of prime numbers Johnny wrote in that test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>2<br />10 10<br />100 100<br /></pre>
+<strong>Output:</strong><br />
+<pre>30<br />2791<br /></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/yash_iiith">Yash</a></td></tr>
+<tr><td>Date:</td><td>2009-06-12</td></tr>
+<tr><td>Time limit:</td><td>0.687s
+</td></tr>
+<tr><td>Source limit:</td><td>11111B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.codechef.com/JUNE09">Codechef</a></td></tr>	
+</table>

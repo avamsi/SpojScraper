@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NGM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1419. A Game with Numbers</h1>
+		<h2>Problem code: NGM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Nikifor and Trofim play the following game: they write some integer smaller then 2000000000 and take turns one after another. Nikifor is the first to make a move. The turn is made by the following rule: from the written integer any non-zero digit is subtracted, and the new integer replaces the old one on the desk. For example for integer 40534, the next move can be: 40530, 40531 or 40529. The winner is the player who writes zero on the desk.<BR><BR>
+
+Write a program to decide who will win if both players do their best.<BR>
+
+<h3>Input</h3>
+<p>The input contains the integer from which the game is started.</p>
+ 
+<h3>Output</h3>
+<p> In the first line you must write 1 if Nikifor wins and 2 otherwise. If Nikifor wins then in the second line you must output the move in the first turn which guarantees victory for him. If there are many such moves then output any of them.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+14
+
+<b>Output:</b>
+1
+4
+</pre>
+
+<h3>Author: Filimonenkov D.O.</h3>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2006-05-05</td></tr>
+<tr><td>Time limit:</td><td>0.620s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2007.02/zngm.php">ZCon 2007</a></td></tr>	
+</table>

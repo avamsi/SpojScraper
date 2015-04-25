@@ -1,0 +1,114 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/francky"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DOJO" target="_blank">11601. With a Pit of Death</a></td><td><a href="http://www.spoj.com/problems/DOJO"target="_blank">DOJO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REBOUND" target="_blank">11604. The return of the Cake</a></td><td><a href="http://www.spoj.com/problems/REBOUND"target="_blank">REBOUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOJ1" target="_blank">11830. DOJO Corridor I</a></td><td><a href="http://www.spoj.com/problems/DOJ1"target="_blank">DOJ1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOJ2" target="_blank">11834. DOJO Corridor II</a></td><td><a href="http://www.spoj.com/problems/DOJ2"target="_blank">DOJ2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRS2" target="_blank">12007. Fibonaccibonacci (easy)</a></td><td><a href="http://www.spoj.com/problems/FRS2"target="_blank">FRS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRSKT" target="_blank">12008. Fibonacci recursive sequences (medium)</a></td><td><a href="http://www.spoj.com/problems/FRSKT"target="_blank">FRSKT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRSKH" target="_blank">12009. Fibonacci recursive sequences (hard)</a></td><td><a href="http://www.spoj.com/problems/FRSKH"target="_blank">FRSKH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PELL2" target="_blank">12721. Pell (Mid pelling)</a></td><td><a href="http://www.spoj.com/problems/PELL2"target="_blank">PELL2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PBBN2" target="_blank">12824. Print Big Binary Numbers</a></td><td><a href="http://www.spoj.com/problems/PBBN2"target="_blank">PBBN2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TIP1" target="_blank">13165. Totient in permutation (easy)</a></td><td><a href="http://www.spoj.com/problems/TIP1"target="_blank">TIP1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TIP2" target="_blank">13166. Totient in permutation (medium)</a></td><td><a href="http://www.spoj.com/problems/TIP2"target="_blank">TIP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TIP3" target="_blank">13167. Totient in permutation (hard)</a></td><td><a href="http://www.spoj.com/problems/TIP3"target="_blank">TIP3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PISANO" target="_blank">13419. Modular Fibonacci Period</a></td><td><a href="http://www.spoj.com/problems/PISANO"target="_blank">PISANO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FMODF" target="_blank">13420. Fimodacci</a></td><td><a href="http://www.spoj.com/problems/FMODF"target="_blank">FMODF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUMATH2" target="_blank">13523. Card Meets (medium)</a></td><td><a href="http://www.spoj.com/problems/GUMATH2"target="_blank">GUMATH2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCTRHELL" target="_blank">13591. Factor y Hell</a></td><td><a href="http://www.spoj.com/problems/FCTRHELL"target="_blank">FCTRHELL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TJANDRA2" target="_blank">13829. Tjandra 19th birthday present (HARD)</a></td><td><a href="http://www.spoj.com/problems/TJANDRA2"target="_blank">TJANDRA2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TMB" target="_blank">13977. Thousands ByteMan March</a></td><td><a href="http://www.spoj.com/problems/TMB"target="_blank">TMB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BBM" target="_blank">13978. Billion ByteMan March</a></td><td><a href="http://www.spoj.com/problems/BBM"target="_blank">BBM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AFS2" target="_blank">14168. Amazing Factor Sequence (medium)</a></td><td><a href="http://www.spoj.com/problems/AFS2"target="_blank">AFS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AFSK" target="_blank">14175. Power Factor Sum Sum (hard)</a></td><td><a href="http://www.spoj.com/problems/AFSK"target="_blank">AFSK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PYTRIP2" target="_blank">14542. Pythagorean triples (medium)</a></td><td><a href="http://www.spoj.com/problems/PYTRIP2"target="_blank">PYTRIP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CATHETEN" target="_blank">14664. Shared cathetus (easy)</a></td><td><a href="http://www.spoj.com/problems/CATHETEN"target="_blank">CATHETEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DELTACAT" target="_blank">14665. Delta catheti (hard)</a></td><td><a href="http://www.spoj.com/problems/DELTACAT"target="_blank">DELTACAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DELTACA2" target="_blank">14700. Delta catheti II (Hard)</a></td><td><a href="http://www.spoj.com/problems/DELTACA2"target="_blank">DELTACA2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALMISPY" target="_blank">14761. Almost-isosceles Pythagorean triple (easy)</a></td><td><a href="http://www.spoj.com/problems/ALMISPY"target="_blank">ALMISPY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACTMULN" target="_blank">18660. Product of factorials (easy)</a></td><td><a href="http://www.spoj.com/problems/FACTMULN"target="_blank">FACTMULN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACTMULO" target="_blank">18662. Product of factorials (again)</a></td><td><a href="http://www.spoj.com/problems/FACTMULO"target="_blank">FACTMULO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACTMULP" target="_blank">18667. Product of factorials (hard)</a></td><td><a href="http://www.spoj.com/problems/FACTMULP"target="_blank">FACTMULP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BORING" target="_blank">18715. Boring Factorials (Reloaded)</a></td><td><a href="http://www.spoj.com/problems/BORING"target="_blank">BORING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BORING2" target="_blank">18799. Boring Factorials (Extended)</a></td><td><a href="http://www.spoj.com/problems/BORING2"target="_blank">BORING2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMPRIM2" target="_blank">18932. Sum of primes (reverse mode)</a></td><td><a href="http://www.spoj.com/problems/SUMPRIM2"target="_blank">SUMPRIM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DUKKAR2" target="_blank">19084. Huge Pascal triangle</a></td><td><a href="http://www.spoj.com/problems/DUKKAR2"target="_blank">DUKKAR2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BASECONV" target="_blank">19133. Base Conversion</a></td><td><a href="http://www.spoj.com/problems/BASECONV"target="_blank">BASECONV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FIBOSUM2" target="_blank">19406. Fibonacci extraction Sum</a></td><td><a href="http://www.spoj.com/problems/FIBOSUM2"target="_blank">FIBOSUM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTETRA" target="_blank">19722. Modular Tetration</a></td><td><a href="http://www.spoj.com/problems/MTETRA"target="_blank">MTETRA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PSYCHOT" target="_blank">19795. Psycho34 (easy)</a></td><td><a href="http://www.spoj.com/problems/PSYCHOT"target="_blank">PSYCHOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KN2" target="_blank">19954. Travelling Knight 2</a></td><td><a href="http://www.spoj.com/problems/KN2"target="_blank">KN2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HAL9000" target="_blank">19971. 100pct failure in 72 hours</a></td><td><a href="http://www.spoj.com/problems/HAL9000"target="_blank">HAL9000</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOON1" target="_blank">19996. Moon Safari (medium)</a></td><td><a href="http://www.spoj.com/problems/MOON1"target="_blank">MOON1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOON2" target="_blank">19997. Moon Safari (Hard)</a></td><td><a href="http://www.spoj.com/problems/MOON2"target="_blank">MOON2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMEPOW" target="_blank">22086. Prime Power Test</a></td><td><a href="http://www.spoj.com/problems/PRIMEPOW"target="_blank">PRIMEPOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMPOW2" target="_blank">22090. Prime Power Test (Hard)</a></td><td><a href="http://www.spoj.com/problems/PRIMPOW2"target="_blank">PRIMPOW2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ETFS" target="_blank">22268. Euler Totient Function Sieve</a></td><td><a href="http://www.spoj.com/problems/ETFS"target="_blank">ETFS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIOD1" target="_blank">22269. Periodic function, trip 1</a></td><td><a href="http://www.spoj.com/problems/PERIOD1"target="_blank">PERIOD1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIOD2" target="_blank">22270. Periodic function, trip 2</a></td><td><a href="http://www.spoj.com/problems/PERIOD2"target="_blank">PERIOD2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIOD3" target="_blank">22271. Periodic function, trip 3</a></td><td><a href="http://www.spoj.com/problems/PERIOD3"target="_blank">PERIOD3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIOD4" target="_blank">22315. Periodic function, trip 3 (easy)</a></td><td><a href="http://www.spoj.com/problems/PERIOD4"target="_blank">PERIOD4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVFACT3" target="_blank">22412. Divisors of factorial (hard)</a></td><td><a href="http://www.spoj.com/problems/DIVFACT3"target="_blank">DIVFACT3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SMALLM" target="_blank">22463. Smallest Number (medium)</a></td><td><a href="http://www.spoj.com/problems/SMALLM"target="_blank">SMALLM</a><br>
+</td></tr>

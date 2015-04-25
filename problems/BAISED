@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BAISED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2149. Biased Standings</h1>
+		<h2>Problem code: BAISED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Usually, results of competitions are based on the scores of participants. However, we are planning a change for the next year of IPSC. During the registration each team will be able to enter a single positive integer : their preferred place in the ranklist. We would take all these preferences into account, and at the end of the competition we will simply announce a ranklist that would please all of you. </p>
+
+<p>But wait... How would that ranklist look like if it won't be possible to satisfy all the requests? </p>
+
+<p>Suppose that we already have a ranklist. For each team, compute the distance between their preferred place and their place in the ranklist. The sum of these distances will be called the badness of this ranklist. </p>
+
+<h3>Problem specification</h3>
+<p>Given team names and their preferred placements find one ranklist with the minimal possible badness. </p>
+
+<h3>Input specification</h3>
+<p>The first line of the input file contains an integer <b>T</b> specifying the number of test cases. Each test case is preceded by a blank line. </p>
+
+<p>Each test case looks as follows: The first line contains <b>N</b> : the number of teams participating in the competition. Each of the next <b>N</b> lines contains a team name (a string of letters and numbers) and its preferred place (an integer between 1 and <b>N</b>, inclusive). No two team names will be equal. </p>
+
+<h3>Output specification</h3>
+<p>For each of the test cases output a single line with a single integer : the badness of the best ranklist for the given teams. </p>
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+
+7
+noobz 1
+llamas 2
+Winn3rz 2
+5thwheel 1
+NotoricCoders 5
+StrangeCase 7
+WhoKnows 7
+
+3
+ThreeHeadedMonkey 1
+MoscowSUx13 1
+NeedForSuccess 1
+
+<b>Output:</b>
+5
+3
+</pre>
+
+<b>Explanation:</b>
+<p>In the first test case, one possible ranklist with the minimal badness is:</p>
+<pre>
+1. noobz
+2. llamas
+3. Winn3rz
+4. 5thwheel
+5. NotoricCoders
+6. WhoKnows
+7. StrangeCase
+</pre>
+<p>In the second test case all ranklists are equally good.</p>
+<b>Note: the input file will not exceed 5MB.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>0.142s-1.201s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2006</td></tr>	
+</table>

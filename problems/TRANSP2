@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRANSP2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>422. Transposing is Even More Fun</h1>
+		<h2>Problem code: TRANSP2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<H3>Problem</H3>
+<P align=justify>
+Suppose you are given a 2<font style="vertical-align: super">a</font>x2<font style="vertical-align: super">b</font> array. It is stored sequentially in memory in the usual way, first values in the first row, then values in the second one and so on. You would like to transpose it, but you don't have any additional memory. The only operation that you can perform is swapping contents of two memory cells. What is minimal number of such operations required for transpostion?
+</P>
+<H3>Input</H3>
+<P align=justify>
+First line of input contains number of test cases c (1<=c<=400000). Each test case consists of two integers a,b (0<=a+b<=1000000).
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case output minimal number of swaps required to transpose an 2<font style="vertical-align: super">a</font>x2<font style="vertical-align: super">b</font> array. As it can be quite large, you have to output its remainder when divided by 1000003 (yes, it's a prime number :).
+</P>
+<H3>Example</H3>
+<pre>
+Input:
+3
+1 1
+2 2
+5 7
+
+Output:
+1
+6
+3744
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2005-10-08</td></tr>
+<tr><td>Time limit:</td><td>0.864s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

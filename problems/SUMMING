@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMMING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15864. SUMMING</h1>
+		<h2>Problem code: SUMMING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Find the sum of x smallest distinct numbers of the series 2^i*3^j (i and j &gt;= 0)<br /><br />the first number of the series is 1 = 2^0*3^0<br />the second number of the series is 2 = 2^1*3^0<br />the third number of the series is 3 = 2^0*3^1<br />the fourth number of the series is 4 = 2^2*3^0<br />the fifth number of the series is 6 = 2^1*3^1<br />As the sum can be huge print sum % k <br /><br /><br />Input<br /><br />The input contains 2 numbers x and k <br />1&lt;=x&lt;=10^14<br />1&lt;=k&lt;=10^8<br /><br />Output<br />The output contains sum of the 1st x numbers of the series mod k<br /><br />Example<br /><br />Input:<br />1 1000<br /><br />Output:<br />1<br /><br />Input:<br />2 1000<br /><br />Output:<br />3</p>
+<p>Explanation</p>
+<p>3 = (2^0*3^0 + 2^1*3^0) % 1000</p>
+<p>Input:<br />4 1000<br /><br />Output:<br />10<br /><br />Input:<br />6 2<br /><br />Output:<br />0<br /><br />Input:<br />16 1000<br /><br />Output:<br />300</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/priyamehtanit">priyamehtanit </a></td></tr>
+<tr><td>Date:</td><td>2013-09-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

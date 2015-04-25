@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IRECSQRT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14122. Inverse of Recurrence Problem With a Square Root</h1>
+		<h2>Problem code: IRECSQRT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given this recurrence formula (be careful, it's in inverse form):</p>
+<p><img title="Formula" src="http://1.bp.blogspot.com/-QRASNGh6REo/UUJ9ZoWd6iI/AAAAAAAAARo/e3IJR40uKWI/s1600/rec+formula.png" alt="Formula" width="400" height="47" /></p>
+<p>Given <strong>n&nbsp;</strong>(0 &le; <strong>n</strong>&nbsp;&lt; 2<sup>64</sup>) and <strong>m&nbsp;</strong>(0 &lt; <strong>m</strong>&nbsp;&lt; 2<sup>64</sup>), your task is to compute a<sub><strong>n</strong></sub>&nbsp;modulo <strong>m</strong>.</p>
+<p>It's guaranteed that a<sub><strong>n</strong></sub>&nbsp;is always an integer.</p>
+<h3>Input</h3>
+<p>First line containing an integer <strong>T</strong>&nbsp;(0 &lt; <strong>T</strong>&nbsp;&le; 5&times;10<sup>4</sup>), than <strong>T</strong>&nbsp;cases follow.</p>
+<p>For each test case there're two integers <strong>n </strong>and <strong>m</strong>, writen in one line, separated by a space.</p>
+<h3>Output</h3>
+<p>For each test case, output the required answer: a<sub><strong>n</strong></sub>&nbsp;modulo <strong>m</strong>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>10</pre>
+<pre>0 10</pre>
+<pre>1 10</pre>
+<pre>2 10</pre>
+<pre>3 10</pre>
+<pre>10 10</pre>
+<pre>100 100</pre>
+<pre>1000 1000</pre>
+<pre>10000 10000</pre>
+<pre>100000 100000</pre>
+<pre>9876543210123456789 1234567890987654321
+
+<strong>Output:</strong></pre>
+<pre>1
+</pre>
+<pre>2</pre>
+<pre>5</pre>
+<pre>5</pre>
+<pre>5</pre>
+<pre>51</pre>
+<pre>251</pre>
+<pre>6251</pre>
+<pre>6251</pre>
+<pre>657422418465782775</pre>
+<p>&nbsp;</p>
+<p><span style="color: #339966;"><span style="color: #339966;"><strong>Time limit ~7x My program speed:&nbsp;<a title="My Time" href="http://1.bp.blogspot.com/-7JtEWmPV3mg/UUKEm71si1I/AAAAAAAAAR8/U4IhHKjUXG8/s1600/screen+SPOJ.png" target="_blank">Click here to see my submission history and time record for this problem</a></strong></span></span></p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-03-14</td></tr>
+<tr><td>Time limit:</td><td>13s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://4.bp.blogspot.com/-_yoQcZB7AaI/UUJ7cU_dcXI/AAAAAAAAARc/WjWR-090oI8/s1600/ONMIPA.jpg">ONMIPA sel 2013</a></td></tr>	
+</table>

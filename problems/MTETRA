@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MTETRA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19722. Modular Tetration</h1>
+		<h2>Problem code: MTETRA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+The ordinary arithmetical operations of addition, multiplication and exponentiation are naturally extended into a sequence of
+<a href="http://en.wikipedia.org/wiki/Knuth's_up-arrow_notation">hyperoperations</a> as follows. </p>
+<pre>
+3×7  = 3 + 3 + 3 + 3 + 3 + 3 + 3 ; there are 7 copies of "3"
+3^7  = 3 × 3 × 3 × 3 × 3 × 3 × 3 ; there are 7 copies of "3"
+3^^7 = (3^(3^(3^(3^(3^(3^3)))))) ; there are 7 copies of "3"
+</pre>
+<p>
+To extend the sequence of operations beyond exponentiation, Knuth defined a &#8220;double arrow&#8221; operator to denote iterated exponentiation <a href="http://en.wikipedia.org/wiki/Tetration">(tetration)</a> ^^ in ASCII notation.
+</br>
+This gives us some very big numbers, your task will be to compute modular tetration.
+</br>
+<strong><em>X</em>^0=1</strong> for all <strong><em>X</em></strong>, as an empty product.
+<strong><em>X</em>^^0=1</strong> for all <strong><em>X</em></strong>, for similar reason.
+</p>
+
+
+<h3>Input</h3>
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</br>
+On each of the next <strong><em>T</em></strong> lines, your are given
+three integers <strong><em>X</em></strong>, <strong><em>N</em></strong>, and <strong><em>M</em></strong>.
+</p>
+
+<h3>Output</h3>
+<p>For each test case, you have to print <strong><em>X^^N modulo M</em></strong>.
+</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+3 2 20
+3 3 345
+993306745 75707320 1000000000
+</pre>
+<pre><strong>Output:</strong>
+7
+312
+884765625
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T <= 10^4
+X, N, M unsigned 32bit integers
+1 < M
+</pre>
+</p>
+
+<h3>Explanations</h3>
+<pre>3^^2 = 3^3 = 27 = 7 [mod 20]
+3^^3 = 3^(3^3) = 3^27 = 7625597484987 = 312 [mod 345]
+</pre>
+<p>Problem designed to be solvable using some 'slow' languages like Python, under half the time limit.</br>
+It is recommended to solve first <a href="http://www.spoj.com/problems/POWTOW/">Power Tower City</a>.</br>
+;-) Have fun.</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-05-04</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

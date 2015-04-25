@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/vipulmehta"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DIGNUM" target="_blank">7264. Digital LED Number</a></td><td><a href="http://www.spoj.com/problems/DIGNUM"target="_blank">DIGNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COLDIAM" target="_blank">7286. Collect Diamonds</a></td><td><a href="http://www.spoj.com/problems/COLDIAM"target="_blank">COLDIAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FIBFACT" target="_blank">7603. Fibonacci Factor</a></td><td><a href="http://www.spoj.com/problems/FIBFACT"target="_blank">FIBFACT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HQNP" target="_blank">9042. HQNP Incomputable</a></td><td><a href="http://www.spoj.com/problems/HQNP"target="_blank">HQNP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IPAD" target="_blank">11198. Ipad Testing</a></td><td><a href="http://www.spoj.com/problems/IPAD"target="_blank">IPAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NUMTRY" target="_blank">11202. Number Theory</a></td><td><a href="http://www.spoj.com/problems/NUMTRY"target="_blank">NUMTRY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MFARM" target="_blank">23350. Mineral Farm</a></td><td><a href="http://www.spoj.com/problems/MFARM"target="_blank">MFARM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HALD" target="_blank">23351. Hiccup And Lucky Dragons</a></td><td><a href="http://www.spoj.com/problems/HALD"target="_blank">HALD</a><br>
+</td></tr>

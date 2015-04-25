@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FALTAENV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7189. Falta Envido</h1>
+		<h2>Problem code: FALTAENV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Envido is an important part of the typical argentinian game Truco. It is even more important<br />when Falta Envido is called, because in this case the winner of the Envido wins the entire game.<br />In this problem you are asked to calculate the envido advantage of a cheater.<br />Truco is played with a limited deck of spanish cards. This deck contains four suits: espada,<br />basto, copa and oro. There are 10 cards of each suit: 1, 2, 3, 4, 5, 6, 7, 10, 11 and 12. Cards<br />10, 11 and 12 have an envido value of 0, while the envido value for any of the other cards is<br />simply its number. Each player holds three cards. The winner of an Envido is the player with<br />the higher envido score. When calculating his envido score each player can either:<br />1. select a single card and have as envido score the envido value of the card; or<br />2. select two cards of the same suit and have as envido score 20 plus the sum of the envido<br />value of each selected card.<br />Players always select the card or cards that yield the highest envido score. For instance, a<br />player having a 10 and a 2 of the same suit, together with a 5 of a different suit, would inform<br />an envido score of 22 because 20 + 0 + 2 = 22.<br />A cheater playing Truco thinks that he can change one of his three cards without anybody else<br />in the table noticing. If he changes more than one card, he surely will be discovered, so he does<br />not do that. Since even changing one card is risky, he only does it when the envido score of the<br />resulting hand is much higher than the one of his original hand.<br />Given the cards the cheater has in hand, you must calculate the maximum increase he can get<br />in the envido score by exchanging one of his cards with a card from the deck. Notice that the<br />resulting hand must be formed by two of his original cards and one new card selected from the<br />deck, and that he cannot have two equal cards (same number and suit).</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br /> six values N1 , S1 , N2 , S2 , N3 , and S3 separated by single spaces. Each pair (Ni , Si ) describes<br /> a card in the hand of the cheater (1 &le; i &le; 3), where Ni is the number of the card (1, 2, 3, 4,<br /> 5, 6, 7, 10, 11 or 12), and Si is its suit (espada, basto, copa or oro). You may assume that the<br /> three cards are different. The last line of the input contains three times the number &minus;1 and an<br /> asterisk, with the six values separated by single spaces, and should not be processed as a test<br /> case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an integer representing the maximum increase in<br />the envido score that can be obtained by replacing exactly one card of the input hand.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />12 espada 10 basto 11 basto<br />7 espada 1 oro 2 oro<br />7 espada 1 oro 6 espada<br />-1 * -1 * -1 *<br /><br /><strong>Output:</strong>
+7<br />10<br />0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.474s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROMAN008"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11986. ROMAN NUMERALS</h1>
+		<h2>Problem code: ROMAN008</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given two numbers in Roman system(<span style="font-family: sans-serif; font-size: 13px; line-height: 19.200000762939453px;">modern &nbsp;Roman Numerals</span>) and an operator. Output is the result in roman system.</p>
+<h3>Input</h3>
+<p>You are given two space separted number in roman system and after space an operator on the same line.Operator can be +,-,/,*,%.</p>
+<p>Numbers a,b: 1&lt;=a,b&lt;5000</p>
+<p>eg:4000=MMMM, for numbers &gt;=4000, you should use MMMM.....</p>
+<p>for others as per definition</p>
+<p>Input consists of 5 testcases.</p>
+<h3>Output</h3>
+<p>Output is the result&lt;5000 of performing the operation. Print on separte line</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+LX XV +</pre>
+<pre>X V *
+
+<strong>Output:</strong>
+LXXV</pre>
+<pre>L</pre>
+<pre>//<strong>problem placement changed to challenge</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jain270792">himanshu jain</a></td></tr>
+<tr><td>Date:</td><td>2012-08-17</td></tr>
+<tr><td>Time limit:</td><td>0.019s
+</td></tr>
+<tr><td>Source limit:</td><td>2000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: F# JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

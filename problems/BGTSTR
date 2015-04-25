@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BGTSTR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21683. Bhagat and String</h1>
+		<h2>Problem code: BGTSTR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;">Bhagat loves string very much. Bhagat is given a string&nbsp;<strong>S</strong>&nbsp;and an integer&nbsp;<strong>N</strong>. He hates a string&nbsp;<strong>P</strong>which is substring of&nbsp;<strong>S</strong>&nbsp;and occurs atleast&nbsp;<strong>N</strong>&nbsp;times in&nbsp;<strong>S</strong>.&nbsp;Your task is to find maximum length of substring&nbsp;<strong>P</strong>&nbsp;of&nbsp;<strong>S</strong>&nbsp;which occurs at least&nbsp;<strong>N</strong>&nbsp;times.<br />If there are multiple solution then substring with right most occurence is preferred.&nbsp;<br /><strong>S consist of only lowercase letters.</strong><br /><br /><strong>INPUT</strong><br />First line will contain&nbsp;<strong>T</strong>&nbsp;, denoting number of test cases<br />Each test case consist of two line<br />First line contain the string&nbsp;<strong>S</strong><br />Next line contain an integer&nbsp;<strong>N</strong></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong>OUTPUT</strong><br />If there is no solution, output&nbsp;<strong>HATE</strong>,otherwise, print two integers in a line, separated by a space. The first integer denotes the maximum length of a substring appearing at least&nbsp;<strong>N</strong>&nbsp;times; the second integer gives the rightmost possible starting position of such a substring.</p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong>CONSTRAINS</strong><br />0 &lt;&nbsp;<strong>T</strong>&nbsp;&lt;= 10<br />1 &lt;=&nbsp;<strong>|S|</strong>&nbsp;&lt;= 50000<br />1 &lt;=&nbsp;<strong>N</strong>&nbsp;&lt;= |S|</p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><strong>SAMPLE INPUT</strong><br />3<br />aaaaaaa<br />3<br />babab<br />2<br />abcde<br />3<br /><br /><strong>SAMPLE OUTPUT</strong><br />5 3<br />3 3<br />HATE</p></span></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nr3600">NISHANT RAJ</a></td></tr>
+<tr><td>Date:</td><td>2014-11-05</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

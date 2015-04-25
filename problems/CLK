@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CLK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2631. Chomp</h1>
+		<h2>Problem code: CLK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> In Martin Gardner's book &laquo;Mathematical Games&raquo; the game of &laquo;Chomp!&raquo; is described as follows. 
+<BR><BR>
+For the game of &laquo;Chomp!&raquo; you need some pieces which are initially placed on a rectangular playing field and removed from it during the game. (If you are playing on paper then you can use a grid with zeros and cross them out during the game instead.) The game is played by 2 players, and moves are made in turns.
+<BR><BR>
+Each turn is played as follows. The player chooses one piece, and removes all pieces which lie in the top-right rectangle, i.e., the rectangle having the chosen piece as the bottom-left corner. Thus, turn by turn, the players bite off pieces of the rectangular cookie, biting into it from the north-east (and the game takes its name from the chomp of their jaws). The winner is the player who forces his/her opponent to chomp the last, poisoned piece in the bottom left corner of the initial field.
+<BR><BR>
+<center><img src="/ZEL08/content/Click.gif" alt="Game Chomp"><BR><i>Fig 1. Example of one particular game in "Chomp!". In the initial state the pieces make up a 5&#1093;6 rectangle</i></center>
+<BR>
+<p>Those are the rules. And now imagine the following situation. Two players begin to play the game of &laquo;Chomp!&raquo; on a 10x10 rectangular field. You can see an intermediate position which was obtained after some turn. The opponents are thinking deeply. How the game will end is not clear, because it's humans who are playing, not computers&#8230; By the way, talking of computers: write a program, which for the given position output its outcome. Is the player whose turn it is to move able to win, even if his/her opponent uses the best possible strategy?
+
+<h3>Input</h3>
+<p>The first line of input contains the total number of tests M, followed by M lines, with ten numbers on each of them (describing a single position on the playing field). These ten numbers are separated by spaces and describe the number of pieces in each column (columns are enumerated from left to right).
+
+<h3>Output</h3>
+<p>You must output exactly M lines, containing the letter W if it is possible for the player who takes the next turn to win (even in case of the best possible strategy for the other player), or L otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2 2 0 0 0 0 0 0 0 0
+2 1 0 0 0 0 0 0 0 0
+10 10 10 10 10 10 10 10 10 10
+
+<b>Output:</b>
+W
+L
+W
+</pre>
+<h3>Problem author: Filimonenkov D.O.</h3>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2008-03-10</td></tr>
+<tr><td>Time limit:</td><td>1.753s-12.80s</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td><a href=http://zcontest.ru>ZCon 2008</a></td></tr>	
+</table>

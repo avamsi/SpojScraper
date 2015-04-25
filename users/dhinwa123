@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/dhinwa123"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DIG" target="_blank">11933. DIAGONAL</a></td><td><a href="http://www.spoj.com/problems/DIG"target="_blank">DIG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEC123" target="_blank">11935. Decorating the Palace</a></td><td><a href="http://www.spoj.com/problems/DEC123"target="_blank">DEC123</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNT_LUCK" target="_blank">13444. Counting Lucky Numbers</a></td><td><a href="http://www.spoj.com/problems/CNT_LUCK"target="_blank">CNT_LUCK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAX_NUM" target="_blank">13686. finding maximum possible number</a></td><td><a href="http://www.spoj.com/problems/MAX_NUM"target="_blank">MAX_NUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCA" target="_blank">15554. Niceness of the string</a></td><td><a href="http://www.spoj.com/problems/IITKWPCA"target="_blank">IITKWPCA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCB" target="_blank">15555. Check the coprimeness</a></td><td><a href="http://www.spoj.com/problems/IITKWPCB"target="_blank">IITKWPCB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCC" target="_blank">15556. Count right angle triangles</a></td><td><a href="http://www.spoj.com/problems/IITKWPCC"target="_blank">IITKWPCC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCD" target="_blank">15557. Partition the sticks</a></td><td><a href="http://www.spoj.com/problems/IITKWPCD"target="_blank">IITKWPCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCE" target="_blank">15558. Let us play with strings</a></td><td><a href="http://www.spoj.com/problems/IITKWPCE"target="_blank">IITKWPCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCF" target="_blank">15559. Help Feluda with mathematical equations</a></td><td><a href="http://www.spoj.com/problems/IITKWPCF"target="_blank">IITKWPCF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCG" target="_blank">15560. Help the old King</a></td><td><a href="http://www.spoj.com/problems/IITKWPCG"target="_blank">IITKWPCG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCH" target="_blank">15561. Find Number Of Pair of Friends </a></td><td><a href="http://www.spoj.com/problems/IITKWPCH"target="_blank">IITKWPCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCI" target="_blank">15562. Find Lexicographically Smallest Permutation</a></td><td><a href="http://www.spoj.com/problems/IITKWPCI"target="_blank">IITKWPCI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCJ" target="_blank">15563. Check the string Powers</a></td><td><a href="http://www.spoj.com/problems/IITKWPCJ"target="_blank">IITKWPCJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCL" target="_blank">15565. Find Distances In A Plane</a></td><td><a href="http://www.spoj.com/problems/IITKWPCL"target="_blank">IITKWPCL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCM" target="_blank">15566. Coprime Again</a></td><td><a href="http://www.spoj.com/problems/IITKWPCM"target="_blank">IITKWPCM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCN" target="_blank">15567. Playing With Balls</a></td><td><a href="http://www.spoj.com/problems/IITKWPCN"target="_blank">IITKWPCN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITKWPCO" target="_blank">15627. Create Collections</a></td><td><a href="http://www.spoj.com/problems/IITKWPCO"target="_blank">IITKWPCO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCE" target="_blank">17705. Gopu and Combinatorics on Graphs</a></td><td><a href="http://www.spoj.com/problems/SPCE"target="_blank">SPCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCJ" target="_blank">17711. Gopu and Create Collections Part Two</a></td><td><a href="http://www.spoj.com/problems/SPCJ"target="_blank">SPCJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCM" target="_blank">17714. Gopu and function</a></td><td><a href="http://www.spoj.com/problems/SPCM"target="_blank">SPCM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCO" target="_blank">17717. Gopu and Counting Bitwise Prime Numbers</a></td><td><a href="http://www.spoj.com/problems/SPCO"target="_blank">SPCO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCQ" target="_blank">17761. Gopu and Digits Divisibility</a></td><td><a href="http://www.spoj.com/problems/SPCQ"target="_blank">SPCQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCS" target="_blank">17804. Gopu And Palindromes</a></td><td><a href="http://www.spoj.com/problems/SPCS"target="_blank">SPCS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPCU" target="_blank">17918. Gopu and Validity of Arrangement</a></td><td><a href="http://www.spoj.com/problems/SPCU"target="_blank">SPCU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4A" target="_blank">18243. Maggu and Strings</a></td><td><a href="http://www.spoj.com/problems/IITWPC4A"target="_blank">IITWPC4A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4B" target="_blank">18245. Maggu and Triangles</a></td><td><a href="http://www.spoj.com/problems/IITWPC4B"target="_blank">IITWPC4B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4C" target="_blank">18246. Maggu and Vectors</a></td><td><a href="http://www.spoj.com/problems/IITWPC4C"target="_blank">IITWPC4C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4D" target="_blank">18247. Arrangement Validity</a></td><td><a href="http://www.spoj.com/problems/IITWPC4D"target="_blank">IITWPC4D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4E" target="_blank">18248. Maggu&#8217;s Solar Panels</a></td><td><a href="http://www.spoj.com/problems/IITWPC4E"target="_blank">IITWPC4E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4F" target="_blank">18249. Gopu and the Grid Problem</a></td><td><a href="http://www.spoj.com/problems/IITWPC4F"target="_blank">IITWPC4F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4G" target="_blank">18261. Maggu and Weird things</a></td><td><a href="http://www.spoj.com/problems/IITWPC4G"target="_blank">IITWPC4G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4H" target="_blank">18283. Maggu and Cuteness of Strings</a></td><td><a href="http://www.spoj.com/problems/IITWPC4H"target="_blank">IITWPC4H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4I" target="_blank">18284. Petya and Repairment of Roads</a></td><td><a href="http://www.spoj.com/problems/IITWPC4I"target="_blank">IITWPC4I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4J" target="_blank">18286. Gopu and Fishes</a></td><td><a href="http://www.spoj.com/problems/IITWPC4J"target="_blank">IITWPC4J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4K" target="_blank">18287. Maggu and Magguness Level</a></td><td><a href="http://www.spoj.com/problems/IITWPC4K"target="_blank">IITWPC4K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IITWPC4L" target="_blank">18289. Maggu and Mystery</a></td><td><a href="http://www.spoj.com/problems/IITWPC4L"target="_blank">IITWPC4L</a><br>
+</td></tr>

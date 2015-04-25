@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COEF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6731. Coeficientes</h1>
+		<h2>Problem code: COEF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The problem is to calculate the coefficients in expansion of polynomial <em>(x<sub>1</sub>+x<sub>2</sub>+...+x<sub>k</sub>)<sup>n</sup></em>.</p>
+<h3>Input</h3>
+<p>The input will consist of a set of pairs of lines. The first line of the  pair consists of two integers <em>n</em> and <em>k</em> separated with space (<em>0&lt;K,N&lt;13</em>). This integers define the power of the polynomial and the amount of the variables. The second line in each pair consists of <em>k</em> non-negative integers <em>n<sub>1</sub>, ...,  n<sub>k</sub>,</em> where <em>n<sub>1</sub>+...+n<sub>k</sub>=n</em>.</p>
+<h3>Output</h3>
+<p>For each input pair of lines the output line should consist one integer,  the coefficient by the monomial <em>x<sub>1</sub><sup>n1</sup>x<sub>2</sub><sup>n2</sup>...x<sub>k</sub><sup>nk</sup></em> in expansion of the polynomial <em>(x<sub>1</sub>+x<sub>2</sub>+...+x<sub>k</sub>)<sup>n</sup></em>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>2 2<br />1 1<br />2 12<br />1 0 0 0 0 0 0 0 0 0 1 0<br /></pre>
+<br /><br /><br /><strong>Output:</strong><br /><br />
+<pre>2<br />2<br /></pre>
+<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dambort">Coach UTN FRSF</a></td></tr>
+<tr><td>Date:</td><td>2010-06-02</td></tr>
+<tr><td>Time limit:</td><td>0.333s-1s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>http://uva.onlinejudge.org/external/101/10105.html</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5468. Going to school</h1>
+		<h2>Problem code: GS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your family has just moved to small town with simple transportation system: there are N conjunctions and N - 1 roads connecting the conjunctions. These roads guarantee that it&rsquo;s possible to travel between any two conjunctions. Each road connects two conjunctions and has a preferred value.</p>
+<p><br />You are new here and not familiar with the roads. So when you stay at a conjunction which is not your destination, you will choose one of incident roads to walk (even it makes you get farther from your destination). The probability of choosing one road equals to its preferred value divide to total preferred value of all incident roads. For example, if there are three incident roads at current conjunction with preferred value 1, 2 and 3, the probability of choosing each road is 1/6, 2/6 and 3/6, respectively.</p>
+<p><br />Given the starting conjunction where your house is and the final conjunction where is your school, what is the expected number of roads you have to walk to reach the destination?</p>
+<p><br />Input<br />The input begins with T &ndash; number of test cases. For each test case, there will be:<br />&bull; The first line consists of N, st, en - number of conjunctions, starting and final<br />conjunction.<br />&bull; In next N - 1 lines, each line consists of three positive integers u, v and c indicate that<br />there is a road between conjunction u and v with preferred value c.</p>
+<p><br />Output<br />For each test case, print the expected number of roads you have to walk, round to exactly 5<br />precision digits.</p>
+<p><br />Limits<br />T &lt;= 20<br />1 &lt;= N &lt;= 15<br />All numbers in input &lt;= 100</p>
+<p><br />Sample input<br />1<br />3 2 3<br />1 2 1<br />2 3 1</p>
+<p><br />Sample output<br />3.00000</p>
+<p><br />Explanation<br />There are 50% chance of going 2-3 directly; 25% chance of going 2-1-2-3, 12.5% of going 2-1-<br />2-1-2-3 and so on. The result equals 1 &times; 50% + 3 &times; 25% + 5 &times; 12.5% + &hellip; = 3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/huy391992">sieunhan</a></td></tr>
+<tr><td>Date:</td><td>2009-11-29</td></tr>
+<tr><td>Time limit:</td><td>0.100s-3.134s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Khuc Anh Tuan - ACM Vietnam Practice</td></tr>	
+</table>

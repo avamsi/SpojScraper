@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MINSUB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20863. Largest Submatrix</h1>
+		<h2>Problem code: MINSUB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given an matrix M (consisting of nonnegative integers) and an integer K. &nbsp;For any submatrix of M' of M define min(M') to be the minimum value of all the entries of M'. &nbsp;Now your task is simple: &nbsp;find the maximum value of min(M') where M' is a submatrix of M of area at least K (where the area of a submatrix is equal to the number of rows times the number of columns it has).</p>
+<h3>Input</h3>
+<p>The first line contains a single integer T (T &le; 10) denoting the number of test cases, T test cases follow. &nbsp;Each test case starts with a line containing three integers, R (R &le; 1000), C (C &le; 1000)&nbsp;and K (K &le; R * C)&nbsp;which represent the number of rows, columns of the matrix and the parameter K. &nbsp;Then follow R lines each containing C nonnegative integers, representing the elements of the matrix M. &nbsp;Each element of M is &le; 10^9</p>
+<h3>Output</h3>
+<p>For each test case output two integers: &nbsp;the maximum value of min(M'), where M' is a submatrix of M of area at least K, and the maximum area of a submatrix which attains the maximum value of min(M'). &nbsp;Output a single space between the two integers.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>2 2 2</pre>
+<pre>1 1</pre>
+<pre>1 1</pre>
+<pre>3 3 2</pre>
+<pre>1 2 3</pre>
+<pre>4 5 6</pre>
+<pre>7 8 9
+
+<strong>Output:</strong>
+1 4</pre>
+<pre>8 2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2014-09-01</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on APIO 2014 Training Session</td></tr>	
+</table>

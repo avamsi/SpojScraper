@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAKEMAZE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11516. VALIDATE THE MAZE</h1>
+		<h2>Problem code: MAKEMAZE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong><span style="font-size: medium;">MAZE MAKING</span></strong></p>
+<p style="text-align: left;"> </p>
+<p style="text-align: left;"><span style="font-size: small;">There are many algorithms to generate maze. (<a href="http://en.wikipedia.org/wiki/Maze_generation_algorithm">http://en.wikipedia.org/wiki/Maze_generation_algorithm</a>). After generating the maze we&#8217;ve to validate whether it&#8217;s a valid maze or not. A valid maze has exactly one entry point and exactly one exit point (exactly 2 openings in the edges) and there must be atleast one path from the entry point to exit point.</span></p>
+<p style="text-align: center;"><span style="font-size: small;"><img src="http://upload.wikimedia.org/wikipedia/commons/2/2e/Maze_Type_Standard.png" alt="" width="200" height="200" /></span></p>
+<p style="text-align: left;"><span style="font-size: small;">Given a maze, just find whether the maze is "valid" or "invalid".</span></p>
+<p style="text-align: left;"><span style="font-size: small;"><br /></span></p>
+<p style="text-align: left;"><span style="font-size: x-small;"><strong><span style="font-size: small;">Input Specification:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: small;">The first line consists of an integer t, the number of test cases. Then for each test case, the first line consists of two integers m and n, the number of rows and columns in the maze. Then contains the description of the matrix M of order mxn. M[i][j]=# represents a wall and M[i][j]='.' represents a space.<br /></span></p>
+<p style="text-align: left;"><span style="font-size: x-small;"><strong><span style="font-size: small;">Output Specification:</span></strong></span></p>
+<p style="text-align: left;"><span style="font-size: small;"><strong> </strong>For each test case find whether the maze is "valid" or "invalid".</span></p>
+<p style="text-align: left;"> </p>
+<p style="text-align: left;"><span style="font-size: small;"><strong>Input Constraints:</strong></span></p>
+<p style="text-align: left;"><span style="font-size: small;"><br /></span></p>
+<p style="text-align: left;"><span style="font-size: small;">1&lt;=t&lt;=10000</span></p>
+<p style="text-align: left;"><span style="font-size: small;">1&lt;=m&lt;=20</span></p>
+<p style="text-align: left;"><span style="font-size: small;">1&lt;=n&lt;=20</span></p>
+<p style="text-align: left;"><span style="font-size: small;"><br /></span></p>
+<p style="text-align: left;"><span style="font-size: x-small;"><span style="font-size: small;">Sample Input:</span></span></p>
+<pre>
+6
+4 4
+####
+#...
+#.##
+#.##
+5 5
+#.###
+#..##
+##..#
+#.#.#
+###.#
+1 1
+.
+5 1
+#
+#
+.
+.
+#
+2 2
+#.
+.#
+3 4
+#..#
+#.##
+#.##
+</pre>
+<p style="text-align: left;"><span style="font-size: x-small;"><span style="font-size: small;">Sample Output:</span></span></p>
+<pre>
+valid
+valid
+invalid
+valid
+invalid
+invalid
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2012-05-11</td></tr>
+<tr><td>Time limit:</td><td>0.824s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

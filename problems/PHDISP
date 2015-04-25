@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PHDISP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>334. The Philosophical Dispute</h1>
+		<h2>Problem code: PHDISP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One day, mathematician and philosopher were engaged in a heated dispute.<BR><BR>
+
+Philosopher said:<BR>
+- Ideal line has only length and no width, therefore, no line can have an area.<BR>
+Mathematician replied:<BR>
+- That's as it may be, but still you can ll a square with a line in such a way that there will be no gaps.<BR>
+And you can't deny that a square has an area, and he grinned.<BR>
+But Philosopher still wasn't convinced:<BR>
+- Show me this line, then.<BR>
+- With pleasure... - responded Mathematician and scribbled some equations on a piece of paper:<BR>
+<img src="/content/turbo:img0001.jpg"><BR>
+- With t increasing, the point (x, y) will move around the square, forming a line.<BR>
+- So what? - asked Philosopher. How is it going to ll the entire square?<BR>
+- Indeed, it will, - said Mathematician, - Whichever point inside the square you draw, the line will eventually cross that point.<BR>
+- No, - replied Philosopher indignantly, - Anyway, I don't believe. When will the line cross this point? - and he put a thick dot inside the square.<BR>
+Give Philosopher an answer. <BR>
+</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; number of tests [<i>t</i> <= 150], than t test cases follows.<BR>
+The first line of each test case contains the coordinates (x0, y0) of the dot center (-1 <= x0, y0 <= 1). The second line contains eps <= 0.0001 - the radius of the dot (the dot is essentially a small circle).
+</p>
+
+<h3>Output</h3>
+<p>For each test case output any value of t in the segment [0, 10^12], which corresponds to the line crossing the dot, or "FAIL", if the line doesn't cross the dot.
+
+<h3>Example</h3>
+
+<pre>
+<b>Sample input:</b>
+1
+0.744 0.554
+0.01
+
+<b>Sample output:</b>
+5.3
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-04-25</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IX Ural Championship (Round II)</td></tr>	
+</table>

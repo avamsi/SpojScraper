@@ -1,0 +1,105 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NWERC11B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9888. Bird tree</h1>
+		<h2>Problem code: NWERC11B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+<h3>  Bird tree</h3>
+<!--l. 3-->
+<p>The Bird tree<a id="fn1x0-bk" href="#fn1x0"><sup>1</sup></a> is an infinite binary tree, whose first 5 levels look as follows:</p>
+<img src="/NWERC11/content/problemB0x.png" alt="                                   1                                    &#8725;1                     1&#8725;2                                  2&#8725;1          2&#8725;3                1&#8725;3                3&#8725;1                3&#8725;2    3        3         1        2        5         4        4        5    &#8725;5       &#8725;4       &#8725;4       &#8725;5        &#8725;2       &#8725;1       &#8725;3        &#8725;3 5   4    4    5   2    1    3   3    8    7   5    7   7    5    7   8 &#8725;8   &#8725;7   &#8725;5  &#8725;7   &#8725;7   &#8725;5  &#8725;7   &#8725;8  &#8725;3   &#8725;3   &#8725;1  &#8725;2   &#8725;5   &#8725;4  &#8725;4   &#8725;5 " /> <!--l. 53-->
+<p><!--l. 55--></p>
+<p>It can be defined as follows:</p>
+<img src="/NWERC11/content/problemB1x.png" alt="bird =             1&#8725;1          1&#8725; (bird + 1)  (1&#8725;bird) + 1 " /> <!--l. 60-->
+<p>This is a <em>co-recursive </em>definition in which both occurrences of <em>bird </em>refer to the full (infinite) tree. The expression <em>bird </em>+ 1 means that 1 is added to every fraction in the tree, and 1<em>&#8725;bird </em>means that every fraction in the tree is inverted (so <sup><em>a</em></sup><em>&#8725;</em><sub><em>b</em></sub> becomes <sup><em>b</em></sup><em>&#8725;</em><sub><em>a</em></sub>). <!--l. 67--></p>
+<p>Surprisingly, the tree contains every positive rational number exactly once, so every reduced fraction is at a unique place in the tree. Hence, we can also describe a rational number by giving directions (<tt>L</tt> for left subtree, <tt>R</tt> for right subtree) in the Bird tree. For example, <sup>2</sup><em>&#8725;</em><sub>5</sub> is represented by <tt>LRR</tt>. Given a reduced fraction, return a string  consisting of <tt>L</tt>&#8217;s and <tt>R</tt>&#8217;s: the directions to locate this fraction from the top of the tree. <!--l. 76--></p>
+<p> </p>
+<h4>Input</h4>
+<!--l. 77-->
+<p>On the first line a positive integer: the number of test cases, at most 100. After that per test case:</p>
+<ul>
+<li>one line with two integers <em>a </em>and <em>b </em>(1  &#8804; <em>a,b </em>&#8804; 10<sup>9</sup>), separated by a <tt>&#8217;/&#8217;</tt>. These       represent the numerator and denominator of a reduced fraction. The integers <em>a </em>and       <em>b </em>are not both equal to 1, and they satisfy gcd(<em>a,b</em>) = 1.</li>
+</ul>
+<!--l. 87-->
+<p>For every test case the length of the string with directions will be at most 10<span style="margin-left:0.3em"> </span>000. <!--l. 90--></p>
+<p> </p>
+<h4>Output</h4>
+<!--l. 91-->
+<p>Per test case:</p>
+<ul>
+<li>one line with the string representation of the location of this fraction in the Bird tree.</li>
+</ul>
+<!--l. 97-->
+<p> </p>
+<h4>Sample in- and output</h4>
+<table align="center" id="TBL-1" border="1" cellspacing="5" cellpadding="5" rules="groups">
+<colgroup><col id="TBL-1-1"></col></colgroup><colgroup id="TBL-1-2g"><col id="TBL-1-2"></col></colgroup>
+<tbody>
+<tr id="TBL-1-1-" style="vertical-align:baseline;">
+<td id="TBL-1-1-1" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Input</span></p>
+</td>
+<td id="TBL-1-1-2" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Output</span></p>
+</td>
+</tr>
+<tr id="TBL-1-2-" style="vertical-align:baseline;">
+<td id="TBL-1-2-1" style="white-space:wrap; text-align:left;"><!--l. 46-->
+<pre>3
+1/2
+2/5
+7/3</pre>
+</td>
+<td id="TBL-1-2-2" style="white-space:wrap; text-align:left;"><!--l. 107-->
+<pre>L
+LRR
+RLLR</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><a id="fn1x0" href="#fn1x0-bk"><sup>1</sup></a>Hinze, R. (2009). The Bird tree. J. Funct. Program., 19:491&#8211;508.</p>
+<h4>Copyright notice</h4>
+<p>
+This problem text is copyright by the NWERC 2011 jury. It is
+licensed under the Creative Commons Attribution-Share Alike license
+version 3.0; The complete license text can be found at:
+<a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">http://creativecommons.org/licenses/by-sa/3.0/legalcode</a>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jthread">Jeroen Bransen</a></td></tr>
+<tr><td>Date:</td><td>2011-11-02</td></tr>
+<tr><td>Time limit:</td><td>0.448s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://2011.nwerc.eu/team.php">NWERC 2011 Jury</a></td></tr>	
+</table>

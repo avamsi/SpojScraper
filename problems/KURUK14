@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KURUK14"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18240. GENIE SEQUENCE</h1>
+		<h2>Problem code: KURUK14</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">A Genie Sequence is a sequence in which every element indicates the number of elements present before or after it. Given an array of numbers, find whether you can form a Genie sequence or not.</span></p>
+<h3><span style="white-space: pre;"> </span><span style="font-size: small;">Input</span></h3>
+<p><span style="font-size: small;">First line contains a single integer T, the number of test cases. It is followed by T cases each of which contains two lines. First line of each test case contains a single integer N. The next line contains N integers separated by a single space.</span></p>
+<h3><span style="white-space: pre;"> </span>&nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size: small;">Output</span></h3>
+<p><span style="font-size: small;"><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">For each test case output a single line containing "YES" (without quotes) if it is possible to form a genie sequence or "NO" <span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">(without quotes)&nbsp;</span>if it is not possible.</span></span></p>
+<p><span style="font-size: small;"><span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;"><br /></span></span></p>
+<p><strong><span style="font-size: small;">Constraints</span></strong></p>
+<p><span style="font-size: small;">1&lt;=T&lt;=20</span></p>
+<p><span style="font-size: small;">2&lt;=N&lt;=1000</span></p>
+<p><span style="font-size: small;">1&lt;=ai&lt;=10^3</span></p>
+<h3><span style="font-size: small;">Example</span></h3>
+<p><strong><span style="font-size: small;">Input:</span></strong></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">4</span></p>
+<p><span style="font-size: small;">1 3 3 2</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-weight: bold;"><span style="font-size: small;">Output:</span></span></p>
+<p><span style="font-weight: bold;"><span style="font-size: small;">YES</span></span></p>
+<p><span style="font-weight: bold;"><span style="font-size: small;"><br /></span></span></p>
+<p><span style="font-weight: bold;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: small;">Explanation for the test case :</span></strong></span></span></p>
+<p><span style="font-size: small;">The Genie sequence is {3,1,2,3}. The first element '3' in the sequence indicates that three numbers are after it, the 2nd element '1' indicates that one number if before it, the 3rd element '2' indicates that two elements are before it and the last element indicates that three elements are before it. So the answer is YES.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lakshmi8">785227</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict JAVA PERL PYTH 2.7 PYTH 3.2.3 </td></tr>
+<tr><td>Resource:</td><td>Kurukshetra Onsite Programming Contest</td></tr>	
+</table>

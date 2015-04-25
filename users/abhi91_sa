@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abhi91_sa"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ONEXLIS" target="_blank">13588. One X LIS</a></td><td><a href="http://www.spoj.com/problems/ONEXLIS"target="_blank">ONEXLIS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CBANK" target="_blank">13626. Charu and Coin Distribution</a></td><td><a href="http://www.spoj.com/problems/CBANK"target="_blank">CBANK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRINGQ" target="_blank">13918. String Queries</a></td><td><a href="http://www.spoj.com/problems/STRINGQ"target="_blank">STRINGQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GHALIBC" target="_blank">13945. GHALIBS CHALLENGE</a></td><td><a href="http://www.spoj.com/problems/GHALIBC"target="_blank">GHALIBC</a><br>
+</td></tr>

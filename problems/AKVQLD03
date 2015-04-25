@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AKVQLD03"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15454. How to Handle the Fans</h1>
+		<h2>Problem code: AKVQLD03</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Trey Parker and Matt Stone, the creators of &ldquo;South Park&rdquo; are having some problems handling their fans. The number of fans is so huge that can&rsquo;t even count them properly. So they hired &ldquo;N&rdquo; employees for counting the fans. All the &ldquo;N&rdquo; employees had their own separate offices and they were located in a straight line with positions numbered as 1, 2, 3 &hellip; up to N. Fans can come to the office of any employee at any time and tell them how they feel about the show and if they are lucky enough, they may get to meet Trey Parker and Matt Stone.</p>
+<p>All the employees keep on updating Trey and Matt about the number of fans currently in their offices, so at each moment, they will have a list of &ldquo;N&rdquo; positions and the number of fans in each of these positions. Trey and Matt suddenly start taking a walk from office at position &ldquo;A&rdquo; to position &ldquo;B&rdquo; to meet their fans, but before they start walking they want to know the sum of all the fans in the offices from position &ldquo;A&rdquo; to &ldquo;B&rdquo;. But counting them one by one is taking a lot of time, so now they hired you, an awesome software engineer to do this task. Your task is to find the sum of all the fans present in the offices between positions &ldquo;A&rdquo; to &ldquo;B&rdquo; ("A" and "B" inclusive). Let&rsquo;s see if you could do it fast enough.</p>
+<h3>Input</h3>
+<p>The first line of Input contains two integers &ldquo;N&rdquo; and &ldquo;Q&rdquo;. &ldquo;N&rdquo; is the no. of employees hired by Trey and Matt. &ldquo;Q&rdquo; is the no. of queries to be followed.</p>
+<p>Each of the next &ldquo;Q&rdquo; lines contain a query. A query can be of two types:</p>
+<p>&ldquo;add P F&rdquo; &ndash; this means that &ldquo;F&rdquo; no. of fans came to the office at Position &ldquo;P&rdquo;</p>
+<p>&ldquo;find A B&rdquo; &ndash; this means that Trey and Matt wants to know the sum of fans present at offices at positions &ldquo;A&rdquo; to &ldquo;B&rdquo;</p>
+<h3>Output</h3>
+<p>For each query of the type &ldquo;find A B&rdquo;, output the sum of fans present at offices at positions &ldquo;A&rdquo; to &ldquo;B&rdquo; in a different line.</p>
+<h3>Constraints</h3>
+<p>1 &lt;= N &lt;= 10^6</p>
+<p>1 &lt;= Q &lt;= 10^5</p>
+<p>1 &lt;= A &lt; B &lt;= N</p>
+<p>1 &lt;= P &lt;=N</p>
+<p>1 &lt;= F &lt;= 10^4</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+</pre>
+<pre>10 10</pre>
+<pre>find 1 5
+</pre>
+<pre>add 5 8</pre>
+<pre>add 6 2</pre>
+<pre>find 4 5</pre>
+<pre>find 4 6</pre>
+<pre>add 2 4</pre>
+<pre>find 2 6</pre>
+<pre>add 6 7</pre>
+<pre>find 1 6</pre>
+<pre>find 7 10
+<strong><br /></strong></pre>
+<pre><strong>Output:</strong></pre>
+<pre>0
+</pre>
+<pre>8</pre>
+<pre>10</pre>
+<pre>14</pre>
+<pre>21</pre>
+<pre>0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ankitism">Ankit Kumar Vats </a></td></tr>
+<tr><td>Date:</td><td>2013-07-24</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Self</td></tr>	
+</table>

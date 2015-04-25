@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LITE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7259. Light Switching</h1>
+		<h2>Problem code: LITE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><br />Farmer John tries to keep the cows sharp by letting them play with intellectual toys. One of the larger toys is the lights in the barn.&nbsp; Each of the N (2 &lt;= N &lt;= 100,000) cow stalls conveniently numbered 1..N has a colorful light above it.<br /><br />At the beginning of the evening, all the lights are off. The cows control the lights with a set of N pushbutton switches that toggle the lights; pushing switch i changes the state of light i from off to on or from on to off.<br /><br />The cows read and execute a list of M (1 &lt;= M &lt;= 100,000) operations expressed as one of two integers (0 &lt;= operation &lt;= 1).<br /><br />The first kind of operation (denoted by a 0 command) includes two subsequent integers S_i and E_i (1 &lt;= S_i &lt;= E_i &lt;= N) that indicate a starting switch and ending switch. They execute the operation by pushing each pushbutton from S_i through E_i inclusive exactly once.<br /><br />The second kind of operation (denoted by a 1 command) asks the cows to count how many lights are on in the range given by two integers S_i and E_i (1 &lt;= S_i &lt;= E_i &lt;= N) which specify the inclusive range in which the cows should count the number of lights that are on.<br /><br />Help FJ ensure the cows are getting the correct answer by processing the list and producing the proper counts.</p>
+<h3>Input</h3>
+<p><br />Line 1: Two space-separated integers: N and M<br />Lines 2..M+1: Each line represents an operation with three space-separated integers: operation, S_i, and E_i</p>
+<h3>Output</h3>
+<p>Lines 1..number of queries: For each output query, print the count as an integer by itself on a single line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 5<br />0 1 2<br />0 2 4<br />1 2 3<br />0 2 4<br />1 1 4<br /><br /><strong>Output:</strong><br />1<br />2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/smilitude">Iqram Mahmud</a></td></tr>
+<tr><td>Date:</td><td>2010-09-03</td></tr>
+<tr><td>Time limit:</td><td>0.165s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>USACO November 08</td></tr>	
+</table>

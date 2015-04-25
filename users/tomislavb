@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/tomislavb"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KUSAC" target="_blank">16244. Kusac</a></td><td><a href="http://www.spoj.com/problems/KUSAC"target="_blank">KUSAC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LOPOV" target="_blank">16409. Lopov</a></td><td><a href="http://www.spoj.com/problems/LOPOV"target="_blank">LOPOV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ORGNZ" target="_blank">16410. Organizator</a></td><td><a href="http://www.spoj.com/problems/ORGNZ"target="_blank">ORGNZ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLAST" target="_blank">16411. Slasticar</a></td><td><a href="http://www.spoj.com/problems/SLAST"target="_blank">SLAST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUTNIK" target="_blank">17128. Putnik</a></td><td><a href="http://www.spoj.com/problems/PUTNIK"target="_blank">PUTNIK</a><br>
+</td></tr>

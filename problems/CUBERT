@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CUBERT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>291. Cube Root</h1>
+		<h2>Problem code: CUBERT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your task is to calculate the cube root of a given positive integer. We can not remember why exactly we need this, but it has something in common with a princess, a young peasant, kissing and half of a kingdom (a huge one, we can assure you).</p>
+<p>Write a program to solve this crucial task.</p>
+
+<h3>Input</h3>
+<p>The input starts with a line containing a single integer <b>t</b> <= 20, the number of test cases. <b>t</b> test cases follow. </p>
+<p>The next lines consist of large positive integers of up to 150 decimal digits.
+Each number is on its own separate line of the input file. The input file may contain empty lines. Numbers can be preceded or followed by whitespaces but no line exceeds 255 characters.</p>
+
+<h3>Output</h3>
+<p>For each number in the input file your program should output a line consisting of two values separated by single space. The second value is the cube root of the given number, truncated (not rounded!) after the 10th decimal place. First value is a checksum of all printed digits of the cube root, calculated as the sum of the printed digits modulo 10.</p>
+
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+5
+1
+<p>        8</p>
+<p>   1000</p>
+<p>
+2
+33076161
+</p>
+<b>Output:</b>
+1 1.0000000000
+2 2.0000000000
+1 10.0000000000
+0 1.2599210498
+6 321.0000000000
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2005-01-29</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM South Eastern European Region 2004</td></tr>	
+</table>

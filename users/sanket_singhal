@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sanket_singhal"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MSET" target="_blank">22766. Make Sets</a></td><td><a href="http://www.spoj.com/problems/MSET"target="_blank">MSET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HK" target="_blank">22774. Help Kejriwal</a></td><td><a href="http://www.spoj.com/problems/HK"target="_blank">HK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BVAAN" target="_blank">22776. Balika Vadhu and Alok Nath</a></td><td><a href="http://www.spoj.com/problems/BVAAN"target="_blank">BVAAN</a><br>
+</td></tr>

@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ICC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16297. Sir and The ICC Ratings</h1>
+		<h2>Problem code: ICC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Everyone knows Sir Jadeja can alone blow the opposition away. Sir has dominated the ICC Rankings as well. One day he was going through his career rating graph on <a href="http://www.espncricinfo.com/ci/content/player/234675.html" target="_blank">Cricinfo.com</a> and noticed the peaks in the graph. He found these graphs interesting and decides to create many hypothetical graphs. In all his graphs, at any time&nbsp; the slope of the graph is either 45<sup>o</sup> (increasing) or -45<sup>o </sup>(decreasing) only and takes non-negative integral values only. Since the graphs are hypothetical he starts the graph at rating 0 and end it at 0 too. In between the end points the total time covered is 2N (horizontal axis) units and there are a total of K peaks. He wants to calculate the total number of different graphs for a given N and K. Since the answer could be very large, print it modulo 10^9+7. You too are supposed to be good at Maths, so please help Sir solve the problem.</p>
+<h3>Input</h3>
+<p>First Line denotes the number of test cases T (1&lt;=T&lt;=1000000). Each test case consists of two numbers, N and K.</p>
+<p>1&lt;=K&lt;=N&lt;=1000.</p>
+<h3>Output</h3>
+<p>Total number of such graphs modulo 1000000007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>5 2
+
+<strong>Output:</strong>
+10</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/coderfrmhell">Akb</a></td></tr>
+<tr><td>Date:</td><td>2013-10-08</td></tr>
+<tr><td>Time limit:</td><td>1.129s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem used in LiveWire 2k13 MNNIT</td></tr>	
+</table>

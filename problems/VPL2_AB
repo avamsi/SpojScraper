@@ -1,0 +1,146 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL2_AB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15242. Betos Quest</h1>
+		<h2>Problem code: VPL2_AB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Beto is playing a game called "Impossible Mission" and he is getting very angry. He got completely stuck on the final mission. Here's what's the mission is about: Ethan Hunt must simply walk from a given start field to an end one. Hindering his progress, there are fake floor tiles that he must avoid. However that's not all, there are cameras everywhere!
+</p>
+
+<p>
+Camera <b>i</b> has range <b>Ri</b> and can be directed in four cardinal directions. It will scan <b>Ri</b> fields in a given direction, not including field were it's placed itself. Every second camera will rotate 90 degrees clock-wise.
+</p>
+
+<p>
+Ethan can move only in the four cardinal directions. He must make exactly one move every second (he can't stand in place). In addition, Ethan Hunt can use a special suit that makes him invisible to the cameras, even if he is in the range of multiples cameras. Unfortunately, as everything in the IMF, the suit is a prototype and tends to fail after a second of use. That's &#769;why Ethan has C suits that he will be able to use. It's possible Ethan will start on a field screened by a camera. In such a case he must use a suit. If he doesn't have one, the game is already lost. Also for final position, you must use a suit to shield against screening before exiting, if you are spotted by a camera. 
+</p>
+
+<p>
+Your mission, if you choose to accept it, is to help Beto to succeed in the game by telling him whether if it is possible or not to cross the maze. If it is possible, give Beto a clue and output the minimum steps needed to solve the problem.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line contains an integer T, which specifies the number of test cases. Then the descriptions of T test cases follow.
+</p>
+<p>
+For each case, first line will contain four integers <b>N</b>, <b>M</b>, <b>K</b>, <b>C</b> denoting the height and the width of the matrix, the number of cameras and the number of camouflage suits Ethan has.
+</p>
+<p>
+Next N lines will follow with M characters each. The &#8217;#&#8217; character denotes a fake floor and Ethan must avoid it. The &#8217;.&#8217; denotes a normal floor. Note than a fake floor will only block Ethan and not a camera field of view.
+</p>
+<p>
+Next K lines will follow with the description of the cameras. Each line will consist on four integers, denoting respectively the row and the column where the camera is (both 0-based), the range <b>Ri</b> of the camera and it's initial direction <b>Di</b>. 0 means that the camera is pointing to north, 1 east, 2 south and 3 west.</p>
+<p>
+Final two lines will contain two integers each, denoting the starting point and the ending point of Ethan Hunt. For both lines, first integer describes the row and second the column, both 0-based. It is guaranteed that Ethan won't start or be directed to a fake floor.
+</p>
+
+<h3>Output</h3>
+<p>
+For each input case, you must print a single line. The string "Scenario #i: " where i denotes the case you are analyzing (starting by 1), followed by the minimum number of steps that Ethan must make in order to reach his destination. If it is impossible, print -1.
+</p>
+
+<p><br></p>
+
+<h3>Example</h3>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><strong><span style="font-size: small;">INPUT</span></strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><strong><span style="font-size: small;">OUTPUT</span></strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<pre>
+2
+5 4 3 0
+....
+.#..
+..#.
+....
+....
+0 3 4 2
+2 1 4 0
+4 0 1 0
+0 0
+4 3
+3 3 2 0
+...
+...
+...
+0 2 1 2
+2 0 1 3
+0 0
+2 2
+</pre>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<pre>
+Scenario #1: 7
+Scenario #2: -1
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: small;"><span style="white-space: normal;"> </span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> </span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;">Constraints - Subtask 1 (30%) </span></strong></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; T &#8804; 30</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; N ,M &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; K &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 0 &#8804; C &#8804; 0</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; Rk &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;">Constraints - Subtask 2 (30%) </span></strong></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; T &#8804; 20</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; N ,M &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; K &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 0 &#8804; C &#8804; 10</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; Rk &#8804; 100</span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;">Constraints - Subtask 3 (40%) </span></strong></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; T &#8804; 10</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; N ,M &#8804; 1000</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; K &#8804; 1000</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 0 &#8804; C &#8804; 10</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> 1 &#8804; Rk &#8804; 1000 </span></p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-06-22</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

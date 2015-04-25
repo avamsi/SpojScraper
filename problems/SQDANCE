@@ -1,0 +1,218 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQDANCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>131. Square dance</h1>
+		<h2>Problem code: SQDANCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+You are hired by french NSA to break the RSA code used on the Pink
+Card. The easiest way to do that is to factor the public modulus and
+you have found the fastest algorithm to do that, except that you have
+to solve a subproblem that can be modeled in the following way.
+<br>
+Let <img width="16" height="15" align="bottom" border="0"
+src="/content/ak15:SQDANCE1.png" alt="$ cal P$"><!-- MATH
+$= {p_1,p_2,...,p_n}$
+-->
+<img width="118" height="32" align="middle" border="0" src="/content/ak15:SQDANCE2.png"
+alt="$ = {p_1,p_2,...,p_n}$"><!-- MATH
+$S = {s_1,s_2,...,s_u}$
+-->be
+a set of prime numbers. If <img width="131" height="32" align="middle"
+border="0" src="/content/ak15:SQDANCE3.png" alt="$ S = {s_1,s_2,...,s_u}$"><!-- MATH
+$T = {t_1,...,t_v}$
+-->
+and <img width="106" height="32" align="middle" border="0"
+src="/content/ak15:SQDANCE4.png" alt="$ T = {t_1,...,t_v}$"> are formed with elements
+of <img width="16" height="15" align="bottom" border="0" src="/content/ak15:SQDANCE1.png"
+alt="$ cal P$">, then S*T will denote the quantity
+<!-- MATH
+begin{displaymath}
+s_1*s_2*cdot cdot cdot *s_u*t_1*t_2*cdot cdot cdot *t_v.
+end{displaymath}
+-->
+</p>
+<img width="238" height="29" align="middle"
+border="0" src="/content/ak15:SQDANCE5.png"
+alt="$displaystyle s_1*s_2*cdot cdot cdot *s_u*t_1*t_2*cdot cdot cdot *t_v.$">
+<p>
+We call relation a set of two primes p,q, where p and q are distinct
+elements of <img width="16" height="15" align="bottom" border="0"
+src="/content/ak15:SQDANCE1.png" alt="$ cal P$"><!-- MATH
+$S_i = {p_i,q_i}$
+-->.
+You dispose of a collection of R
+relations <img width="89" height="32" align="middle" border="0"
+src="/content/ak15:SQDANCE6.png" alt="$ S_i = {p_i,q_i}$"><!-- MATH
+$S_{i_1}, S_{i_2}, ..., S_{i_k}$
+-->
+and you are interested in finding
+sequences of these, <img width="103" height="30" align="middle"
+border="0" src="/content/ak15:SQDANCE7.png" alt="$ S_{i_1}, S_{i_2}, ..., S_{i_k}$">
+such that
+<!-- MATH
+begin{displaymath}
+S_{i_1}*S_{i_2}*cdot cdot cdot *S_{i_k}
+end{displaymath}
+-->
+</p>
+<img width="134" height="30" align="middle"
+border="0" src="/content/ak15:SQDANCE8.png"
+alt="$displaystyle S_{i_1}*S_{i_2}*cdot cdot cdot *S_{i_k}$">
+<p>
+is a perfect square.
+</p><p>
+The way you look for these squares is the following. The ultimate goal
+is to count squares that appear in the process. Relations arrive one at
+a time. You maintain a collection <img width="13" height="14"
+align="bottom" border="0" src="/content/ak15:SQDANCE9.png" alt="$ cal C$"> of relations
+that do not contain any square subproduct. This is easy: at first, <img
+width="13" height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png"
+alt="$ cal C$"> is empty. Then a relation arrives and <img width="13"
+height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png" alt="$ cal C$">
+begins to grow.
+Suppose a new relation <img width="43" height="32" align="middle"
+border="0" src="/content/ak15:SQDANCE10.png" alt="$ {p,q}$"> arrives. If no square
+appears when adding <img width="43" height="32" align="middle"
+border="0" src="/content/ak15:SQDANCE10.png" alt="$ {p,q}$"> to <img width="13"
+height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png" alt="$ cal C$">,
+then <img width="43" height="32" align="middle" border="0"
+src="/content/ak15:SQDANCE10.png" alt="$ {p,q}$"> is added to the collection.
+Otherwise, a square is about to appear, we increase the number of
+squares, but we do not store this relation, hence <img width="13"
+height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png" alt="$ cal C$">
+keeps the desired property.
+<br>
+<!-- MATH
+$S_1 = {2,3}$
+-->Let us consider an example. First
+arrives <img width="81" height="32" align="middle" border="0"
+src="/content/ak15:SQDANCE11.png" alt="$ S_1 = {2,3}$"> and we put it in <img
+width="13" height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png"
+alt="$ cal C$"><!-- MATH
+$S_2 = {5,11},S_3 = {3,7}$
+-->; then
+arrives <img width="173" height="32" align="middle" border="0"
+src="/content/ak15:SQDANCE12.png" alt="$ S_2 = {5,11},S_3 = {3,7}$"> and they are
+stored in <img width="13" height="14" align="bottom" border="0"
+src="/content/ak15:SQDANCE9.png" alt="$ cal C$"><!-- MATH
+$S_4 = {2,7}$
+-->. Now
+enters the relation <img width="81" height="32" align="middle"
+border="0" src="/content/ak15:SQDANCE13.png" alt="$ S_4 = {2,7}$">. This relation
+could be used to form the
+square:
+<!-- MATH
+begin{displaymath}
+S_1*S_3*S_4 = (2*3)*(3*7)*(2*7) = (2*3*7)^2.
+end{displaymath}
+-->
+</p>
+<img width="365" height="36" align="middle"
+border="0" src="/content/ak15:SQDANCE14.png"
+alt="$displaystyle S_1*S_3*S_4 = (2*3)*(3*7)*(2*7) = (2*3*7)^2.$">
+<p>
+So we count 1 and do not store <img width="21" height="30"
+align="middle" border="0" src="/content/ak15:SQDANCE15.png" alt="$ S_4$"> in <img
+width="13" height="14" align="bottom" border="0" src="/content/ak15:SQDANCE9.png"
+alt="$ cal C$"><!-- MATH
+$S_5 = {5,11}$
+-->. Now we consider <img
+width="89" height="32" align="middle" border="0" src="/content/ak15:SQDANCE16.png"
+alt="$ S_5 = {5,11}$"> that could make a square with <img width="21"
+height="30" align="middle" border="0" src="/content/ak15:SQDANCE17.png" alt="$ S_2$"><!-- MATH
+$S_6 = {2,13}$
+-->,
+so we count 1 square more. Then <img width="89" height="32"
+align="middle" border="0" src="/content/ak15:SQDANCE18.png" alt="$ S_6 = {2,13}$"> is
+put into <img width="13" height="14" align="bottom" border="0"
+src="/content/ak15:SQDANCE9.png" alt="$ cal C$"><!-- MATH
+$S_7 = {7,13}$
+-->. Now <img
+width="89" height="32" align="middle" border="0" src="/content/ak15:SQDANCE19.png"
+alt="$ S_7 = {7,13}$"><!-- MATH
+$S_1*S_3*S_6*S_7$
+--> could make
+the square <img width="117" height="30" align="middle" border="0"
+src="/content/ak15:SQDANCE20.png" alt="$ S_1*S_3*S_6*S_7$">. Eventually, we get 3
+squares.
+<br>
+</div>
+</p>
+<H3>Input</h3>
+<P align=justify>
+The first line of the input contains a number T <= 30 that indicates the number of test cases to follow. Each test case begins with a line containing two integers P and R: <img
+width="61" height="34" align="middle" border="0" src="/content/ak15:SQDANCE21.png"
+alt="$ Ple 10^5$"> is the number of primes occurring in the test
+case; R (<img width="44" height="34" align="middle" border="0"
+src="/content/ak15:SQDANCE22.png" alt="$ le 10^5$">) is the number of sets of primes
+that arrive. The subsequent R lines each contain two integers i and j
+making a set<!-- MATH
+${p_i,q_i}(1le i,jle P)$
+--> <img
+width="148" height="32" align="middle" border="0" src="/content/ak15:SQDANCE23.png"
+alt="$ {p_i,q_i}(1le i,jle P)$">. Note that we actually do not
+deal with the primes, they are irrelevant to the solution.
+<br>
+</p>
+<H3>Output</h3>
+<P align=justify>
+For each test case, output the number of squares that can be formed using the preceding rules.
+</p>
+<H3>Example</h3>
+<div align="left">
+<pre><b>Input:</b>
+2
+6 7
+1 2
+3 5
+2 4
+1 4
+3 5
+1 6
+4 6
+2 3
+1 2
+1 2
+1 2
+
+<b>Output:</b>
+3
+2
+</pre>
+</div>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2004-07-13</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Southwestern European Regional Contest, Paris 2003</td></tr>	
+</table>

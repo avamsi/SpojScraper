@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/deren"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SHPATH" target="_blank">15. The Shortest Path</a></td><td><a href="http://www.spoj.com/problems/SHPATH"target="_blank">SHPATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MUL" target="_blank">31. Fast Multiplication</a></td><td><a href="http://www.spoj.com/problems/MUL"target="_blank">MUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VFMUL" target="_blank">235. Very Fast Multiplication</a></td><td><a href="http://www.spoj.com/problems/VFMUL"target="_blank">VFMUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STABLEMP" target="_blank">243. Stable Marriage Problem</a></td><td><a href="http://www.spoj.com/problems/STABLEMP"target="_blank">STABLEMP</a><br>
+</td></tr>

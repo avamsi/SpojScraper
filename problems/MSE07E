@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSE07E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4204. Showstopper</h1>
+		<h2>Problem code: MSE07E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MSE07E/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MSE07E/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+ 
+Data-mining huge data sets can be a painful and long lasting process
+if we are not aware of tiny patterns existing within those data sets. 
+One reputable company has recently discovered a tiny bug in their 
+hardware video processing solution and they are trying to create software
+workaround. To achieve maximum performance they use their chips in pairs 
+and all data objects in memory should have even number of references. 
+Under certain circumstances this rule became violated and exactly one 
+data object is referred by odd number of references. They are ready to 
+launch product and this is the only showstopper they have. They need YOU 
+to help them resolve this critical issue in most 
+efficient way. 
+Can you help them? </p><p>
+</pre>
+<h3>Input</h3>
+</p><p>
+Input file consists from multiple data sets separated by one or more 
+empty lines. Each data set represents a sequence of 32-bit (positive) 
+integers (references) which are stored in compressed way.  </p><p>
+Each line of input set consists from three single space separated 32-bit 
+(positive) integers X Y Z and they represent following sequence of 
+references: X, X+Z, X+2*Z, X+3*Z, &#8230;, X+K*Z, &#8230;(while (X+K*Z)<=Y). 
+</p><p>
+<h3>Output</h3>
+</p><p>
+Your task is to data-mine input data and for each set determine weather 
+data were corrupted, which reference is occurring odd number of times, 
+and count that reference. 
+ </p><p>
+For each input data set you should print to standard output new line 
+of text with either &#8220;no corruption&#8221; (low case) or two integers 
+separated by single space (first one is reference that occurs odd 
+number of times and second one is count of that reference). 
+ 
+</p><p>
+<h3>Sample</h3>
+<pre>
+Input :
+1 10 1 
+2 10 1 
+ 
+1 10 1 
+1 10 1 
+ 
+1 10 1 
+4 4 1 
+1 5 1 
+6 10 1 
+Ouput: 
+1 1 
+no corruption 
+4 3 
+</pre>
+ 
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-04-12</td></tr>
+<tr><td>Time limit:</td><td>0.108s-1.107s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Southeastern European 2007</td></tr>	
+</table>

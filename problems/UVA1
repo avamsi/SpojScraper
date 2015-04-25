@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UVA1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18666. Radiation</h1>
+		<h2>Problem code: UVA1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Nuclear power plants (NPP) are a blessing and curse of modern civilization. NPPs have some risks but&nbsp;still it is one of the cheapest ways to produce electricity in the developed world. In this problem we&nbsp;will discuss a situation related to two nuclear plants, which are not far away from each other.</span></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://i.imgur.com/a3T2Ctd.png" alt="" width="625" height="440" /><br /><span style="font-family: arial black,avant garde;">Figure 1: Two Nuclear Power Plants. Houses at (81, 49) and (77,33) are at high risk from both the<br />plants.<br /><br /><br /></span><span style="font-size: small;">We will describe the entire scenario in a&nbsp;at land, so two-dimensional Cartesian coordinate system&nbsp;is used to denote each location. Lets assume that the coordinate of the two nuclear power plants&nbsp;are (ax;ay) and (bx;by). Houses that are located within distance R1&nbsp;(inclusive) of the power plant&nbsp;at (ax;ay) are under high risk of radiation. Similarly, houses that are located within distance R2&nbsp;(inclusive) of the power plant at (bx;by) are under high risk of radiation. So the authorities of power&nbsp;plant 1 and power plant 2 distribute special protective equipments to the houses that are within radius&nbsp;(inclusive) R1 and R2&nbsp;of the respective power plants. As a result each of the houses that are endangered&nbsp;by both the plants actually receive two sets of equipments to protect their house.</span></p>
+<p><span style="font-size: small;">Given the location&nbsp;of the houses and the values of ax;ay; bx; by and possible values of R1&nbsp;and R2&nbsp;your job is to find out </span><span style="font-size: small;">the number of houses that are </span><span style="font-size: small;">endangered&nbsp;by both the plants</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">The input le contains at most 3 test cases. The description of each test case is given below:</span></p>
+<p><span style="font-size: small;">A test case starts with a line containing a positive integerN(0 &lt; N &lt;= 200000) that denotes&nbsp;</span><span style="font-size: small;">the number of houses that are under either low risk or high risk of radiation. Each of the next N&nbsp;</span><span style="font-size: small;">lines contains two integers xi , yi &nbsp;</span><span style="font-size: small;">(0 &lt;=xi,yi &lt;= 20000) that denotes the coordinate of the i-th house.</span></p>
+<p><span style="font-size: small;">No two houses are at the same location. The next line contains five integers ax, ay, bx, by and q&nbsp;(0&lt;=ax,ay,bx, by &lt;= 20000, 0&lt; q&lt;=20000). The meaning of ax,ay, bx and by are given in the problem&nbsp;statement. Here q denotes the total number of query. Each of the nextq lines contains two integers,&nbsp;which denote the values of R1&nbsp;and R2&nbsp;(0&lt; R1,R2 &lt;= 13000) respectively.</span></p>
+<p><span style="font-size: small;">A line containing a single zero terminates input. This line should not be processed.</span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">For each test case produceq+ 1 lines of output. The rst line is the serial of output. For each query&nbsp;(given value of R1 and R2) determine the number of houses that are endangered&nbsp;by both the plants. You may consider using faster IO as judge input le is large.<br /><br /><span style="font-family: arial black,avant garde;">Note</span>: First query in the sample input corresponds to Figure 1.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<br />11<br />95 75<br />27 6<br />93 5<br />124 13<br />34 49<br />65 61<br />81 49<br />77 33<br />110 50<br />91 22<br />110 25<br />57 42 97 36 1<br />31 25
+0
+<strong><br />Output:</strong>
+<br />Case 1:<br />2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdou_93">abdou_93</a></td></tr>
+<tr><td>Date:</td><td>2014-03-01</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

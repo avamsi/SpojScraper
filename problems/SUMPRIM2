@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMPRIM2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18932. Sum of primes (reverse mode)</h1>
+		<h2>Problem code: SUMPRIM2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>XerK had prepared his new problem with some sums of primes up to some bounds.</br>
+His results are well here, but he forgot the bounds.</br>
+Your task is to find which was the last prime in the sum.</br>
+This problem is extremely simple, but you have to be extremely fast.
+</p>
+
+
+<h3>Input</h3>
+<p>The lonely line of input contains an integer <strong><em>S</em></strong>.</br>
+</p>
+
+<h3>Output</h3>
+<p>You have to print the last prime <strong><em>P</em></strong> such that <strong><em>sum(prime from 2 to P) = S</em></strong>.
+</p>
+
+
+<h3>Examples</h3>
+<pre><strong>Input_1:</strong>
+77
+</pre>
+<pre><strong>Output_1:</strong>
+19
+</pre>
+
+<pre><strong>Input_2:</strong>
+24739512092254535
+</pre>
+<pre><strong>Output_2:</strong>
+999999937
+</pre>
+
+<h3>Explanation</h3>
+<p>The first sum was <pre>2 + 3 + 5 + 7 + 11 + 13 + 17 + <b>19</b> = 77</pre></p>
+
+<h3>Constraints</h3>
+<pre>
+0 < P <= 10^12
+</pre>
+<p>The challenge problem <a href="http://www.spoj.com/problems/SUMPRIM1/">SUMPRIM1</a> is the reverse task.</br>
+Time limit is set to allow some slow languages to finish in time, it could be hard.</br>
+For your information, my Python code got AC in 76s for a total of 20 input files.</br>
+;-) Have fun.</p>
+
+<p>You may try before an excellent tutorial problem (<a href="http://www.spoj.com/problems/TWINP2/">Twin Primes</a>) and make some speed experiments.</br>
+You could take benefit too in working with <a href="http://www.spoj.com/problems/PRINT/">PRINT</a>, another excellent tutorial problem.
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-03-09</td></tr>
+<tr><td>Time limit:</td><td>8s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

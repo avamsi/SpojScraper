@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NGM2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6285. Another Game With Numbers</h1>
+		<h2>Problem code: NGM2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;"><span style="font-size: small;">Little Chikoo likes to play with numbers. Often he plays the following game :</span></p>
+<ol style="text-align: justify;">
+<li><span style="font-size: small;">He chooses a number N and a set of positive integers.</span></li>
+<li><span style="font-size: small;">He writes down all the numbers from 1 to N.</span></li>
+<li style="text-align: justify;"><span style="font-size: small;">He chooses the first number (say x) from the set and cancels out all the multiples of x from 1 to N, including x.</span></li>
+<li style="text-align: justify;"><span style="font-size: small;">He repeats step 3 for all the numbers from the set.</span></li>
+</ol>
+<p style="text-align: justify;"><span style="font-size: small;">One day Little Chikoo was in a mood to play pranks. So his brother asked him to play the game with a certain challenge. He made the game a little harder and asked him to find out the number of integers which aren't cancelled after he completes step 4. If he does that then Little Chikoo gets to play on his brother's Nintendo for one full day. Now Little Chikoo is in a hurry and wants to finish the job as soon as possible. He has asked for your help.</span></p>
+<h3 style="text-align: center;"><span style="font-size: small;">Input</span></h3>
+<p style="text-align: justify;"><span style="font-size: small;">The first line of the input contains N and K. (N &lt;= 10^9, K &lt;= 15)</span></p>
+<p style="text-align: justify;"><span style="font-size: small;">Then K numbers follow all in a single line. All numbers are &lt;= 100.</span></p>
+<h3 style="text-align: center;"><span style="font-size: small;">Output</span></h3>
+<p style="text-align: justify;"><span style="font-size: small;">The output file must contain the number of integers that&nbsp;aren't cancelled&nbsp;after he finishes step 4 of the game.</span></p>
+<h3 style="text-align: center;"><span style="font-size: small;">Example</span></h3>
+<p style="text-align: justify;"><span style="font-size: small;"><strong>Input:</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: small;">10 3</span></p>
+<p style="text-align: justify;"><span style="font-size: small;">2 4 5</span></p>
+<p style="text-align: justify;"><span style="font-size: small;"><strong>Output:</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: small;">4</span></p>
+<p style="text-align: justify;"><span style="font-size: small;">(The numbers 1, 3, 7 and 9 weren't cancelled).</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gooey_kablooie">Paranoid Android</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.247s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>-</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KVALTWR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9030. Bob and his towers</h1>
+		<h2>Problem code: KVALTWR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bytie has got a set of wooden blocks for his birthday.     The blocks are indistinguishable from one another, as they are all cubes of the same size.     Bytie forms piles by putting one block atop another.     Soon he had a whole rank of such piles, one next to another in a straight line.     Of course, the piles can have different heights.</p>
+<p>Bytie's father, Byteasar, gave his son a puzzle.     He gave him a number <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.1.png" alt="" /></span> and asked to rearrange the blocks in such a way that     the number of successive piles of height at least <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.2.png" alt="" /></span> is maximised.     However, Bytie is only ever allowed to pick the top block from a pile strictly     higher than <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.3.png" alt="" /></span> and place it atop one of the piles next to it.     Further, Bytie is not allowed to form new piles, he can only move blocks     between those already existing.</p>
+<h2>Input</h2>
+<p>In the first line of the standard input there are two integers separated by a single space:       <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.4.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.5.png" alt="" /></span>), denoting the number of piles, and <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.6.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.7.png" alt="" /></span>),       denoting the number of Byteasar's requests.       The piles are numbered from <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.8.png" alt="" /></span> to <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.9.png" alt="" /></span>.       In the second line there are <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.10.png" alt="" /></span> integers <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.11.png" alt="" /></span> separated by single spaces (<span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.12.png" alt="" /></span>).       The number <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.13.png" alt="" /></span> denotes the height of the <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.14.png" alt="" /></span>-th pile.       The third line holds <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.15.png" alt="" /></span> integers <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.16.png" alt="" /></span> separated by single spaces (<span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.17.png" alt="" /></span>).       These are the subsequent values of the parameter <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.18.png" alt="" /></span> for which the puzzle is to be solved.       That is, the largest number of successive piles of height at least <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.19.png" alt="" /></span> that       can be obtained by allowed moves is to be determined for each given value of the parameter <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.20.png" alt="" /></span>.</p>
+<h2>Output</h2>
+<p>Your program should print out <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.21.png" alt="" /></span> integers, separated by single spaces,       to the standard output - the <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.22.png" alt="" /></span>-th of which should be the answer to the puzzle       for the given initial piles set-up and the parameter <span><img src="http://main.edu.pl/en/images/OI17/klo-en-tex.23.png" alt="" /></span>.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>5 6<br />1 2 1 1 5<br />1 2 3 4 5 6<br /><p>the correct result is:</p><p>5 5 2 1 1 0</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-06-14</td></tr>
+<tr><td>Time limit:</td><td>0.098s-2.461s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>XVII  POI</td></tr>	
+</table>

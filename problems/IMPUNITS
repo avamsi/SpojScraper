@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IMPUNITS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7426. Imperial Units</h1>
+		<h2>Problem code: IMPUNITS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>As you may know, there are currently two main sets of measurement units in the world:<br />the metric system and the imperial system. The imperial system receives its name from<br />the British empire, which was the place of its invention and its main user until recently.<br />Nowadays, Britain&rsquo;s heir, the United States of America, is the only country where a<br />variation of the imperial system is the official measurement system.<br />For a particular magnitude, in a given measurement system there are N different units<br />U1 , U2 , . . . UN (the number of units depends on both the magnitude and the system). For<br />every i (1 &le; i &le; N &minus; 1), a certain number of Ui is equivalent to a certain number of<br />Ui+1 . In the metric system we always have that 1Ui is equivalent to 10Ui+1 . For instance,<br />1 decimeter is equivalent to 10 centimeters, 1 gram is equivalent to 10 decigrams, and<br />1 decaliter is equivalent to 10 liters. On the contrary, in some variations of the imperial<br />system we may have other positive integers instead of 1 and 10. For instance, 32 drams<br />are equivalent to 875 grains.<br />Since you were born and raised using the much more sensible metric system, you need help<br />learning the imperial system and its variations. You want to be able to transform directly<br />from U1 to UN , that is, you need to know that a certain number of U1 is equivalent to a<br />certain number of UN . To ease further calculations, you want to express the equivalence<br />using only integers values, and these values must be as small as possible.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains an integer N<br />indicating the number of units in the measurement system (2 &le; N &le; 10). Line i of the<br />next N &minus; 1 lines describes the relationship between units Ui and Ui+1 with two integers<br />Ai and Bi representing that Ai Ui is equivalent to Bi Ui+1 (1 &le; Ai &lt; Bi &le; 100). The end<br />of input is indicated with a line containing a single &minus;1.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with two positive integers C and D representing<br />that CU1 is equivalent to DUN . If there are several alternatives, choose the minimum<br />possible value for C.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />5<br />1 2<br />2 3<br />3 4<br />2 5<br />2<br />6 9<br />-1
+<br /><strong>Output:</strong> <br />1 10<br />2 3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>0.307s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

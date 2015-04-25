@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EASYMATH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11391. EASY MATH</h1>
+		<h2>Problem code: EASYMATH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You will be given 4 numbers</p>
+<p>n m a d</p>
+<p>find count of numbers between n &amp; m (inclusive) not divisible by (a) or (a+d) or (a+2d) or (a+3d) or (a+4d).</p>
+<h3>Input</h3>
+<p>first line has number t - number of test cases.</p>
+<p>each test case has 4 numbers &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n m a d</p>
+<h3>Output</h3>
+<p>Single line having single number giving the count</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>1 10 2 2</pre>
+<pre>20 100 3 3</pre>
+<pre>100 1000 4 5 
+
+<strong>Output:</strong>
+
+</pre>
+<pre>5</pre>
+<pre>54</pre>
+<pre>543</pre>
+<pre><strong>NOTE</strong> - 1&lt;=n&lt;=m&lt;= 2^32</pre>
+<pre><span style="white-space: pre;">	</span>1&lt;=a&lt;= 2^32</pre>
+<pre><span style="white-space: pre;">	</span>1&lt;=d&lt;=2^32</pre>
+<pre><span style="white-space: pre;">	</span>2&lt;=t&lt;=100</pre>
+ALSO TRY THR CHALLENGE VERSION --- <a href="../../EASYMATC/">/http://www.spoj.pl/problems/EASYMATC/</a>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/keedap">Devil D</a></td></tr>
+<tr><td>Date:</td><td>2012-04-17</td></tr>
+<tr><td>Time limit:</td><td>0.065s-0.163s</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

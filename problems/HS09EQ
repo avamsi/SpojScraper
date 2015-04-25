@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HS09EQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4784. Diophantine equation</h1>
+		<h2>Problem code: HS09EQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre>Sometimes solving a Diophantine equation is very hard. But, for example, the equation&nbsp;</pre>
+<pre><strong>a</strong>+<strong>b</strong><sup>2</sup>+<strong>c</strong><sup>3</sup>+<strong>d</strong><sup>4</sup>=<strong>n</strong> has a trivial solution for every value of <strong>n</strong>. Your task is to determine&nbsp;</pre>
+<pre>the number of solutions of the equation for each given <strong>n</strong>, assuming that in the equation&nbsp;</pre>
+<pre>all the values <strong>a</strong>, <strong>b</strong>, <strong>c</strong> and <strong>d</strong> are non-negative integers.</pre>
+<h3>Input</h3>
+<p>The first line of input contains an integer <strong>T</strong>, representing the number of test cases (<strong>T</strong>&lt;20000).</p>
+<p>The following <strong>T</strong> lines contain one non-negative integer <strong>n</strong> each, where <strong>n</strong> &lt; 10<sup>9</sup>.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>Output <strong>T</strong> lines, each containing the number of solutions of the respective equation for <strong>n</strong>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+0
+1
+10
+100
+1000
+
+<strong>Output:</strong>
+1
+4
+19
+148
+1476</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-09-07</td></tr>
+<tr><td>Time limit:</td><td>1s-4s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.3.2 ERL JS NODEJS PERL 6 SCALA SCM chicken </td></tr>
+<tr><td>Resource:</td><td>High School Programming League</td></tr>	
+</table>

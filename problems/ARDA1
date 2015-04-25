@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ARDA1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6322. The hunt for Gollum</h1>
+		<h2>Problem code: ARDA1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;"><em>Along the skirts of the Dead Marshes I followed it, and then I had him. Lurking by a stagnant mere, peering in the water as the dark eve fell, I caught him, Gollum. He was covered with green slime. He will never love me, I fear; for he bit me, and I was not gentle. Nothing more did I ever get from his mouth than the marks of his teeth.</em></p>
+<p style="text-align: right;"><em><br />&ldquo;The Lord of the Rings: The fellowship of the Ring&rdquo;</em></p>
+<p>&nbsp;</p>
+<p>Hearing Gandalf&rsquo;s advice, Aragorn has started hunting creature Gollum. After several days following his footprints, he has arrived to the Dead Marshes. He has a map of the marshes, that can be viewed as an M<sub>1</sub> * M<sub>2</sub> matrix containing lowercase letters form English alphabet (i.e. letters from &lsquo;a&rsquo; to &lsquo;z&rsquo;).</p>
+<p>Being a skilled ranger, Aragorn has been able to fully characterize Gollum preferred place (if you are interested, you should know that it must be dark, wet, creepy and full of fishes!). It can be described as an N<sub>1</sub> * N<sub>2</sub> matrix containing lowercase letters form English alphabet.</p>
+<p>Your task is simple: write a program that, given Gollum&rsquo;s preferred place description and Aragorn&rsquo;s map, output all possible locations of the creature.</p>
+<p>Let&rsquo;s look at an example: suppose Gollum&rsquo;s preferred place is described by the following 3 * 3 matrix:</p>
+<p>aba</p>
+<p>bab</p>
+<p>aba</p>
+<p>and that Aragorn&rsquo;s map looks something like this:</p>
+<p>aababa</p>
+<p>ababab</p>
+<p>bababa</p>
+<p>ababab</p>
+<p>ababab</p>
+<p>bababa</p>
+<p>ababab</p>
+<p>Then your program must output the following: (1,2), (1,4), (2,1), (2,3), (5,1) and (5,3), these being the upper-left corners of all places on the Dead Marshes that match Gollum&rsquo;s preferred place description. If none match is found, you should output the string &ldquo;NO MATCH FOUND...&rdquo; without the quotes.</p>
+<h3>Input</h3>
+<p>Line 1: Two integers: N<sub>1</sub> and N<sub>2</sub>.</p>
+<p>Lines 2&hellip; N<sub>1</sub> + 1: A string with N<sub>2</sub> characters as described above.</p>
+<p>Lines N<sub>1</sub> + 2: Two integers: M<sub>1</sub> and M<sub>2</sub>.</p>
+<p>Lines N<sub>1</sub> + 3&hellip; N<sub>1</sub> + M<sub>1</sub> + 3: A string with M<sub>2</sub> characters as described above.</p>
+<p><strong>Restrictions</strong></p>
+<p><br />1 &le; N<sub>1</sub>, N<sub>2</sub> &le; 300</p>
+<p>1 &le; M<sub>1</sub> * M<sub>2</sub> &le; 2000</p>
+<p>N<sub>1</sub> &le; M<sub>1</sub></p>
+<p>N<sub>2</sub> &le; M<sub>2</sub></p>
+<h3>Output</h3>
+<p>On each line print the upper-left corner of all places that match Gollum&rsquo;s preferred place description on the form &ldquo;(x,y)&rdquo; without the quotes, where x stands for the row and y for the column. They should be lexicographically sorted, i.e. imagine them as an ordered pair. Then (x<sub>1</sub>,y<sub>1</sub>) &lt; (x<sub>2</sub>,y<sub>2</sub>) if and only if x<sub>1</sub> &lt; x<sub>2</sub> or, if they are equal, y<sub>1</sub> &lt; y<sub>2</sub>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><p>3 3</p><p>aba</p><p>bab</p><p>aba</p><p>7 6</p><p>aababa</p><p>ababab</p><p>bababa</p><p>ababab</p><p>ababab</p><p>bababa</p><p>ababab</p><br /><strong>Output:</strong><br /><p>(1,2)</p><p>(1,4)</p><p>(2,1)</p><p>(2,3)</p><p>(5,1)</p><p>(5,3)</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/melkor">Camilo Bravo Valdés</a></td></tr>
+<tr><td>Date:</td><td>2010-03-11</td></tr>
+<tr><td>Time limit:</td><td>0.155s-0.405s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/bleung91"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KPURSUIT" target="_blank">4176. A Knightly Pursuit</a></td><td><a href="http://www.spoj.com/problems/KPURSUIT"target="_blank">KPURSUIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HERDING" target="_blank">4177. Herding</a></td><td><a href="http://www.spoj.com/problems/HERDING"target="_blank">HERDING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TEMPTISL" target="_blank">4179. Temptation Island</a></td><td><a href="http://www.spoj.com/problems/TEMPTISL"target="_blank">TEMPTISL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCANDY" target="_blank">4182. Candy (Again)</a></td><td><a href="http://www.spoj.com/problems/FCANDY"target="_blank">FCANDY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LANDING" target="_blank">4189. Landing</a></td><td><a href="http://www.spoj.com/problems/LANDING"target="_blank">LANDING</a><br>
+</td></tr>

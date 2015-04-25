@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EC_DIVS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16825. Divisors</h1>
+		<h2>Problem code: EC_DIVS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Misael is a child that loves maths. This year he learned about operations with decimal numbers, simplifying fractions, maximum and minimum of a set.</p>
+<p>But Misael is not an ordinary child. He knows programming and he proposed a challenge: He will give you a list of numbers and you must calculate all common divisors for all numbers on that list. The task is simple, but Misael offers you something even more interesting. The size list is variable, he can add as well as remove numbers. However Misael doesn't like the prime divisors, so you should exclude those numbers from the list.</p>
+<p> </p>
+
+<h3>Input</h3>
+<p>The first line contains the number of test cases, and each case consists of an integer <b>N</b> (1 <= <b>N</b> <= 100000): the number of operations to perform.</p>
+<p>Each operation can be one of 3 types:</p>
+<p><b>UPD ADD x</b>: Updating the list by adding the element <b>x</b> to the list.</p>
+<p><b>UPD REM x</b>: Update the list by removing the element <b>x</b> from the list.</p>
+<p><b>CON</b>:  print common divisors to the entire list.</p>
+<p>The range of values &#8203;&#8203;of <b>x</b> is 1 <= <b>x</b> <= 10000. There can be more that one element with the given value on the list. When removing element, you only remove one element with the given value. It's guaranteed that at least one such element will exist.</p>
+<p> </p>
+<h3>Output</h3>
+<p>For each type operation CON print a line with non-prime common divisors listed in ascending order. If the list is empty, print -1.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+6
+UPD ADD 6
+CON
+UPD ADD 12
+CON
+UPD REM 6
+CON
+
+<strong>Output:</strong>
+1 6
+1 6
+1 4 6 12</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eddycael">Eddy Cael</a></td></tr>
+<tr><td>Date:</td><td>2013-10-27</td></tr>
+<tr><td>Time limit:</td><td>0.129s-0.177s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+<tr><td>Resource:</td><td>Competencia CCBOL 2013</td></tr>	
+</table>

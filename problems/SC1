@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SC1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2643. Starcraft I</h1>
+		<h2>Problem code: SC1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Background</h3>
+<p>You may play the game Starcraft I first before you do this problem ^_^. </p>
+<h3>Description</h3>
+<p>Suppose you are using Protoss. At the beginning of the game, you have <i>n</i> probes, a nexus and almost unlimited number of pylons. You can build a probe in the nexus per 3 Starcraft time units(STs), and this will cost you <i>z</i> units of minerals. A probe can gather <i>x</i> units of minerals or <i>y</i> units of gas per ST. What's the minimum time to get <i>A</i> units of minerals and <i>B</i> units of gas, if you build probes at nexus only and don't build any buildings?</p>
+<p>Assume that in the current map there are almost unlimited mineral fields and unlimited vespene geysers, and on each vespene geyser, a Protoss Assimilator has been built successfully.</p>
+<h3>Input</h3>
+<p>Multiple test cases, the number of them is given in the very first line.</p>
+<p>Each test case contains one line with 6 positive integers <i>n</i>, <i>x</i>, <i>y</i>, <i>z</i>, <i>A</i>, <i>B</i> separated by one space. All numbers in the input file will be less than 21. </p>
+<h3>Output</h3>
+<p>For each test case, output one line, which contains a single integer, the minimum time in ST.</p>
+<h3>Example</h3>
+<pre><b>Input</b>:
+1
+1 2 3 4 5 6
+
+<b>Output:</b>
+5
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-04-09</td></tr>
+<tr><td>Time limit:</td><td>3.390s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.blizzard.com">www.blizzard.com</a></td></tr>	
+</table>

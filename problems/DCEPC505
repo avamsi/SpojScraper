@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC505"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11401. Bazinga!</h1>
+		<h2>Problem code: DCEPC505</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sheldon is very proud of his intelligence. To test his intelligence Howard designs a puzzle and asks him to solve it. The puzzle consists of special numbers which can be obtained by multiplying exactly two distinct prime numbers. Sheldon has to tell Howard what is the Kth element of this series. Help him.</p>
+<p>For Example 6,10,14,15 are the&nbsp;first few members&nbsp;of this series whereas 4,9 and 12 are not.</p>
+<h3>Input</h3>
+<p>First line specifies T, the number of test cases.</p>
+<p>Next T lines each gives 1 number, K</p>
+<h3>Output</h3>
+<p>Output 1 line for each test case giving the Kth element of this series.</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=1000</p>
+<p>1&lt;=K&lt;=2000000</p>
+<h3>Example</h3>
+<p><strong>Input:</strong></p>
+<p>4<br />2<br />3<br />5<br />7<br /><strong>Output:</strong></p>
+<p>10<br />14<br />21<br />26</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-04-18</td></tr>
+<tr><td>Time limit:</td><td>0.422s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

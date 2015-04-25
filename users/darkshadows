@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/darkshadows"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/LOCKER" target="_blank">14329. Magic of the locker</a></td><td><a href="http://www.spoj.com/problems/LOCKER"target="_blank">LOCKER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POWERPHI" target="_blank">14330. Power of Phi(medium)</a></td><td><a href="http://www.spoj.com/problems/POWERPHI"target="_blank">POWERPHI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ATOMS" target="_blank">18164. Atoms in the Lab</a></td><td><a href="http://www.spoj.com/problems/ATOMS"target="_blank">ATOMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NCOPRIME" target="_blank">18165. Coprime Pairs</a></td><td><a href="http://www.spoj.com/problems/NCOPRIME"target="_blank">NCOPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBXOR" target="_blank">18167. SubXor</a></td><td><a href="http://www.spoj.com/problems/SUBXOR"target="_blank">SUBXOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWOCIR" target="_blank">18168. Entangled Circles</a></td><td><a href="http://www.spoj.com/problems/TWOCIR"target="_blank">TWOCIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAUGHTY" target="_blank">18182. Naughty and Balls</a></td><td><a href="http://www.spoj.com/problems/NAUGHTY"target="_blank">NAUGHTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRUNK" target="_blank">18183. Drunk Game</a></td><td><a href="http://www.spoj.com/problems/DRUNK"target="_blank">DRUNK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DURIN" target="_blank">18184. Durins Day</a></td><td><a href="http://www.spoj.com/problems/DURIN"target="_blank">DURIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GIVEAWAY" target="_blank">18185. Give Away</a></td><td><a href="http://www.spoj.com/problems/GIVEAWAY"target="_blank">GIVEAWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MACHMAY" target="_blank">18186. Machine Mayhem</a></td><td><a href="http://www.spoj.com/problems/MACHMAY"target="_blank">MACHMAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INGRED" target="_blank">18187. Ingredients</a></td><td><a href="http://www.spoj.com/problems/INGRED"target="_blank">INGRED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QSTABLE" target="_blank">18188. Queen and Stable Relationships</a></td><td><a href="http://www.spoj.com/problems/QSTABLE"target="_blank">QSTABLE</a><br>
+</td></tr>

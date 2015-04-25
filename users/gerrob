@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/gerrob"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HS08PAUL" target="_blank">4164. A conjecture of Paul Erdős</a></td><td><a href="http://www.spoj.com/problems/HS08PAUL"target="_blank">HS08PAUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS08FOUR" target="_blank">4166. Four colors</a></td><td><a href="http://www.spoj.com/problems/HS08FOUR"target="_blank">HS08FOUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SQFREE" target="_blank">4168. Square-free integers</a></td><td><a href="http://www.spoj.com/problems/SQFREE"target="_blank">SQFREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DROOT" target="_blank">4172. Multiplicative digital root</a></td><td><a href="http://www.spoj.com/problems/DROOT"target="_blank">DROOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LATTICE" target="_blank">4178. Distance on a square lattice</a></td><td><a href="http://www.spoj.com/problems/LATTICE"target="_blank">LATTICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS08CODE" target="_blank">4186. Break a New RSA system</a></td><td><a href="http://www.spoj.com/problems/HS08CODE"target="_blank">HS08CODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS08EQ" target="_blank">4188. Amazing equality</a></td><td><a href="http://www.spoj.com/problems/HS08EQ"target="_blank">HS08EQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GF2" target="_blank">4421. Irreducible polynomials over GF2</a></td><td><a href="http://www.spoj.com/problems/GF2"target="_blank">GF2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS09GAME" target="_blank">4761. Strategy game</a></td><td><a href="http://www.spoj.com/problems/HS09GAME"target="_blank">HS09GAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS09EQ" target="_blank">4784. Diophantine equation</a></td><td><a href="http://www.spoj.com/problems/HS09EQ"target="_blank">HS09EQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS09SHIP" target="_blank">4785. Starship</a></td><td><a href="http://www.spoj.com/problems/HS09SHIP"target="_blank">HS09SHIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS10RMSY" target="_blank">7946. Check Ramsey</a></td><td><a href="http://www.spoj.com/problems/HS10RMSY"target="_blank">HS10RMSY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS10SQFT" target="_blank">7947. Almost square factorisation</a></td><td><a href="http://www.spoj.com/problems/HS10SQFT"target="_blank">HS10SQFT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS12MULT" target="_blank">12240. Multinomial numbers</a></td><td><a href="http://www.spoj.com/problems/HS12MULT"target="_blank">HS12MULT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HS12PRIM" target="_blank">12241. Classification from Erdős and Selfridge</a></td><td><a href="http://www.spoj.com/problems/HS12PRIM"target="_blank">HS12PRIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACTMULM" target="_blank">15671. Product of factorials (medium)</a></td><td><a href="http://www.spoj.com/problems/FACTMULM"target="_blank">FACTMULM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAUL2" target="_blank">22675. A conjecture of Paul Erdős (hard)</a></td><td><a href="http://www.spoj.com/problems/PAUL2"target="_blank">PAUL2</a><br>
+</td></tr>

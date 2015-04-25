@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSS5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2916. Can you answer these queries V</h1>
+		<h2>Problem code: GSS5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+You are given a sequence A[1], A[2], ..., A[N] . ( |A[i]| <= 10000 , 1 <= N <= 10000 ). A query is
+defined as follows:
+Query(x1,y1,x2,y2) = Max { A[i]+A[i+1]+...+A[j] ; x1 <= i <= y1 , x2 <= j <= y2 and x1 <= x2 , y1 <= y2 }.
+Given M queries (1 <= M <= 10000), your program must output the results of these queries.
+
+
+<h3>Input</h3>
+<p>
+The first line of the input consist of the number of tests cases <= 5.
+Each case consist of the integer N and the sequence A. Then the integer M. 
+M lines follow, contains 4 numbers x1, y1, x2 y2.
+
+
+<h3>Output</h3>
+<p>
+Your program should output the results of the M queries for each test case, one query per line.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+6 3 -2 1 -4 5 2
+2
+1 1 2 3
+1 3 2 5
+1 1
+1
+1 1 1 1
+
+<b>Output:</b>
+2
+3
+1
+
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/frankr">Frank Rafael Arteaga</a></td></tr>
+<tr><td>Date:</td><td>2008-08-06</td></tr>
+<tr><td>Time limit:</td><td>0.132s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>K.-Y. Chen and K.-M. Chao, On the Range Maximum-Sum Segment Query Problem, 2007.</td></tr>	
+</table>

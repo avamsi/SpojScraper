@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/piotrek"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HIGH" target="_blank">104. Highways</a></td><td><a href="http://www.spoj.com/problems/HIGH"target="_blank">HIGH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TAUT" target="_blank">147. Tautology</a></td><td><a href="http://www.spoj.com/problems/TAUT"target="_blank">TAUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MUSKET" target="_blank">196. Musketeers</a></td><td><a href="http://www.spoj.com/problems/MUSKET"target="_blank">MUSKET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EMPTY" target="_blank">199. Empty Cuboids</a></td><td><a href="http://www.spoj.com/problems/EMPTY"target="_blank">EMPTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MONODIG" target="_blank">200. Monodigital Representations</a></td><td><a href="http://www.spoj.com/problems/MONODIG"target="_blank">MONODIG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYGAME" target="_blank">201. The Game of Polygons</a></td><td><a href="http://www.spoj.com/problems/POLYGAME"target="_blank">POLYGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROCKETS" target="_blank">202. Rockets</a></td><td><a href="http://www.spoj.com/problems/ROCKETS"target="_blank">ROCKETS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POTHOLE" target="_blank">203. Potholers</a></td><td><a href="http://www.spoj.com/problems/POTHOLE"target="_blank">POTHOLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLEEP" target="_blank">204. Sleepwalker</a></td><td><a href="http://www.spoj.com/problems/SLEEP"target="_blank">SLEEP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ICERINK" target="_blank">205. Icerink</a></td><td><a href="http://www.spoj.com/problems/ICERINK"target="_blank">ICERINK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BITMAP" target="_blank">206. Bitmap</a></td><td><a href="http://www.spoj.com/problems/BITMAP"target="_blank">BITMAP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/THREECOL" target="_blank">207. Three-coloring of binary trees</a></td><td><a href="http://www.spoj.com/problems/THREECOL"target="_blank">THREECOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STORE" target="_blank">208. Store-keeper</a></td><td><a href="http://www.spoj.com/problems/STORE"target="_blank">STORE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAP" target="_blank">209. The Map</a></td><td><a href="http://www.spoj.com/problems/MAP"target="_blank">MAP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALTARS" target="_blank">210. The Altars</a></td><td><a href="http://www.spoj.com/problems/ALTARS"target="_blank">ALTARS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMIT" target="_blank">211. Primitivus recurencis</a></td><td><a href="http://www.spoj.com/problems/PRIMIT"target="_blank">PRIMIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WATER" target="_blank">212. Water among Cubes</a></td><td><a href="http://www.spoj.com/problems/WATER"target="_blank">WATER</a><br>
+</td></tr>

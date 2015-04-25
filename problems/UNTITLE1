@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UNTITLE1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2940. Untitled Problem II</h1>
+		<h2>Problem code: UNTITLE1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of N integers A<sub>1</sub>, A<sub>2</sub> .. A<sub>N</sub>. (-10000 <= A<sub>i</sub> <= 10000, N <= 50000)
+</p>
+<p>Let S<sub>i</sub> denote the sum of A<sub>1</sub>..A<sub>i</sub>. You need to apply M (M <= 50000) operations:
+</p>
+
+<ul>
+<li>0 x y k: increase all integers from A<sub>x</sub> to A<sub>y</sub> by k(1 <= x <= y <= N, -10000 <= k <= 10000).
+<li>1 x y: ask for max{ S<sub>i</sub> | x <= i <= y }.(1 <= x <= y <= N)
+</ul>
+
+
+<h3>Input</h3>
+<ul>
+<li>In the first line there is an integer N.
+<li>The following line contains N integers that represent the sequence.
+<li>The third line contains an integer M denotes the number of operations.
+<li>In the next M lines, each line contains an operation "0 x y k" or "1 x y".
+</ul>
+
+
+<h3>Output</h3>	
+<p>For each "1 x y" operation, print one integer representing its result.
+</p>
+
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+238 -9622 5181 202 -6943
+5
+1 3 4
+0 5 5 4846
+1 3 5
+0 3 5 -7471
+1 3 3
+
+<b>Output:</b>
+-4001
+-4001
+-11674
+
+</pre>
+
+<h3><b>Use signed 64-bit integer :)<b><h3>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/qujun51319">Qu Jun</a></td></tr>
+<tr><td>Date:</td><td>2008-08-14</td></tr>
+<tr><td>Time limit:</td><td>0.571s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Not an own problem</td></tr>	
+</table>

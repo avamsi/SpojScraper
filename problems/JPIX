@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JPIX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2161. Pixel Shuffle</h1>
+		<h2>Problem code: JPIX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img src="http://www.spoj.pl/content/john_jones:jpix1.jpg"></img>
+<p>Shuffling the pixels in a bitmap image sometimes yields random looking images. However, by repeating the shuffling enough times, one finally recovers the original images. This should be no surprise, since "shuffling" means applying a one-to-one mapping (or permutation) over the cells of the image, which come in finite number. 
+
+<p>Your program should read a number n , and a series of elementary transformations that define a "shuffling" <img src="http://www.spoj.pl/content/john_jones:jpix6.png"></img> of n * n images. Then, your program should compute the minimal number m (m > 0) , such that m applications of <img src="http://www.spoj.pl/content/john_jones:jpix6.png"></img> always yield the original n * n image.
+
+<p>For instance if <img src="http://www.spoj.pl/content/john_jones:jpix6.png"></img> is counter-clockwise 90<sup>o</sup> rotation then m = 4.
+
+<p><img src="http://www.spoj.pl/content/john_jones:jpix2.jpg"></img></p>
+<h3>Input</h3>
+
+<p>Test cases are given one after another, and a single 0 denotes the end of the input. For each test case:
+
+<p>Input is made of two lines, the first line is number n (2 <= n <= 2<sup>10</sup> , n even). The number n is the size of images, one image is represented internally by a n * n pixel matrix (a<sup>j</sup><sub>i</sub>) , where i is the row number and j is the column number. The pixel at the upper left corner is at row 0 and column 0. 
+
+<p>The second line is a non-empty list of at most 32 words, separated by spaces. Valid words are the keywords <b>id</b>, <b>rot</b>, <b>sym</b>, <b>bhsym</b>, <b>bvsym</b>, <b>div</b> and <b>mix</b>, or a keyword followed by <b>-</b>. Each keyword <b>key</b> designates an elementary transform (as defined by Figure 1), and <b>key-</b> designates the inverse of transform <b>key</b>. For instance, <b>rot-</b> is the inverse of counter-clockwise 90<sup>o</sup> rotation, that is clockwise 90<sup>o</sup> rotation. Finally, the list k<sub>1</sub>, k<sub>2</sub>, ..., k<sub>p</sub> designates the compound transform <img src="http://www.spoj.pl/content/john_jones:jpix6.png"></img> = k<sub>1</sub>ok<sub>2</sub>o ... ok<sub>p</sub> . For instance, "bvsym rot-" is the transform that first performs clockwise 90o rotation and then vertical symmetry on the lower half of the image. 
+
+<p><img src="http://www.spoj.pl/content/john_jones:jpix3.jpg"></img>
+
+<p>Figure 1: Transformations of image (a<sup>j</sup><sub>i</sub>) into image (b<sup>j</sup><sub>i</sub>)
+
+<p><img src="http://www.spoj.pl/content/john_jones:jpix4.jpg"></img></p>
+
+<h3>Output</h3>
+<p>For each test case:
+<p>Your program should output a single line whose contents is the minimal number m (m > 0) such that <img src="http://www.spoj.pl/content/john_jones:jpix6.png"></img> is the identity. You may assume that, for all test input, you have m < 2<sup>31</sup>.</p>
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+256
+rot- div rot div
+256
+bvsym div mix
+0
+
+<b>Output:</b>
+8
+63457
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>1.147s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Budapest 2005</td></tr>	
+</table>

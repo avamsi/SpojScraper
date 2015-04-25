@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RPSSL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6356. Rock-Paper-Scissors-Lizard-Spock</h1>
+		<h2>Problem code: RPSSL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Daniel enjoys watching TV series. One of his favorite is "The Big Bang Theory". The main characters of this series are: Sheldon &#8211; genius theoretical physicist, his friend Leonard &#8211; talented experimental physicist, their attractive, blonde neighbor Penny, and also their friends  an aerospace engineer Howard and a particle astrophysicist Rajesh.<br /> 
+One time Rajesh tells Sheldon:<br />
+&#8220;I'll tell you what. How about we go rock-paper-scissors?&#8221;<br />
+&#8220;Ooh&#8221;, &#8211; Sheldon replies &#8211; &#8220;I don't think so. Anecdotal evidence suggests that in the game of rock-paper-scissors, players familiar with each other will tie 75 to 80% of the time due to the limited number of outcomes. I suggest rock-paper-scissors-lizard-Spock&#8221;.<br />
+&#8220;What?&#8221;<br />
+&#8220;It's very simple. Scissors cuts paper. Paper covers rock. Rock crushes lizard. Lizard poisons Spock. Spock smashes scissors. Scissors decapitates lizard. Lizard eats paper. Paper disproves Spock. Spock vaporizes rock. And as it always has, rock crushes scissors&#8221;.<br />
+&#8220;Okay, I think I got it&#8221;.<br />
+And the friends decided to play rock-paper-scissors-lizard-Spock. And we would determine what the probability that Rajesh beats Sheldon in this game. We know the probabilities that any of the friends choose any object in the game. Also we know that they play till two wins, so the winner of the game is the person who first wins two rounds.
+
+<h3>Input</h3>
+<p>The first line of input contains the number t - the number of tests. Next comes the description of t tests. Each test case consists of two lines. The first line contains five integers R<sub>R</sub>, R<sub>Sc</sub>, R<sub>P</sub>, R<sub>L</sub>, R<sub>Sp</sub> &#8211; the probabilities that Rajesh chooses rock, scissors, paper, lizard or Spock respectively. The second line contains five integers S<sub>R</sub>, S<sub>Sc</sub>, S<sub>P</sub>, S<sub>L</sub>, S<sub>Sp</sub> &#8211; the probabilities that Sheldon chooses rock, scissors, paper, lizard or Spock respectively. (<b>Note:</b> the order of the objects in the input is rock, scissors, paper, lizard, Spock. The original problem is in Russian and we have scissors before paper in Russian variant of the game. Otherwise the rules are the same.)
+
+<h3>Constraints</h3>
+<p>1 <= t <= 500<br />
+0 <= R<sub>R</sub>, R<sub>Sc</sub>, R<sub>P</sub>, R<sub>L</sub>, R<sub>Sp</sub> <= 100, R<sub>R</sub> + R<sub>Sc</sub> + R<sub>P</sub> + R<sub>L</sub> + R<sub>Sp</sub> = 100<br />
+0 <= S<sub>R</sub>, S<sub>Sc</sub>, S<sub>P</sub>, S<sub>L</sub>, S<sub>Sp</sub> <= 100, S<sub>R</sub> + S<sub>Sc</sub> + S<sub>P</sub> + S<sub>L</sub> + S<sub>Sp</sub> = 100<br />
+
+<h3>Output</h3>
+<p>For each test case print the probability that Rajesh beats Sheldon in percent rounded to the nearest integer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+10 20 30 40 0
+10 10 10 10 60
+20 20 20 20 20
+20 20 20 20 20
+
+<b>Output:</b>
+66
+50
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-17</td></tr>
+<tr><td>Time limit:</td><td>0.295s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

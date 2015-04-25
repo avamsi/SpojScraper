@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SWAPS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>861. Counting inversions</h1>
+		<h2>Problem code: SWAPS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence A of <b>N</b> (<b>N</b>&#8804;250000) integers between 1 and 50000. On this sequence you have to apply <b>M</b> (<b>M</b>&#8804;10000) operations of the form: modify the i-th element in the sequence and then say how many inversions are there in the sequence. The number of inversions in a sequence is given by the number of pairs (i,j) with i < j and Ai > Aj.
+
+<h3>Input</h3>
+<p>The first line of input contains the number <b>N</b> and the next line contains the numbers that form the sequence. After that follows the number <b>M</b> and then <b>M</b> lines, each containig 2 integers X and Y, meaning that new value of the X-th element of the sequence is Y and that you should count the number of inversions in the modified sequence.
+
+<h3>Output</h3>
+<p>Output must contain <b>M</b> lines, the i-th line of output containg the number of inversions in the sequence after the first i operations.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+10
+2 6 6 4 7 6 3 5 9 1 
+7
+8 8
+5 1
+5 6
+10 5
+7 1
+10 10
+4 6
+
+<b>Output:</b>
+17
+18
+16
+13
+14
+8
+6
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gogu">Gogu</a></td></tr>
+<tr><td>Date:</td><td>2006-05-31</td></tr>
+<tr><td>Time limit:</td><td>0.184s-0.550s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>  </td></tr>	
+</table>

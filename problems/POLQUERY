@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POLQUERY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3977. Police Query</h1>
+		<h2>Problem code: POLQUERY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>To  help  capture  criminals  on  the  run,  the  police are  introducing a  new  computer  system.  The  area covered  by  the  police  contains <strong>N</strong> cities  and  <strong>E</strong> bidirectional  roads  connecting  them.  The  cities  are labelled 1 to <strong>N</strong>. The police often want to catch criminals trying to get from one city to another. Inspectors, looking at a map,  try  to determine where to  set up barricades  and  roadblocks.</p>
+<p>The new  computer  system  should answer the following two types of queries:</p>
+<p>1.  Consider  two  cities <strong>A</strong> and <strong>B</strong>,  and  a  road  connecting  cities <strong>G<sub>1</sub></strong> and <strong>G<sub>2</sub></strong>. Can  the  criminals get from city <strong>A</strong> to city <strong>B</strong> if that one road is blocked and the criminals can't use it?</p>
+<p>2.  Consider three cities <strong>A</strong>, <strong>B</strong> and <strong>C</strong>. Can the criminals get from city <strong>A</strong> to city <strong>B</strong> if the entire city <strong>C</strong> is cut off and the criminals can't enter that city?</p>
+<p>Write a program that implements the described system.</p>
+<h3>Input</h3>
+<p>The  first  line  contains  two  integers  <strong>N</strong> and  <strong>E</strong> (2  &le;  N  &le;  10<sup>5</sup>, 1  &le;  E  &le;  5*10<sup>5</sup>),  the  number  of  cities  and  roads. Each  of  the  following  <strong>E</strong> lines  contains  two distinct  integers between  1  and  <strong>N</strong> &ndash;  the  labels  of  two  cities connected  by  a  road. There  will  be  at  most  one  road  between  any  pair  of  cities.</p>
+<p>The  following  line  contains  the  integer  <strong>Q</strong> (1 &le; Q &le; 10<sup>5</sup>),  the  number  of  queries  the  system  is  being tested  on. Each  of  the  following  <strong>Q</strong> lines  contains  either  four  or  five integers.  The  first  of  these  integers  is  the  type  of  the query  &ndash;  <strong>1</strong> or  <strong>2</strong>.</p>
+<p>If  the  query  is  of  <strong>type  1</strong>,  then  the  same  line  contains  four more  integers  <strong>A</strong>,  <strong>B</strong>,  <strong>G<sub>1</sub></strong> and  <strong>G<sub>2</sub></strong> as  described earlier.  <strong>A</strong> and  <strong>B</strong> will  be  different.  <strong>G<sub>1</sub></strong> and  <strong>G<sub>2</sub></strong> will  represent  an existing  road.</p>
+<p>If  the  query  is  of  <strong>type  2</strong>,  then  the  same  line contains  three more  integers  <strong>A</strong>,  <strong>B</strong> and  <strong>C</strong>.  <strong>A</strong>,  <strong>B</strong> and  <strong>C</strong> will  be distinct  integers.</p>
+<p>The  test  data  will  be  such  that  it  is  initially  possible  to  get from  each  city  to  every  other  city.</p>
+<h3>Output</h3>
+<p>Output the answers to all <strong>Q</strong> queries, one per line. The answer to a query can be <em>da</em> (yes) or <em>ne</em> (no).</p>
+<h3>Example</h3>
+<pre style="text-align: left;"><strong>Input:</strong><br />13 15<br />1 2<br />2 3<br />3 5<br />2 4<br />4 6<br />2 6<br />1 4<br />1 7<br />7 8<br />7 9<br />7 10<br />8 11<br />8 12<br />9 12<br />12 13<br />5<br />1 5 13 1 2<br />1 6 2 1 4<br />1 13 6 7 8<br />2 13 6 7<br />2 13 6 8<br /><br /><strong>Output:</strong><br />da<br />da<br />ne<br />da</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-28</td></tr>
+<tr><td>Time limit:</td><td>0.121s-0.487s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COI 08</td></tr>	
+</table>

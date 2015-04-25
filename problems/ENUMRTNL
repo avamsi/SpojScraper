@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ENUMRTNL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8334. Enumeration of rationals</h1>
+		<h2>Problem code: ENUMRTNL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It is well known that rational numbers form a countable set. Hence the set of rational numbers in the open interval (0,1) also form a countable set.</p>
+<p>Here we enumerate the rationals in (0,1) in the following fashion. First, every rational is expressed in the lowest terms : ie, as p/q where p and q are positive integers with no common factor other than one. Then we sort the fractions in the ascending order of p+q. In case of a tie, the smaller fraction comes first.</p>
+<p>The first few terms in this enumeration are 1/2, 1/3, 1/4, 2/3, 1/5, 1/6, 2/5...</p>
+<p>Given a natural number N, find the numerator and denominator of the Nth term in the enumeration.</p>
+<h3>Input</h3>
+<p>The first line of the input contains T (&le;1000), the number of test cases. This is followed by T lines, each containing an integer N(&le;10<sup>11</sup>).</p>
+<h3>Output</h3>
+<p>For each value of N, output separated by space the numerator and denominator (in lowest terms) of the Nth fraction in the enumeration</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />3<br />6<br /><br /><strong>Output:</strong><br />1 4<br />1 6<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2011-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.465s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IOPC2011</td></tr>	
+</table>

@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HS08PAUL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4164. A conjecture of Paul Erdős</h1>
+		<h2>Problem code: HS08PAUL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In number theory there is a very deep unsolved conjecture of the Hungarian Paul Erdős (1913-1996), that there exist infinitely many primes of the form <em>x</em><sup>2</sup>+1, where <em>x</em> is an integer. However, a weaker form of this conjecture has been proved: there are infinitely many primes of the form <em>x</em><sup>2</sup>+<em>y</em><sup>4</sup>. You don't need to prove this, it is only your task to find the number of (positive) primes not larger than <em>n</em> which are of the form <em>x</em><sup>2</sup>+<em>y</em><sup>4</sup> (where <em>x</em> and <em>y</em> are integers).</p>
+<h3>Input</h3>
+<p>An integer <em>T</em>, denoting the number of testcases (<em>T</em>&le;10000). Each of the <em>T</em> following lines contains a positive integer <em>n</em>, where <em>n</em>&lt;10000000.</p>
+<h3>Output</h3>
+<p>Output the answer for each <em>n</em>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4
+1
+2
+10
+9999999
+
+<strong>Output:</strong>
+0
+1
+2
+13175
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-04-05</td></tr>
+<tr><td>Time limit:</td><td>0.439s
+</td></tr>
+<tr><td>Source limit:</td><td>4096B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>High School Programming League 2008/09 </td></tr>	
+</table>

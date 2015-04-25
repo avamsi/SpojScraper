@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/arya5691"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KSELECT" target="_blank">12421. Chocolate Distribution</a></td><td><a href="http://www.spoj.com/problems/KSELECT"target="_blank">KSELECT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QN01" target="_blank">12726. XOR Game</a></td><td><a href="http://www.spoj.com/problems/QN01"target="_blank">QN01</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QN02" target="_blank">12734. Seating Arrangement</a></td><td><a href="http://www.spoj.com/problems/QN02"target="_blank">QN02</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHGROOM" target="_blank">13545. Room Change</a></td><td><a href="http://www.spoj.com/problems/CHGROOM"target="_blank">CHGROOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VOLNTEER" target="_blank">14049. Annual Day</a></td><td><a href="http://www.spoj.com/problems/VOLNTEER"target="_blank">VOLNTEER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/THEATRE" target="_blank">14156. Movie Theatre Madness</a></td><td><a href="http://www.spoj.com/problems/THEATRE"target="_blank">THEATRE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RANGESUM" target="_blank">14543. Range Sum</a></td><td><a href="http://www.spoj.com/problems/RANGESUM"target="_blank">RANGESUM</a><br>
+</td></tr>

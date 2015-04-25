@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18243. Maggu and Strings</h1>
+		<h2>Problem code: IITWPC4A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Maggu and Coder were playing a game with strings. In each turn of the game, Maggu gives Coder a string. Coder can replace m consecutive 'a' in the string by n consecutive 'b' any number of times. This way he has to create 2 strings, one of maximum possible length and one of minimum possible length.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Maggu and Coder were playing a game with strings. In each turn of the game, Maggu gives Coder a string. Coder can replace m consecutive 'a' in the string by&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">n consecutive 'b' any number of times. This way he has to create 2 strings, one of maximum possible length and one of mimimum possible length.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp;&nbsp;</div>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>First line of input contains a single integer T : number of test cases.(1&lt;=T&lt;=100).<br />For each test case there are exactly two lines.<br />First line contains a string s (1 &lt;= length(s) &lt;= 10^5) containing letters only from 'a' to 'z'.<br />Second line contains two space separated integers representing m and n respectively.(1 &lt;= m,n &lt;= 10^5).<br />Sum of length(s) over all test cases is &lt;= 10^6.&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, print in a single line containing two space separated integers representing minimum and maximum length of string s that Coder can obtain.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />abc<br />1 2<br />aa<br />1 2<br />aba<br />1 1
+
+<strong>Output:</strong>
+3 4<br />2 4<br />3 3</pre>
+<h3>Explanation</h3>
+<p>For the first test case, you can convert abc to abc (by not changing at all), bbbc (changing 'a' to 'bb'). minimum length of s is 3 and maxium length is 4.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

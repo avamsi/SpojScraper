@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/neal_wu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/COWCAR" target="_blank">2714. Cow Cars</a></td><td><a href="http://www.spoj.com/problems/COWCAR"target="_blank">COWCAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLASNICI" target="_blank">2715. Glasnici</a></td><td><a href="http://www.spoj.com/problems/GLASNICI"target="_blank">GLASNICI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QUADAREA" target="_blank">2716. Maximal Quadrilateral Area</a></td><td><a href="http://www.spoj.com/problems/QUADAREA"target="_blank">QUADAREA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMSUMS" target="_blank">2742. Summing Sums</a></td><td><a href="http://www.spoj.com/problems/SUMSUMS"target="_blank">SUMSUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRETILE" target="_blank">2743. Prefix Tiling</a></td><td><a href="http://www.spoj.com/problems/PRETILE"target="_blank">PRETILE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INCSEQ" target="_blank">2815. Increasing Subsequences</a></td><td><a href="http://www.spoj.com/problems/INCSEQ"target="_blank">INCSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RRSCHED" target="_blank">2826. Round-Robin Scheduling</a></td><td><a href="http://www.spoj.com/problems/RRSCHED"target="_blank">RRSCHED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NOTATRI" target="_blank">2905. Not a Triangle</a></td><td><a href="http://www.spoj.com/problems/NOTATRI"target="_blank">NOTATRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINES" target="_blank">3184. Game of Lines</a></td><td><a href="http://www.spoj.com/problems/LINES"target="_blank">LINES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RACETIME" target="_blank">3261. Race Against Time</a></td><td><a href="http://www.spoj.com/problems/RACETIME"target="_blank">RACETIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UMNOZAK" target="_blank">3314. Umnozak</a></td><td><a href="http://www.spoj.com/problems/UMNOZAK"target="_blank">UMNOZAK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HIGHWAY" target="_blank">3347. Cestarine</a></td><td><a href="http://www.spoj.com/problems/HIGHWAY"target="_blank">HIGHWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATRICA" target="_blank">3543. Matrica</a></td><td><a href="http://www.spoj.com/problems/MATRICA"target="_blank">MATRICA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BST" target="_blank">3544. Binary Search Tree</a></td><td><a href="http://www.spoj.com/problems/BST"target="_blank">BST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJKRACI" target="_blank">3545. Najkraci</a></td><td><a href="http://www.spoj.com/problems/NAJKRACI"target="_blank">NAJKRACI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PATHEADS" target="_blank">3591. Patting Heads</a></td><td><a href="http://www.spoj.com/problems/PATHEADS"target="_blank">PATHEADS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBSUMS" target="_blank">3749. Subset Sums</a></td><td><a href="http://www.spoj.com/problems/SUBSUMS"target="_blank">SUBSUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FASTFLOW" target="_blank">4110. Fast Maximum Flow</a></td><td><a href="http://www.spoj.com/problems/FASTFLOW"target="_blank">FASTFLOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATCHING" target="_blank">4206. Fast Maximum Matching</a></td><td><a href="http://www.spoj.com/problems/MATCHING"target="_blank">MATCHING</a><br>
+</td></tr>

@@ -1,0 +1,117 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PIGBANK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>39. Piggy-Bank</h1>
+		<h2>Problem code: PIGBANK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align=justify>
+Before ACM can do anything, a&nbsp;budget must be prepared and the necessary
+financial support obtained. The main income for this action comes from
+Irreversibly Bound Money (IBM). The idea behind is simple. Whenever
+some ACM member has any small money, he takes all the coins and throws them
+into a piggy-bank. You know that this process is irreversible, the coins
+cannot be removed without breaking the pig. After a sufficiently long
+time, there should be enough cash in the piggy-bank to pay everything that
+needs to be paid.
+
+<p align=justify>
+But there is a big problem with piggy-banks. It is not possible to
+determine how much money is inside. So we might break the pig into
+pieces only to find out that there is not enough money.  Clearly, we want to
+avoid this unpleasant situation. The only possibility is to weigh the
+piggy-bank and try to guess how many coins are inside. Assume that we
+are able to determine the weight of the pig exactly and that we know
+the weights of all coins of a given currency. Then there is some
+minimum amount of money in the piggy-bank that we can guarantee. Your task
+is to find out this worst case and determine the minimum amount of
+cash inside the piggy-bank. We need your help. No more prematurely
+broken pigs!
+
+
+<H3>Input</H3>
+
+<p align=justify>The input consists of <VAR>T</VAR> test cases. The number of them (<VAR>T</VAR>) is given on
+the first line of the input file.
+Each test case begins with a line containing two integers <VAR>E</VAR> and <VAR>F</VAR>. They
+indicate the weight of an empty pig and of the pig filled with coins. Both
+weights are given in grams. No pig will weigh more than 10 kg, that means
+<VAR>1 &lt;= E &lt;= F &lt;= 10000</VAR>. On the second line of each test
+case, there is an integer number <VAR>N</VAR>
+(<VAR>1 &lt;= N &lt;= 500</VAR>) that gives the number of various
+coins used in the given currency. Following this are exactly <VAR>N</VAR> lines,
+each specifying one coin type. These lines contain two integers each, <VAR>P</VAR>and <VAR>W</VAR>
+(<VAR>1 &lt;= P &lt;= 50000</VAR>, <VAR>1 &lt;= W &lt;=10000</VAR>).
+<VAR>P</VAR> is the value of the
+coin in monetary units, <VAR>W</VAR> is it's weight in grams.
+
+
+<H3>Output</H3>
+
+<p align=justify>Print exactly one line of output for each test case. The line must contain
+the&nbsp;sentence 
+"<CODE>The minimum amount of money in the piggy-bank is <VAR>X</VAR>.</CODE>"
+where <VAR>X</VAR> is
+the minimum amount of money that can be achieved using coins with
+the given total weight. If the weight cannot be reached exactly,
+print a&nbsp;line "<CODE>This is impossible.</CODE>".
+
+
+<H3>Example</h3>
+<PRE>
+Sample Input:
+
+3
+10 110
+2
+1 1
+30 50
+10 110
+2
+1 1
+50 30
+1 6
+2
+10 3
+20 4
+
+Sample output:
+
+The minimum amount of money in the piggy-bank is 60.
+The minimum amount of money in the piggy-bank is 100.
+This is impossible.
+</PRE>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1999</td></tr>	
+</table>

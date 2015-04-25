@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AREA1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4409. Circle vs Triangle</h1>
+		<h2>Problem code: AREA1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a triangle and a circle in a plane. You can arbitrarily rotate or move them. What's the maximum possible area of their overlapping region?</p>
+<h3>Input</h3>
+<p>Input consists of one or more lines. For each line, there are four integers describing one test case: the lengths of three sides of a triangle <em>a</em>, <em>b</em>, <em>c</em>; and the radius of a circle <em>r</em>; where 1&lt;= <em>a</em> &lt;= <em>b</em> &lt;= <em>c</em> &lt;= 100, 1&lt;= <em>r</em> &lt;= 100, <em>a+b>c </em>.</p>
+<p>End of input is indicated by a line consisting four zeros.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line showing the largest overlapping area of the circle and the triangle. We accept solutions with absolute error less than 10<sup>-2</sup>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 4 5 1
+5 5 8 4
+0 0 0 0
+
+<strong>Output:</strong>
+3.14
+12.00
+</pre>
+
+<b>Judge is modified on Feb 23,2010. Now you can click on "Wrong Answer" for further information.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2009-05-23</td></tr>
+<tr><td>Time limit:</td><td>1.919s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Fudan University Local Contest #1</td></tr>	
+</table>

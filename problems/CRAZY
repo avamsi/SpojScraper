@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRAZY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15863. Crazy Tank</h1>
+		<h2>Problem code: CRAZY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Crazy Tank was a famous game about ten years ago. Every child liked it. Time flies, children grow up, but the  memory of happy childhood will never go.</p>
+<p><img src="../../../content/min_25:crazy.jpg" alt="" width="877" height="401" /></p>
+<p>Now you're controlling the tank Laotu on a platform which is <span class="MATH"><em>H</em></span> meters above the ground. Laotu is so old that  you can only choose a shoot angle(all the angle is available) before game start and then any adjusting is  <span class="textbf">not allowed</span>. You need to launch <span class="MATH"><em>N</em></span> cannonballs and you know that the <span class="MATH"><em>i</em></span>-th cannonball's initial  speed is <span class="MATH"><em>V</em><sub>i</sub></span>.</p>
+<p>On the right side of Laotu there is an enemy tank on the ground with coordination <span class="MATH">(<em>L</em>1, <em>R</em>1)</span> and a friendly tank  with coordination <span class="MATH">(<em>L</em>2, <em>R</em>2)</span>. A cannonball is considered hitting enemy tank if it lands on the ground  between <span class="MATH">[<em>L</em>1, <em>R</em>1]</span> (two ends are included). As the same reason, it will be considered hitting friendly tank if it  lands between <span class="MATH">[<em>L</em>2, <em>R</em>2]</span>. Laotu's horizontal coordination is 0.</p>
+<p>The goal of the game is to maximize the number of cannonballs which hit the enemy tank under the  condition that no cannonball hits friendly tank.</p>
+<p>The <span class="MATH"><em>g</em></span> equals to 9.8.</p>
+<p> </p>
+<h2><span style="color: #ff0000; font-size: medium;"><a name="SECTION0001001000000000000000"> Input</a> </span></h2>
+<p>There are multiple test case.</p>
+<p>Each test case contains 3 lines.</p>
+<p>The first line contains an integer <span class="MATH"><em>N</em></span> <span class="MATH">(0 &#8804; <em>N</em> &#8804; 200)</span>, indicating the number of cannonballs to be launched.</p>
+<p>The second line contains 5 float number <span class="MATH"><em>H</em></span> <!-- MATH  $(1 le H le 100000)$  --> <span class="MATH">(1 &#8804; <em>H</em> &#8804; 100000)</span>, <span class="MATH"><em>L</em>1</span>, <span class="MATH"><em>R</em>1</span> <!-- MATH  $(0 < L1 < R1 < 100000)$  --> <span class="MATH">(0 < <em>L</em>1 < <em>R</em>1 < 100000)</span> and  <span class="MATH"><em>L</em>2</span>, <span class="MATH"><em>R</em>2</span> <!-- MATH  $(0<L2<R2<100000)$  --> <span class="MATH">(0 < <em>L</em>2 < <em>R</em>2 < 100000)</span>.  Indicating the height of the platform, the enemy tank coordinate and the friendly tank coordinate.  Two tanks <span class="textbf">may overlap</span>.</p>
+<p>The third line contains <span class="MATH"><em>N</em></span> float number. The <span class="MATH"><em>i</em></span>-th number indicates the initial speed of <span class="MATH"><em>i</em></span>-th cannonball.</p>
+<p>The input ends with <span class="MATH"><em>N</em> = 0</span>.</p>
+<p> </p>
+<h2><span style="color: #ff0000; font-size: medium;"><a name="SECTION0001002000000000000000"> Output</a> </span></h2>
+<p>For each test case, you should output an integer in a single line which indicates the max number of cannonballs  hit the enemy tank under the condition that no cannonball hits friendly tank.</p>
+<p> </p>
+<p><br /> <span class="textbf">Hint:</span></p>
+<p>In the first case one of the best choices is that shoot the cannonballs parallelly to the horizontal line,  then the first cannonball lands on 14.3 and the second lands on 28.6.</p>
+<p>In the second there is no shoot angle to make any cannonball land between [35,40] on the condition that no  cannonball lands between [2,30].</p>
+<p> </p>
+<h2><span style="color: #ff0000; font-size: medium;"><a name="SECTION0001003000000000000000"> Sample Input</a> </span></h2>
+<p> </p>
+<pre>2
+10 10 15 30 35
+10.0
+20.0
+2
+10 35 40 2 30
+10.0
+20.0
+0
+</pre>
+<p> </p>
+<h2><span style="color: #ff0000; font-size: medium;"><a name="SECTION0001004000000000000000"> Sample Output</a> </span></h2>
+<p> </p>
+<pre>1
+0
+</pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bidhan">Bidhan</a></td></tr>
+<tr><td>Date:</td><td>2013-09-05</td></tr>
+<tr><td>Time limit:</td><td>1s-10s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>2012 ACM-ICPC Asia Jinhua Regional</td></tr>	
+</table>

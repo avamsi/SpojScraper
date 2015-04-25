@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRUTHORL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2022. Truth Or Lie</h1>
+		<h2>Problem code: TRUTHORL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds -->
+<HTML>
+<HEAD>
+<TITLE>Truth Or Lie</TITLE>
+</HEAD>
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001002000000000000000">Problem</A></FONT></H2>
+
+<P>Suppose you have <b>m</b> yes or no questions that you want to ask <b>n</b> people.  You are allowed to ask each person exactly
+two different questions.  He/she will answer exactly one of them correctly and one of them incorrectly, you don't know which
+is a correct answer and which is an incorrect one. Given their answers, determine the number of combinations of answers to the <b>m</b>
+questions that can still be correct (i.e., no contradictions).<p>
+
+</U></U><H2><FONT COLOR=#0070E8><A NAME="SECTION0001003000000000000000">The Input</A></FONT></H2>
+<P>
+First line is the number of inputs.
+For each set of input, start out with a line of  <b>n<=10000</b> and <b>m<=200</b>, followed by <b>n</b> lines.
+The i-th line has four integers <b>a b c d</b>.  It means that the answer given by the i-th person for question a is b, and for question c is d.
+Moreover, the answer "1" means yes, and "0" means no.
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001004000000000000000">The Output</A></FONT></H2>
+<P>
+For each line of input, output "No Inference" if the answers do not help you eliminate any wrong combination
+of answers or the number of combinations of possible answers is 0, otherwise output the size of the set of combinations of answers still possible.
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001005000000000000000">Sample Input</A></FONT></H2>
+<P>
+<PRE>
+2
+2 2
+1 1 2 0
+1 1 2 1
+4 4
+1 1 2 1
+1 1 3 0
+2 1 4 1
+3 1 4 0
+</PRE>
+<P>
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001006000000000000000">Sample Output</A></FONT></H2>
+<P>
+<PRE>
+No Inference
+2
+</PRE>
+</BODY>
+</div>
+<br />
+
+<hr size="1" />
+Problemsetter ---  sy
+</HTML>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2007-11-06</td></tr>
+<tr><td>Time limit:</td><td>0.194s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

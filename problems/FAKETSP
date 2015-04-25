@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FAKETSP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4993. Traveling Salesman</h1>
+		<h2>Problem code: FAKETSP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>According to Wikipedia, "The Traveling Salesman Problem (TSP) is a problem in combinatorial optimization studied in operations research and theoretical computer science. Given a list of cities and their pairwise distances, the task is to find a shortest possible tour that visits each city exactly once.  The problem was first formulated as a mathematical problem in 1930 and is one of the most intensively studied problems in optimization. It is used as a benchmark for many optimization methods. Even though the problem is computationally difficult, a large number of heuristics and exact methods are known, so that some instances with tens of thousands of cities can be solved."</p>
+<p>Fortunately, you won't have to solve TSP. You're working for a very clever traveling salesman who has already figured out the path he is going to take. All he needs from you is a quick way to figure out how far he traveled after every segment of his tour.</p>
+<h3>Input</h3>
+<p>The salesman kept detailed records of his travels. You'll be getting a series of lines of the form "Some text (X, Y)." indicating that the salesman has been at the point X kilometers east and Y kilometers north of the origin of a Cartesian plane.</p>
+<h3>Output</h3>
+<p>For each segment of the trip, output the total distance traveled up to that point as a line in the format "The salesman has traveled a total of D kilometers." Show three digits after the decimal point when printing D. Note that the salesman only travels in straight lines (even after a couple of drinks).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+I started out at (0, 5).
+Then I traveled to (3.7, 5).
+After a couple of drinks I wobbled to (2.7, 4).
+The next morning I woke up near (4, 3).
+I finished my journey in (-.2, 8).
+
+<strong>Output:</strong>
+The salesman has traveled a total of 3.700 kilometers.
+The salesman has traveled a total of 5.114 kilometers.
+The salesman has traveled a total of 6.754 kilometers.
+The salesman has traveled a total of 13.284 kilometers.
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mlpalii">Miorel-Lucian Palii</a></td></tr>
+<tr><td>Date:</td><td>2009-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.949s
+</td></tr>
+<tr><td>Source limit:</td><td>4096B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.3.2 ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>University of Florida Team Practice 2009</td></tr>	
+</table>

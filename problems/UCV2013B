@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UCV2013B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15430. Alice in Amsterdam, I mean Wonderland</h1>
+		<h2>Problem code: UCV2013B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>This is a fact that not many people know, but Alice lived in Amsterdam. Yes, there you go. And as many kids of the time, she used to go for some medicinal mushrooms to the drug store (the pharmacies, the coffee shops didn't exist yet). Usually, between the regular mushrooms, a magical one could be found, producing as expected, deep and vivid hallucinations. During one of those hallucinations, Alice was transported to a "wonderland", where many weird things happened. One thing was particularly dazzling for her: even though everything looked pretty familiar, the distance between monuments of the city was sometimes negative!!! Although, zero distance between two different monuments means a direct path doesn't exist. A loop from a given monument right back to it can be of length zero (with means that it can be reached instantly like in real life) or negative, like for regular paths. Alice also thought that she saw some positive distances for loops, but we should treat those cases as zero distance.</p>
+<p><br />Now, as a very smart girl as she is, she figured out a way to find the shortest path between any two monuments. Unfortunately, as expected, Alice forgot it when she got sober again. She was only able to remember that, in some cases, she could get stuck in a cycle path with negative distance. In such cases, there will always be a cheaper path to get to the same monument. This was one of the few things that had perfect sense for her: Your shortest path will be shorter if you take that cycle again and again, to infinity. Alice, has been trying to figure optimal distances all over again, but she can't. She doesn't want to trip again, she has been clean for longer than a year (good for her!!). Would you be so kind to help her?</p>
+<p><br />Given a list of monuments in a city, and their relative distances, find the shortest paths between some pairs of monuments.</p>
+<h3>Input</h3>
+<p>Each case, starts with one line containing <b>N</b>, the number of monuments in the test case (1 <= <b>N</b> <= 100). Next N lines will each contain one string <b>K</b> and <b>N</b> integers <b>Kj</b>, separated by single spaces. <b>K</b> is a name of a monument and will consist of at most 20 alphanumeric characters. Each integer <b>Kj</b> (0 <= <b>j</b> < <b>N</b>) in line <b>i</b> describes the distance from monument i to j (-2^30 <= <b>Kj</b> <= 2^30). Next line will contain a single integer <b>Q</b> (1 <= <b>Q</b> <= <b>N</b>^2). It will be followed by Q lines, each with a pair of integers (<b>U</b>, <b>V</b>), indicating the start and destination monument for the path that is queried (0 <= <b>U</b>, <b>U</b> < <b>N</b>).<br>
+End of the input is indicated by a test case with <b>N</b> = 0 and should not be processed.</p>
+<h3>Output</h3>
+<p>For each test case, print a line "Case #<b>tc</b>:" (without quotes), where tc is the case number, starting from 1. Next <b>Q</b> lines should describe query results. If the optimal distance can be infinitely small, print only "NEGATIVE CYCLE". In other cases, start the line with "<b>start_name</b>-<b>destination_name</b>" followed by the actual result. If the destination can't be reached, print "NOT REACHABLE", otherwise print the integer distance.
+</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />Nieuwkerk -1 1<br />Oudekerk 1 0<br />4<br />0 0<br />0 1<br />1 1<br />1 0<br />3<br />Nieuwkerk 0 -5 0<br />Oudekerk 10 0 0<br />Pierteck -100 -100 0<br />9<br />0 0<br />0 1<br />0 2<br />1 0<br />1 1<br />1 2<br />2 0<br />2 1<br />2 2<br />0
+
+<strong>Output:</strong>
+Case #1:<br />NEGATIVE CYCLE<br />NEGATIVE CYCLE<br />NEGATIVE CYCLE<br />NEGATIVE CYCLE<br />Case #2:<br />Nieuwkerk-Nieuwkerk 0<br />Nieuwkerk-Oudekerk -5<br />Nieuwkerk-Pierteck NOT REACHABLE<br />Oudekerk-Nieuwkerk 10<br />Oudekerk-Oudekerk 0<br />Oudekerk-Pierteck NOT REACHABLE<br />Pierteck-Nieuwkerk -100<br />Pierteck-Oudekerk -105<br />Pierteck-Pierteck 0<br /> </pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/henu">Hector Navarro</a></td></tr>
+<tr><td>Date:</td><td>2013-07-22</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Local UCV 2013. Ignacio Calderón</td></tr>	
+</table>

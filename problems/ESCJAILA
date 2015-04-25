@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ESCJAILA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7422. Escape from Jail Again</h1>
+		<h2>Problem code: ESCJAILA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A new International Common Prison for Criminals (ICPC) was built, and your old friend<br />Harry was moved there as a prisoner. As before, the new ICPC is one of the most secure<br />prisons in the world. It was designed by and old gamer and as such, the prison is not<br />necessarily closed, but only an incredibly logical and fast mind can get out.<br />The new ICPC can be represented as a grid of square cells. Each cell is empty, or it<br />contains a wall, a door, an opening button or a closing button. Harry was accommodated<br />in an empty cell, and all doors were closed. Nevertheless, Harry told you that he will<br />try to escape. Each time Harry is in a cell, he can move in a single step to an adjacent<br />cell (i.e., a cell that shares a side with his current location). Each time Harry steps on a<br />cell that contains an opening button, all doors open, while each time he steps on a cell<br />that contains a closing button, all doors close. Harry can walk around as he wants within<br />the prison, although he cannot move to a cell that contains a wall, neither to a cell that<br />contains a door if the doors are closed.<br />To escape from the prison, Harry needs to step outside, which means placing himself in<br />one of the cells on the sides and then taking one extra step out in the direction opposite<br />to the prison.<br />You obtained a map of the prison, and Harry deserves your advise. Tell him the minimum<br />number of steps he needs to escape, or warn him that there is no way to get out.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains two integers N and<br />M indicating respectively the number of rows and columns of the grid that represents<br />the prison (1 &le; N, M &le; 100). Line i of the next N lines describes row i of the grid<br />using a string of exactly M characters, where character j represents cell j of that row.<br />This string only contains the following characters with the indicated meanings: &ldquo;H&rdquo; is<br />the empty cell where Harry is at the beginning; &ldquo;.&rdquo; is an empty cell where Harry is not<br />at the beginning; &ldquo;W&rdquo; is a wall; &ldquo;D&rdquo; is a door; &ldquo;O&rdquo; is an opening button; and &ldquo;C&rdquo; is closing<br />button. You may assume that within each test case there is exactly one character &ldquo;H&rdquo;.<br />The end of input is indicated with a line containing the number &minus;1 twice.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with a single integer representing the minimum<br />number of steps Harry needs to escape the prison, or the number &minus;1 if it is impossible<br />for him to do so.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />5 8<br />WWWWWWW.<br />WHDC...D<br />W.WW.WCW<br />W.OW..OW<br />.WWWWWWW<br />3 3<br />ODO<br />DHD<br />ODO<br />3 7<br />WWWWWWW<br />DH..OCD<br />WWWWWWW<br />4 1<br />W<br />H<br />O<br />W<br />1 13<br />HOW.DO.COW.DO<br />-1 -1
+
+<strong>Output:</strong> <br />21<br />-1<br />8<br />1<br />1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>0.297s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

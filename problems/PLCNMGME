@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PLCNMGME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8333. Place-name game</h1>
+		<h2>Problem code: PLCNMGME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Place-name game is a favourite pastime among the few children that go to school in Dystopia. The game is played as follows : One player says the name of a city and the next player has to say the name of a city that begins with the last letter of the said city. The game then goes on.</p>
+<p>Dystopian cities recently went through a massive renaming. Now each city has a name that begins with a consonant and ends with a consonant.</p>
+<p>Anaximander is a student with a very poor knowledge of geography. Hence he fares very poorly in the game. He has recently come up with a new idea. He would just remember the name of 21 Dystopian cities. He wants to choose the 21 cities such that there is exactly one city name starting with each consonant and exactly one city name ending with each. This would give him a good advantage in the game, whether he is playing first or second.</p>
+<p>Given the names of the N cities in Dystopia, find out the number of ways Anaximander can select 21 city names out of the lot satisfying the properties. As this number can be very large, output it modulo 100000007.</p>
+<h3>Input</h3>
+<p>The first line of the input contains N (&le;1000), the number of cities. This is followed by N lines, each containing the name of a city in Dystopia. Each city name will begin and end with a consonant, and will contain at least 2 and at most 10 letters.</p>
+<h3>Output</h3>
+<p>Output modulo 100000007 the number of ways Anaximander can choose 21 city names out of the N with the intended properties.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+23
+BBBB
+CCCC
+DDDD
+FFFF
+GGGG
+HHHH
+JJJJ
+KKKK
+LLLL
+MMMM
+NNNN
+PPPP
+QQQQ
+RRRR
+SSSS
+TTTT
+VVVV
+WWWW
+XXXX
+YYYY
+ZZZZ
+BAAC
+CAAB
+
+<strong>Output:</strong>
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2011-02-13</td></tr>
+<tr><td>Time limit:</td><td>0.749s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IOPC2011</td></tr>	
+</table>

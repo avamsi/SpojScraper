@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NY10A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8612. Penney Game</h1>
+		<h2>Problem code: NY10A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Penney&rsquo;s game is a simple game typically played by two players.&nbsp; One version of the game calls for each player to choose a unique three-coin sequence such as <strong>HEADS TAILS HEADS (HTH)</strong>.&nbsp; A fair coin is tossed sequentially some number of times until one of the two sequences appears.&nbsp; The player who chose the first sequence to appear wins the game.</p>
+<p>For this problem, you will write a program that implements a variation on the Penney Game.&nbsp; You willread a sequence of 40 coin tosses and determine how many times each three-coin sequence appears.&nbsp; Obviously there are eight such three-coin sequences: <strong>TTT</strong>, <strong>TTH</strong>, <strong>THT</strong>, <strong>THH</strong>, <strong>HTT</strong>, <strong>HTH</strong>, <strong>HHT</strong> and <strong>HHH</strong>. Sequences may overlap.&nbsp; For example, if all 40 coin tosses are heads, then the sequence HHH appears 38 times.</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer P, (1 &le; P &le; 1000), which is the number of data sets that follow.&nbsp; Each data set consists of 2 lines.&nbsp; The first line contains the data set number N.&nbsp; The second line contains the sequence of 40 coin tosses.&nbsp; Each toss is represented as an upper case H or an upper case T, for heads or tails, respectively.&nbsp; There will be no spaces on any input line.</p>
+<h3>Output</h3>
+<p>For each data set there is one line of output.&nbsp; It contains the data set number followed by a single space, followed by the number of occurrences of each three-coin sequence, in the order shown above, with a space between each one.&nbsp; There should be a total of 9 space separated decimal integers on each output line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />1<br />HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH<br />2<br />TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT<br />3<br />HHTTTHHTTTHTHHTHHTTHTTTHHHTHTTHTTHTTTHTH<br />4<br />HTHTHHHTHHHTHTHHHHTTTHTTTTTHHTTTTHTHHHHT<br /><br /><strong>Output:</strong><br />1 0 0 0 0 0 0 0 38<br />2 38 0 0 0 0 0 0 0<br />3 4 7 6 4 7 4 5 1<br />4 6 3 4 5 3 6 5 6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/johnm91">John Mario</a></td></tr>
+<tr><td>Date:</td><td>2011-03-22</td></tr>
+<tr><td>Time limit:</td><td>0.800s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Greater New York Regionals 2010</td></tr>	
+</table>

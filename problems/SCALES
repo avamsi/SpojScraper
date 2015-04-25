@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCALES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>153. Balancing the Stone</h1>
+		<h2>Problem code: SCALES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+	You are given scales for weighing loads. On the left side lies a single stone 
+	of known weight W<2<sup>N</sup>. You own a set of N different weights, 
+	weighing 1, 2, 4, ..., 2<sup>N-1</sup> units of mass respectively. Determine 
+	how many possible ways there are of placing some weights on the sides 
+	of the scales, so as to balance them (put them in a state of equilibrium). 
+	Output this value modulo a small integer D.
+</p>
+<h3>Input</h3>
+<p>
+	The input begins with the integer t, the number of test cases. Then t test 
+	cases follow.
+</p>
+<p>
+	For each test case, the first line contains three integers: N L D, where N 
+	denotes the number of weights at your disposal, L is the length of the binary 
+	representation of number W, and D is the modulus (1<= L<= N<= 1000000, 
+	2<= D<=100). The second line contains the value of W, encoded in the 
+	binary system as a sequence of exactly L characters 0 or 1 without separating 
+	spaces.
+</p>
+<h3>Output</h3>
+<p>
+	For each test case, output a single line containing one integer - the calculated number of possible 
+	weight placements, modulo D.
+</p>
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+2
+6 4 6
+1000
+6 6 100
+100110
+
+<b><tt>Sample output:</tt></b>
+3
+5
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-07-31</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>based on a problem from the VII Polish Collegiate Team Programming Contest (AMPPZ), 2002</td></tr>	
+</table>

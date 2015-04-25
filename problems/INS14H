@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19149. Virus Revisited</h1>
+		<h2>Problem code: INS14H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">&nbsp;</p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">Due to the failed experiment in the laboratory of our scientist Digo, a new universe of N dimensions is created with one single virus at origin at time T=0.&nbsp;<br /><br />Each point in this new universe can be represented by a linear array of indices (c1, c2, c3, ... cn) where ci represents the i th coordinate. In this new universe we are interested in only integer points i.e, points with integer coordinates. Two points (a1, a2, ...an), (b1, b2, ...bn) are adjacent to each other if sum of abs(ai - bi) for all i is equal to 1 (abs() is the absolute value function). If observed carefully one can observe that there are 2*N adjacent points for every point in the universe. Origin is (0, 0, ...n times).&nbsp;<br /><br />The virus reproduces very rapidly. After every second it gives birth to 2*N identical new viruses of its kind and dies. As the newly born viruses are born, each of them moves to a distinct point, each of which are adjacent to the point at which the parent was present. New Viruses reproduce at their respective points and this procedure goes on. As the viruses are very small, any number of viruses can stay at a single point.<br /><br />Now Our Scientist Digo has Q queries. In each query he gives you two integers N and T, and you need to tell him how many viruses are present at the origin in N dimension universe at the end of T seconds.<br /><br />As the Output can be huge print each output modulo (10^9 + 7).&nbsp;<br /><br />Input Format:<br /><br />First line contains a single integer Q representing the number of queries.<br />Q lines follow with two space separated integers N and T in each line. N, T have their respective meanings mentioned in the problem statement.<br /><br />Output Format:<br /><br />Print a single integer for every query in a separate line.<br /><br />Constraints :<br /><br />1 &lt;= Q &lt;= 20000<br />1 &lt;= N &lt;= 100<br />1 &lt;= T &lt;= 200<br /><br />Sample Input :&nbsp;<br /><br />3<br />1 2<br />2 3<br />3 2<br /><br />Sample Output:<br /><br />2<br />0<br />6</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>0.137s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

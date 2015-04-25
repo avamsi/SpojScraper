@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TWOGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17559. Two Game</h1>
+		<h2>Problem code: TWOGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice started playing a new simple game. &nbsp;She starts with the pair of integers (1, 1) and then she may a) duplicate one of the numbers or b) subtract the smaller number from the bigger one. &nbsp;So the game may proceed as follows: &nbsp;she starts with (1, 1), then she moves to (2, 1), then to (4, 1), then to (4, 2), then to (8, 2), then to (6, 2), etc.</p>
+<p>She is now wondering if given an arbitrary pair of positive integers (A, B), will she be able to reach at this pair using the proceduce described above ?</p>
+<h3>Input</h3>
+<p>The first line contains a single positive integer T (T &le; 500), denoting the number of test cases to solve. &nbsp;Each test case consists of a single line containing two positive integers A, B (A, B &le; 10<sup>18</sup>).</p>
+<h3>Output</h3>
+<p>For each test case print a single line with the character Y if it is possible for Alice to reach the given pair or N if it is impossible.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>6 2</pre>
+<pre>5 1</pre>
+<pre>3 3
+
+<strong>Output:</strong>
+Y
+</pre>
+<pre>Y</pre>
+<pre>N</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2013-12-17</td></tr>
+<tr><td>Time limit:</td><td>0.194s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

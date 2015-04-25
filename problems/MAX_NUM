@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAX_NUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13686. finding maximum possible number</h1>
+		<h2>Problem code: MAX_NUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a number n, Find out what max possible number you can make by deleting exactly k digits.</p>
+<p>T : no of test cases &lt;= 10^3</p>
+<p>1 &lt;= no of digits in n &lt;= 10^5. (n might contain leading zeros)</p>
+<p>0 &lt;= k &lt;= n</p>
+<p>if value of n is equal to k. then just print a new line.</p>
+<p><span style="font-size: 1.17em;">Input</span></p>
+<p>T: no of test cases</p>
+<p>T line follow</p>
+<p>every line has</p>
+<p>n , k</p>
+<h3>Output</h3>
+<p>max possible number</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>2</pre>
+<pre>1223 2</pre>
+<pre>8756 2
+<strong>Output:</strong>
+23</pre>
+<pre>87</pre>
+<pre>Explanation:</pre>
+<pre><p><span style="white-space: pre;">	</span>Note that left to right order should be maintained. As in the example given answer is 23 not 32.</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-02-09</td></tr>
+<tr><td>Time limit:</td><td>0.407s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>general</td></tr>	
+</table>

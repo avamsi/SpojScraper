@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMPRO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22455. SUM OF PRODUCT</h1>
+		<h2>Problem code: SUMPRO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Given a number&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>N</strong></span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">, find the sum of all products&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">x*y</span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">&nbsp;such that&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">N/x = y</span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">&nbsp;(<strong>Integer Division</strong>).</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Since, the sum can be very large, please output this modulo&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>1000000007</strong></span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">.</span></p>
+<h3>Input</h3>
+<p><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">The first line of input file contains an integer&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>T</strong></span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">, the number of test cases to follow. Each of the next&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">T</span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">&nbsp;lines contain an integer&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>N</strong></span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">.</span></p>
+<h3>Output</h3>
+<p><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Output&nbsp;</span><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>T</strong></span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>&nbsp;</strong>lines containing answer to corresponding test case.</span></p>
+<h3>Example</h3>
+<p><strong>Input:</strong></p>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;">3
+2
+4
+6</pre>
+<p><strong>Output:</strong></p>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;">4
+15
+33</pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>Constraints:</strong></span></pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><span style="color: #000000; font-size: 10px;"><strong><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">1 &le; T &le; 500</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">1 &le; N &le; 10<sup>9</sup></span></strong></span></pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><span style="color: #000000; font-size: 10px;"><strong><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><sup><br /></sup></span></strong></span></pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong>Sample Explanation:</strong></span></pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><strong><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Case #1:</span></strong></pre>
+<pre style="overflow-x: auto; color: #252c33; font-size: 13px; line-height: 18px; word-spacing: 1px;"><span style="color: #000000; font-size: 10px;"><strong><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">2 / 1 = 2</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">2 / 2 = 1</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Answer</span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">&nbsp;= 1 * 2 + 2 * 1 = 4</span></strong></span></pre>
+<pre style="overflow-x: auto; line-height: 18px; word-spacing: 1px;"><strong><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Case #2:</span></strong></pre>
+<pre style="overflow-x: auto; line-height: 18px; word-spacing: 1px;"><strong><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">4 / 1 = 4</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">4 / 2 = 2</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">4 / 3 = 1</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">4 / 4 = 1</span><br style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;" /><span style="font-weight: 600; color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">Answer</span><span style="color: #252c33; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 18px; word-spacing: 1px;">&nbsp;= 1 * 4 + 2 * 2 + 3 * 1 + 4 * 1 = 15</span></strong></pre>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ravi_shank">ivar.raknahs</a></td></tr>
+<tr><td>Date:</td><td>2015-01-23</td></tr>
+<tr><td>Time limit:</td><td>1s-1.5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BLUEEQ2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1458. Help Blue Mary Please! (Act II)</h1>
+		<h2>Problem code: BLUEEQ2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Today Mary's math homework is to solve an equation.</p>
+<img src="/content/john_jones:blueeq2a.bmp">
+<p>She knows all ki and pi, and 1<=xi<=M. All xi must be integers. She must work out the number of different solutions of this equation this day.Can you give her a hand?</p>
+<h3>Input</h3>
+<p>There is a single integer T in the very first line of the input denoted the number of tests.T blocks follow.</p>
+<p>For each test case:</p>
+<p>The first line contains a single integer n(n<=6).The second line contains a single integer m(m<=150).n lines follow,each contains two space-separated integers ki and pi, i=1,2,...,n. All pi are positive.</p>
+<img src="/content/john_jones:blueeq2b.bmp">
+<h3>Output</h3>
+<p>For each test case output a single line ,which contains a single integer - the answer.You may assume this number is less than 2^31.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+1
+3
+150
+1 2
+-1 2
+1 2
+
+<b>Output:</b>
+178
+</pre>
+<b>Warning: The time limit is very strict for this problem.</b>
+<p>Blue Mary's Note: test data were modified on Dec.4, 2007. All the solutions have been rejudged.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>1.046s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2001,Day 2; translated by Blue Mary</td></tr>	
+</table>

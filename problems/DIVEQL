@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIVEQL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20196. The Magical Bag</h1>
+		<h2>Problem code: DIVEQL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Dukkar has the magical bag of power '<strong>P</strong>' . Here power '<strong>P</strong>' of magical bag means any thing kept in the bag will be '<strong>P</strong>' times.</span></p>
+<p><span style="font-size: small;">Now Dukkar wanted to distribute equal number of Chocolates among his '<strong>N</strong>' students using that magical bag in the following manner:-</span></p>
+<p><span style="font-size: small;">Initially Dukkar has '<strong>Z</strong>' chocolates and he give '<strong>X</strong>' chocolates to first student and keep the remaining chocolates to magical bag so that it became 'P' times on next step ,again he will take out '<strong>X</strong>' chocolates from bag and give it to the second student and the remaining chocolates in the bag at this step will get '<strong>P</strong>' time on the next step ,this process continue.</span></p>
+<p><span style="font-size: small;">Here you have to find minimum '<strong>Z</strong>' so that at last step there are no chocolates in the magical bag (After giving '<strong>X</strong>' chocolates to last student no chocolates should remain in bag)</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">First line of input contain <strong>T </strong>(&lt;100000) number of test cases and the following <strong>T</strong> lines will contain <strong>N</strong> (2&lt;=N&lt;=10<sup>18</sup>) and <strong>P</strong> (2&lt;=P&lt;=10<sup>9</sup>).</span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">For each test case you have to print minimum '<strong>Z</strong>' and corresponding '<strong>X</strong>' .As answer can be large print answer modulo 1000000007.</span></p>
+<p><span style="font-size: small;">(Z%1000000007 and X % 1000000007)</span></p>
+<p><strong><span style="font-size: small;">Example</span></strong></p>
+<p><strong></strong><br /><strong><span style="font-size: small;">Input:<br /></span></strong><span style="font-size: small;">1<br /></span><span style="font-size: small;">3 2<br /></span> <strong><span style="font-size: small;">Output:<br /></span></strong><span style="font-size: small;">7 4<br /></span><span style="font-size: small;"><strong>Explanation:-</strong></span></p>
+<p><span style="font-size: medium;"><span style="font-size: x-small;">As Z=7 ,Initially dukkar will give 4 chocolates to first student and kepp 3 chocolates in bag .In the&nbsp;<br /></span><span style="font-size: x-small;">next step it became 6 now he gives 4 chocolates to second student .In the next step remaining 2&nbsp;<br /></span><span style="font-size: x-small;">chocolates will be came 4 which he will give to third student .Now the bag became empty.</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nr3600">NISHANT RAJ</a></td></tr>
+<tr><td>Date:</td><td>2014-07-01</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STC07"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15574. Railway</h1>
+		<h2>Problem code: STC07</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A railroad siding consists of two (dead-end) sidetracks 1 and 2. The siding is entered by track A, and left by track B.</p>
+
+<img src="http://www.spoj.pl/content/zukow:kolrys1.gif"></img>
+
+<p>There are N cars on track A, numbered from 1 to N. They are arranged in such a way that they enter the siding in the order a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<span><sub>N</sub></span>. The cars are to be transferred to the siding, so that they leave it by track B in the order 1, 2, 3, ..., N. Each car is to be transferred once from track A to one of the sidetracks 1 or 2, and later (possibly after some transfers of the remaining cars) once from that sidetrack to the track B. The sidetracks are long enough to store even the longest trains, so there is no need to worry about their capacity.</p>
+<h2>Input</h2>
+<p>The first line of the standard input holds one integer N (1 <= N <= 10<sup>5</sup>) that denotes the number of cars for transfer. The second line stores the numbers a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>N</sub> that are a permutation of 1, 2, 3, ..., N (i.e., each a<sub>i</sub> belongs to {1, 2, 3, ..., N}, and all these numbers are unique), separated by single spaces.</p>
+<h2>Output</h2>
+<p>The first line of the standard output should contain the word <tt>TAK</tt> (<em>yes</em> in Polish) if there is a way of transferring the cars so that they enter track B in the order 1, 2, 3, ..., N, or the word <tt>NIE</tt> (<em>no</em> in Polish) if it is impossible. If the answer is <tt>TAK</tt>, the second line should give, separated by single spaces, the numbers of sidetracks (1 or 2) to which successive cars a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>N</sub> are moved in a correct transfer. If there are several ways of making the transfer, choose lexicographically smallest.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>4
+1 3 4 2</pre>
+<p>the correct result is:</p>
+<pre>TAK
+1 1 2 1</pre>
+<p>And for the input:</p>
+<pre>4
+2 3 4 1</pre>
+<p>the correct result is:</p>
+<pre>NIE</pre>
+<p><strong><br /></strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>POI XVII</td></tr>	
+</table>

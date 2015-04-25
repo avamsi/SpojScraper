@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GUMATH2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13523. Card Meets (medium)</h1>
+		<h2>Problem code: GUMATH2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Guardian is very weak at maths but still to compete in a certain exam he has to get good grades in mathematics this time. In the first class of the semester the Prof. asked students to find the number of ways deck (having N cards) could be shuffled that exactly one card is at the same position as before, and the students who successfully do this will be awarded with good marks in mid terms. Help Guardian solve this problem.</p>
+
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.</br>
+In each of the next T lines there are one integer N.</p>
+
+<h3>Output</h3>
+<p>For each test case you have to output on a single line the number of ways possible meeting the Prof.'s requirements.</br>
+As the answer can be a huge number, simply output it modulo 10000009.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+3
+
+<b>Output:</b>
+3
+</pre>
+
+<p>
+Let's say the initial deck configuration was {1,2,3}, then three possible shuffles are {1,3,2}, {2,1,3}, {3,2,1}.</p>
+
+<h3>Constraints</h3>
+<pre>
+1 < T < 10^4
+0 < N < 10^18
+</pre>
+<p>@speed addicts : my C code ran in 0.08s, and my python3 code ran in 3.2s. (Total time with Pyramid cluster)</br>
+Edit 19/I/2015 : Now the problem use Cube cluster, rejudge of my old code gave 0.01s with C, and 0.57s with Py3.2 (this last one ends in 0.42s with PY3.4)</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-01-26</td></tr>
+<tr><td>Time limit:</td><td>0.449s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>GUMATH</td></tr>	
+</table>

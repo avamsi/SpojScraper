@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BLOPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19274. Operators</h1>
+		<h2>Problem code: BLOPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Given a set of N integer A = {1, 2, 3, &hellip;, N} and a integer S, your task is find a way to insert an operator &lsquo;+&rsquo; or &lsquo;-&lsquo; to every neighbor pair of A, that the result of the expression after insert equal to S.</span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><br /></span></span></span></span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Input</span></span></span></span></span></h3>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">A single line, N and S (1 &le; N &le; 500, |S| &le; 125250)</span></span></span></span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Output</span></span></span></span></span></h3>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">If there are way(s) to insert, outputs any of them, otherwise outputs &ldquo;Impossible&rdquo; (without quotes).</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><br /></span></span></span></span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Example</span></span></span></span></span></h3>
+<pre><span style="font-size: x-small;"><strong><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Input:</span></span></span></span></span></strong></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><strong><span style="white-space: pre;">	</span>9 5<strong><br /></strong></strong>
+<strong>Output:</strong>
+</span></span></span></span></span><p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><span style="white-space: pre;">	</span>1-2+3-4+5-6+7-8+9</span></span></span></span></span></p><p><strong><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Input:</span></span></span></span></span></strong></p><p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><span style="white-space: pre;">	</span>5 6</span></span></span></span></span></p><p><span style="font-weight: bold;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">Output:</span></span></span></span></span></span></p><p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><span style="white-space: pre;">	</span>Impossible</span></span></span></span></span></p><p>&nbsp;</p><p><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;">You may want to try another version <a href="../../problems/BLOPER2">here</a></span></span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2014-03-28</td></tr>
+<tr><td>Time limit:</td><td>0.100s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

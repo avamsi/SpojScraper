@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AROAD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>421. Another Road Problem</h1>
+		<h2>Problem code: AROAD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<H3>Problem</H3>
+<P align=justify>
+Let's say you are given a set of cities (numbered from 1 to n) and possible bidirectional roads between them. You would like to build cheapest road network that will make getting from the capital (which has number 1) to every other city possible, where the cost of the network is just sum of its roads' costs. Seems easy? Well, it certainly would be too easy and boring, so this time you should satisfy one additional constraint: you must consider only networks in which there are at most d roads outgoing from the capital.
+</P>
+<H3>Input</H3>
+<P align=justify>
+First line of input contains number of test cases c (1<=c<=40). Each test case begins with number of cities n, number of possible roads m and maximum degree d (1<=n<=1000, 0<=m<=100000, 0<=d<=100). Then m lines describing roads follow, each of them containing road endpoints x,y and its cost c (1<=x,y<=n, 0<=c<=10000).
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case output the cost of building cheapest road network or NONE if it is impossible.
+</P>
+<H3>Example</H3>
+<pre>
+Input:
+4
+4 5 0
+1 2 1
+1 3 1
+1 4 2
+2 3 2
+3 4 1000
+
+4 5 1
+1 2 1
+1 3 1
+1 4 2
+2 3 2
+3 4 1000
+
+4 5 2
+1 2 1
+1 3 1
+1 4 2
+2 3 2
+3 4 1000
+
+4 5 3
+1 2 1
+1 3 1
+1 4 2
+2 3 2
+3 4 1000
+
+Output:
+NONE
+1003
+5
+4
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2005-10-07</td></tr>
+<tr><td>Time limit:</td><td>0.826s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

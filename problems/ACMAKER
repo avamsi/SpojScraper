@@ -1,0 +1,132 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACMAKER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1703. ACM (ACronymMaker)</h1>
+		<h2>Problem code: ACMAKER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+The sadists who design problems for ACM programming contests often like to include the abbre-
+viation &#8220;ACM&#8221; somewhere in their problem descriptions. Thus, in years past, the World Finals
+has had problems involving &#8220;Apartment Construction Management,&#8221; the &#8220;Atheneum of Culture and
+Movies,&#8221; the &#8220;Association of Cover Manufacturers,&#8221; &#8220;ACM Airlines,&#8221; the &#8220;Association for Computa-
+tional Marinelife,&#8221; and even an insect named &#8220;Amelia Cheese Mite.&#8221; However, the number of word
+combinations beginning with A, C, and M that make sense is finite and the problem writers are starting
+to run out of ideas (it&#8217;s hard to think of problems about &#8220;Antidisestablishmentarianistic Chthonian
+Metalinguistics&#8221;). Fortunately, modern culture allows more flexibility in designing abbreviations &#8212;
+consider, for example:
+
+<p><p>
+<pre>
+GDB &#8212; Gnu DeBugger
+LINUX &#8212; either &#8220;LINus&#8217;s UniX&#8221; or &#8220;LINUs&#8217;s miniX&#8221; or &#8220;Linux Is Not UniX&#8221;
+SNOBOL &#8212; StriNg Oriented symBOlic Language
+SPITBOL &#8212; SPeedy ImplemenTation of snoBOL
+</pre>
+
+<p><p>
+The rules used in these examples seem to be:
+
+<p><p>
+<ul>
+<li> Insignificant words (such as &#8220;of&#8221;, &#8220;a&#8221;, &#8220;the&#8221;, etc.) are ignored.
+<li> The letters of the abbreviation must appear, in the correct order, as an ordered sublist of the
+letters in the significant words of the phrase to be abbreviated.
+<li> At least one letter of the abbreviation must come from every significant word (multiple occurrences
+of a letter are, of course, treated as distinct).
+</ul>
+
+<p><p>
+Of course these rules are often broken in real life. For instance, RADAR is an abbreviation for &#8220;RAdio
+Detecting And Ranging&#8221;. Under our rules (assuming that &#8220;and&#8221; is an insignificant word), this would
+not be a valid abbreviation (however, RADR or RADRAN or DODGING would be valid). You have
+been asked to take a list of insignificant words and a list of abbreviations and phrases and to determine
+in how many ways each abbreviation can be formed from the corresponding phrase according to the
+rules above.
+
+<h3>Input</h3>
+<p>
+The input file consists of multiple scenarios. Each scenario begins with an integer 100 >= <i>n</i> >= 1 followed
+by <i>n</i> insignificant words, all in lower case, one per line with no extra white space. (A line containing
+0 indicates end of input.) Following this are one or more test cases for this scenario, one per line,
+followed by a line containing the phrase &#8220;LAST CASE&#8221;. Each line containing a test case begins with
+an abbreviation (uppercase letters only) followed by a phrase (lowercase letters and spaces only). The
+abbreviation has length at least 1 and the phrase contains at least one significant word. No input line
+(including abbreviation, phrase, and spaces) will contain more than 150 characters. Within these limits,
+however, abbreviations and phrase words may be any length.
+
+<h3>Output</h3>
+<p>
+For each test case, output the abbreviation followed by either
+
+<i>
+<p><p>
+is not a valid abbreviation
+
+<p><p>
+or
+
+<p><p>
+can be formed in i ways</i>
+
+<p><p>
+where <i>i</i> is the number of different ways in which the letters of the abbreviation may be assigned to the
+letters in the phrase according to the rules above. The value of <i>i</i> will not exceed the range of a 32-bit
+signed integer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+and
+of
+ACM academy of computer makers
+RADAR radio detection and ranging
+LAST CASE
+2
+a
+an
+APPLY an apple a day
+LAST CASE
+0
+
+<b>Output:</b>
+ACM can be formed in 2 ways
+RADAR is not a valid abbreviation
+APPLY can be formed in 1 ways
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.090s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>East Central North America 2005</td></tr>	
+</table>

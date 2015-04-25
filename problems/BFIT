@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BFIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8732. Best Fit</h1>
+		<h2>Problem code: BFIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of N random values (s1, s2, s3, s4, . . . . , sN)<br />You have to find a function f(t) = a*t+b such that the Euclidean Distance between <br />the given sequence and the function values where t varies from 1 to N is minimum.</p>
+<p>In effect, you have to minimize</p>
+<p style="text-align: center;"><img src="/files/gif/f/e/5/fe51c3542db3f26f40202e10e8ef5b31/"/></p>
+<p>Output the values a and b for each test case, rounded up to 4 decimal places.</p>
+<p><strong>Input</strong></p>
+<p>Line 1: T /* Number of test cases T &lt;= 1000 */<br />Line 2: N /* Number of values in first test case N &lt;= 10000 */<br />Line 3: s1 s2 s3 s4 &hellip; sN /* all values are less than 10000 and integers */<br />.<br />.<br />.</p>
+<h3>Output</h3>
+<p>a b&nbsp; /* Output the values a and b rounded up to 4 decimal places for each test case */</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />3<br />1 1 1<br />3<br />1 2 3<br />3<br />1 3 1
+
+<strong>Output:</strong>
+0.0000 1.0000<br />1.0000 0.0000<br />0.0000 1.6667
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/supershashank">Shashank Kumar</a></td></tr>
+<tr><td>Date:</td><td>2011-04-16</td></tr>
+<tr><td>Time limit:</td><td>0.154s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>INSOMNIA 11</td></tr>	
+</table>

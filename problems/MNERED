@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MNERED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4035. NERED</h1>
+		<h2>Problem code: MNERED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MNERED/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MNERED/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p> </p>
+<p>In the nearby kindergarten they recently made up an attractive game  of strength and agility that kids love. The surface for the game is a large flat area divided into N×N squares. The children lay large spongy cues onto the surface. The sides of the cubes are the same length as the sides of the squares. When a cube is put on  the surface, its sides are aligned with some square. A cube may be put  on another cube too. Kids enjoy building forts and hiding them, but they  always leave behind a huge mess. Because of this, prior to closing the  kindergarten, the teachers rearrange all the cubes so that they occupy  a rectangle on the surface, with exactly one cube on every square in the rectangle. In one moving, a cube is taken off the top of a square to the top of any other square.</p>
+<p>Write a program that, given the state of the surface, calculates the  smallest number of moves needed to arrange all cubes into a rectangle.</p>
+<p> </p>
+<h3>Input</h3>
+<p> </p>
+<p>The first line contains the integers N and M (1 &#8804; N &#8804; 100, 1 &#8804; M &#8804; N^2),  the dimensions of the surface and the number of cubes currently on the  surface.</p>
+<p>Each of the following M lines contains two integers R and C (1 &#8804; R, C &#8804; N), the coordinates of the square that contains the cube.</p>
+<p> </p>
+<h3>Output</h3>
+<p> </p>
+<p>Output the smallest number of moves. A solution will always exist.</p>
+<p> </p>
+<h3>Sample</h3>
+<pre>input<br />4 3<br />2 2<br />4 4<br />1 1<br />output<br />2<br /><br />input<br />5 8<br />2 2<br />3 2<br />4 2<br />2 4<br />3 4<br />4 4<br />2 3<br />2 3<br />output<br />3<br /><br />In the second example, a cube is moved from (2, 3) to (3, 3), from (4, 2)<br />to (2, 5) and from (4, 4) to (3, 5).<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-03-08</td></tr>
+<tr><td>Time limit:</td><td>0.185s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COCI 6th 09</td></tr>	
+</table>

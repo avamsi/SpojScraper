@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCPC11A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9117. Faculty Dividing Powers</h1>
+		<h2>Problem code: GCPC11A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Fred Faculty and Paul Power love big numbers. Day after day Fred chooses a random integer <em>n</em> and he computes <em>n!</em>. His friend Paul amuses himself by computing several powers of his randomly chosen integer <em>k</em> like <em>k<sup>2</sup></em>, <em>k<sup>3</sup></em> and so on. On a hot summer day, Fred and Paul got really, really bored, so they decided to play a joke on their buddy Dave Divider. Fred chooses a random integer <em>n</em> while Paul chooses a random integer <em>k</em>. They want Dave to find the biggest integer <em>i</em> such that <em>k<sup>i</sup></em> divides <em>n!</em> without a remainder, otherwise they will throw a cake in Dave's face. Because Dave does not like cakes in his face, he wants you to help him finding that integer <em>i</em>.</p>
+<h3>Input</h3>
+<p>The first line contains the number of test cases <em>t</em> (<em>1 &le; t &le; 100</em>). Each of the following <em>t</em> lines contains the two numbers <em>n,k</em> (<em>2 &le; n &le; 10<sup>18</sup></em>, <em>2 &le; k &le; 10<sup>12</sup></em>) separated by one space.</p>
+<h3>Output</h3>
+<p>For each test case, print the maximum integer <em>i</em> on a separate line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+5 2
+10 10
+
+<strong>Output:</strong>
+3
+2
+</pre>
+<hr />
+<p><strong>Be careful with overflows in this problem (use 64 bit integers, avoid multiplications which will lead to overflow).</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2011-07-05</td></tr>
+<tr><td>Time limit:</td><td>0.511s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>German Collegiate Programming Contest 2011 (Authors: Christopher Dennl and Thomas Fersch)</td></tr>	
+</table>

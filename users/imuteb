@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/imuteb"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CRAZYR" target="_blank">5014. Crazy Receptionist</a></td><td><a href="http://www.spoj.com/problems/CRAZYR"target="_blank">CRAZYR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CASTANET" target="_blank">5015. Decode the Castanets</a></td><td><a href="http://www.spoj.com/problems/CASTANET"target="_blank">CASTANET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUERNICA" target="_blank">5016. Guernica</a></td><td><a href="http://www.spoj.com/problems/GUERNICA"target="_blank">GUERNICA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRGAMB" target="_blank">5018. Street Gambler</a></td><td><a href="http://www.spoj.com/problems/STRGAMB"target="_blank">STRGAMB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MESS" target="_blank">7403. Messy Administration</a></td><td><a href="http://www.spoj.com/problems/MESS"target="_blank">MESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ONTIME" target="_blank">7404. Just on Time</a></td><td><a href="http://www.spoj.com/problems/ONTIME"target="_blank">ONTIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PANCAKES" target="_blank">7405. Delicious Pancakes</a></td><td><a href="http://www.spoj.com/problems/PANCAKES"target="_blank">PANCAKES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BIO" target="_blank">7490. Biology</a></td><td><a href="http://www.spoj.com/problems/BIO"target="_blank">BIO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATHS" target="_blank">7628. Mathematics</a></td><td><a href="http://www.spoj.com/problems/MATHS"target="_blank">MATHS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARCHI" target="_blank">7632. Architecture</a></td><td><a href="http://www.spoj.com/problems/ARCHI"target="_blank">ARCHI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TELECOM" target="_blank">7666. Telecommunications</a></td><td><a href="http://www.spoj.com/problems/TELECOM"target="_blank">TELECOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ELEC" target="_blank">7680. Electrical Engineering</a></td><td><a href="http://www.spoj.com/problems/ELEC"target="_blank">ELEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEM" target="_blank">7692. Chemistry</a></td><td><a href="http://www.spoj.com/problems/CHEM"target="_blank">CHEM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENVIRON" target="_blank">7693. Environmental Engineering</a></td><td><a href="http://www.spoj.com/problems/ENVIRON"target="_blank">ENVIRON</a><br>
+</td></tr>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN8_D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8757. Coing tossing </h1>
+		<h2>Problem code: MAIN8_D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">One day Rohil was getting very bored so he was tossing an unbiased coin randomly. He observed that certain patterns (a sequence of Head and Tail) appear very frequently&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">while some other are very rare. Being a programmer he decided to code a solution which takes a pattern string as input and tells what is&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">the expecetd number of times he will have to toss his coin to see that pattern. He wrote this program very quickly. Can you?</div>
+<p>One day Rohil was getting very bored so he was tossing an unbiased coin randomly. He observed that certain patterns (a sequence of Head and Tail) appear very frequently&nbsp;while some other are very rare. Being a programmer he decided to code a solution which takes a pattern string as input and tells what is&nbsp;the expected number of times he will have to toss his coin to see that pattern. He wrote this program very quickly. Can you?</p>
+<p><strong>Input</strong></p>
+<p>First line contains ( 1&lt;=T&lt;=25 ) the number of test cases. Each of following T lines contains a pattern string of 'H' and 'T' only. H is for Head and T is for Tail.</p>
+<p>|S| &lt;= 40</p>
+<h3>Output</h3>
+<p>For each test case print the output in a new line (it is guaranteed that answer will always be an integer and fits in 64 bit type).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+H
+HTHT
+TTHTHTHTHTHHTHTHTHTTTTTTHTHHHHHTT
+
+<strong>Output:</strong>
+2
+20
+8589934598</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-04-20</td></tr>
+<tr><td>Time limit:</td><td>0.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for NSIT-IIITA Main contest #8</td></tr>	
+</table>

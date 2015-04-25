@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NR2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18963. Bhagat The Bit Man</h1>
+		<h2>Problem code: NR2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Bhagat is student of CSE at ISM Dhanbad. In mid-semsester exam somehow he was able to score full marks in Boolean algebra. So his profs doubt how can he score full marks. So profs decided to check his ability .They gave Bhagat a list student&rsquo;s admission number and ask him to find total kaptiness (K) of list.</span></p>
+<p><span style="font-size: small;">Kaptiness is defined as or operation on every dukkerness(d<sub>i</sub>) value. Dukkerness value is xor operation on every pair of number in list.As we all know Bhagat is not good in Boolean algebra .Can you help him to prove his profs that he can score full out of full in boolean algebra.</span></p>
+<p><span style="font-size: small;">Example:-</span></p>
+<p><span style="font-size: small;">If list contain three number 10,15 &amp; 17.Then there will be total 3 pairs .</span></p>
+<p><span style="font-size: small;">d<sub>1</sub>=10^15=5;</span></p>
+<p><span style="font-size: small;">d<sub>2</sub>=10^17=27;</span></p>
+<p><span style="font-size: small;">d<sub>3</sub>=17^15=30;</span></p>
+<p><span style="font-size: small;">k= d<sub>1</sub>&nbsp;| d<sub>2</sub>&nbsp;| d<sub>3 ;</sub></span></p>
+<p><span style="font-size: small;">K=31;</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">First line of input contain <strong>N(2&lt;=N&lt;=10<sup>6</sup>)</strong> .<strong>N</strong> is total number of admission number(<strong>a<sub>i</sub></strong>) in list.</span></p>
+<p><span style="font-size: small;">Then following <strong>N</strong> line will contain admission number.<strong>(0&lt;= a<sub>i&nbsp;</sub>&lt;=10<sup>18</sup>)</strong></span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">Output only one line containing <strong>K</strong>.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<strong><span style="font-size: large;">3</span></strong></pre>
+<pre><strong><span style="font-size: large;">10</span></strong></pre>
+<pre><strong><span style="font-size: large;">15</span></strong></pre>
+<pre><strong><span style="font-size: large;">17</span></strong>
+
+<strong>Output:</strong>
+<strong><span style="font-size: large;">31</span></strong>
+</pre>
+<pre><strong><span style="font-size: large;">NOTE: Large input data .</span></strong></pre>
+<pre><strong><span style="font-size: small;">test cases have been updated and all solutions are rejudged .</span></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nr3600">NISHANT RAJ</a></td></tr>
+<tr><td>Date:</td><td>2014-03-11</td></tr>
+<tr><td>Time limit:</td><td>0.168s-0.485s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

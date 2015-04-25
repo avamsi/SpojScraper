@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TKUDDUS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21396. Taklu Kuddus</h1>
+		<h2>Problem code: TKUDDUS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0in; line-height: 100%;">Kuddus is a great programmer. He recently solved 100 problems in different OJ&rsquo;s. One day his girlfriend gave him a problem. But he failed to solve that problem and his girlfriend became very angry.</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">For this reason his girlfriend don&rsquo;t talk to him. <br />He is losing his hair by thinking of how he can solve the problem. Now kuddus came to you for help. As his friend, you have to help kuddus and save his relation and hair also.</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">The problem is, you are given a string &ldquo;S&rdquo; and a pattern &ldquo;P&rdquo;.  You have to find FS (x, y) that is defined as the maximum number of non-overlapping substring which is equal to the pattern &ldquo;P&rdquo; in the substring</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">of S which starts at x and end at y (x ,y are in 0 base indexes ) .</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;"><a name="_GoBack"></a> Suppose,</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">S = &ldquo;abcdef&rdquo;</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">P = &ldquo;cd&rdquo;</p>
+<p style="margin-bottom: 0.11in; line-height: 108%;">and  the query is (1,5) , so the substring will be &ldquo;b<span style="text-decoration: underline;"><strong>cd</strong></span>ef&rdquo; and FS(1,5) = 1</p>
+<h3>Input</h3>
+<p style="margin-bottom: 0.11in; line-height: 108%;">First line contains an integer T (number of test cases)(1&lt;=T&lt;=10)<br /><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Each case starts with a line containing string</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">&nbsp;</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><strong><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">S</span></strong></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">, |S| &lt;= 1000000. The next line contains string</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><strong><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"> P, |P| &lt;= 1000000.</span></strong></span></span></p>
+<p style="margin-bottom: 0.11in; line-height: 108%;"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Then an integer </span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><strong><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">q(1&lt;=q&lt;=100000) , </span></strong></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Each of the next</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">&nbsp;</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><strong><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">q</span></strong></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">&nbsp;</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">lines will contain a query which is in the form</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">&nbsp;</span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><strong><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">i j </span></strong></span></span></p>
+<p style="margin-bottom: 0.11in; line-height: 108%;"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">(  0&le; i &le; j &lt;length(S) ).</span></span></span></p>
+<h3>Output</h3>
+<p style="margin-bottom: 0in; line-height: 100%;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">For each test case, print the case number in a single line. </span></p>
+<p style="margin-bottom: 0in; line-height: 100%;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Then for each query you have to print a line , value of  FS(i.j) ;</span></p>
+<p style="margin-bottom: 0in; line-height: 100%;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">It is guaranted that the summation of all the queries for each test case will not exceed 200000</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p style="margin-bottom: 0in; line-height: 100%;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">1<br /></span><span style="line-height: 100%;">abababc<br /></span><span style="line-height: 100%;">ab<br /></span><span style="line-height: 100%;">3<br /></span><span style="line-height: 100%;">0 6<br /></span><span style="line-height: 100%;">1 2<br /></span><span style="line-height: 100%;">0 4</span></p>
+<strong>Output:</strong>
+<p style="margin-bottom: 0in; line-height: 100%;"><span style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Case 1:<br /></span><span style="line-height: 100%;">3<br /></span><span style="line-height: 100%;">0<br /></span><span style="line-height: 100%;">2</span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raihatneloy">Raihat Zaman Neloy</a></td></tr>
+<tr><td>Date:</td><td>2014-10-16</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

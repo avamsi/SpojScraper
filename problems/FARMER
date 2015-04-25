@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FARMER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>366. Farmer</h1>
+		<h2>Problem code: FARMER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> A farmer has a set of fields, each of which is surrounded by cypress trees. Also, the farmer
+has a set of strips of land, each of which has a row of cypress trees. In both fields and strips,
+between every two consecutive cypress trees is a single olive tree. All of the farmer&#8217;s
+cypress trees either surround a field or are in a strip and all of the farmer&#8217;s olive trees are
+between two consecutive cypress trees in a field or in a strip.<BR><BR>
+One day the farmer became very ill and he felt that he was going to die. A few days before
+he passed away he called his eldest son and told him, &#8220;I give you any Q cypress trees of
+your choice and all the olive trees which are between any two consecutive cypress trees you
+have chosen.&#8221; >From each field and from each strip the son can pick any combination of
+cypress trees. Since the eldest son loves olives he wants to pick the Q cypress trees which
+will allow him to inherit as many olive trees as possible.<BR><BR></p>
+<H3>
+<img src="/content/turbo:001.png"><BR>
+</H3>
+<p>
+In Figure 1, assume that the son is given Q=17 cypress trees. To maximize his olive
+inheritance he should choose all the cypress trees in Field 1 and Field 2, inheriting 17 olive
+trees.<BR><BR>
+You are to write a program which, given the information about the fields and the strips and
+the number of cypress trees the son can pick, determines the largest possible number of
+olive trees the son may inherit.<BR><BR>
+</p>
+
+<h3>Input</h3>
+<p>
+t - the number of test cases [t <= 20], then t test cses follows. 
+The first line of each test case contains first the integer Q: the number of cypress trees the son is to select; 
+then the integer M, the number of fields; and then the
+integer K, the number of strips. The second line contains M integers N1, N2,&#8230; NM, : the
+numbers of cypress trees in fields. The third line contains K integers R1, R2,&#8230; RK: the
+numbers of cypress trees in strips.<BR>
+In all test cases, 0 <= Q <= 150000, 0 <= M <= 2000, 0 <= K <= 2000, 3 <= N1 <= 150, 3 <= N2 <= 150,&#8230; 3 <= NM <=150,
+2 <= R1 <= 150, 2 <= R2 <= 150,&#8230; 2 <= RK <= 150. The total number of cypress trees in the fields and
+strips is at least Q. Additionally, in 50% of the test cases, Q <= 1500.
+</p>
+
+<h3>Output</h3>
+<p>For each test case output ont integer: largest possible number of olive trees the son may inherit.
+<BR>  
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1
+17 3 3 
+13 4 8 
+4 8 6
+</pre>
+<pre>
+<b>Output:</b>
+17
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-05-22</td></tr>
+<tr><td>Time limit:</td><td>50s
+</td></tr>
+<tr><td>Source limit:</td><td>30000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IOI 2004</td></tr>	
+</table>

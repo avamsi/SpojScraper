@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/paulo_costa"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CONGA" target="_blank">10399. Conga line</a></td><td><a href="http://www.spoj.com/problems/CONGA"target="_blank">CONGA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRACULA" target="_blank">10415. Dracula</a></td><td><a href="http://www.spoj.com/problems/DRACULA"target="_blank">DRACULA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VHELSING" target="_blank">10416. Van Helsings gun</a></td><td><a href="http://www.spoj.com/problems/VHELSING"target="_blank">VHELSING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLISH" target="_blank">10419. Polish Language</a></td><td><a href="http://www.spoj.com/problems/POLISH"target="_blank">POLISH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNIPE" target="_blank">10421. Run, Snipe, Run</a></td><td><a href="http://www.spoj.com/problems/SNIPE"target="_blank">SNIPE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOPOLAND" target="_blank">10424. To Poland</a></td><td><a href="http://www.spoj.com/problems/TOPOLAND"target="_blank">TOPOLAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SECSYS" target="_blank">10425. Security System</a></td><td><a href="http://www.spoj.com/problems/SECSYS"target="_blank">SECSYS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WALKROBO" target="_blank">10439. Walking Robot</a></td><td><a href="http://www.spoj.com/problems/WALKROBO"target="_blank">WALKROBO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRNDS" target="_blank">10440. Friends</a></td><td><a href="http://www.spoj.com/problems/FRNDS"target="_blank">FRNDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CADYDIST" target="_blank">10442. Candy Distribution</a></td><td><a href="http://www.spoj.com/problems/CADYDIST"target="_blank">CADYDIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRDGS" target="_blank">10443. Bridges</a></td><td><a href="http://www.spoj.com/problems/BRDGS"target="_blank">BRDGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODING2" target="_blank">10444. Coding</a></td><td><a href="http://www.spoj.com/problems/CODING2"target="_blank">CODING2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SICRANO" target="_blank">10446. Sicrano</a></td><td><a href="http://www.spoj.com/problems/SICRANO"target="_blank">SICRANO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONTCITY" target="_blank">10447. Contaminated City</a></td><td><a href="http://www.spoj.com/problems/CONTCITY"target="_blank">CONTCITY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RESOURCE" target="_blank">10449. Resource Management</a></td><td><a href="http://www.spoj.com/problems/RESOURCE"target="_blank">RESOURCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMOEBA" target="_blank">10450. Amoeba</a></td><td><a href="http://www.spoj.com/problems/AMOEBA"target="_blank">AMOEBA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STUN" target="_blank">10451. Stun Boosting</a></td><td><a href="http://www.spoj.com/problems/STUN"target="_blank">STUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAPRICA" target="_blank">10452. Caprica Cities</a></td><td><a href="http://www.spoj.com/problems/CAPRICA"target="_blank">CAPRICA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPRING" target="_blank">10453. Spring Loaded</a></td><td><a href="http://www.spoj.com/problems/SPRING"target="_blank">SPRING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GREENLAN" target="_blank">10454. Greens Land</a></td><td><a href="http://www.spoj.com/problems/GREENLAN"target="_blank">GREENLAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRENDON" target="_blank">10506. Prendonians</a></td><td><a href="http://www.spoj.com/problems/PRENDON"target="_blank">PRENDON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEESE" target="_blank">10507. Cheese-rolling World Cup</a></td><td><a href="http://www.spoj.com/problems/CHEESE"target="_blank">CHEESE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BTTNS" target="_blank">10508. Buttons</a></td><td><a href="http://www.spoj.com/problems/BTTNS"target="_blank">BTTNS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRDS" target="_blank">10509. Cards</a></td><td><a href="http://www.spoj.com/problems/CRDS"target="_blank">CRDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SRTMACH" target="_blank">10510. Sorting Machine</a></td><td><a href="http://www.spoj.com/problems/SRTMACH"target="_blank">SRTMACH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDIT" target="_blank">10537. Edit Distance Again</a></td><td><a href="http://www.spoj.com/problems/EDIT"target="_blank">EDIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DERP" target="_blank">10538. Derp</a></td><td><a href="http://www.spoj.com/problems/DERP"target="_blank">DERP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUNNIES" target="_blank">10539. Bunnies</a></td><td><a href="http://www.spoj.com/problems/BUNNIES"target="_blank">BUNNIES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALICESIE" target="_blank">10565. Alice Sieve</a></td><td><a href="http://www.spoj.com/problems/ALICESIE"target="_blank">ALICESIE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAPHCUT" target="_blank">10568. Graph Cut</a></td><td><a href="http://www.spoj.com/problems/GRAPHCUT"target="_blank">GRAPHCUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LONGCS" target="_blank">10570. Longest Common Substring</a></td><td><a href="http://www.spoj.com/problems/LONGCS"target="_blank">LONGCS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOCCERCH" target="_blank">10571. Soccer Challenge</a></td><td><a href="http://www.spoj.com/problems/SOCCERCH"target="_blank">SOCCERCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEATCON" target="_blank">10572. Cheating on the contest</a></td><td><a href="http://www.spoj.com/problems/CHEATCON"target="_blank">CHEATCON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OFFSTRAT" target="_blank">10573. Problem Offensive Strategy</a></td><td><a href="http://www.spoj.com/problems/OFFSTRAT"target="_blank">OFFSTRAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SCCCER" target="_blank">10574. Soccer Ceremony</a></td><td><a href="http://www.spoj.com/problems/SCCCER"target="_blank">SCCCER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YELBRICK" target="_blank">10575. The Yellow Brick Road</a></td><td><a href="http://www.spoj.com/problems/YELBRICK"target="_blank">YELBRICK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXCLSEC" target="_blank">10576. Exclusive Security</a></td><td><a href="http://www.spoj.com/problems/EXCLSEC"target="_blank">EXCLSEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DESRUG" target="_blank">10579. Desrugenstein</a></td><td><a href="http://www.spoj.com/problems/DESRUG"target="_blank">DESRUG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALLSAG" target="_blank">10581. Ball Stacking Again</a></td><td><a href="http://www.spoj.com/problems/BALLSAG"target="_blank">BALLSAG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEAGOD" target="_blank">10585. Searching God</a></td><td><a href="http://www.spoj.com/problems/SEAGOD"target="_blank">SEAGOD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROBMOR" target="_blank">10586. Problems in Moria</a></td><td><a href="http://www.spoj.com/problems/PROBMOR"target="_blank">PROBMOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENEM" target="_blank">10587. Enemies</a></td><td><a href="http://www.spoj.com/problems/ENEM"target="_blank">ENEM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PORTALUN" target="_blank">10588. Portal</a></td><td><a href="http://www.spoj.com/problems/PORTALUN"target="_blank">PORTALUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KING" target="_blank">10589. King</a></td><td><a href="http://www.spoj.com/problems/KING"target="_blank">KING</a><br>
+</td></tr>

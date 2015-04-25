@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/overwise"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MULTIPLY" target="_blank">146. Fast Multiplication Again</a></td><td><a href="http://www.spoj.com/problems/MULTIPLY"target="_blank">MULTIPLY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROMAN" target="_blank">236. Converting number formats</a></td><td><a href="http://www.spoj.com/problems/ROMAN"target="_blank">ROMAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NUMQDW" target="_blank">411. Number of quite different words</a></td><td><a href="http://www.spoj.com/problems/NUMQDW"target="_blank">NUMQDW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUDOKU2" target="_blank">1833. Sudoku</a></td><td><a href="http://www.spoj.com/problems/SUDOKU2"target="_blank">SUDOKU2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SETSTACK" target="_blank">1835. The SetStack Computer</a></td><td><a href="http://www.spoj.com/problems/SETSTACK"target="_blank">SETSTACK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIE" target="_blank">1837. Pie</a></td><td><a href="http://www.spoj.com/problems/PIE"target="_blank">PIE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TICKET" target="_blank">1838. Ticket to Ride</a></td><td><a href="http://www.spoj.com/problems/TICKET"target="_blank">TICKET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOOKCASE" target="_blank">1839. The Bookcase</a></td><td><a href="http://www.spoj.com/problems/BOOKCASE"target="_blank">BOOKCASE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PQUEUE" target="_blank">1840. Printer Queue</a></td><td><a href="http://www.spoj.com/problems/PQUEUE"target="_blank">PQUEUE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PPATH" target="_blank">1841. Prime Path</a></td><td><a href="http://www.spoj.com/problems/PPATH"target="_blank">PPATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINELAND" target="_blank">1842. Lineland Airport</a></td><td><a href="http://www.spoj.com/problems/LINELAND"target="_blank">LINELAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LEONARDO" target="_blank">1843. Leonardo Notebook</a></td><td><a href="http://www.spoj.com/problems/LEONARDO"target="_blank">LEONARDO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MICEMAZE" target="_blank">1845. Mice and Maze</a></td><td><a href="http://www.spoj.com/problems/MICEMAZE"target="_blank">MICEMAZE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PFDEP" target="_blank">1846. Project File Dependencies</a></td><td><a href="http://www.spoj.com/problems/PFDEP"target="_blank">PFDEP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NOCHANGE" target="_blank">1847. No Change</a></td><td><a href="http://www.spoj.com/problems/NOCHANGE"target="_blank">NOCHANGE</a><br>
+</td></tr>

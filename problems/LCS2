@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1812. Longest Common Substring II </h1>
+		<h2>Problem code: LCS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A string is finite sequence of          characters over a non-empty finite set &#931;.</p>
+<p>In this problem, &#931; is the set of         lowercase letters.</p>
+<p>Substring, also called factor, is a consecutive         sequence of          characters occurrences at least once in a string.</p>
+<p>Now your task is a bit        harder, for some given strings, find the length of the longest common substring         of them.</p>
+<p>Here common substring means a substring of two or more         strings.</p>
+<h3>Input</h3>
+<p>The input contains at most 10 lines, each line consists of no more than 100000 lowercase letters, representing a        string.</p>
+<h3>Output</h3>
+<p>The length of the longest common substring. If such string doesn't exist,  print "0" instead.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+alsdfkjfjkdsal
+fdjskalajfkdsla
+aaaajfaaaa
+
+<strong>Output:</strong>
+2
+</pre>
+<p><strong>Notice: new testcases added</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2007-09-24</td></tr>
+<tr><td>Time limit:</td><td>0.236s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abdelkarim"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NDIV" target="_blank">12933. n-divisors</a></td><td><a href="http://www.spoj.com/problems/NDIV"target="_blank">NDIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12D" target="_blank">13090. New Strategy </a></td><td><a href="http://www.spoj.com/problems/PCPC12D"target="_blank">PCPC12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12E" target="_blank">13091. Snakes and Ladders</a></td><td><a href="http://www.spoj.com/problems/PCPC12E"target="_blank">PCPC12E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12F" target="_blank">13092. Snakes and Ladders Again</a></td><td><a href="http://www.spoj.com/problems/PCPC12F"target="_blank">PCPC12F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12G" target="_blank">13093. Mosque</a></td><td><a href="http://www.spoj.com/problems/PCPC12G"target="_blank">PCPC12G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12H" target="_blank">13094. Beggars</a></td><td><a href="http://www.spoj.com/problems/PCPC12H"target="_blank">PCPC12H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12I" target="_blank">13095. peaks</a></td><td><a href="http://www.spoj.com/problems/PCPC12I"target="_blank">PCPC12I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCPC12J" target="_blank">13096. Amr Samir</a></td><td><a href="http://www.spoj.com/problems/PCPC12J"target="_blank">PCPC12J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HC12" target="_blank">13577. Card Game</a></td><td><a href="http://www.spoj.com/problems/HC12"target="_blank">HC12</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HC12II" target="_blank">13621. Security</a></td><td><a href="http://www.spoj.com/problems/HC12II"target="_blank">HC12II</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HC12III" target="_blank">13622. Dead Pixels</a></td><td><a href="http://www.spoj.com/problems/HC12III"target="_blank">HC12III</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KIMO1" target="_blank">14926. abdou set</a></td><td><a href="http://www.spoj.com/problems/KIMO1"target="_blank">KIMO1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KIMO4" target="_blank">15498. Kawigi quote</a></td><td><a href="http://www.spoj.com/problems/KIMO4"target="_blank">KIMO4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNYR04C" target="_blank">15634.  Lennys Lucky Lotto Lists</a></td><td><a href="http://www.spoj.com/problems/GNYR04C"target="_blank">GNYR04C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNYR04I" target="_blank">15636. Histology Assistant</a></td><td><a href="http://www.spoj.com/problems/GNYR04I"target="_blank">GNYR04I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNYR04H" target="_blank">15637. Mr Youngs Picture Permutations</a></td><td><a href="http://www.spoj.com/problems/GNYR04H"target="_blank">GNYR04H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NWERC05" target="_blank">15649. Unequalled Consumption</a></td><td><a href="http://www.spoj.com/problems/NWERC05"target="_blank">NWERC05</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULM09" target="_blank">15650. Dark roads</a></td><td><a href="http://www.spoj.com/problems/ULM09"target="_blank">ULM09</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULM02" target="_blank">15728. The Sierpinski Fractal</a></td><td><a href="http://www.spoj.com/problems/ULM02"target="_blank">ULM02</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULM2H" target="_blank">15733. Hall of Fountains</a></td><td><a href="http://www.spoj.com/problems/ULM2H"target="_blank">ULM2H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULM02C" target="_blank">15734. California Jones and the Gate to Freedom</a></td><td><a href="http://www.spoj.com/problems/ULM02C"target="_blank">ULM02C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULM02B" target="_blank">15735. Balanced Food</a></td><td><a href="http://www.spoj.com/problems/ULM02B"target="_blank">ULM02B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCUR98" target="_blank">15995. Self Numbers</a></td><td><a href="http://www.spoj.com/problems/MCUR98"target="_blank">MCUR98</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCU20A" target="_blank">16017. The Triangle Game</a></td><td><a href="http://www.spoj.com/problems/MCU20A"target="_blank">MCU20A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCU20E" target="_blank">16018. Edge Detection</a></td><td><a href="http://www.spoj.com/problems/MCU20E"target="_blank">MCU20E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TPC07" target="_blank">16178.  Change</a></td><td><a href="http://www.spoj.com/problems/TPC07"target="_blank">TPC07</a><br>
+</td></tr>

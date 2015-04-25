@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13816. Pheversos Game</h1>
+		<h2>Problem code: PGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;"><p style="margin-bottom: 0in; text-align: center;"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;"><strong>Pheverso's Game</strong></span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Matheus Pheverso is a well-known rogue, as everyone knows he used to be very mean with the couple in love, Danilo Ghyei and Raphael Boboleta. But now he's trying to change into being a better person. In order to do that, he will call some friends over to play his newest game and throw a game party next year. </span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"> <span style="font-family: Arial, sans-serif;"><span style="font-size: small;">The game &ldquo;Pheverso's Game&rdquo; is played in rounds by two contestants in which each one must pick one cell from a MxN board, add its number to the group's total score and then throw it away. Also, in order to avoid cheating, each cell is previously chosen and no one is allowed to choose a cell if it isn't at the beginning or at the end of some row. You also have to notice that when one cell is dropped, the row from where the cell has been taken gets a new configuration, resulting in a new beginning or a new end.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"> <span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Pheverso was playing that game with some friends and realized it's way too easy, so he decided to choose some rows and block their beginnings. When a row is blocked, a group is only able to choose a cell from the end of this row.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"> <span style="font-family: Arial, sans-serif;"><span style="font-size: small;">The goal of the game for each contestant is to hoard as much as they can, so the winner of the game is the one who holds the maximum amount of points in the end of the game. The game finishes when there are no remaining cells.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"> <span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Assuming that they both plays optimally and given the N, M dimensions, the initial state of the board,  the rows that are blocked, which player wins the game and what's the score of the winner.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in; text-align: center;"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;"><strong>Input</strong></span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;"> </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">The input </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">contains several test cases. A test case begins with a line containing integers N (1 </span></span></span><span style="color: #000020;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">&le;</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> N </span></span></span><span style="color: #000020;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">&le;</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> 1000), M (1 </span></span></span><span style="color: #000020;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">&le;</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> M </span></span></span><span style="color: #000020;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">&le;</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> 1000) and K </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">(</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">0 </span></span></span><span style="color: #000020;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">&le;</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> K &lt; N</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">)</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">, where N, M stands for the board dimensions and K for the total number of rows blocked. </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">On the second line there are K integers, the rows </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">that are blocked. </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Then follow N lines, each containing M integers representing the initial state of the board.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Every number in the </span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">board</span></span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> is a 32 bit signed integer. The last test case is followed by a line containing three zeros.</span></span></span></p>
+<p style="margin-bottom: 0in; text-align: center;">&nbsp;<strong>Output</strong></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="font-size: small;"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"> For each test case, </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">print a line containing</span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"> </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">&ldquo;</span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">first&rdquo; (without the quotes)</span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"> if the first player will win the game or &ldquo;</span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">second&rdquo; (without the quotes)</span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"> if the second player will win the game, </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">followed by an integer representing the amount achieved by the winner </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">when both of them plays optimally. </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">The game </span></span><span style="color: #333333;"><span style="font-family: Arial, sans-serif;">always have a winner.</span></span></span>&nbsp;&nbsp;</p>
+<p style="margin-bottom: 0in; text-align: center;"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;"><strong>Example</strong></span></span></span></p>
+<table style="width: 177px;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="65"></col> <col width="94"></col> </colgroup>
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="65">
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">Input</span></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="94">
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">Output</span></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="65" height="84">
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">2 			2 2</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">1 			2</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">500 			10</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">3 			10</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">3 			3 2</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">1 			3</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">0 			1 2</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">3 			7 4</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">0 			0 9</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">0 			0 0</span></span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="94">
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">second 			503</span></span></p>
+<p align="LEFT"><span style="font-family: Arial, sans-serif;"><span style="font-size: x-small;">first 			17</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;" align="LEFT">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="LEFT"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;"><strong>Explanation:</strong></span></span></span></p>
+<p style="margin-bottom: 0in;" align="LEFT">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">First Case &ndash; At first the two rows are blocked, so both players aren't able to choose either cell A[1][1] = 500 or A[2][1] = 3. Thus, the first player isn't able to grab the cell A[1][2] either, cause he would unlock to his opponent the greatest piece in the board, A[1][1] = 500. So he choose the cell A[2][2] = 10. Afterward his opponent grabs the cell A[2][1] = 3, force the first player to choose A[1][2] and set free the greatest piece in the board, therefore the second player is the winner achieving 503 total points (A[1][1] + A[2][1]) against 20 from the first player.</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Second Case &ndash; The game is as follows: </span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* firstPlayer: 9</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* secondPlayer: 2</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* firstPlayer: 1</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* secondPlayer: 3</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* firstPlayer: 7</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">* secondPlayer: 4</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">firstPlayer: 17 (Winner)</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">secondPlayer: 9</span></span></span></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><span style="color: #333333;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Remember, both contestants <span style="font-size: small;">plays optimally.</span></span></span></span></p>
+<p style="margin-bottom: 0in;" align="LEFT">&nbsp;</p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcd10">Mateus Dantas [ UFCG ]</a></td></tr>
+<tr><td>Date:</td><td>2013-02-19</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

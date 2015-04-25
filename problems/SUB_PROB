@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUB_PROB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6898. Substring Problem</h1>
+		<h2>Problem code: SUB_PROB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>String Matching is an important problem in computer science research  and finds applications in Bioinformatics, Data mining,pattern  recognition, Internet security and many more areas.</p>
+<p>The problem we consider here is a smaller version of it. You are given a string M  and N other strings smaller in length than M.  You have to find whether each of these N strings is a substring of M.  All strings consist of only alphanumeric characters.</p>
+<p>You are required to write a C/CPP code to solve the problem.</p>
+<h3>Input</h3>
+<p>Input to the program consists of a series of lines. The first line  contains the string M (no more than <strong>100000</strong> characters long). The next line contains an integer N (&lt;<strong>1000</strong>)  the number of query strings. Each of the next N lines contain a string  S (each of which is no more than <strong>2000</strong> characters long).</p>
+<h3>Output</h3>
+<p>Output should consist of N lines each with a character 'Y'/'N'  indicating whether the string S is a substring of String M or not.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre><code>abghABCDE<br />2<br />abAB</code><code><br />ab</code></pre>
+<br /><br /><strong>Output:</strong><br />&nbsp;<br />
+<pre><code>N<br />Y<br /></code></pre>
+</pre>
+<p><strong>Note:</strong> The test data for this problem not only consist of the official test cases from the contest,as well some cases of my own.</p>
+<p><strong>A testcase is added on 25.7.2010, after rejudging 3 users loose accepted.</strong></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/debanjan">:(){ :|: & };:</a></td></tr>
+<tr><td>Date:</td><td>2010-07-02</td></tr>
+<tr><td>Time limit:</td><td>0.029s-0.052s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 C99 strict COB GROOVY JS2 PYPY PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Codefest 2010 CW R#2</td></tr>	
+</table>

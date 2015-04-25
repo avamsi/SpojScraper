@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TCOUNT2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1730. Counting Triangles II</h1>
+		<h2>Problem code: TCOUNT2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We define the LEVEL of a triangle as in the following illustrative image:<br>
+<center><img src="https://www.spoj.com/content/duonghanguyen:tricount.png"></center><br>
+<p>And we continue defining the LEVEL of a hexagon. It's called level N hexagon if it&#8217;s joined by 6 triangles, each one is a level N triangle.<br>
+<center><img src="https://www.spoj.com/content/duonghanguyen:tcount2.png"></center><br>
+<p><b>Task:</b> All you have to do is to count all triangles in the &#8220;level N&#8221; hexagon.
+
+<h3>Input</h3>
+<p>The first line of the input contains an integer T - the number of test cases and T lines follow. Each line contains an integer N which is the level of the hexagon in that test case.
+
+<h3>Output</h3>
+<p>For each test case, you should write a seperate line: the number of triangles in the &#8220;level N&#8221; hexagon. (All answers will fit within the range of a 64-bit positive integer)
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+1
+
+<b>Output:</b>
+6
+</pre>
+
+<center><b>Be careful with certain languages</b></center>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/duonghanguyen">Unknown</a></td></tr>
+<tr><td>Date:</td><td>2007-08-06</td></tr>
+<tr><td>Time limit:</td><td>0.100s
+</td></tr>
+<tr><td>Source limit:</td><td>300B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASM C C++ 4.9 C99 strict D PAS fpc PAS gpc </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.spoj.pl/users/huyhung/">Tr&#7847;n Huy H&#432;ng</a></td></tr>	
+</table>

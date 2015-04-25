@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RESSTNCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21079. The Resistance</h1>
+		<h2>Problem code: RESSTNCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. When multiple resistors are connected to each other in a circuit, the net resistance depends on how they are connected. The total resistance of resistors connected in series is the sum of their individual resistance values.</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Resistors_in_series.svg/390px-Resistors_in_series.svg.png" alt="A diagram of several resistors, connected end to end, with the same amount of current going through each" width="390" height="106" /></p>
+<p><img class="mwe-math-fallback-png-inline tex" src="http://upload.wikimedia.org/math/1/d/e/1ded7e933d8c2a4915e8bebec5408efa.png" alt=" R_\mathrm{eq} = R_1  + R_2 + \cdots + R_n. " /></p>
+<p>The total resistance of resistors connected in parallel is the reciprocal of the sum of the reciprocals of the individual resistors.</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Resistors_in_parallel.svg/301px-Resistors_in_parallel.svg.png" alt="A diagram of several resistors, side by side, both leads of each connected to the same wires" width="301" height="177" /></p>
+<p><img class="mwe-math-fallback-png-inline tex" src="http://upload.wikimedia.org/math/3/e/4/3e426fea6b30964ba6ffbe692b069edb.png" alt=" \frac{1}{R_\mathrm{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots +  \frac{1}{R_n}. " /></p>
+<p>In this problem, we are constructing a long network of resistors composed of <strong>N</strong>&nbsp;blocks. Every block has two 1 ohm resistors, shown below by the upper-left figure. We would like for you to measure the net resistance across the two leftmost terminals in a circuit with <strong>N</strong> blocks. If the circuit has one block (<strong>N</strong>=1), then the net resistance across the leftmost terminals is 1 ohm, because the horizontal resistor is not in a path connecting the leftmost terminals. Similarly, for a circuit with two blocks (<strong>N</strong>=2), the net resistance is 2/3 ohms. The figures below illustrate this.</p>
+<p><img style="-webkit-user-select: none;" src="http://cs.uky.edu/~mcfa222/images/resistance.png" alt="" /></p>
+<p>Find the resistance A/B&nbsp;of the circuit composed of <strong>N</strong> blocks. Since these values can be enormous, reduce the fraction A/B to lowest terms P/Q (i.e., gcd(P,Q) = 1), and then print (P mod&nbsp;<strong>M</strong>)/(Q mod&nbsp;<strong>M</strong>), where <strong>M</strong> is the given modulus.</p>
+<h3>Input</h3>
+<p>The first line contains <strong>T</strong> test cases. Each of the next <strong>T</strong> lines contains two integers <strong>N</strong> and <strong>M</strong>.</p>
+<h3>Output</h3>
+<p>For each test case, print on its own line the numerator and denominator of the net resistance across the leftmost terminals in lowest terms modulo <strong>M</strong>, seperated by only the '/' character.</p>
+<h3>Constraints</h3>
+<ul>
+<li>1 &le; <strong>T</strong> &le; 10</li>
+</ul>
+<ul>
+<li>1 &le; <strong>N</strong>&nbsp;&le; 10<sup>6</sup></li>
+</ul>
+<ul>
+<li>1 &le; <strong>M</strong>&nbsp;&le; 10<sup>9</sup></li>
+</ul>
+<h3>Example</h3>
+<pre><span style="font-family: verdana, geneva;"><strong>Input:<br /></strong>4<br />1 1000000<br />2 100<br />2 2<br />50 1000<br /><strong>Output:<br /></strong>1/1<br />2/3<br />0/1<br />26/75</span></pre>
+<p><span style="font-family: verdana, geneva;">&nbsp;</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fahrbach">Matthew Fahrbach</a></td></tr>
+<tr><td>Date:</td><td>2014-09-20</td></tr>
+<tr><td>Time limit:</td><td>10s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+	
+</table>

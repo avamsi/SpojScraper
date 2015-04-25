@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BALLOON"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2270. Balloons in a Box</h1>
+		<h2>Problem code: BALLOON</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You must write a program that simulates placing spherical balloons into a rectangular box. 
+<p>The simulation scenario is as follows. Imagine that you are given a rectangular box and a set of points. Each point represents a position where you might place a balloon. To place a balloon at a point, center it at the point and inflate the balloon until it touches a side of the box or a previously placed balloon. You may not use a point that is outside the box or inside a previously placed balloon. However, you may use the points in any order you like, and you need not use every point. Your objective is to place balloons in the box in an order that maximizes the total volume occupied by the balloons. 
+<p>You are required to calculate the volume within the box that is not enclosed by the balloons. 
+<h3>Input</h3>
+<p>The input consists of several test cases. The first line of each test case contains a single integer n that indicates the number of points in the set (1<=n<=6). The second line contains three integers that represent the (x, y, z) integer coordinates of a corner of the box, and the third line contains the (x, y, z) integer coordinates of the opposite corner of the box. The next n lines of the test case contain three integers each, representing the (x, y, z) coordinates of the points in the set. The box has non-zero length in each dimension and its sides are parallel to the coordinate axes. 
+<p>The input is terminated by the number zero on a line by itself. 
+<h3>Output</h3>
+<p>For each test case print one line of output consisting of the test case number followed by the volume of the box not occupied by balloons. Round the volume to the nearest integer. Follow the format in the sample output given below. 
+<p>Place a blank line after the output of each test case.
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+0 0 0
+10 10 10
+3 3 3
+7 7 7
+0
+
+<b>Output:</b>
+Box 1: 774
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-01-03</td></tr>
+<tr><td>Time limit:</td><td>0.202s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC World Final 2002 (unofficial testdata)</td></tr>	
+</table>

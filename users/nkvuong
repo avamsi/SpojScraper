@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nkvuong"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/VCIRCLES" target="_blank">3863. Area of circles</a></td><td><a href="http://www.spoj.com/problems/VCIRCLES"target="_blank">VCIRCLES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPALIN" target="_blank">3866. Finding Palindromes</a></td><td><a href="http://www.spoj.com/problems/VPALIN"target="_blank">VPALIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VBOSS" target="_blank">3867. Who is The Boss</a></td><td><a href="http://www.spoj.com/problems/VBOSS"target="_blank">VBOSS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VMILI" target="_blank">3870. Military Story</a></td><td><a href="http://www.spoj.com/problems/VMILI"target="_blank">VMILI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCDEX" target="_blank">3871. GCD Extreme</a></td><td><a href="http://www.spoj.com/problems/GCDEX"target="_blank">GCDEX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VPARTY" target="_blank">3872. Party At School</a></td><td><a href="http://www.spoj.com/problems/VPARTY"target="_blank">VPARTY</a><br>
+</td></tr>

@@ -1,0 +1,104 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COWWORDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17539. Cows Language</h1>
+		<h2>Problem code: COWWORDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><code><span style="font-size: medium;">Like all bovines, Farmer John's cows speak the peculiar 'Cow'
+language. Like so many languages, each word in this language comprises
+a sequence of upper and lowercase letters (A-Z and a-z).  A word
+is valid if and only if each ordered pair of adjacent letters in
+the word is a valid pair.
+
+Farmer John, ever worried that his cows are plotting against him,
+recently tried to eavesdrop on their conversation. He overheard one
+word before the cows noticed his presence. The Cow language is
+spoken so quickly, and its sounds are so strange, that all that
+Farmer John was able to perceive was the total number of uppercase
+letters, U (1 &lt;= U &lt;= 250) and the total number of lowercase
+letters, L (1 &lt;= L &lt;= 250) in the word.
+
+Farmer John knows all P (1 &lt;= P &lt;= 200) valid ordered pairs of
+adjacent letters.  He wishes to know how many different valid
+words are consistent with his limited data.  However, since
+this number may be very large, he only needs the value modulo
+97654321.
+
+INPUT FORMAT:
+
+* Line 1: Three space-separated integers: U, L and P
+
+* Lines 2..P+1: Two letters (each of which may be uppercase or
+        lowercase), representing one valid ordered pair of adjacent
+        letters in Cow.
+
+SAMPLE INPUT :
+
+2 2 7
+AB
+ab
+BA
+ba
+Aa
+Bb
+bB
+
+INPUT DETAILS:
+
+The word Farmer John overheard had 2 uppercase and 2 lowercase
+letters.  The valid pairs of adjacent letters are AB, ab, BA, ba,
+Aa, Bb and bB.
+
+OUTPUT FORMAT:
+
+* Line 1: A single integer, the number of valid words consistent with
+        Farmer  John's data mod 97654321.
+
+SAMPLE OUTPUT :
+
+7
+
+OUTPUT DETAILS:
+
+The possible words are:
+AabB
+ABba
+abBA
+BAab
+BbBb
+bBAa
+bBbB</span></code></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kuro97">Coder nh&#224; m&#236;nh</a></td></tr>
+<tr><td>Date:</td><td>2013-12-17</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO 2011</td></tr>	
+</table>

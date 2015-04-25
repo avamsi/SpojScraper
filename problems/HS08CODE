@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HS08CODE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4186. Break a New RSA system</h1>
+		<h2>Problem code: HS08CODE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Today, Gerrob's RSA company has featured a New RSA cryptosystem: its public key is <em>n</em>, the secret keys are three distinct primes <em>p</em>, <em>q</em> and <em>r</em>, where <em>n</em>=<em>p</em>*<em>q</em>*<em>r</em>. Note that the ordinary RSA uses only 2 primes! Unfortunately some hackers have stolen a DVD from the company. It does not store the secret keys, only some information about the system, namely, the values of: <br /> &#966; (<em>n</em>) - Euler's totient function and  <br /> &#963; (<em>n</em>) - the sum of the divisors.<br /> Obviously you know also <em>n</em>, because that's public.</p>
+<p>Now, Gerrob's RSA employees are trying to determine  if hackers will be able to break the system. Could you help them to answer this question?</p>
+<h3>Input</h3>
+<p>The first line contains a single integer <em>T</em>, the number of test cases, where <em>T</em>&#8804; 20000. The following <em>T</em> lines each contains three numbers n, &#966; (<em>n</em>) and &#963; (<em>n</em>) in this order. There are 5 input sets.</p>
+<h3>Output</h3>
+<p>Output <em>T</em> lines, the values of <em>p</em>, <em>q</em> and <em>r</em> in increasing order. It is guaranteed that <em>p</em>, <em>q</em>, <em>r</em>&lt;10<sup>6</sup>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4
+30 8 72
+61321 54912 68040
+451464315257 451286179344 451642497600
+91896729624994213 91896040105364880 91897419147616160
+<strong>Output:</strong>
+2 3 5
+13 53 89
+6397 8039 8779
+231859 574261 690187
+</pre>
+<p><strong>Warning: large input/output data, be careful with certain languages </strong> <br /><br /></p>
+<p><strong>Warning: A naive algorithm will probably solve only the first input set. </strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-04-08</td></tr>
+<tr><td>Time limit:</td><td>0.081s-0.140s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>High School Programming League 2008/09 </td></tr>	
+</table>

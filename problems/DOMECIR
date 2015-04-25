@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DOMECIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11984. Dome of Circus</h1>
+		<h2>Problem code: DOMECIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;"><p style="font-family: Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: blue;">Description</p>
+<div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US">A travelling circus faces a tough challenge in designing the dome for its performances. The circus has a number of shows that happen above the stage in the air under the dome. Various rigs, supports, and anchors must be installed over the stage, but under the dome. The dome itself must rise above the center of the stage and has a conical shape. The space under the dome must be air-conditioned, so the goal is to design the dome that contains minimal volume.&nbsp;<br />You are given a set of n points in the space; (x<sub>i</sub>, y<sub>i</sub>, z<sub>i</sub>) for 1 &lt;= i &lt;= n are the coordinates of the points in the air above the stage that must be covered by the dome. The ground is denoted by the plane z = 0, with positive z coordinates going up. The center of the stage is on the ground at the point (0, 0, 0).&nbsp;<br />The tip of the dome must be located at some point with coordinates (0, 0, h) with h &gt; 0. The dome must have a conical shape that touches the ground at the circle with the center in the point (0, 0, 0) and with the radius of r. The dome must contain or touch all the n given points. The dome must have the minimal volume, given the above constraints.&nbsp;</div><div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US"></div><div style="font-family: 'Times New Roman', Times, serif; font-size: medium; text-align: center;" lang="en-US"><img src="http://poj.org/images/3962_1.png" alt="" /></div><div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US"><p style="font-family: Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: blue;">Input</p>
+<div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US">The first line of the input file contains a single integer number n (1 &lt;= n &lt;= 10 000) &mdash; the number of points under the dome. The following n lines describe points with three floating point numbers x<sub>i</sub>, y<sub>i</sub>, and z<sub>i</sub>&nbsp;per line &mdash; the coordinates of i-th point. All coordinates do not exceed 1000 by their absolute value and have at most 2 digits after decimal point. All zi are positive. There is at least one point with non-zero x<sub>i</sub>&nbsp;or y<sub>i</sub>.</div>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: blue;">Output</p>
+<div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US">Write to the output file a single line with two floating point numbers h and r &mdash; the height and the base radius of the dome. The numbers must be precise up to 3 digits after decimal point.</div><div style="font-family: 'Times New Roman', Times, serif; font-size: medium;" lang="en-US"><p style="font-family: Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: blue;">Sample Input</p>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: medium;"><table id="table1" style="border-collapse: collapse;" border="1" bordercolor="#000000"><tbody><tr><td><strong>#1</strong></td><td>1<br />1.00 0.00 1.00</td></tr><tr><td><strong>#2</strong></td><td>2<br />1.00 0.00 1.00<br />0.00 1.50 0.50</td></tr><tr><td><strong>#3</strong></td><td>3<br />1.00 0.00 1.00<br />0.00 1.50 0.50<br />-0.50 -0.50 1.00</td></tr></tbody></table></pre>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: blue;">Sample Output</p>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: medium;"><table id="table1" style="border-collapse: collapse;" border="1" bordercolor="#000000"><tbody><tr><td><strong>#1</strong></td><td>3.000 1.500</td></tr><tr><td><strong>#2</strong></td><td>2.000 2.000</td></tr><tr><td><strong>#3</strong></td><td>2.000 2.000</td></tr></tbody></table></pre>
+</div>
+</div>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-08-16</td></tr>
+<tr><td>Time limit:</td><td>0.431s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Northeastern Europe 2010</td></tr>	
+</table>

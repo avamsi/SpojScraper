@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SHAKTI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18150. SHAKTIMAN AND KILWISH</h1>
+		<h2>Problem code: SHAKTI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Since very long time shaktiman and kilwish have been fighting with  each other but the fight never came to end . So finally  I came to rescue . I decided that the result of the fight will be  decided by a mathematical game , in which  I will  write a number (N) . Kilwish and shaktiman will play the game  alternatively and each of them would subtract a number(n) [n is less than N]  such that N modulo n gives zero. The game is repeted turn by  turn until the one , who now cannot make a further move looses the game</p>
+<p>Shaktiman being weak at mathematics asks you for help , whether or not he can win in that particular case. If Shaktimaan wins that game then print "Thankyou Shaktiman" otherwise print "Sorry Shaktiman".The game begins with shaktimaan playing first move.It is well understood that both of them will make moves in optimal way.</p>
+<p><strong>INPUT</strong></p>
+<p>Input contains test cases t (&lt; 10^5)  and followed by t numbers (1 &lt;= N &lt;= 10^6 ).</p>
+<p><strong>OUTPUT</strong></p>
+<p>If Shaktimaan wins that game then print "Thankyou Shaktiman" otherwise print "Sorry Shaktiman".</p>
+<p><br /> <strong>Sample Input:</strong><br /> 2<br /> 212<br /> 424<br /> <strong><br /> Sample Output:</strong><br /> Thankyou Shaktiman<br /> Thankyou Shaktiman</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aqfaridi">aqfaridi</a></td></tr>
+<tr><td>Date:</td><td>2014-01-24</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

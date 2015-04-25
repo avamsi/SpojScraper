@@ -1,0 +1,136 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HAREFOX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>49. Hares and Foxes</h1>
+		<h2>Problem code: HAREFOX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>The Antique Comedians of Malidinesia play an interesting comedy
+where many animals occur. Because they want their plays to be as true as
+possible, a specialist studies the behaviour of various animals.
+Recently, he is interested in a binary dynamic ecological
+system hares-foxes (SHF). As a part of this project, you are asked to design
+and implement intelligent automatic target evaluation simulator
+(IATES) for this system. The behaviour of the SHF follows so
+called <I>standard model</I>, described by the following set of
+difference equations.
+
+<P ALIGN="Center">
+h<SUB>y+1</SUB> = a.h<SUB>y</SUB> - b.f<SUB>y</SUB>
+<BR>f<SUB>y+1</SUB> = c.f<SUB>y</SUB> + d.h<SUB>y</SUB>
+
+<P>where h<SUB>y</SUB> resp. f<SUB>y</SUB> represent the difference of the
+number of hares resp. foxes in year <SUB>y</SUB> and the reference count
+determined at the beginning of the experiment. The units of h<SUB>y</SUB>
+and f<SUB>y</SUB> are unknown. Therefore, h<SUB>y</SUB> and f<SUB>y</SUB>
+are to be treated as real numbers.
+Your task is to write a program to determine the long term evolution of SHF.
+
+
+<H3>Input</H3>
+
+<P>The input consists of <VAR>N</VAR> cases (equal to about 5000). The first line of the input
+contains only positive integer <VAR>N</VAR>. Then follow the cases.
+Each case consists of six real numbers <VAR>a, b, c, d,
+h<SUB>1998</SUB></VAR> and <VAR>f<SUB>1998</SUB></VAR>,
+written in this order on three lines, two numbers per line, separated
+by one or more spaces. The numbers are given in the classical format,
+i.e. optional sign, sequence of digits, optional dot and optional
+sequence of digits. The text form of a number
+does not exceed 10 characters. Each case is followed by one empty line.
+
+
+<H3>Output</H3>
+<p>
+For each case, print one of the following sentences:
+</p>
+<div align=justify><UL>
+
+<LI> '<TT>Ecological balance will develop.</TT>' -
+if after sufficiently long time the population of both hares and foxes 
+approaches the reference count with an arbitrary a priori given
+precision, i.e. <VAR>lim h<SUB>y</SUB>=0</VAR> and <VAR>lim
+f<SUB>y</SUB>=0</VAR>.
+
+<LI>'<TT>Hares will die out while foxes will overgrow.</TT>' -
+if after sufficiently long time the population of hares resp. foxes 
+falls under resp. exceeds any a priori given threshold, i.e.
+<VAR>lim h<SUB>y</SUB>=-infinity</VAR> and
+<VAR>lim f<SUB>y</SUB>=+infinity</VAR>.
+
+<LI>'<TT>Hares will overgrow while foxes will die out.</TT>' -
+if after sufficiently long time the population of foxes resp. hares
+falls under resp. exceeds any a priori given threshold, i.e.
+<VAR>lim h<SUB>y</SUB>=+infinity</VAR> and
+<VAR>lim f<SUB>y</SUB>=-infinity</VAR>.
+
+<LI>'<TT>Both hares and foxes will die out.</TT>' -
+if after sufficiently long time the population of both hares and foxes
+falls under any a priori given threshold, i.e.
+<VAR>lim h<SUB>y</SUB>=-infinity</VAR> and
+<VAR>lim f<SUB>y</SUB>=-infinity</VAR>.
+
+<LI>'<TT>Both hares and foxes will overgrow.</TT>' -
+if after sufficiently long time the population of both hares and foxes
+exceeds any a priori given threshold, i.e.
+<VAR>lim h<SUB>y</SUB>=+infinity</VAR> and
+<VAR>lim f<SUB>y</SUB>=+infinity</VAR>.
+
+<LI>'<TT>Chaos will develop.</TT>' - if none of the above mentioned 
+description fits.
+
+</UL></div>
+
+
+<H3>Example</H3>
+<PRE>
+Sample input:
+
+2
+2 0.5
+0.5 0.6
+2 3
+
+0.1 1 
+2 0.1
+1 1
+
+Sample output:
+
+Both hares and foxes will overgrow.
+Hares will die out while foxes will overgrow.
+</PRE>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1998</td></tr>	
+</table>

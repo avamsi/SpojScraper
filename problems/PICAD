@@ -1,0 +1,96 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PICAD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>58. Crime at Piccadily Circus</h1>
+		<h2>Problem code: PICAD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Sherlock Holmes is carrying out an investigation into the crime at Piccadily Circus. Holmes
+is trying to determine the maximal and minimal number of people staying simultaneously at the crime scene at a moment when the crime could have been commited. Scotland Yard has already carried out a thorough investigation already, interrogated everyone seen at the crime scene and determined what time they appeared
+at the crime scene and what time they left. Doctor Watson offered his help
+to process the data gathered by Scotland Yard and find the numbers interesting
+Sherlock Holmes, but he has some difficulties. Help him!
+</P>
+<H3> Task </H3>
+<p>
+Write a program which
+</p>
+<div align="justify">
+<ul>
+<li> reads from standard input the time interval during which the crime was commited
+and the data gathered by Scotland Yard,</li>
+<li> finds the minimal and
+the maximal number of people present simultaneously in the
+time interval when the crime could have been commited, (these numbers can be zero, though it would seem strange that noone
+was present at the crime scene when the crime was commited, but that's the type of crime Holmes and Watson have to deal with)</li>
+<li> writes the outcome to standard output.
+</li>
+</ul>
+</div>
+<H3> Input </H3>
+<P>
+Ten test cases (given one under another, you have to process all!).
+The first line of each test case consists of two integer numbers <i>p</i> and <i>k</i>,
+<i>0<=p<=k<=100000000</i>. These denote the first and the last moment when the crime
+could have been commited. The second line of each test case contains one integer
+<i>n, 3<=n<=5000</i>. This is the number of people interrogated by Scotland Yard. The next
+<i>n</i> lines consist of two integers - line <i>i+2</i> contains numbers <i>a<sub>i</sub></i> and
+<i>b<sub>i</sub></i> separated by a single space, <i>0<=a<sub>i</sub><=b<sub>i</sub><=1000000000</i>. These are
+the moments at which the <i>i</i>-th person apperared at and left the crime scene respectively.
+It means that the <i>i</i>-th person was at the crime scene for the whole time from moment <i>a<sub>i</sub></i> until moment <i>b<sub>i</sub></i> (inclusive).
+</P>
+<H3> Output </H3>
+<P>
+For every test case your program should write to the standard output only
+one line with two integers separated by a single space: the minimal and maximal number of people staying simultaneously at the crime scene, in the interval between moment <i>p</i> and <i>k</i>,
+(inclusive).
+</P>
+<H3>Example</H3>
+<P>Only one test case.</P>
+<pre>
+<tt><b>Input:</b>
+5 10
+4
+1 8
+5 8
+7 10
+8 9
+</tt>
+<tt><b>Output:</b>
+1 4
+</tt>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-10</td></tr>
+<tr><td>Time limit:</td><td>13s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B> (Algorithm Tamers)<br>Round IV, 2003</td></tr>	
+</table>

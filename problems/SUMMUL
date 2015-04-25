@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUMMUL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6286. Sum of products</h1>
+		<h2>Problem code: SUMMUL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One boy Petya decided to practice in addition and multiplication of numbers. For this he chose some positive integer n, and ordered all the ways to decompose it into two or more terms of positive integers, and the ways in different order terms are considered to be different (for example, for n = 3 there are three ways: 1 + 2, 2 + 1 and 1 + 1 + 1). Then he replaced all the plus signs with multiplication, and added the results (for n = 3: 1 × 2 + 2 × 1 + 1 × 1 × 1 = 5). After practicing for the day he decided to check the correctness of his calculations. Help Petya find the right answers.
+
+<h3>Input</h3>
+<p>The first line contains T (1 <= T <= 1000) - the number of tests. Following T lines contain n (1 <= n <= 10 ^ 9).
+
+<h3>Output</h3>
+<p>For each n from the input print the result Petya should get modulo 1000000007.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+1
+2
+3
+
+<b>Output:</b>
+0
+1
+5
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.170s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/, author: Alexey Shchepin</td></tr>	
+</table>

@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PLATON"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>327. Platon and Socrates</h1>
+		<h2>Problem code: PLATON</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Platon and Socrates one day decided to play a new game. They asked their friend to think of two numbers between 1 and 5000, not equal. Then they asked him to tell the product to Platon and the sum to Socrates. After that they tried to figure out what these numbers are. They played a lot of times but none of them could guess these numbers. Finally they made it!! Here is the dialogue:
+<div align=left>
+<ul>
+<li>[P] : I don't know the answer.
+<li>[S] : I knew you wouldn't know, I don't know it either.
+<li>[P] : Now I know it.
+<li>[S] : I know it too.
+</ul>
+
+Your task is to find all pairs Platon and Socrates could have been thinking about. Numbers are limited to the given range.
+</div>
+</p>
+<h3>Input</h3>
+<p>Input starts with a single integer t, the number of test cases (t<=2000). t test cases follow. Each test case consists of one line containing two integers <VAR>l r</var> seperated by a single space, denoting the range of numbers ( <VAR>1<= l < r <=5000</var>, <VAR>r-l < 200</var> ). 
+
+
+<h3>Output</h3>
+<p>For the i-th test case output a line with the text <VAR>case i</var>. In the next line print <VAR>n</var> - number of pairs from range <var>(l,r)</var>. Then exactly <VAR>n</var> lines follow with two numbers seperated by single space. The first number is not greater than the second. Pairs are printed in increasing sum order.
+<h3>Example</h3>
+
+<pre>
+<b>Input</b>
+2
+1 10
+2 8
+
+<b>Output</b>
+case 1
+0
+case 2
+0
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/freethinker">Bogusław K. Osuch</a></td></tr>
+<tr><td>Date:</td><td>2005-04-14</td></tr>
+<tr><td>Time limit:</td><td>15s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 C99 strict CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>:P</td></tr>	
+</table>

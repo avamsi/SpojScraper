@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DECOY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10877. Decoys and Diversions</h1>
+		<h2>Problem code: DECOY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Apparently, both sides of the battle are now using some sort of cat-and-mouse tactics on the battlefield. The rules are as follows: there are two battles happening simultaneously at different fields. The armies take turns retreating one of their two units to a different location; the retreat of an army automatically causes the opposing army on the same field to follow it. The one that is cornered (that is, has nowhere to retreat on their turn) will be the one that ultimately loses the battle. Given the description of the fields, and supposing that both commanders are perfect strategists, can you decide who is going to win?</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer <strong>T</strong>, the number of test cases. Each test case consists of two descriptions of the fields of the battle. A description begins with a line containing integers <strong>N </strong>(1 <span>&le;</span> N <span>&le;</span> 100), <strong>M</strong> (1 <span>&le;</span> M <span>&le;</span> 10000), the number of locations in the field and the number of roads connecting the locations, respectively. The following <strong>M</strong> lines each contain two integers <strong>u</strong>,<strong>v</strong> (1 <span>&le; u,v </span><span>&le; N) denoting that there is a one-way road connecting position u to the position v.</span> The initial location of all units is at position 1 in their respective fields.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing the result of the battle, assuming your side is the first to play. Print "I lose" if you're going to lose, "I win" if you're guaranteed to win or "Deadlock" if the battle will go on forever.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />2 1<br />1 2<br />2 1<br />1 2<br />2 2<br />1 2<br />2 1<br />2 1<br />1 2<br />3 2<br />1 2<br />2 3<br />2 1<br />1 2
+
+<strong>Output:</strong>
+I lose<br />Deadlock<br />I win <br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ffao">Fernando Fonseca [ITA]</a></td></tr>
+<tr><td>Date:</td><td>2012-03-01</td></tr>
+<tr><td>Time limit:</td><td>0.150s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

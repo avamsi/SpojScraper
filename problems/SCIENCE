@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCIENCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14387. Science</h1>
+		<h2>Problem code: SCIENCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Welcome, ladies and gentlemen, to Aperture Science. Astronauts, war heroes, Olympians -- you're here because we want the best, and you are it. That said it's time to make some science.</p>
+<p>Now I want each of you to stand on one of these buttons. Well done, we're making great progress here. Now let's do it again. Oh come on, don't stand on the same button. Move people! No, no, that button's only for the astronauts, you know who you are. What?! You say you can't do everything I ask. Ok let's start over. You there, the Olympian, figure out how many times we can do this. And make it quick, we have a lot more science to get through.</p>
+<h3>Input</h3>
+<p>The first line will contain N (2 &le; N &le; 200) giving the number of people (and the number of buttons) in the experiment. The next N lines will contain N characters each. If the jth character of the ith line is 'Y' it indicates that the ith person can stand on the jth button (it is 'N' otherwise). The last line of input will be a 0.</p>
+<h3>Output</h3>
+<p>If it is impossible to get everyone on the buttons at once output "NO SCIENCE" (quotes for clarity). Otherwise first output K, the maximum number of times everyone can be standing on buttons such that nobody stands on the same button more than once. After that output K lines. Each line should contain N integers separated by a space where the ith integer describes who is on the ith button. All of the lines should be valid and none of them should put the same person on the same button.&nbsp; If there are multiple solutions, output any of them.</p>
+<h3>Examples</h3>
+<pre><strong>Input:</strong>
+<br />3<br />YYY<br />NYY<br />YNY
+
+<strong>Output:</strong>
+<br />2<br />1 2 3<br />3 1 2<br /><strong><br />Input:</strong>
+<br />2<br />YN<br />YN
+<strong><br />Output:</strong>
+<br />NO SCIENCE</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/msg555">Mark Gordon</a></td></tr>
+<tr><td>Date:</td><td>2013-04-02</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>2012 University of Chicago Invitational Contest (but with harder constraints)</td></tr>	
+</table>

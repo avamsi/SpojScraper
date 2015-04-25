@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSHOP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18149. Rama and Friends</h1>
+		<h2>Problem code: GSHOP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mahesh and Ramashish are good friends. Each day Ramashish gives an array arr[0,1,2...,n-1] of size 'n' to Mahesh and asks him to modify it.<br>Modifying an array means to execute the following operation exactly 'k' times:<br>
+"Replace any array element 'x' by '-x' i.e multiply it by -1."<br>
+Note that this operation can be performed on an array element zero,one or more times.<br>
+But while modifying the array, Mahesh should also keep in mind that the sum of the elements of the final array should be <B>maximum possible</B>. Mahesh wants to go to sleep so he has to finish this job as soon as possible. Can you help him? 
+<h3>Input</h3>
+<p>First line of the input contains the number of test cases 'T'.<br>Then follow 2T lines describing the test cases(Two lines for every test case).<br>
+For each test case, First line has two space separated integers 
+'n'(Number of elements in the array) and 'k'(Number of times to execute the operation described above) and the next line has 'n' space separated integers in non-decreasing order which are the array elements.<br>
+<B>Constraints:</B><br>
+1<=T<=10.<br>
+1<=n<=100.<br>
+1<=k<=100.<br>
+For each 0<=i<=n-1,-10^5<=arr[i]<=10^5.<br> 
+<h3>Output</h3>
+<p>Output T lines, one for each test case denoting the maximum possible sum which can be obtained after modifying the array.
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1
+3 1
+-1 -1 1
+<b>Output:</b>
+1
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mahesh_mishra">Mahesh Mishra</a></td></tr>
+<tr><td>Date:</td><td>2014-01-24</td></tr>
+<tr><td>Time limit:</td><td>0.106s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF C C# C++ 4.3.2 C++ 4.9 C99 strict JAVA PAS fpc PYTH 2.7 PYTH 3.2.3 n </td></tr>
+<tr><td>Resource:</td><td>My Own Problem</td></tr>	
+</table>

@@ -1,0 +1,125 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ABSP1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18155. abs(a-b) I</h1>
+		<h2>Problem code: ABSP1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Recently Mr. Kopa Samsu is learning programming. On a very renowned online judge, he</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">found a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">problem:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">You are given an array of N numbers in non-decreasing order. You have to answer the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">summation of the absolute difference of all distinct pairs in the given array.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Do you know what distinct pair means? Suppose you have an array of 3 elements: 3 5 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Then all the distinct pairs are:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3 5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">5 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For this problem, Mr. Kopa Samsu implemented an algorithm to find the summation of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">absolute</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">difference of all distinct pairs. His algorithm was:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">int ABS(int a[],int n)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">{</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; int sum = 0;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; for (int i=1;i&lt;=n;i++)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; {</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; &nbsp; &nbsp; for (int j=i+1;j&lt;=n;j++)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; &nbsp; &nbsp; {</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sum += abs(a[i]a[j]);</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; }</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">}</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">After a great hard work, he finished the code. But alas!!! Frustration came around him when he</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">submitted his code, the judge gave the verdict &ldquo;TLE&rdquo; (Time Limit Exit). &ldquo;How can I get rid of</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">TLE?&rdquo; he thought a lot but couldn't find any way. Then suddenly, he remembered about you</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">that you(his friend) is very good at programming. So, he came to you seeking your help. Can</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">you help him solving this problem?</div>
+<p>Recently Mr. Kopa Samsu is learning programming. On a very renowned online judge, he</p>
+<p>found a</p>
+<p>problem:</p>
+<p>You are given an array of N numbers in non-decreasing order. You have to answer the</p>
+<p>summation of the absolute difference of all distinct pairs in the given array.</p>
+<p>Do you know what distinct pair means? Suppose you have an array of 3 elements: 3 5 6</p>
+<p>Then all the distinct pairs are:</p>
+<p>3 5</p>
+<p>3 6</p>
+<p>5 6</p>
+<p>For this problem, Mr. Kopa Samsu implemented an algorithm to find the summation of the</p>
+<p>absolute</p>
+<p>difference of all distinct pairs. His algorithm was:</p>
+<p>int ABS(int a[],int n)</p>
+<p>{</p>
+<p>&nbsp; &nbsp; int sum = 0;</p>
+<p>&nbsp; &nbsp; for (int i=1;i&lt;=n;i++)</p>
+<p>&nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; for (int j=i+1;j&lt;=n;j++)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sum += abs(a[i]-a[j]);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; }</p>
+<p>}</p>
+<p>After a great hard work, he finished the code. But alas!!! Frustration came around him when he</p>
+<p>submitted his code, the judge gave the verdict &ldquo;TLE&rdquo; (Time Limit Exit). &ldquo;How can I get rid of</p>
+<p>TLE?&rdquo; he thought a lot but couldn't find any way. Then suddenly, he remembered about you</p>
+<p>that you(his friend) is very good at programming. So, he came to you seeking your help. Can</p>
+<p>you help him solving this problem?</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The input data set starts with an integer T (T&lt;=1000), the number of test cases. Then every test</p>
+<p>case starts with a integer N (N&lt;=10000), the number of elements in the array. After that, the</p>
+<p>next line contains N integers A[i], where 1&lt;=i&lt;=N and 1&lt;=A[i]&lt;=1000000000 &amp; A[i] &lt;=</p>
+<p>A[i+1].</p>
+<h3>Output</h3>
+<p>Every test case should output an integer &ldquo;X&rdquo;, where X is the summation of the absolute</p>
+<p>difference of all the distinct pair.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+</pre>
+<pre>3
+3
+1 2 3
+3
+1 4 5
+3
+2 4 6
+
+<strong>Output:</strong>
+4
+8
+8</pre>
+<pre>Problem Set: S.M. Shaheen Sha, Raihat Zaman Neloy
+Data Set &amp; Solution: Raihat Zamane Neloy</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raihatneloy">Raihat Zaman Neloy</a></td></tr>
+<tr><td>Date:</td><td>2014-01-25</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

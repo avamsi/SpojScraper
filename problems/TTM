@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TTM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11470. To the moon</h1>
+		<h2>Problem code: TTM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Background</h3>
+<p><em>To The Moon</em> is a <a href="http://www.igf.com/">independent game</a> released in November 2011, it is a role-playing adventure game powered by <a title="RPG Maker" href="http://en.wikipedia.org/wiki/RPG_Maker">RPG Maker</a>.</p>
+<p style="text-align: center;"><img title="River && Anya .. ." src="http://www.spoj.com/content/zukow:TTM.jpg" alt="River && Anya .. ." width="640" height="480" /></p>
+<p>The premise of <em>To The Moon</em> is based around a technology that allows us to permanently reconstruct the memory on dying man. In this problem, we'll give you a chance, to implement the logic behind the scene.</p>
+<h3>Description</h3>
+<p>You&#8216;ve been given N integers A[1], A[2],..., A[N]. On these integers, you need to implement the following operations:</p>
+<ul>
+<li>C l r d: Adding a constant d for every {Ai | l <= i <= r}, and increase the timestamp by 1, this is the only operation that will cause the timestamp increase. </li>
+<li>Q l r: Querying the current sum of {Ai | l <= i <= r}.</li>
+<li>H l r t: Querying a history sum of {Ai | l <= i <= r} in time t.</li>
+<li>B t: Back to time t. And once you decide return to a past, you can never be access to a forward edition anymore.</li>
+</ul>
+<p> .. N, M &#8804; 10^5, |A[i]| &#8804; 10^9, 1 &#8804; l &#8804; r &#8804; N, |d| &#8804; 10^4 .. the system start from time 0, and the first modification is in time 1, t &#8805; 0, and won't introduce you to a future state. </p>
+<h3>Input</h3>
+<pre>n m<br />A1 A2 ... An<br />... (here following the m operations. )</pre>
+<h3>Output</h3>
+<pre>... (for each query, simply print the result. )</pre>
+<h3>Example</h3>
+<pre><pre style="text-align: left;"><strong>Input 1:</strong><br />10 5
+1 2 3 4 5 6 7 8 9 10
+Q 4 4
+Q 1 10
+Q 2 4
+C 3 6 3
+Q 2 4<br /><br /><strong>Output 1:</strong><br />4
+55
+9
+15<br /><strong><br />Input 2:<br /></strong>2 4
+0 0
+C 1 1 1
+C 2 2 -1
+Q 1 2
+H 1 2 1<br /><strong><br />Output 2:</strong><br />0
+1</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lychees">xiaodao</a></td></tr>
+<tr><td>Date:</td><td>2012-04-30</td></tr>
+<tr><td>Time limit:</td><td>0.090s-0.829s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem, 2012 Multi-University Training Contest 5</td></tr>	
+</table>

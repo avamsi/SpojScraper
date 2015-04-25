@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PIB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2138. Pibonacci</h1>
+		<h2>Problem code: PIB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+You might have heard of the Fibonacci numbers and of the number <b>pi</b>. If you let these two ideas
+merge, a new and esoteric concept comes into being: <b>the Pibonacci numbers</b>. These can be defined for
+real <b>x>=0</b> by:
+</p>
+
+<table width="90%" class="podklad2">
+<tr>
+<td nowrap><b>P(x) = 1</b></td>
+<td>for <b>0&lt;=x&lt;4</b></td>
+</tr>
+<tr>
+<td nowrap><b>P(x) = P(x-1) + P(x-pi)</b></td>
+<td>for <b>4&lt;=x</b>,</td>
+</tr>
+</table>
+
+<p>
+where <b>pi = 3.1415926535... </b> In this problem, you are asked to compute <b>P(x)</b>
+for a given <b>x</b>.
+</p>
+
+<h3>Input file specification</h3>
+<p>
+The input file contains several non-negative integer numbers (less than 30000) each on a separate
+line. The last line contains -1 marking the end of the input file.
+</p>
+
+<h3>Output file specification</h3>
+<p>
+For each non-negative real number in the input file, output the corresponding
+Pibonacci number. If the Pibonacci number be more than 50 digits long,
+divide it on the consecutive lines, outputting 50 digits on each
+(the last line may contain less digits).
+</p>
+
+<h3>Example</h3>
+
+<b>Input file:</b>
+<pre>
+0
+4
+11
+-1
+</pre>
+
+<p> </p>
+
+<b>Output file:</b>
+<pre>
+1
+2
+20
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>6.218s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2001; standard program and test data by Blue Mary</td></tr>	
+</table>

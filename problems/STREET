@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STREET"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3791. Street</h1>
+		<h2>Problem code: STREET</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are <b>n</b> lots on one side of a street (where <b>n</b> &#8804; 500). We would like to erect at
+most <b>k</b> apartment buildings on these lots. Each building must occupy an interval of
+at most <b>t</b> consecutive lots. Moreover, each lot <b>i</b> has a height restriction <b>r[i]</b> (where
+<b>r[i]</b> &#8804; 100). A building cannot exceed any of the height restriction of any lot on which
+it is built (that is, the maximal height of the building that can be erected on lot <b>i</b> to
+<b>j</b> is: </p> 
+<center>
+<p> <b>H = min{r[i], r[i + 1], ..., r[j]})</b></p>
+</center>
+<p>Hence, the maximum usable facade space of
+the building is: <b>H × (j &#8722; i + 1)</b>. We would like to have a program to select at most <b>k</b>
+non-overlapping intervals to erect the buildings such that the total usable facade space
+is maximized.
+</p>
+
+<h3>Example 1</h3>
+<p>
+Consider a street of length 10. The height restriction of each lot is as follows:
+<pre>7, 3, 12, 11, 13, 4, 8, 6, 6, 20</pre>
+Suppose we would like to erect at most <b>k</b> = 2 buildings and each building occu-
+pies at most <b>t</b> = 4 lots. Then, to maximize the total usable facade space, we choose
+two intervals <b>r</b>[3..5] = (12, 11, 13) and <b>r</b>[7..10] = (8, 6, 6, 20) (see &#8220;Example 1&#8221; in
+the figure below). The maximum usable facade space is 3 &#8727; min{12, 11, 13} + 4 &#8727;
+min{8, 6, 6, 20} = 57.
+</p>
+<p>
+<center><img src="/content/andmej:street.png" alt="Example" /></center>
+</p>
+
+<h3>Example 2</h3>
+<p>Suppose we would like to erect at most <b>k</b> = 3 buildings on the same street with the
+same height restrictions as in Example 1, and each building occupies at most <b>t</b> = 4 lots.
+Then, to maximize the total usable facade space, we choose three intervals <b>r</b>[3..5] =
+(12, 11, 13), <b>r</b>[7..9] = (8, 6, 6) and <b>r</b>[10..10] = (20) (see &#8220;Example 2&#8221; in the figure
+above). The maximum usable facade space is 3 &#8727; min{12, 11, 13} + 3 &#8727; min{8, 6, 6} +
+1 &#8727; 20 = 71.
+</p>
+
+<h3>Input</h3>
+<p>
+The input file is as follows: The first line contains three integers <b>n</b>, <b>k</b>, and
+<b>t</b> separated by a space character, where 1 &#8804; <b>n</b> &#8804; 500, 1 &#8804; <b>k</b> &#8804; n, and 1 &#8804; <b>t</b> &#8804; n. The
+rest of the <b>n</b>lines contain <b>n</b> positive integers representing the height restriction for the
+<b>n</b> lots. For Example 1, the input file looks like:
+<pre>
+10 2 4
+7
+3
+12
+11
+13
+4
+8
+6
+6
+20
+</pre>
+</p>
+<p>
+The input should be read from the standard input, and your program will be run several times, each one with one of the test cases.
+</p>
+
+<h3>Output</h3>
+<p>The output file contains an integer which is the maximum usable facade
+space. For the above example, the output file looks like:
+<pre>
+57
+</pre>
+</p>
+
+<hr align="center" />
+<a href="http://www.comp.nus.edu.sg">National Olympiad in Informatics (NOI) - 2007</a>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/andmej">Andrés Mejía-Posada</a></td></tr>
+<tr><td>Date:</td><td>2009-01-31</td></tr>
+<tr><td>Time limit:</td><td>1.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.comp.nus.edu.sg">National Olympiad in Informatics (NOI) - 2007</a></td></tr>	
+</table>

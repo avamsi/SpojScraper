@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nneonneo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ORIGLIFE" target="_blank">1267. Origin of Life</a></td><td><a href="http://www.spoj.com/problems/ORIGLIFE"target="_blank">ORIGLIFE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNEASY" target="_blank">1268. CN Tower (Easy)</a></td><td><a href="http://www.spoj.com/problems/CNEASY"target="_blank">CNEASY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNHARD" target="_blank">1269. CN Tower (Hard)</a></td><td><a href="http://www.spoj.com/problems/CNHARD"target="_blank">CNHARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PNTBYNUM" target="_blank">1270. Paint By Numbers</a></td><td><a href="http://www.spoj.com/problems/PNTBYNUM"target="_blank">PNTBYNUM</a><br>
+</td></tr>

@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kata69"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BLSUMSEQ" target="_blank">18964. Sum of subsequences</a></td><td><a href="http://www.spoj.com/problems/BLSUMSEQ"target="_blank">BLSUMSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSCHED" target="_blank">18965. Milk Scheduling</a></td><td><a href="http://www.spoj.com/problems/MSCHED"target="_blank">MSCHED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VACATION" target="_blank">18966. Vacation Planning</a></td><td><a href="http://www.spoj.com/problems/VACATION"target="_blank">VACATION</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COLORCAT" target="_blank">19037. The colors of cats</a></td><td><a href="http://www.spoj.com/problems/COLORCAT"target="_blank">COLORCAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLOPER" target="_blank">19274. Operators</a></td><td><a href="http://www.spoj.com/problems/BLOPER"target="_blank">BLOPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLOPER2" target="_blank">19301. Operators (new ver)</a></td><td><a href="http://www.spoj.com/problems/BLOPER2"target="_blank">BLOPER2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTGIFT3" target="_blank">21858. Christmas is coming</a></td><td><a href="http://www.spoj.com/problems/QTGIFT3"target="_blank">QTGIFT3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPATHS" target="_blank">22037. Shortest Paths</a></td><td><a href="http://www.spoj.com/problems/SPATHS"target="_blank">SPATHS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTDIVIDE" target="_blank">23492. One piece</a></td><td><a href="http://www.spoj.com/problems/QTDIVIDE"target="_blank">QTDIVIDE</a><br>
+</td></tr>

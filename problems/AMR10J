@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10J"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8064. Mixing Chemicals</h1>
+		<h2>Problem code: AMR10J</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are N bottles each having a different chemical. For each chemical i, you have determined C[i] which means that mixing chemicals i and C[i] causes an explosion. You have K distinct boxes. In how many ways can you divide the N chemicals into those boxes such that no two chemicals in the same box can cause an explosion together? <br />&nbsp;<br /><strong>INPUT</strong><br />The first line of input is the number of test cases T. T test cases follow each containing 2 lines. <br />The first line of each test case contains 2 integers N and K. <br />The second line of each test case contains N integers, the ith integer denoting the value C[i]. The chemicals are numbered from 0 to N-1. <br />&nbsp;<br /><strong>OUTPUT</strong> <br />For each testcase, output the number of ways modulo 1,000,000,007. <br />&nbsp;<br /><strong>CONSTRAINTS </strong><br />T &lt;= 50 <br />2 &lt;= N &lt;= 100 <br />2 &lt;= K &lt;= 1000 <br />0 &lt;= C[i] &lt; N <br />For all i, i != C[i] <br />&nbsp;<br /><strong>SAMPLE INPUT </strong><br />3 <br />3 3 <br />1 2 0 <br />4 3 <br />1 2 0 0 <br />3 2 <br />1 2 0 <br />&nbsp;<br /><strong>SAMPLE OUTPUT </strong><br />6 <br />12 <br />0 <br />&nbsp;<br /><strong>EXPLANATION </strong><br />In the first test case, we cannot mix any 2 chemicals. Hence, each of the 3 boxes must contain 1 chemical, which leads to 6 ways in total. <br />In the third test case, we cannot put the 3 chemicals in the 2 boxes satisfying all the 3 conditions.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>0.308s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

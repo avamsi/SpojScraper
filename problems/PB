@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>967. Parking Bay</h1>
+		<h2>Problem code: PB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+<img src="/content/simba:p6.jpg" style="float: right" vspace="3" hspace="8" alt="Illustration">
+
+Luke Skywalker successfully leads the rebel starship fleet to break the Emperor's siege of the planet Endor. The rebels, jubilant in their victory, return to their base on the moon of Endor to pay their homage to Princess Leia. They fly towards the parking bay where there are n parking slots in a row. One by one n starships numbered S<sub>1</sub> to S<sub>n</sub> enter the parking bay. Each rebel R<sub>i</sub> heads to his favorite parking slot P<sub>i</sub>, and if it is free, he docks his starship there. Otherwise, he continues further to the next free slot and occupies it. But if all succeeding slots are occupied, he leaves for good. How many sequences P<sub>i</sub> are such that every rebel can dock his starship?
+
+<h3>Input Description</h3>
+<p>
+The first line of the input is a positive integer t &#8804; 20, which is the number of test cases. The descriptions of the test cases follow one after the other. The description of each test case contains exactly one line (a positive integer), containing the value of n &#8804; 1000000.
+
+<h3>Output Description</h3>
+<p>
+The output consists of exactly t lines. The ith line should be A<sub>i</sub>%10007, where A<sub>i</sub> is the number of sequences in the i<sup>th</sup> case, and 'x%y' represents the remainder when x is divided by y.
+
+<h3>Example</h3>
+<p>
+<br><b>Input<br></b>
+
+2<br>
+1<br>
+2<br>
+
+<br><b>Output<br></b>
+1<br>
+3
+
+<br><br><b>Explanation</b>: In the given example, 11, 12 and 21 are the possible sequences.
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simba">Kashyap KBR</a></td></tr>
+<tr><td>Date:</td><td>2006-10-10</td></tr>
+<tr><td>Time limit:</td><td>0.524s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>Fair Isaac Programming Challenge - prelims 2006</td></tr>	
+</table>

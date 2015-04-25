@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCPC11B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9756. Alaska</h1>
+		<h2>Problem code: SCPC11B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The Alaska Highway runs 1422 miles from Dawson Creek, British Columbia to Delta Junction, Alaska.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Brenda would like to be the first person to drive her new electric car the length of the highway. Her car can travel up to 200 miles once charged at a special charging station. There is a charging station in Dawson Creek, where she begins her journey, and also several charging stations along the way. Can Brenda drive her car from Dawson City to Delta Juntion and back?</div>
+<p>&nbsp;</p>
+<p>The Alaska Highway runs 1422 miles from Dawson Creek, British Columbia to Delta Junction, Alaska.&nbsp;</p>
+<p>Brenda would like to be the first person to drive her new electric car the length of the highway. Her car can travel up to 200 miles once charged at a special charging station. There is a charging station in Dawson Creek, where she begins her journey, and also several charging stations along the way. Can Brenda drive her car from Dawson City to Delta Juntion and back?</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The input contains several scenario. Each scenario begins with a line containing n, a positive number indicating the number of charging stations. n lines follow, each giving the location of a filling station on the highway, including the one in Dawson City. The location is an integer between 0 and 1422, inclusive, indicating the distance in miles from Dawson Creek. No two filling stations are at the same location. A line containing 0 follows the last scenario.</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>For each scenario, output a line containing POSSIBLE if Brenda can make the trip.</p>
+<p>Otherwise, output a line containing the word IMPOSSIBLE.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+0
+900
+8
+1400
+1200
+1000
+800
+600
+400
+200
+0
+0
+
+<strong>Output:</strong>
+IMPOSSIBLE
+POSSIBLE<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aliarous">Ali Arous</a></td></tr>
+<tr><td>Date:</td><td>2011-10-19</td></tr>
+<tr><td>Time limit:</td><td>4.849s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Syrian Collegiate Programming Contest 2011</td></tr>	
+</table>

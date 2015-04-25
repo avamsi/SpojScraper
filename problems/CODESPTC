@@ -1,0 +1,99 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CODESPTC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9723. Card Shuffling</h1>
+		<h2>Problem code: CODESPTC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Here is an algorithm for shuffling N cards:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1) The cards are divided into K equal piles, where K is a factor of N.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2) The bottom N / K cards belong to pile 1 in the same order (so the bottom card of the initial pile is the bottom card of pile 1).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3) The next N / K cards from the bottom belong to pile 2, and so on.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">4) Now the top card of the shuffled pile is the top card of pile 1. The next card is the top card of pile 2,..., the Kth card of the shuffled pile is the top card of pile K. Then (K + 1)th card is the card which is now at the top of pile 1, the (K + 2)nd is the card which is now at the top of pile 2 and so on.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">For example, if N = 6 and K = 3, the order of a deck of cards "ABCDEF" (top to bottom) when shuffled once would change to "ECAFDB".</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Given N and K, what is the least number of shuffles needed after which the pile is restored to its original order?</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The first line contains the number of test cases T. The next T lines contain two integers each N and K.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output T lines, one for each test case containing the minimum number of shuffles needed. If the deck never comes back to its original order, output -1.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Constraints:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">T &lt;= 10000</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2 &lt;= K &lt;= N &lt;= 10^9</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">K will be a factor of N.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Sample Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">6 3</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">4 2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">5 5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Sample Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">4</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2</div>
+<p>&nbsp;</p>
+<p>Here is an algorithm for shuffling N cards:</p>
+<p>1) The cards are divided into K equal piles, where K is a factor of N.</p>
+<p>2) The bottom N / K cards belong to pile 1 in the same order (so the bottom card of the initial pile is the bottom card of pile 1).</p>
+<p>3) The next N / K cards from the bottom belong to pile 2, and so on.</p>
+<p>4) Now the top card of the shuffled pile is the top card of pile 1. The next card is the top card of pile 2,..., the Kth card of the shuffled pile is the top card of pile K. Then (K + 1)th card is the card which is now at the top of pile 1, the (K + 2)nd is the card which is now at the top of pile 2 and so on.</p>
+<p>&nbsp;</p>
+<p>For example, if N = 6 and K = 3, the order of a deck of cards "ABCDEF" (top to bottom) when shuffled once would change to "ECAFDB".</p>
+<p>&nbsp;</p>
+<p>Given N and K, what is the least number of shuffles needed after which the pile is restored to its original order?</p>
+<p>&nbsp;</p>
+<p><strong>Input:</strong></p>
+<p>The first line contains the number of test cases T. The next T lines contain two integers each N and K.</p>
+<p>&nbsp;</p>
+<p><strong>Output</strong>:</p>
+<p>Output T lines, one for each test case containing the minimum number of shuffles needed. If the deck never comes back to its original order, output -1.</p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+<p>T &lt;= 10000</p>
+<p>2 &lt;= K &lt;= N &lt;= 10^9</p>
+<p>K will be a factor of N.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Input:</strong></p>
+<p>3</p>
+<p>6 3</p>
+<p>4 2</p>
+<p>5 5</p>
+<p>&nbsp;</p>
+<p><strong>Sample Output:</strong></p>
+<p>6</p>
+<p>4</p>
+<p>2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2011-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.445s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem used for CodeSprint - InterviewStreet Contest</td></tr>	
+</table>

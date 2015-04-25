@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PALSEC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>160. Choosing a Palindromic Sequence</h1>
+		<h2>Problem code: PALSEC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>Given two sequences of words: X=(x<SUB>1</SUB>,...,x<SUB>n</SUB>) and Y=(y<SUB>1</SUB>,...,y<SUB>n</SUB>), determine how many binary sequences P=(p<SUB>1</SUB>,...,p<SUB>n</SUB>) exist, such 
+	that the word concatenation z<SUB>1</SUB>z<SUB>2</SUB>...z<SUB>n</SUB>, where z<SUB>i</SUB>=x<SUB>i</SUB> iff p<SUB>i</SUB>=1 and z<SUB>i</SUB>=y<SUB>i</SUB> iff p<SUB>i</SUB>=0,
+	is a palindrome (a word which is the same when read from left to right and from 
+	right to left).
+</P>
+<h3>Input</h3>
+<p>
+	The input begins with the integer t, the number of test cases. Then t test 
+	cases follow.
+</p>
+<p>
+	For each test case the first line contains the positive integer n - the number 
+	of words in a sequence (1&lt;=n&lt;=30). The following n lines contain 
+	consecutive words of the sequence X, one word per line. The next n lines 
+	contain consecutive words of the sequence Y, one word per line. Words consist 
+	of lower case letters of the alphabet ('a' to 'z'), are non-empty, and not 
+	longer than 400 characters.
+</p>
+<h3>Output</h3>
+<p>
+	For each test case output one line containing a single integer - the number of 
+	different possible sequences P.
+</p>
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+1
+5
+ab
+a
+a
+ab
+a
+a
+baaaa
+a
+a
+ba
+
+<b><tt>Sample output:</tt></b>
+12
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-08-07</td></tr>
+<tr><td>Time limit:</td><td>1.272s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IV Polish Olympiad in Informatics (Wojciech Rytter)</td></tr>	
+</table>

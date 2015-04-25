@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NE06D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7627. Driving Direction</h1>
+		<h2>Problem code: NE06D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Contrary to the popular belief, alien flying saucers cannot fly  arbitrarily around our planet Earth. Their touch down and take off  maneuvers are extremely energy consuming, so they carefully plan their mission  to Earth to touch down in one particular place, then hover above the  ground carrying out their mission, then take off. It was all so easy  when human civilization was in its infancy, since flying saucers can  hover above all the trees and building, and their shortest path from one  mission point to the other was usually a simple straight line -- the  most efficient way to travel. However, modern cities have so tall  skyscrapers that flying saucers cannot hover above them and the task of  navigating modern city became quite a complex one. You were hired by an alien  spy to write a piece of software that will ultimately give flying  saucers driving directions throughout the city. As your first assignment  (to prove your worth to your alien masters) you should write a program  that computes the shortest distance for a flying saucer from one point  to another. This program will be used by aliens as an aid in planning  of mission energy requirements.</p>
+<p>The problem is simplified by several  facts. First of all, since flying saucer can hover above most of the  buildings, you are only concerned with locations of skyscrapers. Second,  the problem is actually twodimensional -- you can look at everything  ``from above" and pretend that all objects are situated on <span><em>OXY</em></span> Cartesian plane. Flying saucer is represented by a circle of radius <span><em>r</em></span> , and  since modern cities with skyscrapers tend to be regular, every skyscraper  is represented with a rectangle whose sides are parallel to <span><em>OX</em></span> and <span><em>OY</em></span> axes.</p>
+<p>By definition, the location of flying saucer is the location of  its center, and the length of the path it travels is the length of the  path its center travels. During its mission flying saucer can touch  skyscrapers but it cannot intersect them.</p>
+<p>At the first picture a flying  saucer of <span><em>r</em> = 1</span> has to get from point <span><em>A</em></span> to point <span><em>B</em></span> . The straight dashed  line would have been the shortest path if not for skyscraper 1. The  shortest way to avoid skyscraper 1 is going around its top right corner,  but skyscraper 2 is too close to fly there. Thus, the answer is to go  around the bottom left corner of skyscraper 1 for a total path length of  10.570796.</p>
+<p>In the second picture it is impossible for a flying saucer  of <span><em>r</em> = 2</span> to get from point <span><em>A</em></span> to point <span><em>B</em></span> , since all skyscrapers are too  close to fly in between them.</p>
+<p>In the third picture flying saucer of <span><em>r</em> = 1</span> has to fly in a slalom-like way around two skyscrapers in order to  achieve the shortest path of length 11.652892 between <span><em>A</em></span> and <span><em>B</em></span> .</p>
+<p> </p>
+<p><img src="../../../content/min_25:ne06d.png" border="0" alt="epsfbox{p3705.eps}" width="640" align="BOTTOM" /></p>
+<h3>Input</h3>
+<p>The input file contains several test cases, each of them as described below.</p>
+<p>The first line of the input file contains integer numbers <span><em>r</em></span> and <span><em>n</em></span> <span>(1 &#8804; r &#8804; 100, 0 &#8804; n &#8804; 30)</span> , where <span><em>r</em></span> is the radius of the flying  saucer, and <span><em>n</em></span> is the number of skyscrapers. The next line contains four  integer numbers <span><em>x</em><sub>A</sub></span> , <span><em>y</em><sub>A</sub></span> , <span><em>x</em><sub>B</sub></span> , and <span><em>y</em><sub>B</sub></span> <span>(-1000 &#8804; <em>x</em><sub>A</sub>, <em>y</em><sub>A</sub>, <em>x</em><sub>B</sub>, <em>y</em><sub>B</sub> &#8804; 1000)</span> , where  <span>(<em>x</em><sub>A</sub>, <em>y</em><sub>A</sub>)</span> are the coordinates of the starting point of the flying  saucer's mission and  <span>(<em>x</em><sub>B</sub>, <em>y</em><sub>B</sub>)</span> are the coordinates of its finishing point.</p>
+<p>The following <span><em>n</em></span> lines describe skyscrapers. Each skyscraper is  represented by four integer numbers <span><em>x</em><sub>1</sub></span> , <span><em>y</em><sub>1</sub></span> , <span><em>x</em><sub>2</sub></span> , and  <span><em>y</em><sub>2</sub>(-1000 &#8804; <em>x</em><sub>1</sub>, <em>y</em><sub>1</sub>, <em>x</em><sub>2</sub>, <em>y</em><sub>2</sub> &#8804; 1000, <em>x</em><sub>1</sub> < <em>x</em><sub>2</sub>, <em>y</em><sub>1</sub> < <em>y</em><sub>2</sub>)</span> -- coordinates of the corners  of the corresponding rectangle.</p>
+<p>Skyscrapers neither intersect nor touch  each other. Starting and finishing points of the flying saucer's  mission are valid locations for flying saucer, that is, it does not  intersect any skyscraper in those points, but may touch some of them.</p>
+<h3>Output</h3>
+<p>For each test case, write to the output a line with the text ``<tt>no solution</tt>" (without quotes) if  the flying saucer cannot reach its finishing point from the starting  one. Otherwise, write to the output a line with a single number -- the  shortest distance that the flying saucer needs to travel to get from the  starting point to the finishing point. Answer has to be precise to at  least 6 digits after the decimal point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>1 3 <br />2 7 7 1 <br />3 2 6 4 <br />7 5 9 8 <br />1 8 5 9 <br />2 4 <br />0 0 5 6 <br />8 3 10 6 <br />5 9 9 10 <br />1 4 2 8 <br />3 1 5 3 <br />1 2 <br />0 5 10 5 <br />2 2 4 5 <br />6 5 8 8<br /></pre>
+<br /><strong>Output:</strong><br />
+<pre>10.570796 <br />no solution <br />11.652892<br /></pre>
+<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-10-22</td></tr>
+<tr><td>Time limit:</td><td>0.778s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Northeastern European Regional Contest</td></tr>	
+</table>

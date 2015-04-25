@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/beo_chay_so"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MATRIX" target="_blank">374. Count maximum matrices</a></td><td><a href="http://www.spoj.com/problems/MATRIX"target="_blank">MATRIX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOURS" target="_blank">387. Travelling tours</a></td><td><a href="http://www.spoj.com/problems/TOURS"target="_blank">TOURS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRACTION" target="_blank">403. Sort fractions</a></td><td><a href="http://www.spoj.com/problems/FRACTION"target="_blank">FRACTION</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BIRTHDAY" target="_blank">972. Birthday</a></td><td><a href="http://www.spoj.com/problems/BIRTHDAY"target="_blank">BIRTHDAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SORTBIT" target="_blank">1182. Sorted bit squence</a></td><td><a href="http://www.spoj.com/problems/SORTBIT"target="_blank">SORTBIT</a><br>
+</td></tr>

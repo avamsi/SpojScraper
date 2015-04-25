@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MINI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10557. MINI IN DANGER!!!</h1>
+		<h2>Problem code: MINI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a n x n board.<br />Tom is playing a game in which there are n*n blocks which can be filled with numbers from 0 to n-1 in some arbitrary way.<br />The rule of the game is that the board should be filled in such a way that the sum of each row and column should be divisible by n.<br />Tom has set the board in the winning configuration.But now the intelligent and notorious daughter of Tom, Mini comes and changes the configuration of the board.<br />But she is scared now as her dad is about to come home.She realizes that dad will get angry if he sees that the board is not in the winning configuration and <br />he will scold her.Mini wants to know the number of ways in which the board can be restored to a winning configuration.Please help her out.<br /><br />INPUT<br /><br />First line consits of an integer T and then T test cases follow.<br />Having the value of N &nbsp;<br /><br />OUTPUT<br /><br />For each test case you have to output the ways%1000000009 in a seperate line. <br /><br />Constraints:<br />T &lt;= 10^6<br />N will be between 1 and 2^64-1 and not a multiple of 1000000009<br /><br />SAMPLE EXAMPLE<br />Input:<br />1<br />1<br /><br />Output:<br />1</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/k_theulti">anuj</a></td></tr>
+<tr><td>Date:</td><td>2012-02-05</td></tr>
+<tr><td>Time limit:</td><td>0.216s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

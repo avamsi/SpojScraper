@@ -1,0 +1,36 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/keedap"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RAONE" target="_blank">10738. Ra-One Numbers</a></td><td><a href="http://www.spoj.com/problems/RAONE"target="_blank">RAONE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GONE" target="_blank">10790. G-One Numbers</a></td><td><a href="http://www.spoj.com/problems/GONE"target="_blank">GONE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AGS" target="_blank">10966. Aritho-geometric Series (AGS)</a></td><td><a href="http://www.spoj.com/problems/AGS"target="_blank">AGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LUCIFER" target="_blank">10968. LUCIFER Number</a></td><td><a href="http://www.spoj.com/problems/LUCIFER"target="_blank">LUCIFER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AP2" target="_blank">11063. AP - Complete The Series (Easy)</a></td><td><a href="http://www.spoj.com/problems/AP2"target="_blank">AP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AP3" target="_blank">11066. AP - Complete The Series v2</a></td><td><a href="http://www.spoj.com/problems/AP3"target="_blank">AP3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GP1" target="_blank">11244. GP - Complete the Series v1 ()</a></td><td><a href="http://www.spoj.com/problems/GP1"target="_blank">GP1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GONESORT" target="_blank">11321. G-One Sort</a></td><td><a href="http://www.spoj.com/problems/GONESORT"target="_blank">GONESORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LUCISORT" target="_blank">11334. Lucifer Sort</a></td><td><a href="http://www.spoj.com/problems/LUCISORT"target="_blank">LUCISORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EASYMATH" target="_blank">11391. EASY MATH</a></td><td><a href="http://www.spoj.com/problems/EASYMATH"target="_blank">EASYMATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FIBTWIST" target="_blank">11409. Fibonacci With a Twist</a></td><td><a href="http://www.spoj.com/problems/FIBTWIST"target="_blank">FIBTWIST</a><br>
+</td></tr>

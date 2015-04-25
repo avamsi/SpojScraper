@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TREESUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7363. Tree Sum</h1>
+		<h2>Problem code: TREESUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let Lx denote the level of a node x in a rooted tree. Lx is 1 if x is the root, otherwise Lx = 1 + Ly, where y is the parent of x in the rooted tree.<br /><br />You need to calculate the sum Lx ^ K for all nodes x in the tree.<br /><br />Input :<br />The first line contains the number of test cases T. T test cases follow. The first line of each test case contains N and K, where N is the number of nodes in the tree. The following N - 1 lines contain two integers ai and bi, indicating an edge between nodes ai and bi in the tree. There is a blank line after each test case.<br /><br />Output :<br />Output N lines for each test case. The ith line should contain the required sum if the tree is rooted at node i. Output all values modulo 1000000007. Output a blank line after each test case.<br /><br />Sample Input :<br />2<br />3 2<br />0 1<br />1 2<br /><br />3 3<br />0 1<br />0 2<br /><br />Sample Output :<br />14<br />9<br />14<br /><br />17<br />36<br />36<br /><br />Constraints :<br />1 &lt;= T &lt;= 10<br />1 &lt;= N &lt;= 20000<br />1 &lt;= K &lt;= 20<br />0 &lt;= ai,bi &lt; N</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-09-20</td></tr>
+<tr><td>Time limit:</td><td>1.570s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, used for Al Khwarizm '10</td></tr>	
+</table>

@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/A_W_S_N"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13738. Happy Valentine Day (Valentine Maze Game)</h1>
+		<h2>Problem code: A_W_S_N</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;"><strong><span style="font-size: medium;">Happy Valentine Day!</span></strong></p>
+<p style="text-align: center;"><img title="VMaze" src="http://www.printactivities.com/Mazes/Shape_Mazes/Heart_Maze.gif" alt="Valentine Maze" width="300" height="333" /></p>
+<p style="text-align: center;"><span style="font-size: xx-small;"><span style="font-family: 'andale mono', times;">Picture Source: <a title="VMaze Source" href="http://www.printactivities.com/Mazes/Shape_Mazes/Heart_Maze.html" target="_blank">http://www.printactivities.com/Mazes/Shape_Mazes/Heart_Maze.html</a></span></span></p>
+<p>In this valentine day, Tjandra Satria Gunawan (TSG) have a mission to date with A** W****** S****** N******(AWSN), Before TSG meet AWSN, TSG want to collect all the chocolate in entire land/maze then share all the chocolate with AWSN later, but AWSN doesn't like to wait, so TSG must collect all chocolate as fast as possible before meet AWSN. Please help TSG to complete this mission. Given a map size <strong>m</strong>&times;<strong>n</strong> (1&lt;<strong>m</strong>,<strong>n</strong>&le;100), and the map:</p>
+<p>'<strong>#</strong>' denoting wall (TSG can't walk to this area)</p>
+<p>'<strong>.</strong>' denotning road (TSG can walk to this area)</p>
+<p>'<strong>C</strong>' denoting chocolate (also walkable area, appear less than 10 times on the map)</p>
+<p>'<strong>T</strong>' denoting&nbsp;<strong><span style="text-decoration: underline;">T</span></strong>SG (also walkable area,&nbsp;only appear once on the map)</p>
+<p>'<strong>W</strong>' denoting A<strong><span style="text-decoration: underline;">W</span></strong>SN (also walkable area,&nbsp;only appear once on the map)</p>
+<p>Tjandra can move up, down, left or right, and cost one unit of time every movement.</p>
+<h3>Input</h3>
+<p>The first line of input, there's one integer <strong>T</strong>&nbsp;(<strong>T</strong>&le;30) denoting number of test case, then <strong>T</strong>&nbsp;case(s) follow,</p>
+<p>For each test case:</p>
+<p>--&gt; First line contains two integers <strong>m</strong> and <strong>n</strong> denoting size of map</p>
+<p>--&gt; next <strong>m</strong> line(s) contains <strong>n</strong> characters that's the map description.</p>
+<h3>Output</h3>
+<p>For each test case, output minimum of tme required to complete this mission, if it's impossible to complete this mission, output "<span style="text-decoration: underline;">Mission Failed!</span>" without quotes.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>8</pre>
+<pre>3&nbsp;3</pre>
+<pre>T..<br />...<br />..W</pre>
+<pre>3 6</pre>
+<pre>######<br />#T..W#<br />######</pre>
+<pre>3 6</pre>
+<pre>######<br />#T#.W#<br />######</pre>
+<pre>3 6</pre>
+<pre>##C###<br />#T..W#<br />######</pre>
+<pre>3 6</pre>
+<pre>C#C###<br />.T..W#<br />######</pre>
+<pre>5 10</pre>
+<pre>##########<br />#T.#.C#..#<br />#..#..#..#<br />#..W..#..#<br />##########</pre>
+<pre>5 10</pre>
+<pre>##########<br />#T.#.C#.C#<br />#..#..#..#<br />#..W..#..#<br />##########</pre>
+<pre>5 10</pre>
+<pre>##########<br />#C.#.C#.C#<br />#..#..#..#<br />#..T..W..#<br />##########</pre>
+<pre><strong>Output:</strong></pre>
+<pre>4</pre>
+<pre>3</pre>
+<pre>Mission Failed!</pre>
+<pre>5</pre>
+<pre>9</pre>
+<pre>12</pre>
+<pre>Mission Failed!</pre>
+<pre>23</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: #339966;"><span style="color: #339966;"><strong><span style="text-decoration: underline;">Time Limit &asymp;&nbsp;5*(My Program (Semi Bruteforce) Speed)</span></strong></span></span></p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.643s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My Love (A_W_S_N) \(^_^)/ I love her since 2008 (when I was studying at EKASMA High School) until present ;-)</td></tr>	
+</table>

@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAXWOODS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12474. MAXIMUM WOOD CUTTER</h1>
+		<h2>Problem code: MAXWOODS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>Problem Statement:</strong></p>
+<p><img src="https://dl.dropboxusercontent.com/u/78558568/tree3.png" alt="" width="821" height="365" /></p>
+<p><strong><br /></strong></p>
+<p>The image explains it all. You initially step at 0,0 facing right. At each step you can move according to the conditions specified in the image. You cannot step into the blocked boxes (in blue).  Find the maximum number of trees you can cut.</p>
+<p><strong>Input:</strong></p>
+<p>The first line consists of an integer t, the number of test cases. For each test case the first line consists of two integers m and n, the number of rows and columns. Then follows the description of the matrix M.</p>
+<p>M[i][j]=&rsquo;T&rsquo; if the region has a tree.</p>
+<p>M[i][j]=&rsquo;#&rsquo; if the region is blocked.</p>
+<p>M[i][j]=&rsquo;0&rsquo; (zero) otherwise.</p>
+<p><strong>Output:</strong></p>
+<p>&nbsp;</p>
+<p>For each test case find the maximum trees that you can cut.</p>
+<p>&nbsp;</p>
+<p><strong>Input Constraints:</strong></p>
+<p>1&lt;=t&lt;=10</p>
+<p>1&lt;=m,n&lt;=200</p>
+<p>&nbsp;</p>
+<p><strong>Example:</strong></p>
+<p><strong>Sample Input:</strong></p>
+<p>4</p>
+<p>5 5</p>
+<p>0TTTT</p>
+<p>T#T#0</p>
+<p>#TT#T</p>
+<p>T00T0</p>
+<p>T0#T0</p>
+<p>1 1</p>
+<p>T</p>
+<p>3 3</p>
+<p>T#T</p>
+<p>TTT</p>
+<p>T#T</p>
+<p>1 1</p>
+<p>#</p>
+<p><strong>Sample Output:</strong></p>
+<p>8</p>
+<p>1</p>
+<p>3</p>
+<p>0</p>
+<p>&nbsp;</p>
+<p><strong>Solution for test case #1:</strong></p>
+<p><img src="http://dl.dropbox.com/u/78558568/tree4.png" alt="" width="350" height="350" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2012-10-14</td></tr>
+<tr><td>Time limit:</td><td>0.346s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Inspired from http://codeforces.com/problemset/problem/115/B</td></tr>	
+</table>

@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BISHOPS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>328. Bishops</h1>
+		<h2>Problem code: BISHOPS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Yesterday was Sam's birthday. The most interesting gift was definitely the chessboard. Sam quickly learned the rules of chess and defeated his father, all his friends, his little sister, and now no one wants to play with him any more. <BR><BR>
+
+So he decided to play with another birthday gift &#8211; a Book of Math Problems for Young Mathematicians. He opened the book somewhere in the middle and read the following problem: "How many knights can be placed on a chessboard without threatening each other?" After a while he realized that this was trivial and moved on to the next problem: "How many bishops can be placed on a chessboard without threatening each other?". Sam is in trouble here. He is not able to solve this problem and needs your help.<BR><BR>
+Sam's chessboard has size N <i>x</i> N. A bishop can move to any distance in any of the four diagonal directions. A bishop threatens another bishop if it can move to the other bishop's position. Your task is to compute the maximum number of bishops that can be placed on a chessboard in such a way that no two bishops threaten each other. <BR>
+</p>
+
+<h3>Input</h3>
+<p>
+The input file consists of several lines. The line number i contains a single number N representing the size of the i-th chessboard. [N <= 10^100]
+</p>
+
+<h3>Output</h3>
+<p>The output file should contain the same number of lines as the input file. The i-th line should contain one number &#8211; the maximum number of bishops that can be placed on i-th chessboard without threatening each other. 
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+
+<b>Output:</b>
+2
+4
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-04-17</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2004</td></tr>	
+</table>

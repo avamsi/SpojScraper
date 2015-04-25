@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC09B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5450. Tiles of Tetris, Not!</h1>
+		<h2>Problem code: ANARC09B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You&rsquo;ve really messed up this time. &ldquo;Go buy some square tiles&rdquo; your supervisor told you. But as usual, you were either busy reading that message, answering that e-email, or updating your wall status on facebook. &ldquo;Go buy some tiles&rdquo; was all that you could remember. Your supervisor is<br />now complaining that the tiles you bought were not squares and you&rsquo;ll be fired if you don&rsquo;t fix it! &ldquo;Fix it? How am I supposed to fix it?&rdquo; you say to yourself. &ldquo;I&rsquo;m a programmer, The only tiles I know are those of the game Tetris!&rdquo; There is no way you can afford to be fired either. This is your third job in less than a month. &ldquo;I have to fix it!&rdquo; you keep repeating.You call the store you bought the tiles from, but they won&rsquo;t take them back or even exchange. &ldquo;We cannot cancel orders once the merchandise has left the store&rdquo;, they tell you. You take a look at the tiles, they&rsquo;re all rectangle- shaped and all of the same size. You&rsquo;d be losing a lot if you cut them, not that you&rsquo;d be able to cut them into perfect squares in the first place. &ldquo;Wait a minute!&rdquo; you say to yourself. You grab a bunch of tiles, put them in some arrangement and Voila, that&rsquo;s a square. But that won&rsquo;t convince your boss. Tiles are supposed to be small, and what you came-up with is rather big. You take another look at your arrangement, and it hits you again. &ldquo;I&rsquo;m on a roll today!&rdquo; you say proudly to yourself. You just figured out how to find the smallest number of tiles needed to form the smallest possible square.</p>
+<p>You rush and bring your supervisor to show him your discovery. He&rsquo;s not that much impressed. You&rsquo;re not making sense anyway (given all the blood rushing in your head trying to explain your algorithm.) You know that the calculation is definitely much simpler than what you&rsquo;re saying, but you just can&rsquo;t seem to think clearly. Finally, your supervisor shouts: &ldquo;First of all, the tiles have to be laid-down in the same orientation. Second, I&rsquo;m running a construction site here, not a software shop! How do you expect the workers to figure out that number! You either write me a program to do the calculation you&rsquo;re describing, or you go collect your netbook, your cell, your ipod, and your blackberry, and you get out of here this minute!&rdquo;</p>
+<h3><img src="http://img412.imageshack.us/img412/8599/square1j.jpg" alt="" width="170" height="170" /><img src="http://img22.imageshack.us/img22/1190/square2.jpg" alt="" width="90" height="90" /></h3>
+<h3>Input</h3>
+<p>Your program will be tested on one or more data sets. Each test set is described on a single line made of two positive numbers: (0 &lt; W, H &lt; 1, 000, 000) which are the width and height of each tile. The last line is made of two zeros.</p>
+<h3>Output</h3>
+<p>For each test case, write the answer on a separate line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 3<br />1 2<br />0 0<br /><br /><strong>Output:</strong><br />6<br />2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohammadkotb">Mohammad Kotb</a></td></tr>
+<tr><td>Date:</td><td>2009-11-28</td></tr>
+<tr><td>Time limit:</td><td>3.75s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>http://www.icpc-anarc.org</td></tr>	
+</table>

@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DOMINOES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4197. Dominoes</h1>
+		<h2>Problem code: DOMINOES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Johnny is playing with some dominoes one afternoon. His dominoes come in a variety of heights and colors.<br /> <br /> Just like any other child, he likes to put them in a row and knock them over.<br /> He wants to know something: how many pushes does it take to knock down all the dominoes?<br /> Johnny is lazy, so he wants to minimize the number of pushes he takes.<br /> A domino, once knocked over, will knock over any domino that it touches on the way down.<br /> <br /> For the sake of simplicity, imagine the floor as a one-dimensional line, where 1 is the leftmost point. Dominoes will not slip along the floor once toppled. Also, dominoes do have some width: a domino of length 1 at position 1 can knock over a domino at position 2. <br /> For the mathematically minded:<br /> A domino at position <em>x</em> with height <em>h</em>, once knocked over to the right, will knock all dominoes at positions <em>x</em>+1, <em>x</em>+2, ..., <em>x</em>+<em>h</em> rightward as well.<br /> Similarly, the same domino knocked over to the left will knock all dominoes at positions <em>x</em>-1, <em>x</em>-2, ..., <em>x</em>-<em>h</em> leftward.</p>
+<h3>Input</h3>
+<p>The input starts with a single integer <em>N</em> (<em>N</em> &le; 100000), the number of dominoes, followed by <em>N</em> pairs of integers.<br /> Each pair of integers represents the location and height of a domino, in that order (0 &le; location &le; 10<sup>9</sup>, 0 &le; height &le; 10<sup>9</sup>).<br /> No two dominoes will have the same location.</p>
+<h3>Output</h3>
+<p>A single integer on a single line: the minimum number of pushes Johnny must make in order to ensure that all dominoes are knocked over.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+6
+1 1
+2 2
+3 1
+5 1
+6 1
+8 3
+<strong>Output:</strong>
+2
+<strong>Explanation</strong>
+              |
+  |           |
+| | |   | |   |
+1 2 3 4 5 6 7 8
+</pre>
+<p>Pushing 1 causes 2 and 3 to fall, while pushing 8 causes 6 to fall and gently makes 5 tip over as well.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bbi5291">Brian Bi</a></td></tr>
+<tr><td>Date:</td><td>2009-04-10</td></tr>
+<tr><td>Time limit:</td><td>0.104s-0.251s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://spoj.pl/users/hansonw1">Hanson Wang</a></td></tr>	
+</table>

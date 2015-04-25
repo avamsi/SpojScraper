@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPIRALGR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11582. A Famous Grid</h1>
+		<h2>Problem code: SPIRALGR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mr. B has recently discovered the grid named "spiral grid". Construct the grid like the following figure. (The grid is actually infinite. The figure is only a small part of it.)</p>
+<p><img src="../../../content/john_jones:spiralgr1.jpg" alt="" /></p>
+<p>Considering traveling around it, you are free to any cell containing a composite number or 1, but traveling to any cell containing a prime number is disallowed. You can travel up, down, left or right, but not diagonally. Write a program to find the length of the shortest path between pairs of nonprime numbers, or report it's impossible.</p>
+<p><img src="../../../content/john_jones:spiralgr2.jpg" alt="" /></p>
+<h3>Input</h3>
+<p>Each test case is described by a line of input containing two nonprime integer 1 &lt;=<strong>x</strong>, <strong>y</strong>&lt;=10,000.</p>
+<h3>Output</h3>
+<p>For each test case display its case number followed by the length of the shortest path or <strong>impossible</strong> in one line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 4
+9 32
+10 12
+
+<strong>Output:</strong>
+Case 1: 1
+Case 2: 7
+Case 3: impossible
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2012-05-25</td></tr>
+<tr><td>Time limit:</td><td>0.387s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC World Finals 2012 - Dressing Rehearsal Contest, also used in FDU Local Contest 2012</td></tr>	
+</table>

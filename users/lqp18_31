@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/lqp18_31"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ELCS" target="_blank">6665. Easy Longest Common Substring</a></td><td><a href="http://www.spoj.com/problems/ELCS"target="_blank">ELCS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQFUN" target="_blank">6767. Sequence Function</a></td><td><a href="http://www.spoj.com/problems/SEQFUN"target="_blank">SEQFUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GSS7" target="_blank">6779. Can you answer these queries VII</a></td><td><a href="http://www.spoj.com/problems/GSS7"target="_blank">GSS7</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XYYHHTT" target="_blank">6917. Catch Sheep</a></td><td><a href="http://www.spoj.com/problems/XYYHHTT"target="_blank">XYYHHTT</a><br>
+</td></tr>

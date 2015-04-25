@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GUESSTHE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7190. Guess the Number</h1>
+		<h2>Problem code: GUESSTHE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are playing the funny game &ldquo;Guess the number&rdquo; with a friend. In this game, one of the<br />players choose a positive integer and the other has to guess it by using the clues that are<br />revealed. The i-th clue is either &ldquo;Y&rdquo; or &ldquo;N&rdquo; indicating whether the hidden number is a multiple<br />of i or not, respectively. For instance, if the clues so far are &ldquo;YYNYY&rdquo; it means that the number<br />is a multiple of 1, 2, 4 and 5, but it is not a multiple of 3. Given the clues of the game so<br />far, you have to guess the minimum possible number according to them, or call your friend a<br />cheater if there is no number such that the clues were correctly given.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />a non-empty string of at most 20 characters. The string is formed entirely of uppercase letters<br />&ldquo;Y&rdquo; and &ldquo;N&rdquo;, and represents the clues given so far, in order from left to right. The last line of<br />the input contains a single asterisk and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with the minimum positive integer that satisfies all the<br />clues, or &minus;1 if there is no such a number.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />YYNYY<br />YYYNNN<br />*<br /><br /><strong>Output:</strong>
+20<br />-1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>2.950s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

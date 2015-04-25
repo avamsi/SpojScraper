@@ -1,0 +1,186 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/vdmedragon"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MLASERP" target="_blank">3861. Laser Phones</a></td><td><a href="http://www.spoj.com/problems/MLASERP"target="_blank">MLASERP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTOTALF" target="_blank">3868. Total Flow</a></td><td><a href="http://www.spoj.com/problems/MTOTALF"target="_blank">MTOTALF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMAXPER" target="_blank">3878. Rectangles Perimeter</a></td><td><a href="http://www.spoj.com/problems/MMAXPER"target="_blank">MMAXPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/M3TILE" target="_blank">3883. LATGACH3</a></td><td><a href="http://www.spoj.com/problems/M3TILE"target="_blank">M3TILE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCOINS" target="_blank">3885. Coins Game</a></td><td><a href="http://www.spoj.com/problems/MCOINS"target="_blank">MCOINS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCLONUM" target="_blank">3889. Closest Number</a></td><td><a href="http://www.spoj.com/problems/MCLONUM"target="_blank">MCLONUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MRECTCNT" target="_blank">3890. Rectangles  Counting</a></td><td><a href="http://www.spoj.com/problems/MRECTCNT"target="_blank">MRECTCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTREECOL" target="_blank">3912. Color a tree</a></td><td><a href="http://www.spoj.com/problems/MTREECOL"target="_blank">MTREECOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPOLSTAR" target="_blank">3915. Star Polygon or Not</a></td><td><a href="http://www.spoj.com/problems/MPOLSTAR"target="_blank">MPOLSTAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMAHWIRE" target="_blank">3926. Manhattan Wire</a></td><td><a href="http://www.spoj.com/problems/MMAHWIRE"target="_blank">MMAHWIRE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPOLGRID" target="_blank">3927. Polygon on the Grid</a></td><td><a href="http://www.spoj.com/problems/MPOLGRID"target="_blank">MPOLGRID</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MDIGITS" target="_blank">3928. Counting Digits</a></td><td><a href="http://www.spoj.com/problems/MDIGITS"target="_blank">MDIGITS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MDIGITS1" target="_blank">3929. Different Digits</a></td><td><a href="http://www.spoj.com/problems/MDIGITS1"target="_blank">MDIGITS1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPART" target="_blank">3930. Group Partition</a></td><td><a href="http://www.spoj.com/problems/MPART"target="_blank">MPART</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTRIAREA" target="_blank">3931. Maximum Triangle Area</a></td><td><a href="http://www.spoj.com/problems/MTRIAREA"target="_blank">MTRIAREA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCIRGAME" target="_blank">3932. Point Connection Game in a Circle</a></td><td><a href="http://www.spoj.com/problems/MCIRGAME"target="_blank">MCIRGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMINPER" target="_blank">3933. Minimum Permutation</a></td><td><a href="http://www.spoj.com/problems/MMINPER"target="_blank">MMINPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MRECAMAN" target="_blank">3934. Recaman&#8217;s Sequence</a></td><td><a href="http://www.spoj.com/problems/MRECAMAN"target="_blank">MRECAMAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMATRIX" target="_blank">3935. SHIFT Operator on Matrix</a></td><td><a href="http://www.spoj.com/problems/MMATRIX"target="_blank">MMATRIX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCONSTR" target="_blank">3939. Search of Concatenated Strings</a></td><td><a href="http://www.spoj.com/problems/MCONSTR"target="_blank">MCONSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKTHPATH" target="_blank">3941. Kth Shortest Path</a></td><td><a href="http://www.spoj.com/problems/MKTHPATH"target="_blank">MKTHPATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MDOLLS" target="_blank">3943. Nested Dolls</a></td><td><a href="http://www.spoj.com/problems/MDOLLS"target="_blank">MDOLLS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBEEWALK" target="_blank">3944. Bee Walk</a></td><td><a href="http://www.spoj.com/problems/MBEEWALK"target="_blank">MBEEWALK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKTHNUM" target="_blank">3946. K-th Number</a></td><td><a href="http://www.spoj.com/problems/MKTHNUM"target="_blank">MKTHNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPOLEVAL" target="_blank">3948. Polynomial Evaluation - Angry Teacher</a></td><td><a href="http://www.spoj.com/problems/MPOLEVAL"target="_blank">MPOLEVAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMINPAID" target="_blank">3953. Paid Roads</a></td><td><a href="http://www.spoj.com/problems/MMINPAID"target="_blank">MMINPAID</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MJOURNEY" target="_blank">3961. Journey with Pigs</a></td><td><a href="http://www.spoj.com/problems/MJOURNEY"target="_blank">MJOURNEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MELE2" target="_blank">3962. ELEVATOR II</a></td><td><a href="http://www.spoj.com/problems/MELE2"target="_blank">MELE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MINVEST" target="_blank">3964. Investment Money</a></td><td><a href="http://www.spoj.com/problems/MINVEST"target="_blank">MINVEST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMINMAX" target="_blank">3965. Minimax Triangulation</a></td><td><a href="http://www.spoj.com/problems/MMINMAX"target="_blank">MMINMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMMGAME" target="_blank">3969. M&M Game</a></td><td><a href="http://www.spoj.com/problems/MMMGAME"target="_blank">MMMGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCONVERT" target="_blank">3970. Convert to Decimal Base System</a></td><td><a href="http://www.spoj.com/problems/MCONVERT"target="_blank">MCONVERT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STARGATE" target="_blank">3972. Stargates</a></td><td><a href="http://www.spoj.com/problems/STARGATE"target="_blank">STARGATE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/M00PAIR" target="_blank">3973. 0 0 Pairs</a></td><td><a href="http://www.spoj.com/problems/M00PAIR"target="_blank">M00PAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTREE" target="_blank">3974. Another Tree Problem </a></td><td><a href="http://www.spoj.com/problems/MTREE"target="_blank">MTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKUHAR" target="_blank">3975. Most Servings Meal</a></td><td><a href="http://www.spoj.com/problems/MKUHAR"target="_blank">MKUHAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLQUERY" target="_blank">3977. Police Query</a></td><td><a href="http://www.spoj.com/problems/POLQUERY"target="_blank">POLQUERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DISQUERY" target="_blank">3978. Distance Query</a></td><td><a href="http://www.spoj.com/problems/DISQUERY"target="_blank">DISQUERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MZVRK" target="_blank">3979. Whirligig number</a></td><td><a href="http://www.spoj.com/problems/MZVRK"target="_blank">MZVRK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPOINT" target="_blank">3980. Point Visible</a></td><td><a href="http://www.spoj.com/problems/MPOINT"target="_blank">MPOINT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBRACKET" target="_blank">3981. Shortest Regular Bracket  </a></td><td><a href="http://www.spoj.com/problems/MBRACKET"target="_blank">MBRACKET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSTRING" target="_blank">3982. String problem</a></td><td><a href="http://www.spoj.com/problems/MSTRING"target="_blank">MSTRING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RIGHTTRI" target="_blank">3983. Right Triangle Counting </a></td><td><a href="http://www.spoj.com/problems/RIGHTTRI"target="_blank">RIGHTTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBIPALIN" target="_blank">4021. Bipalindrome</a></td><td><a href="http://www.spoj.com/problems/MBIPALIN"target="_blank">MBIPALIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMASS" target="_blank">4031. Mass of Molecule</a></td><td><a href="http://www.spoj.com/problems/MMASS"target="_blank">MMASS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MDOSTAVA" target="_blank">4034. Pizza Delivery</a></td><td><a href="http://www.spoj.com/problems/MDOSTAVA"target="_blank">MDOSTAVA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MNERED" target="_blank">4035. NERED</a></td><td><a href="http://www.spoj.com/problems/MNERED"target="_blank">MNERED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MREPLBRC" target="_blank">4038. Counting The Way of Bracket Replacement</a></td><td><a href="http://www.spoj.com/problems/MREPLBRC"target="_blank">MREPLBRC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MGAME1" target="_blank">4052. Game</a></td><td><a href="http://www.spoj.com/problems/MGAME1"target="_blank">MGAME1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCARDS" target="_blank">4053. Card Sorting</a></td><td><a href="http://www.spoj.com/problems/MCARDS"target="_blank">MCARDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPOLY" target="_blank">4061. Polygon</a></td><td><a href="http://www.spoj.com/problems/MPOLY"target="_blank">MPOLY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSAFE" target="_blank">4062. Rob Mini-Safe</a></td><td><a href="http://www.spoj.com/problems/MSAFE"target="_blank">MSAFE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPIGS" target="_blank">4063. Sell Pigs</a></td><td><a href="http://www.spoj.com/problems/MPIGS"target="_blank">MPIGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBLAST" target="_blank">4082. BLAST</a></td><td><a href="http://www.spoj.com/problems/MBLAST"target="_blank">MBLAST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTELE" target="_blank">4083. Tele Broadcast</a></td><td><a href="http://www.spoj.com/problems/MTELE"target="_blank">MTELE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTRAIN" target="_blank">4097. Locomotive</a></td><td><a href="http://www.spoj.com/problems/MTRAIN"target="_blank">MTRAIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MVECTOR" target="_blank">4100. Sum of Vectors</a></td><td><a href="http://www.spoj.com/problems/MVECTOR"target="_blank">MVECTOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MA1" target="_blank">4160. A1 Road</a></td><td><a href="http://www.spoj.com/problems/MA1"target="_blank">MA1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIZZALOC" target="_blank">4180. Pizza Location</a></td><td><a href="http://www.spoj.com/problems/PIZZALOC"target="_blank">PIZZALOC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MELE3" target="_blank">4181. MELE3</a></td><td><a href="http://www.spoj.com/problems/MELE3"target="_blank">MELE3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSKYCODE" target="_blank">4191. Sky Code</a></td><td><a href="http://www.spoj.com/problems/MSKYCODE"target="_blank">MSKYCODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE08G" target="_blank">4194. Another Lucky Numbers</a></td><td><a href="http://www.spoj.com/problems/MSE08G"target="_blank">MSE08G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE08H" target="_blank">4195. GCD Determinant </a></td><td><a href="http://www.spoj.com/problems/MSE08H"target="_blank">MSE08H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE07E" target="_blank">4204. Showstopper</a></td><td><a href="http://www.spoj.com/problems/MSE07E"target="_blank">MSE07E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE06E" target="_blank">4225. Payment System</a></td><td><a href="http://www.spoj.com/problems/MSE06E"target="_blank">MSE06E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE06H" target="_blank">4226. Japan</a></td><td><a href="http://www.spoj.com/problems/MSE06H"target="_blank">MSE06H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MSE06I" target="_blank">4227. "Shortest" pair of paths </a></td><td><a href="http://www.spoj.com/problems/MSE06I"target="_blank">MSE06I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MPILOT" target="_blank">4259. Pilots</a></td><td><a href="http://www.spoj.com/problems/MPILOT"target="_blank">MPILOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MFISH" target="_blank">4318. Catch Fish</a></td><td><a href="http://www.spoj.com/problems/MFISH"target="_blank">MFISH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCHAOS" target="_blank">4480. Chaos Strings</a></td><td><a href="http://www.spoj.com/problems/MCHAOS"target="_blank">MCHAOS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MROADS" target="_blank">4483. Roads Repair</a></td><td><a href="http://www.spoj.com/problems/MROADS"target="_blank">MROADS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC05B" target="_blank">4560. The Double HeLiX</a></td><td><a href="http://www.spoj.com/problems/ANARC05B"target="_blank">ANARC05B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC05H" target="_blank">4564. Chop Ahoy! Revisited!</a></td><td><a href="http://www.spoj.com/problems/ANARC05H"target="_blank">ANARC05H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC05I" target="_blank">4565. What is your Logo</a></td><td><a href="http://www.spoj.com/problems/ANARC05I"target="_blank">ANARC05I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC07C" target="_blank">4568. Rotating Rings</a></td><td><a href="http://www.spoj.com/problems/ANARC07C"target="_blank">ANARC07C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC07G" target="_blank">4569. Let go to the movies</a></td><td><a href="http://www.spoj.com/problems/ANARC07G"target="_blank">ANARC07G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MRECT1" target="_blank">6681. Đi&#7875;m tr&#234;n c&#7841;nh h&#236;nh ch&#7919; nh&#7853;t - HRASTOVI</a></td><td><a href="http://www.spoj.com/problems/MRECT1"target="_blank">MRECT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBINGO" target="_blank">7745. Bingo!</a></td><td><a href="http://www.spoj.com/problems/MBINGO"target="_blank">MBINGO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCOCIR" target="_blank">7746. Cocircular Points</a></td><td><a href="http://www.spoj.com/problems/MCOCIR"target="_blank">MCOCIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MFLAR10" target="_blank">7757. Flowers Flourish from France</a></td><td><a href="http://www.spoj.com/problems/MFLAR10"target="_blank">MFLAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MGLAR10" target="_blank">7758. Growing Strings</a></td><td><a href="http://www.spoj.com/problems/MGLAR10"target="_blank">MGLAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MHLAR10" target="_blank">7759. Hyperactive Girl</a></td><td><a href="http://www.spoj.com/problems/MHLAR10"target="_blank">MHLAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKLAR10" target="_blank">7760. Kids&#8217; Wishes</a></td><td><a href="http://www.spoj.com/problems/MKLAR10"target="_blank">MKLAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MJLAR10" target="_blank">7761. Jollo</a></td><td><a href="http://www.spoj.com/problems/MJLAR10"target="_blank">MJLAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MELAR10" target="_blank">7762. Electric Needs</a></td><td><a href="http://www.spoj.com/problems/MELAR10"target="_blank">MELAR10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MILAR10" target="_blank">7763. Ingenious Metro</a></td><td><a href="http://www.spoj.com/problems/MILAR10"target="_blank">MILAR10</a><br>
+</td></tr>

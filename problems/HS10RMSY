@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HS10RMSY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7946. Check Ramsey</h1>
+		<h2>Problem code: HS10RMSY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>From Ramsey theorem we know that for every <em>k, l</em> pair there exists an integer: <em>R</em>(<em>k, l</em>) for that if <em>n &gt;= R</em>(<em>k, l</em>), then if you color the edges of a complete graph on <em>n</em> vertices with red and blue then it contains a complete subgraph on <em>k</em> vertices whose edges are blue or a complete subgraph on <em>l</em> vertices whose edges are red. To get an impression of the theorem you have to count the number of complete subgraphs having <em>k</em> nodes with blue edges - <em>K</em>(<em>k</em>) and the number of complete subgraphs having <em>l</em> nodes with red edges - <em>K</em>(<em>l</em>) for each edge coloring.</p>
+<p>To make the problem somewhat easier (or harder?) for each test the probability that an edge is red (or blue) is close to 1/2. This means that on <em>n</em> vertices you will see about <em>n</em>(<em>n</em>-1)/4 red edges.</p>
+<h3>Input</h3>
+<p>The first line contains the number of test cases<em> T</em>, where <em>T</em> &lt;= 100. After it there is a blank line and also after every test. Each test starts with four integers <em>n</em>, <em>k</em>, <em>l</em>, <em>e</em> in this order, where 3 &lt;= <em>k</em> &lt;= <em>l</em> &lt;= <em>n</em> &lt; 100, here <em>e</em> is the number of red edges (we are not interested in very large monochromatic complete subgraphs, so you can assume that <em>k</em>, <em>l</em> &lt;= 10 is also true). Then follow <em>e</em> lines, each of them gives two integers: <em>x</em>, <em>y</em>, it means that there is a red edge between points 0 &lt;= <em>x</em>, <em>y</em> &lt; <em>n</em>. All other edges are blue.</p>
+<h3>Output</h3>
+<p>For each test print the case number then the count of blue <em>K</em>(<em>k</em>) and red <em>K</em>(<em>l</em>) for the edge coloring.</p>
+<h3>Example</h3>
+<pre><em>Input:</em><br />3<br /><br />5 3 3 5<br />0 1<br />1 2<br />2 3<br />3 4<br />4 0<br /><br />6 3 3 6<br />0 1<br />1 2<br />2 3<br />3 4<br />4 5<br />5 0<br /><br />8 3 4 7<br />0 1<br />0 2<br />0 3<br />0 4<br />1 2<br />1 3<br />2 3<br /><br />
+<em>Output:</em><br />Case #1:<br />The number of blue K(3) is 0 and the number of red K(3) is 0.<br />Case #2:<br />The number of blue K(3) is 2 and the number of red K(3) is 0.<br />Case #3:<br />The number of blue K(3) is 25 and the number of red K(4) is 1.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2010-11-25</td></tr>
+<tr><td>Time limit:</td><td>2.402s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: AWK ICK NODEJS SCM chicken SED </td></tr>
+<tr><td>Resource:</td><td>High School Programming League 2010/2011 </td></tr>	
+</table>

@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DELCOMM2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1444. DEL Command II</h1>
+		<h2>Problem code: DELCOMM2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It is required to find out what's the maximum number of files that can be deleted from MS-DOS directory
+executing the DEL command of MS-DOS operation system only once.
+There are no nested subdirectories.</p>
+<h3>A note</h3>
+<P>
+DEL command has the following format: <TT>DEL</tt> <EM>wildcard</em>
+
+<P>
+
+<P>
+<BR>
+The actual wildcard as well as a full file name can be made up of
+a name containing 1 up to 8 case-sensitive characters.
+In a wildcard the characters
+'?' and '*' can be used. A question mark substitutes exactly one character
+of the full file name, an asterisk any sequence of characters even empty one.
+<P>
+
+<P>
+<BR>
+MS-DOS system can permit maybe other wildcards but they can not be used
+in this task. File names
+consist only of Latin letters and digits.
+
+<P>
+<h3>Input</h3>
+<p>The first line of the input is an integer M, then a blank line followed by M datasets. There is a blank line between datasets.
+
+<p>Input data for each dataset contains a list of full file names without any extra empty lines
+and spaces. Each
+name is written in a separate line of input data file and ended with
+a control sign: '+' for delete
+or '-' for keep. Full file names are not repeated. The list comprises
+at least one file, and at least one
+file is marked to be deleted. There are no more than 250 files.
+
+<P>
+<h3>Output</h3>
+<p>
+For each dataset, write to the first line of output the maximum number of files one DEL command can delete.
+
+<P>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+2
+
+BP +
+BPC +
+TURBO -
+
+EXCHANGE +
+EXT +
+HARDWARE +
+MOUSE &#8211;
+NETWORK &#8211;
+
+<b>Output:</b>
+
+2
+2
+</pre>
+<b>Hint:</b>
+<p>For the two tests above,the corresponding DEL commands are DEL BP* and DEL EX*.</p>
+<h3>Link</h3>
+<p>You can try problem <a href="http://www.spoj.pl/problems/DELCOMM">DELCOMM</a> first. It's far easier than this problem.</p> 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>7.094s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 1997,Day 1</td></tr>	
+</table>

@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPOINTS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8793. Separate Points</h1>
+		<h2>Problem code: SPOINTS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Numbers of black and white points are placed on a plane. Let&rsquo;s imagine that a straight line of in&#64257;nite length is drawn on the plane. When the line does not meet any of the points, the line divides these points into two groups. If the division by such a line results in one group consisting only of black points and the other consisting only of white points, we say that the <br />line &ldquo;separates black and white points&rdquo;.</p>
+<p>Let&rsquo;s see examples in the figure below. In the leftmost example, you can easily &#64257;nd that the black and white points can be perfectly separated by the dashed line according to their colors. In the remaining three examples, there exists no such straight line that gives such a separation.</p>
+<p><img style="border: 0px;" title="Example plane" src="../../../content/johnm91:plane.png" alt="Example plane" /></p>
+<p>In this problem, given a set of points with their colors and positions, you are requested to decide whether there exists a straight line that separates black and white points.</p>
+<h3>Input</h3>
+<p>The input is a sequence of datasets, each of which is formatted as follows.</p>
+<p><em>n m</em> <br /><em>x</em><sub>1</sub> <em>y</em><sub>1</sub> <br />. <br />. <br />. <br /><em>x</em><sub>n</sub> <em>y</em><sub>n</sub> <br /><em>x</em><sub>n+1</sub> <em>y</em><sub>n+1</sub> <br />. <br />. <br />. <br /><em>x</em><sub>n+m</sub> <em>y</em><sub>n+m</sub></p>
+<p>The &#64257;rst line contains two positive integers separated by a single space; <strong>n</strong> is the number of black points, and <strong>m</strong> is the number of white points. They are less than or equal to 100. Then<strong> n</strong><em> +</em><strong> m</strong> lines representing the coordinates of points follow. Each line contains two integers x<sub>i</sub> and y<sub>i</sub> separated by a space, where (x<sub>i</sub> , y<sub>i</sub>) represents the x-coordinate and the y-coordinate of the i-th point. The color of the i-th point is black for <strong><em>1 &le; i &le; n</em></strong>, and is white for <strong>n + 1 &le; i &le; n + m</strong>. All the points have integral x- and y-coordinate values between 0 and 10000 inclusive. You can also assume that no two points have the same position. <br />The end of the input is indicated by a line containing two zeros separated by a space.</p>
+<h3>Output</h3>
+<p>For each dataset, output &ldquo;YES&rdquo; if there exists a line satisfying the condition. If not, output &ldquo;NO&rdquo;. In either case, print it in one line for each input dataset.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 3 <br />100 700 <br />200 200 <br />600 600 <br />500 100 <br />500 300 <br />800 500 <br />3 3 <br />100 300 <br />400 600 <br />400 100 <br />600 400 <br />500 900 <br />300 300 <br />3 4 <br />300 300 <br />500 300 <br />400 600 <br />100 100 <br />200 900 <br />500 900 <br />800 100 <br />1 2 <br />300 300 <br />100 100 <br />500 500 <br />1 1<br />100 100
+200 100 <br />2 2 <br />0 0 <br />500 700 <br />1000 1400 <br />1500 2100 <br />2 2 <br />0 0 <br />1000 1000 <br />1000 0 <br />0 1000 <br />3 3 <br />0 100 <br />4999 102 <br />10000 103 <br />5001 102 <br />10000 102 <br />0 101 <br />3 3 <br />100 100 <br />200 100 <br />100 200 <br />0 0 <br />400 0 <br />0 400 <br />3 3 <br />2813 1640 <br />2583 2892 <br />2967 1916 <br />541 3562 <br />9298 3686 <br />7443 7921 <br />0 0<br /><br /><strong>Output:</strong>
+YES <br />NO <br />NO <br />NO <br />YES <br />YES <br />NO <br />NO <br />NO <br />YES
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/johnm91">John Mario</a></td></tr>
+<tr><td>Date:</td><td>2011-05-03</td></tr>
+<tr><td>Time limit:</td><td>0.181s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM International Collegiate Programming Contest  Asia Regional Contest, Tokyo 2009</td></tr>	
+</table>

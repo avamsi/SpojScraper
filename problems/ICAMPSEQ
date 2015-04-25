@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ICAMPSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1784. IOICamp Sequence</h1>
+		<h2>Problem code: ICAMPSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let's say we have 4 N-elements sequences of real numbers: A[], B[], C[], D[] .<br>
+Funtion F(i, j) is defined: F(i, j) = |A<sub>i</sub> - A<sub>j</sub>| + |B<sub>i</sub> - B<sub>j</sub>| + |C<sub>i</sub> - C<sub>j</sub>| + |D<sub>i</sub> - D<sub>j</sub>| (1 &#8804; i, j &#8804; N).<br>
+Your task is very easy: you have to find the maximum of F(i, j).
+
+<h3>Input</h3>
+<p>The first line: N (N &#8804; 100000).<br>
+Following are N lines: the i-th line contains four real numbers A<sub>i</sub>, B<sub>i</sub>, C<sub>i</sub>, D<sub>i</sub>. (-10<sup>9</sup> &#8804; A<sub>i</sub>, B<sub>i</sub>, C<sub>i</sub>, D<sub>i</sub> &#8804; 10<sup>9</sup>)
+
+<h3>Output</h3>
+<p>Only one line is the maximum of F(i, j).<br>
+(The result takes exactly 3 decimal places)
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+1.0 1.0 2.0 0.5
+1.0 1.0 0.5 2.0
+
+
+<b>Output:</b>
+3.000
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nghia">Nghia Nguyen Hoang</a></td></tr>
+<tr><td>Date:</td><td>2007-09-18</td></tr>
+<tr><td>Time limit:</td><td>0.097s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.ioicamp.net">IOICamp and Ms. Thanh Vy Hua Le </a></td></tr>	
+</table>

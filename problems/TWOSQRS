@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TWOSQRS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>91. Two squares or not two squares</h1>
+		<h2>Problem code: TWOSQRS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Given integer n decide if it is possible to represent it as a sum of two squares of integers.
+</P>
+<H3>Input</H3>
+<P align=justify>
+First line of input contains one integer c<=100 - number of test cases. Then c lines follow, each of them consisting of exactly one integer 0<=n<=10^12.
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case output Yes if it is possible to represent given number as a sum of two squares and No if it is not possible.
+</P>
+<H3>Example</H3>
+<pre>
+Input:
+10
+1
+2
+7
+14
+49
+9
+17
+76
+2888
+27
+
+Output:
+Yes
+Yes
+No
+No
+Yes
+Yes
+Yes
+No
+Yes
+No
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2004-06-29</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

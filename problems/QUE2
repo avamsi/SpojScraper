@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QUE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16016. Queue (Pro)</h1>
+		<h2>Problem code: QUE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: medium;">There are 'n' people standing in a Queue. You are given the height of each person and the</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;"><span style="font-size: medium;">number of people who are taller and standing ahead of him. You have to find the position of</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;"><span style="font-size: medium;">each person.</span></span></div>
+<p><span style="font-size: small;"><span style="font-size: medium;">There are 'N' people standing in a Queue. You are given the height of each person and the number of people who are taller and standing ahead of him. You have to find the position of each person.</span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;">Input</span></span></h3>
+<p><span style="font-size: small;"><span style="font-size: medium;">First line conatins a single integer T, the number of test cases. It is followed by T test cases each of which conatins 3 lines. First line of each test case contains a single integer N. Second line contains N integers representing the heights of these N people. Third line also contains N integers denoting the number of taller people standing ahead of him.</span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;">Output</span></span></h3>
+<p><span style="font-size: small;"><span style="font-size: medium;">Output one line for each test case which contains the heights of the N people in the order in which they are standing.</span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;">Constraints</span></span></h3>
+<p><span style="font-size: x-small;"><span style="font-size: small;"><span style="font-size: medium;">0 &lt; T &lt;= 20</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: small;"><span style="font-size: medium;">0 &lt; N &lt;= 10000</span></span></span></p><p><span style="font-size: x-small;"><span style="font-size: small;"><span style="font-size: medium;">Expected Time Complexity = O(NlogN)</span></span></span></p>
+<h3><span style="font-size: small;"><span style="font-size: medium;">Example</span></span></h3>
+<pre><span style="font-size: small;"><span style="font-size: medium;"><strong>Input:</strong>
+1<br />5<br />33 11 22 44 55<br />0 2 1 1 0
+
+</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;"><strong>Output:</strong>
+33 22 11 55 44</span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;"><br /></span></span></pre>
+<pre><span style="font-size: small;"><span style="font-size: medium;">Easier Version : <a href="../QUE1/" target="_blank">Queue (Rookie)</a></span></span></pre>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/i_am_ace">Shikhar Sharad</a></td></tr>
+<tr><td>Date:</td><td>2013-09-16</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.25s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Directi Interview</td></tr>	
+</table>

@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ARRANGE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6985. Rearranging Digits</h1>
+		<h2>Problem code: ARRANGE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given A and B, how many numbers between A and B (with no leading 0's) rearrange their digits when multiplied by 2 ?<br /><br />Input :<br />The first line contains the number of test cases T. T lines follow, containing two integers A and B.<br /><br />Output :<br />Output T lines, one for each test case containing the desired answer for the corresponding test case.<br /><br />Sample Input :<br />2<br />1 100<br />499875921 499875921<br /><br />Sample Output :<br />0<br />1<br /><br />Constraints :<br />1 &lt;= T &lt;= 10000<br />1 &lt;= A &lt;= B &lt;= 10000000000 (10^10)</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.189s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

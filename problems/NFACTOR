@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NFACTOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8238. N-Factorful</h1>
+		<h2>Problem code: NFACTOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A number is called&nbsp;<strong>n</strong>-factorful if it has exactly&nbsp;<strong>n</strong>&nbsp;distinct prime factors. Given positive integers&nbsp;<strong>a</strong>,&nbsp;<strong>b</strong>, and&nbsp;<strong>n</strong>, your task is to find the number of integers between&nbsp;<strong>a</strong>&nbsp;and&nbsp;<strong>b</strong>, inclusive, that are&nbsp;<strong>n</strong>-factorful. We consider 1 to be 0-factorful.</p>
+<h3>Input</h3>
+<p>Your input will consist of a single integer&nbsp;<strong>T</strong>&nbsp;followed by a newline and&nbsp;<strong>T</strong>&nbsp;test cases. Each test cases consists of a single line containing integers&nbsp;<strong>a</strong>,&nbsp;<strong>b</strong>, and&nbsp;<strong>n</strong>&nbsp;as described above.</p>
+<p>&nbsp;</p>
+<p><strong>T</strong>&nbsp;&gt; 10000<br />1 &le;&nbsp;<strong>a</strong>&nbsp;&le;&nbsp;<strong>b</strong>&nbsp;&le; 10<span style="font-size: xx-small;"><sup>6</sup></span><br />0 &le;&nbsp;<strong>n</strong>&nbsp;&le; 10</p>
+<h3>Output</h3>
+<p>Output for each test case one line containing the number of&nbsp;<strong>n</strong>-factorful integers in [<strong>a</strong>,&nbsp;<strong>b</strong>].</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+
+<pre style="margin: 0px;">5
+1 3 1
+1 10 2
+1 10 3
+1 100 3
+1 1000 0</pre>
+<pre><strong>Output:</strong>
+<pre style="margin: 0px;">2
+2
+0
+8
+1</pre>
+</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gogo40">gogo40 </a></td></tr>
+<tr><td>Date:</td><td>2011-01-30</td></tr>
+<tr><td>Time limit:</td><td>1.879s-2.484s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Facebook Hacker Cup 2011 Round 1C</td></tr>	
+</table>

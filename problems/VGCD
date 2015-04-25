@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VGCD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6479. The Very Greatest Common Divisor</h1>
+		<h2>Problem code: VGCD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given two integers a and b find their greatest common divisor.
+
+<h3>Input</h3>
+<p>The first line of the input file contains number 0 < n < 1000 the amount of tests. The description of n test cases follow. The description of a test case consists of two lines. The first line contains integer a (0 < a < 10^12540), the second &#8211; integer b (0 < b < 10^12540). It is also known that all the numbers in the input file are the determinants of the square matrix of the form:
+<div><img src="https://www.spoj.pl/content/spookycookie:fibb" /></div>
+
+<h3>Output</h3>
+<p>For each test case print the greatest common divisor of integers a and b on a separate line.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+3
+3
+21
+6765
+610
+
+<b>Output:</b>
+1
+3
+5
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-04-09</td></tr>
+<tr><td>Time limit:</td><td>0.592s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Open All-Ukrainian Collegiate Contest Semi-Final, 2010</td></tr>	
+</table>

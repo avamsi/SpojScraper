@@ -1,0 +1,36 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/min_25"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PYTRIP3" target="_blank">19913. Counting Pythagorean Triples</a></td><td><a href="http://www.spoj.com/problems/PYTRIP3"target="_blank">PYTRIP3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/APS2" target="_blank">19975. Amazing Prime Sequence (hard)</a></td><td><a href="http://www.spoj.com/problems/APS2"target="_blank">APS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCDEX2" target="_blank">19985. GCD Extreme (hard)</a></td><td><a href="http://www.spoj.com/problems/GCDEX2"target="_blank">GCDEX2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVCNT2" target="_blank">20173. Counting Divisors (square)</a></td><td><a href="http://www.spoj.com/problems/DIVCNT2"target="_blank">DIVCNT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVCNT3" target="_blank">20174. Counting Divisors (cube)</a></td><td><a href="http://www.spoj.com/problems/DIVCNT3"target="_blank">DIVCNT3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PCOPTRIP" target="_blank">20872. Counting Pairwise Coprime Triples</a></td><td><a href="http://www.spoj.com/problems/PCOPTRIP"target="_blank">PCOPTRIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REVADD" target="_blank">20926. Special Numbers (Reverse and Add)</a></td><td><a href="http://www.spoj.com/problems/REVADD"target="_blank">REVADD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRIDSUM1" target="_blank">21407. 2x2 Subgrid Sum Problem (medium)</a></td><td><a href="http://www.spoj.com/problems/GRIDSUM1"target="_blank">GRIDSUM1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRIDSUM2" target="_blank">21408. 2x2 Subgrid Sum Problem (hard)</a></td><td><a href="http://www.spoj.com/problems/GRIDSUM2"target="_blank">GRIDSUM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRIDSUM3" target="_blank">21409. 2x2 Subgrid Sum Problem (generalized)</a></td><td><a href="http://www.spoj.com/problems/GRIDSUM3"target="_blank">GRIDSUM3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVFACT4" target="_blank">22549. Divisors of factorial (extreme)</a></td><td><a href="http://www.spoj.com/problems/DIVFACT4"target="_blank">DIVFACT4</a><br>
+</td></tr>

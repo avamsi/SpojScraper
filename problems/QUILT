@@ -1,0 +1,109 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QUILT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1003. Little Quilt</h1>
+		<h2>Problem code: QUILT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><I>Little Quilt</I> is a small language introduced by Ravi Sethi in his book &#8216;Programming Languages&#8217;.
+
+<p><br>Here, a restricted version of Little Quilt is presented. The language is defined by the following BNF grammar:
+
+<p><br>
+< QUILT > ::= A | B | turn(< QUILT >) | sew(< QUILT >,< QUILT >)
+
+
+<p><br>A and B represent the two primitive quilts. Each primitive quilt corresponds to a matricial arrangement of 2 × 2 characters. turn() and sew() are operations over quilts.
+
+<p><br>The instruction turn(x) turns the quilt x 90 degrees clockwise. The following table illustrates the primitive quilts as well as examples of the effect of the turn() operation:
+
+<p><br>
+<center><img src='/content/steinersp:quilt1.jpg'alt='subir imagenes' border='0'></center>
+
+<p><br>
+Accordingly, the instruction sew(x,y) sews quilt x to the left of quilt y. Both x and y must have the same height, otherwise an error will be generated. The following figure represents the result of sew(A,turn(B)):
+
+<p><br>
+<center><img src='/content/steinersp:quilt2.jpg'alt='subir imagenes' border='0'></center>
+
+<p><br>while the sew(turn(sew(B,turn(B))),A) generates an error message.
+
+<p><br>Your job is to build an interpreter of the Little Quilt language.
+
+<p><br>
+<h3>Input</h3>
+<p>The input file will be a text file containing different Little Quilt expressions, each one ended by a semicolon character (;). Space and new line characters must be ignored; this means that an expression may span several lines.
+
+<p><br>
+<h3>Output</h3>
+<p>The output file contains the quilts produced as a result of interpreting the input expressions.
+
+<p><br>Each quilt must be preceded by a line, left aligned, with the format
+
+<p><br>Quilt i:
+<br>where i is the quilt number, starting at 1. If the expression interpretation generates and error, the word
+
+<p><br>error
+<br>must be printed.
+
+<p><br>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+sew(turn(sew(B,turn(B))),
+turn(sew(turn(B),B))) ;
+<br><br>
+sew(turn(sew(B,turn(B))),A);
+sew(turn(sew(A,turn(A))),
+turn(turn(
+<br>
+turn(sew(A,turn(A))))))
+;
+
+<b>Output:</b>
+Quilt 1:
+||--
+||--
+--||
+--||
+Quilt 2:
+error
+Quilt 3:
+\\//
++\/+
++/\+
+//\\
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2006-10-25</td></tr>
+<tr><td>Time limit:</td><td>0.200s-0.400s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>XX Colombian National Programming ACM 2006</td></tr>	
+</table>

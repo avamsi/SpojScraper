@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/emil_bek"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EMILABC" target="_blank">8263. Big Pyramid</a></td><td><a href="http://www.spoj.com/problems/EMILABC"target="_blank">EMILABC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NPOWM" target="_blank">8583. Garden</a></td><td><a href="http://www.spoj.com/problems/NPOWM"target="_blank">NPOWM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIME" target="_blank">8586. Factorial factorisation</a></td><td><a href="http://www.spoj.com/problems/PRIME"target="_blank">PRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FLLM" target="_blank">10667. PASIJANS</a></td><td><a href="http://www.spoj.com/problems/FLLM"target="_blank">FLLM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IWGBST" target="_blank">10675. GENIJALAC</a></td><td><a href="http://www.spoj.com/problems/IWGBST"target="_blank">IWGBST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IWGBS" target="_blank">10676. 0110SS</a></td><td><a href="http://www.spoj.com/problems/IWGBS"target="_blank">IWGBS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAGAY" target="_blank">10677. Joseph&#8217;s Problem</a></td><td><a href="http://www.spoj.com/problems/NAGAY"target="_blank">NAGAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAGAY1" target="_blank">10711. VUK</a></td><td><a href="http://www.spoj.com/problems/NAGAY1"target="_blank">NAGAY1</a><br>
+</td></tr>

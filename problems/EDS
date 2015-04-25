@@ -1,0 +1,107 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3253. Electronic Document Security</h1>
+		<h2>Problem code: EDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Tyrell corporation uses a state-of-the-art electronic document system
+   that controls all aspects of document creation, viewing, editing, and
+   distribution. Document security is handled via <dfn>access control
+   lists</dfn> (ACLs). An ACL defines a set of entities that have access to the
+   document, and for each entity defines the set of rights that it has.
+   Entities are denoted by uppercase letters; an entity might be a single
+   individual or an entire division. Rights are denoted by lowercase letters;
+   examples of rights are <i>a</i> for <i>append</i>, <i>d</i> for
+   <i>delete</i>, <i>e</i> for <i>edit</i>, and <i>r</i> for <i>read</i>.</p>
+
+   <p>The ACL for a document is stored along with that document, but there is
+   also a separate ACL <dfn>log</dfn> stored on a separate log server. All
+   documents start with an empty ACL, which grants no rights to anyone. Every
+   time the ACL for a document is changed, a new entry is written to the log.
+   An entry is of the form <i>ExR</i>, where <i>E</i> is a nonempty set of
+   entities, <i>R</i> is a nonempty set of rights, and <i>x</i> is either "+",
+   "&#8211;", or "=". Entry <i>E</i>+<i>R</i> says to grant all the rights
+   in <i>R</i> to all the entities in <i>E</i>, entry
+   <i>E</i>&#8211;<i>R</i> says to remove all the rights in <i>R</i> from
+   all the entities in <i>E</i>, and entry <i>E</i>=<i>R</i> says that all the
+   entities in <i>E</i> have exactly the rights in <i>R</i> and no others. An
+   entry might be redundant in the sense that it grants an entity a right it
+   already has and/or denies an entity a right that it doesn't have. A log is
+   simply a list of entries separated by commas, ordered chronologically from
+   oldest to most recent. Entries are cumulative, with newer entries taking
+   precedence over older entries if there is a conflict.</p>
+
+   <p>Periodically the Tyrell corporation will run a security check by using
+   the logs to compute the current ACL for each document and then comparing it
+   with the ACL actually stored with the document. A mismatch indicates a
+   security breach. Your job is to write a program that, given an ACL log,
+   computes the current ACL.</p>
+
+<h3>Input</h3>
+<p>The input consists of one or more ACL logs, each
+   3&#8211;79 characters long and on a line by itself, followed by a line
+   containing only "#" that signals the end of the input. Logs will be in the
+   format defined above and will not contain any whitespace.</p>
+
+<h3>Output</h3>
+<p>For each log, output a single line containing the log
+   number (logs are numbered sequentially starting with one), then a colon,
+   then the current ACL in the format shown below. Note that (1) spaces do not
+   appear in the output; (2) entities are listed in alphabetical order; (3) the
+   rights for an entity are listed in alphabetical order; (4) entities with no
+   current rights are not listed (even if they appeared in a log entry), so
+   it's possible that an ACL will be empty; and (5) if two or more consecutive
+   entities have exactly the same rights, those rights are only output once,
+   after the list of entities.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+MC-p,SC+c
+YB=rde,B-dq,AYM+e
+GQ+tju,GH-ju,AQ-z,Q=t,QG-t
+JBL=fwa,H+wf,LD-fz,BJ-a,P=aw
+#
+
+<b>Output:</b>
+1:CSc
+2:AeBerMeYder
+3:
+4:BHJfwLPaw
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikola_borisof">Nikola P Borisov</a></td></tr>
+<tr><td>Date:</td><td>2008-10-25</td></tr>
+<tr><td>Time limit:</td><td>0.076s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mid-Central Regional ACM-ICPC Contest 2007</td></tr>	
+</table>

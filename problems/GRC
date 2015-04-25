@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GRC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1695. Grandpa&#8217;s Rubik Cube</h1>
+		<h2>Problem code: GRC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p align="justify">A very well-known toy/pastime, called Rubik's cube, consists of a cube as shown in Figure 1a, where 
+  letters stand for colors (e.g. B for blue, R for red,...). The goal of the game is to rotate the faces of the 
+cube in such a way that at the end each face has a different color, as shown in Figure 1b. Notice that,</p>
+<p align="center"><img src="/content/boodah:GRCF1.JPG" width="428" height="268" /></p>
+<p align="justify">when a face is rotated, the configuration of colors in all the adjacent faces changes. Figure 2 illustrates
+  a rotation of one of the faces. Given a scrambled configuration, reaching the final position can be
+quite challenging, as you may know.</p>
+<p align="center"><img src="/content/boodah:GRCF2.JPG" width="656" height="253" /></p>
+<p align="justify">But your grandpa has many years of experience, and claims that, given any configuration of the Rubik
+  cube, he can come up with a sequence of rotations leading to a winning configuration.
+  In order to show all faces of the cube we shall represent the cube as in Figure 3a. The six colors are
+  Yellow, Red, Blue, Green, White and Magenta (represented by their first letters).<br />
+  You will be given an initial configuration and a list of rotations. A rotation will be represented by an
+integer number, indicating the face to be rotated and the direction of the rotation (a positive value means clockwise rotation, negative value means counter-clockwise rotation). Faces of the cube are
+numbered as shown in Figure 3b. You must write a program that checks whether the list of rotations 
+will lead to a winning configuration.</p>
+<p align="center"><img src="/content/boodah:GRCF3.JPG" width="632" height="293" /></p>
+<p align="justify"><strong>Input</strong><br />
+  The input contains several test cases. The first line of the input is an integer which indicates the number
+  of tests. Each test description consists of ten lines of input. The first nine lines of a test will
+  describe an initial configuration, in the format shown in Figure 3a. The next line will contain a list of
+  rotations, ending with the value 0.<br />
+  </p>
+<p align="justify"><strong>Output</strong><br />
+  For each test case your program should print one line. If your grandpa is correct, print &#8220;Yes,
+  grandpa!&#8221;, otherwise print &#8220;No, you are wrong!&#8221;.
+(See example.)</p>
+<p align="center"><img src="/content/boodah:GRCFIO.JPG" width="660" height="648" /></p>
+</body>
+</html>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/boodah">Andrés Leonardo Rojas Duarte</a></td></tr>
+<tr><td>Date:</td><td>2007-07-24</td></tr>
+<tr><td>Time limit:</td><td>0.635s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM International Collegiate Programming Contest 2002 &#8211; South America</td></tr>	
+</table>

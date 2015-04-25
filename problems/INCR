@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INCR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>598. Increasing Subsequences</h1>
+		<h2>Problem code: INCR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+A sequence <b>p(1)</b>, <b>p(2)</b>, ..., <b>p(N)</b> consisting of numbers 1, 2, ..., <b>N</b> is called a permutation if all elements in the sequence are different.
+
+<p>
+It is said that a permutation <b>p</b> contains increasing subsequence of <b>k</b> elements when there are numbers 
+1 &#8804; <b>i<sub>1</sub></b> < <b>i<sub>2</sub></b> < ... < <b>i<sub>k</sub></b> &#8804; N such that <b>p(i<sub>1</sub>)</b> < <b>p(i<sub>2</sub>)</b> < ... < <b>p(i<sub>k</sub>)</b>.
+
+<p>
+When a permutation <b>p</b> contains an increasing subsequence consisting of <b>B</b> elements and does not contain an increasing subsequence consisting of <b>B+1</b> elements then the number <b>B</b> is called the degree of increase of this permutation.
+
+<p>
+You need to write a program which being given a number <b>N</b> calculates the number of permutations whose degree of increase is <b>B</b>.
+Since the number of such permutations might be quite big, it is necessary to calculate its remainder of integer division by 1 000 000 000.
+
+<h3>Input</h3>
+<p>First line of input contains integer <b>T</b> (1 &#8804; <b>T</b> &#8804; 60) - the number of testcases. Then descriptions of <b>T</b>
+testcases follow.
+
+<p>The description of the testcase consists of one line. The line contains two integer numbers <b>N</b> and <b>B</b> (1 &#8804; <b>N</b> &#8804; 40, 1 &#8804; <b>B</b> &#8804; 5)
+separated by one or more spaces.
+
+<h3>Output</h3>
+<p>For each testcase in the input your program should output one line. This line should contain one integer number which is the remainder of integer division by 1 000 000 000 of the number of permutations whose degree of increase is <b>B</b>.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+3 2
+
+<b>Output:</b>
+4
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mystic">Ivan Metelsky</a></td></tr>
+<tr><td>Date:</td><td>2005-11-07</td></tr>
+<tr><td>Time limit:</td><td>5.314s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC Western Subregion QF 2005</td></tr>	
+</table>

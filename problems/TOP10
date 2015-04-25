@@ -1,0 +1,43 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TOP10"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5103. Top 10</h1>
+		<h2>Problem code: TOP10</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a dictionary containing less than N = 20000 words labeled from 1 to N. Each word consists of lowercase characters (from 'a' to 'z') with arbitrary length. The total number of characters in the dictionary is at most 100,000. Your task is to answer at most Q = 100000 queries. Each query qi is also a word (as defined above). For each query, you have to print the "Top 10" words in the dictionary with the following rules: <br /><br />All the words in the "Top 10" have to contain the substring qi. <br /><br />All the words in the "Top 10" have to be sorted in this order: <br /><br />1. The words with shorter length come first, if they have equal length then <br /><br />2. The lexicographically smaller words come first, otherwise <br /><br />3. The words with smaller label come first. <br /><br />If the number of words in the dictionary that contains the substring qi is less than 10 then print all the words otherwise, print only the top-10 words (note: the words are printed using their labels). <br /><br />If there is no word in the dictionary that contains the substring qi then print "-1" (without the quotes). <br /><br /><strong>Input</strong> <br />The first line contains the number N. The next N lines contains the N words in the dictionary (the ith line is the word with label i). The next line contains the number Q followed by the Q lines containing the queries. <br /><br /><strong>Output</strong> <br />For each query, print one line containing the labels of the "Top 10" words (separated by a space) in the dictionary using the rules defined above. <br /><br /><strong>Sample Input </strong><br />17 <br />acm <br />icpc <br />regional <br />asia <br />jakarta <br />two <br />thousand <br />and <br />nine <br />arranged <br />by <br />universitas <br />bina <br />nusantara <br />especially <br />for <br />you <br />5 <br />a <br />an <br />win <br />b <br />z</p>
+<p><strong>Output for Sample Input</strong></p>
+<p>1 8 4 13 5 10 3 7 14 15 <br />8 10 7 14 <br />-1 <br />11 13 <br />-1</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/beo_map">VOJ problem setters </a></td></tr>
+<tr><td>Date:</td><td>2009-10-28</td></tr>
+<tr><td>Time limit:</td><td>0.569s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.3.2 NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Problem Setter: Felix Halim<br/>ACM ICPC - Jakarta 2009</td></tr>	
+</table>

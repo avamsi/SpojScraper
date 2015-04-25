@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VHELSING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10416. Van Helsings gun</h1>
+		<h2>Problem code: VHELSING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In Transylvania, 1753, Dracula has returned from his long sleep, now, of course, someone needs to face it or humanity will be utterly destroyed by the evil bloodthirsty Dracula.</p>
+<p>The only one with enough courage to face Dracula is Van Helsing. The only weapon that can defeat him is the silver gun, but Van Helsing does not know the exact amount of powder required for a deadly shot.</p>
+<p>The magazine of gunpowder has the form given by intersection of three cylinders of radius r and infinite height, mutually orthogonal, and centered on the axes $X$, $Y$ and $Z$ in $R^3$, as shown below. Your task is to help Van Helsing calculate the exact amount of gunpowder that he will need, ie, the volume of the powder magazine.</p>
+<p style="text-align: center;"><img src="http://icpc.s3.amazonaws.com/summer-school-2012/usp-ime-2/dificil/dificil.jpeg" alt="" /></p>
+<h3>Input</h3>
+<p>The first line of input contains an integer 1 &le; <strong>T</strong> &le; 100 representing the number of test cases. For each of the following <br />lines contain an integer 0 &le; <strong>R</strong> &le; 100, as shown above.</p>
+<h3>Output</h3>
+<p>For each case print one line containing the amount of gunpowder that Van Helsing needs, with 4 decimal places.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />0<br />1
+
+<strong>Output:</strong>
+0.0000<br />4.6863
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-16</td></tr>
+<tr><td>Time limit:</td><td>0.259s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IME/USP 2 - Brazilian ICPC Training Camp, Jan-Feb/2012</td></tr>	
+</table>

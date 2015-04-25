@@ -1,0 +1,118 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BEADS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>48. Glass Beads</h1>
+		<h2>Problem code: BEADS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>Once upon a time there was a famous actress. As you may expect, she played
+mostly Antique Comedies most of all. All the people loved her. But she was not
+interested in the crowds. Her big hobby were beads of any kind. Many bead
+makers were working for her and they manufactured new necklaces and
+bracelets every day. One day she called her main <I>Inspector of Bead
+Makers</I> (<I>IBM</I>) and told him she wanted a very long and special
+necklace.
+
+<P>The necklace should be made of glass beads of different sizes connected
+to each other but without any thread running through the beads, so that
+means the beads can be disconnected at any point. The actress chose the
+succession of beads she wants to have and the IBM promised to make the
+necklace. But then he realized a problem. The joint between two neighbouring
+beads is not very robust so it is possible that the necklace will get torn
+by its own weight. The situation becomes even worse when the necklace is
+disjoined. Moreover, the point of disconnection is very important. If there
+are small beads at the beginning, the possibility of tearing is much higher
+than if there were large beads. IBM wants to test the robustness of a
+necklace so he needs a program that will be able to determine the worst
+possible point of disjoining the beads.
+
+<P>The description of the necklace is a string <VAR>A =
+a<SUB>1</SUB>a<SUB>2</SUB> ... a<SUB>m</SUB></VAR>
+specifying sizes of the particular beads, where the last character
+<VAR>a<SUB>m</SUB></VAR> is considered to precede character
+<VAR>a<SUB>1</SUB></VAR> in circular fashion. 
+
+<P>The disjoint point <VAR>i</VAR> is said to be worse than the disjoint
+point <VAR>j</VAR> if and only if the string
+<VAR>a<SUB>i</SUB>a<SUB>i+1</SUB> ... a<SUB>n</SUB>a<SUB>1</SUB> ...
+a<SUB>i-1</SUB></VAR> is lexicografically smaller than the string
+<VAR>a<SUB>j</SUB>a<SUB>j+1</SUB> ... a<SUB>n</SUB>a<SUB>1</SUB> ...
+a<SUB>j-1</SUB></VAR>.
+String <VAR>a<SUB>1</SUB>a<SUB>2</SUB> ... a<SUB>n</SUB></VAR> is
+lexicografically smaller than the string
+<VAR>b<SUB>1</SUB>b<SUB>2</SUB> ... b<SUB>n</SUB></VAR> if and only if there
+exists an integer <VAR>i, i <= n</VAR>, so that
+<VAR>a<SUB>j</SUB>=b<SUB>j</SUB></VAR>, for each <VAR>j, 1 <= j <
+i</VAR> and <VAR>a<SUB>i</SUB> < b<SUB>i</SUB></VAR>.
+
+
+<H3>Input</H3>
+
+<P>The input consists of <VAR>N</VAR> cases. The first line of the input
+contains only positive integer <VAR>N</VAR>. Then follow the cases. 
+Each case consists of exactly one line containing necklace description.
+Maximal length of each description is 10000 characters. 
+Each bead is represented by a lower-case character of 
+the english alphabet (a--z), where <VAR>a < b   ...   z</VAR>.
+
+
+<H3>Output</H3>
+
+<P>For each case, print exactly one line containing
+only one integer -- number of the
+bead which is the first at the worst possible disjoining, i.e. such
+<VAR>i</VAR>, that the string <VAR>A[i]</VAR> is lexicographically smallest
+among all the <VAR>n</VAR> possible disjoinings of a necklace. If there are
+more than one solution, print the one with the lowest <VAR>i</VAR>.
+
+
+<H3>Example</H3>
+<PRE>
+Sample input:
+
+4
+helloworld
+amandamanda
+dontcallmebfu
+aaabaaa
+
+Sample output:
+
+10
+11
+6
+5
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1998</td></tr>	
+</table>

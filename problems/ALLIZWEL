@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ALLIZWEL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10283. ALL IZZ WELL</h1>
+		<h2>Problem code: ALLIZWEL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><h1 style="text-align: center; "><span style="font-family: verdana, geneva;">ALL IZZ WELL</span></h1><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">&nbsp;<strong>Problem Description:</strong></span></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mr.ESP used to tell &ldquo;ALL IZZ WELL&rdquo; whenever he gets into any trouble.</span></p><p><span style="font-family: verdana, geneva;">So his friends and the people around him used to laugh at him. But Mr.ESP is very</span></p><p><span style="font-family: verdana, geneva;">strong in his belief. He believes that the term &ldquo;ALL IZZ WELL&rdquo; will make everything</span></p><p><span style="font-family: verdana, geneva;">fine. Now your task is to ignore the story above and find whether there is a path in</span></p><p><span style="font-family: verdana, geneva;">the given matrix which makes the sentence &ldquo;ALL IZZ WELL&rdquo;</span></p><span style="font-family: verdana, geneva;"><br />There is a path from any cell to all its neighbouring cells. A neighbour may share an edge or a corner.<br /></span><p><strong><span style="font-family: verdana, geneva;"><br /></span></strong></p><p><strong><span style="font-family: verdana, geneva;">Input Specification:</span></strong></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first line consists of an integer t representing the number of test cases.</span></p><p><span style="font-family: verdana, geneva;">The first line of each test case consists of two integers R and C representing the number</span></p><p><span style="font-family: verdana, geneva;"> of rows and number of columns in the matrix. The description of the matrix follows.</span></p><strong><span style="font-family: verdana, geneva;">
+</span></strong><p><strong><span style="font-family: verdana, geneva;">Output Specification:</span></strong></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For each test case print &ldquo;YES&rdquo; if there is a path which makes the sentence &ldquo;ALLIZZWELL&rdquo;.</span></p><p><span style="font-family: verdana, geneva;">Else print &ldquo;NO&rdquo;.</span></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana,geneva;"><strong>Note:</strong> Take care of 4th test case<strong> <br /></strong></span></p><p><span style="font-family: verdana,geneva;"><strong>There is a new line after every test case in the input.<br /></strong></span></p><p><strong><span style="font-family: verdana, geneva;"><br /></span></strong></p><p><strong><span style="font-family: verdana, geneva;">Input constraints:</span></strong></p><p><span style="font-family: verdana, geneva;">t&lt;=1000</span></p><p><span style="font-family: verdana, geneva;">R&lt;=100</span></p><p><span style="font-family: verdana, geneva;">C&lt;=100</span></p><span style="font-family: verdana, geneva;">
+</span><p><strong><span style="font-family: verdana, geneva;">Sample Input:</span></strong></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">5</span></p><p><span style="font-family: verdana, geneva;">3 6</span></p><p><span style="font-family: verdana, geneva;">AWE.QX</span></p><p><span style="font-family: verdana, geneva;">LLL.EO</span></p><p><span style="font-family: verdana, geneva;">IZZWLL</span></p><p><span style="font-family: verdana, geneva;"><br /></span></p><p><span style="font-family: verdana, geneva;">1 10</span></p><p><span style="font-family: verdana, geneva;">ALLIZZWELL</span></p><p><span style="font-family: verdana, geneva;"><br /></span></p><p><span style="font-family: verdana, geneva;">2 9</span></p><p><span style="font-family: verdana, geneva;">A.L.Z.E..</span></p><p><span style="font-family: verdana, geneva;">.L.I.W.L.</span></p><p><span style="font-family: verdana, geneva;"><br /></span></p><p><span style="font-family: verdana, geneva;">3 3</span></p><p><span style="font-family: verdana, geneva;">AEL</span></p><p><span style="font-family: verdana, geneva;">LWZ</span></p><p><span style="font-family: verdana, geneva;">LIZ</span></p><p><span style="font-family: verdana, geneva;"><br /></span></p><p><span style="font-family: verdana, geneva;">1 10</span></p><p><span style="font-family: verdana, geneva;">LLEWZZILLA<br /></span></p><p><strong><span style="font-family: verdana, geneva;">&nbsp;</span></strong></p><p><strong><span style="font-family: verdana, geneva;">Sample Output:</span></strong></p><span style="font-family: verdana, geneva;">
+</span><p><span style="font-family: verdana, geneva;">YES</span></p><p><span style="font-family: verdana, geneva;">YES</span></p><p><span style="font-family: verdana, geneva;">NO</span></p><p><span style="font-family: verdana, geneva;">NO</span></p><p><span style="font-family: verdana, geneva;">YES<br /></span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2011-12-25</td></tr>
+<tr><td>Time limit:</td><td>0.474s-0.975s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

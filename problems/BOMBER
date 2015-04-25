@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOMBER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6289. Bomberman</h1>
+		<h2>Problem code: BOMBER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice and Bob love to play Bomberman. They decided to upgrade the game. Their version is played on a rectangular board divided into cells. The first player puts a bomb on any cell. The bomb destroys this cell, as well as all consecutive undestroyed cells left, right, above and below it. Then the second player puts his bomb, then again the first and so on. The player who destoys the last cell wins the game. Given the dimensions of the board, determine which player wins the game assuming that both players play optimally.
+
+<h3>Input</h3>
+<p>The first line contains T (1 <= T <= 1000) - the number of tests. The next T lines contain two integers m and n (1 <= m, n <= 100) - the size of the board.
+
+<h3>Output</h3>
+<p>For each test print 1 if the first player wins the game, or 2 if the second wins.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+2 2
+
+<b>Output:</b>
+2
+
+</pre>
+
+<h3>Example of the first two moves of 7x7 board</h3>
+<img src="https://www.spoj.pl/content/spookycookie:bomb" width=200>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.239s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK CLOJ COB F# GO GROOVY NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCM chicken SED VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/, author: Alexey Shchepin</td></tr>	
+</table>

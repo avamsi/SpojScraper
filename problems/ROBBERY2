@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROBBERY2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6290. Robbery 2</h1>
+		<h2>Problem code: ROBBERY2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><b>k</b> bandits robbed a bank. They took away <b>n</b> gold coins. Being a progressive group of robbers they decided to use the following procedure to divide the coins. First the most respected bandit takes <b>1</b> coin, then the second respected takes <b>2</b> coins, ..., the least respected takes <b>k</b> coins, then again the most respected takes <b>k+1</b> coins, ans so on, until one of the bandits takes the remaining coins. Calculate how much gold each of the bandits gets.
+
+<h3>Input</h3>
+<p>The first line of the input contains number <b>t</b> &#8211; the amount of tests. Then <b>t</b> test descriptions follow. Each test consists of two integers <b>n</b> and <b>k</b> - the amount of coins and bandits respectively.
+
+<h3>Constraints</h3>
+<p>
+1 &lt;= <b>t</b> &lt;= 500<br/>
+10<sup>6</sup> &lt;= <b>n</b> &lt;= 10<sup>15</sup><br/>
+2 &lt;= <b>k</b> &lt;= 100</sup>
+</p>
+
+<h3>Output</h3>
+<p>For each test print the amounts of coins each bandit gets separated by spaces.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+1000000 2
+1234567 3
+123456789 4
+
+<b>Output:</b>
+499849 500151
+411602 411887 411078
+30869901 30858368 30862296 30866224
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.234s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

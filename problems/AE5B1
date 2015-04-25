@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AE5B1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4308. Byteantean towns</h1>
+		<h2>Problem code: AE5B1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&#8220;Segment is the shortest path connecting two points&#8221; &#8212; this motto was the main motivation for road designers
+in the Byteantean Empire. For this reason all roads constructed in the Empire were straight and led across
+the whole country. At each crossing of two roads Byteanteans planted a town. To avoid misunderstandings,
+Byteanteans never constructed more than two roads that would intersect at a single point.</p><p>
+The Emperor of Byteantis would now like to divide his country into two provinces, as equal in the sense
+of the number of towns as possible. One of the roads of the Empire will become the borderline between the
+provinces. The towns that are located strictly on the borderline will not be under authority of any of the
+provinces, but only of the Emperor himself. He, therefore, would like to compute, for each road, the absolute
+value of the difference between the number of towns located on one side of the road and on the other side of
+the road.</p><p>
+Byteman, the court cartographer, spent many days trying to fulfill the Emperor&#8217;s order. Your task is to
+write a program that will help perform his work.</p>
+<h3>Input</h3>
+<p>The first line of the standard input contains an integer n (1 &#8804; n &#8804; 1 000) denoting the number of roads in the Empire. Each of the following n lines contains a description of a single road &#8212; four of integers x1, y1, x2, y2 (&#8722;1 000 &#8804; x1, y1, x2, y2 &#8804; 1 000, points (x1, y1) and (x2, y2) do not coincide) separated by single spaces. Each such quadruple represents a single road that is a straight line passing through points (x1, y1) and (x2, y2). No
+two roads coincide. No three roads intersect at a single point. We assume that the Empire is so large that all
+intersections of lines representing roads are located within its boundary.</p>
+<h3>Output</h3>
+<p>Your program should write out n lines to the standard output &#8212; the answers for all roads from the input (in
+the same order as in the input). The answer for a road is the absolute value of the difference of numbers of
+towns at both sides of the road.</p>
+<h3>Example</h3>
+<p>For the input data:</p>
+<pre>
+4
+1 -1 1 10
+0 0 1 0
+2 0 2 1
+4 4 -1 -1
+</pre>
+<p>the correct result is:</p>
+<pre>
+1
+2
+3
+2
+</pre>
+<img src="https://vn.spoj.pl/SPOJVN/content/bajrys.jpg">
+
+<p>There are five towns in the example, with coordinates (0, 0), (1, 0), (1, 1), (2, 0), and (2, 2).</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-03</td></tr>
+<tr><td>Time limit:</td><td>1.539s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Algorithmic Engagements 2009</td></tr>	
+</table>

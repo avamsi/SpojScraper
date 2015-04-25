@@ -1,0 +1,124 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMAHWIRE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3926. Manhattan Wire</h1>
+		<h2>Problem code: MMAHWIRE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MTEMP/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MTEMP/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+There is a rectangular area containing n × m cells. Two cells are marked
+with &#8220;2&#8221;, and another two with &#8220;3&#8221;. Some cells are occupied by obstacles. 
+You should connect the two &#8220;2&#8221;s and also the two &#8220;3&#8221;s with non-intersecting
+lines. Lines can run only vertically or horizontally connecting centers
+of cells without obstacles.
+
+Lines cannot run on a cell with an obstacle. Only one line can run on
+a cell at most once. Hence, a line cannot intersect with the other line, 
+nor with itself. Under these constraints, the total length of the two
+lines should be minimized. The length of a line is defined as the
+number of cell borders it passes. In particular, a line connecting cells
+sharing their border has length 1.
+
+Fig. 1(a) shows an example setting. Fig. 1(b) shows two lines satisfying the
+constraints above with minimum total length 18.
+
+<a href="http://tinypic.com" target="_blank"><img src="http://i43.tinypic.com/20j21ax.png" border="0" alt="Image and video hosting by TinyPic"></a>
+
+Figure 1: An example of setting and its solution
+</pre> 
+<h3>Input </h3>
+<pre>
+The input consists of multiple datasets, each in the following format.
+
+    n	m
+    row1
+    &#8230;
+    rown
+
+n is the number of rows which satisfies 2 &#8804; n &#8804; 9. m is the number of columns
+which satisfies 2 &#8804; m &#8804; 9. Each rowi is a sequence of m digits separated by
+a space. The digits mean the following.
+
+    0: Empty
+
+    1: Occupied by an obstacle
+
+    2: Marked with &#8220;2&#8221;
+
+    3: Marked with &#8220;3&#8221;
+
+The end of the input is indicated with a line containing two zeros separated
+by a space.
+
+SAMPLE INPUT
+5 5
+0 0 0 0 0
+0 0 0 3 0
+2 0 2 0 0
+1 0 1 1 1
+0 0 0 0 3
+2 3
+2 2 0
+0 3 3
+6 5
+2 0 0 0 0
+0 3 0 0 0
+0 0 0 0 0
+1 1 1 0 0
+0 0 0 0 0
+0 0 2 3 0
+0 0
+</pre>
+<h3>Output</h3>
+<pre>
+For each dataset, one line containing the minimum total length of the two
+lines should be output. If there is no pair of lines satisfying the requirement,
+answer &#8220;0&#8221; instead.  
+
+Sample Output
+
+18
+2
+17
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-22</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.435s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Yokohama 2006</td></tr>	
+</table>

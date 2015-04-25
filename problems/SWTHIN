@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SWTHIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1709. Swamp Things</h1>
+		<h2>Problem code: SWTHIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Hugh F. Oh, in his never-ending quest to prove the existence of extraterrestrials, has gotten hold of
+a number of nighttime photographs taken by a research group that is examining glowing swamp gas.
+Hugh wants to see if any of the photos show, not swamp gas, but Little Grey Men in glowing suits. The
+photographs consist of bright dots appearing against a black background. Unfortunately, at the time
+the photos were taken, trains were travelling through the area (there is a train trestle over the swamp),
+and occasional lights from the train windows also appear in the photographs. Hugh, being a fastidious
+researcher, wants to eliminate these spots from the images. He can&#8217;t tell from the photos exactly where
+the tracks are, or from what direction the photos were taken, but he knows that the tracks in that
+area are perfectly straight, so he&#8217;s decided on the following approach: he will find the line with the
+maximum number of spots lying on it and, if there are four or more spots on the line, he will eliminate
+those points from his calculations, assuming that those are windows on the train. If two or more lines
+have the maximum number of points, Hugh will just randomly select one such set and delete it from
+the photo (he&#8217;s not all that fastidious &#8211; after all, he believes in Little Grey Men). If there are fewer
+than four points lying along a common line, Hugh will assume that there is no train in the photograph
+and won&#8217;t delete any points. Please write a program for him to process a set of photographs.
+
+<h3>Input</h3>
+<p>
+There will be a series of test cases. Each test case is one photograph described by a line containing
+a positive integer n (<= 1000) the number of distinct spots in the photograph, followed by n lines
+containing the integer coordinates of the spots, one (x, y) pair per line. All coordinates are between 0
+and 10000. The last photo description is followed by a line containing a zero, marking the end of the
+input. This line should not be processed.
+
+<h3>Output</h3>
+<p>
+For each test case, output the photo number followed by the number of points eliminated from the
+photograph. Imitate the sample output below.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+6
+0 1
+0 2
+1 2
+2 2
+4 5
+5 6
+4
+3 5
+4 4
+6 5
+7 4
+0
+
+<b>Output:</b>
+Photo 1: 4 points eliminated
+Photo 2: 0 points eliminated
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-07-26</td></tr>
+<tr><td>Time limit:</td><td>3.707s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>East Central North America 2005</td></tr>	
+</table>

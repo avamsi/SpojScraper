@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/tomek"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/POKER" target="_blank">344. Poker</a></td><td><a href="http://www.spoj.com/problems/POKER"target="_blank">POKER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MIXTURES" target="_blank">345. Mixtures</a></td><td><a href="http://www.spoj.com/problems/MIXTURES"target="_blank">MIXTURES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COINS" target="_blank">346. Bytelandian gold coins</a></td><td><a href="http://www.spoj.com/problems/COINS"target="_blank">COINS</a><br>
+</td></tr>

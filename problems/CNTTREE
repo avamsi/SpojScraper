@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CNTTREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7296. Trees Again</h1>
+		<h2>Problem code: CNTTREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a tree, you need to count how many subtrees with diameter &lt;= K exist. <br />&nbsp;<br />Input : <br />The first line contains the number of test cases T. <br />T test cases follow. For each test case, the first line contains N and K. The following N - 1 lines contain two integers ai and bi, indicating an edge between nodes ai and bi in the tree. There is a blank line after each test case. <br />&nbsp;<br />Output : <br />Output T lines, one corresponding to each test case, containing the required answer. <br />&nbsp;<br />Sample Input : <br />2 <br />3 1 <br />0 1 <br />1 2 <br />&nbsp;<br />6 3 <br />0 1 <br />1 2 <br />2 3 <br />2 4 <br />3 5 <br />&nbsp;<br />&nbsp;<br />Sample Output : <br />5 <br />23 <br />&nbsp;<br />&nbsp;<br />Constraints : <br />1 &lt;= T &lt;= 100 <br />2 &lt;= N &lt;= 60<br />0 &lt;= ai,bi &lt; N <br />1 &lt;= K &lt;= N - 1</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-09-12</td></tr>
+<tr><td>Time limit:</td><td>0.300s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

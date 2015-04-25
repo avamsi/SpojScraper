@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TOHU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9034. Help Tohu</h1>
+		<h2>Problem code: TOHU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Tohu wants to enter Moscow State University, and he must pass the math exam. He does not know math, and asks you to help him. The problem is to find the sum <img src="http://www.spoj.com/content/cyclops:tohu_1.png" title="S_n = a_1 + a_2 + &#92;ldots + a_n" /> of the sequence <img src="http://www.spoj.com/content/cyclops:tohu_2.png" title="&#92;left{ a_n &#92;right}" /> on condition <img src="http://www.spoj.com/content/cyclops:tohu_3.png" title="&#92;forall k &#92;in &#92;mathbb{N} : a_1 + 2a_2 + &#92;ldots + ka_k = &#92;frac{k+1}{k+2}" /></p>
+<h3>Input</h3>
+<p>First line contains single integer T<=20000 - the number of test cases.</p>
+<p>Each of the next T lines contains single integer 1 <= n <= 10^9.</p>
+<h3>Output</h3>
+<p>For each n output the value <img src="http://www.spoj.com/content/cyclops:tohu_4.png" title="S_n" /> with 11 digits after decimal point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />2<br />5<br /><strong>Output:</strong>
+0.70833333333<br />0.73809523810</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pyshnograev">Efim</a></td></tr>
+<tr><td>Date:</td><td>2011-06-15</td></tr>
+<tr><td>Time limit:</td><td>0.643s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

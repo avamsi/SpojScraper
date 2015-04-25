@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/thanhvy"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CHOCOLA" target="_blank">247. Chocolate</a></td><td><a href="http://www.spoj.com/problems/CHOCOLA"target="_blank">CHOCOLA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTAIN" target="_blank">260. Containers</a></td><td><a href="http://www.spoj.com/problems/CTAIN"target="_blank">CTAIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIPART" target="_blank">261. Triangle Partitioning</a></td><td><a href="http://www.spoj.com/problems/TRIPART"target="_blank">TRIPART</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONNECT" target="_blank">262. Connections</a></td><td><a href="http://www.spoj.com/problems/CONNECT"target="_blank">CONNECT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIOD" target="_blank">263. Period</a></td><td><a href="http://www.spoj.com/problems/PERIOD"target="_blank">PERIOD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CORNET" target="_blank">264. Corporative Network</a></td><td><a href="http://www.spoj.com/problems/CORNET"target="_blank">CORNET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAVE" target="_blank">272. Cave Exploration</a></td><td><a href="http://www.spoj.com/problems/CAVE"target="_blank">CAVE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTGAME" target="_blank">277. City Game</a></td><td><a href="http://www.spoj.com/problems/CTGAME"target="_blank">CTGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUBERT" target="_blank">291. Cube Root</a></td><td><a href="http://www.spoj.com/problems/CUBERT"target="_blank">CUBERT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALIBB" target="_blank">292. Alibaba</a></td><td><a href="http://www.spoj.com/problems/ALIBB"target="_blank">ALIBB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CABLETV" target="_blank">300. Cable TV Network</a></td><td><a href="http://www.spoj.com/problems/CABLETV"target="_blank">CABLETV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOOK" target="_blank">301. Booklets</a></td><td><a href="http://www.spoj.com/problems/BOOK"target="_blank">BOOK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CANTON" target="_blank">302. Count on Cantor</a></td><td><a href="http://www.spoj.com/problems/CANTON"target="_blank">CANTON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTREE" target="_blank">375. Query on a tree</a></td><td><a href="http://www.spoj.com/problems/QTREE"target="_blank">QTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OPTM" target="_blank">839. Optimal Marks</a></td><td><a href="http://www.spoj.com/problems/OPTM"target="_blank">OPTM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTREE2" target="_blank">913. Query on a tree II</a></td><td><a href="http://www.spoj.com/problems/QTREE2"target="_blank">QTREE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FTOUR" target="_blank">944. Free Tour</a></td><td><a href="http://www.spoj.com/problems/FTOUR"target="_blank">FTOUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07X" target="_blank">1435. Vertex Cover</a></td><td><a href="http://www.spoj.com/problems/PT07X"target="_blank">PT07X</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07Y" target="_blank">1436. Is it a tree</a></td><td><a href="http://www.spoj.com/problems/PT07Y"target="_blank">PT07Y</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07Z" target="_blank">1437. Longest path in a tree</a></td><td><a href="http://www.spoj.com/problems/PT07Z"target="_blank">PT07Z</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07A" target="_blank">1477. Play with a Tree</a></td><td><a href="http://www.spoj.com/problems/PT07A"target="_blank">PT07A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07B" target="_blank">1478. The Easiest Problem</a></td><td><a href="http://www.spoj.com/problems/PT07B"target="_blank">PT07B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07C" target="_blank">1479. The GbAaY Kingdom</a></td><td><a href="http://www.spoj.com/problems/PT07C"target="_blank">PT07C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07D" target="_blank">1480. Let us count 1 2 3</a></td><td><a href="http://www.spoj.com/problems/PT07D"target="_blank">PT07D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07F" target="_blank">1482. A short vacation in Disneyland</a></td><td><a href="http://www.spoj.com/problems/PT07F"target="_blank">PT07F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07G" target="_blank">1483. Colorful Lights Party</a></td><td><a href="http://www.spoj.com/problems/PT07G"target="_blank">PT07G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07H" target="_blank">1484. Search in XML</a></td><td><a href="http://www.spoj.com/problems/PT07H"target="_blank">PT07H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PT07J" target="_blank">1487. Query on a tree III</a></td><td><a href="http://www.spoj.com/problems/PT07J"target="_blank">PT07J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREEOI14" target="_blank">1644. Trees</a></td><td><a href="http://www.spoj.com/problems/TREEOI14"target="_blank">TREEOI14</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FTOUR2" target="_blank">1825. Free tour II</a></td><td><a href="http://www.spoj.com/problems/FTOUR2"target="_blank">FTOUR2</a><br>
+</td></tr>

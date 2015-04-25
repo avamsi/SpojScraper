@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/havingfun"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CODERE3" target="_blank">15783. Coder Express 3!!</a></td><td><a href="http://www.spoj.com/problems/CODERE3"target="_blank">CODERE3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LEXSTR" target="_blank">21083. Lexicographically Smallest</a></td><td><a href="http://www.spoj.com/problems/LEXSTR"target="_blank">LEXSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRNGSLV" target="_blank">21861. I Love Strings</a></td><td><a href="http://www.spoj.com/problems/STRNGSLV"target="_blank">STRNGSLV</a><br>
+</td></tr>

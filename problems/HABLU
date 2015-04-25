@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HABLU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9076. Hablu and Bablu</h1>
+		<h2>Problem code: HABLU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!-- p { margin-bottom: 0.08in; } -->
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;"><strong>Hablu</strong> is a hardworking programmer. He solves lots of easy problems everyday :P. <strong>Hablu</strong>'s teammate <strong>Bablu</strong> is busy with studies, so amount of solved by him is smaller than <strong>Hablu</strong>'s.</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">Their coach <strong>NannaMia</strong> noticed the fact that the num</span></span><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">ber of solved problems by <strong>Hablu</strong> is a multiple of number of solved problems by <strong>Bablu</strong>.</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">Then <strong>NannaMia</strong> asked <strong>Hablu</strong> a question. Giving a collection of integers S, <strong>NannaMia</strong> said that the number of solved problems by <strong>Bablu</strong> is not a multiple of any integer contained in S (S only contains primes or 1). How many valid integers are there which could be the number of problems solved by <strong>Bablu</strong>.</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">As <strong>Hablu</strong> solves only easy problems, he is unable to solve this one. So, you need to help him :)</span></span></p>
+<h3 style="text-align: left;"><span style="font-size: medium;"><span style="text-decoration: underline;"><span style="font-family: comic sans ms,sans-serif;">Input</span></span></span></h3>
+<!-- p { margin-bottom: 0.08in; } -->
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">The first line contains t, number of test cases (t&lt;=1500).</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">Each case starts with an integer H, the number of problems solved by <strong>Hablu</strong> and K, the size of the collection S. The next line contains K space separated integers (the members of S).</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">Remember that the online judge in which they solve has only(!) 10<sup>12</sup> problems. So no number will be greater than 10<sup>12</sup>. And K will be between 0 and 500.</span></span></p>
+<h3 style="text-align: left;"><span style="font-size: medium;"><span style="text-decoration: underline;"><span style="font-family: comic sans ms,sans-serif;">Output</span></span></span></h3>
+<!-- p { margin-bottom: 0.08in; } -->
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;">Print a line for each test case containing the number of possible integers which can be the number of solved problems by <strong>Bablu</strong>.</span></span></p>
+<h3><span style="font-size: large;"><span style="font-family: comic sans ms,sans-serif;">Example</span></span></h3>
+<pre><span style="font-size: small;"><span style="font-family: comic sans ms,sans-serif;"><span style="font-size: medium;"><span style="text-decoration: underline;"><strong>Input:</strong></span><br /><strong>1<br />58 2<br />2 3<br /></strong><br /><span style="text-decoration: underline;"><strong>Output:</strong></span><br /><strong>2<br /></strong><br /><span style="font-size: x-small;">Note : May be it's impossible to pass the time limit in several languages.</span><strong><br /></strong></span></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bidhan">Bidhan</a></td></tr>
+<tr><td>Date:</td><td>2011-06-26</td></tr>
+<tr><td>Time limit:</td><td>0.132s-0.699s</td></tr>
+<tr><td>Source limit:</td><td>25000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem ,  Thanks to Muhammad Ridowan for his alternate solution.</td></tr>	
+</table>

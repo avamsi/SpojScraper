@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CFJUN21"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6823. Seller Bob</h1>
+		<h2>Problem code: CFJUN21</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; padding: 0px;">Last year Bob earned by selling memory sticks. During each of&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;days of his work one of the two following events took place:</p>
+<ul style="list-style-type: disc; list-style-position: inside; list-style-image: initial; padding: 0px; margin: 0.5em;">
+<li style="padding: 0px; margin: 0px;">A customer came to Bob and asked to sell him a&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2<sup><em>x</em></sup></span>&nbsp;MB memory stick. If Bob had such a stick, he sold it and got&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2<sup><em>x</em></sup></span>berllars.</li>
+<li style="padding: 0px; margin: 0px;">Bob won some programming competition and got a&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2<sup><em>x</em></sup></span>&nbsp;MB memory stick as a prize. Bob could choose whether to present this memory stick to one of his friends, or keep it.</li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; padding: 0px;">&nbsp;</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; padding: 0px;">Bob never kept more than one memory stick, as he feared to mix up their capacities, and deceive a customer unintentionally. . Now, knowing all the customers' demands and all the prizes won at programming competitions during the last&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;days, Bob wants to know, how much money he could have earned, if he had acted optimally.</p>
+<h3>Input</h3>
+<p>The first input line contains number&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;(<span style="font-size: 18px; font-family: 'times new roman';">1&thinsp;&le;&thinsp;<em>n</em>&thinsp;&le;&thinsp;5000</span>) &mdash; amount of Bob's working days. The following&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>n</em></span>&nbsp;lines contain the description of the days. Line&nbsp;<span style="font-size: 15px; font-family: 'courier new';">sell x</span>&nbsp;stands for a day when a customer came to Bob to buy a&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2<sup><em>x</em></sup></span>&nbsp;MB memory stick (<span style="font-size: 18px; font-family: 'times new roman';">0&thinsp;&le;&thinsp;<em>x</em>&thinsp;&le;&thinsp;2000</span>). It's guaranteed that for each&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>x</em></span>&nbsp;there is not more than one line&nbsp;<span style="font-size: 15px; font-family: 'courier new';">sell x</span>. Line&nbsp;<span style="font-size: 15px; font-family: 'courier new';">win x</span>&nbsp;stands for a day when Bob won a&nbsp;<span style="font-size: 18px; font-family: 'times new roman';">2<sup><em>x</em></sup></span>&nbsp;MB memory stick (<span style="font-size: 18px; font-family: 'times new roman';">0&thinsp;&le;&thinsp;<em>x</em>&thinsp;&le;&thinsp;2000</span>).</p>
+<h3>Output</h3>
+<p>Output the maximum possible earnings for Bob in berllars, that he would have had if he had known all the events beforehand. Don't forget, please, that Bob can't keep more than one memory stick at a time.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre style="font-size: 15px; line-height: 1.25em; background-color: #efefef; padding: 0.25em; margin: 0px;">7<br />win 10<br />win 5<br />win 3<br />sell 5<br />sell 3<br />win 10<br />sell 10</pre>
+<br /><strong>Output:</strong> 1056</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-06-21</td></tr>
+<tr><td>Time limit:</td><td>0.154s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces</td></tr>	
+</table>

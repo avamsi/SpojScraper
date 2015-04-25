@@ -1,0 +1,109 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCANNER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>404. Scanner</h1>
+		<h2>Problem code: SCANNER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+A body scanner works by scanning a succession of horizontal slices through
+the body; the slices are imaged one at a time. The image slices can be
+reassembled to form a three dimensional model of the object. Write a
+program to construct a two dimensional image slice using data captured
+during the scan.
+<P>
+<DIV ALIGN="CENTER">
+<IMG
+ SRC="/content/ak15:229img1.gif"
+ ALT="epsfbox{p229.eps}">
+</DIV>
+<P>
+The scanner consists of four arrays of sensors arranged around
+a 
+<SPAN CLASS="MATH">10×15</SPAN> matrix. Array 1 consists of 10 sensors pointing to the right,
+array 2 has 24 sensors pointing diagonally to the top right, array 3
+has 15 sensors pointing to the top and array 4 has 24 sensors pointing
+to the top left. Each sensor records the thickness of that portion of the
+object directly in front of that sensor.
+<P>
+Readings from the arrays of sensors are recorded in counterclockwise
+order. Within an array of sensors, data are also recorded counterclockwise.
+A complete scan consists of 73 readings.
+<P>
+<h3>Input</h3>
+<p>The input file begins with a line with an integer indicating the number
+of image slices to follow. For each image slice, there are separate lines
+with 10, 24, 15, and 24 integers representing sensor data from sensor
+arrays 1 through 4 respectively. The order of the readings is indicated
+in the diagram. You can assume that there exist at least one image for the given sensor data.
+<p>
+<h3>Output</h3>
+<p>
+For each slice, your program should print 10 lines of 15 cells. To
+indicate that the cell represents a part of the object, print a hash
+character (<TT>#</TT>) for the cell; to indicate that the cell is not a part of
+the object, print a period (<TT>.</TT>). Between successive output image slices,
+print a blank line. 
+
+<P>
+It is possible for the result of a scan to be ambiguous, in that
+case you can print any solution.
+<P>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+1
+10 10 6 4 6 8 13 15 11 6
+0 1 2 2 2 2 4 5 5 6 7 6 5 6 6 5 5 6 6 3 2 2 1 0
+2 4 5 5 7 6 7 10 10 10 7 3 3 5 5
+0 0 1 3 4 4 4 4 3 4 5 7 8 8 9 9 6 4 4 2 0 0 0 0
+
+<b>Output:</b>
+
+.##########....
+.##########....
+....######.....
+......####.....
+.......####..##
+.......########
+#####..########
+###############
+..#########..##
+....######.....
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-26</td></tr>
+<tr><td>Time limit:</td><td>6.813s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC World Finals 1993</td></tr>	
+</table>

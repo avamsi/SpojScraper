@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC11J"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16212. Jailbreak</h1>
+		<h2>Problem code: DCEPC11J</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The great King Kapish has prisoned Pushap, for he loves the princess Padmavati. To make sure that Pushap and Padmavati never meet again, King Kapish has kept Pushap in his most mysterious of jail.</p>
+<p>This jail is built in a 2D rectangular grid fashion, containing M*N prison cells. The entrance gate for jail is at bottom left corner (0,0). The mysteriousness of this jail comes from the fact that once a prisoner is taken from entrance gate (0,0) to any prison cell, then that prisoner can escape only if he comes back to the entrance visiting the cells used on his way from entrance to his prison cell. Note that in the escape, it is not required for the prisoner to trace the exact path or visit all the cells used on his way up, rather the condition is to use/visit only those prison cells used on his way up. Additionally, when the prisoner is taken from entrance (0,0) to a prison cell, they can fathom upto 2 cells in a single move/step in either upward direction or right direction. And when the prisoner is escaping, he can fathom upto 2 cells in a single move/step in either downward or left direction.</p>
+<p>King Kapish orders to jail prisoner Pushap in cell (M-1,N-1).</p>
+<p>You, being a common friend to Pushap and Padmavati, have to help Pushap escape the prison. <strong>Tell him the number of ways in which he can go up to cell (M-1,N-1) and then come back following the procedure described above. Please refer explanation part to know more.</strong></p>
+<h3>Input</h3>
+<p>First line contains T, the number of test cases.</p>
+<p>Each test case contains 2 space separated integers, M and N.</p>
+<h3>Output</h3>
+<p>Output exactly T lines, each containing the required answer modulo 10^9 + 7.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>3</p><p>2 2</p><p>2 3</p><p>3 4</p><strong>Output:</strong>
+</pre>
+<pre><strong><p>2</p><p>7</p><p>66</p><p style="font-weight: bold;">&nbsp;</p><p style="font-weight: bold;"><strong>Constraints:</strong></p><p style="font-weight: bold;">1 &lt;= T &lt;= 10</p><p style="font-weight: bold;">1 &lt; M,N &lt;= 500</p><p style="font-weight: bold;"><strong><strong><br /></strong></strong></p><p style="font-weight: bold;"><strong><strong>Example:</strong></strong></p><p style="font-weight: bold;"><strong><strong>For (M,N) = (2,3), one valid way to go up to prison cell and come back is as follows:</strong></strong></p><p style="font-weight: bold;"><strong><strong>Path taken for going from (0,0) to (1,2) = (0,0) -&gt; (0,1) -&gt; (0,2) -&gt; (1,2).</strong></strong></p><p style="font-weight: bold;"><strong><strong>Path taken for going from (1,2) to (0,0) = (1,2) -&gt; (0,2) -&gt; (0,0).<br /></strong></strong></p></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-10-01</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

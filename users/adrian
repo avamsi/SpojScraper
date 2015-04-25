@@ -1,0 +1,198 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/adrian"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SBSTR1" target="_blank">3. Substring Check (Bug Funny)</a></td><td><a href="http://www.spoj.com/problems/SBSTR1"target="_blank">SBSTR1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALIN" target="_blank">5. The Next Palindrome</a></td><td><a href="http://www.spoj.com/problems/PALIN"target="_blank">PALIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARITH" target="_blank">6. Simple Arithmetics</a></td><td><a href="http://www.spoj.com/problems/ARITH"target="_blank">ARITH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BULK" target="_blank">7. The Bulk!</a></td><td><a href="http://www.spoj.com/problems/BULK"target="_blank">BULK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CMPLS" target="_blank">8. Complete the Sequence!</a></td><td><a href="http://www.spoj.com/problems/CMPLS"target="_blank">CMPLS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIRVS" target="_blank">9. Direct Visibility</a></td><td><a href="http://www.spoj.com/problems/DIRVS"target="_blank">DIRVS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CMEXPR" target="_blank">10. Complicated Expressions</a></td><td><a href="http://www.spoj.com/problems/CMEXPR"target="_blank">CMEXPR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCTRL" target="_blank">11. Factorial</a></td><td><a href="http://www.spoj.com/problems/FCTRL"target="_blank">FCTRL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMIND" target="_blank">12. The Game of Master-Mind</a></td><td><a href="http://www.spoj.com/problems/MMIND"target="_blank">MMIND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOTLINE" target="_blank">13. Hotline</a></td><td><a href="http://www.spoj.com/problems/HOTLINE"target="_blank">HOTLINE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IKEYB" target="_blank">14. I-Keyboard</a></td><td><a href="http://www.spoj.com/problems/IKEYB"target="_blank">IKEYB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRYPTO1" target="_blank">17. The Bytelandian Cryptographer (Act I)</a></td><td><a href="http://www.spoj.com/problems/CRYPTO1"target="_blank">CRYPTO1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRYPTO2" target="_blank">18. The Bytelandian Cryptographer (Act II)</a></td><td><a href="http://www.spoj.com/problems/CRYPTO2"target="_blank">CRYPTO2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRYPTO3" target="_blank">19. The Bytelandian Cryptographer (Act III)</a></td><td><a href="http://www.spoj.com/problems/CRYPTO3"target="_blank">CRYPTO3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCTRL2" target="_blank">24. Small factorials</a></td><td><a href="http://www.spoj.com/problems/FCTRL2"target="_blank">FCTRL2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POUR1" target="_blank">25. Pouring water</a></td><td><a href="http://www.spoj.com/problems/POUR1"target="_blank">POUR1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RUNAWAY" target="_blank">34. Run Away</a></td><td><a href="http://www.spoj.com/problems/RUNAWAY"target="_blank">RUNAWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EQBOX" target="_blank">35. Equipment Box</a></td><td><a href="http://www.spoj.com/problems/EQBOX"target="_blank">EQBOX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODE1" target="_blank">36. Secret Code</a></td><td><a href="http://www.spoj.com/problems/CODE1"target="_blank">CODE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROPKEY" target="_blank">37. The Proper Key</a></td><td><a href="http://www.spoj.com/problems/PROPKEY"target="_blank">PROPKEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LABYR1" target="_blank">38. Labyrinth</a></td><td><a href="http://www.spoj.com/problems/LABYR1"target="_blank">LABYR1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIGBANK" target="_blank">39. Piggy-Bank</a></td><td><a href="http://www.spoj.com/problems/PIGBANK"target="_blank">PIGBANK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STONE" target="_blank">40. Lifting the Stone</a></td><td><a href="http://www.spoj.com/problems/STONE"target="_blank">STONE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WORDS1" target="_blank">41. Play on Words</a></td><td><a href="http://www.spoj.com/problems/WORDS1"target="_blank">WORDS1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADDREV" target="_blank">42. Adding Reversed Numbers</a></td><td><a href="http://www.spoj.com/problems/ADDREV"target="_blank">ADDREV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOOKS1" target="_blank">43. Copying Books</a></td><td><a href="http://www.spoj.com/problems/BOOKS1"target="_blank">BOOKS1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SCYPHER" target="_blank">44. Substitution Cipher</a></td><td><a href="http://www.spoj.com/problems/SCYPHER"target="_blank">SCYPHER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COMMEDIA" target="_blank">45. Commedia dell Arte</a></td><td><a href="http://www.spoj.com/problems/COMMEDIA"target="_blank">COMMEDIA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SCRAPER" target="_blank">47. Skyscraper Floors</a></td><td><a href="http://www.spoj.com/problems/SCRAPER"target="_blank">SCRAPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BEADS" target="_blank">48. Glass Beads</a></td><td><a href="http://www.spoj.com/problems/BEADS"target="_blank">BEADS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HAREFOX" target="_blank">49. Hares and Foxes</a></td><td><a href="http://www.spoj.com/problems/HAREFOX"target="_blank">HAREFOX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INCARDS" target="_blank">50. Invitation Cards</a></td><td><a href="http://www.spoj.com/problems/INCARDS"target="_blank">INCARDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SQRBR" target="_blank">63. Square Brackets</a></td><td><a href="http://www.spoj.com/problems/SQRBR"target="_blank">SQRBR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERMUT1" target="_blank">64. Permutations</a></td><td><a href="http://www.spoj.com/problems/PERMUT1"target="_blank">PERMUT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALL1" target="_blank">65. Ball</a></td><td><a href="http://www.spoj.com/problems/BALL1"target="_blank">BALL1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRSCNTRY" target="_blank">66. Cross-country</a></td><td><a href="http://www.spoj.com/problems/CRSCNTRY"target="_blank">CRSCNTRY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUTOUT" target="_blank">67. Cutting out</a></td><td><a href="http://www.spoj.com/problems/CUTOUT"target="_blank">CUTOUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXPR1" target="_blank">68. Expression</a></td><td><a href="http://www.spoj.com/problems/EXPR1"target="_blank">EXPR1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOULDS" target="_blank">69. Moulds</a></td><td><a href="http://www.spoj.com/problems/MOULDS"target="_blank">MOULDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RELATS1" target="_blank">70. Relations</a></td><td><a href="http://www.spoj.com/problems/RELATS1"target="_blank">RELATS1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREE1" target="_blank">71. Tree</a></td><td><a href="http://www.spoj.com/problems/TREE1"target="_blank">TREE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EASYPIE" target="_blank">82. Easy Problem</a></td><td><a href="http://www.spoj.com/problems/EASYPIE"target="_blank">EASYPIE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUNDLE" target="_blank">83. Bundling</a></td><td><a href="http://www.spoj.com/problems/BUNDLE"target="_blank">BUNDLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHORTCUT" target="_blank">84. Shortcut</a></td><td><a href="http://www.spoj.com/problems/SHORTCUT"target="_blank">SHORTCUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DICE1" target="_blank">85. Dice Contest</a></td><td><a href="http://www.spoj.com/problems/DICE1"target="_blank">DICE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RAIN1" target="_blank">86. November Rain</a></td><td><a href="http://www.spoj.com/problems/RAIN1"target="_blank">RAIN1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOOTBALL" target="_blank">87. Football</a></td><td><a href="http://www.spoj.com/problems/FOOTBALL"target="_blank">FOOTBALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREE2" target="_blank">88. Which is Next</a></td><td><a href="http://www.spoj.com/problems/TREE2"target="_blank">TREE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HANGLET" target="_blank">89. Hang or not to hang</a></td><td><a href="http://www.spoj.com/problems/HANGLET"target="_blank">HANGLET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MINIMAX" target="_blank">90. Minimizing maximizer</a></td><td><a href="http://www.spoj.com/problems/MINIMAX"target="_blank">MINIMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUTSQRS" target="_blank">92. Cutting off Squares</a></td><td><a href="http://www.spoj.com/problems/CUTSQRS"target="_blank">CUTSQRS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALICEBOB" target="_blank">105. Alice and Bob</a></td><td><a href="http://www.spoj.com/problems/ALICEBOB"target="_blank">ALICEBOB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BINSTIRL" target="_blank">106. Binary Stirling Numbers</a></td><td><a href="http://www.spoj.com/problems/BINSTIRL"target="_blank">BINSTIRL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAYACAL" target="_blank">107. Calendar of the Maya</a></td><td><a href="http://www.spoj.com/problems/MAYACAL"target="_blank">MAYACAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MORSE" target="_blank">108. Decoding Morse Sequences</a></td><td><a href="http://www.spoj.com/problems/MORSE"target="_blank">MORSE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXCHNG" target="_blank">109. Exchanges</a></td><td><a href="http://www.spoj.com/problems/EXCHNG"target="_blank">EXCHNG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CISTFILL" target="_blank">110. Fill the Cisterns</a></td><td><a href="http://www.spoj.com/problems/CISTFILL"target="_blank">CISTFILL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEGVIS" target="_blank">112. Horizontally Visible Segments</a></td><td><a href="http://www.spoj.com/problems/SEGVIS"target="_blank">SEGVIS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAMILY" target="_blank">115. Family</a></td><td><a href="http://www.spoj.com/problems/FAMILY"target="_blank">FAMILY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INTERVAL" target="_blank">116. Intervals</a></td><td><a href="http://www.spoj.com/problems/INTERVAL"target="_blank">INTERVAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RHOMBS" target="_blank">118. Rhombs</a></td><td><a href="http://www.spoj.com/problems/RHOMBS"target="_blank">RHOMBS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SERVERS" target="_blank">119. Servers</a></td><td><a href="http://www.spoj.com/problems/SERVERS"target="_blank">SERVERS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOLIT" target="_blank">120. Solitaire</a></td><td><a href="http://www.spoj.com/problems/SOLIT"target="_blank">SOLIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TTABLE" target="_blank">121. Timetable</a></td><td><a href="http://www.spoj.com/problems/TTABLE"target="_blank">TTABLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STEVE" target="_blank">122. Voracious Steve</a></td><td><a href="http://www.spoj.com/problems/STEVE"target="_blank">STEVE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANS" target="_blank">136. Transformation</a></td><td><a href="http://www.spoj.com/problems/TRANS"target="_blank">TRANS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARTIT" target="_blank">137. Partition</a></td><td><a href="http://www.spoj.com/problems/PARTIT"target="_blank">PARTIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POSTERS" target="_blank">138. Election Posters</a></td><td><a href="http://www.spoj.com/problems/POSTERS"target="_blank">POSTERS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAZE" target="_blank">139. The Long and Narrow Maze</a></td><td><a href="http://www.spoj.com/problems/MAZE"target="_blank">MAZE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LONER" target="_blank">140. The Loner</a></td><td><a href="http://www.spoj.com/problems/LONER"target="_blank">LONER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLUE" target="_blank">142. Johnny and the Glue</a></td><td><a href="http://www.spoj.com/problems/GLUE"target="_blank">GLUE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MLAND" target="_blank">148. Land for Motorways</a></td><td><a href="http://www.spoj.com/problems/MLAND"target="_blank">MLAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FSHEEP" target="_blank">149. Fencing in the Sheep</a></td><td><a href="http://www.spoj.com/problems/FSHEEP"target="_blank">FSHEEP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLONK" target="_blank">150. Where to Drink the Plonk?</a></td><td><a href="http://www.spoj.com/problems/PLONK"target="_blank">PLONK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COURIER" target="_blank">151. The Courier</a></td><td><a href="http://www.spoj.com/problems/COURIER"target="_blank">COURIER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SCALES" target="_blank">153. Balancing the Stone</a></td><td><a href="http://www.spoj.com/problems/SCALES"target="_blank">SCALES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROCK" target="_blank">154. Sweet and Sour Rock</a></td><td><a href="http://www.spoj.com/problems/ROCK"target="_blank">ROCK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALSEC" target="_blank">160. Choosing a Palindromic Sequence</a></td><td><a href="http://www.spoj.com/problems/PALSEC"target="_blank">PALSEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PANIC" target="_blank">215. Panic in the Plazas</a></td><td><a href="http://www.spoj.com/problems/PANIC"target="_blank">PANIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOPARADE" target="_blank">217. Soldiers on Parade</a></td><td><a href="http://www.spoj.com/problems/SOPARADE"target="_blank">SOPARADE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHRASES" target="_blank">220. Relevant Phrases of Annihilation</a></td><td><a href="http://www.spoj.com/problems/PHRASES"target="_blank">PHRASES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JEWELS" target="_blank">226. Jewelry and Fashion</a></td><td><a href="http://www.spoj.com/problems/JEWELS"target="_blank">JEWELS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ORDERS" target="_blank">227. Ordering the Soldiers</a></td><td><a href="http://www.spoj.com/problems/ORDERS"target="_blank">ORDERS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZEBRA" target="_blank">231. The Zebra Crossing</a></td><td><a href="http://www.spoj.com/problems/ZEBRA"target="_blank">ZEBRA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOLIDAY1" target="_blank">234. Getting Rid of the Holidays (Act I)</a></td><td><a href="http://www.spoj.com/problems/HOLIDAY1"target="_blank">HOLIDAY1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOLIDAY2" target="_blank">238. Getting Rid of the Holidays (Act II)</a></td><td><a href="http://www.spoj.com/problems/HOLIDAY2"target="_blank">HOLIDAY2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLOCKS" target="_blank">241. Arranging the Blocks</a></td><td><a href="http://www.spoj.com/problems/BLOCKS"target="_blank">BLOCKS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WMELON" target="_blank">274. Johnny and the Watermelon Plantation</a></td><td><a href="http://www.spoj.com/problems/WMELON"target="_blank">WMELON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WATERWAY" target="_blank">275. The Water Ringroad</a></td><td><a href="http://www.spoj.com/problems/WATERWAY"target="_blank">WATERWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OFBEAT" target="_blank">293. Officers on the Beat</a></td><td><a href="http://www.spoj.com/problems/OFBEAT"target="_blank">OFBEAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWORK" target="_blank">296. Teamwork is Crucial</a></td><td><a href="http://www.spoj.com/problems/TWORK"target="_blank">TWORK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WINDMILL" target="_blank">325. The Tall Windmills</a></td><td><a href="http://www.spoj.com/problems/WINDMILL"target="_blank">WINDMILL</a><br>
+</td></tr>

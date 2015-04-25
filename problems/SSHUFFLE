@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SSHUFFLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3379. String Shuffle</h1>
+		<h2>Problem code: SSHUFFLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given three strings consisting of just lowercase letters, count the number of ways that the third
+string can be constructed by combining two subsequences from the first two strings.<br><br>
+One derives a subsequence of the string by deleting zero or more characters from a string. For
+example, &#8220;&#8221;, &#8220;a&#8221;, &#8220;b&#8221;, &#8220;c&#8221;, &#8220;ab&#8221;, &#8220;ac&#8221;, &#8220;bc&#8221;, and &#8220;abc&#8221; are all the subsequence strings of &#8220;abc&#8221;.
+(Note that the empty string, &#8220;&#8221;, is a subsequence of any string.)<br><br>
+The two subsequences are combined to make a third string by shuffling them together. That is,
+the relative order of the letters from the subsequence cannot be changed in the target string; but
+the two subsequences can be interleaved arbitrarily. For example, consider the two subsequences
+&#8220;abc&#8221; and &#8220;de&#8221;. By combining them, one can get the following strings: &#8220;abcde&#8221;, &#8220;abdce&#8221;, &#8220;abdec&#8221;,
+&#8220;adbce&#8221;, &#8220;adbec&#8221;, &#8220;adebc&#8221;, &#8220;dabce&#8221;, &#8220;dabec&#8221;, &#8220;daebc&#8221;, and &#8220;deabc&#8221;.
+<br><br>
+
+<h3>Input</h3>
+<p>The first line of the input contains a single integer t that indicates the number of test cases. Each
+test case contains 3 strings, each containing only lowercase characters. The length of each string is
+between 1 and 60, inclusive.
+
+
+<h3>Output</h3>
+<p>For each test case, output a line with a single integer that denotes the number of ways that one
+can construct the third string from the first two strings as described above.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+abc abc abc
+aa aa aa
+abbcd bccde abcde
+
+
+<b>Output:</b>
+8
+10
+18
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dilaang">Daniel Gómez Didier</a></td></tr>
+<tr><td>Date:</td><td>2008-11-18</td></tr>
+<tr><td>Time limit:</td><td>0.463s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>2008 PUJ - Circuito de Maratones ACIS / REDIS</td></tr>	
+</table>

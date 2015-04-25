@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7861. UFO</h1>
+		<h2>Problem code: ADV04D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a UFO in the form of the disc of radius r. Currently its center is in point A and it needs to move its center to point B as soon as possible. But the tricky inhabitants of the Earth are starting to suspect something, so they have built a redar in point C with a range of R, which is able to detect a UFO, if any part of it will be in the range. Because of the special features of the UFO it cannot change its height and always maintain vertical alignment. Determine the shortest path for the UFO to reach its destination not being caught by the radar.
+
+<h3>Input</h3>
+<p>The first line of input contains number T &#8212; the amount of test cases. Next T line consist of eight integers each x<sub>A</sub>, y<sub>A</sub>, x<sub>B</sub>, y<sub>B</sub>, x<sub>C</sub>, y<sub>C</sub>, r and R &#8212; the coordinates of points A, B, C and radii of the UFO and radar coverage. It is guaranteed that the UFO won't be within the radar coverage in points A and B.
+
+<h3>Constraints</h3>
+<p>1 <= T <= 1000<br />
+-1000 <= x<sub>A</sub>, y<sub>A</sub>, x<sub>B</sub>, y<sub>B</sub>, x<sub>C</sub>, y<sub>C</sub>, r, R <= 1000
+
+<h3>Output</h3>
+<p>For each test case output a real number which is the shortest UFO path with two decimals after the dot.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+0 0 8 0 4 0 1 1
+
+<b>Output:</b>
+9.02
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.930s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/, author: Alexey Shchepin</td></tr>	
+</table>

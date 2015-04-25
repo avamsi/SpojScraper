@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PRETILE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2743. Prefix Tiling</h1>
+		<h2>Problem code: PRETILE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a string S with N (1 &#8804; N &#8804; 100,000) characters from 'A' to 'Z', inclusive. For an integer L between 1 and N, inclusive, we define match (L) as the length of the longest prefix of S that can be tiled by the length-L prefix of S; more specifically, match (L) is the smallest 0-based index k such that S [k] &#8800; S [k mod L], or N if no such k exists. For example, when S = "ABCAB", match (1) = 1, match (3) = 5, and match (4) = 4. Compute the sum match (1) + match (2) + ... + match (N).
+
+<h3>Input</h3>
+<p>The first line contains the integer T (1 &#8804; T &#8804; 10), the number of tests. For each test, there is a single line containing the string S.</p>
+
+<h3>Output</h3>
+<p>For each test case, print a single line containing one integer: the value of match (1) + match (2) + ... + match (N).</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+ABCAB
+ZZZZZZ
+
+<b>Output:</b>
+17
+36
+</pre>
+
+<p>For the first test case, match (1) + match (2) + match (3) + match (4) + match (5) = 1 + 2 + 5 + 4 + 5 = 17. For the second, the sum is equal to 6 * 6 = 36.</p>
+
+<b>Warning: large input/output data.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-05-28</td></tr>
+<tr><td>Time limit:</td><td>0.161s-0.328s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+	
+</table>

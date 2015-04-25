@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MEXICAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5300. Mexican Standoff</h1>
+		<h2>Problem code: MEXICAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The town of San Saba is too small for more than one gunslinger. Unfortunately, all of them turned up on the same day, one fine spring morning. As it turned out, love was in the air and they were all trying to woo Alice, the sheriff's daughter. As only one of them could win her love, they decided to do the only gentlemanly thing left to do - they decided to have a Mexican Standoff.</p>
+<p>&nbsp;</p>
+<p>There are multiple rounds in this standoff. In each round, all gunslingers still alive first form a large circle, with each of them facing the centre of the circle. To prevent a fight for position while forming the circle, the men have decided that they will line up in the lexicographic order of their names, and then connect the ends of the line to form the required circle. Once they have taken their positions Alice drops a scarf from her hand, and the moment it hits the ground all the men simultaneously draw out their two guns (one from the left holster and one from the right) and fire both of them. Each man aims the gun from the left holster at the person to his immediate left in the circle and the other gun at the person to his immediate right. Of course, not all gunslingers are equal - they have different reaction times and hence fire their guns at different times. If a man is fired upon before he can fire, he dies and is thus unable to fire his own gun. If two men fire at each other at exactly the same time, they both die. After the round is over, the bodies of the dead men are removed from the circle by those alive, who then head to the next round. If there is only one man left standing after a round, the standoff is over and the lucky survivor gets to marry Alice. If no one survives after a particular round, then Alice remains single of course.</p>
+<p>&nbsp;</p>
+<p>Unfortunately, Alice only likes some of the men. So she decided that before each round, she would remove a single bullet from the gun in either the left or the right holster (but not both) of at most one of the men. Being a little lazy, she wants to know the minimum number of rounds in which she must remove a bullet so that she gets to marry one of the men she likes. If she does not likes anyone, it means that she wants to remain single.</p>
+<h3>Input</h3>
+<p>The first line contains T the number of test cases (1 &lt;= T &lt;= 30). The first line of each test case contains N, the number of gunslingers in town (2 &lt;= N &lt;= 60). Each of the next N lines contains the name of the gunslinger (between 1 and 20 lower case letters, each gunslinger will have a unique name), his reaction time in milliseconds (1 &lt;= reaction time &lt;= 1000) and whether Alice likes him or not (Y or N), separated by spaces.</p>
+<h3>Output</h3>
+<p>For each test case, a line containing a single integer equal to the minimum number of rounds in which Alice needs to remove a bullet, or -1 if it is impossible for her desire to be fulfilled.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />3<br />good 100 Y<br />bad 200 N<br />ugly 100 N<br />3 <br />good 100 N<br />bad 200 N<br />ugly 100 N<br />3 <br />good 100 Y<br />bad 100 N<br />ugly 100 N<br /><br /><strong>Output:</strong>
+1<br />0 <br />-1<br /><br /><strong>Explanation</strong><br />1. Alice likes only Good, so she removes a bullet from the gun which Ugly will use to fire at Good.<br />Good survives while Bad and Ugly are killed.<br />2. Alice doesn't like any of them, and she doesn't have to lift a finger to remain single.<br />3. Alice likes only Good, but all of them are equally fast, so she can't save him and will remain<br />single in his memory.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fameoflight">Hemant Verma</a></td></tr>
+<tr><td>Date:</td><td>2009-11-15</td></tr>
+<tr><td>Time limit:</td><td>0.639s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Alkhwarizm 2009</td></tr>	
+</table>

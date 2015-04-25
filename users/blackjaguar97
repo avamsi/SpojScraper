@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/blackjaguar97"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ALLBARN2" target="_blank">12107. All Possible Barns</a></td><td><a href="http://www.spoj.com/problems/ALLBARN2"target="_blank">ALLBARN2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINEGAR" target="_blank">12108. Linear Garden</a></td><td><a href="http://www.spoj.com/problems/LINEGAR"target="_blank">LINEGAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCOWS" target="_blank">14955. Dancing Cows</a></td><td><a href="http://www.spoj.com/problems/DCOWS"target="_blank">DCOWS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCAMP" target="_blank">19686. Mining Camps</a></td><td><a href="http://www.spoj.com/problems/MCAMP"target="_blank">MCAMP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/APIO14_A" target="_blank">21132. Palindromes</a></td><td><a href="http://www.spoj.com/problems/APIO14_A"target="_blank">APIO14_A</a><br>
+</td></tr>

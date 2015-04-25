@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOI7SEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7741. Sequence</h1>
+		<h2>Problem code: BOI7SEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We are given a sequence a1 , ..., an . We can manipulate this sequence using the operation reduce(i), which replaces elements ai and ai+1 with a single element max(ai , ai+1 ), resulting in a new shorter sequence. The cost of this operation is max(ai , ai+1 ). After n&minus;1 operations reduce, we obtain a sequence of length 1. Our task is to compute the cost of the optimal reducing scheme, i.e. the sequence of reduce operations with minimal cost leading to a sequence of length 1.</p>
+<h3>Input</h3>
+<p>The first line contains n (1 &le; n &le; 1,000,000), the length of the sequence. The following n lines contain one integer ai , the elements of the sequence (0 &le; ai &le; 1,000,000,000).</p>
+<h3>Output</h3>
+<p>In the first and only line of the output print the minimal cost of reducing the sequence to a single element.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />1<br />2<br />3<br /><strong>Output:</strong>
+5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-04</td></tr>
+<tr><td>Time limit:</td><td>0.181s-0.362s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Baltic Olympiad 2007</td></tr>	
+</table>

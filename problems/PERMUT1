@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PERMUT1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>64. Permutations</h1>
+		<h2>Problem code: PERMUT1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+	Let A = [a<sub>1</sub>,a<sub>2</sub>,...,a<sub>n</sub>] be a permutation of 
+	integers 1,2,...,n. A pair of indices (i,j), 1<=i<=j<=n, is an <i>inversion</i> 
+	of the permutation A if a<sub>i</sub>>a<sub>j</sub>. We are given integers n>0 
+	and k>=0. What is the number of n-element permutations containing exactly k 
+	inversions?
+</p>
+<p>
+	For instance, the number of 4-element permutations with exactly 1 inversion 
+	equals 3.
+</p>
+<h3>Task</h3>
+<p>
+	Write a program which for each data set from a sequence of several data sets:
+</p>
+<div align="left">
+	<ul>
+		<li>
+		reads integers n and k from input,
+		<li>
+		computes the number of n-element permutations with exactly k inversions,
+		<li>
+		writes the result to output.
+	</ul>
+</div>
+<h3>Input</h3>
+<p>
+	The first line of the input file contains one integer d, 1<=d<=10, which is the 
+	number of data sets. The data sets follow. Each data set occupies one line of 
+	the input file and contains two integers n (1<=n<=12) and k (0<=k<=98) 
+	separated by a single space.
+</p>
+<h3>Output</h3>
+<p>
+	The i-th line of the output file should contain one integer - the number of 
+	n-element permutations with exactly k inversions.
+</p>
+<h3>Example</h3>
+<pre>
+<b><tt>Sample input:</tt></b>
+1 
+4 1 
+
+<b><tt>Sample output:</tt></b>
+3 
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-22</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>III Polish Collegiate Team Programming Contest (AMPPZ), 1998</td></tr>	
+</table>

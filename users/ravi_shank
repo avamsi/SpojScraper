@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ravi_shank"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DIVFACT" target="_blank">22403. Divisors of factorial</a></td><td><a href="http://www.spoj.com/problems/DIVFACT"target="_blank">DIVFACT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMPRO" target="_blank">22455. SUM OF PRODUCT</a></td><td><a href="http://www.spoj.com/problems/SUMPRO"target="_blank">SUMPRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRVCOST" target="_blank">23132. Travelling cost</a></td><td><a href="http://www.spoj.com/problems/TRVCOST"target="_blank">TRVCOST</a><br>
+</td></tr>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/XOINC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5271. A Coin Game</h1>
+		<h2>Problem code: XOINC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="left"></p>
+<p align="left"></p>
+<p align="left"></p>
+<p align="left"></p>
+<p align="left"></p>
+<p align="left">Farmer John's cows like to play coin games so FJ has invented with a new two-player coin game called Xoinc for them.</p>
+<p align="left">Initially a stack of N (5 &lt;= N &lt;= 2,000) coins sits on the ground; coin i from the top has integer value C_i (1 &lt;= C_i &lt;= 100,000).</p>
+<p align="left">The first player starts the game by taking the top one or two coins (C_1 and maybe C_2) from the stack. If the first player takes just the top coin, the second player may take the following one or two coins in the next turn. If the first player takes two coins then the second player may take the top one, two, three or four coins from the stack. In each turn, the current player must take at least one coin and at most two times the amount of coins last taken by the opposing player. The game is over when there are no more coins to take.</p>
+<p align="left">Afterwards, they can use the value of the coins they have taken from the stack to buy treats from FJ, so naturally, their purpose in the game is to maximize the total value of the coins they take. Assuming the second player plays optimally to maximize his own winnings, what is the highest total value that the first player can have when the game is over?</p>
+<p align="left"><strong>Input</strong></p>
+<p align="left">Line 1: A single integer: N</p>
+<p align="left">Lines 2..N+1: Line i+1 contains a single integer: C_i</p>
+<p align="left"><strong>Output</strong></p>
+<p align="left">A single integer representing the maximum value that can be made by the first player.</p>
+<p align="left"><strong>Example</strong></p>
+<p align="left"><strong>Input:</strong><br /> <br /> 5<br /> 1<br /> 3<br /> 1<br /> 7<br /> 2<br /> <br /> <strong>Output:</strong><br /> 9<br /> <br /> <strong><br /> Explanation:</strong></p>
+<p align="left">The first player starts by taking a single coin (value 1). The opponent takes one coin</p>
+<p align="left">as well (value 3). The first player takes two more coins (values 1 and 7 -- total 9).</p>
+<p align="left">The second player gets the leftover coin (value 2-- total 5).</p>
+<p align="left"></p>
+<p align="left"></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hnue">HNUE</a></td></tr>
+<tr><td>Date:</td><td>2009-11-12</td></tr>
+<tr><td>Time limit:</td><td>0.142s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>USACO NOV09 Silver Division</td></tr>	
+</table>

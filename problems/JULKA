@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JULKA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>54. Julka</h1>
+		<h2>Problem code: JULKA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Julka surprised her teacher at preschool by solving the following riddle:
+<P>
+<i>
+Klaudia and Natalia have 10 apples together, but Klaudia has two apples more than Natalia.
+How many apples does each of he girls have?
+</i>
+</P>
+<p>
+Julka said without thinking: Klaudia has 6 apples and Natalia 4 apples.
+The teacher tried to check if Julka's answer wasn't accidental and repeated the
+riddle every time increasing the numbers. Every time Julka answered correctly.
+The surprised teacher wanted to continue questioning Julka, but with big numbers she could't solve the riddle fast enough herself. Help the teacher and write a program which will give her the right answers.
+</P>
+<H3>Task</H3>
+<P>
+Write a program which
+<div align="justify">
+<ul>
+<li> reads from standard input the number of apples the girls have together and how many more apples Klaudia has,</li>
+<li> counts the number of apples belonging to Klaudia and the number of apples belonging to Natalia,</li>
+<li> writes the outcome to standard output
+</li>
+</ul>
+</div>
+</P>
+<H3>Input</H3>
+<P>
+Ten test cases (given one under another, you have to process all!). Every test case consists of two lines. The first line says how many
+apples both girls have together. The second line says how many more apples Klaudia has.
+Both numbers are positive integers. It is known that both girls have
+no more than 10<sup>100</sup> (1 and 100 zeros) apples together. As you can see apples can be
+very small.
+</P>
+<H3>Output</H3>
+<P>For every test case your program should output two lines. The first line should
+contain the number of apples belonging to Klaudia. The second line should
+contain the number of apples belonging to Natalia.
+</P>
+<H3>Example</H3>
+<pre>
+<tt><b>Input:</b>
+10
+2
+[and 9 test cases more]
+</tt>
+<tt><b>Output:</b>
+6
+4
+[and 9 test cases more]
+</tt>
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-08</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B> (Algorithm Tamers)<br>Round II, 2003</td></tr>	
+</table>

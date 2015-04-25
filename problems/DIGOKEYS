@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIGOKEYS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15849. Find the Treasure</h1>
+		<h2>Problem code: DIGOKEYS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A psychic lock-lover called Digo likes playing games with Locks and Keys and also has very good logic.</p>
+<p>One day he buys a set of <strong>N</strong> boxes, each of them has an index between {<strong>1, N</strong>} (inclusive) and no two boxes have same index. There is a key inside every box except the <strong>Nth</strong> box which has great treasure. He eventually finds out that due to a defect in the manufacturing of the keys, most of them could open more than one box.</p>
+<p>The rule is that you are allowed to open only one box with any key. Each box except the first is locked. Now as Digo couldn&rsquo;t wait long to acquire that great treasure he requests you to find a method to open the last box starting with the key in the first box with minimum number of steps.</p>
+<p><strong>INPUT</strong></p>
+<p>In first line, <strong>T</strong> no. of test cases.</p>
+<p>For every test case:</p>
+<p>In first line, there is an integer <strong>N</strong> : (number of locks)</p>
+<p>In next <strong>N-1</strong> lines, on the <strong>i&rsquo;th</strong> line there is an integer <strong>Mi </strong>the number of boxes which the key present in the <strong>i&rsquo;th </strong>box<strong> </strong>can open. It is followed by the <strong>Mi</strong> integers (the indices of those boxes that can be opened by the key present in <strong>i&rsquo;th</strong> box).</p>
+<p><strong>OUTPUT</strong></p>
+<p>For every test case:</p>
+<p>one integer <strong>q</strong>, minimum number of boxes opened.</p>
+<p>In the next line : &nbsp;the indices of the boxes opened in order separated by space. If there are many solutions print the one which is lexicographically smallest.</p>
+<p>If there is no way to reach the last box print &ldquo;-1&rdquo;.</p>
+<p>Each test case is to be followed by a blank line.<strong> </strong></p>
+<p><strong>Constraints</strong></p>
+<p>1 &lt;= <strong>T</strong> &lt;= 10</p>
+<p>2 &lt;= <strong>N</strong> &lt;= 100000</p>
+<p>1 &lt;= <strong>Mi</strong> &lt;= 10<strong></strong></p>
+<p><strong>Sample Input</strong></p>
+<p>2</p>
+<p>3</p>
+<p>1 2</p>
+<p>1 3</p>
+<p>4</p>
+<p>2 2 3</p>
+<p>1 1</p>
+<p>2 2 4</p>
+<p><strong>Sample Output</strong></p>
+<p>2</p>
+<p>1 2</p>
+<p>&nbsp;</p>
+<p>2</p>
+<p>1 3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2013-09-05</td></tr>
+<tr><td>Time limit:</td><td>0.112s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Codeblitz-4</td></tr>	
+</table>

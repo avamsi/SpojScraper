@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CEQU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21357. Crucial Equation</h1>
+		<h2>Problem code: CEQU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let us see the following equation,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<em><span style="font-size: large;"><strong>&nbsp; &nbsp; &nbsp;ax+by=c</strong></span></em></p>
+<p>Given three positive integers <strong>a</strong>, <strong>b</strong> and <strong>c</strong>. You have to determine whether there exists at least one solution for some integers value of <strong>x</strong> and <strong>y</strong> where <strong>x</strong>, <strong>y</strong> may be negative or non-negative integers.</p>
+<p>For example if <strong>a=2</strong>, <strong>b=4</strong> and <strong>c=8</strong> then the equation will be <strong>2x+4y=8</strong>, and hence, for <strong>x=2</strong> and <strong>y=1</strong>, there exists a solution.</p>
+<p>Let us see another example for <strong>a=3</strong>, <strong>b=6</strong> and <strong>c=7</strong>, so the equation will become <strong>3x+6y=7</strong> and there exists no solution satisfying this equation.</p>
+<p><strong>Input</strong></p>
+<p>Input starts with an integer <strong>T (1&lt;=T&lt;=10<sup>5</sup>)</strong> denoting the number of test cases. Each test case contains three integers <strong>a</strong>, <strong>b</strong>, and <strong>c</strong>. <strong>(1&lt;=a, b, c&lt;=10<sup>6</sup>)</strong>.</p>
+<p><strong>Output</strong></p>
+<p>For each test case of input print the case number and &ldquo;<strong>Yes</strong>&rdquo; if there exists at least one solution, print &ldquo;<strong>No</strong>&rdquo; otherwise.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="319" valign="top">
+<p><strong>Sample   Input</strong></p>
+</td>
+<td width="319" valign="top">
+<p><strong>Output   for Sample Input</strong></p>
+</td>
+</tr>
+<tr>
+<td width="319" valign="top">
+<p>2<br /> 2 4 8<br />3 6 7</p>
+</td>
+<td width="319" valign="top">
+<p>Case 1:   Yes<br /> Case 2: No</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/alim14">Md Abdul Alim</a></td></tr>
+<tr><td>Date:</td><td>2014-10-15</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/aayushagarwal"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BWB" target="_blank">19545. Black and White beads</a></td><td><a href="http://www.spoj.com/problems/BWB"target="_blank">BWB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INUM" target="_blank">20845. Interesting Numbers</a></td><td><a href="http://www.spoj.com/problems/INUM"target="_blank">INUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ISELECT" target="_blank">20846. Interesting Selection</a></td><td><a href="http://www.spoj.com/problems/ISELECT"target="_blank">ISELECT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IGAME" target="_blank">20848. Interesting Game</a></td><td><a href="http://www.spoj.com/problems/IGAME"target="_blank">IGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IQUERY" target="_blank">20849. Interesting queries</a></td><td><a href="http://www.spoj.com/problems/IQUERY"target="_blank">IQUERY</a><br>
+</td></tr>

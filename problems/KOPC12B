@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KOPC12B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10515. K12-Combinations</h1>
+		<h2>Problem code: KOPC12B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">(nC1)^2+2*(nC2)^2+3*(nC3)^2+4*(nC4)^2+............+n*(nCn)^2. &nbsp; % MOD</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">where MOD=10^9+7;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Input Format:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The first line of input file contains T which denotes number of testcases.Each of the following line contains an integer n. T&lt;=1000 &amp;&amp; n&lt;=10^6.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output Format:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The output must contain T lines each line corresponding to a testcase.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1</div>
+<p>Given n &nbsp;find the value of ((nC<sub>1</sub>)<sup>2</sup>+2*(nC<sub>2</sub>)<sup>2</sup>+3*(nC<sub>3</sub>)<sup>2</sup>+4*(nC<sub>4</sub>)<sup>2</sup>+............+n*(nC<sub>n</sub>)<sup>2</sup>)% MOD</p>
+<p>where MOD=10^9+7.</p>
+<p>Note: nCr is the number of ways of choosing r items from n items.</p>
+<h3>Input</h3>
+<p>The first line of input file contains T which denotes number of testcases.Each of the following line contains an integer n. T&lt;=1000 &amp;&amp; n&lt;=10^6.</p>
+<h3>Output</h3>
+<p>The output must contain T lines each line corresponding to a testcase.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>2
+1
+2
+
+
+<strong>Output:</strong></pre>
+<pre><strong><strong>1
+6</strong></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegradhakrish">Radhakrishnan Venkataramani</a></td></tr>
+<tr><td>Date:</td><td>2012-01-31</td></tr>
+<tr><td>Time limit:</td><td>0.148s-0.595s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

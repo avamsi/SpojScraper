@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SYNC13C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17617. WHAT A CO-ACCIDENT</h1>
+		<h2>Problem code: SYNC13C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Ramesh and Suresh get a box full of five stars on lottery each. Since both the boxes need not have the same number of chocolates, they decide to play a game. The winner gets to have both the boxes of chocolates. They play alternatively and Suresh starts the game.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Given the number of chocolates in both the boxes, let them be c1 and c2, the player takes either c1 or c2 number of chocolates and divide the remaining box of chocolates to two boxes (these two boxes need not have the same number of chocolates). The player who cannot make such a move loses.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Given the initial number of chocolates (c1 and c2) find the winner.</div>
+<p>Ramesh and Suresh get a box full of five stars on lottery each. Since both the boxes need not have the same number of chocolates, they decide to play a game. The winner gets to have both the boxes of chocolates. They play alternatively and Suresh starts the game.</p>
+<p>&nbsp;</p>
+<p>Given the number of chocolates in both the boxes, let them be c1 and c2, the player takes either c1 or c2 number of chocolates and divide the remaining box of chocolates to two boxes (these two boxes need not have the same number of chocolates). The player who cannot make such a move loses.</p>
+<p>Given the initial number of chocolates (c1 and c2) find the winner.Assume both the players play optimally.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>First line of input contains a number T(1&lt;=T&lt;=1000), the number of test cases. Then follows T lines each containing two space separated integers c1 and c2</p>
+<p>(1&lt;=c1&lt;=c2&lt;=10000).</p>
+<div><span style="font-size: 1.17em;">Output</span></div>
+<p>For each test case print "Ramesh" or "Suresh" depending on who is the winner.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>3 1</pre>
+<pre>4 5
+
+<strong>Output:</strong>
+</pre>
+<pre>Ramesh</pre>
+<pre>Suresh</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codingcapo">Pandian</a></td></tr>
+<tr><td>Date:</td><td>2013-12-19</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

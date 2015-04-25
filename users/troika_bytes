@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/troika_bytes"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BRIDGE" target="_blank">6168. Building Bridges</a></td><td><a href="http://www.spoj.com/problems/BRIDGE"target="_blank">BRIDGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SSEQ" target="_blank">6169. Standing Sequence</a></td><td><a href="http://www.spoj.com/problems/SSEQ"target="_blank">SSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HOMEC" target="_blank">6170. Homecoming</a></td><td><a href="http://www.spoj.com/problems/HOMEC"target="_blank">HOMEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAJOR" target="_blank">6171. Majority</a></td><td><a href="http://www.spoj.com/problems/MAJOR"target="_blank">MAJOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OAE" target="_blank">6172. OAE</a></td><td><a href="http://www.spoj.com/problems/OAE"target="_blank">OAE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYTESB" target="_blank">10683. DRIVE</a></td><td><a href="http://www.spoj.com/problems/BYTESB"target="_blank">BYTESB</a><br>
+</td></tr>

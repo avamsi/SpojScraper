@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FANCY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10293. FANCY NUMBERS</h1>
+		<h2>Problem code: FANCY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva;"><br /> <strong><span style="font-size: large;">FANCY NUMBERS<br />&nbsp;</span></strong></span></p>
+<p><span style="font-family: verdana, geneva;">Girls usually give only missed calls to their boyfriends and they want them to call back. These boys are now busy with their engineering subjects and cannot remember all girl friends&rsquo; mobile number. Because of this, girls make it easy for them by having fancy mobile numbers. A fancy mobile number may contain many continuous digits in it.</span></p>
+<p><span style="font-family: verdana, geneva;">For example 9994442200 is a fancy mobile number because the boy can remember simply as triple nine, triple four, double two and double zero. As they are engineering students they do think different. One of the engineering students can spell the above number as double nine, nine, four, double four, two, two, double zero. </span></p>
+<p>The number 100 has only 2 possibilities as it can be spelt as either one, zero, zero (or) one, double zero</p>
+<p><span style="font-family: verdana, geneva;">Given a mobile number find the number of possibilities that the number can be remembered.</span></p>
+<p><span style="font-family: verdana, geneva;"><br /> <strong>Input Specification:<br /> </strong><br /> The first line consists of an integer t denoting the number of test cases. Each test case consists of a mobile number of length &lt;= 30 digits.<br /> <br /> <strong>Output Specification:</strong></span></p>
+<p><span style="font-family: verdana, geneva;">For each test case output the number of possibilities the number can be remembered.<br /> <br /> <strong>Input Constraints: </strong>1&lt;=t&lt;=100000<strong><br /> Sample Input:</strong><br /> 3</span></p>
+<p><span style="font-family: verdana, geneva;">100</span></p>
+<p><span style="font-family: verdana, geneva;">12345</span></p>
+<p><span style="font-family: verdana, geneva;">11112<br /> <br /> <br /> <strong>Sample Output:</strong><br /> <br /> 2</span></p>
+<p><span style="font-family: verdana, geneva;">1</span></p>
+<p><span style="font-family: verdana, geneva;">8<br /> <br /></span></p>
+<p><span style="font-family: verdana, geneva;"><strong>WARNING: </strong>&nbsp;Huge data set! Make your I/O optimizations.</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2011-12-26</td></tr>
+<tr><td>Time limit:</td><td>0.120s-0.802s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

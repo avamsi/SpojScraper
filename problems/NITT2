@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NITT2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12319. hai jolly jolly jolly</h1>
+		<h2>Problem code: NITT2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alp and gaut are like always opposite to each other. Once alp told that he can identify a number which is divisble by 252 (He knows because that is his girlfriends birthday - 25/2). Now to come up against alp, gaut said he can identify whether the number is divisble by 525 (poor gaut don't have a girl friend though). The truth is they don't know to do it for big numbers. &nbsp;So you are here to help them with a method. Given a number you have to tell whether the number is divisble by 252 and 525</p>
+<h3>Input</h3>
+<p>Number of testcases in first line, T. T &lt;= 100.</p>
+<p>Each line contains one number N, whose divisibility is to be tested. 1 &lt;= N &lt;= 10<sup>50000</sup></p>
+<h3>Output</h3>
+<p>each line containing two Yes/No. one for 252 and one for 525.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4
+252</pre>
+<pre>525</pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 185px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1179630648</div><div id="_mcePaste" style="position: absolute; left: -10000px; top: 185px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1234623983</div>16884</pre>
+<pre>21347
+<strong><br /></strong></pre>
+<pre><strong>Output:</strong>
+Yes No</pre>
+<pre>No Yes</pre>
+<pre>Yes No</pre>
+<pre>No No</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/chakradarraju">jack(chakradarraju)</a></td></tr>
+<tr><td>Date:</td><td>2012-09-29</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

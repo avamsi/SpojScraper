@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/hossamyosef"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SUBSN" target="_blank">14929. Subsequence</a></td><td><a href="http://www.spoj.com/problems/SUBSN"target="_blank">SUBSN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FARIDA" target="_blank">14930. Princess Farida</a></td><td><a href="http://www.spoj.com/problems/FARIDA"target="_blank">FARIDA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCA" target="_blank">14932. Lowest Common Ancestor</a></td><td><a href="http://www.spoj.com/problems/LCA"target="_blank">LCA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAC" target="_blank">14935. Cactus</a></td><td><a href="http://www.spoj.com/problems/CAC"target="_blank">CAC</a><br>
+</td></tr>

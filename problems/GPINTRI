@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GPINTRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4717. Grid Points in a Triangle</h1>
+		<h2>Problem code: GPINTRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>How many points (x, y) with non-negative integer coordinates satisfy y &lt;= ax / b and x &lt;= n?</p>
+<h3>Input</h3>
+<p>The first line contains an integer T (T &lt;= 100000). T lines follow, each contains three positive integers n, a, b, where n, a, b &lt;= 10<sup>9</sup> and a &lt;= b.</p>
+<h3>Output</h3>
+<p>T lines, each contains a single integer denoting to the number of points according to the description.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />8 2 10<br />8 4 4<br />7 1 5<br />713241932 127894722 957823358<br />759096725 496666160 980149020<br /><br /><strong>Output:</strong><br />13<br />45<br />11<br />33963383064794976<br />145994569610845896<br /></pre>
+<p><strong>Warning: enormous input/output data, be careful with certain languages</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xfastx">Lox</a></td></tr>
+<tr><td>Date:</td><td>2009-08-26</td></tr>
+<tr><td>Time limit:</td><td>0.443s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

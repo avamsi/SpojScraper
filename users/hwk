@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/hwk"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SQUA_REV" target="_blank">8418. Revenge of the squares</a></td><td><a href="http://www.spoj.com/problems/SQUA_REV"target="_blank">SQUA_REV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SQUAREV1" target="_blank">8433. Revenge of the squares (variation)</a></td><td><a href="http://www.spoj.com/problems/SQUAREV1"target="_blank">SQUAREV1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLOT1" target="_blank">8449. Plotting functions (variation)</a></td><td><a href="http://www.spoj.com/problems/PLOT1"target="_blank">PLOT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRIDPNTS" target="_blank">8945. Grid points (speed variation)</a></td><td><a href="http://www.spoj.com/problems/GRIDPNTS"target="_blank">GRIDPNTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LEGRENDS" target="_blank">9161. Legendre symbol</a></td><td><a href="http://www.spoj.com/problems/LEGRENDS"target="_blank">LEGRENDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TETRAHED" target="_blank">9334. Point in tetrahedron</a></td><td><a href="http://www.spoj.com/problems/TETRAHED"target="_blank">TETRAHED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/THREETW1" target="_blank">9459. Connecting three towns (variation)</a></td><td><a href="http://www.spoj.com/problems/THREETW1"target="_blank">THREETW1</a><br>
+</td></tr>

@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/XMAX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8217. XOR Maximization</h1>
+		<h2>Problem code: XMAX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a set of integers S = { a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ... a<sub>|S|</sub> }, we define a function X on S as follows:<br />X( S ) = a<sub>1</sub> ^ a<sub>2</sub> ^ a<sub>3</sub> ^ ... ^ a<sub>|S|</sub>.<br />(^ stands for bitwise 'XOR' or 'exclusive or')</p>
+<p>Given a set of N integers, compute the maximum of the X-function over all the subsets of the given starting set.</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer N, 1 &lt;= N &lt;= 10<sup>5</sup>.<br />Each of the next N lines contain an integer a<sub>i</sub>, 1 &lt;= a<sub>i </sub>&lt;= 10<sup>18</sup>.</p>
+<h3>Output</h3>
+<p>To the first line of output print the solution.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br />3<br />1<br />2<br />4<br /><strong>Output:</strong><br /><br />7</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syntax_error">gustav</a></td></tr>
+<tr><td>Date:</td><td>2011-01-26</td></tr>
+<tr><td>Time limit:</td><td>0.149s-0.281s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, similar problem reported from CPSPC though...</td></tr>	
+</table>

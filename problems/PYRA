@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PYRA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6288. Treeramids</h1>
+		<h2>Problem code: PYRA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Daniel is building towers. He has a big amount of block of the size 1x1xK (for any K). Out of them he is building towers according to the following rules: the longest block is put in the basement of the tower. Several towers built by the same rules can be put on this block. The distance between the bases of those towers should be 1 and the distance between the bases of the towers and the edges of the common basement should be 1. There should be a block of the length 1 on the top of each tower. Daniel encodes every tower with root tree. For example:
+
+<div><img src="https://www.spoj.pl/content/spookycookie:pyramids"></div>
+ 
+<p>The root of the tree corresponds to the basement of the tower. Its descendants correspond to the towers standing on it. The leaves correspond to the blocks of the size 1x1x1 on the tops. Given the root tree describing one of those structures, calculate the total volume of the structure.
+
+<h3>Input</h3>
+<p>The first line of input contains the number t - the number of tests. Next comes the description of t tests. Each test starts with an integer n - the number of nodes of the tree. This is followed by n-1 line, consisting of two integers a and b - number of nodes connected by an edge. Nodes are numbered from 0 to n-1. The root of the tree will always be a node with number 0. Otherwise the nodes and edges can go in any order.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 25<br />
+1 <= n <= 10^4
+
+<h3>Output</h3>
+<p>For each test case print the total volume of the structure build according to the rules in the problem statement.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+7
+0 1
+2 0
+0 3
+2 4
+5 2
+6 3
+3
+1 2
+1 0
+
+<b>Output:</b>
+25
+9
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.417s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

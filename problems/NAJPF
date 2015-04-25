@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NAJPF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21524. Pattern Find</h1>
+		<h2>Problem code: NAJPF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your task is so simple given a string and a pattern. You find the pattern on the given string. If found print how many time found the pattern and their index. Otherwise print &lsquo;Not Found&rsquo;</p>
+<p><strong>Input:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+<p>The input &nbsp;&nbsp;line consists of a number T (1 &le; T &le; 50) test cases.</p>
+<p>For each case given two string number &nbsp;A,B. the string and the pattern&nbsp; 1 &le;|A|, |B| &le;10^6</p>
+<p>All character will be lower case Latin character. &nbsp;And |&nbsp; | is the length of string.</p>
+<p><strong>Output: </strong></p>
+<p>For each case print the number&nbsp; (found pattern from the given string) next line there position And Otherwise print 'Not Found' without quota.<br />There will a blank line between two cases.</p>
+<p><strong>Sample:</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="258" valign="top">
+<p>Input</p>
+</td>
+<td width="198" valign="top">
+<p>Output</p>
+</td>
+</tr>
+<tr>
+<td width="258">
+<p>3<br /> ababab ab<br /> aaaaa bbb<br /> aafafaasf aaf</p>
+</td>
+<td width="198">
+<p>3<br /> 1 3 5<br /> <br /> Not Found<br /> <br /> 1<br /> 1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hints:</p>
+<p>Here all index is 1 base.</p>
+<p>&nbsp;</p>
+<p>Contest arranged by <a href="https://www.facebook.com/groups/bengaliprogramming/" target="_blank">&#2474;&#2509;&#2480;&#2507;&#2455;&#2509;&#2480;&#2494;&#2478;&#2495;&#2434; &#2474;&#2509;&#2480;&#2476;&#2482;&#2503;&#2478; (Programming Problem in Bengali)</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/najmuzzaman">Najmuzzaman</a></td></tr>
+<tr><td>Date:</td><td>2014-10-23</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

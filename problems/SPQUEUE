@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPQUEUE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8096. Queue</h1>
+		<h2>Problem code: SPQUEUE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>On some special occasion Nadia&rsquo;s company provide very special lunch for all employees of the company. Before the food is served all of the employees must stand in a queue in front of the food counter. The company applied a rule for standing in the queue. For instance if Abul is the supervisor of Babul and Abul stands in kth position from the front of the queue, then Babul cannot stand at any position in between 1 and k-1 from front of the queue. The company has N employees and each of them has one supervisor except one who doesn&rsquo;t have any supervisor.</p>
+<p>You need to calculate in how many ways the queue can be created. You can safely assume that in at least one way the queue can be created.</p>
+<h3>Input</h3>
+<p>The first line is the number of test cases.</p>
+<p>Each test case:</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first line contains 2 integers M and N.</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Line 2..N: consist of one integer is supervisor of i-employees.</p>
+<h3>Output</h3>
+<p>For each test case: the result of this problem module M in one line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1<br />2 2<br />1<br /><strong>Output:</strong><br /><br />1<br /><br /><strong>Constraints:</strong><br />- Number of test cases &lt;= 10 for small data, N &lt;= 100000<br />- Number of test cases = 1 for large data, N &lt;= 500000<br />- 1 &lt;= M &lt;= 1000000000<br />- Time Limit for all tests: 2s</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hnue">HNUE</a></td></tr>
+<tr><td>Date:</td><td>2010-12-20</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on ACM Kuala Lumpur</td></tr>	
+</table>

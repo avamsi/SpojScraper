@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BRODOVI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8349. BRODOVI</h1>
+		<h2>Problem code: BRODOVI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mirko lives in a small town with a harbour: once in a blue moon a ship passes by. However, to this day<br />Mirko remembers the day when all the ships who had ever visited the harbour showed up. He<br />denoted this day by index 1.<br />Many days have passed since, but Mirko noted each day when at least one ship visited the harbour,<br />naming these days entertaining.<br />Additionally, Mirko has noticed that each ship visits the harbour periodically, at regular intervals. For<br />instance, an interval of length 3 implies that some ship visited the harbour on days 1, 4, 7, 10 etc.<br />Given Mirko&rsquo;s list of entertaining days (including today which is considered to be an entertaining day as<br />well), compute the minimum possible number of ships visiting his harbour.<br />Notes: All entertaining days appear on Mirko&rsquo;s list. It is guaranteed that the given data is consistent - in<br />other words, a solution will always exist.</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer N (2 &le; N &le; 5000), the number of entertaining days.<br />The following N lines contain indices of entertaining days, one per line, in ascending order. The first<br />and the last indices, representing the day from which Mirko started monitoring harbour traffic and<br />today, respectively, will always appear on the list. The first index will always be 1, and the last one<br />(index of today) will be less than 109.</p>
+<h3>Output</h3>
+<p>The first and only line of output must contain the required minimum number of ships.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />1<br />7<br />10<br />13<br />19<br /><strong>Output:</strong><br />2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/akaki96">akaki</a></td></tr>
+<tr><td>Date:</td><td>2011-02-15</td></tr>
+<tr><td>Time limit:</td><td>0.133s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>coci</td></tr>	
+</table>

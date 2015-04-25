@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/lychees"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DCES" target="_blank">9543. Dynamic Congruence Equation System</a></td><td><a href="http://www.spoj.com/problems/DCES"target="_blank">DCES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TTM" target="_blank">11470. To the moon</a></td><td><a href="http://www.spoj.com/problems/TTM"target="_blank">TTM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DAP" target="_blank">12749. Dynamic Assignment Problem</a></td><td><a href="http://www.spoj.com/problems/DAP"target="_blank">DAP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VISION" target="_blank">13031. Vision Field</a></td><td><a href="http://www.spoj.com/problems/VISION"target="_blank">VISION</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONIC" target="_blank">13098. Yet Another Conic Section Problem</a></td><td><a href="http://www.spoj.com/problems/CONIC"target="_blank">CONIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRAYON" target="_blank">13447. Crayon</a></td><td><a href="http://www.spoj.com/problems/CRAYON"target="_blank">CRAYON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MDT1" target="_blank">13508. Madotsuki Pattern</a></td><td><a href="http://www.spoj.com/problems/MDT1"target="_blank">MDT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTREE6" target="_blank">16549. Query on a tree VI</a></td><td><a href="http://www.spoj.com/problems/QTREE6"target="_blank">QTREE6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QTREE7" target="_blank">16580. Query on a tree VII</a></td><td><a href="http://www.spoj.com/problems/QTREE7"target="_blank">QTREE7</a><br>
+</td></tr>

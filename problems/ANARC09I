@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC09I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7776. Kind of a blur</h1>
+		<h2>Problem code: ANARC09I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img style="float: right; margin: 5px; border: 5px solid black;" title="OnB" src="http://vn.spoj.pl/SPOJVN/content/anarc09i2.jpg" alt="Origin and Blured Image" width="195" height="452" /></p>
+<p>Image blurring occurs when the object being captured is out of the camera&rsquo;s focus. The top two figures on the right are an example of an image and its blurred version. Restoring the original image given only the blurred version is one of the most interesting topics in image processing. This process is called deblurring, which will be your task for this problem.</p>
+<p><br />In this problem, all images are in grey-scale (no colours). Images are represented as a 2 dimensional matrix of real numbers, where each cell corresponds to the&nbsp; brightness of the corresponding pixel. Although not mathematically accurate, one way to describe a blurred image is through averaging all the pixels that are within (less than or equal to) a certain Manhattan distance&dagger; from each pixel (including the pixel itself ). Here&rsquo;s an example of how to calculate the blurring of a 3x3 image with a&nbsp; blurring distance of 1:</p>
+<p><img style="vertical-align: middle; margin: 5px; border: 5px solid black;" title="HowTo" src="http://vn.spoj.pl/SPOJVN/content/anarc09i1.jpg" alt="How to compute" width="377" height="310" /></p>
+<pre><img style="float: right; margin: 5px; border: 5px solid black;" title="Mahatan" src="http://vn.spoj.pl/SPOJVN/content/anarc09i3.jpg" alt="Mahattan distance" width="178" height="216" /></pre>
+<p>Given the blurred version of an image, we are interested in reconstructing the original version assuming that the image was blurred as explained above.</p>
+<h3>Input</h3>
+<p>Input consists of several test cases. Each case is specified on H + 1 lines. The first line specifies three non negative integers specifying the width W , the height H of the blurred image and the blurring distance D respectively where (1 &le; W, H &le; 10) and (D &le; min(W/2, H/2)). The remaining H lines specify the gray-level of each pixel in the blurred image. Each line specifies W non-negative real numbers given up to the 2nd decimal place. The value of all the given real numbers will be less than 100. Zero or more lines (made entirely of white spaces) may appear between cases. The last line of the input file consists of three zeros.</p>
+<h3>Output</h3>
+<p>For each test case, print a W &times; H matrix of real numbers specifying the deblurred version of the image. Each element in the matrix should be approximated to 2 decimal places and right justified in a field of width 8. Separate the output of each two consecutive test cases by an empty line. Do not print an empty line after the last test case. It is guaranteed that there is exactly one unique solution for every test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 2 1<br />1 1<br />1 1<br />3 3 1<br />19 14 20<br />12 15 18<br />13 14 16<br />4 4 2<br />14 15 14 15<br />14 15 14 15<br />14 15 14 15<br />14 15 14 15<br />0 0 0<br /><br /><strong>Output:</strong><br />    1.00    1.00 <br />    1.00    1.00<br /><br />    2.00   30.00   17.00<br />   25.00    7.00   13.00<br />   14.00    0.00   35.00<br /><br />    1.00   27.00    2.00   28.00<br />   21.00   12.00   17.00    8.00<br />   21.00   12.00   17.00    8.00<br />    1.00   27.00    2.00   28.00</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-08</td></tr>
+<tr><td>Time limit:</td><td>1.435s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ANARC 2009</td></tr>	
+</table>

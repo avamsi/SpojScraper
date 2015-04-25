@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACAB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7010. Police Business</h1>
+		<h2>Problem code: ACAB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Cops are one of the most fascinating types of people. In the movies they are usually shown as fat and lazy, but they are so much more! Our today's specimen, officer Acab is, for example, very much into philosophy. All the criminals are afraid of Acab so when he appears in a city no criminals can come there. He's often engaged in car chases, so he usually asks himself the following questions: If I know a criminal has to travel from city a to city b, how many cities are there (other than a and b) such that there are no other cops there, and if I come to that city the criminal won't be able to accomplish his trip? If I sort those cities by distance from a, which one will be the k-th in the sorted list? How many roads are there such that there are no other cops on them, and if I'm present on that road the criminal won't be able to travel from a to b? Which is the k-th such road if I sort the available roads by their distance from a?</p>
+<p><br />Given a list of bidirectional roads that connect the cities write a program that will answer Acab's questions. In the beginning we know that there are no other cops in any of the cities. There will be one or more paths between each pair of cities.</p>
+<p>Sometimes Acab's cop-friends contact him to tell him they have entered a city or road. There is never more than one cop present in a city or on a road. Thus, when a road or city is reported for the second time, we assume the cop has left there. This only means that after each even report of the same city or a road there are no cops there, and for odd reports there is a cop there.</p>
+<p><br /><strong>Note:</strong> we define the distance of a road from a city as the minimum of the distances of its endpoints from that city. Even though Acab is a good cop, he doesn't have any special powers such as multilocation, so he can only be present in one city at a time. If you, for some reason, find two cities or roads equidistant from the city a, output the one with the smaller index. <strong>Also, the other cops aren't as good as Acab, so they only block Acab from visiting a city, and not the criminals.</strong></p>
+<h3>Input</h3>
+<p>The first line of input contains two integers N and M (1 &lt;= N &lt;= M &lt;= 100000).<br />The next M lines contain a pair of integers a and b (1 &lt;= a, b &lt;= N).<br />All the cities are numbered from 1 to N.<br />The next line contains a single integer Q (1 &lt;= Q &lt;= 200000).<br />The next Q lines contain queries. There are six possible types of queries:<br />&nbsp;&nbsp; &nbsp;1 n&nbsp;&nbsp; -&nbsp; a cop has contacted Acab to let him know he's in city n<br />&nbsp;&nbsp; &nbsp;2 e&nbsp;&nbsp; -&nbsp; a cop has contacted Acab to let him know he's on the road e<br />&nbsp;&nbsp; &nbsp;3 a b&nbsp; -&nbsp; tell Acab how many cities he can block the criminal with<br />&nbsp;&nbsp; &nbsp;4 a b&nbsp; -&nbsp; tell Acab how many roads he can block the criminal with<br />&nbsp;&nbsp; &nbsp;5 a b k&nbsp; -&nbsp; tell Acab which is the k-th city he can block the criminal with<br />&nbsp;&nbsp; &nbsp;6 a b k&nbsp; -&nbsp; tell Acab which is the k-th road he can block the criminal with</p>
+<h3>Output</h3>
+<p>For each query of type 3, 4, 5 or 6 output a single line containing the answer. If for a query of type 5 or 6 k is greater than the actual number of possible cities, output -1. Also, in queries 2 and 6 the number of the road is assumed to be its index from the input.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />9 10<br />1 2<br />1 3<br />2 4<br />2 5<br />4 5<br />4 6<br />3 7<br />3 8<br />7 8<br />8 9<br />10<br />3 6 9<br />4 6 9<br />5 6 9 2<br />6 6 9 2<br />1 2<br />5 6 9 2<br />2 1<br />6 6 9 2<br />1 2<br />5 6 9 2<br /><br /><strong>Output:</strong><br />5<br />4<br />2<br />1<br />1<br />2<br />2<br /><br /></pre>
+<p><strong>Explanation:</strong><br />In the first query, there are 5 blockable cities: 4, 2, 1, 3, 8.<br />In the second query there are 4 blockable roads: 6, 1, 2, 10.<br />In the third query the second city is 2 (4, 2, 1, 3, 8).<br />In the fourth query the second road is 1 (6, 1, 2, 10).<br />In the fifth query we've been reported there's a cop in city 2.<br />In the sixth query the second blockable city is 1 (city 2 already contains a cop).<br />In the seventh query we've been reported there's a cop on road 1.<br />In the eighth query the second blockable road is 2 (road 1 already contains a cop).<br />In the ninth query we've been reported the cop from city 2 has left.<br />In the tenth query the second city is 2 again.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syntax_error">gustav</a></td></tr>
+<tr><td>Date:</td><td>2010-07-30</td></tr>
+<tr><td>Time limit:</td><td>0.236s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

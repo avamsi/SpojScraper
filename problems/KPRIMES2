@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KPRIMES2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6489. Finding the Kth Prime (Hard)</h1>
+		<h2>Problem code: KPRIMES2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The problem statement is really simple (the constraints maybe not). There are some queries. You are to give the answers.
+
+<h3>Input</h3>
+<p>An integer stating the number of queries Q(equal to 100000), and Q lines follow, each containing one integer K between 1 and 50000000 inclusive. 
+
+<h3>Output</h3>
+<p>Q lines with the answer of each query: the Kth prime number.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+8
+1
+10
+100
+1000
+10000
+100000
+1000000
+10000000
+
+<b>Output:</b>
+2
+29
+541
+7919
+104729
+1299709
+15485863
+179424673
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mukel">Alfonso2 Peterssen</a></td></tr>
+<tr><td>Date:</td><td>2010-04-09</td></tr>
+<tr><td>Time limit:</td><td>1.399s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA PAS fpc PAS gpc </td></tr>
+<tr><td>Resource:</td><td>Thanks to TDuke</td></tr>	
+</table>

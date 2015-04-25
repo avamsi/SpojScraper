@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SOMESUMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16686. Some Sums</h1>
+		<h2>Problem code: SOMESUMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>After giving a heartwarming, inspirational speech to the sorority sisters of Delta Gamma at the University of Maryland, Michael Shannon was assaulted on the street by an armed mathematician, who defined a function <strong>f</strong> as follows:</p>
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.spoj.com/content/cyclops:somesums.png" width="370" height="118" alt="f(0,n,k)=n^k \\ f(m,n,k)=\sum_{i=0}^n f(m-1,i,k), m>0" title="f(0,n,k)=n^k \\ f(m,n,k)=\sum_{i=0}^n f(m-1,i,k), m>0" />
+
+<p>The mathematician presented Shannon with an ultimatum: You will write a program to calculate this function modulo 10^9+7 for various values of <strong>m</strong>, <strong>n</strong>, and <strong>k</strong> within the given constraints XOR I will shoot you with this gun!</p>
+
+<p>As the mathematician lay recovering in his hospital bed, a Sigma Nu brother who had witnessed the event gingerly approached him and said, "Professor Martinson, I've written a program to solve your problem, but the online judge on your website keeps telling me the answer is wrong. Please tell me what the problem is. Submission ID 571972597."</p>
+
+<p>Wearily, Martinson replied, "Have you written a brute force program to verify your program's output for smaller cases?"</p>
+
+<p>The Sigma Nu brother replied, "Sorry, what did you say? I wasn't listening. Hey, are you going to eat that?" He then took the professor's chocolate pudding and went home to his lovely girlfriend from Zeta to enjoy the rest of the evening.</p>
+
+<h3>Input</h3>
+
+<p>In the first line, an integer <strong>T</strong>, the number of test cases. Then <strong>T</strong> lines containing integers <strong>m</strong>, <strong>n</strong>, and <strong>k</strong> separated by spaces.</p>
+
+<h3>Output</h3>
+
+<p><strong>T</strong> lines containing the value of <strong>f</strong>(<strong>m</strong>,<strong>n</strong>,<strong>k</strong>) modulo 10^9+7 for each test case.</p>
+
+<h3>Constraints</h3>
+
+<p>
+1 &le; <strong>T</strong> &le; 20000 <br />
+0 &le; <strong>m</strong> &le; 1000 <br />
+0 &le; <strong>n</strong> &le; 10^9 <br />
+0 &le; <strong>k</strong> &le; 1000
+</p>
+
+<h3>Example</h3>
+
+<p><strong>Input:</strong></p>
+<pre>5
+0 0 0
+1 100 1
+2 100 0
+2 100 1
+100 100 100</pre>
+
+<p><strong>Output:</strong></p>
+<pre>1
+5050
+5151
+171700
+143422859</pre>
+
+<h3>Additional Info</h3>
+
+<p>There are two randomly generated data sets, one with <strong>T</strong>=10000 and the other with <strong>T</strong>=20000. The distributions are close to uniform random.</p>
+
+<p>At the time of publication, my C code runs in 0.69s and my Python 2.7 code runs in 24.70s. The Python code is about 1KB, not golfed.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cyclops">Mitch Schwartz</a></td></tr>
+<tr><td>Date:</td><td>2013-10-20</td></tr>
+<tr><td>Time limit:</td><td>20s-30s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Generalisation of <a href="http://www.spoj.com/problems/ASUMHARD/">ASUMHARD</a></td></tr>	
+</table>

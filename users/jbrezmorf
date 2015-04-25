@@ -1,0 +1,18 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/jbrezmorf"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SUDOGOB" target="_blank">13980. Sudoku goblin</a></td><td><a href="http://www.spoj.com/problems/SUDOGOB"target="_blank">SUDOGOB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WEBISL" target="_blank">13990. Web islands</a></td><td><a href="http://www.spoj.com/problems/WEBISL"target="_blank">WEBISL</a><br>
+</td></tr>

@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CLTZ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>515. Collatz</h1>
+		<h2>Problem code: CLTZ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let N be a positive integer, Consider the following recurrence: f(1) = N and f(K) = (0.5 + 2.5 * (f(K-1) mod 2)) * f(K-1) + (f(K-1) mod 2) if K&gt;1. For a given N you have to compute the smallest L for which f(L)=1 (such an L always exists for N's in the input).</p>
+<h3>Input</h3>
+<p>Each line contains a positive integer N in decimal notation.  You can be sure that N and all intermediate results are not  bigger than 10^1888. Input terminated by EOF.</p>
+<h3>Output</h3>
+<p>For each number N in the input print one line with the value of L in decimal notation.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+2
+321
+1111111111111
+111111111111111111111111111111111111111111111111111111111111
+<strong>Output:</strong>
+1
+2
+25
+261
+1296
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nosy">Noszály Csaba</a></td></tr>
+<tr><td>Date:</td><td>2005-04-25</td></tr>
+<tr><td>Time limit:</td><td>1.983s
+</td></tr>
+<tr><td>Source limit:</td><td>18000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Folklore</td></tr>	
+</table>

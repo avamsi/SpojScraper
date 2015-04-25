@@ -1,0 +1,107 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2835. Memory Limit Exceeded</h1>
+		<h2>Problem code: MLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given <b>n</b> points on X-Y plane. To each point, you are to find the other point who is closest to it with respect to the Euclidean distance.</p>
+<h3>Input</h3>
+<p><b>T</b> (<= 15) test cases. Each starts with an integer <b>n</b> (2<= <b>n</b> <=100000). Then <b>n</b> lines follow. Each contains two space-seperated integers, the X and Y coordinate of the corresponding point, respectively. No two points in one test case will coincide.</p>
+<h3>Output</h3>
+<p>For each test case, output <b>n</b> lines. The i-th of them should contain the squared distance between the i-th
+point from the input and its nearest neighbour.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+10
+17 41
+0 34
+24 19
+8 28
+14 12
+45 5
+27 31
+41 11
+42 45
+36 27
+15
+0 0
+1 2
+2 3
+3 2
+4 0
+8 4
+7 4
+6 3
+6 1
+8 0
+11 0
+12 2
+13 1
+14 2
+15 0
+
+<b>Output:</b>
+200
+100
+149
+100
+149
+52
+97
+52
+360
+97
+5
+2
+2
+2
+5
+1
+1
+2
+4
+5
+5
+2
+2
+2
+5
+</pre>
+<b>Warning: enormous input/output data, be careful with certain languages</b>
+
+<p>Note: In Sphere Online Judge system, "Memory Limit Exceeded" will be shown as "Runtime Error(other)", with the 0.00 second run-time & 92-200k memory used, or "Runtime Error(SIGSEGV)" with 250M memory used.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-07-08</td></tr>
+<tr><td>Time limit:</td><td>3.663s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Wroc³aw 2008</td></tr>	
+</table>

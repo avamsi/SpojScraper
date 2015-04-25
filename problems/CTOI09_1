@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CTOI09_1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6956. IOI2009 Mecho</h1>
+		<h2>Problem code: CTOI09_1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mecho the bear has found a little treasure - the bees' secret honeypot,  which is full of honey! He was happily eating his newfound treasure until suddenly one bee saw him  and sounded the bee alarm. He knows that at this very moment hordes of bees will emerge from  their hives and start spreading around trying to catch him. He knows he has to leave the  honeypot and go home quickly, but the honey is so sweet that Mecho doesn't want to leave too  soon. Help Mecho determine the latest possible moment when he can leave.</p>
+<p>Mecho's forest is represented by a square grid of <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.1.png" alt="" /></span> by  <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.2.png" alt="" /></span> unit cells, whose sides are parallel to the north-south and east-west directions. Each cell is occupied by a  tree, by a patch of grass, by a hive or by Mecho's home. Two cells are considered adjacent if one of  them is immediately to the north, south, east or west of the other (but not on a diagonal).  Mecho is a clumsy bear, so every time he makes a step, it has to be to an adjacent cell. Mecho can  only walk on grass and cannot go through trees or hives, and he can make at most <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.3.png" alt="" /></span> steps per minute. At the moment when the bee alarm is sounded, Mecho is in the grassy cell  containing the honeypot, and the bees are in every cell containing a hive (there may be  more than one hive in the forest). During each minute from this time onwards, the following  events happen in the following order:</p>
+<ul>
+<li> If Mecho is still eating honey, he decides whether to keep  eating or to leave. If he        continues eating, he does not move for the whole minute.  Otherwise, he leaves        immediately and takes up to <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.4.png" alt="" /></span> steps through the forest as described above. Mecho        cannot take any of the honey with him, so once he has moved he  cannot eat honey again. </li>
+<li> After Mecho is done eating or moving for the whole minute, the  bees spread one unit        further across the grid, moving only into the grassy cells.  Specifically, the swarm of bees        spreads into every grassy cell that is adjacent to any cell  already containing bees.        Furthermore, once a cell contains bees it will always contain  bees (that is, the swarm        does not move, but it grows). </li>
+</ul>
+<p>In other words, the bees spread as follows: When the bee alarm is  sounded, the bees only occupy the cells where the hives are located. At the end of the first  minute, they occupy all grassy cells adjacent to hives (and still the hives themselves). At the  end of the second minute, they additionally occupy all grassy cells adjacent to grassy cells  adjacent to hives, and so on. Given enough time, the bees will end up simultaneously occupying all  grassy cells in the forest that are within their reach. Neither Mecho nor the bees can go outside the forest. Also, note that  according to the rules above, Mecho will always eat honey for an integer number of minutes. The bees catch Mecho if at any point in time Mecho finds himself in a  cell occupied by bees.</p>
+<h2><strong>Task</strong></h2>
+<p>Write a program that, given a map of the forest, determines the largest  number of minutes that Mecho can continue eating honey at his initial location, while still  being able to get to his home before any of the bees catch him.</p>
+<h2><strong>Constraints</strong></h2>
+<p><span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.5.png" alt="" /></span> -  the size (side length) of the map<br /> <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.6.png" alt="" /></span> -  the maximum number of steps Mecho can take in each minute</p>
+<h2><strong>Input</strong></h2>
+<p>The input contains several testcases.</p>
+<p>The fist line contains the number of testcase T.</p>
+<p>Each testcase has the form as following:</p>
+<ul>
+<li> The first line contains the integers <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.7.png" alt="" /></span> and  <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.8.png" alt="" /></span>,  separated by a space. </li>
+<li> The next <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.9.png" alt="" /></span> lines represent the map of the forest. Each of these lines contains <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.10.png" alt="" /></span> characters   with each character representing one unit cell of the grid. The  possible characters and their   associated meanings are as follows:
+<p><tt>T</tt> denotes a tree   <tt>G</tt> denotes a grassy cell   <tt>M</tt> denotes the initial location of Mecho and the honeypot,  which is also a grassy cell   <tt>D</tt> denotes the location of Mecho's home, which Mecho can  enter, but the bees cannot.   <tt>H</tt> denotes the location of a hive</p>
+</li>
+</ul>
+<p><strong>Note:</strong> It is guaranteed that the map will contain exactly one  letter <tt>M</tt>, exactly one letter <tt>D</tt> and   at least one letter <tt>H</tt>. It is also guaranteed that there is a  sequence of adjacent letters <tt>G</tt> that   connects Mecho to his home, as well as a sequence of adjacent letters <tt>G</tt> that connects at    least one hive to the honeypot (i.e., to Mecho's initial location).  These sequences might be as    short as length zero, in case Mecho's home or a hive is adjacent to  Mecho's initial location.    Also, note that the bees cannot pass through or fly over Mecho's  home. To them, it is just like    a tree.</p>
+<h2><strong>Output</strong></h2>
+<p>For each test , your program must write to standard output a single line containing a  single integer: the maximum possible number of minutes that Mecho can continue eating honey  at his initial location, while still being able to get home safely. If Mecho cannot possibly reach his home before the bees catch him, the  number your program writes to standard output must be <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.11.png" alt="" /></span> instead.</p>
+<h2><strong>Grading</strong></h2>
+<p>For a number of tests, worth a total of 40 points, <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.12.png" alt="" /></span> will not exceed 60.</p>
+<h2><strong>Example</strong></h2>
+<p>For the input data:</p>
+<p>&nbsp;1</p>
+<pre>7 3<br />TTTTTTT<br />TGGGGGT<br />TGGGGGT<br />MGGGGGD<br />TGGGGGT<br />TGGGGGT<br />THHHHHT<br /></pre>
+<p><strong>the correct result is:</strong></p>
+<pre>1<br /></pre>
+<p><strong>Explanation of the example:</strong> After eating honey for one minute,  Mecho can take the shortest path directly to the right and he will be home in another two minutes, safe from the bees.</p>
+<p>For the input data:</p>
+<p>1</p>
+<p>7 3</p>
+<p>TTTTTTT</p>
+<p>TGGGGGT</p>
+<p>TGGGGGT</p>
+<p>MGGGGGD</p>
+<p>TGGGGGT</p>
+<p>TGGGGGT</p>
+<p>TGHHGGT</p>
+<p><strong>the correct result is:</strong></p>
+<pre>2<br /></pre>
+<p><strong>Explanation of the example:</strong> After eating honey for two minutes,  Mecho can take steps <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.13.png" alt="" /></span> during the third minute, then steps <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.14.png" alt="" /></span> during the fourth minute and steps <span><img src="http://www.main.edu.pl/images/IOI2009/mch-en-tex.15.png" alt="" /></span> during the fifth minute.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-07-19</td></tr>
+<tr><td>Time limit:</td><td>1.051s-1.576s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IOI 2009</td></tr>	
+</table>

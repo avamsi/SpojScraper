@@ -1,0 +1,104 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/steinersp"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CFRAC" target="_blank">996. Continuous Fractions</a></td><td><a href="http://www.spoj.com/problems/CFRAC"target="_blank">CFRAC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATRIOSH" target="_blank">999. Generalized Matrioshkas</a></td><td><a href="http://www.spoj.com/problems/MATRIOSH"target="_blank">MATRIOSH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EQDIV" target="_blank">1000. Equidivisions</a></td><td><a href="http://www.spoj.com/problems/EQDIV"target="_blank">EQDIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BROUL" target="_blank">1001. Babylonian Roulette</a></td><td><a href="http://www.spoj.com/problems/BROUL"target="_blank">BROUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UJ" target="_blank">1002. Uncle Jack</a></td><td><a href="http://www.spoj.com/problems/UJ"target="_blank">UJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QUILT" target="_blank">1003. Little Quilt</a></td><td><a href="http://www.spoj.com/problems/QUILT"target="_blank">QUILT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYCODE" target="_blank">1004. Polygon Encoder</a></td><td><a href="http://www.spoj.com/problems/POLYCODE"target="_blank">POLYCODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTRICK" target="_blank">1108. Card Trick</a></td><td><a href="http://www.spoj.com/problems/CTRICK"target="_blank">CTRICK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NSTEPS" target="_blank">1112. Number Steps</a></td><td><a href="http://www.spoj.com/problems/NSTEPS"target="_blank">NSTEPS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOE1" target="_blank">1161. Tic-Tac-Toe ( I )</a></td><td><a href="http://www.spoj.com/problems/TOE1"target="_blank">TOE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOE2" target="_blank">1162. Tic-Tac-Toe ( II )</a></td><td><a href="http://www.spoj.com/problems/TOE2"target="_blank">TOE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JAVAC" target="_blank">1163. Java vs C &#43&#43</a></td><td><a href="http://www.spoj.com/problems/JAVAC"target="_blank">JAVAC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEADFR" target="_blank">1166. Dead Fraction</a></td><td><a href="http://www.spoj.com/problems/DEADFR"target="_blank">DEADFR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CFRAC2" target="_blank">1285. Continuous Fractions Again</a></td><td><a href="http://www.spoj.com/problems/CFRAC2"target="_blank">CFRAC2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKJUMPS" target="_blank">1538. Making Jumps</a></td><td><a href="http://www.spoj.com/problems/MKJUMPS"target="_blank">MKJUMPS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OFORTUNE" target="_blank">1697. Ohgas&#39 Fortune</a></td><td><a href="http://www.spoj.com/problems/OFORTUNE"target="_blank">OFORTUNE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLSEARCH" target="_blank">1698. Polygonal Line Search</a></td><td><a href="http://www.spoj.com/problems/PLSEARCH"target="_blank">PLSEARCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NSYSTEM" target="_blank">1699. Numeral System</a></td><td><a href="http://www.spoj.com/problems/NSYSTEM"target="_blank">NSYSTEM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRSTAGE" target="_blank">1700. Traveling by Stagecoach</a></td><td><a href="http://www.spoj.com/problems/TRSTAGE"target="_blank">TRSTAGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EOWAMRT" target="_blank">1701. Earth Observation with a Mobile Robot Team</a></td><td><a href="http://www.spoj.com/problems/EOWAMRT"target="_blank">EOWAMRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLEANRBT" target="_blank">1702. Cleaning Robot</a></td><td><a href="http://www.spoj.com/problems/CLEANRBT"target="_blank">CLEANRBT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACMAKER" target="_blank">1703. ACM (ACronymMaker)</a></td><td><a href="http://www.spoj.com/problems/ACMAKER"target="_blank">ACMAKER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CDOWN" target="_blank">1704. Countdown</a></td><td><a href="http://www.spoj.com/problems/CDOWN"target="_blank">CDOWN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAMEFIL" target="_blank">1705. The Game of Efil</a></td><td><a href="http://www.spoj.com/problems/GAMEFIL"target="_blank">GAMEFIL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QKP" target="_blank">1706. Queens, Knights and Pawns</a></td><td><a href="http://www.spoj.com/problems/QKP"target="_blank">QKP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RELINETS" target="_blank">1707. Reliable Nets</a></td><td><a href="http://www.spoj.com/problems/RELINETS"target="_blank">RELINETS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SQCOUNT" target="_blank">1708. Square Count</a></td><td><a href="http://www.spoj.com/problems/SQCOUNT"target="_blank">SQCOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWTHIN" target="_blank">1709. Swamp Things</a></td><td><a href="http://www.spoj.com/problems/SWTHIN"target="_blank">SWTHIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWENDS" target="_blank">1710. Two Ends</a></td><td><a href="http://www.spoj.com/problems/TWENDS"target="_blank">TWENDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKWAVES" target="_blank">1865. Making Waves</a></td><td><a href="http://www.spoj.com/problems/MKWAVES"target="_blank">MKWAVES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKPALS" target="_blank">1866. Making Pals</a></td><td><a href="http://www.spoj.com/problems/MKPALS"target="_blank">MKPALS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKMONEY" target="_blank">1868. Making Money</a></td><td><a href="http://www.spoj.com/problems/MKMONEY"target="_blank">MKMONEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKMOOM" target="_blank">1869. Making Mountains Out Of Molehills</a></td><td><a href="http://www.spoj.com/problems/MKMOOM"target="_blank">MKMOOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKLABELS" target="_blank">1870. Making Labels</a></td><td><a href="http://www.spoj.com/problems/MKLABELS"target="_blank">MKLABELS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKBUDGET" target="_blank">1871. Making A Budget</a></td><td><a href="http://www.spoj.com/problems/MKBUDGET"target="_blank">MKBUDGET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMCODES" target="_blank">2171. Ambiguous Codes</a></td><td><a href="http://www.spoj.com/problems/AMCODES"target="_blank">AMCODES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALLIGHT" target="_blank">2172. Ballroom Lights</a></td><td><a href="http://www.spoj.com/problems/BALLIGHT"target="_blank">BALLIGHT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPC" target="_blank">2173. Car Plates Competition</a></td><td><a href="http://www.spoj.com/problems/CPC"target="_blank">CPC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DTT" target="_blank">2174. Drop the Triples</a></td><td><a href="http://www.spoj.com/problems/DTT"target="_blank">DTT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EMOTICON" target="_blank">2175. Emoticons</a></td><td><a href="http://www.spoj.com/problems/EMOTICON"target="_blank">EMOTICON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FSEATS" target="_blank">2176. Finding Seats</a></td><td><a href="http://www.spoj.com/problems/FSEATS"target="_blank">FSEATS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GALOU" target="_blank">2177. Galou is back!</a></td><td><a href="http://www.spoj.com/problems/GALOU"target="_blank">GALOU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OFFSIDE" target="_blank">2178. He is offside!</a></td><td><a href="http://www.spoj.com/problems/OFFSIDE"target="_blank">OFFSIDE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ICPCS" target="_blank">2179. ICPC Scoreboard</a></td><td><a href="http://www.spoj.com/problems/ICPCS"target="_blank">ICPCS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JLEAGUE" target="_blank">2180. Justice League</a></td><td><a href="http://www.spoj.com/problems/JLEAGUE"target="_blank">JLEAGUE</a><br>
+</td></tr>

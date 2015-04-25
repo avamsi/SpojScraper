@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POWTOW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10050. Power Tower City</h1>
+		<h2>Problem code: POWTOW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">You are living in a city build entirely of power towers such as 3^3^3 and 10^10^10^10. To enter a building you must type the last 9 digits of the number represented by the tower, written in decimal form, on a keypad next to the main entrance. You are not sharp enough at mental maths, but you can write a handy program to bring along in your pocket.</span></p>
+<p><span style="font-size: small;">A power tower is defined as repeated exponentiation. We write this using <a href="http://en.wikipedia.org/wiki/Knuth's_up-arrow_notation">Knuth's up-arrow notation</a> as: e&uarr;&uarr;a = e^e^...^e (a terms). Remember that ^ (exponentiation) is right assosiative. For example: 2&uarr;&uarr;4 = 2^2^2^2 =&nbsp;2^(2^(2^2)) = 2^2^4 = 2^16 = 65536, and 3&uarr;&uarr;1 = 3. The value of a tower of heigh 0 is 1.</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">The first line contains integer C in [0..1000], the number of test cases.</span></p>
+<p><span style="font-size: small;">Then follows C lines, each with integers e,a in [0..2147483647]. (non-negative 32-bit ints).</span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">For each testcase output e&uarr;&uarr;a, or if the output has more than 9 digits, output "..." and then the last 9 digits.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+</pre>
+<pre>3</pre>
+<pre>0 0</pre>
+<pre>2 5</pre>
+<pre>993306745 75707320
+
+<strong><strong>Output:</strong></strong>
+</pre>
+<pre>1</pre>
+<pre>...719156736</pre>
+<pre>...884765625</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lobais">Thomas Dybdahl Ahle</a></td></tr>
+<tr><td>Date:</td><td>2011-11-21</td></tr>
+<tr><td>Time limit:</td><td>0.123s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abhilash_i"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MINCOUNT" target="_blank">1167. Move To Invert</a></td><td><a href="http://www.spoj.com/problems/MINCOUNT"target="_blank">MINCOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALACE" target="_blank">1183. Accomodate the palace</a></td><td><a href="http://www.spoj.com/problems/PALACE"target="_blank">PALACE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMFOUR" target="_blank">1296. 4 values whose sum is 0</a></td><td><a href="http://www.spoj.com/problems/SUMFOUR"target="_blank">SUMFOUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHASE" target="_blank">1326. A Chase In WonderLand</a></td><td><a href="http://www.spoj.com/problems/CHASE"target="_blank">CHASE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOLE" target="_blank">1505. Whac-a-Mole</a></td><td><a href="http://www.spoj.com/problems/MOLE"target="_blank">MOLE</a><br>
+</td></tr>

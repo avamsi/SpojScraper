@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/xiaohong"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ROLLBALL" target="_blank">2019. The Rolling Ball</a></td><td><a href="http://www.spoj.com/problems/ROLLBALL"target="_blank">ROLLBALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PEBBMOV" target="_blank">2021. Moving Pebbles</a></td><td><a href="http://www.spoj.com/problems/PEBBMOV"target="_blank">PEBBMOV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRUTHORL" target="_blank">2022. Truth Or Lie</a></td><td><a href="http://www.spoj.com/problems/TRUTHORL"target="_blank">TRUTHORL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ONEINSTR" target="_blank">2023. One Instruction Computer Simulator</a></td><td><a href="http://www.spoj.com/problems/ONEINSTR"target="_blank">ONEINSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REMGAME" target="_blank">2047. Stone Removing Game</a></td><td><a href="http://www.spoj.com/problems/REMGAME"target="_blank">REMGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLAYFAIR" target="_blank">4476. Playfair Cracker</a></td><td><a href="http://www.spoj.com/problems/PLAYFAIR"target="_blank">PLAYFAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BANDMATR" target="_blank">4533. Determinant of Banded Matrices</a></td><td><a href="http://www.spoj.com/problems/BANDMATR"target="_blank">BANDMATR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHUFFLEN" target="_blank">7333. Shuffle Music</a></td><td><a href="http://www.spoj.com/problems/SHUFFLEN"target="_blank">SHUFFLEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVISER9" target="_blank">7623. Divisors VI</a></td><td><a href="http://www.spoj.com/problems/DIVISER9"target="_blank">DIVISER9</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AHOCUR" target="_blank">11613. Aho-Corasick Trie</a></td><td><a href="http://www.spoj.com/problems/AHOCUR"target="_blank">AHOCUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEGSQRSS" target="_blank">11840. Sum of Squares with Segment Tree</a></td><td><a href="http://www.spoj.com/problems/SEGSQRSS"target="_blank">SEGSQRSS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBTLEBA" target="_blank">16113. Trucks Transportation</a></td><td><a href="http://www.spoj.com/problems/SUBTLEBA"target="_blank">SUBTLEBA</a><br>
+</td></tr>

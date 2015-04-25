@@ -1,0 +1,97 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IGARB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>362. Ignore the Garbage</h1>
+		<h2>Problem code: IGARB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> Fred works as an IT consultant in an insurance company. As they always had a large amount of customers waiting and arguing at the front desk, management decided to deploy a ticket machine. Each customer would get a ticket with a number and there will be fancy LCD display over each desk showing the number of the next person. Fred was appointed to get this new enhancement working. <BR><BR>
+
+Because Fred is lazy when it comes to manual labor and as an IT consultant he wouldn't lower himself to the level of some hardware technician (except when upgrading his own computer), he asked few technicians to install the displays and prepared himself just to plug in the ticket machine and try it out. Unfortunately (for Fred) the technicians, either inspired by Mr.Bean or because of their carelessness, installed the display upside-down. <BR><BR>
+
+Being a software guy, Fred decided that the hardware should not be tampered with after it is installed (except for the case if he would be able to get back the technicians to repair it, but they were already angry at him for his nagging). Then he noted that from time to time the display shows a correct number even when it is upside-down. And hey, the ticket machine is an embedded device and contains a small processor! It would be just a sin for an IT guy not to try to meddle with it and try running an own version of Linux. Now we just need to figure out which readable numbers will the display show.</p>
+
+<h3>Task specification</h3>
+<p>
+In the beginning the display shows the number 1 on its display. Each second the number shown is increased by 1. We see the display upside-down and thus not everything we see will make sense. Your task is to compute the K-th valid number we will see on the display. The digits the display uses are shown on the images below. An upside-down 1 still count as 1. The number we see may have leading zeroes &#8211; e.g. turning the number 600 upside down leads to a valid number.<BR><BR>
+
+<img src="/content/turbo:i0.gif">  
+<img src="/content/turbo:i1.gif">  
+<img src="/content/turbo:i2.gif">  
+<img src="/content/turbo:i3.gif">  
+<img src="/content/turbo:i4.gif">  
+<img src="/content/turbo:i5.gif">  
+<img src="/content/turbo:i6.gif">  
+<img src="/content/turbo:i7.gif">  
+<img src="/content/turbo:i8.gif">  
+<img src="/content/turbo:i9.gif"> 
+</p>
+
+<h3>Input</h3>
+<p>
+t - the number of test cases [t <= 2200], than t test cses follows. Each test case consist of one integer Ki [0 < Ki <= 10^200].
+</p>
+
+<h3>Output</h3>
+<p>For each Ki from the input file, output the Ki-th number shown on the display (including the leading zeroes, if there are some).
+<BR>  
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+8
+1
+2
+3
+4
+5
+6
+8
+98
+</pre>
+<pre>
+<b>Output:</b>
+1
+2
+5
+9
+8
+6
+11
+002
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-05-15</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>30000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IPSC 2005</td></tr>	
+</table>

@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/cegradhakrish"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ITRIX_C" target="_blank">8666. Maximum - Profit -- Version II</a></td><td><a href="http://www.spoj.com/problems/ITRIX_C"target="_blank">ITRIX_C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ITRIX_D" target="_blank">8667. Board-Queries</a></td><td><a href="http://www.spoj.com/problems/ITRIX_D"target="_blank">ITRIX_D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ITRIX_E" target="_blank">8668. THE BLACK AND WHITE QUEENS</a></td><td><a href="http://www.spoj.com/problems/ITRIX_E"target="_blank">ITRIX_E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOPC12A" target="_blank">10514. K12 - Building Construction</a></td><td><a href="http://www.spoj.com/problems/KOPC12A"target="_blank">KOPC12A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOPC12B" target="_blank">10515. K12-Combinations</a></td><td><a href="http://www.spoj.com/problems/KOPC12B"target="_blank">KOPC12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOPC12D" target="_blank">10517. K12-Generating Big Numbers II</a></td><td><a href="http://www.spoj.com/problems/KOPC12D"target="_blank">KOPC12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOPC12G" target="_blank">10519. K12-Bored of Suffixes and Prefixes</a></td><td><a href="http://www.spoj.com/problems/KOPC12G"target="_blank">KOPC12G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOPC12H" target="_blank">10522. K12-OE Numbers</a></td><td><a href="http://www.spoj.com/problems/KOPC12H"target="_blank">KOPC12H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ITRIX12E" target="_blank">11050. R  Numbers</a></td><td><a href="http://www.spoj.com/problems/ITRIX12E"target="_blank">ITRIX12E</a><br>
+</td></tr>

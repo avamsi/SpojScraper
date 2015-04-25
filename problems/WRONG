@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WRONG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11707. Wrong directions</h1>
+		<h2>Problem code: WRONG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">Farmer John has just purchased a fancy new programmable tractor.  To make the tractor move, he types in a string of length N </span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">(1 &lt;= N &lt;= 100,000) consisting of only the characters F, L, and R.  Each 'F' instructs the tractor to move forward one unit, </span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">and the characters 'L' and 'R' result in left and right turns of 90 degrees, respectively. The tractor starts out at the </span><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">origin (0,0) </span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">facing north.</span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">After programming his tractor by typing in his intended command string, FJ remembers that he typed exactly one character in</span></span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"> the command string incorrectly, but he can't remember which one!</span></span><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">For example, he might have typed 'F' or 'L' when his intended </span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">string contained the character 'R'.  Please compute the number of different locations in the plane at which the tractor might</span></p>
+<p><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"> end up as a result (the direction the tractor faces in its final location does not matter).</span></p>
+<pre>Input format: </pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">* Line 1: Farmer John's intended command string.</span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">SAMPLE INPUT:</span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">FF</span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">INPUT DETAILS:</span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">Farmer John wants the tractor to advance forward twice, ideally ending at position (0,2).</span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">OUTPUT FORMAT: </span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">* Line 1: The number of positions at which the tractor might end up,given that FJ mistypes one of the characters in his command string.</span></span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">SAMPLE OUTPUT</span></span></span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">3</span></span></span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">OUTPUT DETAILS:</span></span></span></span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">There are 4 possible mistyped sequences: FL, FR, LF, an RF.  These will land the tractor at (0,1), (0,1), (-1,0), and (1,0) respectively,&nbsp;</span></span></span></span></span></span></span></span></span></pre>
+<pre><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;"><span style="font-family: monospace; font-size: 14px; text-align: -webkit-left; white-space: pre-wrap;">a total of 3 distinct locations.</span></span></span></span></span></span></span></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xadur">Ikhaduri</a></td></tr>
+<tr><td>Date:</td><td>2012-06-09</td></tr>
+<tr><td>Time limit:</td><td>0.164s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Usaco march 2012</td></tr>	
+</table>

@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HEADSHOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7132. Headshot</h1>
+		<h2>Problem code: HEADSHOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<p><span style="font-size: medium;">You have a revolver gun with a cylinder that has n chambers. Chambers are located in a circle on a&nbsp;cylinder. Each chamber can be empty or can contain a round. One chamber is aligned with the gun's&nbsp;barrel. When trigger of the gun is pulled, the gun's cylinder rotates, aligning the next chamber with the&nbsp;barrel, hammer strikes the round, making a shot by firing a bullet through the barrel. If the chamber is&nbsp;empty when the hammer strikes it, then there is no shot but just a "click".</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;">You have found a use for this gun. You are playing Russian Roulette with your friend. Your friend loads&nbsp;rounds into some chambers, randomly rotates the cylinder, aligning a random chamber with a gun's&nbsp;barrel, puts the gun to his head and pulls the trigger. You hear "click" and nothing else - the chamber&nbsp;was empty and the gun did not shoot.</span></p>
+<p><span style="font-size: medium;">Now it is your turn to put the gun to your head and pull the trigger. You have a choice. You can either&nbsp;pull the trigger right away or you can randomly rotate the gun's cylinder and then pull the trigger. What&nbsp;should you choose to maximize the chances of your survival?</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;"><br /></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">International Cyber Police Corporation (ICPC) had built a new mega-tall business center to host its</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">headquarters and to lease some space for extra pro&macr;t. It has so many &deg;oors, that it is impractical to have</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">a separate button in each of its m elevator cars for each individual &deg;oor. Instead, each elevator car has</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">just two buttons. One button in i-th elevator car makes it move up ui &deg;oors, the other makes it move</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">down di &deg;oors. The business center is so high, that we can ignore its height for this problem (you will</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">never reach the top &deg;oor), but you cannot go below the ground &deg;oor. All &deg;oors are numbered by integer</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">numbers starting from zero, zero being the ground &deg;oor.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">You start on the ground &deg;oor of the business center. You have to choose one elevator car out of m to</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">ride on. You cannot switch elevators cars after that. What is the lowest &deg;oor above the ground &deg;oor you</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;"><span style="font-size: medium;">can get to after you press elevator car buttons exactly n times</span></div>
+<h3 style="font-size: 1.17em;"><span style="font-size: medium;">Input</span></h3>
+<p><span style="font-size: medium;">The input first line contains a single line with a string of n digits "0" and "1" (2&lt;=n&lt;=100). This line of&nbsp;digits represents the pattern of rounds that were loaded into the gun's chambers. "0" represent an empty&nbsp;chamber, "1" represent a loaded one. In this representation, when cylinder rotates before a shot, the&nbsp;next chamber to the right gets aligned with the barrel for a shot. Since the chambers are actually located&nbsp;</span><strong><span style="font-size: x-small;"><span style="font-weight: normal;"><span style="font-size: medium;">on a circle, the first chamber in this string follows the last one. There is at least one "0" in this string.</span></span></span></strong></p>
+<p><strong><span style="font-size: x-small;"><span style="font-weight: normal;"><span style="font-size: medium;">&nbsp;</span></span></span><span style="font-size: medium;">Output</span></strong></p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;">Write to the output single one of the following words (without quotes):</span></p>
+<p><span style="font-size: medium;">"SHOOT" - if pulling the trigger right away makes you less likely to be actually shot in the head&nbsp;with the bullet (more likely that the chamber will be empty).</span></p>
+<p><span style="font-size: medium;">"ROTATE" - if randomly rotating the cylinder before pulling the trigger makes you less likely to be&nbsp;actually shot in the head with the bullet (more likely that the chamber will be empty).</span></p>
+<p><span style="font-size: medium;">"EQUAL" - if both of the above choices are equal in terms of probability of being shot.</span></p>
+<p>&nbsp;</p>
+<h3 style="font-size: 1.17em;"><span style="font-size: medium;">Example</span></h3>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-weight: normal; white-space: normal;"><pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">Input:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">&nbsp;</span></strong><span style="font-size: medium;">0011
+</span><strong><span style="font-size: medium;">Output:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="font-size: medium;"><strong>&nbsp;</strong>EQUAL</span></pre>
+</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="white-space: normal;"><pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;"><br /></span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">Input:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="font-size: medium;"><strong>&nbsp;</strong>0111
+</span></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">Output:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="font-size: medium;"><strong>&nbsp;</strong>ROTATE</span></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;"><br /></span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">Input:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="font-size: medium;"><strong>&nbsp;</strong>000111</span></pre>
+</span><span style="white-space: normal;">
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><strong><span style="font-size: medium;">Output:</span></strong></pre>
+<pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 8px;"><span style="font-size: medium;"><strong>&nbsp;</strong>SHOOT</span></pre>
+</span></pre>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2010-08-15</td></tr>
+<tr><td>Time limit:</td><td>0.208s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC 2009</td></tr>	
+</table>

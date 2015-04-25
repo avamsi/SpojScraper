@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CONTCITY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10447. Contaminated City</h1>
+		<h2>Problem code: CONTCITY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a far away country there is a city facing a big problem. The city is plagued by a deadly gas. Many<br />people have died, but there are groups of survivors at places around the city. Between these places<br />there are roads connecting two distinct places that can still be traversed safely. These roads can be<br />traversed in both directions. It's known the number of days necessary to traverse each road and the<br />two places that it connects. It's also known the number of survivors at each location. Each survivor<br />can get to other places following a sequence of roads.<br />The mayor will send several helicopters to rescue these people, each having a capacity, a limit on<br />the number of crew (people that it can rescue). Each helicopter will land on a certain day and place.<br />You should answer an important question for the mayor. How many days are needed to rescue all<br />survivors? If it's not possible to rescue all people you should answer how many of them can be<br />rescued.</p>
+<h3>Input</h3>
+<p>The first line of input file have the number of test cases T (T &lt;= 40).<br />The first line of each test case have N, M, and H, the number of places considered, the number of<br />roads between the places and the number of helicopters that will be sent, respectively. Each place is<br />uniquely identified by a number between 1 and N. The next N lines will have N integers, the i-th<br />line have the number of survivors in place i, Xi. Each of next M lines will have three numbers Aj,<br />Bj and Dj, meaning that there is a way between places Aj and Bj that last Dj days to traverse. The<br />input can contain several roads between the same pair of places. Each of next H lines will have<br />three integers Dh, Ph, and Ch (in this order), meaning that a helicopter with capacity Ch will arrive<br />at place Ph at day Dh. The sum of survivors will not be more than 200. If a survivor can get a<br />helicopter following a sequence of roads, the total time to get the helicopter will not be more than<br />1000.</p>
+<p><br />Constraints:<br />1 &lt;= N, H &lt;= 50<br />1 &lt;= M &lt;= 1500<br />1 &lt;= Aj, Bj, Ph &lt;= N<br />1 &lt;= Dj, Dh &lt;= 1000<br />1 &lt;= Ch &lt;= 200<br />0 &lt;= Xi &lt;= 200</p>
+<h3>Output</h3>
+<p>For each test case there is one line in output. If all people can be rescued "All people can be rescued<br />in D day(s) ." should be printed, where D is the minimum number of days to rescue all people. If it<br />is impossible to rescue all people "X survivor(s) can be rescued." should be printed, where X is the<br />maximum number of survivors that can be rescued.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />4 4 4<br />3<br />4<br />5<br />6<br />1 2 7<br />2 3 3<br />3 4 3<br />4 1 4<br />4 4 7<br />6 3 2<br />5 2 3<br />3 1 6<br />4 2 3<br />2<br />2<br />3<br />1<br />1 4 3<br />2 3 3<br />2 4 2<br />3 2 4<br />3 3 2
+
+<strong>Output:</strong>
+All people can be rescued in 6 day(s).<br />7 survivor(s) can be rescued.
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.184s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

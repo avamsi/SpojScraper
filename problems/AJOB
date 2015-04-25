@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AJOB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20637. Ajob Subsequence</h1>
+		<h2>Problem code: AJOB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are currently studying the language <strong><em>Ajob</em></strong> ( which means strange in English ) from a renowned professor. The language has infinite number of letters in its alphabet ( now you know, why it is called ajob ). &nbsp;<br /><br />The professor taught you <strong><em>N</em></strong> words, one by one. The number of letters in a word is equal to it's place in the teaching order. Thus, the <em><strong>1<sup>st</sup></strong></em> word taught by the professor has <em><strong>1</strong></em> letter, <em><strong>2<sup>nd</sup></strong></em> word has <em><strong>2</strong></em> letters, <em><strong>3<sup>rd</sup></strong></em> word has <em><strong>3</strong></em> letters, ..., the <em><strong>N<sup>th</sup></strong></em> word has <em><strong>N</strong></em> letters. &nbsp;<br /><br /><em>All the letters within a word are distinct to each other</em>.<br /><br />Now, you are handed an assignment. You have to choose any one of the <em><strong>N</strong></em> words and form a subsequence from it. The length of the subsequence should be <strong>exactly</strong> <em><strong>K</strong></em> less than the length of original word. For example, if the length of the chosen word is <em><strong>L</strong></em>, then the length of the subsequence should be <em><strong>L-K</strong></em>. If for any word, <em><strong>L</strong></em> is smalller than <em><strong>K</strong></em> <em><strong>(L&lt;K)</strong></em>, then you must not choose that word. Two subsequences are different to each other if, the lengths of them are different or they contain different characters in the same position.<br /><br />Find the number of ways you can complete the assignment<em><strong> modulo p</strong></em> ( <em><strong>p</strong></em> will always be a <em>prime</em> ).</p>
+<h3>Input</h3>
+<p>The first line contains <em><strong>T</strong></em>, the number of testcases. The next <em><strong>T</strong></em> lines contain three space separated integers <em><strong>N</strong></em>, <em><strong>K</strong></em> and <em><strong>p</strong></em>.</p>
+<h3>Output</h3>
+<p>For each testcase, print one integer in a single line, the number possible ways you can complete the assignment, <em><strong>modulo p</strong></em>.</p>
+<h3>Constraints</h3>
+<p><em><strong>1 &le; T &le; 100&nbsp; <br />2 <em><strong>&le;</strong></em> N <em><strong>&le;</strong></em> 10<sup>18</sup>&nbsp;&nbsp; <br />0 &lt; K &lt; N&nbsp; <br />2 <em><strong>&le;</strong></em> p <em><strong>&le;</strong></em> 10<sup>5</sup>&nbsp; <br />p </strong>is a<strong> Prime</strong></em></p>
+<p><em><strong> </strong></em></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+8<br />2 1 2<br />2 1 5<br />5 3 13<br />5 2 3<br />6 5 11<br />7 6 3<br />6 5 7<br />6 5 5<br /><br /><strong>Output:</strong>
+1<br />3<br />2<br />2<br />7<br />2<br />0<br />2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bidhan">Bidhan</a></td></tr>
+<tr><td>Date:</td><td>2014-08-03</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem from <a href="http://goo.gl/Fl8eti">HackerRank</a></td></tr>	
+</table>

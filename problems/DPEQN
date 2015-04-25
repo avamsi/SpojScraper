@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DPEQN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3179. Congruence Equation</h1>
+		<h2>Problem code: DPEQN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/DPEQN/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/DPEQN/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>
+Given a congruence equation:
+</p>
+<pre>
+a<sub>1</sub>x<sub>1</sub> + ... a<sub>2</sub>x<sub>2</sub> + ... + a<sub>n</sub>x<sub>n</sub> = b (mod m)
+</pre>
+<p>In which, a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, b and m are positive integer constants; x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>
+are unknowns.</p>
+<p>Find a solution for this equation, or show that the equation has no solution.</p>
+
+<h3>Input</h3>
+<p>First line: number of test cases. Each test case has the following form:</p>
+<ul>
+<li>Line 1: n (1 &#8804; n &#8804; 100)</li>
+<li>Line 2: n integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 &#8804; a<sub>i</sub> &#8804; 10<sup>8</sup>)</li>
+<li>Line 3: b, m (1 &#8804; b, m &#8804; 10<sup>8</sup>)</li>
+</ul>
+<p>Each test case is separated by a blank line.</p>
+
+<h3>Output</h3>
+<p>For each test case, if the equation has no solution, print "NO". Otherwise, print n integers x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub> (0 &#8804; x<sub>i</sub> < m) that is one solution to the equation.</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input</b>
+2
+
+2
+4 6
+6 10
+
+2
+4 6
+3 8
+
+<b>Output</b>
+1 2
+NO
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-10-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>&copy; <a href='http://vnoi.info'>VNOI</a></td></tr>	
+</table>

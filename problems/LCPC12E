@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCPC12E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12400. Johnnys Empire</h1>
+		<h2>Problem code: LCPC12E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><strong><span style="white-space: normal; ">Description</span><br /></strong><span style="white-space: normal;">
+<p>Hundreds of years ago Johnny's father had a great kingdom. Before his death he divided his kingdom between his sons (Johnny and Johnny's brother). Johnny's brother took part of the kingdom with a circular shape with radius <strong><em>R</em></strong>.&nbsp; Jonny took part of kingdom of squared shape with side length <strong><em>L</em></strong>. As Johnny was jealous from his brother after his father's death, he decided to extend his kingdom to be a circle such that the corners of the square lies exactly on the border of the circle. A problem might occur that Johnny could steal some land from his brother, and that could wage a huge war between the two brothers. So Johnny decided to convince his brother to build a wall separating between the two kingdoms. The wall should be connecting the two intersection points between the two circles. You are to estimate the length of this wall.</p>
+<p><img src="http://i.imgur.com/xP3sy.png" alt="" width="425" height="235" /></p>
+<p>&nbsp;</p>
+<h2>Input Format&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+<p>The first line of input contains an integer <strong><em>T</em></strong>, the number of test cases. <strong><em>T</em></strong> test cases follow, the first line of each test case contains 6 floating point numbers; 2 numbers denoting the center of Johnny's brother kingdom, another 2 for the center of Johnny's kingdom, <strong><em>R</em></strong> the radius of Johnny's brother kingdom <strong><em>A</em></strong>, and <strong><em>L</em></strong> the side length of the square of Johnny's kingdom. It&rsquo;s guaranteed that both kingdoms don&rsquo;t share any lands originally. Also after kingdom <strong><em>B</em></strong> is extended, it&rsquo;s guaranteed that the intersection area will not cover Johnny's brother kingdom completely. The absolute value for all decimal numbers will be less than 10<sup>9</sup>.</p>
+<h2>Output Format</h2>
+<p>There should be <strong><em>T</em></strong> lines, containing the following format.</p>
+<p><strong><em>k. S</em></strong></p>
+<p>Where <strong><em>k</em></strong> is the test case number (starting at 1), a single period, a single space and <strong><em>S</em></strong> represent a decimal number with exactly 3 digits after the decimal point representing the wall length. If there&rsquo;s no possibility of war, print &ldquo;<strong><em>No problem</em></strong>&rdquo;.</p>
+<table style="width: 100%;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<h2>Sample Input</h2>
+</td>
+<td valign="top">
+<h2>Sample Output</h2>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>3</p>
+<p>0.0 0.0 10.0 0 3 3</p>
+<p>0.0 0.0 4.121 0 3 3</p>
+<p>-1 3 1 -1 2 7.071</p>
+</td>
+<td valign="top">
+<p>1. No problem</p>
+<p>2. 2.971</p>
+<p>3. 3.994</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-10-05</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>LCPC 2012</td></tr>	
+</table>

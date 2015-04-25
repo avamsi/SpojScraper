@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HEPNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7108. Heptadecimal Numbers</h1>
+		<h2>Problem code: HEPNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Factory of Computer Enhaced Numbers (FCEN) has asked its Development Comitee (DC)<br />to come up with a way to handle numbers written in base 17.<br />As everybody knows, base 17 is very important for many scientific applications, as well as for<br />engineering and other practical uses. Numbers in base 17 can be tough, but are kind and soft<br />if treated appropiately.<br />Numbers in base 17 are written by using a set of 17 characters: digits 0 to 9 with their usual<br />values, and uppercase letters A to G that have values from 10 to 16, respectively.<br />Base 17, probably because its basement on a prime number, does not require numbers to start<br />with a non-zero digit, so each number has many representations. For instance, the decimal<br />number 117 can be written as 6F , but also as 06F or even 00000006F .<br />Because of this leading-zeroes thing, heptadecimal numbers are hard to compare. As a member<br />of the FCEN-DC, you were asked to write a program that helps in this difficult and challenging<br />task.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />two non-empty strings of at most 10<sup>5</sup> heptadecimal digits, separated by a single space. The last<br />line of the input contains two asterisks separated by a single space and should not be processed<br />as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with the sign &ldquo;&lt;&rdquo; if the first heptadecimal number is<br />smaller than the second one, the sign &ldquo;&gt;&rdquo; if the first heptadecimal number is greater than the<br />second one, or the sign &ldquo;=&rdquo; if both heptadecimal numbers are equal.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br />006F B3B<br />0000 0<br />* *<br /><br /><strong>Output:</strong>
+<br />&lt;<br />=</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.383s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

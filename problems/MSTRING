@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSTRING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3982. String problem</h1>
+		<h2>Problem code: MSTRING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MSTRING/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MSTRING/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+Substring of some string A is defined as one or more (not necessary succeeding)
+elements of the string with maintaining the sequence. 
+</p><p>
+There are given two strings, string VOKI and string TOKI. Write the program that
+will calculate the length of any shortest substring of string VOKI such 
+as it is not substring of string TOKI.  
+</p><p>
+<h3>Input</h3>
+</p><p>
+In first line of input file there is string VOKI and in second one is string TOKI. 
+The only characters that will occur are lowercase characters of 
+English alphabet (&#8216;a&#8217;- &#8216;z&#8217;). String lengths will be less or equal to 1000. 
+</p><p>
+Note: input data will be such so there will always be a solution.
+</p><p>
+<h3>Output</h3>
+</p><p>
+In the first line of file you should print the length of wanted substring.
+</p><p>
+<h3>Sample</h3>
+<pre>
+Sample input
+ 
+banana 
+anbnaanbaan 
+ 
+Sample output
+ 
+5 
+ 
+(eg. banna) 
+
+Sample input
+ 
+babab 
+babba 
+ 
+Sample output
+ 
+3 
+ 
+(eg. aab) 
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-28</td></tr>
+<tr><td>Time limit:</td><td>0.233s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 04</td></tr>	
+</table>

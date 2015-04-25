@@ -1,0 +1,212 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUDOKU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1110. Sudoku</h1>
+		<h2>Problem code: SUDOKU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A Sudoku grid is a 16x16 grid of cells grouped in sixteen 4x4 squares, where some cells are
+filled with letters from A to P (the first 16 capital letters of the English alphabet), as shown in
+the figure. The game is to fill all the empty grid cells with letters from A to P such that each letter
+from the grid occurs once only in the line, the column, and the 4x4 square it occupies. The initial
+content of the grid satisfies the constraints mentioned above and guarantees a unique solution. 
+<P>
+<BR>
+
+<DIV ALIGN="CENTER"><TABLE COLS=16 BORDER FRAME=BOX RULES=GROUPS>
+<COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><TBODY>
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD VALIGN=BASELINE ALIGN=CENTER NOWRAP bgcolor="#edc7f0"><TT><text color="white">A </TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD></TR>
+
+</TBODY><TBODY>
+
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#c8ccef"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD  bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD></TR>
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>D</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A </TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>E</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef"></TD></TR>
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>H</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>K</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#c8ccef"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#edc7f0"></TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0"></TD></TR>
+
+</TBODY>
+</TABLE>
+
+</DIV>
+<P>
+<DIV ALIGN="CENTER">a) Sudoku grid
+</DIV>
+<P>
+<DIV ALIGN="CENTER"></DIV>
+<P>
+<BR>
+<DIV ALIGN="CENTER"><TABLE COLS=16 BORDER FRAME=BOX RULES=GROUPS>
+<COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=CENTER><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>J</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>H </TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>P</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>I</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD></TR>
+
+</TBODY><TBODY>
+<TR><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP><TT>I</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>A</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>F</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>J</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>O</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>E</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>C</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>G</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>L</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>D</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>P</TT> </TD><TD bgcolor="#c8ccef" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>B</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>H</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>M</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>N</TT> </TD><TD bgcolor="#edc7f0" VALIGN=BASELINE ALIGN=CENTER NOWRAP> <TT>K</TT> </TD></TR>
+
+</TBODY>
+</TABLE>
+
+</DIV>
+<P>
+<DIV ALIGN="CENTER">b) Solution
+
+<h3>Input</h3>
+<p>The first line of the input contains an integer K - determining the number of datasets (K<=10). Each data set encodes a grid and contains 16 strings on 16 consecutive lines as shown in the example input below. The ith string stands for the ith line of the grid, is 16 characters long, and starts from the first position of the line. String characters are from the set {A,B,&#8230;,P,-}, where &#8211; (minus) designates empty grid cells. The data sets are separated by single empty lines.
+
+<h3>Output</h3>
+<p>For each data set in the input print the completed 16x16 Sudoku as specified by the rules above. The program prints the solution of the input encoded grids in the same format and order as used for input. The output for each data set should be separated by single empty lines.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+1
+--A----C-----O-I 
+-J--A-B-P-CGF-H-
+--D--F-I-E----P-
+-G-EL-H----M-J--
+----E----C--G---
+-I--K-GA-B---E-J 
+D-GP--J-F----A--
+-E---C-B--DP--O-
+E--F-M--D--L-K-A 
+-C--------O-I-L-
+H-P-C--F-A--B---
+---G-OD---J----H 
+K---J----H-A-P-L 
+--B--P--E--K--A-
+-H--B--K--FI-C--
+--F---C--D--H-N-
+
+<b>Output:</b>
+
+FPAHMJECNLBDKOGI 
+OJMIANBDPKCGFLHE 
+LNDKGFOIJEAHMBPC 
+BGCELKHPOFIMAJDN 
+MFHBELPOACKJGNID 
+CILNKDGAHBMOPEFJ 
+DOGPIHJMFNLECAKB 
+JEKAFCNBGIDPLHOM 
+EBOFPMIJDGHLNKCA 
+NCJDHBAEKMOFIGLP 
+HMPLCGKFIAENBDJO 
+AKIGNODLBPJCEFMH 
+KDEMJIFNCHGAOPBL 
+GLBCDPMHEONKJIAF 
+PHNOBALKMJFIDCEG 
+IAFJOECGLDPBHMNK
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/necron">P.Kasthuri Rangan­</a></td></tr>
+<tr><td>Date:</td><td>2006-11-24</td></tr>
+<tr><td>Time limit:</td><td>2.640s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Southeastern European Regional Programming Contest - 2006</td></tr>	
+</table>

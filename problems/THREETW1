@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/THREETW1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9459. Connecting three towns (variation)</h1>
+		<h2>Problem code: THREETW1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given three towns find the point for which the summary distance to all&nbsp;towns is minimal. Wanted&nbsp;are&nbsp;the accurate&nbsp;coordinates &plusmn;10<sup>-6</sup>.</p>
+<h3>Input</h3>
+<p>In the first line the number T (T&lt;100) of test cases. Then T lines with the space separated coordinates (integer 0&lt;=x,y&lt;=100) of the three towns.</p>
+<h3>Output</h3>
+<p>For each test case the coordinates of the above specified point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />2 2 1 1 2 1<br />1 0 0 0 2 1
+
+<strong>Output:</strong>
+1.788675 1.211324<br />1 0
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hwk">HWK</a></td></tr>
+<tr><td>Date:</td><td>2011-08-25</td></tr>
+<tr><td>Time limit:</td><td>0.070s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

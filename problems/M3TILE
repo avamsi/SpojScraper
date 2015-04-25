@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/M3TILE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3883. LATGACH3</h1>
+		<h2>Problem code: M3TILE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/M3TILE/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/M3TILE/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+In how many ways can you tile a 3xn rectangle with 2x1 dominoes?
+
+Here is a sample tiling of a 3x12 rectangle.
+
+Input consists of several test cases followed by a line containing -1.
+Each test case is a line containing an integer 0 &#8804; n &#8804; 30. For each test
+case, output one integer number giving the number of possible tilings. 
+</pre>
+<img src="http://www.spoj.com/content/cyclops:m3tile.png"/> 
+<c><h3>SAMPLE INPUT </h3></c>
+<pre>
+2
+8
+12
+-1
+</pre>
+<h3>SAMPLE OUTPUT  </h3>
+<pre>
+3
+153
+2131
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-17</td></tr>
+<tr><td>Time limit:</td><td>0.600s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM </td></tr>	
+</table>

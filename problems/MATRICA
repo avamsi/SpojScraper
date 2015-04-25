@@ -1,0 +1,128 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MATRICA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3543. Matrica</h1>
+		<h2>Problem code: MATRICA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A matrix is a rectangular table of letters. A square matrix is a matrix with an equal number of rows and columns. A square matrix M is called symmetric if its letters are symmetric with respect to the main diagonal (M<sub>i,j</sub> = M<sub>j,i</sub> for all pairs of i and j).</p>
+
+<p>For example, the following two matrices are symmetric:</p>
+
+<pre>
+AAB          AAA
+ACC          ABA
+BCC          AAA
+</pre>
+
+<p>However, the following two are not:</p>
+
+<pre>
+ABCD          AAB
+ABCD          ACA
+ABCD          DAA
+ABCD
+</pre>
+
+<p>Given a collection of available letters, you are to output a subset of columns in the lexicographically smallest symmetric matrix which can be composed using all the letters. If no such matrix exists, output "IMPOSSIBLE".</p>
+
+<p>To determine if matrix A is lexicographically smaller than matrix B, consider their elements in row-major order (as if you concatenated all rows to form a long string). If the first element in which the matrices differ is smaller in A, then A is lexicographically smaller than B.</p>
+
+<h3>Input</h3>
+<p>The first line of input contains two integers N (1 &#8804; N &#8804; 30000) and K (1 &#8804; K &#8804; 26). N is the dimension of the matrix, while K is the number of distinct letters that will appear.</p>
+
+<p>Each of the following K lines contains an uppercase letter and a positive integer, separated by a space.</p>
+
+<p>The integer denotes how many corresponding letters are to be used. For example, if a line says "A 3", then the letter A must appear three times in the output matrix.</p>
+
+<p>The total number of letters will be exactly N<sup>2</sup>. No letter will appear more than once in the input.</p>
+
+<p>The next line contains an integer P (1 &#8804; P &#8804; 50), the number of columns that must be output.</p>
+
+<p>The last line contains P integers, the indices of columns that must be output. The indices will be between 1 and N inclusive, given in increasing order and without duplicates.</p>
+
+<h3>Output</h3>
+<p>If it is possible to compose a symmetric matrix from the given collection of letters, output the required columns on N lines, each containing P character, without spaces. Otherwise, output "IMPOSSIBLE" (quotes for clarity).</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 3
+A 3
+B 2
+C 4
+3
+1 2 3
+
+<b>Output:</b>
+AAB
+ACC
+BCC
+
+<b>Input:</b>
+4 5
+E 4
+A 3
+B 3
+C 3
+D 3
+2
+2 4
+
+<b>Output:</b>
+AC
+BE
+DE
+ED
+
+<b>Input:</b>
+4 6
+F 1
+E 3
+A 3
+B 3
+C 3
+D 3
+4
+1 2 3 4
+
+<b>Output:</b>
+IMPOSSIBLE
+</pre>
+
+<b>Warning: large input/output data.</b>
+
+<p>Note: The test data for this problem consist of the official test cases from the contest, as well some cases of my own.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-12-17</td></tr>
+<tr><td>Time limit:</td><td>0.039s-0.173s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian Open 08/09 - Contest 3</td></tr>	
+</table>

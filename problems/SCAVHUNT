@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCAVHUNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3374. Scavenger Hunt</h1>
+		<h2>Problem code: SCAVHUNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bill has been the greatest boy scout in America and has become quite a superstar because he
+always organized the most wonderful scavenger hunts (you know, where the kids have to find a
+certain route following certain hints). Bill has retired now, but a nationwide election quickly found
+a successor for him, a guy called George. He does a poor job, though, and wants to learn from
+Bill&#8217;s routes. Unfortunately Bill has left only a few notes for his successor.
+Bill never wrote his routes completely, he only left lots of little sheets on which he had written two
+consecutive steps of the routes. He then mixed these sheets and memorized his routes similarly to
+how some people learn for exams: practicing again and again, always reading the first step and
+trying to remember the following. This made much sense, since one step always required something
+from the previous step.
+George however would like to have a route written down as one long sequence of all the steps in
+the correct order. Please help him make the nation happy again by reconstructing the routes.
+
+
+<h3>Input</h3>
+<p>The first line contains the number of scenarios. Each scenario describes one route and its first line
+tells you how many steps (3 &#8804; S &#8804; 333) the route has. The next S &#8722; 1 lines each contain one
+consecutive pair of the steps on the route separated by a single space. The name of each step is
+always a single string of letters.
+
+
+<h3>Output</h3>
+<p>The output for every scenario begins with a line containing &#8220;Scenario #i:&#8221;, where i is the number
+of the scenario starting at 1. Then print S lines containing the steps of the route in correct order.
+Terminate the output for the scenario with a blank line.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+4
+SwimmingPool OldTree
+BirdsNest Garage
+Garage SwimmingPool
+3
+Toilet Hospital
+VideoGame Toilet
+
+
+<b>Output:</b>
+Scenario #1:
+BirdsNest
+Garage
+SwimmingPool
+OldTree
+
+Scenario #2:
+VideoGame
+Toilet
+Hospital
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dilaang">Daniel Gómez Didier</a></td></tr>
+<tr><td>Date:</td><td>2008-11-17</td></tr>
+<tr><td>Time limit:</td><td>1.356s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>2007 - Circuito de Maratones ACIS / REDIS</td></tr>	
+</table>

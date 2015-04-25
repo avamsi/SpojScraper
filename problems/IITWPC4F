@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18249. Gopu and the Grid Problem</h1>
+		<h2>Problem code: IITWPC4F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><span id="docs-internal-guid-1363df3e-e747-ed59-3e24-916ae1107fc4"><span style="font-size: small;"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Gopu is interested in the integer co-ordinates of the X-Y plane (0&lt;=x,y&lt;=100000). Each integer coordinate contain a lamp, initially all the lamps are in off mode. Flipping a lamp means switching it on if it is in off mode and vice versa. Maggu will ask gopu 3 type of queries.</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>&nbsp;<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Type 1: &nbsp;x l r, &nbsp;meaning: flip all the lamps whose x-coordinate are between l and r (both inclusive) irrespective of the y coordinate. </span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>&nbsp;<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Type 2: &nbsp;y l r, meaning: flip all the lamps whose y-coordinate are between l and r (both inclusive) irrespective of the x coordinate. </span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>&nbsp;<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Type 3: q x y X Y, meaning: count the number of lamps which are in &lsquo;on mode&rsquo;(say this number be A) and &lsquo;off mode&rsquo; (say this number &nbsp;be B) in the region where x-coordinate is between x and X(both inclusive) and y-coordinate is between y and Y(both inclusive).</span></p></span></span></span></pre>
+<h3><span style="font-size: small;">Input</span></h3>
+<pre><span style="white-space: normal;"><span id="docs-internal-guid-1363df3e-e747-ed59-3e24-916ae1107fc4"><span style="font-size: small;"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">First line contains Q-number of queries that maggu will ask to gopu. (Q &lt;= 10^5)</span></p>&nbsp;<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Then there will be Q lines each containing a query of one of the three type described above.</span></p></span></span></span></pre>
+<h3><span style="font-size: small;">Output</span></h3>
+<p><span style="font-size: small;"><span style="line-height: 11.5px; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="line-height: 11.5px; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">For each query of 3rd type you need to output a line containing one integer A.</span></span></p>
+<h3><span style="font-size: small;">Example</span></h3>
+<pre><span style="font-size: small;"><strong>Input:</strong>
+</span><pre><span style="white-space: normal;"><span id="docs-internal-guid-1363df3e-e747-ed59-3e24-916ae1107fc4"><span style="font-size: small;"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">x 0 1</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">y 1 2</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="line-height: 17.25px; white-space: pre-wrap;">q 0 0 2 2</span></p></span></span></span></pre>
+<span style="font-size: small;"> <strong>Output:</strong>&nbsp;</span></pre>
+<pre><span style="font-size: small;"> 4</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

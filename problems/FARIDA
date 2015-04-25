@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FARIDA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14930. Princess Farida</h1>
+		<h2>Problem code: FARIDA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> </p>
+<p>Once upon time there was a cute princess called Farida living in a castle with her father, mother and uncle. On the way to the castle there lived many monsters. Each one of them had some gold coins. Although they are monsters they will not hurt. Instead they will give you the gold coins, but if and only if you didn't take any coins from the monster directly before the current one. To marry princess Farida you have to pass all the monsters and collect as many coins as possible. Given the number of gold coins each monster has, calculate the maximum number of coins you can collect on your way to the castle.</p>
+<h3 style="text-align: justify;">Input</h3>
+<p style="text-align: justify;">The first line of input contains the number of test cases. Each test case starts with a number N, the number of monsters, 0 <= N <= 10^4. The next line will have N numbers, number of coins each monster has, 0 <= The number of coins with each monster <= 10^9. Monsters described in the order they are encountered on the way to the castle.</p>
+<h3 style="text-align: justify;">Output</h3>
+<p>For each test case print &#8220;Case C: X&#8221; without quotes. C is the case number, starting with 1. X is the maximum number of coins you can collect.</p>
+<h3 style="text-align: justify;">Example</h3>
+<pre style="text-align: justify;"><strong>Input:</strong></pre>
+<pre style="text-align: justify;">2
+5
+1 2 3 4 5
+1
+10</pre>
+<pre style="text-align: justify;"><strong>Output:</strong></pre>
+<pre style="text-align: justify;">Case 1: 9
+Case 2: 10</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hossamyosef">hossamyosef</a></td></tr>
+<tr><td>Date:</td><td>2013-05-13</td></tr>
+<tr><td>Time limit:</td><td>1.237s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FCIS/ASU Local Contest 2013</td></tr>	
+</table>

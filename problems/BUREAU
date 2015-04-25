@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BUREAU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8184. Bureaucracy</h1>
+		<h2>Problem code: BUREAU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Many centuries later lawyers discovered that there were only two types of laws in the kingdom:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&sup2; direct law, that states a new norm;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&sup2; canceling law, that cancels one of the previous laws.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The law is considered active if and only if there is no active law that cancels it.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">You are to write program that &macr;nds out which laws are still active.</div>
+<p>Long ago, in a kingdom far, far away the king decided to keep a record of all laws of his kingdom. From that moment whenever a new law was passed, a corresponding record was added to the law archive.</p>
+<p>Many centuries later lawyers discovered that there were only two types of laws in the kingdom:</p>
+<ul>
+<li>direct law, that states a new norm;</li>
+<li>canceling law, that cancels one of the previous laws.</li>
+</ul>
+<p>The law is considered active if and only if there is no active law that cancels it.</p>
+<p>You are to write program that finds out which laws are still active.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line of the input contains T, the number of test cases. T test cases follow.</p>
+<p>The first line of each test case contains an integer number n (1 &lt;= n &lt;= 100000) - the number of passed laws.</p>
+<p>The following n lines describe one law each. Each description has one of the following formats:</p>
+<ul>
+<li>"declare", meaning that a direct law was passed.</li>
+<li>"cancel i", where i is the number of law being cancelled by this one.</li>
+</ul>
+<p>The laws are numbered from one.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case your output must contain a line with the number of active laws. The following line must contain numbers of these laws listed in increasing order.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+5
+declare
+cancel 1
+declare
+cancel 2
+cancel 3
+
+<strong>Output:</strong>
+3
+1 4 5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2011-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.469s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2009, NEERC, Northern Subregional Contest</td></tr>	
+</table>

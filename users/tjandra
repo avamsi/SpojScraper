@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/tjandra"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/POLTOPOL" target="_blank">11603. Polynomial f(x) to Polynomial h(x)</a></td><td><a href="http://www.spoj.com/problems/POLTOPOL"target="_blank">POLTOPOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ASUMHARD" target="_blank">11695. A Summatory (HARD)</a></td><td><a href="http://www.spoj.com/problems/ASUMHARD"target="_blank">ASUMHARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BSPRIME" target="_blank">11844. Binary Sequence of Prime Number</a></td><td><a href="http://www.spoj.com/problems/BSPRIME"target="_blank">BSPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFTRI" target="_blank">11885. Drawing Triangles with Brainf##k</a></td><td><a href="http://www.spoj.com/problems/BFTRI"target="_blank">BFTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FIBOSQRT" target="_blank">12125. Fibonacci With a Square Root</a></td><td><a href="http://www.spoj.com/problems/FIBOSQRT"target="_blank">FIBOSQRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INVPHI" target="_blank">12295. Smallest Inverse Euler Totient Function</a></td><td><a href="http://www.spoj.com/problems/INVPHI"target="_blank">INVPHI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INVDIV" target="_blank">12304. Smallest Inverse Sum of Divisors</a></td><td><a href="http://www.spoj.com/problems/INVDIV"target="_blank">INVDIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBSHARD" target="_blank">12357. Subset and upset (HARD)</a></td><td><a href="http://www.spoj.com/problems/SUBSHARD"target="_blank">SUBSHARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRCLE_UI" target="_blank">12746. Colorful Circle (EASY)</a></td><td><a href="http://www.spoj.com/problems/CRCLE_UI"target="_blank">CRCLE_UI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAST_BF" target="_blank">13223. The BrainFast Processing! Classical version</a></td><td><a href="http://www.spoj.com/problems/FAST_BF"target="_blank">FAST_BF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TJANDRAS" target="_blank">13647. Tjandra 19th birthday (EASY)</a></td><td><a href="http://www.spoj.com/problems/TJANDRAS"target="_blank">TJANDRAS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/A_W_S_N" target="_blank">13738. Happy Valentine Day (Valentine Maze Game)</a></td><td><a href="http://www.spoj.com/problems/A_W_S_N"target="_blank">A_W_S_N</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IRECSQRT" target="_blank">14122. Inverse of Recurrence Problem With a Square Root</a></td><td><a href="http://www.spoj.com/problems/IRECSQRT"target="_blank">IRECSQRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCLE_E" target="_blank">14441. Three Circle Problem (EASY)</a></td><td><a href="http://www.spoj.com/problems/CIRCLE_E"target="_blank">CIRCLE_E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCLE_H" target="_blank">14443. Three Circle Problem (HARD)</a></td><td><a href="http://www.spoj.com/problems/CIRCLE_H"target="_blank">CIRCLE_H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SELFDESN" target="_blank">14751. Self Descriptive Number</a></td><td><a href="http://www.spoj.com/problems/SELFDESN"target="_blank">SELFDESN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EGCJPURE" target="_blank">14991. Your Rank is Pure (EXTREME ver)</a></td><td><a href="http://www.spoj.com/problems/EGCJPURE"target="_blank">EGCJPURE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWAP_ESY" target="_blank">15248. Swap (Easy - Level 2)</a></td><td><a href="http://www.spoj.com/problems/SWAP_ESY"target="_blank">SWAP_ESY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWAP_MED" target="_blank">15249. Swap (Medium - Level 200)</a></td><td><a href="http://www.spoj.com/problems/SWAP_MED"target="_blank">SWAP_MED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWAP_HRD" target="_blank">15250. Swap (Hard - Level 1000)</a></td><td><a href="http://www.spoj.com/problems/SWAP_HRD"target="_blank">SWAP_HRD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFGCD" target="_blank">15381. Cut The Rope</a></td><td><a href="http://www.spoj.com/problems/BFGCD"target="_blank">BFGCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCTRL5" target="_blank">15382. Factorial (Again!)</a></td><td><a href="http://www.spoj.com/problems/FCTRL5"target="_blank">FCTRL5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFONP" target="_blank">15383. Transform the Expression (Again!)</a></td><td><a href="http://www.spoj.com/problems/BFONP"target="_blank">BFONP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VAL_GAM4" target="_blank">18438. Happy Valentine Day (Valentine Adventure Game)</a></td><td><a href="http://www.spoj.com/problems/VAL_GAM4"target="_blank">VAL_GAM4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AVMG1" target="_blank">22740. Another Valentine Maze Game (1D)</a></td><td><a href="http://www.spoj.com/problems/AVMG1"target="_blank">AVMG1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AVMG2" target="_blank">22741. Another Valentine Maze Game (2D)</a></td><td><a href="http://www.spoj.com/problems/AVMG2"target="_blank">AVMG2</a><br>
+</td></tr>

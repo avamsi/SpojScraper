@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HIGHWAY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3347. Cestarine</h1>
+		<h2>Problem code: HIGHWAY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a single day, N of Luka's trucks travel a specific highway. The highway has a number of exits and entrances. An exit with a particular number is in the same location as the entrance with that number.</p>
+
+<p>Upon entering the highway, a truck driver receives a ticket which indicates the entrance he used. When exiting, the driver pays a toll equal to the absolute difference of the entrance and exit numbers. For example, if a ticket says he used entrance 30, then exiting at exit 12 will cost him 18.</p>
+
+<p>Luka has figured out a way to save toll money that his company daily spends. Any two drivers can meet on the highway and exchange tickets, even if their routes don't overlap. Tickets can be exchanged an arbitrary number of times.</p>
+
+<p>However, a driver cannot use an exit if his ticket says he used the same entrance, since that would be suspicious.</p>
+
+<p>Write a program that calculates the least total amount of tolls that the drivers can achieve by exchanging tickets.</p>
+
+<h3>Input</h3>
+<p>On the first line of the input is the integer T (1 &#8804; T &#8804; 5), the number of test cases. T cases follow, each beginning with the single integer N (2 &#8804; N &#8804; 100,000). Each of the next N lines contains two integers between 1 and 1,000,000,000 inclusive, representing the entrance and exit numbers of a truck. Note that no two trucks will have the same entrance or exit numbers.</p>
+
+<h3>Output</h3>
+<p>For each test case, output the least total amount of tolls Luka's company must pay.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+3 65
+45 10
+60 25
+3
+5 5
+6 7
+8 8
+
+<b>Output:</b>
+32
+5
+</pre>
+
+<p>In the first example, the first and third drivers will exchange tickets. After this, the second and third drivers exchange tickets. After this, the drivers will have the tickets 60, 3, 45, respectively. The total amount in tolls is |65 - 60| + |10 - 3| + |25 - 45| = 32.</p>
+
+<b>Warning: large input/output data.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-11-13</td></tr>
+<tr><td>Time limit:</td><td>0.121s-1.111s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian Open 07/08 - Contest 6</td></tr>	
+</table>

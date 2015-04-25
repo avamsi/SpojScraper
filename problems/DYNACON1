@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DYNACON1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9577. Dynamic Tree Connectivity</h1>
+		<h2>Problem code: DYNACON1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>A forest of unrooted trees initially consists of N  (1 &le; N &le; 100,000) single-vertex trees. The vertices are numbered from 1 to N.</p>
+<p>Your task is to maintain that forest and answer connectivity queries.</p>
+<p>All edges in the problem are <strong>undirected</strong>.</p>
+<p>You will receive the following queries, where (1 &le; A, B &le; N) :</p>
+<ul>
+<li><strong>add</strong> A B : add an edge between  vertices  A and B, where initially there is no path between A and B.</li>
+<li><strong>rem</strong> A B : remove edge between  vertices  A and B, where initially there is an edge between A and B.</li>
+<li><strong>conn</strong> A B : print <strong>YES</strong> if there is a path between A and B and <strong>NO</strong> otherwise, where A and B are different.</li>
+</ul>
+<h3>Input</h3>
+<p>The first line of input contains the number of initial single-vertex trees N and the number of queries M (1 &le; M &le; 100,000). The following M lines contain queries.</p>
+<h3>Output</h3>
+<p>For each <strong>conn</strong> query output <strong>YES</strong> or <strong>NO</strong>. Pay attention to letter case.</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /></strong>5 11<br />conn 1 5<br />add 1 2<br />add 1 3<br />add 3 4<br />add 5 4<br />conn 1 5<br />rem 4 5<br />conn 1 5<br />rem 3 4<br />add 3 5<br />conn 1 5<br /><br /><strong>Output:<br /></strong>NO<br />YES<br />NO<br />YES<br /><br />This example will be the first test case.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/indy256">Andrey Naumenko</a></td></tr>
+<tr><td>Date:</td><td>2011-09-23</td></tr>
+<tr><td>Time limit:</td><td>0.395s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

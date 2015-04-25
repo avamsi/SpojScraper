@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMBIG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4881. Words on graphs</h1>
+		<h2>Problem code: AMBIG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Input</h3>
+<p>The input is a directed (multi)graph.</p>
+<p>The first line gives the number of edges M and the number of nodes N (&gt;=2). Then each edge is described by a line of the form "FROM TO LABEL". Nodes (FROM, TO) are numbers in the range 0.. N-1 and labels are also numbers.</p>
+<p>All numbers in the input are nonnegative integers &lt;2000.</p>
+<h3>Output</h3>
+<p>Print "YES" if there are two distinct walks with the same labelling from node 0 to node 1, otherwise print "NO".</p>
+<h3>Example 1</h3>
+<pre><strong>Input:</strong><br />4 4<br />0 2 0<br />0 3 0<br />2 1 1<br />3 1 2<br /><strong><br />Output:</strong><br />NO<br /><br /></pre>
+<h3>Example 2</h3>
+<pre><strong>Input:</strong><br />10 9<br />0 2 0<br />2 1 0<br />2 3 0<br />3 4 0<br />4 2 0<br />2 5 0<br />5 6 0<br />6 7 0<br />7 8 0<br />8 2 0<br /><strong><br />Output:</strong><br />YES</pre>
+<p>In this case the shortest labelling that appears on two walks is 0 repeated 10 times.</p>
+<p><img src="http://2.bp.blogspot.com/_byUC16gzOKM/SsE4t1rLiDI/AAAAAAAABsQ/aS2THepXX-o/s1600-h/ambig002.png" alt="drawing of example 2 input" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rgrig">Radu Grigore</a></td></tr>
+<tr><td>Date:</td><td>2009-09-29</td></tr>
+<tr><td>Time limit:</td><td>0.116s-0.599s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

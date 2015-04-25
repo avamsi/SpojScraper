@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INDIPROG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7109. Indicator of progression</h1>
+		<h2>Problem code: INDIPROG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>When dealing with a long task, computers often provide a progress indicator to help users<br />estimate how much longer they will have to wait. This is especially useful when copying a large<br />number of data files from one drive to another.<br />In the Institute of Computer Power Control (ICPC) are very concerned about their brand new<br />file copier, which they think will change forever the way people copy files. While this is a great<br />accomplishment for the engineers in ICPC, the lack of a progress indicator is threatening the<br />future of the project and the well being of most computer users around the world!<br />The Supremum Principal Director Manager of ICPC has called you personally to ensure you<br />are up for the task. The interface provided by the developing team of the file copier only gives<br />two integers M and N . M is the number of files that have already been copied, and N is<br />the total number of files to be copied. Using this information, you must write a module that<br />displays the progress indicator.<br />The indicator must be drawn as a string of exactly 20 characters. The first K of them must<br />be asterisks (&ldquo;*&rdquo;) and the rest must be hyphens (&ldquo;-&rdquo;). The number K must be chosen in such<br />a way that K/20 correctly approximates M/N ; this means that the distance between the two<br />mentioned fractions is minimum. If there is more than one possible value for K, the greatest<br />one must be chosen.<br />Also, for more precision, a number P without leading zeroes and followed by a percentage<br />sign (&ldquo;%&rdquo;) must be written on top of the described indicator. Since the goal is to represent<br />the finished percentage, the number P must be such that P/100 correctly approximates M/N ,<br />with the same policy as before. The finished percentage must be centered on top of the display.<br />This means that if possible, the same number of display characters (&ldquo;*&rdquo; or &ldquo;-&rdquo;) must be seen<br />to the left and to the right of the percentage; if this is not possible, exactly one extra character<br />must be seen to the left.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />two integers M and N as explained above (0 &le; M &le; N &le; 10<sup>9</sup> and N &ne; 0). These values are<br />separated by a single space. The last line of the input contains the number &minus;1 twice separated<br />by a single space and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with exactly 20 characters representing the mentioned<br />display.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br />2 5<br />2 6<br />0 10<br />-1 -1<br /><strong><br />Output:</strong><br /><br />********-40%--------<br />*******--33%--------<br />---------0%---------<pre><br /></pre>
+<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.529s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

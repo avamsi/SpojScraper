@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VMILI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3870. Military Story</h1>
+		<h2>Problem code: VMILI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Military headquaters plan to develop a better protection for a spaceport. They suppose that the spaceport would be best protected if it is surrounded with as many fences as possible and each fence is patroled by armed guards. The corresponding order was issued and military engineers started to develop a project.</p>
+<p>Wishing to be promoted, sergeant Stupid sent soldiers to dig in fence poles before the project was actually ready. Without much thinking, the soldiers put a lot of poles at random. Help the sergeant to decide how to make barbwire fences using the poles so that the number of fences is maximal. 
+
+<h3>Input</h3>
+<p>The first line contains an integer 3 &#8804; N &#8804; 4000, which is the number of the poles. Each of the following N lines contains two integers 0 &#8804; x, y &#8804; 10000, which are the coordinates of a corresponding pole. No two poles have the same position. 
+
+<h3>Output</h3>
+<p>The output should contain a single integer number, which is the maximal possible number of nested fences that can be constructed. Each fence is a closed polygonal line without self-crossing whose vertices are poles. Different fences should not have common points.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+100 100
+200 100
+100 200
+300 300
+
+
+<b>Output:</b>
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nkvuong">Phenomenal</a></td></tr>
+<tr><td>Date:</td><td>2009-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.162s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>acm.timus.ru</td></tr>	
+</table>

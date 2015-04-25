@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mukel"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GSS6" target="_blank">4487. Can you answer these queries VI</a></td><td><a href="http://www.spoj.com/problems/GSS6"target="_blank">GSS6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TDKPRIME" target="_blank">6470. Finding the Kth Prime</a></td><td><a href="http://www.spoj.com/problems/TDKPRIME"target="_blank">TDKPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TDPRIMES" target="_blank">6471. Printing some primes</a></td><td><a href="http://www.spoj.com/problems/TDPRIMES"target="_blank">TDPRIMES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMES2" target="_blank">6488. Printing some primes (Hard)</a></td><td><a href="http://www.spoj.com/problems/PRIMES2"target="_blank">PRIMES2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KPRIMES2" target="_blank">6489. Finding the Kth Prime (Hard)</a></td><td><a href="http://www.spoj.com/problems/KPRIMES2"target="_blank">KPRIMES2</a><br>
+</td></tr>

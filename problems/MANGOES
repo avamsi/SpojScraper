@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MANGOES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13913. Real Mangoes for Ranjith</h1>
+		<h2>Problem code: MANGOES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ranjith is very fond of mangoes.</p>
+<p>One fine sunny day, he goes to market to get some mangoes. In the market place, he finds N boxes (indexed from 1 to N), filled with mangoes kept infront of him.</p>
+<p>Each box indexed i is denoted by bi and contains exactly i mangoes.</p>
+<p>No of mangoes in bi = mi = i. &nbsp;</p>
+<p>Let ti denotes the type of mangoes in box bi (ti is either "real" or "fake"). He can choose any box bi (i&lt;=N-2), but he doesn't know if the box contains "real" mangoes or "fake" mangoes i.e. type of box bi.</p>
+<p>The type of mangoes in bi depends on the number of mangoes in boxes bi,bi+1, bi+2&nbsp;&nbsp; i.e. {mi, mi+1, mi+2}. Mangoes in box bi are "real" if for each pair of numbers taken from set {mi, mi+1, mi+2}, Greatest common divisor(GCD) equals 1. Otherwise, "fake". Note that ti is not defined for i = N-1 and i = N and assumed to be "fake".&nbsp;</p>
+<p>Given N, Ranjith wants to know the total number of "real" mangoes he will get from all boxes. As Ranjith cannot count beyond N, output the result modulo N.&nbsp;</p>
+<p>Input</p>
+<p>Test File starts with number of test cases - T;</p>
+<p>T lines follows, each containing N, number of boxes.</p>
+<p>Output</p>
+<p>Output T lines Number of "real" mangoes Ranjith gets (modulo N) in each one of the T cases.</p>
+<p>Constraints : 2 &lt; N &lt;= 10^8 T &lt;= 10000</p>
+<p>Example</p>
+<p>Input:</p>
+<p>2</p>
+<p>9</p>
+<p>5</p>
+<p>Output:</p>
+<p>7</p>
+<p>4</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gopalrander">Gopal Rander</a></td></tr>
+<tr><td>Date:</td><td>2013-02-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode '13</td></tr>	
+</table>

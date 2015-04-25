@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GEEKOUNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13367. EVEN COUNT</h1>
+		<h2>Problem code: GEEKOUNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>Problem Statement:</strong></p>
+<p>Let f(x) be the product of digits of a number.</p>
+<p>Given L and R, find the number of values of 'i' such that L &lt;= i &lt;= R and f(i) is <a href="http://simple.wikipedia.org/wiki/Even_number">even</a>.</p>
+<p>&nbsp;</p>
+<p><strong>Input:</strong></p>
+<p>The first line consists of an integer t, the number of test cases. For each test case, you are given the two integers L and R.</p>
+<p><strong>Output:</strong></p>
+<p>For each test case, print the number of values of 'i' such that L &lt;= i &lt;= R and f(i) is even.</p>
+<p>&nbsp;</p>
+<p><strong>Input Constraints:<br /></strong></p>
+<p>1 &lt;= t &lt;= 100</p>
+<p>1 &nbsp; &lt;=&nbsp; L &nbsp; &lt;=&nbsp; R &nbsp; &lt;= &nbsp;1000000000</p>
+<p>&nbsp;</p>
+<p><strong>Sample Input:</strong></p>
+<p>&nbsp;</p>
+<p>2</p>
+<p>2 12</p>
+<p>4 23</p>
+<p>&nbsp;</p>
+<p><strong>Sample Output:</strong></p>
+<p>&nbsp;</p>
+<p>6</p>
+<p>12<strong><br /></strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2013-01-15</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+<tr><td>Resource:</td><td>problem setter: rkarthikeyan</td></tr>	
+</table>

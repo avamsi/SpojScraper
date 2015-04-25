@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PT07B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1478. The Easiest Problem</h1>
+		<h2>Problem code: PT07B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given an unweighted, undirected tree <i>T</i>.
+We say <i>T</i> is special iff it has this property: </p>
+
+<p>"All nodes of degree greater than or equal to 3 are surrounded by at most two nodes of degree two or greater."</p>
+
+<p>Finding maximal size subtree of this tree so that it's a special tree. </p>
+
+<h3>Input</h3>
+<p>The first line of the input file contains one integer <i>N</i> --- number of nodes in the tree
+(0 < <i>N</i> <= 10<sup>6</sup>). Next <i>N</i>-1 lines contain <i>N</i>-1 edges of that tree --- Each line contains a pair (<i>u</i>, <i>v</i>) means
+there is an edge between node <i>u</i> and node <i>v</i> (1 <= <i>u</i>, <i>v</i> <= <i>N</i>).
+</p>
+
+<h3>Output</h3>
+<p>At the first line, output number of nodes in the optimal subtree you found.
+Next lines, print all edges belong to that subtree, each line contains a pair <i>u</i> <i>v</i> means an edge between node <i>u</i> and node <i>v</i>.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+1 2
+2 3
+2 4
+2 5
+
+<b>Output:</b>
+5
+1 2
+2 3
+2 4
+2 5
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-04-07</td></tr>
+<tr><td>Time limit:</td><td>0.012s-1.243s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Co-author Amber</td></tr>	
+</table>

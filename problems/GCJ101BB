@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCJ101BB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6691. Picking Up Chicks</h1>
+		<h2>Problem code: GCJ101BB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A flock of chickens are running east along a straight, narrow road. Each one is running with its own constant speed. Whenever a chick catches up to the one in front of it, it has to slow down and follow at the speed of the other chick. You are in a mobile crane behind the flock, chasing the chicks towards the barn at the end of the road. The arm of the crane allows you to pick up any chick momentarily, let the chick behind it pass underneath and place the picked up chick back down. This operation takes no time and can only be performed on a pair of chicks that are immediately next to each other, even if 3 or more chicks are in a row, one after the other.</p>
+<p>Given the initial locations (<strong>X<sub>i</sub></strong>) at time 0 and natural speeds (<strong>V<sub>i</sub></strong>) of the chicks, as well as the location of the barn (<strong>B</strong>), what is the minimum number of swaps you need to perform with your crane in order to have at least&nbsp;<strong>K</strong>&nbsp;of the&nbsp;<strong>N</strong>&nbsp;chicks arrive at the barn no later than time&nbsp;<strong>T</strong>?</p>
+<p>You may think of the chicks as points moving along a line. Even if 3 or more chicks are at the same location, next to each other, picking up one of them will only let one of the other two pass through. Any swap is instantaneous, which means that you may perform multiple swaps at the same time, but each one will count as a separate swap.</p>
+<h3>Input</h3>
+<p>The first line of the input gives the number of test cases,&nbsp;<strong>C</strong>.&nbsp;<strong>C</strong>&nbsp;test cases follow. Each test case starts with 4 integers on a line --&nbsp;<strong>N</strong>,&nbsp;<strong>K</strong>,&nbsp;<strong>B</strong>&nbsp;and&nbsp;<strong>T</strong>. The next line contains the&nbsp;<strong>N</strong>different integers&nbsp;<strong>X<sub>i</sub></strong>, in increasing order. The line after that contains the&nbsp;<strong>N</strong>&nbsp;integers&nbsp;<strong>V<sub>i</sub></strong>. All distances are in meters; all speeds are in meters per second; all times are in seconds.</p>
+<h3>Output</h3>
+<p>For each test case, output one line containing "Case #x:&nbsp;<strong>S</strong>", where x is the case number (starting from 1) and&nbsp;<strong>S</strong>&nbsp;is the smallest number of required swaps, or the word "IMPOSSIBLE".</p>
+<h3 style="font-size: 1.17em;">Limits</h3>
+<p>1 &le;&nbsp;<strong>C</strong>&nbsp;&le; 100;<br />1 &le;&nbsp;<strong>B</strong>&nbsp;&le; 1,000,000,000;<br />1 &le;&nbsp;<strong>T</strong>&nbsp;&le; 1,000;<br />0 &le;&nbsp;<strong>X<sub>i</sub></strong>&nbsp;&lt;&nbsp;<strong>B</strong>;<br />1 &le;&nbsp;<strong>V<sub>i</sub></strong>&nbsp;&le; 100;<br />1 &le;&nbsp;<strong>N</strong>&nbsp;&le; 50;<br />0 &le;&nbsp;<strong>K</strong>&nbsp;&le;&nbsp;<strong>N</strong>;</p>
+<p>All the&nbsp;<strong>X<sub>i</sub></strong>'s will be distinct and in increasing order.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />5 3 10 5<br />0 2 5 6 7<br />1 1 1 1 4<br />5 3 10 5<br />0 2 3 5 7<br />2 1 1 1 4<br />5 3 10 5<br />0 2 3 4 7<br />2 1 1 1 4
+
+<strong>Output:</strong>
+Case #1: 0<br />Case #2: 2<br />Case #3: IMPOSSIBLE</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohammadkotb">Mohammad Kotb</a></td></tr>
+<tr><td>Date:</td><td>2010-05-25</td></tr>
+<tr><td>Time limit:</td><td>0.157s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Google Code Jam 2010</td></tr>	
+</table>

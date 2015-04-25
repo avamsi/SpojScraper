@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8058. Soccer Teams</h1>
+		<h2>Problem code: AMR10D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>My kid's favorite subject is math, as you know by now.&nbsp; He is learning division now, and his teacher has taught him about even numbers being divisible by 2, numbers whose digits add up to a multiple of 3 being exactly divisible by 3 etc.<br />He was familiar with division by 11 during selection for soccer teams on his playground, and was wondering whether there was any easy rule to see if a number was divisible by 11.&nbsp; For example, he wondered, if he arranged a number of digits 0-9 in a row to form a number, which ones would be divisible by 11?<br />He decided to start off with d[1] 1's, d[2] 2's ..., d[9] 9's, and seeing what is the minimum factor of 11 that he could get by using all these digits, together with any number of 0's.&nbsp; Please help him figure out how many digits there are in this minimum factor. If he will not be able to form a multiple of 11 in this way, print -1.<br /><br /><strong>INPUT</strong><br /><br />The first line will contain the number of test cases T. T lines follow one corresponding to each test case. <br />Each line has 9 integers d[1] d[2] .... d[9].<br /><br /><strong>OUTPUT</strong><br /><br />Output T lines one corresponding to each test case. The ith line should contain the required answer for the corresponding test case.<br /><br /><strong>CONSTRAINTS</strong><br /><br />1 &lt;= T &lt;= 100<br />1 &lt;= d[1] + ... + d[9] &lt;= 100<br /><br /><strong>SAMPLE INPUT</strong><br />2<br />2 0 0 0 0 0 0 0 0<br />0 1 0 0 0 0 0 0 1<br /><br /><strong>SAMPLE OUTPUT</strong><br />2<br />3<br /><br /><strong>EXPLANATION</strong> <br />For the first case, the number 11 can be formed which has 2 digits. <br />For the second case, number 209 can be formed which is divisible by 11 and has 3 digits.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>0.438s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

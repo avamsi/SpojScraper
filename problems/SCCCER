@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCCCER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10574. Soccer Ceremony</h1>
+		<h2>Problem code: SCCCER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0cm; font-style: normal"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="text-decoration: none"><span style="font-size: small;"><span style="font-weight: normal"><span style="background: transparent">There are four popular football teams in the region of Sao Paulo : Corinthians, Palmeiras, Santos and Sao Paulo. Exactly n players among those football teams were pre-selected for an award regarding their performance on the championship. </span></span></span></span><strong><br /><br /></strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-weight: normal"><span style="background: transparent">Today is the big day when one of them will be awarded as the ultimate champion. The players have now arrived, and everyone remembered their seats row (which is the same for all the n players) but not their column number. And now, as one of the most basic and known rules about football ceremony's had been violated, you&rsquo;re in a hurry to satisfy the rule by switching as few players as possible.</span></span></span></span><strong><br /><br /></strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-weight: normal"><span style="background: transparent">This rule, which I guess you should be familiar with but we are going to state it for the sake of completeness, states that there cannot be 3 or more players from the same team sitting in consecutive seats.</span></span></span></span></span></span></p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p style="margin-bottom: 0cm"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">You&rsquo;ll first be given an integer </span></span></span></span></span><strong>T</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">, which represents the total number of test cases.</span></span></span></span></span><strong><br /></strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">Each test case consist of a single integer </span></span></span></span></span><strong>N</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> (1&lt;= </span></span></span></span></span><strong>N</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> &lt;= 20) that represents the number of players invited to the ceremony. This is followed by a string </span></span></span></span></span><strong>S</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> of length </span></span></span></span></span><strong>N</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> representing the team at which each player belongs to. Each character </span></span></span></span></span><strong>S[i]</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> of </span></span></span></span></span><strong>S</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> will be one of the following </span></span></span></span></span><strong>C</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">, </span></span></span></span></span><strong>P</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">, </span></span></span></span></span><strong>N</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">, </span></span></span></span></span><strong>S</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">, meaning that the player seated at position </span></span></span></span></span><strong>i</strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent"> belongs to Corinthians, Palmeiras, Santos or Sao Paulo respectively.</span></span></span></span></span><strong><br /></strong><span style="text-decoration: none"><span style="font-size: small;"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">Each test case will be separated by a new line.</span></span></span></span></span></span></span></p>
+<h3>Output</h3>
+<p style="margin-bottom: 0cm;"><span style="font-size: small;">The output should consist of a single number per test case. That number should be the minimum number of players that need to change their seats to satisfy the rule, if there is no way to satisfy the rule output -1 instead.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">1</span></span></span></span><strong><br /></strong><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">8</span></span></span></span><strong><br /></strong><span style="font-size: small;"><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">CCCCCCPN</span></span></span></span></span></span></span></p><p><span style="font-size: small;">3</span></p><span style="font-size: small;">
+</span><p><span style="font-size: small;">CCC</span></p>
+
+<strong>Output:</strong>
+<p><span style="font-size: small;">4</span></p><span style="font-size: small;">
+</span><p><span style="font-size: small;">-1</span></p>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>10.16s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FAMAF-UNC</td></tr>	
+</table>

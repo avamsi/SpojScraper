@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HPREFIX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17258. Yungom</h1>
+		<h2>Problem code: HPREFIX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>Yungom &nbsp;</strong></p>
+<p style="text-align: justify;">After getting her Ph.D in Cooking with her research paper on "How to Prepare a Pizza", and another Ph.D in Medicine for finding cures for H.I.V and Alzheimers, Dae Jang Guem (Called Yungom in Persian) decided to solve yet another open problem in Information Theory that even Shanon (the father of Information Theory) failed to solve. She is going to construct a language of n words with d given characters c1, c2, &hellip;, cd. This language should be prefix free which means that there is no pair of words like (s, t) in which the word s is a prefix of t. Each character ci has a usage cost of wi. The cost of a word s with the length l is the sum of the costs of its l characters. For example, if c1=a; c2=b; w1=1 and w2=10, the cost of word "aba" is 1+10+1=12. Similarly, the cost of a language with n words is equal to the sum of the costs of its n words. For example, the cost of language &ldquo;ab&rdquo;; &ldquo;bbb&rdquo;; &ldquo;baaa&rdquo; is 11+30+13=54. Like her previous jobs, Yungom is going to do this task perfectly which means that she wants to find the minimum cost, prefix free language with n words. &nbsp;&nbsp;</p>
+<p style="text-align: justify;">Input (Standard Input)</p>
+<p style="text-align: justify;">There are multiple test cases in the input. Each test case starts with a line containing two integers n (1 &le; n &le; 200) and d (1 &le; d &le; 200). The next line contains nonnegative integers w1,w2, &hellip;, wd. The input is terminated by a line containing two zero numbers. &nbsp;</p>
+<p style="text-align: justify;">Output (Standard Output)</p>
+<p style="text-align: justify;">For each test case, you should print the minimum cost of a prefix free language with n words and d characters.</p>
+<p style="text-align: justify;">Sample Input and Output</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Standard Input</p>
+<p style="text-align: justify;">3 4</p>
+<p style="text-align: justify;">1 10 100 1000</p>
+<p style="text-align: justify;">0 0</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Standard Output</p>
+<p style="text-align: justify;">23 &nbsp;&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 600px; width: 1px; height: 1px; overflow: hidden; text-align: center;">&nbsp;Problem D. Yungom &nbsp;After getting her Ph.D in Cooking with her research paper on "How to Prepare a Pizza", and another Ph.D in Medicine for finding cures for H.I.V and Alzheimers, Dae Jang Guem (Called Yungom in Persian) decided to solve yet another open problem in Information Theory that even Shanon (the father of Information Theory) failed to solve. She is going to construct a language of n words with d given characters c1, c2, &hellip;, cd. This language should be prefix free which means that there is no pair of words like (s, t) in which the word s is a prefix of t. Each character ci has a usage cost of wi. The cost of a word s with the length l is the sum of the costs of its l characters. For example, if c1=a; c2=b; w1=1 and w2=10, the cost of word "aba" is 1+10+1=12. Similarly, the cost of a language with n words is equal to the sum of the costs of its n words. For example, the cost of language &ldquo;ab&rdquo;; &ldquo;bbb&rdquo;; &ldquo;baaa&rdquo; is 11+30+13=54. Like her previous jobs, Yungom is going to do this task perfectly which means that she wants to find the minimum cost, prefix free language with n words. &nbsp;&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 600px; width: 1px; height: 1px; overflow: hidden; text-align: center;">Input (Standard Input) There are multiple test cases in the input. Each test case starts with a line containing two integers n (1 &le; n &le; 200) and d (1 &le; d &le; 200). The next line contains nonnegative integers w1,w2, &hellip;, wd. The input is terminated by a line containing two zero numbers. &nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 600px; width: 1px; height: 1px; overflow: hidden; text-align: center;">Output (Standard Output) For each test case, you should print the minimum cost of a prefix free language with n words and d characters. Sample Input and Output Standard Input Standard Output 3 4 1 10 100 1000 0 0 23 &nbsp;&nbsp;</div>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dvh312">DVH</a></td></tr>
+<tr><td>Date:</td><td>2013-11-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM International Collegiate  Programming Contest</td></tr>	
+</table>

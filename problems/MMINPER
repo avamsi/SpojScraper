@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMINPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3933. Minimum Permutation</h1>
+		<h2>Problem code: MMINPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MMINPER/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MMINPER/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+The inversion number of an integer sequence a1, a2, . . . , an is the number
+of pairs (ai, aj) that satisfy i < j and ai > aj . Given n and the inversion
+number m, your task is to &#64257;nd the smallest permutation of the set { 1, 2, . . . , n } , 
+whose inversion number is exactly m. A permutation a1, a2, . . . , an is smaller 
+than b1, b2, . . . , bn if and only if there exists an integer k such that aj = bj 
+for 1 &#8804; j < k but ak < bk.
+</pre>
+ 
+<h3>Input</h3>
+<pre>
+The input consists of several test cases. Each line of the input contains two
+integers n and m. Both of the integers at the last line of the input is &#8722;1,
+which should not be processed. You may assume that
+1 &#8804; n &#8804; 50000 and 0 &#8804; m &#8804; 1/2n(n &#8722; 1).
+
+Sample Input
+5 9
+7 3
+-1 -1
+</pre>
+
+<h3>Output</h3>
+<pre> 
+For each test case, print a line containing the smallest permutation as 
+described above, separates the numbers by single spaces.
+
+Sample output
+4 5 3 2 1
+1 2 3 4 7 6 5
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-23</td></tr>
+<tr><td>Time limit:</td><td>0.121s-0.376s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Pre Shanghai 2004</td></tr>	
+</table>

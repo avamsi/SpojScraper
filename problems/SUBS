@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>665. String it out</h1>
+		<h2>Problem code: SUBS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+Let <B>A</B> and <B>B</B> be two strings made up of alphabets such that <B>A = A<sub>[1-n]</sub>, B = B<sub>[1-m]</sub></B>. We say <B>B</B> is a subsequence of <B>A</B> if there exists a sequence of indices  <B>i<sub>1</sub> < i<sub>2</sub> <..<i<sub>m</sub></B> of <B>A</B> such that <B>A[i<sub>k</sub>] = B[k]</B>. 
+</P>
+
+<p>
+Given <B>B[1-m]</B>, a string of characters from some alphabets, <B>B^i</B> is defined as string with the characters of <B>B</B> each repeating <B>i</B> times. For example, <B>(abbacc)^3 = aaabbbbbbaaacccccc</B>.
+Also, <B>B^<FONT face="courier">0</FONT></B> is the empty string.
+</P>
+
+<p>
+Given strings <B>X</B>, <B>Y</B> made up of characters from <B>'a' - 'z'</B> find the maximum value of <B>M</B> such that <B>X^M</B> is a subsequence of <B>Y</B>.
+</P>
+
+<h3>Input</h3>
+
+<p>
+<ul>
+<li> The first line of the input contains a positive integer <B>t <= 20</B>, denoting the no. of test cases.
+<li> The following <B>2t</B> lines contain the value of <B>X</B> and <B>Y</B> for the cases.
+<li> The description of the test cases follow one after the other.
+<ul>
+<li> Line <B>2k</B> contains the value of <B>X</B> for case <B>k</B>; <B>(1 <= k <= t)</B>
+<li> Line <B>2k+1</B> contains the value of <B>Y</B> for case <B>k</B>; <B>(1 <= k <= t)</B>.
+<li> The no. of characters in <B>X</B> , <B>Y</B> will be  <B><= 500010</B>.
+</ul>
+</ul>
+
+<h3>Output</h3>
+<p>
+The output must contain <B>t</B> lines, each line corresponding to a test case.
+The value on the <B>k<sup>th</sup></B> line should be the value of <B>M</B> for the <B>k<sup>th</sup></B> pair of <B>X</B> and <B>Y</B>. 
+</P>
+ 
+<p>
+<h3>Example</h3>
+
+<p><tt>
+<B>Input:</B>
+<br>3
+<br>abc
+<br>aabbcc
+<br>abc
+<br>bbccc
+<br>abcdef
+<br>abc
+</P>
+
+<p>
+<B>Output:</B>
+<br>2
+<br>0
+<br>0
+</tt>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simba">Kashyap KBR</a></td></tr>
+<tr><td>Date:</td><td>2005-12-12</td></tr>
+<tr><td>Time limit:</td><td>4.823s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

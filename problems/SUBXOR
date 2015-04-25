@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUBXOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18167. SubXor</h1>
+		<h2>Problem code: SUBXOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"> A straightforward question. Given an array of positive integers you have to   print the number of subarrays whose XOR is less than <strong>K</strong>.<br /> Subarrays are defined as a sequence of continuous elements <strong>A<sub>i</sub>, A<sub>i+1</sub>, ..., A<sub>j</sub> </strong>.   XOR of a subarray is defined as <strong>A<sub>i</sub>^A<sub>i+1</sub>^ ... ^A<sub>j</sub></strong>.<br /> Symbol<strong> ^</strong> is Exclusive Or. You can read more about it here:<br /> <a href="http://en.wikipedia.org/wiki/Exclusive_or"> http://en.wikipedia.org/wiki/Exclusive_or </a> </span></p>
+<h3><span style="font-size: small;">Input Format:</span></h3>
+<p><span style="font-size: small;"> First line contains<strong> T</strong>, the number of test cases. Each of the test case   consists of<strong> N</strong> and <strong>K</strong> in one line, followed by<strong> N</strong> space separated integers in   next line. </span></p>
+<h3><span style="font-size: small;">Output Format:</span></h3>
+<p><span style="font-size: small;"> For each test case, print the required answer. </span></p>
+<h3><span style="font-size: small;">Constraints:</span></h3>
+<p><span style="font-size: small;"><strong> 1 &le;  T &le;  10<br /> 1 &le;  N &le;  10^5<br /> 1 &le;  A[i] &le;  10^5<br /> 1 &le;  K &le;  10^6<br /> Sum of N over all testcases will not exceed 10^5.</strong> </span></p>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">1
+5 2
+4 1 3 2 7	</span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">3</span></pre>
+<h3><span style="font-size: small;">Explanation:</span></h3>
+<p><span style="font-size: small;"> Only subarrays satisfying the conditions are [1],[1,3,2] and [3,2]. </span></p>
+<p><span style="font-size: small;"><br /> <strong>Problem Setter: Lalit Kundu</strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/darkshadows">darkshadows</a></td></tr>
+<tr><td>Date:</td><td>2014-01-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

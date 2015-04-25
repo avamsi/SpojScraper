@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4828. ZSequence</h1>
+		<h2>Problem code: ZSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You will be given a sequence A containing <strong>N</strong> positive integers, <strong>a<sub>1</sub></strong>, <strong>a<sub>2</sub></strong>, ..., <strong>a<sub>N</sub></strong>.<br />Let <strong>S(i, j)</strong> = <strong>a<sub>i</sub></strong> + <strong>a<sub>i + 1</sub></strong> + ... + <strong>a<sub>j</sub></strong>, if i &lt;= j.<br />You should find <strong>K</strong> - 1 indexes, <strong>m<sub>1</sub></strong> &lt; <strong>m<sub>2</sub></strong> &lt; ... &lt; <strong>m<sub>K - 1</sub></strong> such that <strong>lb<sub>1</sub> </strong>&lt;= <strong>S(1, m<sub>1</sub>)</strong> &lt;= <strong>ub<sub>1</sub></strong>, ..., <strong>lb<sub>i</sub></strong> &lt;= <strong>S(m<sub>i - 1</sub> + 1, m<sub>i</sub>)</strong> &lt;= <strong>ub<sub>i</sub></strong> and <strong>lb<sub>K</sub></strong> &lt;= <strong>S(m<sub>K - 1</sub> + 1, N)</strong> &lt;= <strong>ub<sub>K</sub></strong>.<br />If the case of multiple solution, print the first lexicographically.</p>
+<h3>Input</h3>
+<p>The first line of the standard input contains two space-separated integers <strong>N</strong> (2 &lt;= <strong>N</strong> &lt;= 5 000) and <strong>K</strong> (1 &lt;= <strong>K</strong> - 1 &lt;= <strong>N</strong> - 1). Next <strong>N</strong> lines contain integers <strong>a<sub>1</sub></strong>, <strong>a<sub>2</sub></strong>, ..., <strong>a<sub>N</sub></strong>, respectively, 1 &lt;= <strong>a<sub>i</sub></strong> &lt;= 10<sup>5</sup>.<br /><strong>i</strong>-th of the next <strong>K</strong> lines contain integers <strong>lb<sub>i</sub></strong> and <strong>ub<sub>i</sub></strong>, 1 &lt;= <strong>lb<sub>i</sub></strong> &lt;= <strong>ub<sub>i</sub></strong> &lt;= 10<sup>9</sup>.</p>
+<h3>Output</h3>
+<p>On the first line of the standard ouput you should print space-separated <strong>K</strong> - 1 indices of the solution as already explained. If such solution does not exist, you should print only one integer -1.</p>
+<p>&nbsp;</p>
+<p><strong>Note:</strong></p>
+<p>Memory limit is 16MBs.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 3<br />1<br />2<br />3<br />4<br />1 3<br />2 4<br />3 10<br /><br /><strong>Output:</strong>
+1 2<br /><br /><br /><strong>Input:<br /></strong>4 3<br />1<br />2<br />3<br />4<br />1 3<br />2 4<br />3 4<br /><br /><strong>Output:<br /></strong>2 3<br /><br /><br /><strong><strong>Input:<br /></strong></strong>4 3<br />1<br />2<br />3<br />4<br />1 3<br />2 4<br />3 3<br /><strong><strong><br />Output:</strong></strong><br />-1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/boba5551">Slobodan</a></td></tr>
+<tr><td>Date:</td><td>2009-09-19</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.120s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://z-trening.com/tasks.php?show_task=5000000315">Z-Trening</a>, own problem</td></tr>	
+</table>

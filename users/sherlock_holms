@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sherlock_holms"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BIT2" target="_blank">18336. Search Bit Sum</a></td><td><a href="http://www.spoj.com/problems/BIT2"target="_blank">BIT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKYLINE2" target="_blank">19320. Draw Skyline Graph</a></td><td><a href="http://www.spoj.com/problems/SKYLINE2"target="_blank">SKYLINE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAUWS" target="_blank">19490. Pair and unpair weightest string</a></td><td><a href="http://www.spoj.com/problems/PAUWS"target="_blank">PAUWS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRMQUER" target="_blank">19568. Prime queries</a></td><td><a href="http://www.spoj.com/problems/PRMQUER"target="_blank">PRMQUER</a><br>
+</td></tr>

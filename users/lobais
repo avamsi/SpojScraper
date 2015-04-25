@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/lobais"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/POWTOW" target="_blank">10050. Power Tower City</a></td><td><a href="http://www.spoj.com/problems/POWTOW"target="_blank">POWTOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSFER" target="_blank">10210. After Party Transfers</a></td><td><a href="http://www.spoj.com/problems/TRANSFER"target="_blank">TRANSFER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NANO" target="_blank">16272. Nanoworld</a></td><td><a href="http://www.spoj.com/problems/NANO"target="_blank">NANO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WAYHOME" target="_blank">17660. The Bridge to Home</a></td><td><a href="http://www.spoj.com/problems/WAYHOME"target="_blank">WAYHOME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VFRIENDS" target="_blank">18457. Very Friends</a></td><td><a href="http://www.spoj.com/problems/VFRIENDS"target="_blank">VFRIENDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VFRIEND2" target="_blank">18458. Very Friends 2</a></td><td><a href="http://www.spoj.com/problems/VFRIEND2"target="_blank">VFRIEND2</a><br>
+</td></tr>

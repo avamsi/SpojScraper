@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FERT21_1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10919. I Hate Parenthesis</h1>
+		<h2>Problem code: FERT21_1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h4 style="text-align: justify;"><span style="font-weight: normal;">&ldquo;I Hate Parenthesis&rdquo;, it was the phrase that Ana said during the class of arithmetic. She want a simple code made for yourself (of course) to &ldquo;kick out&rdquo; the parenthesis from particular expressions without break maths.</span></h4>
+<h4 style="text-align: justify;">Input<br /><span style="font-weight: normal;">The first line contains the number of test cases T. One expression per line from second to (T+1)-th line. Each expression contains only uppercase letters (each letter can appears once), operators(+,*) and parentheses (()). There are no spaces inside the expressions and no input line contains more than 80 characters.</span></h4>
+<h4 style="text-align: justify;">Output<br /><span style="font-weight: normal;">A single line per case. The line must contains the expression without parenthesis. If there is more than one addend then you must sort first the one with more factors. Addends with the same amount of factors must be sorted in alphabetic order. See the input/output for more details.</span></h4>
+<h4 style="text-align: justify;">Example<br />Input:<br /><span style="font-weight: normal;">2<br /></span><span style="font-weight: normal;">C*(A+B)<br /></span><span style="font-weight: normal;">(A+B+D*E)*C</span></h4>
+<p style="text-align: justify;"><strong>Output:<br /></strong>A*C+B*C<br />C*D*E+A*C+B*C</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/leandro">leandro</a></td></tr>
+<tr><td>Date:</td><td>2012-03-05</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>-</td></tr>	
+</table>

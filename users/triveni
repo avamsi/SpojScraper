@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/triveni"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/WPC5C" target="_blank">19288. Sword Game</a></td><td><a href="http://www.spoj.com/problems/WPC5C"target="_blank">WPC5C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5F" target="_blank">19290. Parade</a></td><td><a href="http://www.spoj.com/problems/WPC5F"target="_blank">WPC5F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5A" target="_blank">19291. Structures</a></td><td><a href="http://www.spoj.com/problems/WPC5A"target="_blank">WPC5A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5D" target="_blank">19292. Complicated Calculations</a></td><td><a href="http://www.spoj.com/problems/WPC5D"target="_blank">WPC5D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5E" target="_blank">19293. Galaxy distances</a></td><td><a href="http://www.spoj.com/problems/WPC5E"target="_blank">WPC5E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5G" target="_blank">19295. The dilemma of Idli</a></td><td><a href="http://www.spoj.com/problems/WPC5G"target="_blank">WPC5G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5H" target="_blank">19297. Nymphs from H10</a></td><td><a href="http://www.spoj.com/problems/WPC5H"target="_blank">WPC5H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WPC5I" target="_blank">19308. LCM</a></td><td><a href="http://www.spoj.com/problems/WPC5I"target="_blank">WPC5I</a><br>
+</td></tr>

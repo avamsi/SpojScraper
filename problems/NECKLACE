@@ -1,0 +1,96 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NECKLACE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>418. Necklace</h1>
+		<h2>Problem code: NECKLACE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+There are <b>N</b> points marked on a surface, pair (<b>x<sub>i</sub></b>, <b>y<sub>i</sub></b>) is coordinates of a point number <b>i</b>.
+Let's call a <i>necklace</i> a set of <b>N</b> figures which fulfills the following rules.
+
+<p>
+<ul>
+<li>The figure <b>#i</b> consists of all such points (<b>x</b>, <b>y</b>) that (<b>x</b> - <b>x<sub>i</sub></b>)<i><sup>2</sup></i> + (<b>y</b> - <b>y<sub>i</sub></b>)<i><sup>2</sup></i> &#8804; <b>r<sub>i</sub></b><i><sup>2</sup></i>, where <b>r<sub>i</sub></b> &#8805; <i>0</i>.
+<li>Figures <b>#i</b> and <b>#(i+1)</b> intersect (<i>1</i> &#8804; <b>i</b> < <b>N</b>).
+<li>Figures <i>#1</i> and <b>#N</b> intersect.
+<li>All the rest pairs of figures do not intersect.
+</ul>
+
+<p>
+Write a program which takes points and constructs a necklace.
+
+<h3>Input</h3>
+<p>
+First line of input contains an integer <b>t</b> (<i>1</i> &#8804; <b>t</b> &#8804; <i>45</i>), equals to the number of testcases. Then descriptions of <b>t</b>
+testcases follow.
+
+<p>
+The first line of the description contains one integer number <b>N</b> (<i>2</i> &#8804; <b>N</b> &#8804; <i>100</i>).
+Each of the next <b>N</b> lines contains two real numbers <b>x<sub>i</sub></b>, <b>y<sub>i</sub></b>  (<i>-1000</i> &#8804; <b>x<sub>i</sub></b>, <b>y<sub>i</sub></b> &#8804; <i>1000</i>), separated by one space. It is guaranteed that at least one necklace exists for each testcase.
+
+<h3>Output</h3>
+<p>
+For each testcase your program should output exactly <b>N</b> lines. A line <b>#i</b> should contain real number <b>r<sub>i</sub></b> (<i>0</i> &#8804; <b>r<sub>i</sub></b> < <i>10000</i>).
+To avoid potential accuracy problems, a checking program uses the following rules.
+
+<p>
+<ul>
+<li>Figures <b>#i</b> and <b>#j</b> definitely do not intersect if <b>r<sub>i</sub></b> + <b>r<sub>j</sub></b> &#8804; <b>d<sub>ij</sub></b> - <i>10<sup>-5</sup></i>. 
+<li>Figures <b>#i</b> and <b>#j</b> definitely intersect if <b>d<sub>ij</sub></b> + <i>10<sup>-5</sup></i> &#8804; <b>r<sub>i</sub></b> + <b>r<sub>j</sub></b>.
+<li>The case when <b>d<sub>ij</sub></b> - <i>10<sup>-5</sup></i> < <b>r<sub>i</sub></b> + <b>r<sub>j</sub></b> < <b>d<sub>ij</sub></b> + <i>10<sup>-5</sup></i> is decided in favour of a contestant.
+<li><b>d<sub>ij</sub></b> equals <i>sqrt</i>((<b>x<sub>i</sub></b> - <b>x<sub>j</sub></b>)<i><sup>2</sup></i> + (<b>y<sub>i</sub></b> - <b>y<sub>j</sub></b>)<i><sup>2</sup></i>) in the rules above.
+</ul>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+4
+0 0
+10 0
+10 10
+0 10
+
+<b>Output:</b>
+7
+7
+7
+7
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mystic">Ivan Metelsky</a></td></tr>
+<tr><td>Date:</td><td>2005-08-25</td></tr>
+<tr><td>Time limit:</td><td>1.632s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC Western Subregion QF 2004</td></tr>	
+</table>

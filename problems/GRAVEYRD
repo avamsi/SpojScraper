@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GRAVEYRD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10075. Haunted Graveyard</h1>
+		<h2>Problem code: GRAVEYRD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Tonight is Halloween and Scared John and his friends have decided to do something fun to celebrate the occasion: crossing the graveyard. Although Scared John does not find this fun at all, he finally agreed to join them in their adventure. Once at the entrance, the friends have begun to cross the graveyard one by one, and now it is the time for Scared John. He still remembers the tales his grandmother told him when he was a child. She told him that, on Halloween night, &ldquo;haunted holes&rdquo; appear in the graveyard. These are not usual holes, but they transport people who fall inside to some point in the graveyard, possibly far away. But the scariest feature of these holes is that they allow one to travel in time as well as in space; i.e., if you fall inside a &ldquo;haunted hole&rdquo;, you appear somewhere in the graveyard a certain time before (or after) you entered the hole, in a parallel universe otherwise identical to ours.</p>
+<p>The graveyard is organized as a grid of <em>W</em> &times; <em>H</em> cells, with the entrance in the cell at position (0,0) and the exit at (<em>W</em>&minus;1,<em>H</em>&minus;1). Despite the darkness, Scared John can always recognize the exit, and he will leave the moment he reaches it, determined never to set foot anywhere in the graveyard again. On his way to the exit, he can walk from one cell to an adjacent one, and he can only head to the North, East, South or West. In each cell there can be either one gravestone, one &ldquo;haunted hole&rdquo;, or grass:</p>
+<ul class="itemize">
+<li class="li-itemize">If the cell contains a gravestone, you cannot walk over it, because gravestones are too high to climb.</li>
+<li class="li-itemize">If the cell contains a &ldquo;haunted hole&rdquo; and you reach it, you will appear somewhere in the graveyard at a possibly different moment in time. The time difference depends on the particular &ldquo;haunted hole&rdquo; you fell into, and can be positive, negative or zero.</li>
+<li class="li-itemize">Otherwise, the cell has only grass, and you can walk freely over it.</li>
+</ul>
+<p>He is terrified, so he wants to cross the graveyard as quickly as possible. And that is the reason why he has phoned you, a renowned programmer. He wants you to write a program that, given the description of the graveyard, computes the minimum time needed to go from the entrance to the exit. Scared John accepts using &ldquo;haunted holes&rdquo; if they permit him to cross the graveyard quicker, but he is frightened to death of the possibility of getting lost and being able to travel back in time indefinitely using the holes, so your program must report these situations.</p>
+<blockquote class="figure">
+<div class="center">
+<hr size="2" />
+</div>
+<div class="center"><img src="../../../content/elhipercubo:graveyard.jpg" alt="" width="300" height="300" />
+<div class="caption">
+<table border="0" cellspacing="6" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" valign="top">Sample graveyard</td>
+</tr>
+</tbody>
+</table>
+</div>
+<a name="fig:enchantedGraveyard"></a></div>
+<div class="center">
+<hr size="2" />
+</div>
+</blockquote>
+<p>The figure illustrates a possible graveyard (the second test case from the sample input). In this case there are two gravestones in cells (2,1) and (3,1), and a &ldquo;haunted hole&rdquo; from cell (3,0) to cell (2,2) with a difference in time of 0 seconds. The minimum time to cross the graveyard is 4 seconds, corresponding to the path:</p>
+<table class="display dcenter" border="0">
+<tbody>
+<tr valign="middle">
+<td class="dcell">(0,0)&nbsp;&rarr;<sub>1&nbsp;<em>sec</em></sub><sup><em>East</em></sup> (1,0)&nbsp;&rarr;<sub>1&nbsp;<em>sec</em></sub><sup><em>East</em></sup>&nbsp;(2,0)&nbsp;&rarr;<sub>1&nbsp;<em>sec</em></sub><sup><em>East</em></sup>&nbsp;(3,0)&nbsp;&rarr;<sub>0&nbsp;<em>sec</em></sub><sup><em>hole</em></sup> (2,2)&nbsp;&rarr;<sub>1&nbsp;<em>sec</em></sub><sup><em>East</em></sup>&nbsp;(3,2)</td>
+</tr>
+</tbody>
+</table>
+<p>If you do not use the &ldquo;haunted hole&rdquo;, you need at least 5 seconds.</p>
+<p><br /> <br /> <strong><span style="color: black;"><span style="font-size: medium;">Input</span></span></strong></p>
+<p>The input consists of several test cases. Each test case begins with a line containing two integers <em>W</em> and <em>H</em> (1 &le; <em>W</em>, <em>H</em> &le; 30). These integers represent the width <em>W</em> and height <em>H</em> of the graveyard. The next line contains an integer <em>G</em> (<em>G</em> &ge; 0), the number of gravestones in the graveyard, and is followed by <em>G</em> lines containing the positions of the gravestones. Each position is given by two integers <em>X</em> and <em>Y</em> (0 &le; <em>X</em> &lt; <em>W</em> and 0 &le; <em>Y</em> &lt; <em>H</em>).</p>
+<p>The next line contains an integer <em>E</em> (<em>E</em> &ge; 0), the number of &ldquo;haunted holes&rdquo;, and is followed by <em>E</em> lines. Each of these contains five integers <em>X</em>1, <em>Y</em>1, <em>X</em>2, <em>Y</em>2, <em>T</em>. (<em>X</em>1,<em>Y</em>1) is the position of the &ldquo;haunted hole&rdquo; (0 &le; <em>X</em>1 &lt; <em>W</em> and 0 &le; <em>Y</em>1 &lt; <em>H</em>). (<em>X</em>2,<em>Y</em>2) is the destination of the &ldquo;haunted hole&rdquo; (0 &le; <em>X</em>2 &lt; <em>W</em> and 0 &le; <em>Y</em>2 &lt; <em>H</em>). Note that the origin and the destination of a &ldquo;haunted hole&rdquo; can be identical. <em>T</em> (&minus;10&nbsp;000 &le; <em>T</em> &le; 10&nbsp;000) is the difference in seconds between the moment somebody enters the &ldquo;haunted hole&rdquo; and the moment he appears in the destination position; a positive number indicates that he reaches the destination after entering the hole. You can safely assume that there are no two &ldquo;haunted holes&rdquo; with the same origin, and the destination cell of a &ldquo;haunted hole&rdquo; does not contain a gravestone. Furthermore, there are neither gravestones nor &ldquo;haunted holes&rdquo; at positions (0,0) and (W-1,H-1).</p>
+<p>The input will finish with a line containing <tt>0 0</tt>, which should not be processed.</p>
+<p><br /> <br /> <strong><span style="color: black;"><span style="font-size: medium;">Output</span></span></strong></p>
+<p>For each test case, if it is possible for Scared John to travel back in time indefinitely, output <tt>Never</tt>. Otherwise, print the minimum time in seconds that it takes him to cross the graveyard from the entrance to the exit if it is reachable, and <tt>Impossible</tt> if not.</p>
+<p><br /> <br /> <strong><span style="color: black;"><span style="font-size: medium;">Sample Input</span></span></strong></p>
+<div class="minipage">
+<pre class="verbatim">3 3
+2
+2 1
+1 2
+0
+4 3
+2
+2 1
+3 1
+1
+3 0 2 2 0
+4 2
+0
+1
+2 0 1 0 -3
+0 0
+</pre>
+</div>
+<p><br /> <br /> <strong><span style="color: black;"><span style="font-size: medium;">Sample Output</span></span></strong></p>
+<div class="minipage">
+<pre class="verbatim">Impossible
+4
+Never
+</pre>
+</div>
+<!--CUT END --> <!--HTMLFOOT--> <!--ENDHTML--> <!--FOOTER--> 
+<hr size="2" />
+<blockquote class="quote"><em>Problemsetter: Enrique Mart&iacute;n Mart&iacute;n</em></blockquote>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/elhipercubo">David García Soriano</a></td></tr>
+<tr><td>Date:</td><td>2011-11-23</td></tr>
+<tr><td>Time limit:</td><td>0.927s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Southwestern Europe Regional, SWERC 2009</td></tr>	
+</table>

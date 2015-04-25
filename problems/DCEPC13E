@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC13E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23133. World Cup 2015</h1>
+		<h2>Problem code: DCEPC13E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="white-space: normal;"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"> </span></span></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Amit is a big fan of cricket. His friend Subham challenges him to guess the total score at some points in an inning of the ODI match. If his guesses will be correct he will get a chance to watch the world cup final in MCG. Now, Amit being a big fan of cricket don't want to miss this oppurtunity. So, he first analyse some previous matches and comes to following fact: on an average, in a 50-over inning, a team plays 120 balls for singles, 30 for doubles, 30 for fours, 10 for triples, 10 for sixes, 10 for loss of wicket and leaves remaining 90. Now, he tells you this fact and asks you to guess the score. Being a very good programmer, your task is to maximize Amit's chances to win this challenge.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Note: 0,1,2,3,4,6 and wkt are the only possible outcomes of every ball bowled in the inning.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For those who are not familiar with cricket game : An over consist of 6 balls. Inning ends if either overs are finished or team has lost all the 10 wickets.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">There is a single positive integer T on the first line of input. It stands for the number of queries. Each query consists of an integer N which stands for over number at which you need to tell the most optimal team total.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For every query output the most optimal team total in a single line that will maximize Amit's chances. Format for total: runs/wkts</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Constraints:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0&lt;T&lt;=10</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0&lt;N&lt;=50</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Sample Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Sample Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">8/0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">16/0</div>
+<p><span style="font-size: medium;">Amit is a big fan of cricket. His friend Subham challenges him to guess the total score at some points in an inning of an ODI match. If his guesses will be correct he will get a chance to watch the world cup final in MCG. Now, Amit being a big fan of cricket don't want to miss this oppurtunity. So, he first analyse some previous matches and comes to following fact: on an average, in a 50-over inning, a team plays 120 balls for singles, 30 for doubles, 30 for fours, 10 for triples, 10 for sixes, 10 for loss of wicket and leaves remaining 90. Now, he tells you this fact and asks you to tell the expected score. Being a very good programmer, your task is to maximize Amit's chances to win this challenge.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;"><strong>Note :</strong>&nbsp;0,1,2,3,4,6 and wkt are the only possible outcomes of every ball bowled in the inning.</span>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: medium;"><strong>For those who are not familiar with cricket game :</strong> An over consist of 6 balls. Inning ends if either overs are finished or team has lost all the 10 wickets.</span></p>
+<p>&nbsp;</p>
+<h3><strong>Input</strong></h3>
+<p><span style="font-size: medium;">There is a single positive integer <strong>T</strong> on the first line of input. It stands for the number of queries.</span></p>
+<p><span style="font-size: medium;">Each query consists of an integer <strong>N</strong> which stands for over number at which you need to guess the team total.</span></p>
+<h3><strong>Output</strong></h3>
+<p><span style="font-size: medium;">For every query output the expected team total in a single line. Format for total: runs/wkts.&nbsp;</span></p>
+<p><span style="font-size: medium;"><strong>Note:</strong> print the nearest integer to the decimal.</span></p>
+<h3><strong>Constraints</strong></h3>
+<p><span style="font-size: medium;">1 &lt;= <strong>T</strong> &lt;= 10</span></p>
+<p><span style="font-size: medium;">1 &lt;= <strong>N</strong> &lt;= 50</span></p>
+<p>&nbsp;</p>
+<pre><strong>Sample Input:</strong>
+2
+1
+2
+</pre>
+<pre><strong>Sample Output:</strong>
+8/0
+16/0
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2015-03-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C++14 C99 strict JAVA PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+	
+</table>

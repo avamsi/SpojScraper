@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEGSQRSS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11840. Sum of Squares with Segment Tree</h1>
+		<h2>Problem code: SEGSQRSS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Segment trees are extremely useful. &nbsp;In particular "Lazy Propagation" (i.e. <a href="http://stackoverflow.com/questions/10832954/data-mapping-and-lazy-propagation-in-segment-tree">see here, for example</a>) allows one to compute sums over a range in O(lg(n)), and update ranges in O(lg(n)) as well. &nbsp;In this problem you will compute something much harder: &nbsp;</p>
+<p><strong>The sum of squares over a range with range updates of 2 types: </strong></p>
+<p><strong>1) increment in a range </strong></p>
+<p><strong>2) set all numbers the same in a range.</strong></p>
+<h3>Input</h3>
+<div>
+<p><span style="font-size: 12.000000pt; font-family: 'Garamond';">There will be </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>T (T &lt;= 25)</strong> </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">test cases in the input file. &nbsp;First line of the input contains two positive integers, </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>N (N &lt;= 100,000) </strong></span><span style="font-size: 12.000000pt; font-family: 'Garamond';">and </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>Q (Q &lt;= 100,000)</strong>. </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">The next line contains </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>N</strong> </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">integers, each at most 1000</span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';">. &nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond';">Each of the next </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>Q</strong> </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">lines starts with a number, which indicates the </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">type of operation:</span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'Garamond';">2 <strong>st nd</strong> &nbsp;-- return the sum of the squares of the numbers </span><span style="font-size: 12.000000pt; font-family: 'Garamond';"><span style="font-family: Garamond; font-size: 12pt;">with indices</span><span style="font-family: Garamond; font-size: 12pt;">&nbsp;in [</span><strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';">st,</span><span style="font-size: 12pt;">&nbsp;</span></strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>nd</strong>] {i.e.,&nbsp;</span>from&nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>st</strong> to</span><span style="font-size: 12.000000pt; font-family: 'Garamond';">&nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>nd</strong> inclusive}&nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond';">(1 &lt;= </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>st</strong> </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">&lt;= </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>nd </strong></span><span style="font-size: 12.000000pt; font-family: 'Garamond';">&lt;= </span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';"><strong>N</strong></span><span style="font-size: 12.000000pt; font-family: 'Garamond';">).</span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'Garamond';">1 <strong>st nd x</strong> -- add "x" to all numbers <span style="font-size: 12pt; font-family: Garamond;">with indices</span><span style="font-size: 12pt; font-family: Garamond;">&nbsp;in [</span><strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';">st,</span><span style="font-size: 12pt; font-family: Garamond;">&nbsp;</span></strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>nd</strong>]&nbsp;</span><span style="font-size: 12pt; font-family: Garamond;">(1 &lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>st</strong>&nbsp;</span><span style="font-size: 12pt; font-family: Garamond;">&lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>nd&nbsp;</strong></span><span style="font-size: 12pt; font-family: Garamond;">&lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>N</strong>,&nbsp;</span><span style="font-size: 12pt; font-family: Garamond;">and -1,000 &lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>x</strong>&nbsp;</span><span style="font-size: 12pt; font-family: Garamond;">&lt;= 1,000).</span></span></p>
+<p><span style="font-family: Garamond; font-size: 16px;">0 <strong>st nd x</strong>&nbsp;-- set all numbers&nbsp;</span><span style="font-family: Garamond; font-size: 12pt;"><span style="font-family: Garamond; font-size: 12pt;">with indices</span><span style="font-family: Garamond; font-size: 12pt;">&nbsp;in [</span><strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';">st,</span><span style="font-size: 12pt;">&nbsp;</span></strong><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>nd</strong>]</span></span><span style="font-size: 12pt; font-family: 'Garamond,Bold';">&nbsp;to "<strong>x</strong>" </span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><span style="font-family: Garamond;"><span style="font-family: Garamond; font-size: 12pt;">(1 &lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>st</strong>&nbsp;</span><span style="font-family: Garamond; font-size: 12pt;">&lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>nd&nbsp;</strong></span><span style="font-family: Garamond; font-size: 12pt;">&lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>N</strong>,&nbsp;</span><span style="font-family: Garamond; font-size: 12pt;">and -1,000 &lt;=&nbsp;</span><span style="font-size: 12pt; font-family: 'Garamond,Bold';"><strong>x</strong>&nbsp;</span><span style="font-family: Garamond; font-size: 12pt;">&lt;= 1,000).</span></span></span></p>
+<p>&nbsp;</p>
+</div>
+<h3>Output</h3>
+<p><span style="font-size: 12.000000pt; font-family: 'Garamond';">For each </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">test case output the &ldquo;Case &lt;</span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';">caseno&gt;:&rdquo; </span><span style="font-size: 12.000000pt; font-family: 'Garamond';">in the first line and from the second line output the sum of squares&nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond';">for each operation of type 2. &nbsp;</span><span style="font-size: 12.000000pt; font-family: 'Garamond,Bold';">Intermediate overflow will not occur with proper use of 64-bit signed integer.&nbsp;</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<p>2<br />4 5<br />1 2 3 4<br />2 1 4<br />0 3 4 1<br />2 1 4<br />1 3 4 1<br />2 1 4<br />1 1<br />1<br />2 1 1</p>
+<pre><strong>Output:</strong>
+</pre>
+<p>Case 1:<br />30<br />7<br />13<br />Case 2:<br />1</p>
+<pre> </pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2012-07-11</td></tr>
+<tr><td>Time limit:</td><td>1.106s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

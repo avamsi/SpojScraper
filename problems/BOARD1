@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOARD1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17303. Board</h1>
+		<h2>Problem code: BOARD1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">Consider a board with fields numbered from <span>0</span> to <span><em>n</em></span>. On each field <span><em>i</em> &isin;&#8197;{1,&#8197;...,&#8197;<em>n</em>}</span> there is an integer (possibly negative) number <span><em>a</em><sub><em>i</em></sub> &isin;&#8197;&#8484;</span>. A player is given a pawn on field number 0. Player can move the pawn back and front on distance not exceeding <span><em>k</em></span>. A pawn can visit all the fields many <span>0</span> and <span><em>n</em></span> many times, but it can stop moving definitively only at position <span><em>n</em></span> (player decides on when to stop). Whenever a pawn visits field <span><em>i</em></span>, the field is cleared and the number <span><em>a</em><sub><em>i</em></sub></span> is removed (if the field wasn&rsquo;t clear before the move). A player wants to maximize the sum of numbers on non-cleared fields.</p>
+<div style="text-align: left;">Write  a program that reads on the standard input the description of a game,  and writes on standard output the value of an optimal strategy. On the  first line of input you are given the number <span><em>n</em></span> (<span>1&#8197;&le;&#8197;<em>n</em> &le;&#8197;1000</span>). On the second line of input you are given the parameter <span><em>k</em></span> (<span>1&#8197;&le;&#8197;<em>k</em> &le;&#8197;<em>n</em></span>). In the next <span><em>n</em> &minus;&#8197;1</span> lines of the input you are given single integer numbers, where on line <span><em>i</em> +&#8197;2</span> you are given the number <span><em>a</em><sub><em>i</em></sub></span>. There are no values given for fields <span>0</span> and <span><em>n</em></span>, because these positions will be always clear at the end of the game.</div>
+<div style="text-align: left;"><strong>Example</strong></div>
+<div style="text-align: left;">For the input:</div>
+<div style="text-align: left;">5</div>
+<div style="text-align: left;">5</div>
+<div style="text-align: left;">15</div>
+<div style="text-align: left;">5</div>
+<div style="text-align: left;">8</div>
+<div style="text-align: left;">15</div>
+<div style="text-align: left;">the answer is:</div>
+<div style="text-align: left;">43</div>
+<div style="text-align: left;">And for the input</div>
+<div style="text-align: left;">5</div>
+<div style="text-align: left;">2</div>
+<div style="text-align: left;">15</div>
+<div style="text-align: left;">5</div>
+<div style="text-align: left;">8</div>
+<div style="text-align: left;">15</div>
+<div style="text-align: left;">the answer is:</div>
+<div style="text-align: left;">30</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/marekpiotr">Marek Adamczyk</a></td></tr>
+<tr><td>Date:</td><td>2013-11-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

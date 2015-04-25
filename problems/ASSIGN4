@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ASSIGN4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>684. Another Assignment Problem</h1>
+		<h2>Problem code: ASSIGN4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Assume that you are a manager and there are m types of worker (numbered from 1 to m) and n types of task (numbered from 1 to n). There are a(i) workers of type #i and b(j) postitions for task #j. C(i, j) is the cost of hiring a worker of type #i to do the task of type #j. Your job is to minimize the cost of hiring workers to fill all the positions given that the total number of workers is equal to the total number of positions.
+<h3>Input</h3>
+<p>
+The first line of input contains the number of test cases nTest (1<= nTest <= 10). 
+ Each test case contains:
+<ul>
+<li>The first line contains the number of worker types - m and number of task types - n. 
+<li>The second line contains m positive integers: a(1), a(2), ..., a(m).
+<li>The third line contains n positive integers: b(1), b(2), ..., b(n).
+<li>Each of the next m lines contains n integers describing matrix C(i, j).
+</ul>
+<p>Notes: <p>
+1 <= m, n <= 200; <p>
+1 <= a(i), b(i) <= 30000; <p>
+1 <= C(i, j) <= 10000. <p>
+Sum of a(i) equals to sum of b(j).
+<h3>Output</h3>
+<p>
+For each test case write the minimum cost in a separate line (it will fit in a signed 32-bit integer).
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 4
+3 6 7
+2 5 1 8
+1 2 3 4
+8 7 6 5
+9 12 10 11
+4 4
+1 3 5 7
+2 4 2 8
+1 4 7 3
+4 7 5 3
+5 7 8 3
+5 3 6 8
+
+<b>Output:</b>
+110
+54
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dtmp">Nguyen Dinh Tu</a></td></tr>
+<tr><td>Date:</td><td>2006-01-02</td></tr>
+<tr><td>Time limit:</td><td>0.469s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Tran Quang Khai</td></tr>	
+</table>

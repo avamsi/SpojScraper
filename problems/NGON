@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NGON"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6325. Many polygons</h1>
+		<h2>Problem code: NGON</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a regular n-gon. We mark some points on its sides: a1 points on the first side, a2 on the second ... an on the last. Marked points do not coincide with the vertices n-gon. The question is, how many different convex nondegenerate (n-1)-gons you can build, using marked points as vertices?
+
+<h3>Input</h3>
+<p>The first line of input contains the number t - the number of tests. Next comes the description of t tests. Each test consists of two lines. The first line of the test contains an integer n - number of vertices of original n-gon. Second line of the test lists n integers a1, a2, ..., an - number of points marked on each side.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 20<br />
+4 <= n <= 1000<br />
+1 <= ai <= 100
+
+<h3>Output</h3>
+<p>For each test, print out the answer to the problem modulo 1000000007.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+4
+2 2 2 2
+5
+2 2 2 2 2
+5
+10 20 30 40 50
+
+<b>Output:</b>
+56
+210
+16207125
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-12</td></tr>
+<tr><td>Time limit:</td><td>0.258s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

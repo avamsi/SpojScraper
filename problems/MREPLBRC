@@ -1,0 +1,111 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MREPLBRC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4038. Counting The Way of Bracket Replacement</h1>
+		<h2>Problem code: MREPLBRC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MREPLBRC/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MREPLBRC/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<p>
+A regular bracket sequence is a string of characters consisting only of
+opening and closing brackets, and satisfying the following conditions: </p><p>
+&#8226;  An empty string is a regular bracket sequence. </p><p>
+&#8226;  If A is a regular bracket0sequence, then (A), [A] and {A} are also 
+regular bracket sequences. </p><p>
+&#8226;  If A and B are regular bracket sequences, then AB is also a regular
+bracket sequence. </p><p>
+For  example,  the  sequences  [({})],  [](){}  i  [{}]()[{}]  
+are  regular,  but  the  sequences  [({{([,  []({)}  and 
+[{}])([{}] are not. </p><p>
+Ivica has found a string which looks like it could be a regular bracket 
+sequence. Some of the characters have become smudged and illegible, and 
+could have been any character. </p><p>
+Write a program that calculates how many ways the illegible characters
+in the string can be replaced by brackets so that the result is a 
+regular bracket sequence. This number can be very large, so output only 
+its last 5 digits.</p><p>
+
+<h3>Input</h3>
+</p><p>
+The first line contains an even integer N (2 <= N <= 200), the length of 
+the string. </p><p>
+The second line contains the string. Illegible characters are represented
+by the '?' character. 
+</p><p>
+<h3>Output</h3>
+</p><p>
+Output the number of regular bracket sequences the string could have read. 
+</p><p>
+<h3>Sample</h3>
+<pre>
+input 
+
+6 
+()()() 
+ 
+output 
+ 
+1 
+
+input 
+ 
+10 
+(?([?)]?}? 
+ 
+output 
+ 
+3
+
+input 
+ 
+16 
+???[???????]???? 
+ 
+output 
+ 
+92202
+
+In  the  second example,  the  three matching  regular bracket sequences
+are ({([()])}), ()([()]{}) and ([([])]{}).
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.168s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COCI 1th 07</td></tr>	
+</table>

@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TWICE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4681. Twice</h1>
+		<h2>Problem code: TWICE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a string S, find the longest substring that appears at least twice in S (occurrences may overlap).</p>
+<h3>Input</h3>
+<p>The first line contains an integer L (1 &le; L &le; 200000), the length of S.</p>
+<p>The second line contains the string S, consisting of exactly L lowercase letters ('a'-'z').</p>
+<h3>Output</h3>
+<p>Output the length of the longest substring that appears at least twice in S. If there is no such substring, output 0.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />11<br />sabcabcfabc<br /><br /><strong>Output:</strong><br />3<br /><br /><strong>Input:</strong><br />18<br />trutrutiktiktappop<br /><br /><strong>Output:</strong><br />4<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lovro">Lovro Puzar</a></td></tr>
+<tr><td>Date:</td><td>2009-08-21</td></tr>
+<tr><td>Time limit:</td><td>0.151s-0.418s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

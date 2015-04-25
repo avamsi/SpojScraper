@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PSTRING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>704. Remove The String</h1>
+		<h2>Problem code: PSTRING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Given two strings X and Y, your task is find the minimum number of characters to be removed from X in order to obtain a string X' that does not contain Y as a substring.
+
+<h3>Input</h3>
+<p>
+Input contains some test cases. Each test cases contains two lines, First is X and second is Y. Length of X <= 10000, Length of Y <= 1000.
+
+<h3>Output</h3>
+<p>
+For each test cases, You should output exactly one integer is the minimum number of characters to be remove
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+ababaa
+aba
+
+<b>Output:</b>
+1
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lth">Hoang Hong Quan</a></td></tr>
+<tr><td>Date:</td><td>2006-01-17</td></tr>
+<tr><td>Time limit:</td><td>1.265s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>A contest of Romanian</td></tr>	
+</table>

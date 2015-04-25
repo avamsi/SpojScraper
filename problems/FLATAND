@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FLATAND"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11904. A Classic Myth - Flatland Superhero</h1>
+		<h2>Problem code: FLATAND</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Description</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Figure 2: A Frozen Swarm of Ants</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">in Flatland</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Flatland needs a superhero! Recently swarms of killer ants</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">have been invading Flatland, and nobody in Flatland can</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">figure out how to stop these dastardly denizens. Fortunately,</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">you (as a higher dimensional being) have the opportunity</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">to become a superhero in the eyes of the Flatland citizens!</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Your job is to &ldquo;freeze&rdquo; swarms of ants using parallelograms.</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">You will do this by writing a program that finds a minimal</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">area enclosing parallelogram for each swarm of ants. Once a</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">minimal area parallelogram is placed around the ant swarm,</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">they are effectively frozen in place and can no longer inflict</div><div id="_mcePaste" style="white-space: normal; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">terror on planar inhabitants.</div><p>Flatland needs a superhero! Recently swarms of killer ants have been invading Flatland, and nobody in&nbsp;Flatland</p><p>can figure out how to stop these dastardly denizens. Fortunately, you (as a higher dimensionalbeing) have the</p><p>opportunity to become a superhero in the eyes of the Flatland citizens!</p><p>Your job is to &ldquo;freeze&rdquo; swarms of ants using parallelograms. You will do this by writing a program that finds a</p><p>minimal area enclosing parallelogram for each swarm of ants. Once a minimal area parallelogram is placed around</p><p>the ant swarm, they are effectively frozen in place and can no longer inflict terror on planar inhabitants.</p><p>&nbsp;</p><h3 style="white-space: normal;">Input</h3><p>The input will consist of the following:</p><p>&bull; A line containing a single integer, s (1&lt;=s&lt;=20), which denotes the number of killer ant swarms.</p><p>&bull; Each swarm will start with a single line containing an integer, n (4&lt;=n&lt;=1000), which indicates the number of killer ants in the swarm.</p><p>&bull; The next n lines contain the current location of each killer ant in the swarm.</p><p>&bull; Each killer ant is represented by a single line containing two numbers: x (&minus;1000&lt;=x&lt;=1000) and y (&minus;1000&lt;=y&lt;=1000) separated by a space.</p><p>&bull; Only one killer ant will occupy each (x, y) location in a particular swarm. Each swarm should be dealt with independently of other swarms.</p><p>&bull; All data inputs are in fixed point decimal format with four digits after the decimal (e.g., dddd.dddd).</p><p>&bull; There may be multiple parallelograms with the same minimum area.</p><p>&nbsp;</p><h3 style="white-space: normal;">Output</h3><p>For each swarm, your algorithm should output a line that contains &ldquo;Swarm i Parallelogram Area: &rdquo;,&nbsp;</p><p>where i (1&lt;=i&lt;=s) is the swarm number, followed by the minimum area (rounded to 4 decimal</p><p>digits and using fixed point format) of an enclosing parallelogram for that swarm. All computations</p><p>should be done using 64 bit IEEE floating point numbers, and the final answers displayed in fixed</p><p>point decimal notation and rounded to four decimal digits of accuracy as shown in the sample input</p><p>and output.</p><p>&nbsp;</p><h3 style="white-space: normal;">Example</h3><pre><strong>Input:</strong>
+2
+6
+0.0000 0.0000
+-0.5000 -0.5000
+-1.0000 0.0000
+-0.7000 -7.0000
+-1.0000 -1.0000
+0.0000 -1.0000
+5
+2.0000 2.0000
+0.0000 0.0000
+0.5000 2.0000
+1.0000 1.0000
+1.5000 0.0000
+
+<strong>Output:</strong>
+Swarm 1 Parallelogram Area: 7.0000
+Swarm 2 Parallelogram Area: 3.0000</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.098s-0.980s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>North America - Pacific Northwest 2011</td></tr>	
+</table>

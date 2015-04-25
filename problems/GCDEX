@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCDEX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3871. GCD Extreme</h1>
+		<h2>Problem code: GCDEX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given the value of N, you will have to find the value of G. The meaning of G is given in the following code </p>
+<p>G=0;
+
+<p>  for(k=i;k< N;k++) </p>
+
+<p>     for(j=i+1;j<=N;j++)
+
+<p>{
+
+  <p>  G+=gcd(k,j);
+
+<p>}
+
+<p>/*Here gcd() is a function that finds the greatest common divisor of the two input numbers*/
+
+<h3>Input</h3>
+<p>The input file contains at most 20000 lines of inputs. Each line contains an integer N (1<N<1000001). The meaning of N is given in the problem statement. Input is terminated by a line containing a single zero.  
+
+<h3>Output</h3>
+<p>For each line of input produce one line of output. This line contains the value of G for the corresponding N. The value of G will fit in a 64-bit signed integer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+10
+100
+200000
+0
+
+<b>Output:</b>
+67
+13015
+143295493160
+
+Time limit has been changed. Some AC solutions get TLE
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nkvuong">Phenomenal</a></td></tr>
+<tr><td>Date:</td><td>2009-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.237s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM World Final Warm up 1 - 2008</td></tr>	
+</table>

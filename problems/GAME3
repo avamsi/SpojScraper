@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GAME3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9842. Yet Another Fancy Game</h1>
+		<h2>Problem code: GAME3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Two girls - Ivica and Marica - play an interesting game.</p>
+<p>First, they randomly choose a natural number N. They also define M = 1.</p>
+<p>Ivica plays first, then Marica, then Ivica, then Marica and so on.</p>
+<p>In each move, a girl has to increase M by 1 or multiply M by 2 (that is, M = M+1 or M = 2*M). The resulting number <strong>must not be greater than N</strong>.</p>
+<p>The <strong>loser</strong> of the game is the girl who gets M = N. The other girl is, of course, the winner.</p>
+<p>Write a program to determine the winner, assuming that both girls play optimally.</p>
+<h3>Input</h3>
+<p>In the first line there is an integer T (1 &le;&nbsp;T &le; 5), the number of games.</p>
+<p>T lines follow. In i<sup>th</sup> line there is an integer N (2 &le; N &le; 10<sup>15)</sup>, a chosen number for i<sup>th</sup>&nbsp;game.</p>
+<h3>Output</h3>
+<p>For each of the T games print the name of the winner.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>4<br />2<br />3<br />4<br />5<br /></pre>
+<pre><strong>Output:</strong><br /><br />Marica<br />Ivica<br />Marica<br />Marica</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/askurdija">Adrian Satja Kurdija</a></td></tr>
+<tr><td>Date:</td><td>2011-10-29</td></tr>
+<tr><td>Time limit:</td><td>0.147s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>originated from a mathematical problem</td></tr>	
+</table>

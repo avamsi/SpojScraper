@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JOCHEF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6517. Farmer Sepp</h1>
+		<h2>Problem code: JOCHEF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Chief Farmer Josef aka Sepp needs to crop hay several times through the summer. Due to high petrol costs he can currently use his truck exactly once to drive to a spot where he will harvest the dried grass. Lazy by nature,&nbsp;John does not want to harvest those parts of the field which contain cows, since this would involve too much energy. Furthermore, John just crops a rectangular part of the field.</p>
+<p><strong>Input</strong></p>
+<p>Input contains multiple test cases. You are given three integers M,N,F (0&lt;M,N&lt;=4000), (0&lt;=F&lt;=1000000) which describe the size of the field (M rows, N columns,<span style="white-space: pre;"> </span>F<span style="white-space: pre;"> </span>unit area of such a field).&nbsp;Then follows the actual map which consists of M lines, each line containing<span style="white-space: pre;"> </span>N times the letters 'H' or 'C' standing for "Hay" or "Cow". Input terminates with M=N=0.</p>
+<p><strong>Output</strong></p>
+<p>Print the size of the largest field, which "Sepp" would harvest.</p>
+<p><strong>Example</strong></p>
+<pre><strong>Input:</strong>
+9 10 1
+CHCHHHCCCC
+CCHCHCHHHC
+CCHCHHCCCC
+CHHHHHCHHH
+CHCHHHCCCH
+CCCCHHHCHH
+HHHCCHCCCC
+HCHHHHCCCH
+CHHCCCCHHC
+0 0
+
+<strong>Output:</strong>
+8</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ippeb">Josef Ziegler</a></td></tr>
+<tr><td>Date:</td><td>2010-04-15</td></tr>
+<tr><td>Time limit:</td><td>0.274s-0.823s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Josef Ziegler</td></tr>	
+</table>

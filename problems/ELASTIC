@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ELASTIC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7211. Elastic Bands</h1>
+		<h2>Problem code: ELASTIC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Institute of Circles with Perimetral Connections (ICPC) has recently discovered that<br />several machines that were working in their diverse productive areas were totally obsolete.<br />Of course, all machines in the Institute contain several circles.<br />The Supreme Chief Director Manager President of the ICPC asked their Computer Aided<br />Problem Solving department to help in overcoming this situation. They have signaled<br />you as the maximum responsible, so you better get to work.<br />Many machines in the Institute have mechanical parts in the shape of a circle that need<br />to be rotated clockwise in order for the machine to work. Currently, each circular part<br />is connected to a different electrical engine that does the job. You noted, however, that<br />when many circles are coplanar, you can connect them with elastic bands and they will<br />rotate all together with the energy of one engine.<br />This marvelous idea lead you to a new problem. What&rsquo;s the optimal way to connect<br />all the circles? In general, there are many ways to place elastic bands and make all the<br />circles be connected. Since some of the rotating power of the system is lost in the tension<br />of the elastic bands, you want to minimize the total length of elastic bands used.<br />Formally, the length of the elastic band that connects two cricles is the perimeter of the<br />smallest convex area that contains both circles. The total length is the sum of the lengths<br />of all used elastic bands. Two circles can be connected with an elastic band even if the<br />band touches or goes through any number of other circles or elastic bands.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in several lines. The first line<br />contains an integer N indicating the number of circles to connect (2 &le; N &le; 3000). Each<br />of the next N lines describes a different circle using three integers X, Y and R separated<br />by single spaces (1 &le; X, Y, R &le; 10<sup>6</sup> ). The values X and Y represent the coordinates of<br />the center of the circle in the XY plane, while the value R indicates its radius. You may<br />assume that within each test case no two circles overlap or touch each other. The last<br />line of the input contains a single &minus;1 and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line containing a real number representing the minimum<br />total length of elastic band needed to connect all the circles. Round the result to the<br />closest rational number with three decimal places. In case of ties, round up. Always use<br />exactly three digits after the decimal point, even if it means finishing with a zero.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />2 2 2<br />1 6 1<br />6 1 1<br />2<br />1 1 1<br />1 4 1<br />-1<br /><br /><strong>Output:</strong>
+35.829<br />12.283</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-22</td></tr>
+<tr><td>Time limit:</td><td>85.17s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2009</td></tr>	
+</table>

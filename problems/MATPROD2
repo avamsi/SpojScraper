@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MATPROD2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19687. Symmetric matrix 2</h1>
+		<h2>Problem code: MATPROD2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>[Note: <a title="Symmetric Matrix" href="../MATPROD/">Symmetric Matrix</a> is an easier version of this problem; you should try to solve it before this one.]</strong></p>
+<p>You are given an&nbsp;<strong>N&nbsp;</strong>x&nbsp;<strong>N</strong>&nbsp;matrix&nbsp;<strong>m<sub>ij</sub>&nbsp;</strong>such that&nbsp;<strong>m<sub>ij</sub>&nbsp;== m<sub>ji</sub>&nbsp;</strong>for&nbsp;<strong>i, j = 1, ..., N</strong>. We would like to compute the value of</p>
+<p style="text-align: center;"><img src="../../content/fidels:MATPROD.png" alt="" width="300" height="77" /></p>
+<p>Note that in the above expression we are going over&nbsp;<strong>K</strong>&nbsp;indices&nbsp;<strong>i<sub>1</sub>, ..., i<sub>K</sub></strong>&nbsp;that run over the values&nbsp;<strong>1, ..., N</strong>, while summing over the product of all the&nbsp;<strong>K*(K-1)/2&nbsp;</strong>possible matrix elements that we can form with these indices.</p>
+<h3>Input</h3>
+<p>The first line of the input contains two integers&nbsp;<strong>N</strong>&nbsp;and&nbsp;<strong>K</strong>&nbsp;(<strong>2 &le; N &le; 100</strong>&nbsp;and&nbsp;<strong>2 &le; K &le; 10</strong>), representing the number of rows and columns of the matrix&nbsp;<strong>m<sub>ij</sub>&nbsp;</strong>and the number of sums in the formula above, respectively. The following&nbsp;<strong>N</strong>&nbsp;lines contain&nbsp;<strong>N</strong>&nbsp;integers each, being the&nbsp;<strong>j</strong>-th&nbsp;number in the&nbsp;<strong>i</strong>-th line the value of&nbsp;<strong><strong>m</strong><sub>ij</sub></strong>&nbsp;(<strong>-10&nbsp; &le; m<sub>ij</sub>&nbsp;&le; 10</strong>&nbsp;and&nbsp;<strong>m<sub>ij</sub>&nbsp;== m<sub>ji</sub></strong>&nbsp;for&nbsp;<strong>i, j = 1, ..., N</strong>).</p>
+<h3>Output</h3>
+<p>Print a single line with the result of the calculation. Because this number can be very big, output its remainder modulo division by<strong>1000000007&nbsp;</strong>(<strong>==&nbsp;10<sup>9</sup>+7</strong>).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 208px; width: 1px; height: 1px; overflow: hidden;">4 5</div><span style="font-family: 'courier new', courier;">4 5
+-4 -3 -4 2
+-3 -6 1 -8
+-4 1 -10 -6
+2 -8 -6 0
+</span>
+<strong>Output:</strong>
+308822466</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2014-04-29</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

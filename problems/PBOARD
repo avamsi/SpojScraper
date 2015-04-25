@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PBOARD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7250. Blocks for kids</h1>
+		<h2>Problem code: PBOARD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Wango is a brilliant maths teacher. He has two sons Kango and Dango. They are born two years apart on the<br />same day! Kango is 9 and Dango is 7. Their birthdays are approaching again. Wango has to buy them a gift<br />each. After long thought, this time Wango wanted to give each of his sons a piece of the Pango board and thus<br />introduce them to higher mathematics.<br />A size n (n &gt;= 0) Pango board is a 2 by n rectangle of unit squares. A pango board has to be tiled with Pango<br />pieces. Any tiling with the Pango pieces is acceptable. A size 0 Pango board exists and is unique and serves as<br />an example of the empty set.</p>
+<p><br />Four types of Pango pieces are available.<br />1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; &nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<br />==&nbsp;&nbsp;&nbsp; ==&nbsp;&nbsp; ==&nbsp;&nbsp;&nbsp; ==<br />XX&nbsp;&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp; X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X<br />XX&nbsp;&nbsp;&nbsp; XX&nbsp; X</p>
+<p><br />Picture of the four kinds of pieces</p>
+<p><img title="Blocks for Kids" src="http://www.hostpic.org/images/66pic.jpg.jpeg" alt="4 types of blocks" width="278" height="69" /></p>
+<p><br />When Wango presents a board to Kango or Dango, he has to tile the board completely with these pieces<br />(unlimited number of pieces of each type are available) and then give them out. Note that pieces cannot be<br />rotated for tiling. To cut costs (recession mind you), Wango decides to buy a single board of size N, then<br />choose a k (0 &lt;= k &lt;= N), and give a size k board to Kango and a size (N-k) board to Dango, (tiled of course).<br />Help him find the number of ways he can give the presents. Two ways are distinct if and only if either Dango<br />gets a different board or Kango gets a different board. Two Pango boards are considered the same if and only<br />if they have the same tiling (same set of tiles at the same places) from left to right (rotation of board is not<br />allowed in comparing).</p>
+<h3>Input</h3>
+<p>The input consists of a sequence of cases, one per line.<br />Each case consists of one integer N (0 &lt;= N &lt;= 1000,000,000) representing the size of the board which<br />Wango is going to buy.<br />The input will end with a line containing -1. This case should not be processed.<br />There will be a maximum of 10000 test cases.</p>
+<h3>Output</h3>
+<p>One line per case, outputting the number of ways Wango can distribute the presents to his sons modulo<br />10,007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />0<br />1<br />2<br />-1<br /><br /><strong>Output:</strong><br />1<br />4<br />16<br /><br />Explanation:<br />Number of different 0-sized Pango boards = 1<br />Number of different 1-sized Pango boards = 2<br />Number of different 2-sized Pango boards = 6<br />For N = 0, he has to give 0-sized boards to both his sons. He can do this in 1*1 = 1 way<br />For N = 1, he has to give 0-sized board to one of his sons, and 1-sized board to the other, for a total of 2*1 +<br />1*2 = 4 ways<br />For N = 2, he can give the presents in 6*1 + 2*2 + 1*6 = 16 ways<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/how2code">Manukranth</a></td></tr>
+<tr><td>Date:</td><td>2010-09-01</td></tr>
+<tr><td>Time limit:</td><td>0.191s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC Amritapuri (India) Regionals 2008/2009</td></tr>	
+</table>

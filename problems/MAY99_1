@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAY99_1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13156. Tom and Jerry </h1>
+		<h2>Problem code: MAY99_1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>Tom and Jerry is a favourite cartoon of many of us . One day Manku was sitting watching an episode of Tom and Jerry where he found that Tom and Jerry both entered a rectangular maze and Tom was after Jerry , but Jerry being the hero , returned safely.</p>
+<p>Manku then start making different scenarios and wondering that if Jerry moves optimally and Tom knows entire path that Jerry is expected to take, then will Jerry be able to escape out of the maze or not ??</p>
+<p>Moreover Manku added 1 rule to this that if Jerry moves from position A to position B , then at any cost he is not allowed to return from position B to position A.</p>
+<p>Jerry , if is at the escape positions of the maze, in the beginning , then he can't exit from that same position .<br />Moreover he can't escape if he is caught by Tom at any position . <br /><br />Jerry and Tom can move up , down , left , right or wait on their position.</p>
+<p>If it is guaranteed that either Jerry would escape or Tom would catch him .<br />All characters at row = 0 or row = m-1 or column = 0 or column = n-1 , which are '.' or 'J' or 'T' are escape positions.</p>
+<h3>Input</h3>
+<p>Each input file consist of only 1 test case.</p>
+<p>1st line of input contains 2 no's m and n , both integers are less than or equal to 100 , the size of the rectangular maze.</p>
+<p>Then m lines follows containing n characters each.<br />. means an open space so that tom or jerry can move there<br /># means a closed place<br />T means starting position of Tom<br />J means starting position of Jerry</p>
+<h3>Output</h3>
+<p>Output single line containing a character W and integer D<br />where W is 'J' if Jerry can escape or else 'T' <br />and D is the minimum time taken by Jerry to escape ( if W is 'J') or maximum time for which Jerry is alive ( if W is 'T')</p>
+<h3>Example</h3>
+<pre><strong>Input 1:</strong>
+<br />4 4<br />#..J<br />#...<br />#.T.<br />####<br /><br />&nbsp;<strong>Output 1:</strong>
+
+<br />J 1<br /><br /><pre><strong>Input 2:</strong>
+<br />6 3<br />###<br />#J#<br />#.T<br />###<br />###<br />#.#<br /><br />&nbsp;<strong>Output 2:</strong>
+
+<br />T 2<br /><br /><pre><strong>Input 3:</strong>
+<br />7 7<br />......#<br />.......<br />.......<br />...J...<br />...T...<br />.......<br />#......<br /><br />&nbsp;<strong>Output 3:</strong>
+
+J 3<strong><br /><br />Input 4:</strong>
+<br />7 7<br />#.....#<br />#......<br />#......<br />J......<br />#..T...<br />#......<br />#......<br /><br />&nbsp;<strong>Output 4:</strong>
+
+J 4<br /><h3>Explanation</h3><p>&nbsp;</p>In 1st Test case Jerry will move 1 step to its left and would escape.<br /><br />In 2nd Test case Jerry can't escape so he will remain at its position and will be caught after 2 moves.<br /><br />In 3rd Test case jerry will move 3 steps to its left and will escape.<br /><br />In 4th Test case jerry will move 1 step to its right and then 3 steps up to escape.<br /></pre>
+</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mayank99">Mayank Tuteja</a></td></tr>
+<tr><td>Date:</td><td>2013-01-05</td></tr>
+<tr><td>Time limit:</td><td>0.015s-0.033s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>self problem</td></tr>	
+</table>

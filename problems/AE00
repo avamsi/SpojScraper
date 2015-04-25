@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AE00"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4300. Rectangles</h1>
+		<h2>Problem code: AE00</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+    Byteman has a collection of N squares with side 1.
+    How many different rectangles can he form using these squares?
+</p>
+<p>
+    Two rectangles are considered different if none of them can be rotated
+    and moved to obtain the second one.
+    During rectangle construction, Byteman can neither deform the squares
+    nor put any squares upon any other ones.
+</p>
+    <h2>Input</h2>
+<p>
+    The first and only line of the standard input contains one
+    integer N (1 â¤ N â¤ 10000).
+
+</p>
+    <h2>Output</h2>
+<p>
+    The first and only line of the standard output should contain
+    a single integer equal to the number of different rectangles
+    that Byteman can form using his squares.
+</p>
+<h2>Example</h2>
+
+<p>For the input data:</p><pre>6</pre>
+<p>the correct result is:</p><pre>8</pre>
+
+<!-- old code: <p><img src="https://vn.spoj.pl/SPOJVN/content/ae00.jpg"/></p> edit by francky-->
+<p><img src="https://spoj.com/content/francky:AE00img"/></p>
+
+<p><i>Task author: Jakub Radoszewski.</i></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-03</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Algorithmic Engagements 2009</td></tr>	
+</table>

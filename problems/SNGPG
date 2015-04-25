@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNGPG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15891. Prime Generator The Easiest Question Ever</h1>
+		<h2>Problem code: SNGPG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Prime number questions are always being favorite to everyone. This question is extension to the problem <a rel="contents" rev="start" href="../PRIME1/" target="_blank">PRIME GENERATOR</a>. The question is very very simple and easier than that you cannot imagine. You have to count total number of such primes p in the range <strong>[a &ge; 0, b &gt; 0]</strong> so that&nbsp;<strong>(p<sup>2</sup> + 1) or/and (p<sup>2</sup> + 2) is/are prime(s)</strong><strong>.</strong></p>
+<h3>Input</h3>
+<p>First line of input is t, <strong>(t &lt; 100)</strong> total number of test cases. Next t lines contains two integers a and b seperated by space.<br /><strong>a &lt; 50001, b &lt; 100001 and b &gt; a</strong>.</p>
+<h3>Output</h3>
+<p>In each line print total numbers of such prime numbers.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />0 1<br />4 5
+
+<strong>Output:</strong>
+2<br />0<br /><br /><span style="color: #ff0000;"><strong>[Consider 0 and 1 as prime numbers for this question]</strong></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newborn">AvmnuSng</a></td></tr>
+<tr><td>Date:</td><td>2013-09-08</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="https://facebook.com/criusabhimanyu">Abhimanyu Singh</a><br><a href="http://goo.gl/KXdHYG">My Problems</a></td></tr>	
+</table>

@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NWERC11E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9891. Please, go first</h1>
+		<h2>Problem code: NWERC11E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>  Please, go first</h3>
+<!--l. 3-->
+<p>You are currently on a skiing trip with a group of friends. In general, it is going well: you enjoy the skiing during the day and, of course, the apr&#232;s-skiing during the night. However, there is one nuisance: the skiing lift. As always, it is too small, and can only serve one person every 5 seconds. To make matters worse, you and your friends generally don&#8217;t arrive simultaneously at the lift, which means that you spend time waiting at the bottom of the mountain for the lift and at the top again for your friends. <!--l. 12--></p>
+<p>The waiting at the top is especially inefficient. In fact, you realize that if your friends haven&#8217;t arrived yet, you might as well let other people pass you in the queue. For you, it makes no difference, since otherwise you&#8217;d be waiting at the top. On the other hand, your actions might save them time if their friends have already arrived and are currently waiting for them at the top. <!--l. 19--></p>
+<p>You are wondering how much time would be saved if everybody adopts this nice attitude. You have carefully observed the queue for a while and noticed which persons form groups of friends. Suppose someone lets another pass if doing this doesn&#8217;t change his own total waiting time, but saves time for the other person. Do this over and over again until it can&#8217;t be done anymore. How much time will this save, in total? <!--l. 26--></p>
+<p> </p>
+<h4>Input</h4>
+<!--l. 27-->
+<p>On the first line a positive integer: the number of test cases, at most 100. After that per test case:</p>
+<ul>
+<li>one line with an integer <em>n </em>(1 &#8804; <em>n </em>&#8804; 25<span style="margin-left:0.3em"> 000): the number of people in the line for the       lift. </li>
+<li>one  line  with  <em>n </em>alphanumeric  characters  (uppercase  and  lowercase  letters  and       numbers): the queue. The first person in this line corresponds to the person at the       head of the queue. Equal characters correspond to persons from the same group of       friends.</li>
+</ul>
+<!--l. 39-->
+<p> </p>
+<h4>Output</h4>
+<!--l. 40-->
+<p>Per test case:</p>
+<ul>
+<li>one line with an integer: the time saved, in seconds.</li>
+</ul>
+<!--l. 46-->
+<p> </p>
+<h4>Sample in- and output</h4>
+<table align="center" id="TBL-1" border="1" cellspacing="5" cellpadding="5" rules="groups">
+<colgroup><col id="TBL-1-1"></col></colgroup><colgroup id="TBL-1-2g"><col id="TBL-1-2"></col></colgroup>
+<tbody>
+<tr id="TBL-1-1-" style="vertical-align:baseline;">
+<td id="TBL-1-1-1" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Input</span></p>
+</td>
+<td id="TBL-1-1-2" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Output</span></p>
+</td>
+</tr>
+<tr id="TBL-1-2-" style="vertical-align:baseline;">
+<td id="TBL-1-2-1" style="white-space:wrap; text-align:left;"><!--l. 46-->
+<pre>2
+6
+AABABB
+10
+Ab9AAb2bC2</pre>
+</td>
+<td id="TBL-1-2-2" style="white-space:wrap; text-align:left;"><!--l. 50-->
+<pre>15
+45</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<h4>Copyright notice</h4>
+<p>
+This problem text is copyright by the NWERC 2011 jury. It is
+licensed under the Creative Commons Attribution-Share Alike license
+version 3.0; The complete license text can be found at:
+<a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">http://creativecommons.org/licenses/by-sa/3.0/legalcode</a>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jthread">Jeroen Bransen</a></td></tr>
+<tr><td>Date:</td><td>2011-11-02</td></tr>
+<tr><td>Time limit:</td><td>0.331s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://2011.nwerc.eu/team.php">NWERC 2011 Jury</a></td></tr>	
+</table>

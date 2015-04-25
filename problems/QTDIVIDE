@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QTDIVIDE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23492. One piece</h1>
+		<h2>Problem code: QTDIVIDE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One of DB and TN common interests is traveling. One day, they went to Grand Line and found One Piece !</p>
+<p>The One Piece treasure has n gold coins (n is even). Both them like gold coins, but they evaluate them as different values. So they decided to divide those coins by following method :</p>
+<p>DB and TN do n / 2 steps, at each step, DB choose 2 coins, TN takes the coin that she evaluates it greater, and DB take the rest coin.</p>
+<p>Let&rsquo;s help DB find how to take the maximum value at possible.</p>
+<h3>Input</h3>
+<pre><p>First line : a single integer n (n is even) &ndash; the number of coins</p></pre>
+<pre><p>Second line : n integers a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>n. </sub>a<sub>i</sub> is the value of i<sup>th</sup> coin that TN evaluates.</p></pre>
+<pre><p>Third line : n integers b<sub>1</sub>, b<sub>2</sub>, &hellip;, b<sub>n. </sub>b<sub>i</sub> is the value of i<sup>th</sup> coin that DB evaluates.</p></pre>
+<h3>Output</h3>
+<pre><p>First line : an integer S &ndash; the maximum value DB can take.</p></pre>
+<pre><p>
+Last n / 2 lines : i<sup>th</sup> line contains two number x and y (1 &le; x, y &le; n), are the indexes of two <br />coins that DB choose on i<sup>th</sup> step. Each coin must be chose exact one time.
+</p></pre>
+<pre><p>If there are multiple ways, just print any of them.</p></pre>
+<h3>Constraints</h3>
+<pre><p>2 &le; n &le; 500 000</p>
+<p>1 &le; a<sub>i</sub> &le; 10<sup>9</sup></p>
+<p>1 &le; b<sub>i</sub> &le; 10<sup>9</sup></p>
+<p>Note that a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>n</sub> are n distinct integers.</p></pre>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+&nbsp;
+6
+6 10 11 18 5 14
+1 7 6 12 15 1
+</pre>
+<pre><strong>Output:</strong>
+&nbsp;
+28
+5 1
+2 6
+3 4
+</pre>
+<p>&nbsp;</p>
+<p><strong>Warning: large Input/Output data, be careful with certain languages</strong></p>
+<p><strong><br /></strong></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2015-04-01</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>VOI - Day 2</td></tr>	
+</table>

@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOBILE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>987. Mobile</h1>
+		<h2>Problem code: MOBILE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mobile<br>
+Manfred loves to build mobiles out of old CDs. For each one, he has an exact plan how it should look like: The CDs are all hanging exactly on the same height. For each pair
+of CDs, he writes down the height of the lowest bar such that both CDs are hanging somewhere under this bar. For example, the following mobile and distance matrix fit together:<p>
+<br>
+<img src="/ADB_67/content/mobile.png"><p>
+<br>
+After a while, Manfred realizes that he does not succeed to build every mobile he planned to. For example, there is no solution for the following distance matrix:<br>
+     0 1 2<br>
+     1 0 3<br>
+     2 3 0<br>
+So, he decides to write a computer program that checks the distance matrices and tells him if there is a solution.
+
+<h3>Input</h3>
+<p>Several matrices to check. The first row contains the size of the matrix N (N <= 2048), the next N rows contain the distances in the matrix. Then, the data of the next matrix comes, and so on. All distances are positive integers smaller than 2048. The input is terminated by a zero as matrix size.
+
+<h3>Output</h3>
+<p>For each matrix, write true if Manfred can build a mobile, false otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+0 1 1 1 3
+1 0 1 1 3
+1 1 0 1 3
+1 1 1 0 3
+3 3 3 3 0
+3
+0 1 2
+1 0 3
+2 3 0
+3
+1 1 1
+1 0 2
+1 1 0
+0
+
+<b>Output:</b>
+true
+false
+false
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/diophant">Martin Bader</a></td></tr>
+<tr><td>Date:</td><td>2006-10-17</td></tr>
+<tr><td>Time limit:</td><td>3.545s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Ulm Bioinformatics Course WS 06/07</td></tr>	
+</table>

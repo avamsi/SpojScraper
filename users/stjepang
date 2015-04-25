@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/stjepang"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KUTH" target="_blank">5531. Kutevi Hard</a></td><td><a href="http://www.spoj.com/problems/KUTH"target="_blank">KUTH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPAIR" target="_blank">5542. Counting pairs</a></td><td><a href="http://www.spoj.com/problems/CPAIR"target="_blank">CPAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JANE" target="_blank">6187. Jane and Tarzan</a></td><td><a href="http://www.spoj.com/problems/JANE"target="_blank">JANE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVCON" target="_blank">6576. Divide and Conquer</a></td><td><a href="http://www.spoj.com/problems/DIVCON"target="_blank">DIVCON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YOUTUBE" target="_blank">8392. Youtube</a></td><td><a href="http://www.spoj.com/problems/YOUTUBE"target="_blank">YOUTUBE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOLICA" target="_blank">8434. Kolica</a></td><td><a href="http://www.spoj.com/problems/KOLICA"target="_blank">KOLICA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MRAVOGRA" target="_blank">8816. Mravograd</a></td><td><a href="http://www.spoj.com/problems/MRAVOGRA"target="_blank">MRAVOGRA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OKRET" target="_blank">8820. Okret</a></td><td><a href="http://www.spoj.com/problems/OKRET"target="_blank">OKRET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRAIN07" target="_blank">11540. Training</a></td><td><a href="http://www.spoj.com/problems/TRAIN07"target="_blank">TRAIN07</a><br>
+</td></tr>

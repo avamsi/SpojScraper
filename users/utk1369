@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/utk1369"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KCARRY" target="_blank">15453. Yet Another Electronic Device!!!</a></td><td><a href="http://www.spoj.com/problems/KCARRY"target="_blank">KCARRY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WRP" target="_blank">20689. WA,RTE and Placements</a></td><td><a href="http://www.spoj.com/problems/WRP"target="_blank">WRP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YASSP" target="_blank">21061. Yet Another Subset Sum Problem</a></td><td><a href="http://www.spoj.com/problems/YASSP"target="_blank">YASSP</a><br>
+</td></tr>

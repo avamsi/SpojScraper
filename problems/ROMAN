@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROMAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>236. Converting number formats</h1>
+		<h2>Problem code: ROMAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Given the number n of test cases, convert n positive integers less than 2^32 (given one per line) from one representation to another.
+For convenience, n is given in the same format as the other numbers.
+
+<h3>Input</h3>
+<p>
+Input is given by spelling the number in english digits (all upper case letters). Thus the range of (32-bit) input values permissible extends from ZERO (or OH) through FOUR TWO NINE FOUR NINE SIX SEVEN TWO NINE FIVE.
+
+<h3>Output</h3>
+<p>
+Output 2 lines for each test case.
+Output is in the form of "extended" Roman numerals (also called "butchered" Roman numerals), with an overline (see sample for details) indicating the value below is "times 1000", and lower-case letters indicating "times 1000000". Thus, the range of (32-bit) output values possible is from through ivccxcivCMLXVIICCXCV, where there is a line above iv and CMLXVII. Note: For values whose residues modulo 1000000 are less than 4000, M is used to represent 1000; for values whose residues are 4000 or greater, I is used. Thus 3999 would read out as MMMCMXCIX while 4000 would readout as IV with an overline. Similar rules apply to the use of M and i for 1000000, and to that of m and i for 1000000000.
+
+<p>
+<b> WARNING: This problem has a somewhat strict source limit </b>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+THREE
+FOUR OH
+ONE NINE NINE NINE NINE NINE NINE NINE NINE NINE
+ONE TWO THREE ZERO FOUR FIVE
+
+<b>Output:</b>
+  
+XL
+       ______      
+mcmxcixCMXCIXCMXCIX
+___      
+CXXMMMXLV
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/overwise">Robin Nittka</a></td></tr>
+<tr><td>Date:</td><td>2004-11-30</td></tr>
+<tr><td>Time limit:</td><td>1.052s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

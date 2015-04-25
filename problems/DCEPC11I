@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC11I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16210. Impossible Boss</h1>
+		<h2>Problem code: DCEPC11I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Vaibhav Sir and Saikat Sir, after completing their graduation, got a job together at a store.</p>
+<p>Their boss at the store was Sidharth Sir, who was very strict and did not want anyone to have fun at the job. He gave Vaibhav and Saikat sir a very boring job of stacking columns of boxes in a row of size N.</p>
+<p>To make it a little interesting, both of them decided that whenever they need to add more boxes, they will choose st and en, such that 1&lt;=st&lt;=en&lt;=N, and place 1 box in column st, 2 boxes in column st+1, &hellip; and (en-st+1) boxes in column en.</p>
+<p>When Sidharth sir saw this, he decided to have some fun of his own, and asked them to count the number of boxes in all columns from st to en, and tell him the result. Now Vaibhav and Saikat sir have come to you for help to answer the queries of their boss, as they do not want to lose their jobs.</p>
+<h3>Input</h3>
+<p>The first line contains N, the number of columns and Q, the number of queries.</p>
+<p>The next Q lines can be of the following form &ndash;</p>
+<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 st en, meaning Vaibhav and Saikat sir add boxes to the columns from st to en as described above.</p>
+<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 st en, meaning Sidharth sir asks them to count the number of boxes in all columns from st to en.</p>
+<h3>Output</h3>
+<p>For all queries of type 2, output a line containing the answer to the query.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5 6<br />0 2 4<br />1 1 5<br />0 1 5<br />0 3 5<br />1 1 5<br />1 3 5
+
+<strong>Output:</strong>
+6<br />27<br />23
+</pre>
+<pre><p><strong>Constraints:</strong></p><p>1&lt;=N, Q&lt;=100000</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-10-01</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C# C++ 4.3.2 C++ 4.9 C++14 C99 strict COB GROOVY HASK JAVA JS2 PAS fpc PAS gpc PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

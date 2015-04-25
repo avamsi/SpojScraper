@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/jack_carver"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NDIVPHI2" target="_blank">6560. N DIV PHI_N (Hard)</a></td><td><a href="http://www.spoj.com/problems/NDIVPHI2"target="_blank">NDIVPHI2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MBR" target="_blank">6709. Multiplying by Rotation </a></td><td><a href="http://www.spoj.com/problems/MBR"target="_blank">MBR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLOPPAIR" target="_blank">8725. Closest Point Pair</a></td><td><a href="http://www.spoj.com/problems/CLOPPAIR"target="_blank">CLOPPAIR</a><br>
+</td></tr>

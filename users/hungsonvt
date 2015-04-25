@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/hungsonvt"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PGTV" target="_blank">16390. Pengun Tivi</a></td><td><a href="http://www.spoj.com/problems/PGTV"target="_blank">PGTV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLSQUARE" target="_blank">17150. Palin Square</a></td><td><a href="http://www.spoj.com/problems/PLSQUARE"target="_blank">PLSQUARE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VNACM14H" target="_blank">23185. Pencil Game</a></td><td><a href="http://www.spoj.com/problems/VNACM14H"target="_blank">VNACM14H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HCMUS20A" target="_blank">23821. Magic Schools</a></td><td><a href="http://www.spoj.com/problems/HCMUS20A"target="_blank">HCMUS20A</a><br>
+</td></tr>

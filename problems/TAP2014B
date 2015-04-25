@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TAP2014B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21169. Balanced base-3</h1>
+		<h2>Problem code: TAP2014B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong><em>[Due to SPOJ restrictions, this problem has been modified with respect to the original version used in the Argentinian Programming Tournament of 2014 in order to have multiple test cases per input file. The original version of this problem (in Spanish) can be found at <a title="http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf" href="http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf">http://dc.uba.ar/events/icpc/download/problems/tap2014-problems.pdf</a> ]</em></strong></p>
+<p>Throughout history many different numbering systems have been developed. Some, like Roman numerals, have now been almost completely abandoned due to their lack of convenience. Other even more exotic numbering systems are only ever used in certain applications, such as the factoradic numbers in the context of permutation numbering. In this problem we will consider a numbering system known as <em>balanced base-3</em>, which naturally appears in the analysis of diverse mathematical problems related to balance scales.</p>
+<p>The balanced base-3 system is similar to the decimal or <em>base-10</em> system we are familiar with in that it is <em>positional</em>. Positional numbering systems have <em>digits</em> whose relative order determines which power of the <em>base </em>accompanies them. For example, in base-10 we have</p>
+<p style="text-align: center;">123 = <strong>1</strong>&times;10<sup>2</sup> + <strong>2</strong>&times;10<sup>1</sup> + <strong>3</strong>&times;10<sup>0</sup>.</p>
+<p>In standard positional systems, the allowed digits are the numbers from <strong>0</strong> to <strong>B-1</strong>, where <strong>B</strong> is the base of the corresponding system. Therefore, the number <strong>123 </strong>in base-10 is written in standard base-3 as <strong>"<span style="font-family: 'courier new', courier;">11120</span>"</strong> because</p>
+<p style="text-align: center;"><strong>1</strong>&times;3<sup>4</sup> + <strong>1</strong>&times;3<sup>3</sup> + <strong>1</strong>&times;3<sup>2</sup> + <strong>2</strong>&times;3<sup>1</sup> + <strong>0</strong>&times;3<sup>0</sup> = 123.</p>
+<p>Balanced base-3 is different from standard base-3 only in the fact that the allowed digits are <strong>0</strong>, <strong>1</strong> and <strong>-1</strong>, which we will respectively denote as <strong>'<span style="font-family: 'courier new', courier;">0</span>'</strong>, <strong>'<span style="font-family: 'courier new', courier;">+</span>'</strong> and <strong>'<span style="font-family: 'courier new', courier;">-</span>'</strong>. Then, the number <strong>123 </strong>in base-10 is written as <strong>"<span style="font-family: 'courier new', courier;">+----0</span>"</strong> in balanced base-3, for we have</p>
+<p style="text-align: center;"><strong>1</strong>&times;3<sup>5</sup> + (<strong>-1</strong>)&times;3<sup>4</sup> + (<strong>-1</strong>)&times;3<sup>3</sup> + (<strong>-1</strong>)&times;3<sup>2</sup> + (<strong>-1</strong>)&times;3<sup>1</sup> + <strong>0</strong>&times;3<sup>0</sup> = 123.</p>
+<p>Conversion from numbers in base-10 to balanced base-3 is a mechanical and somewhat tedious process, so we require a program to do it for us. Can you help?</p>
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Throughout history many different numbering systems have been developed. Some, like Roman numerals, have now been almost completely abandoned due to their lack of convenience. Other even more exotic numbering systems are only ever used in certain applications, such as the factoradic numbers in the context of permutation numbering. In this problem we will consider a numbering system known as balanced base-3, which naturally appears in the analysis of diverse mathematical problems related to balance scales.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The balanced base-3 system is similar to the decimal or base-10 system we are familiar with in that it is positional. Positional numbering systems have digits whose relative order determines which power of the base accompanies them. For example, in base-10 we have</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">123 = 1*10^2 + 2*10^1 + 3*10^0.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">In standard positional systems, the allowed digits are the numbers from 0 to B-1, where B is the base of the corresponding system. Therefore, the number 123 in base-10 is written in standard base-3 as "11120" because</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1*3^4 + 1*3^3 + 1*3^2 + 2*3^1 + 0*3^0 = 123.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Balanced base-3 is different from standard base-3 only in the fact that the allowed digits are 0, 1 and -1, which we will respectively denote as '0', '+' and '-'. Then, number 123 in base-10 is written as "+----0" in balanced base-3, for we have</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1*3^5 + (-1)*3^4 + (-1)*3^3 + (-1)*3^2 + (-1)*3^1 + 0*3^0 = 123.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Conversion from numbers in base-10 to balanced base-3 is a mechanical and somewhat tedious process, so we require a program to do it for us. Can you help?</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer number T, the number of test cases (1 &le; T &le; 200). T test cases follow.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each test case is described by a single line containing a positive integer number N, the number in base-10 that we want to write in balanced base-3 (1 &lt;= N &lt;= 1000).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each test case, print a single line containing a string composed solely of the characters '0', '+' and '-', and not beginning with '0', representing the digits of the number N in balanced base-3. Note that the restriction that the string does not start with a '0' ensures this representation is unique.</div>
+<h3>Input</h3>
+<p>The first line contains an integer number <strong>T</strong>, the number of test cases (<strong>1 &le; T &le; 200</strong>). <strong>T</strong> test cases follow.</p>
+<p>Each test case is described by a single line containing a positive integer number <strong>N</strong>, the number in base-10 that we want to write in balanced base-3 (<strong>1&nbsp;</strong>&le;<strong>&nbsp;N&nbsp;</strong>&le;<strong>&nbsp;1000</strong>).</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, print a single line containing a string composed solely of the characters <strong>'<span style="font-family: 'courier new', courier;">0</span>'</strong>, <strong>'<span style="font-family: 'courier new', courier;">+</span>'</strong> and <strong>'<span style="font-family: 'courier new', courier;">-</span>'</strong>&nbsp;and not beginning with <strong>'<span style="font-family: 'courier new', courier;">0</span>'</strong>, representing the digits of the number <strong>N</strong> in balanced base-3. Note that the restriction that the string does not start with a <strong>'<span style="font-family: 'courier new', courier;">0</span>'</strong> ensures that this representation is unique.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: 'courier new', courier;">2
+123
+729</span>
+
+<strong>Output:</strong>
+<span style="font-family: 'courier new', courier;">+----0
++000000</span><span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2014-09-29</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Argentinian Programming Tournament 2014</td></tr>	
+</table>

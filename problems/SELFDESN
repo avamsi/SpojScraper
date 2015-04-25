@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SELFDESN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14751. Self Descriptive Number</h1>
+		<h2>Problem code: SELFDESN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A positive integer <em>m</em>&nbsp;is called "self-descriptive" in base <em>b</em>, where <em>b</em>&ge;2&nbsp;and <em>b</em> is an integer, if:</p>
+<p>i) The representation of <em>m</em>&nbsp;in base <em>b</em> is of the form (a<sub>0</sub>a<sub>1</sub>...a<sub>b-1</sub>)<sub>b</sub></p>
+<blockquote>
+<p>(that is <em>m</em>=a<sub>0</sub>b<sup>b-1</sup>+a<sub>1</sub>b<sup>b-2</sup>+...+a<sub>b-2</sub>b+a<sub>b-1</sub>, where 0&le;a<sub>i</sub>&le;b-1 are integer)</p>
+</blockquote>
+<p>ii) a<sub>i</sub>&nbsp;is equal to the number of occurences of number i in the sequence (a<sub>0</sub>a<sub>1</sub>...a<span style="font-size: 8px;"><sub>b-1</sub></span>).</p>
+<p>For example, (21200)<sub>5</sub>&nbsp;is "self-descriptive" in base 5, because it has five digits and contains two 0s, one 1s, two 2s, and no (3s and 4s).</p>
+<p>(21200)<sub>5</sub>&nbsp;= (1425)<sub>10</sub>&nbsp;so 1425 is "self-descriptive" number.</p>
+<p>Given <strong>n</strong>(1 &le; <strong>n</strong> &le;10<sup>18</sup>)and <strong>m</strong>&nbsp;(1 &le; <strong>m</strong> &le; 10<sup>9</sup>), your task is to find the <strong>n</strong>-th smallest "self-descriptive" number.</p>
+<h3>Input</h3>
+<p>The first line there is an integer <strong>T</strong>&nbsp;(1 &le; <strong>T</strong>&nbsp;&le; 10<sup>5</sup>).</p>
+<p>For each test case there are two integers <strong>n</strong> and <strong>m</strong>&nbsp;written in one line, separated by a space.</p>
+<h3>Output</h3>
+<p>For each test case, output the <strong>n</strong>-th smallest "self-descriptive" number, (output the number in base 10) modulo <strong>m</strong>.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>2</pre>
+<pre>1 1000</pre>
+<pre>2 1000
+
+<strong>Output:</strong></pre>
+<pre>100</pre>
+<pre>136</pre>
+<h3>Explanation</h3>
+<p>100 is "self descriptive" number in base 4: (1210)<sub>4</sub></p>
+<p>136 is "self descriptive" number in base 4: (2020)<sub>4</sub></p>
+<p>&nbsp;</p>
+<p><span style="color: #339966;"><span style="color: #339966;"><strong>Time limit ~230x My program speed:&nbsp;<a title="My Time" href="http://1.bp.blogspot.com/-Ij36hIcKmxU/UXzgbOvULwI/AAAAAAAAAUE/WjinW0h4PdM/s1600/SELFDESN.png" target="_blank">Click here to see my submission history and time record for this problem</a></strong></span></span></p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-04-28</td></tr>
+<tr><td>Time limit:</td><td>25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IMC 2009 + My Idea to modify that problem</td></tr>	
+</table>

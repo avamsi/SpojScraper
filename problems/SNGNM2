@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNGNM2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15996. Number Magic II</h1>
+		<h2>Problem code: SNGNM2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">num (&gt; 9) be a positive integer. sum is defined as sum_of_digits_of_num. avg is defined as <br />sum / digits_in_num and avg takes only integer values (for example 34 / 5 is equal to 6, i.e. integer part of 6.8). Now digits of num are rearranged by taking avg as pivoting element. Rearrangement is done according the following method -<br /><br /><strong><span style="color: #ff0000;">[<span style="color: #ff0000; font-size: small; font-weight: bold;">step</span>&nbsp;1]</span></strong><br /><strong>new_num = avg;<br /><br />read digits of num<br />if (digit &gt; avg)<br /><span style="white-space: pre;"> <span style="white-space: pre;"> <span style="white-space: pre;"> </span></span></span>place digit at rightmost place in new_num<br /></strong></span><span style="font-weight: bold; font-size: small;">else<br /></span><strong><span style="font-size: small;"><span style="white-space: pre;"> </span>place digit at leftmost place in new_num</span></strong><span style="font-size: small;">&nbsp;</span></p>
+<p><span style="font-size: x-small;"><strong><span style="color: #ff0000;"><span style="font-size: small;">[<span style="color: #ff0000; font-weight: bold;">step</span>&nbsp;2]</span></span></strong><br /><span style="font-size: small;">new_num is again rearranged into two numbers, eve_number (<strong>formed by taking digits of new_num at places 2, 4, 6, ...</strong>) and odd_number</span><span style="font-size: small;">&nbsp;(<strong>formed by taking digits of new_num at places 1, 3, 5, ...</strong>). <br /><br />Remember that counting of digit place starts from leftmost digits as 1, 2, 3, 4...<br /></span></span><span style="color: #ff0000; font-size: small; font-weight: bold;"><br />[step 3]<br /></span><span style="font-size: 1.17em;"><span style="font-size: small;"><strong>if (eve_number has &lt; 3 digits)<br /><span style="white-space: pre;"> <span style="white-space: pre;"> <span style="white-space: pre;"> </span></span></span>store the number<br />else<br /><span style="white-space: pre;"><span style="white-space: pre;"> </span> <span style="white-space: pre;"> </span></span>calculate avg and again start from process 1<br /></strong></span></span></p>
+<p><span style="font-size: 1.17em;"><span style="font-size: small;"><strong>if (odd_number has &lt; 3 digits)<br style="font-size: 12px;" /><span style="white-space: pre;"><span style="white-space: pre;"> </span> <span style="white-space: pre;"> <span style="white-space: pre;"> </span></span></span>store the number<br style="font-size: 12px;" />else<br style="font-size: 12px;" /><span style="white-space: pre;"> <span style="white-space: pre;"> <span style="white-space: pre;"> <span style="white-space: pre;"> </span></span></span></span>calculate avg and again start from step 1</strong>&nbsp;</span><br /></span></p>
+<p><span style="font-size: 1.17em;"><span style="font-size: 1.17em;"><span style="font-size: small;">Finally all desired numbers are stored and now we have to find two magical coefficients of num, named as alpha and beta.</span></span></span></p>
+<p><span style="color: #ff0000; font-size: small; font-weight: bold;">[method digit_sum]<br /></span><strong><span style="font-size: small;">number = <span style="vertical-align: sub;">num</span></span></strong></p>
+<p><span style="font-size: small;"><strong>do {&nbsp;<br /><span style="white-space: pre;"> <span style="white-space: pre;"> </span>number</span>&nbsp;= sum of digits of number<br />&nbsp;</strong></span><span style="font-weight: bold; font-size: small;">} while (number</span><span style="font-weight: bold; font-size: small;">&nbsp;&gt;= 10)</span></p>
+<p><span style="font-size: small;">&nbsp;<strong>dig_</strong><span style="font-weight: bold;">sum</span><sub>&nbsp;</sub><span style="font-weight: bold;">= number</span></span></p>
+<p><span style="color: #ff0000; font-size: small; font-weight: bold;">[alpha]<br /></span><strong><span style="font-size: small;">digit_sum(summation_of_stored_numbers)</span></strong></p>
+<p><strong><span style="color: #ff0000; font-size: small; font-weight: bold;">[beta]<br /></span><strong><span style="font-size: small;">digit_sum(summation_of_digit_sum(stored_numbers))</span></strong></strong></p>
+<p><span style="font-size: small;">we will say num is magic number if alpha, beta and |aplha - beta| are digits of num.</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">First line of input is t (&lt; 101), total number of test cases. Each test case has n (&lt; 501) as its first input and next n lines contains num (&lt; 10</span><span style="font-size: small;"><span style="font-size: 11px;"><sup>101</sup></span><span style="font-size: x-small;">).&nbsp;</span></span></p>
+<h3>Output</h3>
+<p><span style="font-size: small;">For each test case, write exactly n lines containing value of alpha and beta; and yes or no according to whether or not num is magic number.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-size: medium;"><span style="color: #0000ff;"><strong>1<br />1<br />9874</strong></span></span></pre>
+<pre><strong><strong>Output:<br /></strong><span style="line-height: 20px; white-space: pre-wrap;"><span style="font-size: small;"><strong><span style="font-size: medium;"><strong><span style="color: #0000ff;">5 5 no</span></strong></span></strong></span></span><strong><br /></strong></strong>
+</pre>
+<h3>Explanation</h3>
+<p><span style="font-size: small;">num = 9874<br /></span><span style="font-size: small;">avg = 7 (28 / 4)<br /></span><span style="font-size: small;">rearrangement of num generates new_num = 47798<br /></span><span style="font-size: small;">thus eve_num = 79 and odd_num = 478<br /></span><span style="font-size: small;">now eve_num &lt; 100, so 79 is stored.<br /></span><span style="font-size: small;">but odd_num &gt;= 100 so repeat the full process.<br /></span><span style="font-size: small;">Finally stored numbers are N[] = 79, 68 and 47<br /><br /><strong><span style="color: #ff0000;">Make sure that you have to consider the total number of digits not the value of the number so&nbsp;<span style="font-size: 13px; background-color: #e8edd0;"><span style="color: #ff0000;">you should not change the total number of digits of the number at any step</span></span></span></strong>&nbsp;</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newborn">AvmnuSng</a></td></tr>
+<tr><td>Date:</td><td>2013-09-15</td></tr>
+<tr><td>Time limit:</td><td>0.086s-0.187s</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="https://facebook.com/criusabhimanyu">Abhimanyu Singh</a><br><a href="http://goo.gl/KXdHYG">My Problems</a></td></tr>	
+</table>

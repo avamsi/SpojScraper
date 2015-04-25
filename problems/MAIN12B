@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN12B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11103. PrimeFactorofLCM</h1>
+		<h2>Problem code: MAIN12B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Everyone loves Swampy. Swampy the Alligator lives under the city and yearns for a more human like existence. One day Swampy took part in a maths contest to show his supremacy over other his other alligator friends. The task required him to output the prime divisors of the lcm of n numbers a1,a2,..,an. Tired trying the problem, he turned to you for help. He believes that you can help him solve the problem.</p>
+<h3>Input</h3>
+<p>First line of the input contains an integer T, the number of test cases. Then T test cases follow. Each test case consists of a single integer n. Next line contains n integers(space separated), a1,a2,..,an.</p>
+<h3>Output</h3>
+<p>For each test case, print Case #X: M where M is the number of prime divisors of lcm(a1,a2,..,an) and then M lines with the prime divisors in non-decreasing order.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+8
+1 2 3 4 5 6 7 8
+
+<strong>Output:</strong>
+Case #1: 4
+2
+3
+5
+7</pre>
+<p>Constraints: T &lt;= 100 1 &lt;= N &lt;= 100 1 &lt;= ai &lt;= 10^12</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikunj165">Nikunj Jain</a></td></tr>
+<tr><td>Date:</td><td>2012-03-15</td></tr>
+<tr><td>Time limit:</td><td>1.193s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Vaibhav Mittal</td></tr>	
+</table>

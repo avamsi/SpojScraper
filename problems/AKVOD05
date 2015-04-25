@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AKVOD05"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18510. Ross generates Data</h1>
+		<h2>Problem code: AKVOD05</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ross wants to complete the data set for his next research work. He has to generate a set of &ldquo;N&rdquo; non negative integers. He already knows the first &ldquo;K&rdquo; values out of them. He knows how to generate the remaining values. Any of the remaining values will be the minimum non negative integer that does not exist in the previous &ldquo;K&rdquo; values.</p>
+<p>For example, let the value of &ldquo;N&rdquo; is 7 and the value of &ldquo;K&rdquo; be 4 and the first &ldquo;K&rdquo; values be 0 4 3 2 then the next 3 values will be 1 0 4.</p>
+<p>You just have to generate the &ldquo;N&rdquo;th value for his work.</p>
+<h3>Input</h3>
+<p>The first line will contain "T", the no. of test cases. Then "T" test cases follows. For each test case, the first line will contain two integers "N" and "K". The next line will contain "K" integers denoting the "K" values that he already knows.</p>
+<h3>Output</h3>
+<p>For each test case, output a single integer value that denotes the "N"th integer in his data set.</p>
+<h3>Constraints</h3>
+<p>1 &lt;= T &lt;= 10</p>
+<p>1 &lt;= K &lt;= 10^5</p>
+<p>K &lt; N &lt;= 10^8</p>
+<p>0 &lt;= Each of the first K values &lt;= 10^8</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+</pre>
+<pre>2</pre>
+<pre>7 4</pre>
+<pre>0 4 3 2</pre>
+<pre>8 5</pre>
+<pre>4 7 2 3 0
+
+<strong>Output:</strong>
+
+</pre>
+<pre>4</pre>
+<pre>5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ankitism">Ankit Kumar Vats </a></td></tr>
+<tr><td>Date:</td><td>2014-02-22</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Self</td></tr>	
+</table>

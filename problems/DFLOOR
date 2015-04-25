@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DFLOOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>98. Dance Floor</h1>
+		<h2>Problem code: DFLOOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+You recently watched a video clip in which a singer danced on a grid of colourful tiles enlightened from below. Each step on a tile flipped the tile's state, i.e. light on or off. In addition to that, all the neighbouring tiles flipped their states, too.
+<br><br>
+In this task, you are supposed to come up with a short program that decides if it is possible for the singer to switch on the lights of all the tiles, provided that he dances on the appropriate tiles.
+<br><br>
+The dance floor has rectangular shape. At the beginning, some of the tiles are already alight. Your program may temporarily switch off some tiles, if it deems that necessary to reach its goal. Stepping on a tile toggles its own state as well as the states of the four neighbouring tiles directly above, below, to the left and to the right. Of course, in the case of a peripheral tile, there will be only three or two neighbouring tiles.
+<br><br>
+Here comes an example:
+<br>
+<img src="/content/ahven:example.gif">
+<br>
+If the dancer steps on the tile indicated by the brown shoe, all the tiles within the white area change their states. The resulting dance floor is depicted on the right.
+<br><br>
+You may assume that the singer is fit enough to jump from any tile to any other tile, even if the destination tile lies on the opposite side of the dance floor.
+</P>
+<H3>Input</H3>
+<P align=justify>
+There are several test cases.
+The first line of each case contains two integer numbers <em>x</em> and <em>y</em>,
+  indicating the width and the height of the dance floor grid. The numbers are
+  separated by a single space and satisfy 3 &#8804; <em>x</em>,<em>y</em> &#8804;
+  15.
+<br><br>
+The following <em>y</em> lines containing <em>x</em>characters each describe
+  the initial on/off states of the tiles. A zero means &quot;the tile is switched
+  off&quot;, a one digit means &quot;the tile is alight&quot;.
+<br><br>Input ends with 0 0.
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case your program should output the number of steps needed to switch all the lights on, followed by exactly that many lines with two space-separated numbers <em>i</em> and <em>j</em>. Each individual line commands the singer to
+  step on the <em>i</em>-th tile of the <em>j</em>-th row. Starting with the situation
+  of the input file and executing all the commands in the output file, all the
+  tiles must be switched on.
+<br><br>
+If more than one solution exist, your program should output an arbitrary one
+  of them. If, on the other hand, no solution exists, your program should write the number "-1".
+</P>
+<H3>Example</H3>
+<pre>
+<h4>Sample input</h4>
+4 3
+0111
+1010
+1000
+
+0 0
+
+<h4>Sample output</h4>
+3
+1 2
+1 3
+4 3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahven">Michał Czuczman</a></td></tr>
+<tr><td>Date:</td><td>2004-07-01</td></tr>
+<tr><td>Time limit:</td><td>2.400s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Swiss Olympiad in Informatics 2004</td></tr>	
+</table>

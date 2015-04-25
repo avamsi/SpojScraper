@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/redant"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/KFRIENDS" target="_blank">8104. Friendly Knights</a></td><td><a href="http://www.spoj.com/problems/KFRIENDS"target="_blank">KFRIENDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TEMPLEQ" target="_blank">8406. Temple Queues</a></td><td><a href="http://www.spoj.com/problems/TEMPLEQ"target="_blank">TEMPLEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CANDYSTN" target="_blank">8407. Candies and Milestones</a></td><td><a href="http://www.spoj.com/problems/CANDYSTN"target="_blank">CANDYSTN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MNMXPATH" target="_blank">8408. Min  Max 01 Path</a></td><td><a href="http://www.spoj.com/problems/MNMXPATH"target="_blank">MNMXPATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAVSUBS" target="_blank">8409. Favorite Sub Hair</a></td><td><a href="http://www.spoj.com/problems/FAVSUBS"target="_blank">FAVSUBS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNAKYNUM" target="_blank">8410. Snaky Numbers</a></td><td><a href="http://www.spoj.com/problems/SNAKYNUM"target="_blank">SNAKYNUM</a><br>
+</td></tr>

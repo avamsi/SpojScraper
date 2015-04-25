@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GHOSTS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9458. Ghosts having fun</h1>
+		<h2>Problem code: GHOSTS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ghost are living in big castle with K rooms.</p>
+<p>As they have around few hundred years and very tired, they decided to buy teleports. Every teleport can work only in one way ( to prevent collision ). Ghosts have decided which teleports they want to build and in which order they should be built.</p>
+<p>King of ghosts, Bob, asked you to check list of teleports and decide which of them do not build. He don't want ghosts having fun in infinite ride with teleports.</p>
+<h3>Input</h3>
+<p>In first line - number K&lt;=1000, amount of rooms in castle.</p>
+<p>In next line - number T&lt;=300000 of teleports.</p>
+<p>In next T lines a,b&lt;=K</p>
+<p>Rooms are numbered 1..K</p>
+<h3>Output</h3>
+<p>Print teleports which should not be built. End test case with 0 0</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre>4<br />5<br />2 4<br />4 3<br />3 2<br />1 2<br />3 1</pre>
+<strong>Output:</strong>
+<pre>3 2<br />3 1<br />0 0</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-08-25</td></tr>
+<tr><td>Time limit:</td><td>0.129s-0.728s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

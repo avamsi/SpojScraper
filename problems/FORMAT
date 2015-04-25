@@ -1,0 +1,165 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FORMAT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16557. HTML Formatting</h1>
+		<h2>Problem code: FORMAT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<style>
+	.example-table {
+		text-align: left;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.example-table td {
+		vertical-align: top; 
+	}
+
+	.section {
+		margin-top: 19px;
+		margin-bottom:19px;
+	}
+
+	.paragraph {
+		text-align: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.paragraph ul, .paragraph ol {
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+</style>
+
+<div class="section">
+	<h3>Description</h3>
+	<div class="paragraph">	
+		You have been given formatted text and asked to converted it HTML.
+	</div>
+	<div class="paragraph">
+		Each character may be formatted as bold, italic, underlined, or some combination.
+	</div>
+	<div class="paragraph">
+		In HTML, content between <b>< b ></b> and <b>< / b ></b> tags is bold. Content between <i> and </i> tags is italic. Content between <b>< u 
+
+></b> and <b>< / u ></b> tags is underlined.
+	</div>
+	<div class="paragraph">
+		What is the minimum number of properly nested HTML tags needed to produce a given format?
+	</div>
+	<div class="paragraph">
+		For example, say we wanted to format <b>< i ></b><b>< b ></b>LookAt<b>< / b ></b>Me<b>< / i ></b>!
+		<ul>
+			<li><b>< b ></b><b>< i ></b>LookAt<b>< / b ></b>Me<b>< / i ></b>! has incorrectly nested tags.</li>
+			<li><b>< b ></b><b>< i ></b>LookAt<b>< / i ></b><b>< / b ></b><b>< i ></b>Me<b>< / i ></b>! has correctly nested tags, but is longer 
+
+than necessary.</li>
+			<li><b>< i ></b><b>< b ></b>LookAt<b>< / b ></b>Me<b>< / i ></b>! is the shortest and uses the fewest number of tags.</li>
+		</ul>
+	</div>
+</div>
+
+<div class="section">
+	<h3>Input</h3>
+	<div class="paragraph">
+		There will be a sequence of 1 to 20,000 numerals. Each numeral denotes the formatting at that position.
+		<ul>
+			<li>0 - no formatting</li>
+			<li>1 - bold</li>
+			<li>2 - italic</li>
+			<li>3 - bold and italic</li>
+			<li>4 - underlined</li>
+			<li>5 - bold and underlined</li>
+			<li>6 - italic and underlined</li>
+			<li>7 - bold, italic, and underlined</li>
+		</ul>
+		(There is no need to actually specify the content, since that will not affect the answer.)
+		<br>
+		The example earlier would be given as 333333220.
+	</div>
+</div>
+
+<div class="section">
+	<h3>Output</h3>
+	<div class="paragraph">
+		The minimum number of <b>< b ></b>, <b>< / b ></b>, <b>< i ></b>, <b>< / i ></b>, <b>< u ></b>, and <b>< / u ></b> tags required.
+	</div>
+</div>
+
+<table class="section example-table">
+	<tr>
+		<th>Input</th>
+		<th>Input</th>
+		<th>Input</th>
+		<th>Input</th>
+	</tr>
+	<tr>
+		<td>
+<pre>01</pre>
+		</td>
+		<td>
+<pre>333333220
+</pre>
+		</td>
+		<td>
+<pre>00110066</pre>
+		</td>
+		<td>
+<pre>12364012375303657213412303</pre>
+		</td>
+	</tr>
+	<tr>
+		<th>Output</th>
+		<th>Output</th>
+		<th>Output</th>
+		<th>Output</th>
+	</tr>
+	<tr>
+		<td>
+<pre>2</pre>
+		</td>
+		<td>
+<pre>4</pre>
+		</td>
+		<td>
+<pre>6</pre>
+		</td>
+		<td>
+<pre>54</pre>
+		</td>
+	</tr>
+</table>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/byuadmin">BYU Admin</a></td></tr>
+<tr><td>Date:</td><td>2013-10-18</td></tr>
+<tr><td>Time limit:</td><td>1s-2.5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

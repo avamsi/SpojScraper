@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUPPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>57. Supernumbers in a permutation</h1>
+		<h2>Problem code: SUPPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+An <i>n</i>-element permutation is an <i>n</i>-element sequence of distinct numbers
+from the set <i>{1, 2, ...,n}</i>. For example the sequence 2,1,4,5,3 is a
+5-element permutation.
+We are interested in the longest increasing subsequences in a permutation. In this exemplary
+permutation they are of length 3 and there are exactly 2 such subsequences: 2,4,5 and 1,4,5.
+We will call a number belonging to any of the longest increasing
+subsequences a <i>supernumber</i>. In the permutation 2,1,4,5,3 the supernumbers are 1,2,4,5 and 3 is not a supernumber.
+Your task is to find all supernumbers for a given permutation.
+</P>
+<H3> Task </H3>
+<P>
+Write a program which
+</P>
+<div align="justify">
+<ul>
+<li> reads a permutation from standard input,
+</li>
+<li> finds all its supernumbers,
+</li>
+<li> writes all found numbers to standard output.
+</li>
+</ul></div>
+<H3> Input </H3>
+<P>
+Ten test cases (given one under another, you have to process all!).
+Each test case consists of two lines.
+In the first line there is a number <i>n</i> (1<=n<=100000). In the second
+line: an <i>n</i>-element permutation - <i>n</i> numbers separated by single spaces.
+</P>
+<H3> Output </H3>
+<P>
+For every test case your program should write two lines. In the first line
+- the number of supernumbers in the input permutation. In the second line
+the supernumbers separated by single spaces in increasing order.
+</P>
+<H3>Example</H3>
+<pre>
+<tt><b>Input:</b>
+5
+2 1 4 5 3
+[and 9 test cases more]
+</tt>
+<tt><b>Output:</b>
+4
+1 2 4 5
+[and 9 test cases more]
+</tt>
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-10</td></tr>
+<tr><td>Time limit:</td><td>2.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B> (Algorithm Tamers)<br>Round IV, 2003</td></tr>	
+</table>

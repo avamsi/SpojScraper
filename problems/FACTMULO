@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACTMULO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18662. Product of factorials (again)</h1>
+		<h2>Problem code: FACTMULO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For <strong><em>n</em></strong> positive integer, let <strong><em>F(n) = 1! × 2! × 3! × 4! × ... × n!</em></strong>, product of factorial(i) for i in [1..n],</br>
+
+
+</br>
+
+For <strong><em>p</em></strong> a prime number, and <strong><em>n</em></strong> an integer,
+and let <strong><em>V(p, n) = max({i>=0 integer, such that p^i divides F(n)})</em></strong>. </br>
+
+
+
+
+<h3>Input</h3>
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</br>
+On each of the next <strong><em>T</em></strong> lines, your are given
+two integers <strong><em>p</em></strong> a prime number, and <strong><em>n</em></strong>.
+</p>
+
+<h3>Output</h3>
+<p>For each test case, you have to print <strong><em>V(p, n)</em></strong>.
+</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+2 3
+3 4
+</pre>
+<pre><strong>Output:</strong>
+2
+2
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T < 10^5
+1 < p < 10^18, a prime number
+0 < n < 10^18
+</pre>
+<p><strong><em>p</em></strong> and <strong><em>n</em></strong> are log-uniform independent randomly distributed.</p>
+
+<p>Four lines of Python code can get AC in half the time limit.</br>
+;-) Have fun.</p>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-03-01</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

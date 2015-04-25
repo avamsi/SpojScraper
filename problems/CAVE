@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CAVE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>272. Cave Exploration</h1>
+		<h2>Problem code: CAVE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A long time ago one man said that he had explored the corridors of one cave. This means that he was in all corridors of the cave. Corridors are really horizontal or vertical segments. A corridor is treated as visited if he was in at least one point of the corridor.</p>
+<p>Now you want to know if this is true. You have a map of the cave, and you know that the explorer used the following algorithm: he turns left if he can, if he can't he goes straight, if he can't he turns right, if he can't he turns back. Exploration ends when the man reaches the entry point for the second time. Your task to count how many corridors weren't visited by explorer.</p>
+
+<h3>Input</h3>
+<p>In the first line there is an integer <b>T (T <= 20)</b> - the number of different maps. For each map in the first line there is an integer <b>N (N <= 1000)</b> - the number of corridors. It is known that no two vertical corridors have a common point and no two horizontal corridors have a common point. The next <b>N</b> lines contain the following information: the line starts with one of the characters 'V' or 'H' - vertical or horizontal corridor. Then one Y-coordinate and two X-coordinates are given for a horizontal corridor or one X-coordinate and two Y-coordinates for a vertical corridor. The last line for each map contains the X and Y coordinates of the entry point (start and end point of travel) and the direction ('W' - left, 'E' - right, 'N' - up and 'S' - down). You may assume that: the entry point is not located at the cross-point of two corridors, and the explorer can always move forward in the direction given in the input. All coordinates are integers and do not exceed <i>32767</i> by absolute value and there are no more than <i>500</i> vertical corridors and no more than <i>500</i> horizontal corridors.</p>
+
+<h3>Output</h3>
+<p>For each map the program has to print the number of unvisited corridors (in a separate line).
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+2
+6
+H 0 6 0
+H 2 1 6
+V 1 0 4
+V 5 3 0
+V 3 0 2
+H 1 2 4
+6 0 W
+1
+V 0 &#8211;5 5
+0 0 S
+
+<b>Output:</b>
+1
+0
+</pre>
+<p>
+<img src="/content/thanhvy:cave.jpg" alt="An example of a cave"/>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2004-12-31</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td> ACM South Eastern European Region 2004</td></tr>	
+</table>

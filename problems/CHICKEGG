@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHICKEGG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22329. Chicks</h1>
+		<h2>Problem code: CHICKEGG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">There are n hens in a farm. The egg hatching ability of all the hens decreases by 1 day after each time they hatch an egg.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">Let the initial egg hatching ability of Hen[i] be D[i].</span></p>
+<p style="text-align: left;"><span style="font-size: small;">Hen[i] lays it's first egg on D[i]th day.</span></p>
+<p><span style="font-size: small;">Hen[i] lays it's second egg on 2*D[i]+1 th day</span><span style="font-size: small;">.</span></p>
+<p><span style="font-size: small;">Hen[i] lays it's thrid egg on 3*D[i]+3rd day</span><span style="font-size: small;">.</span></p>
+<p><span style="font-size: small;">Hen[i] lays it's fourth egg on 4*D[i]+6th day.</span></p>
+<p><span style="font-size: small;">Hen[i] lays it's fifth egg on 5*D[i]+10th day</span><span style="font-size: small;">.</span></p>
+<p><span style="font-size: small;">and so on..<br /><br />Given n - the number of hens and the array D - the initial egg hatching ability of the hens, find the minimum number of days required to produce at least K eggs. You can safely assume that eggs neither gets damaged nor converted into hens.</span></p>
+<p><span style="font-weight: bold;"><span style="font-size: small;">Input:</span></span></p>
+<p><span style="font-size: small;">The first line consists of integers t, the number of test cases. For each test case, the first line consists two integers n and K. The next line consists of n integers representing the initial egg hatching ability of the hens.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Output:</span></strong></p>
+<p><span style="font-size: small;">For each test case, find the minimum number of days required to produce at least K eggs.</span></p>
+<p><strong><span style="font-size: small;"><br />Input Constraints:</span></strong></p>
+<p><span style="font-size: small;">1 &lt;= t &lt;= 10^2</span></p>
+<p><span style="font-size: small;">1 &lt;= n &lt;= 10^3</span></p>
+<p><span style="font-size: small;">1 &lt;= K &lt;= 10^8</span></p>
+<p><span style="font-size: small;">1 &lt;= D[i] &lt;= 10^8</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Sample Input:</span></strong></p>
+<p><span style="font-size: small;">3</span></p>
+<p><span style="font-size: small;">1 4</span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">2 5</span></p>
+<p><span style="font-size: small;">2 5</span></p>
+<p><span style="font-size: small;">5 1000000</span></p>
+<p><span style="font-size: small;">1 2 3 4 5</span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 527px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1000000</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 527px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 2 3 4 5</span></div>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Sample Output:</span></strong></p>
+<p><span style="font-size: small;">10</span></p>
+<p><span style="font-size: small;">11</span></p>
+<p><span style="font-size: small;">20000500003</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Explanation of Test case #2:</span></strong></p>
+<p><span style="font-size: small;">There are 2 hens and we need to produce 5 eggs</span></p>
+<p><span style="font-size: small;">At time 2, Hen 0 lays an egg.</span></p>
+<p><span style="font-size: small;">At time 5, Hen 0 and Hen1 lay an egg each.</span></p>
+<p><span style="font-size: small;">At time 9, Hen 0 lays an egg</span></p>
+<p><span style="font-size: small;">At time 11, Hen1 lays an egg.</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2015-01-06</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RATTERN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>309. The Room Pattern</h1>
+		<h2>Problem code: RATTERN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+It was decided to make a parquet floor in a room of size NxM. The idea is to lay out some pattern on the floor. The parquet tiles with which the floor of the room looks best consist of squares 1x1, each of which can be either white or black. The required color of each square of the room is specified on the map of the room.</p><p>
+There are four different forms of parquet tiles: <BR><BR>
+<img src="/content/turbo:img0001.png" alt="Illustration of parquet tiles"><BR><BR>
+Squares of one parquet tile can be painted differently. Some types of tiles can be of identical shape, but painted differently. Tiles of different types can have different cost. The number of available tiles of each type is not limited. Tiles are allowed to be turned around somehow (by an angle which is a multiple of 90 degrees), but it is not permitted to break a tile or to put it face sheet downwards. Initially, any part of the floor can be already laid out by tiles. You are requested to calculate the minimal cost of the tiles necessary to pave the remaining part of the room. </p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follow. <BR>
+In the first line of each test case three numbers are written: <i>N, M</i> (the sizes of the room) and <i>K</i> (number of accessible types of tiles). <i>[1<= N, M <= 8], [1 <= K <= 10]</i>.
+Next there is a description of the desired painting of the floor. The description is given in the form of <i>N</i> lines of <i>M</i> numbers each, where 0 denotes the color white, 1 - the color black, 2 - a square which has already been covered by a tile. In the last K lines the descriptions of available types of tiles are given in the following format: <BR>
+[Form] [cost] [painting] where:<BR>
+[Form] is a number from 1 to 4, describing the form of a tile (see figure above) <BR>
+[Cost] is an integer not larger than 10000, describing the cost of one tile of the type. <BR>
+[Painting] is a sequence of between one and three numbers 0 or 1. Its length is the same as the number of squares of which the tile consists, and the respective numbers describe colors of square tiles in the order in which the squares are numbered in the figure.
+</p>
+
+<h3>Output</h3>
+<p>For each test case output one integer: the minimal cost of laying the remaining part of the parquet, or -1 if the task cannot be performed.</p>
+
+<h3>Example</h3>
+<p><b>Input:</b></p>
+<pre>
+1
+4 3 3
+2 2 2
+2 0 0
+2 1 2
+2 2 2
+2 10 0 0
+1 5 1
+4 6 0 0 1
+</pre>
+
+<p><b>Output:</b></p>
+<pre>
+15
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-03-05</td></tr>
+<tr><td>Time limit:</td><td>17s
+</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>The Moscow Olympiad on computer science 2004/05. Correspondence round.</td></tr>	
+</table>

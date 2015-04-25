@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QUADAREA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2716. Maximal Quadrilateral Area</h1>
+		<h2>Problem code: QUADAREA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are trying to build a house, but unfortunately you currently have only four available walls with side lengths a, b, c, and d. You want your house to be as big as possible, so you would like to know the largest possible area of any quadrilateral you can construct with these four side lengths.</p>
+
+<h3>Input</h3>
+<p>The first line contains the integer T (1 &#8804; T &#8804; 2,000), the number of tests. Each test contains a single line with four real numbers: a, b, c, and d (0 < a, b, c, d < 1,000). Note that it will always be possible to form a valid quadrilateral with these lengths; that is, the sum of any three side lengths will be strictly larger than the other one.</p>
+
+<h3>Output</h3>
+<p>For each test case, print a single line containing the largest possible area. Your output will be accepted if it is within 0.01 of the official answer.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+1 2 1 2
+0.5 0.5 0.5 0.5
+
+<b>Output:</b>
+2.00
+0.25
+</pre>
+
+<p>For the first test case, it is optimal to construct a rectangle, and for the second, a square is optimal.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-05-24</td></tr>
+<tr><td>Time limit:</td><td>0.230s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+	
+</table>

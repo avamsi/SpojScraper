@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PONY3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11054. Discords Dilemma </h1>
+		<h2>Problem code: PONY3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Discord is in trouble for causing discord, so he is trying to escape from Equestria.
+He's arrived at the port, and he doesn't care what boat he gets on, he just wants to get out.
+He can see the boat schedule, where he sees that N boats are arriving today,
+
+<p>boat 1 arrives any time within a_1 minutes
+<p>boat 2 arrives any time within a_2 minutes
+<p>...
+<p>boat N arrives any time within a_N minutes (uniform distribution)
+
+<p>Tell discord the expected number of minutes he needs to wait for a boat to arrive.
+<p>For some reason, you should be accurate to 10^-6 of a minute.
+
+<h3>Input Format:</h3>
+<p>T (number of test cases)
+<p>N1 (number of boats for test case 1)
+<p>a1 a2 ... aN
+<p>N2
+<p>...
+<p>NT
+<p>...
+
+
+<h3>Output Format:</h3>
+<p>answer1
+<p>answer2
+<p>...
+<p>answerT
+
+<h3>Limits:</h3>
+<p>1 <= T <= 100
+<p>1 <= N <= 100
+<p>1 <= ai <= 1000
+
+<p>Also, N * max{ai} <= 10000
+
+<pre>
+<b>Sample Input:</b>
+4
+1
+5
+3
+49 50 51
+3
+50 50 50
+3
+2 7 19
+
+<b>Sample Output:</b>
+
+2.500000
+12.495000
+12.500000
+0.874687
+(Fixed thanks to <name forgotten>)
+</pre>
+Note:  Round however Java would round if you used the statement System.out.printf("%.6f\n", answer);
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cricycle">Alex Anderson</a></td></tr>
+<tr><td>Date:</td><td>2012-03-12</td></tr>
+<tr><td>Time limit:</td><td>0.189s-0.284s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

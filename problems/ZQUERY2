@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZQUERY2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22331. Intersection Query</h1>
+		<h2>Problem code: ZQUERY2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Considering a set of segments. At the beginning, the set is totally empty.</p>
+<p>There are <strong>N</strong> operations: insert or erase a <em>vertical</em> (or <em>horizontal</em>) segment and then you have to compute how many intersections are there.</p>
+<p><em>There is no two same type of segments that share a common point in the set</em>.</p>
+<h3>Input</h3>
+<p>The first line contains <strong>N</strong> (<strong>1</strong> &le; <strong>N</strong> &le; <strong>10<sup>5</sup></strong>) - the number of operations.</p>
+<p>The following <strong>N</strong> lines describe the operations:</p>
+<ul>
+<li><strong>1 X<sub>1</sub> Y<sub>1</sub> X<sub>2</sub> Y<sub>2</sub></strong>: insert a segment whose two endpoints are <strong>(X<sub>1</sub>, Y<sub>1</sub>)</strong> and <strong>(X<sub>2</sub>, Y<sub>2</sub>)</strong> to the set. (|<strong>X<sub>1</sub></strong>|, |<strong>Y<sub>1</sub></strong>|, |<strong>X<sub>2</sub></strong>|, |<strong>Y<sub>2</sub></strong>| &le; <strong>10<sup>9</sup></strong>)</li>
+<li><strong>2 K</strong>: erase the <strong>K-th</strong> oldest segment from the set. (<strong>1</strong> &le; <strong>K</strong> &le; current size of the set)</li>
+</ul>
+<h3>Output</h3>
+<p>For each query, print the number of intersections of the line segments in the set after processing the operation in one line.</p>
+<h3>Example</h3>
+<pre>  <strong>Input:</strong>
+  10
+  1 -1 0 -2 0
+  1 2 -2 0 -2
+  1 1 1 1 -3
+  2 1
+  1 6 -2 5 -2
+  2 3
+  1 2 -2 2 -6
+  1 -4 -3 -5 -3
+  1 3 -4 -1 -4
+  2 2
+</pre>
+<pre>  <strong>Output:</strong>
+  0
+  0
+  1
+  1
+  1
+  1
+  2
+  2
+  3
+  2
+</pre>
+<p><strong>UPD</strong> (1/30/2015): Increase time limit from 2s to 5s. My C++ solution (unoptimized) runs in about 7 seconds.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/enrevol">What Does The Fox Say?</a></td></tr>
+<tr><td>Date:</td><td>2015-01-07</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQUA_REV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8418. Revenge of the squares</h1>
+		<h2>Problem code: SQUA_REV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a number calculate the product N of their digits bigger than zero. The output is the number R of different (!) presentations of N in the form A*A+B*B with A and B being positive integers including zero.</p>
+<h3>Input</h3>
+<p>Twenty tests with one positive integer &lt; 10^20.</p>
+<h3>Output</h3>
+<p>Print the illustrated above number R for each test.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />7<br />78185824586267361855
+
+<strong>Output:</strong>
+1<br />0<br />3
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hwk">HWK</a></td></tr>
+<tr><td>Date:</td><td>2011-02-25</td></tr>
+<tr><td>Time limit:</td><td>1.096s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

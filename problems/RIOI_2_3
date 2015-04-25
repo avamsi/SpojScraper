@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RIOI_2_3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12612. Path of the righteous man</h1>
+		<h2>Problem code: RIOI_2_3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: Verdana;"><span style="font-size: 12px; line-height: 14px;">&nbsp;</span></span><span style="font-family: Verdana;"><span style="font-size: 12px; line-height: 14px;">You are given N*N matrix A filled with integers, which represents map of country "What" ("What" ain't no country I ever heard of) . Our hero is called Brett. Brett has many enemies, namely Jules and Vincent (Jules doesn't like him because he said "what" too many times), but his biggest enemy is Marcellus Wallace, because Brett treated him like a male dog treats female dog. And Marcellus most certainly does not look like a female dog.&nbsp;</span></span></p>
+<p><span style="font-family: Verdana;"><span style="font-size: 12px; line-height: 14px;">But Brett cannot sit at home all day enjoying his Big Kahuna burgers, he has to go from cell (sx, sy) to cell (ex, ey).</span></span></p>
+<p><span style="font-family: Verdana;"><span style="font-size: 12px; line-height: 14px;">From cell (x, y) Bret can go to (x+1, y), (x, y+1), (x-1, y), (x, y-1).</span></span></p>
+<p><span style="font-family: Verdana;"><span style="font-size: 12px; line-height: 14px;">If A[x][y] = S, we say that this cell is property of mafia boss S. When Brett visits cell (x, y), and has not yet apologised to boss A[x][y], then he apologizes, after that he can visit any cell controlled by A[x][y] without apologizing. Brett does not like to apologise ( because there is always chance to hear Ezekiel 25 17 ), so he asks you to find him path which minimizes number of times he has to apologise.</span></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-family: Verdana;">You are given N*N matrix A filled with integers, which represents map of country "What" ("What" ain't no country I ever heard of) . Our hero is called Bret. Bret has many enemies, namely Jules and Vincent (Jules doesn't like him because he said "what" too many times), but his biggest enemy is Marcellus Wallace, because Bret treated him like male dog treats female dog.&nbsp;</span></div>
+<p><span style="font-family: Verdana;"> </span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Bret has to go from cell (sx, sy) to cell (ex, ey).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">From cell (x, y) Bret can go to (x+1, y), (x, y+1), (x-1, y), (x, y-1).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">If A[x][y] = S, we say that this cell is property of mafia boss S. When Bret visits cell (x, y), and has not yet apologised to boss A[x][y], then he apologizes, after that he can visit any cell controlled by A[x][y] without apologizing. Bret does not like to apologise ( because there is always chance to hear Ezekiel 25 17 ), so he asks you to find him path which minimizes number of times he has to apologise.</div>
+<h3><span style="font-weight: normal;">Constranits:&nbsp;</span></h3>
+<p>N &lt;= 50</p>
+<p>0 &lt;= A[i][j] &lt; 10</p>
+<h3>Input</h3>
+<p>First line contains number t donating number of testcases. First line of each testcase consists of number N. N lines followscontaining N numbers donating matrix A. After that two lines follow, containing sx, sy and ex, ey.</p>
+<h3>Output</h3>
+<p>For each test output number minimal number of times bret has to apologise.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>3</pre>
+<pre>5
+0 1 0 2 3
+0 2 0 3 1
+0 5 0 0 0
+0 5 7 8 0
+0 0 0 0 0<br />0 0 <br />0 4&nbsp;</pre>
+<pre>5
+0 1 0 2 3
+0 2 0 3 1
+0 5 0 0 0
+0 5 7 8 0
+0 0 0 0 0<br />0 0 <br />0 2</pre>
+<pre>5
+0 1 0 8 3
+0 2 0 3 1
+0 5 0 0 0
+0 5 7 8 9
+0 0 0 0 0<br />0 0 <br />0 3</pre>
+<pre><strong>Output:</strong>
+3</pre>
+<pre>1</pre>
+<pre>2</pre>
+<pre>Explanation of second test case : Bret can reach cell (0, 2) following path on which each cell is controled by boss 0.</pre>
+<pre>NOTE : If you wish to understand references in problem statement,&nbsp;</pre>
+<pre>watch movie Pulp Fiction, or this clip <a href="http://www.youtube.com/watch?v=aBs3Mu-qous">http://www.youtube.com/watch?v=aBs3Mu-qous</a></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/budabudimir">Buda IM (retired)</a></td></tr>
+<tr><td>Date:</td><td>2012-11-01</td></tr>
+<tr><td>Time limit:</td><td>0.481s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

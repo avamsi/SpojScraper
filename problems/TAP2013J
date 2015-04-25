@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TAP2013J"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16284. Game of stones</h1>
+		<h2>Problem code: TAP2013J</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><em><strong>[Due to SPOJ restrictions, this problem has been modified with respect to the original version used in the Argentinian Programming Tournament of 2013 in order to have multiple test cases per input file. The original version of this problem (in Spanish) can be found at <a title="http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf" href="http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf">http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf</a>]</strong></em></p>
+<p>Jaimito loves to play with the <strong>N</strong> identical stones that he was given for his birthday, piling them to form mountains of various sizes. His happiness would be perfect if her mother, Jimena, did not constantly remind him that at the end of the day comes the <em>Time to Arrange the Piles</em> (TAP). It is then that Jaimito must destroy his mountains of stones, which he had piled up with so much effort.</p>
+<p>Because Jimena knows how much Jaimito is bothered by the TAP, she suggests to play a game with him in order to make this task more fun. Jaimito and his mother take turns to play, with Jaimito starting because he is the youngest. Initially there are one or more mountains, each one of them composed of a certain number of stones. In his turn each player chooses a mountain with more than one stone and divides it to form two mountains, not necessarily of the same size. The game continues in this way until one of the players cannot make a valid move, at which point this player is declared the looser, the other player being the winner.</p>
+<p>Jaimito is a very smart kid, and he has realized that he can distribute the <strong>N</strong> stones to form the mountains in a strategic way, so as to be certain that when they begin to play with these mountains he will undoubtedly win during the TAP. Because of the way the game works, Jaimito will not consider that two initial arrangements of the stones are different if they only change in the order in which the mountains are given. This means that in order for him to consider two initial distributions to be different, these need to have a different number of mountains or, if the number of mountains is the same, then the stones must be distributed in a different way among the mountains. For example, if Jaimito has <strong>N = 4</strong> stones, there are five ways in which he can initially distribute them in mountains: four mountains of one stone each; two mountains of one stone each, and another mountain with two stones; one mountain of one stone, and another mountain with three stones; two mountains of two stones each; and, lastly, a single mountain with all four stones.</p>
+<p>Because Jaimito does not want his mother to realize that he is cheating, he wants to change the initial distribution of the <strong>N</strong> stones every day. He is convinced that there are many different ways to initially arrange the stones that will guarantee him the victory, but he does not know how many exactly. For example, in the case with <strong>N = 4</strong> stones Jaimito only has two possible ways to choose from: a single mountain with four stones, or two mountains of one stone each and another mountain with two stones. Your team's task in this problem is to help Jaimito count the number of different ways in which he can distribute his <strong>N</strong> stones in mountains in such a way that his victory is certain when playing against Jimena. In this way, Jaimito will rest assured knowing how many days he can win without his mother doubting of his good intentions.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line contains an integer number <strong>T</strong>, the number of test cases (<strong>1 &le; T &le; 200</strong>). Each of the following <strong>T</strong> lines&nbsp;contains an integer number <strong>N</strong>, representing the number of stones Jaimito has (<strong>2 &le;&nbsp;N&nbsp;</strong><strong>&le;</strong><strong>&nbsp;1000</strong>).</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case print a line containing a single integer number representing the number of different ways in which the <strong>N</strong> stones can initially be arranged in mountains so as to guarantee that Jaimito will win the game against Jimena. Because the answer can be a very large number, you only have to print the remainder of its division by <strong>10<sup>9</sup>+7</strong>.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>2<br /><span style="font-family: 'courier new', courier;">4<br /></span><span style="font-family: 'courier new', courier;">239</span></pre>
+<pre><strong>Output:</strong>
+<p><span style="font-family: 'courier new', courier;">2<br /></span><span style="font-family: 'courier new', courier;">465766207</span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2013-10-07</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Argentinian Programming Tournament 2013</td></tr>	
+</table>

@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TAP2013F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16280. Flowers of Babylon</h1>
+		<h2>Problem code: TAP2013F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><em><strong>[Due to SPOJ restrictions, this problem has been modified with respect to the original version used in the Argentinian Programming Tournament of 2013 in order to have multiple test cases per input file. The original version of this problem (in Spanish) can be found at <a title="http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf]" href="http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf]">http://www.dc.uba.ar/events/icpc/download/problems/tap2013-problems.pdf]</a></strong></em></p>
+<p>In Babylon grow some plants with flowers that are very much appreciated among the inhabitants. Florencio is such an inhabitant of Babylon who has a garden with <strong>N</strong> plants of these species, and he wants to collect some of their flowers. Because Florencio is quite lazy he does not want to go through a lot of effort to collect the flowers. Therefore, he has decided to walk to some point in his garden, and then with a circular movement of his scythe he shall cut a good amount of plants to later collect their flowers. Florencio is very skillful using the scythe so he will cover with it a perfect circle centered wherever he is standing, which will allow him to cut all the plants lying within this circle, including its border. The higher Florencio has to lift his scythe, the greater the radius of the corresponding circle he will cover with it. Florencio wants to cut at least <strong>P</strong> plants, but his laziness is such that he wants to do so lifting his scythe as little as possible.</p>
+<p>Florencio has managed to get his hands on a satellite image of his garden where all of his plants appear, and he has furthermore managed to get someone to convert this image to a list where each plant is represented by its coordinates in an <strong>XY</strong> plane. Now he is sitting outside, his scythe in hand, waiting for your team to tell him the minimum radius of a circle that encloses at least <strong>P</strong> plants.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line contains a single integer number <strong>T</strong>, the number of test cases (<strong>1 <span style="font-weight: bold;">&le; T <span style="font-weight: bold;">&le; 100</span></span></strong>).</p>
+<p>For each test case, the first line contains two integer numbers <strong>N</strong> and <strong>P</strong>, which respectively represent the number of plants that there are in the garden and the minimum number of plants that Florencio wants to cut (<strong>1 &le;&nbsp;P&nbsp;</strong><strong>&le;</strong><strong>&nbsp;N&nbsp;</strong><strong>&le;</strong><strong>&nbsp;500</strong>). Each of the following <strong>N</strong> lines describes a different plant using two integer numbers <strong>X</strong> and <strong>Y</strong>, representing the coordinates of that plant in the <strong>XY</strong> plane (<strong>1&nbsp;</strong><strong>&le;</strong><strong>&nbsp;X, Y&nbsp;</strong><strong>&le;</strong><strong>&nbsp;10<sup>5</sup></strong>). No two plants sit at the same position.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, print a line containing a single rational number representing the minimum radius of a circle enclosing at least <strong>P</strong> plants. You should print the result using exactly <strong>4</strong> digits after the decimal mark, rounding if necessary (there will be no rounding ties).</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre><span style="font-family: 'courier new', courier;">2<br />3 2<br />10000 10000<br />10000 9999<br />9999 10000<br />2 1<br />1 1<br />10000 10000</span></pre>
+<pre><strong>Output:</strong>
+<p><span style="font-family: 'courier new', courier;">0.5000<br />0.0000<span style="white-space: normal;">&nbsp;</span></span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2013-10-07</td></tr>
+<tr><td>Time limit:</td><td>120s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

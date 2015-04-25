@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RIOI_3_2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12943. Counting</h1>
+		<h2>Problem code: RIOI_3_2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given integers <strong>N</strong> and <strong>M</strong>, output in how many ways you can take <strong>N</strong> <strong>distinct</strong> positive integers such that sum of those integers is &lt;= <strong>M</strong>. Since result can be huge, output it modulo <strong>1000000007 (10^9 <strong>+ 7)</strong></strong></p>
+<p>N &lt;= 20&nbsp;</p>
+<p>M &lt;= 100000&nbsp;</p>
+<h3>Input</h3>
+<p>First line of input is number <strong>t</strong>, number of test cases. Each test case consists only of 2 numbers N and M, in that order.<strong>&nbsp;</strong></p>
+<h3>Output</h3>
+<p>Output number aksed in description.</p>
+<h3>Example</h3>
+<pre><strong>Input:<div id="_mcePaste" style="position: absolute; left: -10000px; top: 169px; width: 1px; height: 1px; overflow: hidden;">3</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 169px; width: 1px; height: 1px; overflow: hidden;">6 16</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 169px; width: 1px; height: 1px; overflow: hidden;">4 16</div>4</strong></pre>
+<pre><strong>6 16</strong></pre>
+<pre><strong>4 16</strong></pre>
+<pre><strong>1 14</strong></pre>
+<pre><strong>3 7</strong></pre>
+<pre><strong><div id="_mcePaste" style="position: absolute; left: -10000px; top: 169px; width: 1px; height: 1px; overflow: hidden;">1 14</div></strong>
+<strong>Output:</strong>
+0</pre>
+<pre>27</pre>
+<pre>14</pre>
+<pre>2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/budabudimir">Buda IM (retired)</a></td></tr>
+<tr><td>Date:</td><td>2012-12-08</td></tr>
+<tr><td>Time limit:</td><td>0.093s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Known Problem</td></tr>	
+</table>

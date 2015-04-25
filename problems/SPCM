@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPCM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17714. Gopu and function</h1>
+		<h2>Problem code: SPCM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Once Gopu was reading a maths problem which had a weird looking function f as follows.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1, if n is a prime number.<br /><strong>f(n) &nbsp;=</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f (sum of prime divisors of n) + number of distinct prime divisors of n, &nbsp;otherwise.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>Compute f (n) for a given value of n.&nbsp;</p>
+<h3>Input</h3>
+<p>First line contains T : number of test cases. (1 &lt;= T &lt;= 20)</p>
+<p>For each test case, there is a single line containing integer n. (2 &lt;= n &lt;= 10^12).</p>
+<h3>Output</h3>
+<p>For each test case, output value of f (n) in a single line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+6<br />2<br />3<br />4<br />5<br />20<br />123456&nbsp;</pre>
+<pre><strong>Output:<br /></strong>1<br />1<br />2<br />1<br />3<br />6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-12-23</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

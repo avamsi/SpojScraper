@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MYQ1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10639. The Blind Passenger</h1>
+		<h2>Problem code: MYQ1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The seats of an Ultra Deluxe Semi-sleeper bus in Thuvax country are numbered according to the following rules: <br />&nbsp;<br />1. Seat number 1 is reserved for the bus conductor. <br />2. Remaining seats are numbered as shown in the figure below: <br />&nbsp;<br />The seating arrangement is as shown below <br />&nbsp;<br />RowNo Left&nbsp;&nbsp; Right &nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W&nbsp; A&nbsp;&nbsp; A&nbsp; M&nbsp; W <br />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01 <br />1&nbsp;&nbsp;&nbsp;&nbsp; 02 03&nbsp; 04 05 06 <br />2&nbsp;&nbsp;&nbsp;&nbsp; 11 10&nbsp; 09 08 07 <br />3&nbsp;&nbsp;&nbsp;&nbsp; 12 13&nbsp; 14 15 16<br />4&nbsp;&nbsp;&nbsp;&nbsp; 21 20&nbsp; 19 18 17<br />5&nbsp;&nbsp;&nbsp;&nbsp; 22 ............ <br />&nbsp; <br />A blind person enters the bus with a reservation ticket mentioning his seat number. He meets you at the start of the passage and&nbsp;shows you his ticket. Based on the seat number, help him find his seat by telling him the row number (1,2,...), seat position(window or aisle or middle), and the direction(left or right).</p>
+<h3>Input</h3>
+<p>First line contains a positive integer t(t&lt;=10^5) denoting the number of test cases. <br />Each of the next t lines contain a positive integer n(n&lt;=10^9) denoting the blind person's seat number.</p>
+<h3>Output</h3>
+<p>Output one line for every test case in the following format: <br />If the seat number is same as the conductor's seat, print "poor conductor" else, <br />print &lt;row_number&gt; &lt;seat_position&gt; &lt;direction&gt; <br />row_number: represents the row number from the entrance (a positive integer) &nbsp;<br />seat_position: can be one of "W" or "A" or "M" for window, aisle and middle respectively. <br />direction: can be either "L" or "R" for left or right respectively.</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /></strong>3 <br />1 <br />2 <br />3
+
+<strong>Output:</strong>
+poor conductor <br />1 W L <br />1 A L</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/chakradarraju">jack(chakradarraju)</a></td></tr>
+<tr><td>Date:</td><td>2012-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.170s-0.503s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2012</td></tr>	
+</table>

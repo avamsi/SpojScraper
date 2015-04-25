@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IWGBS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10676. 0110SS</h1>
+		<h2>Problem code: IWGBS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Dor is IWGolymp student so he has to count in how many ways he can make N digit numbers that is formed by ones and zeroes.But zeroes can not be next to each other .Help to him in how many differnt numbers can he make .</h3>
+<p>ex:3</p>
+<p>101,010,111,110,011</p>
+<h3>Input</h3>
+<p>A number N &nbsp;&nbsp; N&lt;=10000</p>
+<h3>Output</h3>
+<p>Answer for the problem</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+<strong>Output:</strong>
+3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/emil_bek">Azat Taryhchiyev</a></td></tr>
+<tr><td>Date:</td><td>2012-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.100s-3.085s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOTOKNOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3393. Knot or Not</h1>
+		<h2>Problem code: NOTOKNOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Disentangling of string loops is a classical 3D- puzzle. A designer of one of these puzzles wants
+to know if two given string loops can be disentangled or not. <br> <br>
+The designer says that a string loop configuration that can be disentangled is a Notknot. In
+fact, he says that knots are those string loops that can not be disentangled. <br> <br>
+Your task is to write a program to help the puzzle designer deciding if some configurations
+can or cannot be disentangled. In the problems that you are going to solve, loops are defined by
+straight segments in the space between points with integer coordinates. Then, a loop is described
+with a list of p points with integral coordinates for some p &#8805; 3. <br> <br>
+
+<h3>Input</h3>
+<p>Input consists of N test cases (1 &#8804; N &#8804; 1000). The number N is given in the first line of the input.<br><br> 
+Each test case contains the description of two loops, each one in a line. A description for a p points loop (3 &#8804; p &#8804; 20) is given in one input line with 3p integer numbers separated by blanks:<br> <br><p><p>
+<center> x1 y1 z1 x2 y2 z2 . . . xp yp zp </center>
+<br><br><p><p>
+    what represents the loop:<br><br><p><p>
+                     <p> <center>(x1 , y1 , z1 ) &#8722; (x2 , y2 , z2 ) &#8722; &#183; &#183; &#183; &#8722; (xp , yp , zp ) &#8722; (x1 , y1 , z1 )</center><br><br><p><p>
+    where there is a straight segment between adjacent coordinates.<br>
+<h3>Output</h3>
+<p>For each analyzed case, one line classifying the case: Notknot or Knot.
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+3
+10 0 0 0 0 -10 0 10 0 0 0 10
+5 0 0 -10 -10 0 0 5 0 10 10 0
+10 0 0 0 0 -10 0 10 0 0 0 10
+15 0 0 -10 -10 0 0 5 0 10 10 0
+1 0 0 0 1 0 0 0 1
+10 10 0 0 10 0 0 0 10 10 0 0 25 5 0 3 3 0
+
+
+<b>Output:</b>
+Notknot
+Knot
+Notknot
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dilaang">Daniel Gómez Didier</a></td></tr>
+<tr><td>Date:</td><td>2008-11-19</td></tr>
+<tr><td>Time limit:</td><td>4s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>2008 U.Catolica & U.Central - Circuito de maratones ACIS / REDIS</td></tr>	
+</table>

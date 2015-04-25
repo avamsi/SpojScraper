@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL0_C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12960. Collision on Christmas Eve</h1>
+		<h2>Problem code: VPL0_C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-size: small;"><span style="white-space: normal;"><p style="margin-bottom: 0in;">Danny is preparing to receive his christmas gift, their parents said that it is a very awesome gift and Danny could not think on anything else than what is inside the box. </p>
+<p style="margin-bottom: 0in;"> Weeks ago, the parents of Danny gave him a homework that Danny didn&rsquo;t complete because it was too boring for him, but suddenly, at December 25th, the parents are asking Danny to give the answer of his homework! Danny is falling into desperation and requires your help. </p>
+<p style="margin-bottom: 0in;"> Now, before giving the christmas gift, the parents asked Danny for the homework, and it goes like this: given two numbers N and K, find the number with the largest quantity of divisors following the progression: A<span style="font-size: xx-small;">0</span>=1, A<span style="font-size: xx-small;">1</span>=A<span style="font-size: xx-small;">0</span>+K+1, A<span style="font-size: xx-small;">2</span>=A<span style="font-size: xx-small;">1</span>+K+2, and so on. The value of A<span style="font-size: xx-small;">n</span>&nbsp;should not exceed the number N given. </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Input </strong></p>
+<p style="margin-bottom: 0in;">The first line contains an integer T , which specifies the number of test cases. Then, will follow the descriptions of T test cases. Each case contains only two numbers N and K, giving the maximum number to evaluate and the value of the progression&rsquo;s constant. </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><em>The input must be read from standard input. </em></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Output </strong></p>
+<p style="margin-bottom: 0in;">For each input case you must print the string "Scenario #i: " where i is the test case you&rsquo;re analyzing (starting by 1), followed by the number who contains the largest quantity of divisors in it with the number of divisors associated, in case of a tie, choose the smaller. </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><em>The output must be written to standard output. </em></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup>
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><strong>Input</strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><strong>Output for sample input</strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>4</p>
+<p>4 0</p>
+<p>28 1</p>
+<p>2 2</p>
+<p>78 3</p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p>Scenario #1: 4 3</p>
+<p>Scenario #2:&nbsp;28 6</p>
+<p>Scenario #3:&nbsp;1 1</p>
+<p>Scenario #4:&nbsp;40 8</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Subtask 1 - 20% </strong></p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; N &le; 1,000 </p>
+<p style="margin-bottom: 0in;"> &bull; 10 &le; K &le; 100 </p>
+<p style="margin-bottom: 0in;"><strong>Subtask 2 - 30% </strong></p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; N &le; 100,000 </p>
+<p style="margin-bottom: 0in;"> &bull; 0 &le; K &le; 100 </p>
+<p style="margin-bottom: 0in;"><strong>Subtask 3 - 50% </strong></p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; N &le; 10,000,000 </p>
+<p style="margin-bottom: 0in;"> &bull; 0 &le; K &le; 100&nbsp;</p></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-12-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for VPL0-Contest</td></tr>	
+</table>

@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CWC2015"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23541. CWC-2015</h1>
+		<h2>Problem code: CWC2015</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Its cricket world cup 2015. Bangladesh team coach Chandika Hathurusingha wants to choose the best team combination for the world cup. But there are so many options, because there are so many good Qualified and experienced players. So he plans several steps for choosing the best team combination. The first step is, he divided N player in two groups such that each group has the same number of players. And sum of players experience of both groups will be same. But doing this he saw it is a very difficult task. Now Chandika Hathurusingha needs your help. He know that you are a good programmer. He gives you list of N player name and experience. You have to find out, is it possible to doing this first step according to his plan.</p>
+<p>Input:</p>
+<p>Input start with an integer (T&le;100). Which denotes the number of test case. Each test case start with an integer (1&le;N&le;40) which denotes the number of player in the list. Then next line will be N space separate integer (1&le;x&le;1000000), which is player Experience.</p>
+<p>Output:</p>
+<p>For each case, print the case number and if possible print &ldquo;Yes&rdquo; or Not possible print &ldquo;No&rdquo;.</p>
+<p>&nbsp;</p>
+<p>Sample Input:<br />2<br />6<br />1 2 3 4 5 6<br /> 4<br /> 2 3 4 5</p>
+<p>Sample Output:</p>
+<p>Case 1: No<br /> Case 2: Yes<br /><br /><br /><br />Problem Setter: Tanvir Hasan Anick</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/najmuzzaman">Najmuzzaman</a></td></tr>
+<tr><td>Date:</td><td>2015-04-08</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

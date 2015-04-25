@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DINOSM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7187. Dinosaur Menace</h1>
+		<h2>Problem code: DINOSM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>After a failed but interesting DNA project, a lot of dinosaurs spread over the lab devouring<br />most of the staff. Jeff, a scientist that worked in the project, managed to survive by hiding in<br />the southwest corner of the lab. Now that all dinosaurs are asleep, he is going to try to leave.<br />The exit of the lab is located at the northeast corner.<br />Jeff knows that if any of the dinosaurs wakes up, he does not stand a chance, so he needs to<br />minimize the likelihood of that happening. For that, he wants to follow a path that maximizes<br />the minimum distance from him to a dinosaur along the path. The length of the path is of no<br />interest to Jeff.<br />For this problem we consider that Jeff and the dinosaurs are points on the plane, and that Jeff&rsquo;s<br />path is a continuous curve conecting the southwest and northeast corners of the lab. As we<br />mentioned, Jeff wants to maximize the minimum distance between this curve and the position<br />of any dinosaur.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in several lines. The first line of each<br />test case contains three integers N , W , and H separated by single spaces. The value N is the<br />number of dinosaurs in the lab (1 &le; N &le; 300). The values W (width) and H (height) are the<br />size of the lab on the x and y coordinates, respectively (2 &le; W, H &le; 10<sup><sub>6</sub></sup> ). This means that<br />the starting position of Jeff is at (0, 0), while the exit of the lab is located at (W, H). Each<br />of the next N lines contains two integers X and Y separated by a single space, representing<br />the coordinates of a different dinosaur (1 &le; X &le; W &minus; 1 and 1 &le; Y &le; H &minus; 1). Note that no<br />dinosaur is located on the border of the lab. You may assume that no two dinosaurs have the<br />same location. The last line of the input contains the number &minus;1 three times separated by<br />single spaces and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with the maximum possible distance to the closest<br /> dinosaur. Write the result rounded to the closest number with exactly three decimal places,<br /> using the highest in case of ties, as usual.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 2 2<br />1 1<br />3 5 4<br />1 3<br />4 1<br />1 2<br />2 5 4<br />1 3<br />4 1<br />-1 -1 -1<br /><br /><strong>Output:</strong>
+1.000<br />1.581<br />1.803</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>1.179s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

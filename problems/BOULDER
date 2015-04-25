@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOULDER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13365. Move the boulder</h1>
+		<h2>Problem code: BOULDER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A huge boulder is somehow blocking a public square. The citizens, each one of them approaching from his/her street, decide to remove it. Each citizen can try to either push the boulder away from him, pull it towards him, or choose to do nothing. (note that the citizens cannot change their direction relative to the boulder). Obviously, they want to remove the boulder as quickly as possible - in other words, they want to maximise the magnitude of the net force they apply. Tell them what this maximum possible magnitude is.</p>
+<h3>Input</h3>
+<p>The first line contains T (1&le;T&le;15), the number of test cases.</p>
+<p>For each test case, the first line contains N (1 &le; N &le; 10<sup>5</sup>), the number of citizens. Each of the next N lines contains four integers (seperated by single spaces) :</p>
+<ul>
+<li>The first two integers (each &le; 10<sup>9</sup>)&nbsp;represent the x and y components (respectively) of the direction in which the citizen would push. If he pulls, it would be in the exactly opposite diretion. Note that this given "direction vector" does not necessarily have magnitude 1. However, its magnitude is indeed a meaningless quantity.</li>
+<li>The next two integers F<sub>pull</sub>&nbsp;and F<sub>push </sub>(1 &le; F<sub>pull</sub>, F<sub>push</sub>&nbsp;&le; 10<sup>5</sup>)&nbsp;represent the magnitude of the force the citizen applies while pulling and pushing, respectively.</li>
+</ul>
+<h3>Output</h3>
+<p>For each test case, output a single decimal number, correct to 6 digits after the decimal point, representing the maximum possible magnitude of resultant force.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>3</pre>
+<pre>1 0 5 3</pre>
+<pre>-3 0 12 6</pre>
+<pre>0 1 4 7</pre>
+<pre>1</pre>
+<pre>13 6 58 24</pre>
+<pre><strong>Output:</strong>
+16.5529</pre>
+<pre>58</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anilshanbhag">Anil Shanbhag</a></td></tr>
+<tr><td>Date:</td><td>2013-01-15</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 PYPY PY3.4 VB.net </td></tr>
+	
+</table>

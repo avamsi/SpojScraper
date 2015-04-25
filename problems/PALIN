@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PALIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5. The Next Palindrome</h1>
+		<h2>Problem code: PALIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">A positive integer is called a <em>palindrome</em> if its representation in the decimal system is the same when read from left to right and from right to left. For a given positive integer <em>K</em> of not more than 1000000 digits, write the value of the smallest palindrome larger than <em>K</em> to output. Numbers are always displayed without leading zeros.</p>
+<h3>Input</h3>
+<p align="justify">The first line contains integer <em>t</em>, the number of test cases. Integers <em>K</em> are given in the next <em>t</em> lines.</p>
+<h3>Output</h3>
+<p align="justify">For each <em>K</em>, output the smallest palindrome larger than <em>K</em>.</p>
+<h3>Example</h3>
+<p><tt><strong>Input:</strong></tt><br /> 2<br /> 808<br /> 2133</p>
+<p><tt><strong>Output:</strong></tt><br /> 818<br /> 2222</p>
+<p><strong>Warning: large Input/Output data, be careful with certain languages</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-01</td></tr>
+<tr><td>Time limit:</td><td>2s-9s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken </td></tr>
+	
+</table>

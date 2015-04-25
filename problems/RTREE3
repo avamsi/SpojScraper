@@ -1,0 +1,143 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RTREE3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22561. Roger and tree III</h1>
+		<h2>Problem code: RTREE3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Roger was able to solve his problem based on tree last time , only because of your help. He has been doing good and is learning and</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">practicing various problems on trees (as he likes solving problems on connected undirected acyclic graphs). This time he is stuck with</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">a harder problem and has spent almost a week trying to solve this problem, with no efficint solution till now. But, he has you as his</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">friend and he knows that only you can help him with your excellent programming skills.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">You will be given an input in the form of a growing tree. ie; Initially you have a tree consisting only of vertex 1.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">At each step the tree will grow. So next, vertex u will be connected to vertex 1, then vertex v will be connected to either</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">vertex 1 or vertex u, and so on till you get a tree consisting of 'N' vertex.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">However, at any instant of time while adding the vertexes you will be given a vertex 'x' (which is already present in the tree grown so far),</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">and you will be asked to print the eccentricity of the given vertex x.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Let G be a graph and 'x' be a vertex of G.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">The eccentricity of the vertex 'x' is the maximum distance from 'x' to any vertex present in G.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">That is, e (x) = max {d (x, y) : y is in G}.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Of Course vertex y, should also be present in the tree, grown so far.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Along with the eccentricity , you should also print the vertex 'y'.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Please help Roger.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">INPUT FORMAT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">First line contains 'N' and 'M', where N = Number of nodes in the tree and M = Number of Queries.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Next M lines will either have an input of the type "U x y" or "Q x".</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">For the input of type "U x y", &nbsp;you have to connect the vertex 'y' to the vertex 'x', where vertex 'x' is already present</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">in the tree and vertex 'y' is the new vertex. Obviously there will be (N - 1) inputs of type "U x y".</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">OUTPUT FORMAT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">For each input of type "Q x", you have to print the eccentricity of vertex 'x', followed by the vertex 'y'.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">If there are multiple such 'y'. Print the smallest 'y'.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">CONSTRAINTS</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 &lt;= N &lt;= 10^5</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 &lt;= x, y &lt;= N</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Sum of both the type of Queries won't exceed (2 * N)</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE INPUT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">5 8</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 1 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 4 2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 1 5</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 5 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE OUTPUT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">0 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2 2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">4 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">EXPLANATION</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Initially the tree has vertex 1.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 0.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 1 4 =&gt; Connect vertex 4 to vertex 1.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 1.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 4 2 =&gt; Connect vertex 2 to vertex 4.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 1 5 =&gt; Connect vertex 5 to vertex 1.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">U 5 3 =&gt; Connect vertex 3 to vertex 5.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 2. Vertex 2 and Vertex 3 both are at a distance of 2 from vertex 1. Print the smaller one.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 27.2px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 2 &nbsp; =&gt; Eccentricity of vertex 2 is 4.</span></div>
+<p><span style="font-size: small;">Roger was able to solve his problem based on tree last time , only because of your help. He has been doing good and is learning and&nbsp;practicing various problems on trees (as he likes solving problems on connected undirected acyclic graphs). This time he is stuck with&nbsp;a harder problem and has spent almost a week trying to solve this problem, with no efficient solution till now. But, he has you as his&nbsp;friend and he knows that only you can help him with your excellent programming skills.</span></p>
+<p><span style="font-size: small;">You will be given an input in the form of a growing tree. ie; Initially you have a tree consisting only of vertex <strong>1</strong>.&nbsp;At each step the tree will grow. So next, vertex <strong>u</strong> will be connected to vertex <strong>1</strong>, then vertex <strong>v</strong> will be connected to either&nbsp;vertex <strong>1</strong> or vertex <strong>u</strong>, and so on till you get a tree consisting of <strong>'N'</strong> vertex.&nbsp;However, at any instant while adding the vertexes you will be given a vertex <strong>'x'</strong> (which is already present in the tree grown so far),&nbsp;and you will be asked to print the eccentricity of the given vertex <strong>x.</strong></span></p>
+<p><span style="font-size: small;">Let <strong>G</strong> be a graph and<strong> 'x' </strong>be a vertex of G.</span></p>
+<p><span style="font-size: small;">The eccentricity of the vertex <strong>'x'</strong> is the maximum distance from 'x' to any vertex present in G.</span></p>
+<p><span style="font-size: small;">That is, <strong>e (x) = max {d (x, y) : y is in G}.</strong></span></p>
+<p><span style="font-size: small;">Of Course vertex<strong> y</strong>, should also be present in the tree, grown so far.</span></p>
+<p><span style="font-size: small;">Along with the eccentricity , you should also print the vertex <strong>'y'</strong>.</span></p>
+<p><span style="font-size: small;">Please help Roger.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>INPUT FORMAT</strong></span></p>
+<p><span style="font-size: small;">First line contains <strong>'N'</strong> and<strong> 'M'</strong>, where N = Number of nodes in the tree and M = Number of Queries.</span></p>
+<p><span style="font-size: small;">Next M lines will either have an input of the type <strong>"U x y" </strong>or <strong>"Q x".</strong></span></p>
+<p><span style="font-size: small;">For the input of type <strong>"U x y"</strong>, &nbsp;you have to connect the vertex <strong>'y'</strong> to the vertex <strong>'x'</strong>, where vertex<strong> 'x'</strong> is already present</span></p>
+<p><span style="font-size: small;">in the tree and vertex <strong>'y'</strong> is the new vertex. Obviously there will be <strong>(N - 1)</strong> inputs of the type <strong>"U x y"</strong>.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>OUTPUT FORMAT</strong></span></p>
+<p><span style="font-size: small;">For each input of the type<strong> "Q x"</strong>, you have to print the eccentricity of vertex <strong>'x'</strong>, followed by the vertex <strong>'y'</strong>.</span></p>
+<p><span style="font-size: small;">If there are multiple such<strong> 'y'</strong>. Print the <strong>smallest 'y'</strong>.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>SAMPLE INPUT</strong></span></p>
+<p><span style="font-size: small;">5 8</span></p>
+<p><span style="font-size: small;">Q 1</span></p>
+<p><span style="font-size: small;">U 1 4</span></p>
+<p><span style="font-size: small;">Q 1</span></p>
+<p><span style="font-size: small;">U 4 2</span></p>
+<p><span style="font-size: small;">U 1 5</span></p>
+<p><span style="font-size: small;">U 5 3</span></p>
+<p><span style="font-size: small;">Q 1</span></p>
+<p><span style="font-size: small;">Q 2</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>SAMPLE OUTPUT</strong></span></p>
+<p><span style="font-size: small;">0 1</span></p>
+<p><span style="font-size: small;">1 4</span></p>
+<p><span style="font-size: small;">2 2</span></p>
+<p><span style="font-size: small;">4 3</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>EXPLANATION</strong></span></p>
+<p><span style="font-size: small;">Initially the tree has vertex 1.</span></p>
+<p><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 0.</span></p>
+<p><span style="font-size: small;">U 1 4 =&gt; Connect vertex 4 to vertex 1.</span></p>
+<p><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 1.</span></p>
+<p><span style="font-size: small;">U 4 2 =&gt; Connect vertex 2 to vertex 4.</span></p>
+<p><span style="font-size: small;">U 1 5 =&gt; Connect vertex 5 to vertex 1.</span></p>
+<p><span style="font-size: small;">U 5 3 =&gt; Connect vertex 3 to vertex 5.</span></p>
+<p><span style="font-size: small;">Q 1 &nbsp; =&gt; Eccentricity of vertex 1 is 2. Vertex 2 and Vertex 3 both are at a distance of 2 from vertex 1. Print the smaller one.</span></p>
+<p><span style="font-size: small;">Q 2 &nbsp; =&gt; Eccentricity of vertex 2 is 4.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>CONSTRAINTS</strong></span></p>
+<p><span style="font-size: small;">1 &lt;= N &lt;= 10^5</span></p>
+<p><span style="font-size: small;">N - 1 &lt;= M &lt;= 2*N</span></p>
+<p><span style="font-size: small;">1 &lt;= x, y &lt;= N</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ranasaha">Rana Saha</a></td></tr>
+<tr><td>Date:</td><td>2015-01-31</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (Codecracker 2015)</td></tr>	
+</table>

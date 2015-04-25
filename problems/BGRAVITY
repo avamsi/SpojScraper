@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BGRAVITY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19367. St Bernard and Gravity</h1>
+		<h2>Problem code: BGRAVITY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>St. Bernard's</strong> new game is played on an R&times;C board. Initially every square is either empty or blocked by a wall. Bernard throws a rock into the board by putting it in the topmost row of a column and then letting gravity do the rest.</p>
+<p style="font-family: verdana;">Gravity works as follows:<br /> =&gt; If the square under the rock is a wall or if the rock is in the bottom row of a column, then the rock remains there.<br /> =&gt; If the square under the rock is empty, then the rock moves to that square.<br /> =&gt; If the square under the rock contains another rock, then the falling rock may slide sideways :<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o If the squares left and left-down of the rock are empty, then the rock slides one square left.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o If the rock doesn't slide left and the  squares to the right and right-down are empty, then the rock slides one  square right.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Otherwise, the rock remains there and never moves again.<br /> Bernard will never throw another rock while the previous rock hasn't settled down.<br /> Write a program that draws the board after Bernard throws all his rocks into the board, if we know the columns that Bernard threw his rocks into, in order.<br /> <strong>Note:</strong> Bernard will never throw a rock into column in which the top row isn't empty.</p>
+<p style="font-family: verdana;"><strong>INPUT</strong></p>
+<p style="font-family: verdana;">The first line contains integers R and C (1&lt;=R&lt;=30000,1&lt;=C&lt;=30), the size of the board.<br /> Each of the following R lines contains C characters, the initial layout of the board. A '.' represents an empty field, while the uppercase letter 'X' is a square blocked by a wall.<br /> The next line contains an integer N (1&lt;=N&lt;=100000), the number of rocks Bernard throws.<br /> Each of the following N lines contains an integer between 1 and C, the column into which Bernard throws a rock (the leftmost column is column 1).</p>
+<p>&nbsp;</p>
+<p style="font-family: verdana;"><strong>OUTPUT</strong></p>
+<p style="font-family: verdana;">Output R lines, each containing C characters, the final layout of the board. Rocks should be presented with an uppercase letter 'O'.</p>
+<p style="font-family: verdana;"><strong>SAMPLE</strong></p>
+<p style="font-family: verdana;"><strong>Input</strong><br /> 5 4<br /> ....<br /> ....<br /> X...<br /> ....<br /> ....<br /> 4<br /> 1<br /> 1<br /> 1<br /> 1<br /> <strong>Output</strong><br /> ....<br /> O...<br /> X...<br /> ....<br /> OOO.<br /><br /> <strong>Input</strong><br /> 7 6<br /> ......<br /> ......<br /> ...XX.<br /> ......<br /> ......<br /> .XX...<br /> ......<br /> 6<br /> 1<br /> 4<br /> 4<br /> 6<br /> 4<br /> 4<br /> <strong>Output</strong><br /> ......<br /> ...O..<br /> ...XX.<br /> ......<br /> .OO...<br /> .XX...<br /> O..O.O<br /><br /> <strong>In the first example</strong>, all rocks are thrown in the first column. The first rock stops on the wall. The second rock falls on the first, slides right and stops at the bottom of the second column. The third rock falls on the first then on the second rock, slides left and rests at the bottom of the first column. The fourth rock falls on the first then on the second, then slides right.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ipg_2011090">BLANKRK</a></td></tr>
+<tr><td>Date:</td><td>2014-04-03</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

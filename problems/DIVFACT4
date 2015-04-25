@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIVFACT4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22549. Divisors of factorial (extreme)</h1>
+		<h2>Problem code: DIVFACT4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Find the number of divisors of <strong><em>N</em></strong>! (factorial) very fast !</p>
+<h3>Input</h3>
+<p>The first line contains an integer <em><strong>T</strong></em>, the number of test cases.</p>
+<p>Each line of the next <strong><em>T</em></strong> lines contains two integers <em><strong>N</strong></em> and <strong><em>M</em></strong>.</p>
+<h3>Output</h3>
+<p>For each line, output a single line containing the number of divisors of <strong><em>N</em></strong>! (modulo <em><strong>M</strong></em>).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+10 989
+10000 999989
+10000000000 999999999989
+</pre>
+<pre><strong>Output:</strong>
+270
+616797
+40946947081
+</pre>
+<h3>Constraints</h3>
+<p>1 &le; <strong><em>T</em></strong> &le; 10<sup>4</sup><br /> 0 &le; <em><strong>N</strong></em> &le; 10<sup>11</sup><br /> 1 &le; <em><strong>M</strong></em> &le; 10<sup>12</sup></p>
+<h3>Information</h3>
+<p>There are 5 input files.</p>
+<p>- Input #1: <strong><em>T</em></strong> &le; 10<sup>4</sup>, <em><strong>N</strong></em> &le; 10<sup>4</sup>, TL = 1s</p>
+<p>- Input #2: <strong><em>T</em></strong> &le; 5, <strong><em>N</em></strong> &le; 10<sup>8</sup>, TL = 20s</p>
+<p>- Input #3: <em><strong>T</strong></em> &le; 5, <em><strong>N</strong></em> &le; 10<sup>9</sup>, TL = 20s</p>
+<p>- Input #4: <em><strong>T</strong></em> &le; 5, <em><strong>N</strong></em> &le; 10<sup>10</sup>, TL = 20s</p>
+<p>- Input #5: <em><strong>T</strong></em> &le; 5, <em><strong>N</strong></em> &le; 10<sup>11</sup>, TL = 20s</p>
+<p>My total running time is 3.14 sec. (C++)</p>
+<h3>Credits</h3>
+<ul>
+<li><a href="../../../users/ravi_shank/">ivar.raknahs</a>&nbsp;-&nbsp;the original problem (<a href="../DIVFACT/">DIVFACT</a>) author</li>
+<li><a href="../../../users/francky/">Francky</a>&nbsp;- the author of <a href="../DIVFACT2">DIVFACT2</a> and <a href="../DIVFACT3/">DIVFACT3</a></li>
+</ul>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/min_25">Min_25</a></td></tr>
+<tr><td>Date:</td><td>2015-01-30</td></tr>
+<tr><td>Time limit:</td><td>1s-20s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>DIVFACT</td></tr>	
+</table>

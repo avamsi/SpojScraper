@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/islam_taha"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/FRMT" target="_blank">21092. DRAW TABLE</a></td><td><a href="http://www.spoj.com/problems/FRMT"target="_blank">FRMT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC13" target="_blank">21187. Increasing Shortest Path</a></td><td><a href="http://www.spoj.com/problems/ACPC13"target="_blank">ACPC13</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EQUIPASS" target="_blank">23153. Equivalent Passwords</a></td><td><a href="http://www.spoj.com/problems/EQUIPASS"target="_blank">EQUIPASS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FEAST" target="_blank">23237. Feast Coins</a></td><td><a href="http://www.spoj.com/problems/FEAST"target="_blank">FEAST</a><br>
+</td></tr>

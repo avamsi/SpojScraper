@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/aekdycoin"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CIRU" target="_blank">8073. The area of the union of circles</a></td><td><a href="http://www.spoj.com/problems/CIRU"target="_blank">CIRU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NUMG" target="_blank">8074. God of Number Theory</a></td><td><a href="http://www.spoj.com/problems/NUMG"target="_blank">NUMG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQN" target="_blank">8075. Sequence</a></td><td><a href="http://www.spoj.com/problems/SEQN"target="_blank">SEQN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYU" target="_blank">8108. POLYU</a></td><td><a href="http://www.spoj.com/problems/POLYU"target="_blank">POLYU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRUT" target="_blank">8119. CIRU2</a></td><td><a href="http://www.spoj.com/problems/CIRUT"target="_blank">CIRUT</a><br>
+</td></tr>

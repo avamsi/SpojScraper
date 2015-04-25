@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TDPRIMES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6471. Printing some primes</h1>
+		<h2>Problem code: TDPRIMES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The problem statement is really simple. You are to write all primes less than 10^8
+
+<h3>Input</h3>
+<p>There is not input
+
+<h3>Output</h3>
+<p>To make the problem less output related write out only the 1st, 101st, 201st, ... 1st mod 100.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+<b>Output:</b>
+2
+547
+1229
+...
+99995257
+99996931
+99998953
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mukel">Alfonso2 Peterssen</a></td></tr>
+<tr><td>Date:</td><td>2010-04-06</td></tr>
+<tr><td>Time limit:</td><td>1.325s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASM BF CLPS LISP clisp LISP sbcl ERL HASK ICON ICK JAR JS LUA NEM NICE CAML PHP PIKE PRLG SCALA SCM chicken SCM guile SCM qobi ST TCL WSPC </td></tr>
+<tr><td>Resource:</td><td>Thanks to TDuke</td></tr>	
+</table>

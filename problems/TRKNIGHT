@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRKNIGHT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5975. Travelling Knight</h1>
+		<h2>Problem code: TRKNIGHT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your task is simple. A knight is placed on the top left corner of a chessboard having 2n rows and 2n columns. In how many ways can it move such that it ends up at a corner after atmost K moves ?<br /><br /></p>
+<p style="text-align: center;"><strong>Input</strong></p>
+<p><br />The first line contains T the number of test cases. Each of the next T lines contain 2 integers : n,k</p>
+<p style="text-align: center;"><br /><strong>Output</strong></p>
+<p>Output T lines, one for each test case, containing the required total number of configurations. Since the answers can get very big, output the answer modulo 1000007.</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p>Sample Input :<br />3<br />2 1<br />2 2<br />3 3<br /><br />Sample Output :<br />1<br />5<br />7<br /><br /></p>
+<p style="text-align: center;"><strong>Constraints</strong></p>
+<p><br />1 &lt;= T &lt;= 20<br />2 &lt;= n &lt;= 12<br />1 &lt;= k &lt;= 1000000000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-01-25</td></tr>
+<tr><td>Time limit:</td><td>0.839s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Codechef Snackdown Onsite</td></tr>	
+</table>

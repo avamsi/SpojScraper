@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FIBTWIST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11409. Fibonacci With a Twist</h1>
+		<h2>Problem code: FIBTWIST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Fibonacci numbers are given by&nbsp;</p>
+<p>f(n)=f(n-1) + f(n-2)</p>
+<p>with f(0) =0 &nbsp; &nbsp; &nbsp; &amp; &nbsp; &nbsp; &nbsp; &nbsp;f(1) =1</p>
+<p>first number of series ------ 0 &nbsp;1 &nbsp;1 &nbsp;2 &nbsp;3 &nbsp;5 &nbsp;8 &nbsp;13&nbsp;</p>
+<p>Now lets have a new series called "Fibonacci Twist" which is given by&nbsp;</p>
+<p>ft(n) = ft(n-1) + ft(n-2) + (n-1) &nbsp;</p>
+<p>with ft(0) = 0 &nbsp;&amp; ft(1) =1</p>
+<p>with first few number in the series ----- 0 &nbsp;1 &nbsp;2 &nbsp;5 &nbsp;10 &nbsp;19 &nbsp;34 &nbsp;59&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now your task is to find ft(n).</p>
+<p>Since the number can be Big you have to find the result mod M.</p>
+<h3>Input</h3>
+<p>first line having single number 't' -- number of test cases.</p>
+<p>next t lines have 2 number each &nbsp; &nbsp; 'n' and 'M'</p>
+<h3>Output</h3>
+<p>Single number given the nth term mod M</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+</pre>
+<pre>3</pre>
+<pre>5 20</pre>
+<pre>10 77</pre>
+<pre>15  111
+
+<strong>Output:</strong>
+
+</pre>
+<pre>19</pre>
+<pre>45</pre>
+<pre>69</pre>
+<pre><strong>NOTE </strong>-</pre>
+<pre>10&lt;=t&lt;=100</pre>
+<pre>0&lt;=n&lt;=10^9</pre>
+<pre>100&lt;=M&lt;=10^9</pre>
+<pre><strong>Explanation </strong>- </pre>
+<pre>1)  ft(5) is 19 . 19%20 = 19</pre>
+<pre>2)  ft(10) is 276 .  276%77  = 45</pre>
+<pre>3)  ft(15) is 3177 . 3177 %111=69</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/keedap">Devil D</a></td></tr>
+<tr><td>Date:</td><td>2012-04-19</td></tr>
+<tr><td>Time limit:</td><td>0.098s-0.426s</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

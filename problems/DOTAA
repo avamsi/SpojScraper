@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DOTAA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10286. DOTA HEROES</h1>
+		<h2>Problem code: DOTAA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<h1 style="text-align: center; "><strong><span style="font-family: verdana, geneva;">DOTA HEROES</span></strong></h1>
+<p><strong><span style="font-family: verdana, geneva;">&nbsp;</span></strong></p>
+<p><strong><span style="font-family: verdana, geneva;">Problem Description:</span></strong></p>
+<p><span style="font-family: verdana, geneva;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>Defence Of The Ancients(DOTA) is one of the most addictive online multiplayer games. There are n heroes in our team and our motto is to conquer the opponent&rsquo;s empire. To safeguard their empire, the opponents had constructed m towers on the path. If one or more heroes get into the sight of a tower, then the tower does D amount of damage to one of those heroes at that instant (i.e. one of the heroes&rsquo; health decreases by D). Any hero will die if his health H &lt;=0. &nbsp;Once a tower attacks one of the heroes at that instant, all of those at that instant get out of its sight. Find whether all of the heroes in our team can reach the opponent&rsquo;s empire alive.</span></p>
+<p><span style="font-family: verdana, geneva;">&nbsp;</span></p>
+<p><strong><span style="font-family: verdana, geneva;">Input Specification:</span></strong></p>
+<p><span style="font-family: verdana, geneva;">The first line consists of one integer t representing the number of test cases. For each test case, the first line consists of three integers n, m and D, the number of heroes, number of towers and the amount of Damage respectively. The next n lines consist of an integer representing the health of respective hero.</span></p>
+<p><strong><span style="font-family: verdana, geneva;">Output Specification:</span></strong></p>
+<p><span style="font-family: verdana, geneva;">Just a word &ldquo;YES&rdquo; if we can reach the opponent&rsquo;s empire alive, else &ldquo;NO&rdquo;.<br /> <br /> <strong>Input Constraints:</strong></span></p>
+<p><span style="font-family: verdana, geneva;">1&lt;=t&lt;=500</span></p>
+<p><span style="font-family: verdana, geneva;">1&lt;=n&lt;=500</span></p>
+<p><span style="font-family: verdana, geneva;">1&lt;=m&lt;=n</span></p>
+<p><span style="font-family: verdana, geneva;">1&lt;=D,H&lt;=20000</span></p>
+<p><span style="font-family: verdana, geneva;"><br /> <strong>Sample Input:</strong></span></p>
+<p><span style="font-family: verdana, geneva;">3</span></p>
+<p><span style="font-family: verdana, geneva;">6 3 400</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p><span style="font-family: verdana, geneva;">500</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana, geneva;">6 5 400</span></p>
+<p><span style="font-family: verdana, geneva;">800</span></p>
+<p><span style="font-family: verdana, geneva;">800</span></p>
+<p><span style="font-family: verdana, geneva;">801</span></p>
+<p><span style="font-family: verdana, geneva;">200</span></p>
+<p><span style="font-family: verdana, geneva;">200</span></p>
+<p><span style="font-family: verdana, geneva;">200</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana, geneva;">6 3 400</span></p>
+<p><span style="font-family: verdana, geneva;">401</span></p>
+<p><span style="font-family: verdana, geneva;">401</span></p>
+<p><span style="font-family: verdana, geneva;">400</span></p>
+<p><span style="font-family: verdana, geneva;">200</span></p>
+<p><span style="font-family: verdana, geneva;">400</span></p>
+<p><span style="font-family: verdana, geneva;">200</span></p>
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<p><strong><span style="font-family: verdana, geneva;">Sample Output:</span></strong></p>
+<p><span style="font-family: verdana, geneva;"> YES</span></p>
+<p><span style="font-family: verdana, geneva;">NO</span><span style="font-family: verdana, geneva;">&nbsp;</span></p>
+<p><span style="font-family: verdana, geneva;">NO</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana, geneva;"> <strong>Explanation of test case 1:</strong><br /> <br /> One of the possible solutions is <br /> First, three of the heroes can goes together. One of them receives 400 damage from the first tower and all of them cross it. Then while crossing the next tower, one of the heroes who is at 500 health gets 400 damage and all of them cross it. Then the third hero receives the damage when crossing the last tower. Similarly the other 3 heroes can reach the opponent&rsquo;s base together without dying.<br /></span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2011-12-25</td></tr>
+<tr><td>Time limit:</td><td>0.208s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

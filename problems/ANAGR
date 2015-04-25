@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANAGR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16243. Anagrams</h1>
+		<h2>Problem code: ANAGR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Two strings are said to be anagrams of each other if the letters of one string may be rearranged to make the other string.  In this problem you&#8217;ll be given two strings. Your job is to find if the two strings are anagrams of each other. If they are not anagrams then find the lexicographically smallest palindrome (in lowercase letters) that may be appended to the end of one of the two strings so that they become anagrams of each other.</p>
+<p>The lower and upper case letters are considered equivalent. The number of spaces  or any other punctuation is not important.</p>
+<p><br></p>
+
+<p><strong>INPUT:</strong></p>
+<p>The first line of the input contains a number T, the number of test cases. T test cases follow. Each test case consists of two lines, one string in each line.</p>
+<p><br></p>
+
+<p><strong>OUTPUT:</strong></p>
+<p>For each test case output a single line. Print &#8216;YES&#8217; (without the quotes) if the two strings are anagrams of each other. If they are not, then print the lexicographically smallest string as discussed above. If no such string exists, then print &#8216;NO LUCK&#8217; (without the quotes).</p>
+<p><br></p>
+
+<p><strong>CONSTRAINTS:</strong></p>
+<p>1<=T<=100</p>
+<p>1<=length of the strings<=100</p>
+<p><br></p>
+
+<p><strong>SAMPLE TEST CASES:</strong></p>
+
+<pre><b><u>INPUT:</b></u>
+
+4
+Computer programmer
+mature germ romp crop
+Awaaay
+away
+internet
+web
+the terminator
+I&#8217;m rotten hater
+
+<b><u>OUTPUT:</b></u>
+
+YES
+aa
+NO LUCK
+YES</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhinav92003">Abhinav92003</a></td></tr>
+<tr><td>Date:</td><td>2013-10-05</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

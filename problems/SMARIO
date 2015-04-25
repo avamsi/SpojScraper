@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SMARIO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19216. Super Mario</h1>
+		<h2>Problem code: SMARIO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;"><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>Statement</strong><br /><br />Mario is one the most famous video games ever. In this problem, we will be helping Mario save the princess(again :P). In this game of mario, <strong>each world will be represented by a 2-D rectangular grid</strong>. There are <strong>multiple worlds</strong> and all the worlds are of size RxC. The world contains many objects each covering exactly one cell.&nbsp;<br /><br />The cell with &lsquo;S&rsquo; denotes Mario&rsquo;s starting position. A cell with &lsquo;.&rsquo; denotes an empty cell over which Mario can walk safely. From that cell he can move to any of its 4 adjacent cells (which share an edge with it). A cell with &lsquo;D&rsquo; denotes a pipe that leads to the world below. A cell with &lsquo;U&rsquo; denotes a pipe that leads to the world above. If Mario enters a cell containing a pipe, he must enter the pipe. A cell with &lsquo;C&rsquo; represents a coin and Mario collects these. After collecting the coin, the cell becomes an empty cell. A cell with &lsquo;#&rsquo; denotes bricks and Mario can&rsquo;t enter this cell no matter what. A cell with &lsquo;M&rsquo; denotes the monster(Bowser), Mario has to defeat Bowser to save the princess. Mario initially start from an empty cell.&nbsp;<br /><br />Our Mario is very determined and so he will be always able to defeat Bowser on a 1 on 1 battle. But he is greedy and will always want to collect all the coins before going to save the princess. <strong>If he is not able to collect all the coins, he won&rsquo;t save the princess!</strong>. &nbsp;Help Mario to find the minimum number of steps to do this feat.&nbsp;</p>
+<p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>Note:</strong><br />If &lsquo;U&rsquo; is present in topmost world or &lsquo;D&rsquo; is present in the bottommost world, Mario can&rsquo;t enter the cell.&nbsp;</p>
+<p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>Input format:</strong><br /><br />Input contains multiple test cases (will never exceed 1000).&nbsp;<br /><br />First line of each test case will have 3 integers R, C and W.<br /><br />&lsquo;R X C&rsquo; represents Grid dimension and &lsquo;W&rsquo; represents number of worlds.<br />It will be followed by R X W lines. Each line will have &lsquo;C&rsquo; characters.<br /><br />First R lines describe the first world, second R lines describe the second world and so on upto W worlds.<br /><br />Input ends by the line, &ldquo;0 0 0&rdquo;.</p>
+<p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>Output format:</strong><br /><br />For each test case, print a single line &ldquo;Mario saved the princess in K steps&rdquo; where K is the minimum number of steps if he defeat the monster else Print &ldquo;Mario failed to save princess&rdquo;.</p>
+<p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>constraints:</strong><br /><br />1&lt;=R,C&lt;=15<br /><br />1&lt;=W&lt;=10<br /><br />0&lt;=[Total number of coins]&lt;=10<br /><br />All characters in the grid will be from the set {&lsquo;S&rsquo;, &lsquo;.&rsquo;, &lsquo;M&rsquo;, &lsquo;C&rsquo;, &lsquo;D&rsquo;, &lsquo;U&rsquo;, &lsquo;#&rsquo; }&nbsp;<br /><br /><br /><strong>INPUT:</strong><br /><br />2 2 1</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">SM</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">.D</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">&nbsp;</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">2 2 2</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">SM</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">.D</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">C.</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">UC</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">&nbsp;</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">3 3 2</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">S.M</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">C#.</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">D..</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">###</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">C.C</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">C.U</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">&nbsp;</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">2 2 1</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">SM</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">#C</p>
+<p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">0 0 0</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><strong>SAMPLE OUTPUT:</strong><br /><br /><span style="color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; text-align: justify;">Mario saved the princess in 1 steps</span></p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><span style="color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; text-align: justify;">Mario saved the princess in 7steps</span></p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;">Mario saved the princess in 8 steps</p><p style="font-family: Arial, sans-serif; margin: 7px 0px 0px; padding: 0px; font-size: 12px; line-height: 1.5em; color: #444444; text-align: justify;"><span style="color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; text-align: justify;">Mario failed to save princess</span></p></span></pre>
+<strong>Note : </strong></br>
+<strong> Rejudged on 11/02/15 </strong>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/harikrish">Noob</a></td></tr>
+<tr><td>Date:</td><td>2014-03-24</td></tr>
+<tr><td>Time limit:</td><td>0.300s-0.5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

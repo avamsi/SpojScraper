@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCS3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9098. Long Common Subsequence</h1>
+		<h2>Problem code: LCS3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Given a sequence of N(1&lt;=N&lt;=1000000) numbers range from 0 to 10000 and several other sequence of M(0&lt;=M&lt;=5) numbers, you have to compute the Longest Common Subsequence of this sequences with the main sequence.</div>
+<p>&nbsp;</p>
+<p>Given a main sequence of N(1&lt;=N&lt;=1000000) numbers range from 0 to 10000 and several other sequence of M(0&lt;=M&lt;=5) numbers, you have to compute the Longest Common Subsequence of this sequences with the main sequence.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>First line of the input will be N the number of elements of the main sequence. After that line there will be N numbers in one or more lines. Each of this number will be between 0 to 10000(inclusive). Then there will be Q(1&lt;=Q&lt;=5000) the number of query. Then following Q lines will be queries. In each query, start with a number M(0&lt;=M&lt;=5), followed by M numbers also between 0 to 10000(inclusive).</p>
+<h3>Output</h3>
+<p>For each query first print the number of elements in the longest common subsequence of the main and query sequences. Then print the subsequence. If there is more then one then print the lexicographically smallest.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+10</pre>
+<pre>5 1 4 3 2 6 5 5 0 7</pre>
+<pre>5</pre>
+<pre>1 5</pre>
+<pre>1 10</pre>
+<pre>4 5 0 4 7</pre>
+<pre>5 4 1 2 3 5</pre>
+<pre>5 2 6 5 0 7</pre>
+<p>&nbsp;</p>
+<pre><strong>Output:</strong>
+1 5
+0
+3 5 0 7
+3 1 2 5
+5 2 6 5 0 7<span style="white-space: normal;">
+</span></pre>
+<pre></pre>
+<pre><strong>Huge Test Case<span style="color: #000020;"><span style="white-space: normal; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;">(Almost 5MB)</span></span></strong></pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ridowan007">Muhammad Ridowan</a></td></tr>
+<tr><td>Date:</td><td>2011-07-02</td></tr>
+<tr><td>Time limit:</td><td>0.252s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own. Thanks msh_shiplu and zobayer for alternate</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DTWW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7102. Doing The Word Wrap</h1>
+		<h2>Problem code: DTWW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are developing a visual component for a web browser. The component is known as textarea,<br />and its main functionality is to show a given text using one or more lines. Every textarea has<br />a linewidth W , which is the number of characters that can fit in a single line.<br />The text that needs to be shown is a sequence of words. The textarea must display the text<br />using lines of W characters, without breaking any word, and placing a single space between<br />each pair of consecutive words that are in the same line. Any number of trailing spaces may<br />be left at the end of each line. So the behavior of the textarea is quite simple: it keeps adding<br />words to a line until the next word does not fit; each time this occurs, a new line is started.<br />With the permanent growing in the amount of information that web pages must show, you<br />have to make a smart textarea that uses as little space as possible, even when dealing with very<br />long texts. Given a text to show and a number of lines L, you must set the linewidth W to the<br />minimum possible value such that the text is shown using at most L lines.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in exactly two lines. The first line<br />of each test case contains two integers L and N separated by a single space, where L is the<br />maximum number of lines the textarea can have (1 &le; L &le; 10<sup>8</sup> ), and N is the number of words<br />the text to show is made of (1 &le; N &le; 10<sup>5</sup> ). The second line contains the text to show, formed<br />by N non-empty words of at most 25 lowercase letters each, separated by an arbitrary number<br />of spaces. The last line of the input contains the number &minus;1 twice separated by a single space<br />and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an integer W representing the minimum linewidth<br />such that the textarea has at most L lines.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 2<br />hello     word<br />2 2<br />racing club<br />-1 -1<br /><strong>Output:</strong>
+10<br />6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.135s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCKYCONT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7301. Lucky Controller</h1>
+		<h2>Problem code: LCKYCONT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Egor works as a controller in the bus. Each day he is given a pack of tickets which he then sells. Recently he has become interested about how many tickets in the pack are lucky. He thinks that the more tickets are lucky the luckier day he will have. No he wants to find out how lucky for him will the next day be. The numbers of all tickets consist of n digits. The ticket is considered to be lucky if the sum of the first n/2 digits equals to the sum of the last n/2 digits. Egor knows that the numbers in the pack that he will be given can start with equal probability from any number in the interval from a to b inclusive. The pack holds k tickets. The numbers in the tickets are consecutive. Help Egor find out the expected amount of lucky tickets in the pack.
+
+<h3>Input</h3>
+<p>The first line of the input file contain number n - the amount of tests. The next n lines consist of three integers a, b &#1080; k (0 <= a <= b < 10^12, 1 <= k <= 100000). Integers a, b and b+k consist of the same amount of digits which is equal to the amount of digits in the number of each ticket. They may start with zeroes. The amount of digits in a and b is always even.
+
+<h3>Output</h3>
+<p>Output the expected quantity of lucky tickets in the pack in the form of irreducible fraction. In case the
+result is an integer, no slash should appear in the output.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+0123 4567 150
+10 10 20
+4000 4999 11
+
+<b>Output:</b>
+6519/635
+2
+103/125
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-09-12</td></tr>
+<tr><td>Time limit:</td><td>1.562s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Open All-Ukrainian Collegiate Contest Final, 2010</td></tr>	
+</table>

@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANIL_PRO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18915. Anils Proposal</h1>
+		<h2>Problem code: ANIL_PRO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Anil is the best coder in his class. He is in love with his classmate Gowthami. One day he proposes her. She wants him to prove that his love is actually true. So, she poses the following problem:</p>
+<p>There is an array of size&nbsp;<strong>n</strong>. Initially all the elements are zero. Now there will be two types of operations:</p>
+<p>1) Update the array.</p>
+<p>2) Query the array.</p>
+<p>In case of update, you will be given a range [<strong>l</strong>,<strong>r</strong>]. To the kth element in this range ( l and r inclusive), you need to&nbsp;<strong>add kth fibonacci number</strong>.</p>
+<p>In case of query, you will be given a range [<strong>l,r</strong>], for which you need to find the sum of all elements in the range(including l and r).</p>
+<p>Anil hopes you can help him in this regard.</p>
+<h3>Input</h3>
+<p>The first line contains&nbsp;<strong>n(1&lt;=n&lt;=10<sup>6</sup>)&nbsp;</strong>and&nbsp;<strong>q(1&lt;=q&lt;=5*10<sup>4</sup>)</strong>, the number of operations to be performed. The next&nbsp;<strong>q</strong>&nbsp;lines contain 3 space separated integers. If the first integer is&nbsp;<strong>0</strong>, then its an update operation. If it is&nbsp;<strong>1</strong>, then its a query operation. The next two integers specify&nbsp;<strong>l</strong>&nbsp;and&nbsp;<strong>r</strong>.&nbsp;<strong>(1&lt;=l&lt;=r&lt;=n)</strong></p>
+<h3>Output</h3>
+<p>For each query print one integer per line specifying the sum in the corresponding range. Since the sum can be very large, output&nbsp;<strong>Answer modulo 10<sup>9</sup>&nbsp;+ 7</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>5 6
+0 1 5
+0 2 4
+0 1 3
+1 2 4
+1 1 5
+1 4 5</pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 208px; width: 1px; height: 1px; overflow: hidden;">5 6</div><strong>Output:</strong>
+</pre>
+<pre>13
+20
+10</pre>
+<pre><strong>Explaination:</strong></pre>
+<pre>After the first update the array looks as follows:
+1 1 2 3 5
+After 2nd update:
+1 2 3 5 5
+After 3rd update:
+2 3 5 5 5
+
+Hence from the above array, we have the outputs for the queries.</pre>
+<pre><strong>Note:</strong></pre>
+<pre><strong>Fibonacci Series starts as 1,1,2,3,...</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nitish712">nitish rao</a></td></tr>
+<tr><td>Date:</td><td>2014-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.5s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own Problem</td></tr>	
+</table>

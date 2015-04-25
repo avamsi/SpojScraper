@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QTREE7"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16580. Query on a tree VII</h1>
+		<h2>Problem code: QTREE7</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a tree (an acyclic undirected connected graph) with n nodes. The tree nodes are numbered from 1 to <strong>n</strong>. Each node has a color, white or black, and a weight. We will ask you to perfrom some instructions of the following form:</p>
+<ul>
+<li><strong>0 u</strong>: ask for the maximum weight among the nodes which are connected to <strong>u</strong>, two nodes are connected if all the node on the path from <strong>u</strong> to <strong>v</strong> (inclusive <strong>u</strong> and <strong>v</strong>) have a same color.</li>
+<li><strong>1 u</strong>: toggle the color of <strong>u</strong>(that is, from black to white, or from white to black).</li>
+<li><strong>2 u w</strong>: change the weight of <strong>u</strong> to <strong>w</strong>.</li>
+</ul>
+<h3>Input</h3>
+<p>The first line contains a number <strong>n</strong> denoted how many nodes in the tree(1 &le; <strong>n</strong> &le; 10<sup>5</sup>). The next <strong>n</strong>-1 lines, each line has two numbers (<strong>u</strong>, <strong>v</strong>) describe a edge of the tree(1 &le; <strong>u</strong>, <strong>v</strong> &le; n).  The next 2 lines, each line contains <strong>n</strong> number, the first line is the initial color of each node(0 or 1), and the second line is the initial weight, let's say Wi, of each node(|<strong>Wi</strong>| &le; 10<sup>9</sup>).  The next line contains a number <strong>m</strong> denoted how many operations we are going to process(1 &le; <strong>m</strong> &le; 10<sup>5</sup>). The next <strong>m</strong> lines, each line describe a operation (<strong>t</strong>, <strong>u</strong>) as we mentioned above(0 &le; <strong>t</strong> &le; 2, 1 &le; <strong>u</strong> &le; <strong>n</strong>, |<strong>w</strong>| &le; 10<sup>9</sup>).</p>
+<h3>Output</h3>
+<p>For each query operation, output the corresponding result.</p>
+<h3>Example</h3>
+<pre style="text-align: left;"><strong>Input 1:</strong><br /><div id="_mcePaste" style="position: absolute; left: -10000px; top: 300px; width: 1px; height: 1px; overflow: hidden;">5</div>5
+1 2
+1 3
+1 4
+1 5
+0 1 1 1 1
+1 2 3 4 5
+3
+0 1
+1 1
+0 1
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 300px; width: 1px; height: 1px; overflow: hidden;">1 2</div><br /><strong>Output 1:</strong><br />1
+5</pre>
+<pre style="text-align: left;"><strong><br />Input 2:<br /></strong>7
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+0 0 0 0 0 0 0
+1 2 3 4 5 6 7
+4
+0 1
+1 1
+0 2
+0 3<strong><br /><br />Output 2:</strong><br />7
+5
+7<br /><br /><br /><strong>Warning: large input/output data,be careful with certain languages</strong></pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lychees">xiaodao</a></td></tr>
+<tr><td>Date:</td><td>2013-10-18</td></tr>
+<tr><td>Time limit:</td><td>1s-5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem, 2013 Multi-University Training Contest 05 - Host by HIT</td></tr>	
+</table>

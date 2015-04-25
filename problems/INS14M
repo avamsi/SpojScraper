@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14M"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19154. Terrorist Attack</h1>
+		<h2>Problem code: INS14M</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;"><span style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px;">In his final interview Digo is given a map of a city containing N junctions connected by roads of length 1. There is only one path between any two junctions. Each junction has a unique index between 1 and N(inclusive). There are M Civilians in the city. Everyday, each civilian visits a set of junctions.</span></p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;"><br />There are military camps built at certain junctions. The terrorists are planning to attack the city by targeting some junctions. However due to the presence of military camps, there is a limit to the size of explosion they can make at any particular junction. The intensity of the bomb planted at a junction is equal to the minimum distance from any military camp to the targeted junction. The damage of all civilians passing through a targeted junction increases by the intensity of the bomb dropped at the junction. The military camps set up and the terrorist targets are given in the form of the following queries:<br /><br />1 J : Meaning that a new military camp is set up at junction J<br />2 J : Meaning that the junction J is targeted by terrorists<br />3 J : Print the total damage done till now to all civilians visiting junction J<br /><br />Initially there is exactly one military camp at junction 1. The initial damage of all civilians is given to you.<br /><br />Input Format :<br /><br />First line contains 3 integers N,M,Q. N is the number of junctions, M is the number of civilians and Q is the number of queries to follow.<br /><br />Next N-1 lines contains 2 integers U and V (denoting that there is a road connecting U and V).<br />Next M lines contains one integer each. The ith line contains integer a[i] representing the initial damage of the ith civilian.<br />Next M lines contain the description of the junctions visited by the ith civilian (First integer of every line is X, the number of junctions visited by the ith civilian, followed by X integers representing the respective junctions)<br /><br />Next Q lines give the corresponding queries. Each query can be described by two integers T, J, where T is the type of query (which can be1 or 2 or 3) and J is the respective junction of the query.<br /><br />Output Format :<br /><br />For all the queries of type 3 print an integer answering the query.<br /><br />Constraints:<br /><br />1 &lt;= N &lt;= 50000<br />1 &lt;= M &lt;= 10000<br />1 &lt;= Q &lt;= 50000<br />1 &lt;= X, V, U, J &lt;= N<br />1 &lt;= a[i] &lt;=1000<br /><br />Sum of all the junctions crossed by all the civilians is less than 50001<br /><br />Note : The Final answer will fit in 64 bit signed integer.<br /><br />Sample Input:<br /><br />3 1 3<br />1 2<br />2 3<br />5<br />2 2 3<br />3 3<br />2 3<br />3 3<br /><br />Sample Output:<br /><br />5<br />7</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>0.007s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

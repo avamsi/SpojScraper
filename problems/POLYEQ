@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POLYEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>290. Polynomial Equations</h1>
+		<h2>Problem code: POLYEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given the polynomial F(x) as the sum of monomials.
+Each monomial has the form: <br>[<i>coefficient</i>*]<i>x</i>[^<i>degree</i>] or [<i>coefficient</i>],<BR>
+where <i>coefficient</i> and <i>degree</i> are integers such that -30000 <= <i>coefficient</i> <= 30000, 0 <= <i>degree</i> <= 6. The parameters given in [] can be skipped.<BR>
+In this problem you have to find all solutions of the equation: F(x)=0.</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follow. [<i>t</i> <= 100]<BR>
+Each line contains one polynomial <i>F(x)</i> given as string <i>s</i> in the form described above.<BR>
+The length of string <i>s</i> is not more than 300 characters.
+
+<h3>Output</h3>
+<p>For each test case output all solutions (including repeated) of the given equation in non-decreasing order. All solutions lie within the interval [-100.0; 100.0]. Each solution must be given with an error of not more than 0.01. It's guaranteed that all solutions are real, not complex.
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+2
+x^4-6*x^3+11*x^2-6*x
+-x^2+2*x-1
+
+<b>Output:</b>
+0.00 1.00 2.00 3.00
+1.00 1.00
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-01-27</td></tr>
+<tr><td>Time limit:</td><td>1.694s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2005.02/zpeq.php">ZCon 2005</a></td></tr>	
+</table>

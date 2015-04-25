@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC05B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4560. The Double HeLiX</h1>
+		<h2>Problem code: ANARC05B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table style="width: 100%; background-color: #5ed22c;" border="0">
+<tbody>
+<tr>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/ANARC05B/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/ANARC05B/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Two &#64257;nite, strictly increasing, integer sequences are given. Any common integer between the two sequences constitute an intersection point. Take for example the following two sequences where intersection points are<br />printed in bold:<br />First= 3 5 <strong>7</strong> 9 20 <strong>25</strong> 30 40 <strong>55</strong> 56 <strong>57</strong> 60 62<br />Second= 1 4 <strong>7</strong> 11 14 <strong>25</strong> 44 47 <strong>55</strong> <strong>57</strong> 100<br />You can &lsquo;walk&rdquo; over these two sequences in the following way:<br />1. You may start at the beginning of any of the two sequences. Now start moving forward.<br />2. At each intersection point, you have the choice of either continuing with the same sequence you&rsquo;re currently on, or switching to the other sequence.<br />The objective is &#64257;nding a path that produces the maximum sum of data you walked over. In the above example, the largest possible sum is 450&nbsp; which is the result of adding 3, 5, 7, 9, 20, 25, 44, 47, 55, 56, 57, 60, and 62</p>
+<h3>Input</h3>
+<p>Your program will be tested on a number of test cases. Each test case will be speci&#64257;ed on two separate lines. Each line denotes a sequence and is speci&#64257;ed using the following format:</p>
+<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n&nbsp; v1 v2 ... vn</pre>
+<p>Where n is the length of the sequence and vi is the ith element in that sequence. Each sequence will have at least one element but no more than 10,000. All elements are between -10,000 and 10,000 (inclusive). <br />The last line of the input includes a single zero, which is not part of the test cases.</p>
+<h3>Output</h3>
+<p>For each test case, write on a separate line, the largest possible sum that can be produced.</p>
+<h3>Sample</h3>
+<pre>input <br />&nbsp;<br />13 3 5 7 9 20 25 30 40 55 56 57 60 62<br />11 1 4 7 11 14 25 44 47 55 57 100<br />4 -5 100 1000 1005<br />3 -12 1000 1001<br />0<br />output <br />&nbsp;<br />450<br />2100<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-07-05</td></tr>
+<tr><td>Time limit:</td><td>0.130s-0.686s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ANARC 2005</td></tr>	
+</table>

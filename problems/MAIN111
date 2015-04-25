@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN111"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9385. Strictly not a Prime</h1>
+		<h2>Problem code: MAIN111</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Tim defines an integer as "Strictly not a Prime", if no subsequence(considering the integer as a string of digits) of the integer is a prime. He needs your help in finding how many such integers are present between two given integers A and B(including A and B).</p>
+<h3>Input</h3>
+<p>First line contains an integer T(1 &lt;= T &lt;= 100000) which denotes the total number test cases. Each test case consists of two integers A and B (1 &lt;= A, B &lt;= 100000) on a single line.</p>
+<h3>Output</h3>
+<p>For each test case, print the total count of integers which are "Strictly not a prime" between A and B(including A and B) as per tim.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>3 6</pre>
+<pre>7 10</pre>
+<pre><strong>Output:</strong>
+2
+</pre>
+<pre>3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/amitcodename13">amit karmakar</a></td></tr>
+<tr><td>Date:</td><td>2011-08-15</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem used in - http://www.spoj.pl/MAIN11/</td></tr>	
+</table>

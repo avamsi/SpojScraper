@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACTIV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7386. Activities</h1>
+		<h2>Problem code: ACTIV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ana likes many activities. She likes acrobatics, alchemy, archery, art, Arabic dances, and<br />many more. She joined a club that offers several classes. Each class has a time interval<br />in every week. Ana wants to sign up for many classes, but since they overlap in time, she<br />looks for a subset of non-overlapping classes to attend. A subset is non-overlapping if it<br />does not contain two classes that overlap in time. If a class starts at the time another<br />class ends, this is not considered overlapping.<br />Ana decided to list all the non-overlapping non-empty subsets of classes. Then she will<br />choose the subset she likes best. In order to predict the amount of paper needed to write<br />the list, she wants you to calculate how many of these subsets there are.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains an integer N<br />indicating the number of classes the club offers (1 &le; N &le; 10<sup>5</sup> ). Each of the next N lines<br />describes a class using two integers S and E that represent the starting and ending times<br />of the class, respectively (1 &le; S &lt; E &le; 10<sup>9</sup> ). The end of input is indicated with a line<br />containing a single &minus;1.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with a single integer representing the number of<br />non-overlapping non-empty subsets of classes. To make your life easier, output only the<br />last 8 digits of the result. If the result has less than 8 digits, write it with leading zeros<br />to complete 8 digits.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />5<br />1 3<br />3 5<br />5 7<br />2 4<br />4 6<br />3<br />500000000 1000000000<br />1 500000000<br />1 500000000<br />1<br />999999999 1000000000<br />-1
+
+<strong>Output:</strong> <br />00000012<br />00000005<br />00000001</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-24</td></tr>
+<tr><td>Time limit:</td><td>2.365s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

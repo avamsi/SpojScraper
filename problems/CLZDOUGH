@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CLZDOUGH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21353. Avantgarde and Doughnut</h1>
+		<h2>Problem code: CLZDOUGH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p id="docs-internal-guid-c0a217cb-11c6-0b6f-8cd8-f77b76de3d09" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Recently Mr.Avantgarde has been assigned the task of delivering doughnuts .He borrowed an electric car for this task.There are N houses and each house has a charging station. There is at least one path of roads connecting each pair of houses. A trip from one house to any other must be completed using at most C rechargings. Car should always be recharged at the beginning of each trip(this counts as one of the C rechargings).As you know that Mr.Avantgarde is a lazy guy, Given the road network and C, compute the minimum range required of the electric car.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Note: With one recharging, the car can travel a distance equal to its range.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Input begins with one integer T (0 &lt; T&lt; 6) denoting the number of test cases. Each test case begins with a line containing three integers N, C, and M (1 &lt; N &lt; 101, 0 &lt; C &lt; 101), where N and C are number of houses and number of rechargings. Next follow M lines each with three integers u, v and d (0 &lt;= u,v &lt; N, u != v,1 &lt;= d &lt;= 10^9) indicating that house u and v (0-indexed) are connected bidirectionally with distance d.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">For each test case, output minimum range required in each line.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"> </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: normal; font-style: italic; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Sample Input </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">4 2 4</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">0 1 100</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 2 200</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2 3 300</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 0 400</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">10 2 15</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">0 1 113</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 2 314</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2 3 271</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 4 141</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">4 0 173</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">5 7 235</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">7 9 979</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">9 6 402</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">6 8 431</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">8 5 462</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">0 5 411</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 6 855</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2 7 921</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 8 355</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">4 9 113</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: normal; font-style: italic; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Sample Output </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">300</span></p>
+<p><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">688</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/csi_dtu">CSI</a></td></tr>
+<tr><td>Date:</td><td>2014-10-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL0_D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12961. Drastic Grapes</h1>
+		<h2>Problem code: VPL0_D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;It&rsquo;s December 31st. New year&rsquo;s Day. Lino and his family are waiting to eat grapes as part of one Venezuelan tradition to ask for wishes to become the New Year. Lino&rsquo;s parents do it because of the tradition while his little sister Shouri gives a priority to each wish according to its importance, If she has a wish with P priority she must eat a grape with P power, however, the grapes are on the table and she is not tall enough to take them and she gives Lino a list of size N with her priorities. In addition, Lino has another list of size M given by his mother with a brief description of the grapes on the table. Grapes have different characteristics and Lino&rsquo;s mission is to maximized Shouri&rsquo;s wishes but with some restrictions: </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; Lino only takes grapes with the same priorities and power. </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; Lino can only take the i-th grape on the table if and only if 	the grapes taken before and&nbsp;</span></span><span style="font-family: 'andale mono', times; font-size: small; ">the new one are in the same order in both lists, in other words, 	if there is on the list of&nbsp;</span><span style="font-family: 'andale mono', times; font-size: small; ">priorities {5,4,1,3,2} and the grapes on the table are 	{7,1,5,4,9,3,2,1,2,0}, he can&nbsp;</span><span style="font-family: 'andale mono', times; font-size: small;">choose {4,2} or {4,3,2} but never {1,4} or {1,2,3,4}</span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; if Lino can choose between grapes {1,2,3} and {4,5} he choose 	the ones with the maximum power {4,5} </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; if Lino encounters two groups of grapes with the same power, 	he will choose the biggest group, example, between {4,5} and {3,3,3} he will choose {3,3,3}. </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Input </span></span></strong></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> The first line contains an integer T , which specifies the number of test cases. Then, will follow the descriptions of T test cases. </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Each line contains two integers K and N , denoting, respectively, the list of grapes that Shouri holds and the grapes that are on the table. After that, follows a line containing K integers with the description previously mentioned and another line with N integers with the description mentioned too. </span></span></p>
+<p style="margin-bottom: 0in;"><em><span style="font-size: small;"><span style="font-family: 'andale mono', times;">The input must be read from standard input. </span></span></em></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Output </span></span></strong></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> For each input case you must print the string "Scenario #i: " where i denotes the test case you are evaluating (starting by 1) followed by two numbers, each one denoting the maximum power achievable and the number of grapes to be taken. If there are no group that can satisfy Shouri&rsquo;s needs, then print 0 0 as maximum power and maximum number of grapes. </span></span></p>
+<p style="margin-bottom: 0in;"><em><span style="font-size: small;"><span style="font-family: 'andale mono', times;">The output must be written to standard output. </span></span></em></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Input</span></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Output for sample input</span></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3 3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">1 2 3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3 2 1</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3 3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">2 4 5</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3 2 5</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">5 7</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">3 3 3 4 5</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">4 5 3 8 3 12 3</span></span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Scenario #1: 3 1</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Scenario #2: 7 2</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Scenario #3: 9 3</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;">&nbsp;</span></span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Subtask 1 - 20% </span></span></strong></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; T &le; 100 </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; K &le; N </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; N &le; 15 </span></span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Subtask 2 - 30% </span></span></strong></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; T &le; 100 </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; K &le; N </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; N &le; 100 </span></span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;"><span style="font-family: 'andale mono', times;">Subtask 3 - 50% </span></span></strong></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; T &le; 20 </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; K &le; N </span></span></p>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: 'andale mono', times;"> &bull; 1 &le; N &le; 1000&nbsp;</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-12-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for VPL0-Contest</td></tr>	
+</table>

@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/eddycael"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EC_CONB" target="_blank">16420. Even Numbers</a></td><td><a href="http://www.spoj.com/problems/EC_CONB"target="_blank">EC_CONB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC_MODE" target="_blank">16776. Modems</a></td><td><a href="http://www.spoj.com/problems/EC_MODE"target="_blank">EC_MODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC_ESTA" target="_blank">16793. Statistics Applied</a></td><td><a href="http://www.spoj.com/problems/EC_ESTA"target="_blank">EC_ESTA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC_DIVS" target="_blank">16825. Divisors</a></td><td><a href="http://www.spoj.com/problems/EC_DIVS"target="_blank">EC_DIVS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC_P" target="_blank">16909. Critical Edges</a></td><td><a href="http://www.spoj.com/problems/EC_P"target="_blank">EC_P</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EC_SER" target="_blank">20930. Progression</a></td><td><a href="http://www.spoj.com/problems/EC_SER"target="_blank">EC_SER</a><br>
+</td></tr>

@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GREENLAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10454. Greens Land</h1>
+		<h2>Problem code: GREENLAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mr. Green has a large portion of land divided into square units that are either field or lake areas.<br />He wants to fence a rectangular portion of his lands to use for livestock.<br />The lake areas have a very soft soil and any fence built near those areas have a chance to fall (and<br />then the animals could escape), so no fence should be built near a lake area.</p>
+<p><img src="http://www.students.ic.unicamp.br/~ra093887/greens_land.png" alt="Green's Land" width="565" height="275" /></p>
+<p>Mr. Green wants to know of how many ways he can fence a rectangular area of his lands without<br />any portion of the fence having a common border with a lake area.<br />In the example above, for a 3x3 land with a lake area in the center, we have 5 possibilities of fence.</p>
+<h3>Input</h3>
+<p>On the first line a positive integer: the number of test cases, at most 100. After that per test case:<br />One line with a integer N (1 &le; N &le; 300): the size of the land (N xN ).<br />N lines, each with N characters. Each character is either &lsquo;.&rsquo; or &lsquo;X&rsquo;. The j &minus; th character on the<br />i &minus; th line is a &lsquo;X&rsquo; if position (i, j) is a lake area, and &lsquo;.&rsquo; if it is a field area.</p>
+<h3>Output</h3>
+<p>For each test case output a line with the number of different valid ways wich Mr. Green can fence his<br />lands.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4<br />3<br />...<br />.X.<br />...<br />3<br />X..<br />...<br />X..<br />6<br />......<br />......<br />......<br />......<br />......<br />......<br />5<br />.....<br />....X<br />.X...<br />.....<br />...XX<br />
+
+<strong>Output:</strong>
+5<br />8<br />441<br />23
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.312s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

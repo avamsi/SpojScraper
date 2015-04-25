@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/marekpiotr"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BANKROB" target="_blank">17261. Bank robbery</a></td><td><a href="http://www.spoj.com/problems/BANKROB"target="_blank">BANKROB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SERVS" target="_blank">17302. Servers</a></td><td><a href="http://www.spoj.com/problems/SERVS"target="_blank">SERVS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOARD1" target="_blank">17303. Board</a></td><td><a href="http://www.spoj.com/problems/BOARD1"target="_blank">BOARD1</a><br>
+</td></tr>

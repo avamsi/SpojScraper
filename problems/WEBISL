@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WEBISL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13990. Web islands</h1>
+		<h2>Problem code: WEBISL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For a given set of web pages, we want to find largest subsets such that from every page in a subset you can follow links to any other page in the same subset.</p>
+<h3>Input</h3>
+<p>On the first line, there are two numbers, number of the pages N, and total number of links M. Pages are numbered from 0 up to N-1. On lines 2 up to M+1, there are two numbers per line. The first is the source page and the second is the target page of a link.</p>
+<h3>Output</h3>
+<p>On N lines there is a component ID for every single page. The componet ID is the smallest page index on the component.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 3<br />0 1<br />1 0<br />1 2<br /><br /><strong>Output:</strong>
+0<br />0<br />2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jbrezmorf">dRak</a></td></tr>
+<tr><td>Date:</td><td>2013-03-04</td></tr>
+<tr><td>Time limit:</td><td>1s-5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NUMVN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21804. Multiples</h1>
+		<h2>Problem code: NUMVN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong>English</strong>: Given three positive integers X, A, B and a string consists of distinct digits [0..9]. Calculate the number of multiples of X in range [A..B] using only digits in the provided string.</p>
+<p><strong>Vietnamese</strong>: Cho 3 s&#7889; nguy&#234;n d&#432;&#417;ng X, A, B v&#224; m&#7897;t xâu ch&#7881; ch&#7913;a các ch&#7919; s&#7889; phân bi&#7879;t trong đo&#7841;n [0..9]. Tính s&#7889; l&#432;&#7907;ng b&#7897;i s&#7889; c&#7911;a X trong đo&#7841;n [A..B] m&#224; ch&#7881; g&#7891;m các ch&#7919; s&#7889; trong xâu đ&#227; cho.</p>
+<h3>Input</h3>
+<p><strong>English</strong>:</p>
+<p>The first line contain 3 positive integer X, A, B (X <= 10 ^ 11; A <= B <= 10 ^ 11).</p>
+<p>The second line is a string of digits with length at most 10.</p>
+<p><strong>Vietnamese:</strong></p>
+<p>D&#242;ng đ&#7847;u ti&#234;n ch&#7913;a 3 s&#7889; nguy&#234;n d&#432;&#417;ng X, A, B (X <= 10 ^ 11; A ,<= B <= 10 ^ 11).</p>
+<p>D&#242;ng th&#7913; 2 ch&#7913;a 1 xâu ch&#7881; ch&#7913;a các ch&#7919; s&#7889; có đ&#7897; d&#224;i t&#7889;i đa l&#224; 10.</p>
+<h3>Output</h3>
+<p><strong>English</strong>: One line containing the answer.</p>
+<p><strong>Vietnamese</strong>: M&#7897;t d&#242;ng duy nh&#7845;t ch&#7913;a k&#7871;t qu&#7843;.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 1 20<br />0123456789
+
+<strong>Output:</strong>
+10<br /><br /> <br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ladpro98">Le Anh Duc</a></td></tr>
+<tr><td>Date:</td><td>2014-11-16</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2006/2007 #6 (http://hsin.hr/coci/archive/2006_2007/contest6_tasks.pdf)</td></tr>	
+</table>

@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BWB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19545. Black and White beads</h1>
+		<h2>Problem code: BWB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: 14px;"><span style="font-size: small;">Well its now time for some serious task . There are lots of beads available and in two colours , namely white and black . So there are many beads of both the colours . One has to make a string of beads by joining beads with end to end . But there are some constraint , and you have to follow that constraint. While making beads , you have to make sure that there should not be K beads of black colour consecutively and also there should not be any bead string which has black bead in front ,i.e it must have white bead &nbsp;in front . So the task is quite simple , find all possible ways of making a string of bead of length N which satisfies the above constraint .</span></span></p>
+<p><span style="font-size: small;"><br /><strong>Input:</strong> </span></p>
+<p style="box-sizing: border-box; outline: none !important;"><span style="font-size: small;">The first line of the input contains an integer T denoting the number of test cases. The descriptionof T test cases follows.</span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: x-small;"><strong><span style="font-size: small;">Output:</span></strong></span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">Next T lines contains 2 integers N and K.</span></p>
+<p><span style="font-size: 14px;"><span style="font-size: small;">Print a line for each test case containing the required answer modulo 1000000007.</span></span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;"><strong>Constraints</strong> :</span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">1&lt;=T&lt;=1000000</span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">1&lt;=N&lt;=10000</span></p>
+<p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">1&lt;=K&lt;=100</span></p>
+<pre><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;"><strong><span style="font-size: small;">Sample Input :</span></strong></span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">3</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">2 3</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">2 1</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">3 4</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">2</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">1</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">4</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;"><strong>Explanation </strong>:</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">For Sample test case 1 , N=2 and K=3 , so as 3 beads of black colour should not present we have white-white , white-black.</span></p><p style="box-sizing: border-box; font-size: 14px; outline: none !important;"><span style="font-size: small;">Note black-white is not the valid one so in this case the answer is 2.</span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aayushagarwal">Aayush Agarwal</a></td></tr>
+<tr><td>Date:</td><td>2014-04-14</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC BF C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own problem used for codecracker</td></tr>	
+</table>

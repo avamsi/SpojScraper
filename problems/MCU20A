@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCU20A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16017. The Triangle Game</h1>
+		<h2>Problem code: MCU20A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><img style="display: block; margin: auto;" src="http://acm.tju.edu.cn/toj/1910_tri.gif" alt="" vspace="10" width="404" height="201" /><span style="font-family: 'Times New Roman'; font-size: 16px;">In the triangle game you start off with six triangles numbered on each edge, as in the example above.&nbsp; You can slide and rotate the triangles so they form a hexagon, but the hexagon is only legal if edges common to two triangles have the same number on them.&nbsp; You may not flip any triangle over.&nbsp; Two legal hexagons formed from the six triangles are illustrated below.</span><img style="display: block; margin: auto;" src="http://acm.tju.edu.cn/toj/1910_hex.gif" alt="" vspace="10" width="493" height="208" /><span style="font-family: 'Times New Roman'; font-size: 16px;">The score for a legal hexagon is the sum of the numbers on the outside six edges.</span></p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;">Your problem is to find the highest score that can be achieved with any six particular triangles.</p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;">The input file will contain one or more data sets.&nbsp; Each data set is a sequence of six lines with three integers from 1 to 100 separated by blanks on each line.&nbsp; Each line contains the numbers on the triangles in clockwise order.&nbsp; Data sets are separated by a line containing only an asterisk.&nbsp; The last data set is followed by a line containing only a dollar sign.</p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;">For each input data set, the output is a line containing only the word "none" if there are no legal hexagons or the highest score if there is a legal hexagon.</p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;"><strong>Sample Input</strong></p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;"><tt>1 4 20</tt>&nbsp;<br /><tt>3 1 5</tt>&nbsp;<br /><tt>50 2 3</tt>&nbsp;<br /><tt>5 2 7</tt>&nbsp;<br /><tt>7 5 20</tt>&nbsp;<br /><tt>4 7 50</tt>&nbsp;<br /><tt>*</tt>&nbsp;<br /><tt>10 1 20</tt>&nbsp;<br /><tt>20 2 30</tt>&nbsp;<br /><tt>30 3 40</tt>&nbsp;<br /><tt>40 4 50</tt>&nbsp;<br /><tt>50 5 60</tt>&nbsp;<br /><tt>60 6 10</tt>&nbsp;<br /><tt>*</tt>&nbsp;<br /><tt>10 1 20</tt>&nbsp;<br /><tt>20 2 30</tt>&nbsp;<br /><tt>30 3 40</tt>&nbsp;<br /><tt>40 4 50</tt>&nbsp;<br /><tt>50 5 60</tt>&nbsp;<br /><tt>10 6 60</tt>&nbsp;<br /><tt>$</tt></p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;"><strong>Sample Output</strong></p>
+<p style="font-family: Times, serif; text-align: justify; font-size: 16px;"><tt>152</tt>&nbsp;<br /><tt>21</tt>&nbsp;<br /><tt>none</tt></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdelkarim">abdelkarim</a></td></tr>
+<tr><td>Date:</td><td>2013-09-16</td></tr>
+<tr><td>Time limit:</td><td>0.195s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Mid-Central USA 2000</td></tr>	
+</table>

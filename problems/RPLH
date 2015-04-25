@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RPLH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11494. Hard Launching</h1>
+		<h2>Problem code: RPLH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;Felix, the cat, decided to play in the afternoon with some melons, he built a &ldquo;melon launcher&rdquo; and started pointing to targets. Soon he noticed that the melons sometimes overflies the victims or don't even get close to them.</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">The melon launcher can be rotated so it can shoot from an angle from 0 to 45 degrees.</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">Felix isn't good at maths, so he ask you to code a program that, given the target (in meters) distance and the speed (in meters / sec) you can give him the perfect angle for the melon launcher.</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">The gravity to be considered is of 9.806 meters / sec^2</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">PI value to be considered is 2*acos(0.0).</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><strong>INPUT:</strong></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">The first line of input will contain an integer T denoting the T test cases, then, T cases will follow. Each of the following line will contain two integer numbers Ta and Sp, denoting the distance of the target and the speed of the melon respectively.</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><strong>OUTPUT:</strong></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">Output the string &ldquo;Scenario #i: &ldquo; where i is the test case you are analyzing followed by a single number D, denoting the Degrees necessary to do the launch, if the launching can't be done, output D as -1. the number must have a precision of 2 decimal digits.</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;">SAMPLE DATA:</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p align="CENTER"><strong>INPUT</strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p align="CENTER"><strong>OUTPUT</strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>3</p>
+<p>10 10</p>
+<p>10 9</p>
+<p>8 9</p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p>Scenario #1: 39.35</p>
+<p>Scenario #2: -1</p>
+<p>Scenario #3: 37.79</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="JUSTIFY"><strong>CONSTRAINTS:</strong></p>
+<p style="margin-bottom: 0in;" align="JUSTIFY">0&lt;Ta,Sp&lt;10000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/david_8k">david_8k</a></td></tr>
+<tr><td>Date:</td><td>2012-05-05</td></tr>
+<tr><td>Time limit:</td><td>0.158s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem used for the RPL contest</td></tr>	
+</table>

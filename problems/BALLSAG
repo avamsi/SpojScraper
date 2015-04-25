@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BALLSAG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10581. Ball Stacking Again</h1>
+		<h2>Problem code: BALLSAG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The XYZ TV channel is developing again a new game show, where a contestant has to make a<br />choice in order to get a prize. The game consists of a triangular stack of balls, each of them having an<br />integer value, as the following example shows:</p>
+<p><img src="http://maratona.ic.unicamp.br/~ivan/escola_de_verao_2012/images/ball_stacking_again.png" alt="" width="187" height="140" /></p>
+<p>The contestant must choose exactly one ball and his prize is the sum of the value of that ball and<br />the balls directly on top of it. Notice that the prize can be negative!<br />Your friend is going to participate on the game show, and he wants you to develop a program that<br />can tell the maximum prize possible.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains an integer N representing<br />the number of rows of the stack ( 0 &lt; N &lt; 1001). The i-th of the next N lines contains i integers Bij ( -<br />1000 &lt;= Bij &lt;= 1000 for 1 &lt;= j &lt;= i &lt;= N); the number Bij is the value of the j-th ball in the i-th row of<br />the stack (the first row is the topmost one, and within each row the first ball if the leftmost one). After<br />each test case there is a blank line.<br />The last test case is followed by a line containing one zero.</p>
+<h3>Output</h3>
+<p>For each test case output a line with an integer representing the maximum prize a contestant can<br />make from the stack.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />-2<br />1 -10<br /><br />3<br />1<br />-5 3<br />6 -4 1<br />0<br /><br /><strong>Output:</strong>
+-1<br />5<br /><br />Note:<br />On the first test case, the optimal solution is to take the ball with value 1, making you remove the ball<br />with value -2, resulting in -1.<br />On the second test case the best option is to take the ball with value 1 on the bottom row, resulting in<br />1+3+1 = 5. <br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-09</td></tr>
+<tr><td>Time limit:</td><td>0.858s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ICMC-USP</td></tr>	
+</table>

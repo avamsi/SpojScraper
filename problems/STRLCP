@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STRLCP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3109. Longest Common Prefix</h1>
+		<h2>Problem code: STRLCP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The LCP (Longest Common Prefix) of two strings A[1..la] and B[1..lb] is defined as follows:
+<br><br>
+LCP(A[1..la],B[1..lb]) = max{L | L<=la && L<=lb && A[1..L] == B[1..L]}
+<br><br>
+Given an original string and several operations, you should write a program to process all the operations.
+
+<h3>Input</h3>
+<p>The first line will be number of test cases T.<br>
+The first line of each test case is a string S with length L (1 <= L <= 100000).<br>
+The second line contains an integer Q(1 <= Q <= 150000), representing the number of operations.<br><br>
+Each of the following Q lines represents an operation:<br>
+Q i j: print LCP(S[i..L], S[j..L])<br>
+R i char: replace the i-th character of S with char<br>
+I i char: insert character char after the i-th character of S<br>
+
+<h3>Output</h3>
+<p>For each "Q i j" operation, print the answer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+madamimadam
+7
+Q 1 7
+Q 4 8
+Q 10 11
+R 3 a
+Q 1 7
+I 10 a
+Q 2 11
+
+<b>Output:</b>
+5
+1
+0
+2
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eleusive">John Rizzo</a></td></tr>
+<tr><td>Date:</td><td>2008-10-04</td></tr>
+<tr><td>Time limit:</td><td>0.414s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Al-Khawarizm 2008</td></tr>	
+</table>

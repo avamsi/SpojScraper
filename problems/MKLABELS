@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MKLABELS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1870. Making Labels</h1>
+		<h2>Problem code: MKLABELS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Trees comes in many varieties other than the popular binary tree. In general, a tree is a connected acyclic
+graph. That is, it consists of some number of vertices N (which we&#8217;ll assume is at least one in this problem),
+and N &#8211; 1 edges, each of which connects a pair of vertices.
+
+<p><p>
+A &#8220;labeled tree&#8221; is a tree in which each vertex has been given a &#8220;label.&#8221; For simplicity, let us assume these
+labels are the integers 1 through N. In how many different ways may a tree with N vertices be labeled? By
+&#8220;different&#8221; we mean that no rearrangement of two trees with the same number of vertices with different
+labeling will be identical. (Note that although we commonly associate data with each vertex, and identify
+one vertex as the root of the tree, that&#8217;s not significant in this problem.)
+
+<p><p>
+Let&#8217;s consider some examples. The figure below shows all possible arrangements of trees with N = 1, 2, 3,
+4, or 5 vertices. The number shown below each tree is the number of different ways in which the vertices
+in each tree can be labeled.
+
+<p><p>
+<center><img src='/content/steinersp:label1.jpg'alt='Illustration' border='0' width = 100%></center>
+
+<p><p>
+Clearly a tree with only one vertex can be labeled in only one way &#8211; by assigning the label &#8220;1&#8221; to the single
+vertex. A tree with two vertices can also be labeled in only one way. For example, although the two trees
+shown on the left below appear to be different, the first can be easily transformed into the second.
+(Imagine the edges are strings, so the vertices can be easily repositioned without losing their connectivity.)
+
+<p><p>
+<center><img src='/content/steinersp:label2.jpg'alt='Illustration' border='0' width = 100%></center>
+
+<p><p>
+There are, however, three possible ways to label the vertices in a 3-vertex tree, as shown on the right
+above. No matter how you rearrange the labeled vertices in any of the three trees, you cannot produce any
+of the other labeled trees.
+
+<p><p>
+In a similar manner, the various arrangements of four vertices in a tree yield a total of 16 possible labelings
+&#8211; 12 for the four vertices &#8220;in a row,&#8221; and 4 for the other configuration. There are three possible
+arrangements of the vertices in a tree with N = 5, with a total of 125 possible
+
+<h3>Input</h3>
+<p>There will be multiple cases to consider. The input for each case is an integer N specifying the number of
+vertices in a tree, which will always be between 1 and 10. The last case will be followed by a zero.
+
+<h3>Output</h3>
+<p>For each input case, display the case number (1, 2, &#8230;), the input value of N, and the number of different
+ways in which a tree with N vertices may be labeled. Use the format shown in the examples below.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+4
+5
+0
+
+<b>Output:</b>
+Case 1, N = 2, # of different labelings = 1
+Case 2, N = 3, # of different labelings = 3
+Case 3, N = 4, # of different labelings = 16
+Case 4, N = 5, # of different labelings = 125
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-10-07</td></tr>
+<tr><td>Time limit:</td><td>0.039s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>North Central North America Regional Programming Contest - 2003</td></tr>	
+</table>

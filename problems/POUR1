@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POUR1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>25. Pouring water</h1>
+		<h2>Problem code: POUR1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Given two vessels, one of which can accommodate <i>a</i> litres of water and the other - <i>b</i> litres of water, determine the number of steps required to obtain exactly <i>c</i> litres of water in one of the vessels.</p>
+<P align=justify>
+At the beginning both vessels are empty. The following operations are counted as 'steps':
+<div align=left>
+<ul>
+<li>emptying a vessel,
+<li>filling a vessel,
+<li>pouring water from one vessel to the other, without spilling, until one of the vessels is either full or empty.
+</ul>
+</div>
+</p>
+<H3>Input</h3>
+<P align=justify>
+An integer <i>t</i>, 1<=<i>t</i><=100, denoting the number of testcases, followed by <i>t</i> sets of input data, each consisting of three positive integers <i>a, b, c</i>, not larger than 40000, given in separate lines.</p>
+<H3>Output</h3>
+<P align=justify>
+For each set of input data, output the minimum number of steps required to obtain c litres, or -1 if this is impossible.
+</p>
+<H3>Example</h3>
+<div align=left>
+Sample input:
+<pre>2
+5
+2
+3
+2
+3
+4
+</pre>
+</p>
+Sample output:
+<pre>
+2
+-1
+</pre>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>An ancient problem, formulated in these words by Mr Tadeusz Ratajczak</td></tr>	
+</table>

@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCPC11F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9122. Diary</h1>
+		<h2>Problem code: GCPC11F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Nowadays, people who want to communicate in a secure way use asymmetric encryption algorithms such as RSA. However, my older brother uses another, simpler encryption method for his diary entries. He uses a substitution cipher where each letter in the plaintext is substituted by another letter from the alphabet. The distance between the plaintext letter and the encrypted letter is fixed. If we would define this fixed distance <em>d</em> to <em>5</em>, A would be replaced by F, B by G, C by H, ..., Y by D, Z by E.</p>
+<p>With a fixed and known distance <em>d</em> the decryption would be somewhat simple. But my brother uses random distances for each of his diary entries. To decrypt his diary I have to guess the distance <em>d</em> for each entry. Thus, I use the well known phenomenon that the letter E is used more often in English words than other letters.  Can you write a program for me that calculates the distance <em>d</em> based on the fact that the most used letter in the encrypted text corresponds to the letter E in plaintext? Of course, I am interested in the decrypted text, too.</p>
+<h3>Input</h3>
+<p>The input consists of several test cases <em>c</em> that follow (<em>1 &le; c &le; 100</em>). Each test case is given in exactly one line containing one diary entry. Diary entries only use upper case letters (A-Z) and spaces. Each diary entry consists of at most <em>1000</em> encrypted letters (including spaces).</p>
+<h3>Output</h3>
+<p>For each test case, print one line containing the smallest possible distance <em>d</em> (<em>0 &le; d &le; 25</em>) and the decrypted text. If the decryption is not possible because there are multiple distances conforming to the rules above, print <strong>NOT POSSIBLE</strong> instead. Spaces are not encrypted.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4
+RD TQIJW GWTYMJWX INFWD JSYWNJX ZXJ F XNRUQJ JSHWDUYNTS YJHMSNVZJ
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+XVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK UVTIPGKZFE
+XVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK
+
+<strong>Output:</strong>
+5 MY OLDER BROTHERS DIARY ENTRIES USE A SIMPLE ENCRYPTION TECHNIQUE
+10 JXU GKYSA RHEMD VEN ZKCFI ELUH JXU BQPO TEW
+17 GERMAN COLLEGIATE PROGRAMMING CONTEST DECRYPTION
+NOT POSSIBLE
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2011-07-05</td></tr>
+<tr><td>Time limit:</td><td>0.407s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>German Collegiate Programming Contest 2011 (Author: Tobias Werth)</td></tr>	
+</table>

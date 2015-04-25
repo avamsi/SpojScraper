@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HHEMANT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4658. Help Hemant Verma</h1>
+		<h2>Problem code: HHEMANT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Steganography is a method of cryptography where a message or entire document can be hidden inside of another file or image which shows no evidence that there is data hidden in it. Typically, the message or document to be sent is first encrypted and compressed, and then combined with an existing file in the bits that are less significant.<br /><br />Hemant Verma is a secret agent who wants to send some classified information to his head office , the amount of data is very large , he needs your help to encode the message into image . You will be given an "image" and you will encode a given message into it and return the new image. The returned image should be in the same format as the original image.<br /><br /><br />The image will be in the format of a string of various lines where each three digits represent a number from 0 to 255, inclusive (leading zeros will be added as necessary), which is a pixel value in the image.You will also be given a&nbsp; message which contains the message you would like to encode into the image. <br /><br />You will first encode the message into numbers representing the characters in the message - spaces will be 0, 'A'-'Z' will be 1-26, 'a'-'z' will be 27-52, '0'-'9' will be 53-62, and 63 will be used for any space after the message. All these numbers can be represented in binary with 6 digits. You will put each pair of bits (representing a number between 0 and 3) into the lowest two bits of the values in the image. For each character, you will put in the lowest two bits, then the middle two, then the highest two, and then continue to the next character. You will put them in the lowest two bits of the first pixel on the first row, then the second pixel on the first row, and so on until you get to the end of the first row, then the first pixel on the second row, and so on. Once you are out of characters, continue substituting the lowest two bits of each pixel value as if the current character were represented by number 63.</p>
+<h3>Input</h3>
+<p>First line contain T representing number of test case , for each test case first line contain message&nbsp; then follow N the number of lines for image then following N line contain image.</p>
+<p style="text-align: center;"><br />0&lt;Length(message)&lt;1000<br />0 &lt; T,N &lt; 10000</p>
+<h3>Output</h3>
+<p>For each test case output the image in same format as input.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />hi<br />1<br />255123212001201222<br />hi<br />2<br />255123212<br />001201222<br /><br /><strong>Output:</strong><br />254120214003200222<br />254120214<br />003200222</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fameoflight">Hemant Verma</a></td></tr>
+<tr><td>Date:</td><td>2009-07-28</td></tr>
+<tr><td>Time limit:</td><td>0.061s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Modified Topcoder Problem</td></tr>	
+</table>

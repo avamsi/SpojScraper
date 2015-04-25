@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GUERNICA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5016. Guernica</h1>
+		<h2>Problem code: GUERNICA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Guernica is a famous painting by Pablo Picasso, depicting the bombing of the Basque town of Guernica during the Spanish Civil War. It shows the tragedies war inflicts upon individuals, particularly innocent civilians. The work has gained a monumental status, becoming a perpetual reminder of the tragedies of war, an anti-war symbol and an embodiment of peace.</p>
+<p><br /><br />After you were told that the painting was moved from the Museo del Prado to the Museo Nacional Centro de Arte Reina Sofia in 1992, you are on your way to that place. At your arrival, a creepy sight awaits you: Malicious vandals have cut the Guernica painting into several pieces and distributed them throughout the whole museum. A team already gathered all N pieces they could find. All these pieces have the same dimensions! Observing the dimensions, they conclude that there are far too many pieces to rebuild only Guernica. The vandals did in fact not only disassemble the original painting by Picasso but also several copies of it! Exactly P pieces are needed to reconstruct Guernica (or any of its copies).<br /><br />Now experts have to evaluate how probable it is that sets of P pieces belonged to one and the same initial painting and assigned each such combination a matching score. By maximizing the total matching score, they would be able to determine which pieces belonged to the same initial painting. Can you help them calculating the overall maximum matching score for all of the paintings?</p>
+<p style="text-align: center;"><img title="Guernica" src="../../../content/imuteb:guernica.jpg" alt="Guernica" width="631" height="283" /></p>
+<h3>Input</h3>
+<p>The input consists of several test cases (T&le;10), each of which starts by 3 integers on a line: the number of pieces found N, the number of pieces per painting P and Z, the number of possible combinations. (P, N&le;15, Z&le;1&rsquo;000) The next Z lines each contains P+1 positive integers (i1, i2, &hellip;, iP, s), that means a score of s is given to the combination (i1, i2, &hellip;, iP). (i1,..,iP &le;N, 0&lt;s&lt;10&rsquo;000) The last test case is followed by a single line with 3 zeros, which should not be processed.</p>
+<h3>Output</h3>
+<p>For each test case, print the case number and the largest score. If it is impossible to group all pieces so that entire paintings result out of them, print -1.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />9 3 3<br />1 2 3 1<br />4 5 6 2<br />7 8 9 3<br />9 3 4<br />1 2 3 1<br />1 4 5 2<br />1 6 7 3<br />1 8 9 4<br />3 3 1<br />1 2 3 9<br />5 4 1<br />2 1 5 3 10<br />0 0 0<br /><br /><strong>Output:</strong><br />Case 1: 6<br />Case 2: -1<br />Case 3: 9<br />Case 4: -1<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/imuteb">Christian Kauth</a></td></tr>
+<tr><td>Date:</td><td>2009-10-17</td></tr>
+<tr><td>Time limit:</td><td>0.266s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

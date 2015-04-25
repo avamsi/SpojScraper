@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mostafa_saad"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PWORDS" target="_blank">9967. Playing with Words</a></td><td><a href="http://www.spoj.com/problems/PWORDS"target="_blank">PWORDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCLB" target="_blank">9968. Magic Crystals and Laser Beams</a></td><td><a href="http://www.spoj.com/problems/MCLB"target="_blank">MCLB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RDNWK" target="_blank">9969. Road Network</a></td><td><a href="http://www.spoj.com/problems/RDNWK"target="_blank">RDNWK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EGYPAR" target="_blank">9970. The Egyptian Parliament</a></td><td><a href="http://www.spoj.com/problems/EGYPAR"target="_blank">EGYPAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACHESS" target="_blank">9971. Adventurous Chess Masters</a></td><td><a href="http://www.spoj.com/problems/ACHESS"target="_blank">ACHESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKEY" target="_blank">9972. The SKey</a></td><td><a href="http://www.spoj.com/problems/SKEY"target="_blank">SKEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROSCORE" target="_blank">9973. Problem Set Score</a></td><td><a href="http://www.spoj.com/problems/PROSCORE"target="_blank">PROSCORE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MENMARS" target="_blank">9974. Men From Mars</a></td><td><a href="http://www.spoj.com/problems/MENMARS"target="_blank">MENMARS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FSEQ" target="_blank">9975. No Stories Any More!</a></td><td><a href="http://www.spoj.com/problems/FSEQ"target="_blank">FSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FISHES" target="_blank">12651. Finding Fishes</a></td><td><a href="http://www.spoj.com/problems/FISHES"target="_blank">FISHES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRSOCU" target="_blank">12713. Strings</a></td><td><a href="http://www.spoj.com/problems/STRSOCU"target="_blank">STRSOCU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FATAWY" target="_blank">12714. Fatawy</a></td><td><a href="http://www.spoj.com/problems/FATAWY"target="_blank">FATAWY</a><br>
+</td></tr>

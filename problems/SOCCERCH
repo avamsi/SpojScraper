@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SOCCERCH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10571. Soccer Challenge</h1>
+		<h2>Problem code: SOCCERCH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A soccer field is divided into squared plots, like a grid of N rows and M columns. The length of a plot<br />side is equal to 1. Fernando likes to practice running only through the boundaries of the plots, he<br />does not like to go inside the plots.<br />Some of the plots are muddy, and some others have been selected by Fernando as target plots. A<br />plot may neither be muddy nor a target one.<br />Starting at the top left corner, he would like to go through the field and return back to the starting<br />point. All plots that lie inside the cycle of his path are considered to be inspected. To make things<br />more interesting he would like his path not to intersect with itself in any point different than the<br />starting point. Luckily, the plots boundaries are so wide that Fernando can go along the same<br />boundary multiple times without intersecting his own path.<br />Fernando would like to inspect all target plots, but not any muddy plots. Martin, who plays in the<br />opposing team, challenged Fernando that he could do a shortest path starting from the lower right<br />corner. Can you help Fernando to get his shortest path, and decide weather it is shorter than the one</p>
+<h3>Input</h3>
+<p>Input consist of many test cases.<br />First line of input starts with two integers R and C (1&lt;=R,C&lt;=50), which defines the rows and<br />columns the soccer field has been divided into.<br />Next, the soccer field is described in R rows, each containing C characters. Chars I, X, and O,<br />represents target plots (to inspect), muddy plots, and common plots respectively. The quantity of<br />target plots plus the quantity of muddy plots will not exceed 10.<br />There will be not spaces between the C characters of each line describing the soccer field.<br />End of the input is indicated by a line containing two zeros, and should not be processed.</p>
+<h3>Output</h3>
+<p>The output of each test case should be a separate line consisting of the name of the player who has<br />the shortest path to inspect the target plots but not the muddy plots, or the word &ldquo;Tie&rdquo; in case of a tie,<br />followed by a number representing the length of the shortest path for that player. The examples may<br />clarify the format.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 1 <br />I <br />2 2 <br />XX <br />XI <br />2 2 <br />XI <br />IX <br />3 3 <br />III <br />IXI <br />III <br />2 2 <br />IO <br />OO <br />0 0
+
+<strong>Output:</strong>
+Tie 4<br />Martin 4<br />Tie 10<br />Tie 18<br />Fernando 4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>24.89s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FAMAF-UNC</td></tr>	
+</table>

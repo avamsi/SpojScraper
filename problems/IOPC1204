@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IOPC1204"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10460. A function over factors</h1>
+		<h2>Problem code: IOPC1204</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">A function <em>f</em> is defined over natural numbers as:</p>
+<p style="font-size:large;">f(N) = &sum; d<sub>i</sub> &mu;(d<sub>i</sub>)</p>
+<p align="justify">Here the summation is over d<sub>i</sub>, all positive integers which are factors of N.</p>
+<p align="justify"><em>&mu;(n)</em> is the <em><a href="http://en.wikipedia.org/wiki/M%C3%B6bius_function">M&ouml;bius function</a></em> defined in the following way: If there exists a prime <em>p</em> such that <em>p<sup>2</sup></em> is a factor of <em>n</em>, then <em>&mu;(n)=0</em>. Otherwise, if <em>n</em> has an odd number of prime factors, <em>&mu;(n)=-1</em>. If not, <em>&mu;(n)=1</em>. Thus the first few values for <em>&mu;(n)</em> (starting from 1) are 1, -1, -1, 0, -1, 1, -1, 0...</p>
+<p align="justify">Given an integer X (0 &lt;= X &lt;= 10<sup>12</sup>), find the smallest natural number N such that |f(N)|&gt;X.</p>
+<h3>Input</h3>
+<p align="justify">The first line of the input contains T, the number of test cases (T &lt;= 1000). Following this are T lines, each containing an integer X (0 &lt;= X &lt;= 10<sup>12</sup>) corresponding to the test case.</p>
+<h3>Output</h3>
+<p align="justify">For each test case in the input, output the smallest natural number N such that  |f(N)|&gt;X.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+1
+2
+
+<strong>Output:</strong>
+3
+5
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2012-01-20</td></tr>
+<tr><td>Time limit:</td><td>0.335s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>http://www.codechef.com/IOPC2012/</td></tr>	
+</table>

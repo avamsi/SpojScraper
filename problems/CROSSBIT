@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CROSSBIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3484. Crossbits</h1>
+		<h2>Problem code: CROSSBIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Crossbits are like Crosswords; instead of entering words you enter binary bits 01  in a Crossbit under certain given conditions, assuming that a solution exists. An empty Crossbit of size N  is an empty grid of size N×N.</p>
+<p>Given a natural number N , consider entering N<sup>2</sup> binary bits in an empty Crossbit, satisfying the following conditions:</p>
+<ul>
+<li>Each square in the grid contains either a 0-bit or a 1-bit with no 1-bit in two major diagonals.</li>
+<li>The total number of 1-bit in each row / column is exactly equal to K , K being a given natural number less than N.</li>
+<li>A 0-bit has at least another adjacent 0-bit either in the same row or in the same column.</li>
+<li>The Crossbit represents the N2 -bit binary number B formed by placing bits in the 1st , the 2nd , ... the Nth row from left to right.</li>
+</ul>
+<p>You are required to write a program that enters bits in an empty Crossbit so that the Crossbit represents the least binary number B for given N and K .</p>
+<p>As an illustration consider the case with N = 4 and K = 1 . The Crossbit shown below represents the least binary number B = 0010100000010100 of 16 bits satisfying the specified conditions.</p>
+<pre>
+0 	0 	1 	0
+1 	0 	0 	0
+0 	0 	0 	1
+0 	1 	0 	0
+</pre>
+<h3>Input</h3>
+<p>The input may contain multiple test cases.</p>
+<p>For each test case parameters N and K of the Crossbit are given in one line. Assume that N does not exceed 10.
+</p>
+<p>The input terminates with a line containing 0 as input.
+</p>
+<h3>Output</h3>
+<p>
+For each test case, print the Crossbit in N rows; each row contains N bits with a space between two neighbouring bits. Keep a blank line after the last output line of each test case.
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Sample Input</b>
+4 1
+6 2
+0
+
+<b>Sample Output</b>
+0 0 1 0 
+1 0 0 0 
+0 0 0 1 
+0 1 0 0 
+
+0 0 0 1 1 0 
+1 0 0 1 0 0 
+0 0 0 0 1 1 
+1 1 0 0 0 0 
+0 0 1 0 0 1 
+0 1 1 0 0 0
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-09</td></tr>
+<tr><td>Time limit:</td><td>0.133s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Kanpur 2006</td></tr>	
+</table>

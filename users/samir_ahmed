@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/samir_ahmed"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RE1" target="_blank">10464. Reverse Engineering</a></td><td><a href="http://www.spoj.com/problems/RE1"target="_blank">RE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OTOY1" target="_blank">10465. One Theorem, One Year</a></td><td><a href="http://www.spoj.com/problems/OTOY1"target="_blank">OTOY1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EALP1" target="_blank">10466. Enough of analyzing, let&#8217;s play</a></td><td><a href="http://www.spoj.com/problems/EALP1"target="_blank">EALP1</a><br>
+</td></tr>

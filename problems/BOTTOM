@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOTTOM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1799. The Bottom of a Graph</h1>
+		<h2>Problem code: BOTTOM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+We will use the following (standard) definitions from graph theory.
+Let <code>V</code> be a nonempty and finite set, its elements being called vertices (or nodes).
+Let <code>E</code> be a subset of the Cartesian product <code>V×V</code>, its elements being called edges.
+Then <code>G=(V,E)</code> is called a directed graph.
+
+</p><p>
+
+Let <code>n</code> be a positive integer, and let <code>p=(e<sub>1</sub>,...,e<sub>n</sub>)</code> be a sequence of length <code>n</code> of edges <code>e<sub>i</sub>&#8712; E</code> such that <code>e<sub>i</sub>=(v<sub>i</sub>,v<sub>i+1</sub>)</code> for a sequence of vertices <code>(v<sub>1</sub>,...,v<sub>n+1</sub>)</code>.
+Then <code>p</code> is called a path from vertex <code>v<sub>1</sub></code> to vertex <code>v<sub>n+1</sub></code> in <code>G</code> and we say that <code>v<sub>n+1</sub></code> is reachable from <code>v<sub>1</sub></code>, writing <code>(v<sub>1</sub>&#8594;v<sub>n+1</sub>)</code>.
+
+
+</p><p>
+
+Here are some new definitions.
+A node <code>v</code> in a graph <code>G=(V,E)</code> is called a sink, if for every node <code>w</code> in <code>G</code> that is reachable from <code>v</code>, <code>v</code> is also reachable from <code>w</code>.
+The bottom of a graph is the subset of all nodes that are sinks, i.e., <code>bottom(G)={v&#8712;V|&#8704;w&#8712;V:(v&#8594;w)&#8658;(w&#8594;v)}</code>.
+You have to calculate the bottom of certain graphs.
+
+
+</p><h3>Input Specification</h3><p>
+
+The input contains several test cases, each of which corresponds to a directed graph <code>G</code>.
+Each test case starts with an integer number <code>v</code>, denoting the number of vertices of <code>G=(V,E)</code>, where the vertices will be identified by the integer numbers in the set <code>V={1,...,v}</code>.
+You may assume that <code>1&lt;=v&lt;=5000</code>.
+That is followed by a non-negative integer <code>e</code> and, thereafter, <code>e</code> pairs of vertex identifiers <code>v<sub>1</sub>,w<sub>1</sub>,...,v<sub>e</sub>,w<sub>e</sub></code> with the meaning that <code>(v<sub>i</sub>,w<sub>i</sub>)&#8712;E</code>.
+There are no edges other than specified by these pairs.
+The last test case is followed by a zero.
+
+
+</p><h3>Output Specification</h3><p>
+
+For each test case output the bottom of the specified graph on a single line.
+To this end, print the numbers of all nodes that are sinks in sorted order separated by a single space character.
+If the bottom is empty, print an empty line.
+
+</p><p>
+
+<h3>Sample Input</h3><p>
+
+</p><pre>3 3
+1 3 2 3 3 1
+2 1
+1 2
+0
+</pre>
+
+<h3>Sample Output</h3><p>
+
+</p><pre>1 3
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2007-09-21</td></tr>
+<tr><td>Time limit:</td><td>0.254s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>University of Ulm Local Contest 2003</td></tr>	
+</table>

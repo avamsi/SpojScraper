@@ -1,0 +1,128 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL2_BC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15310. Peter Quest</h1>
+		<h2>Problem code: VPL2_BC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="white-space: normal;"> </span></p>
+<p style="margin-bottom: 0in;">Is Peter&rsquo;s birthday! And his friends are preparing a big party, however, Peter is obsessed  with a variation of the famous game Minesweeper, moreover, Peter hates losing, so if any of  you or your friends can beat him in the game, he will get angry and will attend the party that  everyone is organizing for him.</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;">This new mode of Minesweeper consists in building the gameboard given the mines, so, if the  matrix has size of (2x2) and there is a mine in the position (0,0) of the matrix, the resultant  gameboard will be *1 11 Your task is to beat Peter and celebrate his birthday before its too late!  Please have in consideration that:</p>
+<p style="margin-bottom: 0in;">&bull; The cell (i,j) where there is a mine will be denoted as &rsquo;*&rsquo;</p>
+<p style="margin-bottom: 0in;">&bull; The cell (i,j) where there is no mine will be denoted as &rsquo;-&rsquo;</p>
+<p style="margin-bottom: 0in;">&bull; The cell (i,j) where there is N mines adjacent to it, will be denoted as a number from 1  to 8 (depending on the number of adjacencies)</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Input </strong></p>
+<p style="margin-bottom: 0in;">The first line contains an integer T , which specifies the number of test cases. Then, will follow  the descriptions of T test cases.</p>
+<p style="margin-bottom: 0in;">For each test case, you will have a line with three numbers N , M , K, denoting, respectively,  the size of the matrix, formed by N columns and M rows, and K mines. Then, K lines will  follow, each containing two numbers Ki and Kj denoting the position where the mine is in the  board.</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Output </strong></p>
+<p style="margin-bottom: 0in;">For each test case you should print the string "Scenario #i:" where i represents the test case  you are analyzing (starting from 1), then, in the next line, you shall print the gameboard as  specified.</p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>INPUT</p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p>OUTPUT</p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>3</p>
+<p>3 2 2</p>
+<p>0 0</p>
+<p>1 1</p>
+<p>3 3 3</p>
+<p>0 0</p>
+<p>1 1</p>
+<p>2 2</p>
+<p>8 8 10</p>
+<p>0 1</p>
+<p>5 0</p>
+<p>2 5</p>
+<p>4 5</p>
+<p>2 6</p>
+<p>5 6</p>
+<p>6 6</p>
+<p>5 7</p>
+<p>6 7</p>
+<p>7 7</p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p>Scenario #1:</p>
+<p>*2</p>
+<p>2*</p>
+<p>11</p>
+<p>Scenario #2:</p>
+<p>*21</p>
+<p>2*2</p>
+<p>12*</p>
+<p>Scenario #3:</p>
+<p>1*1-----</p>
+<p>111-1221</p>
+<p>----1**1</p>
+<p>----2331</p>
+<p>11--1*32</p>
+<p>*1--13**</p>
+<p>11---2**</p>
+<p>-----13*</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="white-space: normal;"> </span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 1 (10%) </strong></p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; T &le; 10</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; N ,M &le; 8</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; K &le; min(8,N *M )</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 2 (20%) </strong></p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; T &le; 10</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; N ,M &le; 128</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; K &le; min(128,N *M )</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 3 (30%) </strong></p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; T &le; 10</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; N ,M &le; 1024</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; K &le; min(1024,N *M )&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Constraints - Subtask 4 (40%)</strong></p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; T &le; 10</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; N ,M &le; 6144</p>
+<p style="margin-bottom: 0in;">&bull; 1 &le; K &le; min(100000,N *M )&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-06-29</td></tr>
+<tr><td>Time limit:</td><td>5s-10s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

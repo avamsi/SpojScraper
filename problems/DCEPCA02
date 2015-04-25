@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPCA02"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12887. Ant Colony Optimization</h1>
+		<h2>Problem code: DCEPCA02</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ants are known to move in groups and in perfect order. However, in our problem the ants can move only in directions Left(L), Right(R), Up(U), Down(D). The place is a rectangular grid. There lives 2 types of ants : Type A and Type B. Each ant type has its own queen ant which defines the 2 directions at which their type of ants can reproduce ants.</p>
+<p>A starting cell is given where one ant of each type is standing (A and B). When the process begins, each type of ant produces 4 ants, 2 ants of their type in the 2 directions (1 ant per direction) specified by their queen ant and 2 ants of the other type in the remaining 2 directions. So if queen ant of type A says LR and queen ant of type B says UD then A ant produces new type A ants at left cell and right cell and new type B ants at up cell and down cell of the original cell. Similarly, type B ant produces 2 new type A ants in left and right cell and 2 new type B ants in up cell and down cell. The ants produced again reproduce more ants at their adjacent cells according to the same directions given by the their queen ant.</p>
+<p>Reproducing ants at adjacent cells take 1 time unit. You need to find the sum of the minimum time in which type A ant reaches the endpoint and the minimum time in which type B ant reaches the endpoint. If any type of ant cannot reach endpoint, the answer is -1.</p>
+<h3>Constraints</h3>
+<p>T &lt;= 10<br /> 0 &lt; M &lt;= 500<br /> 0 &lt; N &lt;= 500<br /> 0 &lt;= SX, EX &lt; M<br /> 0 &lt;= SY, EY &lt; N</p>
+<h3>Input</h3>
+<p>T denotes the number of testcases.<br /> Each testcase consists of 4 lines.<br /> First line gives M , N which is the size of grid <br /> Second line gives starting cell cordinates. SX , SY <br /> Third line gives endpoint cell cordinates&nbsp; EX , EY<br /> Fourth line gives a permutation of LRUD denoting the directions provided by queen ant to move. The first two characters of the string gives the directions of queen ant type A and last two characters gives direction of queen ant type B.</p>
+<h3>Output</h3>
+<p>Print T lines each giving the minimum time in which ant of both types can reach the ending cell for each testcase ie. Find&nbsp; sum of (minimum time at which A type ant reaches endpoint + minimum time at which B type ant reaches endpoint)</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />5 5<br />1 1 <br />3 4<br />LRUD<br />2 4<br />0 2<br />0 3<br />RULD<br />2 4<br />0 2<br />1 1 <br />URDL<br /><strong><br />Output:</strong><br />10<br />-1<br />6<br /><br /><strong></strong><p><strong>Explanation:<br /><br /></strong>TestCase 1 : Minimum time at which A type ant reaches end point = 5 <br />Minimum time at which B type ant reaches endpoint = 5<br />TestCase 2 : B cannot reach endpoint. Hence answer is -1.<br />TestCase 3 : Minimum time at which A type ant reaches end point = 4<br />Minimum time at which B type ant reaches endpoint = 2</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-12-03</td></tr>
+<tr><td>Time limit:</td><td>0.280s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

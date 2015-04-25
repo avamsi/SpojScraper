@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GANNHAT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2678. Closest distance</h1>
+		<h2>Problem code: GANNHAT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/GANNHAT/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/GANNHAT/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<p>The manhattan distance between two points A(x<sub>1</sub>,y<sub>1</sub>) and B(x<sub>2</sub>,y<sub>2</sub>) is defined as following:</p>
+<p style="text-align:center;">D(A,B) = |x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|</p>
+<p>Given N points A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub>, 
+for each point A<sub>i</sub> you need to calculate the minimum D(A<sub>i</sub> , A<sub>j</sub>) (j &#8800; i).</p>
+
+<h3>Input</h3>
+<ul>
+<li>The first line contains a positive integer N (1 &#8804; N &#8804; 200000).
+<li>The i-th line of the next N lines contains two integers x and y which are co-ordinates of the i-th point(0 &#8804; x, y &#8804; 10<sup>7</sup>)
+</ul> 
+
+<h3>Output</h3>
+<ul>
+<li>Print N lines, in which the i-th line contains the minimum distance for the i-th point. 
+</ul> 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+0 0
+0 1
+1 0
+1 1
+
+<b>Output:</b>
+1
+1
+1
+1
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aukcwe">Kaiel</a></td></tr>
+<tr><td>Date:</td><td>2008-05-02</td></tr>
+<tr><td>Time limit:</td><td>0.098s-0.350s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C++ 4.9 JAVA PAS fpc PAS gpc </td></tr>
+<tr><td>Resource:</td><td>Mr Taek</td></tr>	
+</table>

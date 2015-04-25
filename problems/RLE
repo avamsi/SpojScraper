@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17504. Run length encoding</h1>
+		<h2>Problem code: RLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ram had to send large amount of data to his friend Vishnu. Since he was concerned about the time and the amount of data transfer it will take, he wanted to compress the data before he sent it. So he turns to you for help.</p>
+<p>You need to perform run length encoding on a given string. The encoding is as follows : 'consecutive character count' followed by '!' followed by the 'character'. Do not encode the characters unless they lead to compression !</p>
+<h3>Input</h3>
+<p>Input consists of multiple lines of strings s, one string per line,&nbsp; with |s| &lt;= 100000 (read the input till EOF)</p>
+<h3>Output</h3>
+<p>For each input string, output a single line printing the run length encoding of the input string</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />aabbbbbccccc<br />aaaabbbbbbbbbbbbbbbccccc
+
+<strong>Output:</strong>
+aa5!b5!c<br />4!a15!b5!c
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codingcapo">Pandian</a></td></tr>
+<tr><td>Date:</td><td>2013-12-14</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

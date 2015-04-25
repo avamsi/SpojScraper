@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GIVEAWAY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18185. Give Away</h1>
+		<h2>Problem code: GIVEAWAY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"> You are given a <strong>1-indexed</strong> array <strong>X</strong>, consisting of<strong> N</strong> integers, and a set of <strong>Q</strong> queries. <br /> There are two kinds of queries:<br /> 1. <strong>0 a b c</strong><br /> Here you are required to return the number of elements with indices in <strong>[a,b]</strong><br /> greater than or equal to <strong>c</strong><br /> 2. <strong>1 a b</strong><br /> Here you are required to change the <strong>a<sup>th</sup></strong> element of array to <strong>b</strong>. </span></p>
+<h3><span style="font-size: small;">Input Format:</span></h3>
+<p><span style="font-size: small;"> First line contains <strong>N</strong>, the number of elements in the array <strong>X</strong>. The next line   contains <strong>N</strong> space separated integers representing the elements of <strong>X</strong>. The third   line of input contains a single integer, <strong>Q</strong>, the number of queries. The next <strong>Q</strong> lines of input each contain queries of two kinds as described above. </span></p>
+<h3><span style="font-size: small;">Output Format:</span></h3>
+<p><span style="font-size: small;"><strong>Q </strong>lines with the ith line contains the answer for the <strong>i<sup>th</sup></strong> query </span></p>
+<h3><span style="font-size: small;">Constraints:</span></h3>
+<p><span style="font-size: small;"><strong> 1 &le; N &le; 5*10^5<br /> 1 &le; Q &le; 10^5<br /> 1 &le; X[i] &le; 10^9<br /> 1 &le; a &le; b &le; N for query type 0<br /> 1 &le; a &le; 10^5, 1 &lt; b &le; 10^9 for query type 1<br /> 1 &le; c &le; 10^9<br /></strong> </span></p>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">5
+1 2 3 4 5
+3
+0 1 5 10
+1 2 20
+0 1 3 10</span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">0
+1</span></pre>
+<p><span style="font-size: small;"><br /> <strong>Problem Setter: Pulkit Goel and Vidit Gupta</strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/darkshadows">darkshadows</a></td></tr>
+<tr><td>Date:</td><td>2014-01-28</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

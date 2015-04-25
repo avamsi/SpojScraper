@@ -1,0 +1,46 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITKWPCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15558. Let us play with strings</h1>
+		<h2>Problem code: IITKWPCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;&nbsp;&nbsp; Feluda likes palindromes very much. He is so fond of palindromes that if you give him any string, he will try to break it into continous palindromes.<br />&nbsp;&nbsp; &nbsp;As Feluda is a smart boy, he will do try to break the string into minimum no of such continuous palindromes. You have to help Prabhu. Find out the answer for the problem if he is given a string s.</p>
+<h3>Input</h3>
+<p>T : number of test cases (T &lt;= 100)<br />next T lines contain a string s (length of s &lt;= 2000)</p>
+<h3>Output</h3>
+<p>For every test case print one line having answer as given in the problem statement.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />abacdc<br />ababa<br />ababbacababbad<br />abcd<br />&nbsp;<br /><strong>Output:</strong><br />2<br />1<br />5<br />4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-08-05</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

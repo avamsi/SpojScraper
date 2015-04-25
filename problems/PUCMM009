@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PUCMM009"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15215. David and his Obsession</h1>
+		<h2>Problem code: PUCMM009</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="docs-internal-guid-2388649c-63a0-0eb5-77e7-829e8ebbc59f"> </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">You are walking by an empty corridor at PUCMM. All around you are arithmetic expressions written on the walls and on the floor. You find it odd and quickly realize all these expressions seem to be failed attempts to solve a problem. As you read by, you hear a voice coming from one of the classrooms that is whispering &ldquo;I do not see it! I do not see it!&rdquo; You walk to the classroom and find David rolling on the floor in frustration.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;What&rsquo;s going on, David? you ask.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;The answer.. I do not see! Do you see?&rdquo; replies David back.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr">&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;What answer?&rdquo; you ask him.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;Professor Olson gave me this problem and &hellip; I do not see.&rdquo;</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr">&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;Ok. What about you stand up and describe the problem to me?&rdquo; you ask again.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;Well, OK. You are pretty smart yourself. Imagine ten slips of paper bearing the numbers 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are put into a hat. </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">5</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> slips are drawn at random and laid out in a row in the order in which they were drawn.&rdquo; He sighs deeply. &ldquo;What is the probability that the 5-digit number so formed is divisible by 495?&rdquo;</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">On your backpack there is a laptop. Help him. Write an algorithm that solves the problem.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Input</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">There is no input for this problem.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Print in a single line the answer as a fraction expressed in its lowest terms.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"></span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Sample cases</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">There are no sample cases for this problem.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Notes</span></p>
+<p><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">In case you need this, the greatest common divisor of (a, b) is defined recursively as follows: </span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> gcd(a,b) = b if a == 0, otherwise gcd = gcd(b <strong>mod</strong> a, a).</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kojak_">kojak_</a></td></tr>
+<tr><td>Date:</td><td>2013-06-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Yaglom Challenging Mathematical Problems With Elementary Solutions</td></tr>	
+</table>

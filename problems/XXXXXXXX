@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/XXXXXXXX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9066. Sum of Distinct Numbers</h1>
+		<h2>Problem code: XXXXXXXX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given N numbers. You have to perform two kinds of operations:<br />U x y - x-th number becomes equal to y.<br />Q x y - calculate the sum of distinct numbers from x-th to y-th. It means that the sum for the set {1, 2, 3, 2, 7} will be equal to 13 (1+2+3+7).</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer N. 1&lt;=N&lt;=50000<br />The second line consists of N numbers.<br />The third line consists of an integer Q. 1&lt;=Q&lt;=100000<br />The following Q lines will consist of queries of the form described in the task description.<br />All numbers in input will fit in the signed 32-bit type.</p>
+<h3>Output</h3>
+<p>Output an answer for every query of the second type.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />1 2 4 2 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />3<br />Q 2 4<br />U 4 7<br />Q 2 4<br /><br /><strong>Output:</strong><br />6<br />13<br /><br /></pre>
+<p>Hint: Time limit is ~ <span class="AM">1.5*(my program's execution time in the worst case)</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2011-06-23</td></tr>
+<tr><td>Time limit:</td><td>0.740s
+</td></tr>
+<tr><td>Source limit:</td><td>44444B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Known problem</td></tr>	
+</table>

@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18246. Maggu and Vectors</h1>
+		<h2>Problem code: IITWPC4C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Maggu was teaching vectors using triangle diagrams to to his little brother. Now in the midst of lesson he went for a coffee and on returning finds all his triangles disassembled into constituent vectors by his naughty brother. He needs to recreate the triangles. He needs your help in doing this task quickly as he has to go for an internship interview. </span></span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;"><span id="docs-internal-guid-64f71e89-e8cf-3177-64a7-c411076f3700" style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">First line will contain T (1 &lt;= T &lt;= 10), the number of test cases. Each test case will consist of first line N, number of vectors. Next line will contain N (1 &lt;= N &lt;= 1000)&nbsp; vectors of the form of a b &nbsp;-1000&lt;=a,b&lt;=1000.&nbsp;</span></span></p>
+<h3>Output</h3>
+<p id="docs-internal-guid-64f71e89-e8d0-cf7b-6ba7-f61c223a2aa6" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">You have to print, in a new line for every test case, &nbsp;&ldquo;YES&rdquo; &nbsp;if any 3 vectors among N form a triangle, &ldquo;NO&rdquo; otherwise. </span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p id="docs-internal-guid-64f71e89-e8d0-9105-6249-af1b5e443ce5" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3</span>
+<span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">5 </span>
+</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 4 3 -4 5 0 6 0 3 5</span>
+</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2</span>
+</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">4 5 -4 -5</span>
+</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 </span>
+</span></p><p id="docs-internal-guid-64f71e89-e8d0-5d99-9192-1f8ea9fcc0d4" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 2 3 4 -5 -6</span></span></p>
+<strong>Output:</strong><br /><p id="docs-internal-guid-64f71e89-e8d0-3690-538d-a6f0d85e6fd3" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">YES</span>
+</span></p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: medium;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">NO</span>
+<span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">NO</span></span></p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-01-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

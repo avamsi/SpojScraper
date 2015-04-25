@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OU7"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16035. Fone Frequencies</h1>
+		<h2>Problem code: OU7</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">When relay towers for mobile telephones communicate with the mobile phones in their area, there is</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">always the possibility of interference. So, when assigning the transmission frequency, the FCC makes</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sure that nearby towers have frequencies that aren't too close. On the other hand, the FCC does not</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">want to assign too many different frequencies; they want to save as many as possible for other uses.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Your job is to find an optimal assignment of frequencies.</div>
+<p>When relay towers for mobile telephones communicate with the mobile phones in their area, there is</p>
+<p>always the possibility of interference. So, when assigning the transmission frequency, the FCC makes</p>
+<p>sure that nearby towers have frequencies that aren't too close. On the other hand, the FCC does not</p>
+<p>want to assign too many different frequencies; they want to save as many as possible for other uses.</p>
+<p>Your job is to find an optimal assignment of frequencies.</p>
+<p><img src="http://imgur.com/9BAYCx6.jpg" alt="Graph" width="609" height="225" /></p>
+<p>In this problem, the frequencies will be integers. Nearby towers must be assigned frequencies that differ</p>
+<p>by at least 2. You'll find an assignment using as few frequencies as possible. For example, consider the</p>
+<p>following two arrangements of towers. Two towers near each other are indicated by the connecting line.</p>
+<p>Note that the following are legal frequency assignments to these two tower configurations. However,</p>
+<p>the second arrangement does not use the fewest number of frequencies possible, since the tower with</p>
+<p>frequency 5 could have frequency 1.</p>
+<p><img src="http://imgur.com/FqlBFex.jpg" alt="Frequencies Labelled" width="612" height="233" /></p>
+<h3>Input</h3>
+<p>There will be multiple test cases. Input for each test case will consist of two lines: the first line will</p>
+<p>contain the integer n, indicating the number of towers. The next line will be of the form x1 y1 x2 y2 ...</p>
+<p>xn yn where xi yi are the coordinates of tower i. A pair of towers are considered "near" each other</p>
+<p>if the distance between them is no more than 20. There will be no more than 12 towers and no tower</p>
+<p>will have more than 4 towers near it. A value of n = 0 indicates end of input.</p>
+<h3>Output</h3>
+<p>For each test case, you should print one line in the format:</p>
+<p>The towers in case n can be covered in f frequencies.</p>
+<p>where you determine the value for f. The case numbers, n, will start at 1.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+0 0 5 7.5 1 -3 10.75 -20.1 12.01 -22
+6
+0 1 19 0 38 1 38 21 19 22 0 21
+0
+
+<strong>Output:</strong>
+The towers in case 1 can be covered in 3 frequencies.
+The towers in case 2 can be covered in 2 frequencies.<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rhawk187">Chad Mourning</a></td></tr>
+<tr><td>Date:</td><td>2013-09-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

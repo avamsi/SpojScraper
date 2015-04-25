@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POLYSSQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2668. Polygon</h1>
+		<h2>Problem code: POLYSSQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given N different points in the plane. No any 3 of them are collinear. Write a program that finds out the smallest area of a convex polygon with K vertices which are taken from the given points. 
+<h3>Input</h3>
+<p>Two integers, N and K, are written on the first line in the standard input. It follows N lines, each containing a pair of coordinates for the corresponding given point. Every two numbers on a line in the input are separated by a space. 
+Constraints: 0 < N < 50, 0 < K < 11. The coordinates of the given points are nonnegative integers, less than 9999.
+<h3>Output</h3>
+<p>Your program has to output an integer that is equal to the integer part of minimal area. If there does not exist any convex polygon as is described above, your program has to output 0. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4 3
+0 0
+1 1
+0 10
+10 0
+
+<b>Output:</b>
+5
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arcane">Chinh Nguyen</a></td></tr>
+<tr><td>Date:</td><td>2008-04-26</td></tr>
+<tr><td>Time limit:</td><td>0.114s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Bulgarian OI</td></tr>	
+</table>

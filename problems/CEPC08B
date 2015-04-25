@@ -1,0 +1,99 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CEPC08B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3459. SkyScrapers</h1>
+		<h2>Problem code: CEPC08B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a seaside village, there is an avenue of skyscrapers. Each skyscrapers is 100m wide and has certain
+height. Due to very high price of parcels, any two consecutive skyscrapers are adjacent. The avenue lies close to the beach so the street is exactly at the sea level.
+Unfortunately, this year, due to the global warming, the sea level started to increase by one meter
+each day. If the skyscraper height is no greater than the current sea level, it is considered &#64258;ooded.
+A region is a maximal set of non-&#64258;ooded, adjacent skyscrapers. This term is of particular importance, as
+it is su&#64259;cient to deliver goods (like current, carrots or cabbages) to any single skyscraper in each region.
+Hence, the city major wants to know how many regions there will be in the hard days that come.
+An example of an avenue with 5 skyscrapers after 2 days is given below.
+</p>
+<img src="/content/er2er:skyscrapers.png" />
+
+<h3>Input</h3>
+<p>The input contains several test cases. The &#64257;rst line contains an
+integer <span style="font-style: italic;">t</span>
+(t &#8804; 15) denoting the number<br>
+of test cases. Then <span style="font-style: italic;">t</span>
+test cases follow. Each of them begins with a line containing two
+numbers <span style="font-style: italic;">n</span>
+and<br>
+<span style="font-style: italic;">d</span> (1 &#8804; n, d
+&#8804; 10<sup>6</sup>), <span style="font-style: italic;">n</span>
+is the number of skyscrapers and <span style="font-style: italic;">d</span>
+is the number of days which the major wants<br>
+to query. Skyscrapers are numbered from left to right. The next line
+contains n integers h<sub>1</sub>, h<sub>2</sub>,
+. . . , h<sub>n</sub><br>
+where 1 &#8804; h<sub>i</sub> &#8804; 10<sup>9</sup> is the
+height of skyscraper<span style="font-style: italic;"> i</span>.
+The third line of a single test case contains <span
+ style="font-style: italic;">d</span> numbers<br>
+t<sub>j</sub> such that 0 &#8804; t<sub>1</sub>
+&lt; t<sub>2</sub> &lt; . . . &lt; t<sub>d&#8722;1</sub>
+&lt; t<sub>d</sub> &#8804; 10<sup>9</sup>.
+</p>
+
+<h3>Output</h3>
+<p>For each test case output d numbers r<sub>1</sub>, r<sub>2</sub>,
+. . . , r<sub>d</sub>, where r<sub>j</sub> is
+the number of regions on day t<sub>j</sub> .
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 3
+1 2 3
+1 2 3
+5 3
+1 3 5 1 3
+0 2 4
+
+
+<b>Output:</b>
+1 1 0
+1 2 1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/er2er">Robert Rychcicki</a></td></tr>
+<tr><td>Date:</td><td>2008-12-06</td></tr>
+<tr><td>Time limit:</td><td>1.160s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Central European Regional Contest 2008</td></tr>	
+</table>

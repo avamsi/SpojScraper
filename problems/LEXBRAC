@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LEXBRAC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2317. Bracket Sequence</h1>
+		<h2>Problem code: LEXBRAC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Correct Bracket Sequence (CBS) is a sequence that can be obtained through following rules:
+<br>1) An empty string is the CBS. 
+<br>2) If A is a CBS, then B = (A) is also a CBS. 
+<br>3) If A is a CBS, then B = [A] is also a CBS. 
+<br>4) If A and B are CBS, then C = AB is also a CBS.
+<br>Length of the CBS is the number of brackets in it, and this number is always even.
+<br>Assume that '(' < ')' < '[' < ']'. 
+<br>CBS a1a2 ... an is lexicografically smaller than the CBS b1b2 ... bn if and only if there exists an integer i, i <= n, so that aj=bj, for each j, 1 <= j < i and ai < bi.
+
+<h3>Illustration</h3>
+<p>Enumerate all CBS length 4 in lexicographical order: 
+(()), ()(), ()[], ([]), [()], [[]], [](), [][].
+
+<h3>Task</h3>
+<p> Your task is to find k-th CBS with length n in lexicographical order
+
+<h3>Input</h3>
+<p>Contains 2 integers n (2..250) and k (1..10^120)
+
+<h3>Output</h3>
+<p>Print the k-th CBS with length n in lexicographical order
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+4
+3
+<b>Output:</b>
+()[]
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arcane">Chinh Nguyen</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>0.136s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

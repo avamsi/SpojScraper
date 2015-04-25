@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FRACTAL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2152. Hilbert Curve</h1>
+		<h2>Problem code: FRACTAL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Hilbert Mole is a small and very rare mole. The first and only specimen was found by David Hilbert
+at his backyard. This mole lives in a huge burrow under the ground, and the border of this burrow forms
+a Hilbert curve of n-th order (H<sub>n</sub>).</p>
+<img src="http://www.spoj.pl/content/john_jones:fractal1.jpg"></img>
+<p>Figure 1.  Hilbert curves, order 1 to 4.</p>
+<p>Hilbert curves can be defined as follows. H<sub>1</sub> is a unit square with open top side (figure 1(a)), H<sub>n</sub> consists
+of four copies of H<sub>n-1</sub>: bottom left and bottom right are copied without changes, top left is rotated 90<sup>o</sup> counter-clockwise and top right is rotated 90<sup>o</sup> clockwise. These small copies are connected by three segments of unit length (figure 1(b),(c),(d)).</p>
+<img src="http://www.spoj.pl/content/john_jones:fractal2.jpg"></img>
+<p>Figure 2.  Burrow, filled with water.</p>
+<p>Trying to exterminate the mole, Mr. Hilbert fills the burrow with water (figure 2). But air inside the burrow
+prevents water from filling it entirely. In this problem we suppose that air and water are incompressible
+and cannot leak throw the borders of the burrow. Your task is to find the total area of the burrow, filled
+with water.
+<p>Note that water can flow over the obstacle only when its level is strictly higher. See examples on figure 3
+for further clarification.</p>
+<img src="http://www.spoj.pl/content/john_jones:fractal3.jpg"></img>
+<p>Figure 3.  More examples of filled burrows.</p>
+<h3>Input</h3>
+<p>Multiple test cases. For each test case:
+<p>The first line of the input file contains two integer numbers: n and alpha - order of Hilbert curve and slope angle of surface in degrees (1 <= n <= 12, 0 <= alpha < 90).
+<p>Input terminates by EOF.</p>
+<h3>Output</h3>
+<p>For each test case:
+<p>The first line of the output file must contain a single real number - the total area of the burrow, filled
+with water. The relative error of the answer must not exceed 10<sup>-6</sup>.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+5 30
+3 45
+4 10
+3 0
+
+<b>Output:</b>
+190.803847577293
+15.5
+91.573591766702
+26.0
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>0.347s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC Northeastern Europe Programming Contest(Northern Subregional) 2008, with description modified</td></tr>	
+</table>

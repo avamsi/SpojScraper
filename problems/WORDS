@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WORDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2318. Overlapping Words</h1>
+		<h2>Problem code: WORDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Consider the following game: you are given a word W that contains only lower-case letters ("a" to "z"). You are also given a set of words and you are allowed to do the following operation: choose a suffix of W and replace it with another word (you can do this only if that word contains the suffix as its prefix). For example, if the current words is "acmicpc" you can choose to replace the suffix "pc" with any word in the set you are given that starts with "pc", e.g. "pcaaargh" thus forming the word "acmicpcaaargh". You can then repeat this procedure as many times as you wish. You are free to choose any suffix of the current word as long as it matches a prefix of the word you are replacing it with. You can also choose not to do the operation at all. Each suffix you replace must have length at least 1 (you cannot replace the "null suffix" with a word). 
+
+<p>You are also given an integer L, 1 &#8804; L &#8804; 5. Your task is to find how many different subwords of length exactly L can be produced using the following operation. A "subword" means a substring of length L.
+
+<h3>Input</h3>
+<p>The first line of the input file contains two integers, N and L separated by space. N, 1 &#8804; N &#8804; 100 is the number of words in the set (including the initial word). The next N lines describe one word each. No other symbols except small latin letters, and the end-of-line symbol are found on these lines.
+Each word has length at least L and at most 128. The word you start with is the first word in this set.
+
+<h3>Output</h3>
+<p>The only line of the output should contain one integer: the number of different subwords of length L that can be produced using the operation described above.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2 5
+acmicpc
+pcaaaaaaargh
+
+<b>Output:</b>
+11
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>4.082s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/team1/index.html">MIT 1st Team Contest 2007</a></td></tr>	
+</table>

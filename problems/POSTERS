@@ -1,0 +1,91 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POSTERS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>138. Election Posters</h1>
+		<h2>Problem code: POSTERS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+	A parliamentary election was being held in Byteland. Its enterprising and 
+	orderly citizens decided to limit the entire election campaign to a single 
+	dedicated wall, so as not to ruin the panorama with countless posters and 
+	billboards. Every politician was allowed to hang exactly one poster on the 
+	wall. All posters extend from top to bottom, but are hung at different points 
+	of the wall, and may be of different width. The wall is divided horizontally 
+	into sections, and a poster completely occupies two or more adjacent sections.
+</p>
+<p>
+	With time, some of the posters were covered (partially or completely) by those 
+	of other politicians. Knowing the location of all the posters and the order in 
+	which they were hung, determine how many posters have at least one visible section in the end.
+</p>
+<h3>Input</h3>
+<p>
+	The input begins with the integer t, the number of test cases. Then t test 
+	cases follow.
+</p>
+<p>
+	Each test case begins with a line containing integer n - the number of 
+	posters (1&lt;=n&lt;=40000). Then n lines follow, the i-th (1&lt;=i&lt;=n) 
+	containing exactly two integers l<sub>i</sub> r<sub>i</sub>, denoting the 
+	numbers of the leftmost and rightmost sections covered by the i-th poster 
+	(1&lt;=l<sub>i</sub>&lt; r<sub>i</sub>&lt;= 10<sup>7</sup>). The input order 
+	corresponds to the order of hanging posters.
+</p>
+<h3>Output</h3>
+<p>
+	For each test case output a line containing one integer&nbsp;- the number of 
+	posters with visible sections.
+</p>
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+1
+5
+1 4
+2 6
+8 10
+3 4
+7 10
+
+<b><tt>Sample output:</tt></b>
+4
+</pre>
+<p>
+	An illustration of the sample input is given below.<br>
+	<br>
+	<img src="/content/adrian:sampleio.png" alt="The wall with posters">
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-07-19</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>VI Polish Collegiate Team Programming Contest (AMPPZ), 2001</td></tr>	
+</table>

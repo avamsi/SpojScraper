@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NFURY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17112. Training Land of Fury</h1>
+		<h2>Problem code: NFURY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>S.H.I.E.L.D. is recruiting soldiers for the battle with Loki's army.  Nick Fury has come to Manhattan to find a large area of land to be used  for training purposes. He meets a popular landlord there who is a little  foolish by nature. <br />He gives square pieces of land with integral  sides and charges on the basis of number of pieces of land bought  irrespective of how large a piece of land is. Fury has to buy exactly <strong>A</strong> square units of land. Help Fury by determining the minimum  number of pieces that should be bought in order to minimize the expenditure.</p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The first line of each test case contains a single integer<strong> A</strong> denoting the area that nick fury want to buy.</p>
+<ul>
+<li><strong>10</strong> &#8804; <strong>T</strong> &#8804; <strong>100000</strong></li>
+<li><strong>1</strong> &#8804; <strong>A</strong> &#8804; <strong>1000</strong></li>
+</ul>
+<h3>Output</h3>
+<p>For each test case print the minimum number of pieces that should be bought.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre>4
+1
+2
+3
+10</pre>
+<strong>Output:</strong>
+<pre>1
+2
+3
+2</pre></pre>
+<h3>Explanation</h3>
+<p>For the last test case 10 the answer will be 2. 10 can be expressed as sum of minimum two squares that is 10 = 3<sup>2</sup>+1<sup>2</sup>.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ipg_2011090">BLANKRK</a></td></tr>
+<tr><td>Date:</td><td>2013-11-14</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Code Weavers 2013</td></tr>	
+</table>

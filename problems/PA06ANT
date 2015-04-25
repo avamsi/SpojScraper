@@ -1,0 +1,105 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PA06ANT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4839. Ant</h1>
+		<h2>Problem code: PA06ANT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/PA06ANT/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/PA06ANT/vn/">Ti&#7871;ng Vi&#7879;t</a></td> 
+</tr></table>
+
+
+<p>
+A Byteotian ant is walking along the edges of ABCDEFGH cube: <br/>
+<center>
+<img src="https://www.spoj.pl/content/anhdq:pa06ant_img1.png" />
+</center>
+</p>
+
+<p>It tries to find out, in how many ways it can go from one given vertex, to another given vertex, walking along exactly <b>k</b> edges (when the ant enters an edge, it will not turn back and will finally reach the second end of this edge). If the ant goes through some edge <b>x</b> times, we count this edge <b>x</b> times. The ant would like to have interesting routes, that is if the ant is in some vertex, it would like to leave this vertex using an edge other than the edge recently used to enter this vertex (i.e. it want not to use the same edge twice in a row).
+</p>
+
+<p>
+Our ant is not so smart, because it can only count using integers from <b>0</b> to <b>p-1</b>, for some <b>p</b>, so you should compute the result modulo <b>p</b>.
+</p>
+
+<h3>Request</h3>
+<p>
+Write a program which:<br/>
+    * reads the starting and the ending vertex of the ant's route, number of edges on the ant's route, and integer <b>p</b>,<br/>
+    * computes number of interesting routes, which satisfy the ant's requests, modulo <b>p</b>,<br/>
+    * writes the answer to the standard output.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the standard input contains two capital English letters <b>v<sub>1</sub></b> and <b>v<sub>2</sub></b>, separated by a single space. The two letters denote the starting and ending vertex of the ant's route respectively. The second line contains two integers <b>k</b> and <b>p</b>, separated by a single space.
+</p>
+
+<h3>Output</h3>
+<p>
+Exactly one integer is to be written on the standard output. This integer is the number of interesting routes from the vertex <b>v<sub>1</sub></b> to the vertex <b>v<sub>2</sub></b>, containing exactly <b>k</b> edges, modulo <b>p</b>.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+A B
+3 100
+
+<b>Output:</b>
+2
+</pre>
+
+<p>
+<center>
+<img src="https://www.spoj.pl/content/anhdq:pa06ant_img2.png" />
+</center>
+</p>
+
+<h3>Limitations</h3>
+<p>
+* A &#8804; v<sub>1</sub>, v<sub>2</sub> &#8804; H, v<sub>1</sub> &#8800; v<sub>2</sub>.<br/>
+* 1 &#8804; k &#8804; 2 x 10<sup>9</sup>, 2 &#8804; p &#8804; 10<sup>9</sup>.<br/>
+</p>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-09-20</td></tr>
+<tr><td>Time limit:</td><td>0.093s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>PA 2006 Round 5</td></tr>	
+</table>

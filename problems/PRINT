@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PRINT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>503. Prime Intervals</h1>
+		<h2>Problem code: PRINT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem you have to print all primes from given interval.<BR>
+</p>
+
+<h3>Input</h3>
+<p><i>t</i> - the number of test cases, then <i>t</i> lines follows. [<i>t</i> <= 150]<BR>
+On each line are written two integers <i>L</i> and <i>U</i> separated by a blank.  <i>L</i> - lower bound of interval, 
+<i>U</i> - upper bound of interval. [2 <= <i>L</i> < <i>U</i> <= 2147483647] [<i>U-L</i> <= 1000000].
+
+<h3>Output</h3>
+<p>For each test case output must contain all primes from interval <i>[L; U]</i> in increasing order.<BR>
+
+<h3>Example</h3>
+<p><b>Input:</b></p>
+<pre>
+2
+2 10
+3 7
+</pre>
+<p><b>Output:</b></p>
+<pre>
+2
+3
+5
+7
+3
+5
+7
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-03-28</td></tr>
+<tr><td>Time limit:</td><td>1.223s
+</td></tr>
+<tr><td>Source limit:</td><td>15000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru">ZCon</a></td></tr>	
+</table>

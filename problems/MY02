@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MY02"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16389. Play with Strings</h1>
+		<h2>Problem code: MY02</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;">All you have to do is implement the following algorithm ,which is a very popular compression technique.<br /><br /> 1.You are given an input string A. (For eg. ababc )<br /><br /> 2.Find all the rotations of A (In this case, it is ababc,babca,abcab,bcaba,cabab)<br /><br /> &bull;	Now sort them (After sorting, we have ababc,abcab,babca,bcaba,cabab)<br /> &bull;	Then arrange them as follows: <br />	ababc <br />	abcab <br />	babca 	<br />bcaba <br />	cabab <br />&bull;	Now pick out the last column. It is &lsquo;cbaab&rsquo;. It is the result of this algorithm<br />&bull;	Also observe that the 1st row has the original string.(Use 1 indexing) <br /><br /> Now, for this problem, you are given the output and the row number that has the original string.<br /> For the above example , it is &lsquo;cbaab&rsquo; and 1. <br /> Given these 2 parameters, you just need to decode it. (ie.,find the original string.) <br /><br /> <strong>
+<br />Input:</strong><br /><br /> Each test case has 2 lines. <br />
+1st line &ndash; An integer R that represents the row that contains the original string.<br />
+ 2nd line - A string that represents the output of the above algorithm.  (Length of string &lt;=2000) (All characters are lower case).<br /> The input is terminated with R=-1.<br /> <br /> <strong>Output:</strong><br /><br /> The original string. <br /><br /> <strong>Sample Input:<br /><br /></strong> 1 <br />cbaab <br />3 <br />mnoag<br /> -1 <strong><br /><br />Sample Output:<br /><br /></strong> ababc<br /> mango</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newusers">n.7n</a></td></tr>
+<tr><td>Date:</td><td>2013-10-11</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform">Wikipedia</a></td></tr>	
+</table>

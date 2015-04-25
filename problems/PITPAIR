@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PITPAIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>318. Pythagorean Legacy</h1>
+		<h2>Problem code: PITPAIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+	It is necessary to find a minimal integer value R which is equal to the length of the hypotenuse (the side opposite the right angle) of N non-identical rectangular triangles with integer lengths of sides. 
+</p>
+
+<h3>Input</h3>
+<p>
+	t - number of test cases [t <= 100], than t lines follow, each line contains one integer - N, equal 
+to the required number of different rectangular triangles. [1 <= N <= 2000]<BR>
+<h3>Output</h3>
+<p>
+	For each test case your program should output a number R in a separate line (R fits in a 64-bit integer), equal to the minimal integer value of a hypotenuse for which exactly N different rectangular triangles can be constructed; then in separate lines follow exactly N numbers equal to the shorter 
+cathetus (side adjacent to the right angle) of each of the rectangular triangles, in ascending order. 
+
+<h3>Example</h3>
+<p>
+<pre><b>Input:</b>
+2
+1
+2
+
+<b>Output:</b>
+5
+3
+25
+7
+15
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-03-01</td></tr>
+<tr><td>Time limit:</td><td>2.25s
+</td></tr>
+<tr><td>Source limit:</td><td>8192B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2005.02/zpif.php">ZCon 2005</a></td></tr>	
+</table>

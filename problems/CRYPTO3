@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRYPTO3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19. The Bytelandian Cryptographer (Act III)</h1>
+		<h2>Problem code: CRYPTO3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+The Bytelandian cryptographer acknowledged he was sorely beaten in Act 2. He renounced his own methods of encryption and decided to return to the classic techniques.</p>
+<P align=justify>
+Not knowing what to do next, he went to the cinema to chew the problem over. To his surprise, he found that the cone containing pop-corn was in fact a rolled up page torn from the classic book, <i>RSA for newbies in 24 seconds</i>. The page in question contained the entire key-generating and encryption algorithm. Fascinated, he thought up two different prime numbers p and q, and calculated his own public key, and revealed the product p*q to the wide world. Then, he began work on his wicked scheme of encryption.
+</p>
+<p>
+History repeats. Once more, you receive an encrypted message from the cryptographer. This time you know that without additional information you are beaten, so you decide to use the psychological approach. You phone the Bytelandian cryptographer, and ask him whether he couldn't give you a little hint. What you really want to know is the number u of positive integers which are smaller than p*q and have no common factors with p*q other than 1. But the cryptographer, sensing that this would allow you to decode the message right away, refuses to tell you this number. Eventually, after a lot of asking, he gives you a piece of utterly useless information: he tells you how many positive integers x cannot be represented in the form x=a*p+b*q, regardless of what non-negative integer values a and b assume.
+<p>
+You begin to wonder whether the information you received from the cryptographer is not by any chance enough to find the value of u.<br>
+<b>Even if the only languages at your disposal are Brainf**k and Intercal...</b>
+</p>
+<H3>Input</h3>
+<P align=justify>
+The number provided by the cryptographer (a positive integer of at most 99 decimal digits). The input ends with a new line symbol.
+</p>
+<H3>Output</h3>
+<P align=justify>
+The value of u.
+</p>
+<H3>Example</h3>
+<div align=left>
+<pre><b><tt>Input:</tt></b>
+1
+
+<b><tt>Output:</tt></b>
+2
+</pre>
+(This example is possible for p=2, q=3)</div>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-29</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF ICK </td></tr>
+<tr><td>Resource:</td><td>Sadly, the ability to make a simple problem difficult to understand is seldom considered a talent.</td></tr>	
+</table>

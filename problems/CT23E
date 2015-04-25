@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CT23E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6926. Tree game </h1>
+		<h2>Problem code: CT23E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div>
+<p>Recently Bob invented a new game with a tree (we  should remind you, that a tree is a connected graph without cycles): he  deletes any (possibly, zero) amount of edges of the tree, and counts the  product of sizes of the connected components left after the deletion.  Your task is to find out the maximum number that Bob can get in his new  game for a given tree.</p>
+</div>
+<div>
+<div><strong>Input</strong></div>
+<p>The first input line contains  integer number <span><em>n</em></span> (<span>1&thinsp;&le;&thinsp;<em>n</em>&thinsp;&le;&thinsp;700</span>) &mdash; amount of vertices in the  tree. The following <span><em>n</em>&thinsp;-&thinsp;1</span> lines  contain the description of the edges. Each line contains the pair of  vertices' indexes, joined by an edge, <span><em>a</em><sub><em>i</em></sub></span>, <span><em>b</em><sub><em>i</em></sub></span> (<span>1&thinsp;&le;&thinsp;<em>a</em><sub><em>i</em></sub>,&thinsp;<em>b</em><sub><em>i</em></sub>&thinsp; &le;&thinsp;<em>n</em></span>). It's guaranteed that the graph described in the  input is a tree.</p>
+</div>
+<div>
+<div><strong>Output</strong></div>
+<p>Output the only number &mdash; the  maximum product of sizes of the connected components, that Bob can get  after deleting some of the tree's edges.</p>
+</div>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><pre>8<br />1 2<br />1 3<br />2 4<br />2 5<br />3 6<br />3 7<br />6 8</pre>
+<br /><br /><strong>Output:</strong><br />18<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-07-12</td></tr>
+<tr><td>Time limit:</td><td>0.340s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces</td></tr>	
+</table>

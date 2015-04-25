@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14L"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19153. Rooted Trees</h1>
+		<h2>Problem code: INS14L</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">&nbsp;</p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">Digo is given a rooted tree where nodes are numbered from 1 to N (1 is the root node) and asked some queries on it.&nbsp;<br />There are two types of queries<br />1) Given node number U, two integers X, K which means add X to the given node , X+K to its children , X+2*K to children of its children and so on..<br />2) Given a node number U print the sum of nodes in the subtree rooted at U (including node U).<br /><br />Since the answer can be too long, print the answer 10^9 + 7<br />Initially each node contains zero.<br /><br />Input Format:<br /><br />First line contains a single integer N denoting the number of nodes in the tree.<br />Next N-1 lines denotes the parent node of nodes 2 to N. (1 is the root node it has no parent)<br />Next line contains M (Number of queries).<br />In each of the next M lines first integer is T which means the type of the query.<br />If T is ,1 it is followed by three integers U, X, K as explained in the question.<br />If T is 2, it is followed by a single integer U.<br /><br />Output Format:-<br /><br />For each query of type 2, output a single line containing the required answer.<br /><br />Constraints:-&nbsp;<br /><br />1 &lt;= N &lt;= 100000<br />1 &lt;= M &lt;= 100000<br />1 &lt;= X , K &lt;=1000000000<br /><br />Sample Input:<br /><br />7<br />1<br />1<br />2<br />2<br />3<br />3<br />5<br />1 1 1 2<br />2 1<br />2 3<br />1 3 2 1<br />2 3<br /><br />Sample Output:<br /><br />27<br />13<br />21</div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

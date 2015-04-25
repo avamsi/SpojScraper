@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DTPOLY2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13953. Divide Polygon (HARD)</h1>
+		<h2>Problem code: DTPOLY2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><h2 style="text-align: center;"><span style="font-family: verdana, geneva;">This is hard version of&nbsp;<a style="font-size: 12px;" href="../DTPOLY/">DTPOLY</a></span></h2><p style="font-size: 13px; text-align: left; color: #000020; background-color: #f6f9e0;"><span style="font-family: verdana, geneva;">Determine the number of ways to cut a convex polygon with&nbsp;<strong>N</strong>&nbsp;vertices if the only cuts allowed are from vertex to vertex, each cut divides exactly one polygon into exactly two polygons, and you must end up with exactly&nbsp;<strong>K</strong>&nbsp;polygons. Consider each vertex distinct. For example, there are three ways to cut a square - the two diagonals and not cutting at all - but only two ways to cut it to form 2 polygons, and only one way to cut it to form 1 polygon. The order of cuts does not matter. Since the number of ways is very large, you should return the number taken modulo <strong>M</strong>.</span></p>
+<ul style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">
+<li><span style="font-family: verdana, geneva;">Input contains&nbsp;several test cases, i-th line consists of 3&nbsp;integers:&nbsp;<strong>N<sub>i</sub></strong>&nbsp;(4&nbsp;<span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;">&le;&nbsp;</span><strong>N</strong><sub>i</sub>, <strong>&Sigma;</strong><strong>N<sub>i</sub></strong>&nbsp;&le; 10<sup>8</sup>),&nbsp;<strong>K<sub>i</sub></strong>&nbsp;(1 &le;&nbsp;<strong>K<sub>i&nbsp;</sub></strong>&le;&nbsp;<strong>N<sub>i&nbsp;</sub></strong>-&nbsp;2)&nbsp;and <strong>M<sub>i</sub>&nbsp;</strong>(1 &lt; <strong>M</strong> &lt; 2<sup>60</sup>), all pairs (<strong>N<sub>i</sub></strong>, <strong>K<sub>i</sub></strong>) are different.</span></li></ul>
+<ul style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">
+<li><span style="font-family: verdana, geneva;">On the i-th line print the number of different ways to cut the polygon with <strong>N<sub>i</sub></strong>&nbsp;vertices into <strong>K<sub>i</sub></strong> pieces modulo <span style="color: #000020; font-size: 13px; text-align: justify; background-color: #f6f9e0;"><strong>M<sub>i</sub></strong></span>.</span></li><span style="font-family: verdana, geneva;">
+</span></ul><span style="white-space: normal;"><span style="font-family: verdana, geneva;">
+</span></span><h3 style="font-size: 15px; color: #000020; text-align: center; background-color: #f6f9e0;"><span style="font-family: verdana, geneva;">Example</span></h3><h3 style="font-weight: bold;"><span style="font-family: verdana, geneva;">Input</span></h3><div><div id="_mcePaste" style="font-weight: bold; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-family: verdana, geneva;">4 2</span></div>
+<div id="_mcePaste" style="font-weight: bold; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-family: verdana, geneva;">6 3</span></div>
+<div id="_mcePaste" style="font-weight: bold; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-family: verdana, geneva;">10000000 2</span></div>
+<div id="_mcePaste" style="font-weight: bold; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-family: verdana, geneva;">10000000 9999998</span></div>
+<div><div><span style="font-family: verdana, geneva;">4 2 100</span></div><div><span style="font-family: verdana, geneva;">6 3 100</span></div><div><span style="font-family: verdana, geneva;">10000000 2 1000000007</span></div><div><span style="font-family: verdana, geneva;">10000000 5000000 1000000014000000049</span></div></div></div><h3 style="font-weight: bold;"><span style="font-family: verdana, geneva;">Output</span></h3><div><div><span style="font-family: verdana, geneva;">2</span></div><div><span style="font-family: verdana, geneva;">21</span></div><div><span style="font-family: verdana, geneva;">984650007</span></div><div><span style="font-family: verdana, geneva;">780127215155143528</span></div></div>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mikhaelkh">Michael Kharitonov</a></td></tr>
+<tr><td>Date:</td><td>2013-03-01</td></tr>
+<tr><td>Time limit:</td><td>6s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

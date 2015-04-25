@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRCLE_UI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12746. Colorful Circle (EASY)</h1>
+		<h2>Problem code: CRCLE_UI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>------------------------<br />I take this problem from my midterm exam today, because for me and some of my friends it's interesting, so I decided to translated this problem into english and upload this problem to SPOJ. See the original problem in indonesian language <a title="Ori" href="http://2.bp.blogspot.com/-hDQcB4cjLZQ/UKPlwjMSDeI/AAAAAAAAAPA/ZF-EdjfCKyA/s1600/2012-11-14+23.41.39.jpg" target="_blank">here</a>.<br />------------------------&nbsp;</p>
+<p>Given <strong>N</strong> sectors where 1&lt;<strong>N</strong>&lt;10<sup>1000</sup>, from a circle that sown in the picture below:</p>
+<p style="text-align: center;"><img title="circle" src="http://2.bp.blogspot.com/-xmt-ef5JnZA/UKPNsaeXZZI/AAAAAAAAAOY/n3UcOwaAFY4/s1600/circle.png" alt="circle" width="255" height="255" /></p>
+<p>We will color each sector with <strong>K</strong>&nbsp;different colors, where 2&lt;<strong>K</strong>&lt;10<sup>1000</sup>&nbsp;such that each sector colored with one color and each adjacent sector must have different color. Your task is to count how many ways to color all that sectors.</p>
+<h3>Input</h3>
+<p>First line, there is a number&nbsp;<strong>T</strong>(0&lt;<strong>T</strong>&lt;1000)&nbsp;denoting number of test cases, then T lines follow.<br />each line containing two integers: <strong>N</strong> and <strong>K</strong>&nbsp;separated by a space.</p>
+<h3>Output</h3>
+<p>For each test case, output number of ways to color the circle, since the number can be too large, take modulo 10<sup>9</sup>+7.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>2 3</pre>
+<pre>3 3
+
+<strong>Output:</strong>
+6</pre>
+<pre>6</pre>
+<h3>Explanation:</h3>
+<p>For the first case, we have two sectors and three colors, here is all possibilities:</p>
+<p><img title="2 sectors 3 colors" src="http://4.bp.blogspot.com/-NRBt3XOR3M8/UKPWpTfG0PI/AAAAAAAAAOo/4BgU7EwAP7E/s1600/2sec.png" alt="2 sectors 3 colors" width="600" height="400" /></p>
+<p>For second test case, we have three sector and three colors, here is all possibilities:</p>
+<p><img title="3 sectors 3 colors" src="http://1.bp.blogspot.com/-qrB8RitZXk8/UKPWrFtPUaI/AAAAAAAAAOw/B0qOl_SFpqA/s1600/3sec.png" alt="3 sectors 3 colors" width="600" height="400" /></p>
+<p>&nbsp;</p>
+<p><span style="color: #339966;"><span style="color: #339966;"><strong><span style="text-decoration: underline;">Time limit set so that ~128 Bytes of python 3 code can get accepted, also my C top speed program AC in 0.12s<br />Have fun :)&nbsp;</span></strong></span></span></p>
+<p>&nbsp;</p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2012-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.170s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Discrete Math II, Midterm exam, question number 4, University of Indonesia, 14 November 2012 | Translated by: Tjandra</td></tr>	
+</table>

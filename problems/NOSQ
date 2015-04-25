@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOSQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8496. No Squares Numbers</h1>
+		<h2>Problem code: NOSQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">A square free number is defined as a number which is not divisible by any square number.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">For example,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">13, 15, 210 are square free numbers, where as 25 (divisible by 5*5), 108 (divisible by 6*6), 18 (divisible by 3*3) are not square free numbers.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">However number 1 is not considered to be a square and is a squarefree number.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Now you must find how many numbers from number a to b, are square free and also have a digit d inside it.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">For example for in the range 10 to 40 te squarefree numbers having digit 3 are</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">13, 23, 30, 31, 33, 34, 35, 37, 38, 39</div>
+<p>&nbsp;</p>
+<p>A square free number is defined as a number which is not divisible by any square number.</p>
+<p>For example,</p>
+<p>13, 15, 210 are square free numbers, where as 25 (divisible by 5*5), 108 (divisible by 6*6), 18 (divisible by 3*3) are not square free numbers.</p>
+<p>However number 1 is not considered to be a square and is a squarefree number.</p>
+<p>Now you must find how many numbers from number a to b, are square free and also have a digit d inside it.</p>
+<p>For example for in the range 10 to 40 te squarefree numbers having digit 3 are</p>
+<p>13, 23, 30, 31, 33, 34, 35, 37, 38, 39</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line contains an integer T, which is the number of test-cases</p>
+<p>Then follow T lines, each containing 3 integers a, b and d.</p>
+<p>1 &lt;= T &lt;= 20,000</p>
+<p>1 &lt;= a &lt;= b &lt;= 100,000</p>
+<p>0 &lt;= d &lt;= 9</p>
+<p><strong>Output</strong></p>
+<p>Print one integer which is the required number as described in the problem statement.</p>
+<p><strong>Example</strong></p>
+<pre><strong>Input:</strong>
+3
+10 40 3
+1 100 4
+1 100000 7
+
+<strong>Output:</strong>
+10
+9
+26318<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pt1989">.:: Pratik ::.</a></td></tr>
+<tr><td>Date:</td><td>2011-03-07</td></tr>
+<tr><td>Time limit:</td><td>0.745s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

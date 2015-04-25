@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQ2SQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11355. SQUARE TO SQUARE</h1>
+		<h2>Problem code: SQ2SQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are Squares whose digits can be rearranged to make another squares.Lets call them S2S numbers.</p>
+<p>for ex.</p>
+<p>144-&gt;441</p>
+<h3>Input</h3>
+<p>Single line containing two integers X Y(Xth,Yth term in the list of S2S numbers).</p>
+<h3>Output</h3>
+<p>Print all the numbers from Xth to Yth Term of S2S numbers list(both inclusive).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<br />1 3
+
+<strong>Output:</strong>
+<br />144<br />169<br />196<br /><br />(Xth,Yth term&lt;=10^12)<br />(Source Code Limit= 500B) <br />Note: 1-&gt;100-&gt;1 or other similar numbers are NOT S2S numbers(ex 9-&gt;900-&gt;9)<br />Try Tutorial at -&gt; <a href="../SQ2SQ2/">http://www.spoj.pl/problems/SQ2SQ2/</a><br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/avinash25649">Avinash</a></td></tr>
+<tr><td>Date:</td><td>2012-04-11</td></tr>
+<tr><td>Time limit:</td><td>0.042s-2.029s</td></tr>
+<tr><td>Source limit:</td><td>500B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

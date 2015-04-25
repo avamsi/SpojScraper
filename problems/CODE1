@@ -1,0 +1,129 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CODE1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>36. Secret Code</h1>
+		<h2>Problem code: CODE1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align=justify>
+The Sarcophagus itself is locked by a secret numerical code. When somebody
+wants to open it, he must know the code and set it exactly on the top of the
+Sarcophagus. A very intricate mechanism then opens the cover. If an incorrect
+code is entered,
+the tickets inside would catch fire immediately and they would
+have been lost forever. The code (consisting of up to 100 integers)
+was hidden in the Alexandrian Library but unfortunately, as you probably
+know, the library burned down completely.
+
+<p align=justify>
+But an almost unknown archaeologist has obtained a copy of the code something
+during the 18th century. He
+was afraid that the code could get to the ``wrong people'' so he has
+encoded the numbers in a very special way. He took a random complex number
+<VAR>B</VAR> that was greater (in absolute value) than any of the encoded numbers. Then
+he counted the numbers as the digits of the system with basis <VAR>B</VAR>. That means
+the sequence of numbers <VAR>a<SUB>n</SUB></VAR>,
+<VAR>a<SUB>n-1</SUB></VAR>, ..., <VAR>a<SUB>1</SUB></VAR>,
+<VAR>a<SUB>0</SUB></VAR> was encoded as the number 
+<VAR>X = a<SUB>0</SUB> + a<SUB>1</SUB>B + a<SUB>2</SUB>B<SUP>2</SUP> + ...+
+a<SUB>n</SUB>B<SUP>n</SUP></VAR>.
+
+<p align=justify>
+Your goal is to decrypt the secret code, i.e. to express a given number <VAR>X</VAR> in
+the number system to the base <VAR>B</VAR>. In other words, given the
+numbers <VAR>X</VAR> and <VAR>B</VAR>you are to determine the ``digit''
+<VAR>a<SUB>0</SUB></VAR> through <VAR>a<SUB>n</SUB></VAR>.
+
+
+<H3>Input</H3>
+
+<p align=justify>The input consists of <VAR>T</VAR> test cases (equal to about 100000). The number of them (<VAR>T</VAR>) is
+given on the first line of the input file. Each test case consists of one single
+line containing four integer numbers <VAR>X<SUB>r</SUB></VAR>,
+X<SUB>i</SUB></VAR>, <VAR>B<SUB>r</SUB></VAR>, <VAR>B<SUB>i</SUB></VAR>
+(<VAR>|X<SUB>r</SUB>|,|X<SUB>i</SUB>| &lt;= 1000000</VAR>,
+<VAR>|B<SUB>r</SUB>|,|B<SUB>i</SUB>| &lt;= 16</VAR>). These numbers
+indicate the real and complex components of numbers <VAR>X</VAR> and <VAR>B</VAR>,
+i.e. <VAR>X = X<SUB>r</SUB> + i.X<SUB>i</SUB></VAR>,
+<VAR>B = B<SUB>r</SUB> + i.B<SUB>i</SUB></VAR>. <VAR>B</VAR> is the basis of
+the system (<VAR>|B| &gt; 1</VAR>), <VAR>X</VAR> is the number you have to
+express.
+
+
+<H3>Output</H3>
+
+<p align=justify>Your program must output a single line for each test case. The line should
+contain the ``digits'' <VAR>a<SUB>n</SUB></VAR>, <VAR>a<SUB>n-1</SUB></VAR>,
+..., <VAR>a<SUB>1</SUB></VAR>, <VAR>a<SUB>0</SUB></VAR>, separated by 
+commas. The following conditions must be satisfied:
+<div align=left>
+<UL>
+<LI>for all <VAR>i</VAR> in <VAR>{0, 1, 2, ...n}</VAR>:
+<VAR>0 &lt;= a<SUB>i</SUB> &lt; |B|</VAR>
+
+<LI>
+<VAR>X = a<SUB>0</SUB> + a<SUB>1</SUB>B + a<SUB>2</SUB>B<SUP>2</SUP> + ...+
+a<SUB>n</SUB>B<SUP>n</SUP></VAR>
+
+<LI>if <VAR>n &gt; 0</VAR> then <VAR>a<SUB>n</SUB> &lt;&gt; 0</VAR>
+
+<LI><VAR>n &lt;= 100</VAR>
+</UL></div>
+
+<p align=justify>If there are no numbers meeting these criteria, output the sentence
+"<CODE>The code cannot be decrypted.</CODE>". If there are more possibilities,
+print any of them.
+
+
+<H3>Example</h3>
+
+<PRE>
+Sample Input
+
+4
+-935 2475 -11 -15
+1 0 -3 -2
+93 16 3 2
+191 -192 11 -12
+
+Sample output:
+
+8,11,18
+1
+The code cannot be decrypted.
+16,15
+</PRE>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-06-06</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 1999</td></tr>	
+</table>

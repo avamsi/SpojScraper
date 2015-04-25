@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BNMT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12908. Binary Matrix</h1>
+		<h2>Problem code: BNMT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="white-space: normal;"><p><strong>&nbsp;</strong>You are given a matrix of size&nbsp;r x c. Each of the elements can be either 0 or 1.&nbsp; In each operation you can flip any element of this matrix, i.e. convert 0 to 1 or convert 1 to 0. Your goal is to convert the matrix such that -</p>
+<p>&nbsp;</p>
+<p>1. Each of the rows will have the same number of 1s and</p>
+<p>2. Each of the columns will have the same number of 1s.</p>
+<p>&nbsp;</p>
+<p>What is the minimum number of operations required to achieve this?</p>
+<p>&nbsp;</p>
+<p><strong>Input:</strong></p>
+<p>Input starts with a positive integer&nbsp;T&nbsp;(~1000) which indicates the number of inputs.</p>
+<p>&nbsp;</p>
+<p>Each case starts with two integers&nbsp;m&nbsp;and&nbsp;n&nbsp;(1 &lt;= r, c &lt;= 40), here&nbsp;r&nbsp;is the number of rows and&nbsp;c&nbsp;is the number of columns of the matrix. Each of the next m lines will have n integers each, either 0 or 1.</p>
+<p>&nbsp;</p>
+<p><strong>Output:</strong></p>
+<p>For each test case, output &ldquo;Case #: R&rdquo; in a single line, where # will be replaced by case number and&nbsp;R&nbsp;will be replaced by the minimum number of steps required to achieve the target matrix. Replace&nbsp;R&nbsp;by -1 if it is not possible to reach target matrix.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Input:</strong></p>
+<p>3</p>
+<p>2 3<br />111</p>
+<p>111</p>
+<p>3 3</p>
+<p>011</p>
+<p>011</p>
+<p>011</p>
+<p>2 3<br />001</p>
+<p>000</p>
+<p>&nbsp;</p>
+<p><strong>Sample Output:</strong></p>
+<p>Case 1: 0</p>
+<p>Case 2: 3</p>
+<p>Case 3: 1</p>
+<p>&nbsp;</p></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2012-12-04</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC Hatyai 2012</td></tr>	
+</table>

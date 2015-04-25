@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRAZYR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5014. Crazy Receptionist</h1>
+		<h2>Problem code: CRAZYR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>After having been wandering around Madrid for several hours, you finally reach the NH Zurbano hotel where all competitors will be located for the SWERC weekend. Each team received an ID number when it registered for SWERC. At your arrival, the receptionist at NH Zurbano asks you for that ID number and assigns you a room according to your team&rsquo;s registration ID and the one of the delegations that arrived prior to you.</p>
+<p style="text-align: center;"><img src="../../content/imuteb:crazy_receptionist.gif" alt="Crazy Receptionist" width="173" height="118" /></p>
+<p>The hotel is as long and as high that it would be possible to accommodate all delegations either on the same floor or on different floors each. The elevator is at the reception side (left) and rooms are located at the first floor and above, on the right-hand side to the elevator. Now the receptionist&rsquo;s room assignment strategy is the following:</p>
+<p>The receptionist takes you with the elevator to the first floor. Then you walk along the corridor until you arrive at a room that currently hosts a delegation with larger ID than yours. If no such team is on that floor, you get the first empty room you come across. In the opposite case, the team that currently occupies the room has to free it for you! Then the receptionist takes this team to the second floor and uses the same method to find a new room for this team. If the receptionist brings a team to a floor on which currently no other team is hosted, it is assigned the first room at that floor.</p>
+<p>Although this placement strategy seems quite unorthodox, some members of the EPFL delegation got used to interlaced travel and rest, especially at airports and railway stations. Instead of being shocked by the fact of having to potentially change the room as further delegations arrive, your coach is even more impressed by that placement strategy and challenges you with the following question:<br /><br />Given the current assignment of the rooms, can you list all possible orders of arrival of the teams?</p>
+<h3>Input</h3>
+<p>The first line contains the number of test cases C (C&le;25). Each test case starts with the number of occupied floors F. The following F lines contain information about floors F, &hellip;, 1, starting from the top. First on each of these lines is an integer N, the number of teams at that floor. Following that, there are N integers on the line: the ID of the teams on that floor, starting from the elevator side (left). All IDs satisfy (1&le;ID&le;60). There are never more than T (T&le;15) teams in the hotel at the moment your coach challenges you. A blank line precedes each test case.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, output first the number of the test case, then the number <em>P</em> of possible arrival orders. See the sample output for the exact format.</p>
+<p>On the following min(10, <em>P</em>) lines, print the lexicographically smallest possible arrival orders.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br /><br />3<br />1 3<br />2 2 9<br />3 1 4 5<br /><br />2<br />1 3<br />2 1 2<br /><br /><strong>Output:</strong><br />Case 1 : 16<br />3 2 1 4 9 5<br />3 2 1 9 4 5<br />3 2 4 1 9 5<br />3 2 4 9 1 5<br />3 2 4 9 5 1<br />3 2 9 1 4 5<br />3 2 9 4 1 5<br />3 2 9 4 5 1<br />3 4 2 1 9 5<br />3 4 2 9 1 5<br /><br />Case 2 : 2<br />1 3 2<br />3 1 2<br /><br /><br /></pre>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 281px; width: 1px; height: 1px;"><!-- 		@page { margin: 20mm } 		P { margin-bottom: 2.12mm } -->
+<p style="margin-bottom: 0mm;" align="justify"><span style="font-family: Arial,sans-serif;"><span style="font-size: x-small;"><span lang="en-GB">Given the current assignment of the rooms, can you list all possible orders of arrival of the teams?</span></span></span></p>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/imuteb">Christian Kauth</a></td></tr>
+<tr><td>Date:</td><td>2009-10-17</td></tr>
+<tr><td>Time limit:</td><td>1.715s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

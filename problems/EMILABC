@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EMILABC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8263. Big Pyramid</h1>
+		<h2>Problem code: EMILABC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div>
+<p><span style="font-size: small;">Archeologists have discovered an ancient manuscript describing a big  pyramid. 		The pyramid is built of cubical stone blocks as shown in the picture.  There are <strong>N</strong> horisontal levels in the pyramid. 		The topmost level consists of a single block, and the base level is a  square of <strong>2*N-1&times;2*N-1</strong> blocks. 		The archeologists  learned from the manuscript the size of a stone  block and the orientation the pyramid. 		However, they do not know the size and the exact location of the  pyramid.</span></p>
+<p><span style="font-size: small;">There are many hills in the land where the pyramid is believed to be  located. The archeologists think that one of the hills is actually 		the pyramid covered with sand. To check that hypothesis, they produced  an elevation map of the land. 		The land was divided into a grid of <strong>H&times;W</strong> cells. The size of a  cell is the same as the size of a stone block face. 		For each cell they measured its height and calculated how many stone  blocks can be underneath the surface of the cell.</span></p>
+<p><span style="font-size: small;">Now the archeologists  give you the elevation map and ask to compute  the largest possible pyramid size, assuming that the pyramid base sides  are parallel to the grid lines.</span></p>
+<p><span style="font-size: small;"><img style="margin: 1px 50px;" src="C:\Documents and Settings\student\Desktop\1" alt="" width="250" height="260" /><br /></span></p>
+</div>
+<div><span style="font-size: medium;"><strong>Input</strong></span></div>
+<p><span style="font-size: small;">The first line of the input contains two integers <strong>H</strong> and <strong>W</strong> (<strong>0&lt;H,W&le;200</strong>). 		Each of the subsequent <strong>H</strong> lines contains <strong>W</strong> integers. Each  integer is non-negative and less than 201.</span></p>
+<div><span style="font-size: medium;"><strong>Output</strong></span></div>
+<p><span style="font-size: small;">One interger - the number of levels in the larget possible pyramid.</span></p>
+<p><span style="font-size: medium;"><strong>Input:</strong></span></p>
+<pre><span style="font-size: medium;">5 6<br />0 0 0 0 0 0<br />0 1 0 0 0 0<br />0 0 1 1 1 1<br />0 0 1 1 2 1<br />0 0 1 1 1 1</span></pre>
+<p><span style="font-size: medium;"><strong>Output:</strong></span></p>
+<p><span style="font-size: medium;">&nbsp;2</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/emil_bek">Azat Taryhchiyev</a></td></tr>
+<tr><td>Date:</td><td>2011-02-04</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C++ 4.3.2 C++ 4.9 C++14 C99 strict COB GROOVY JAR JAVA JS2 NODEJS PAS fpc PAS gpc PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>International Sebat Institutions</td></tr>	
+</table>

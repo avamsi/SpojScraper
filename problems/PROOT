@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PROOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3713. Primitive Root</h1>
+		<h2>Problem code: PROOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In the field of Cryptography, prime numbers play an important role. We are interested in a scheme called "Diffie-Hellman" key exchange which allows two communicating parties to exchange a secret key. This method requires a prime number <b>p</b> and <b>r</b> which is a primitive root of p to be publicly known. For a prime number p, r is a primitive root if and only if it's exponents r, r<sup>2</sup>, r<sup>3</sup>, ... , r<sup>p-1</sup>  are distinct (mod p).
+<p>
+Cryptography Experts Group (CEG) is trying to develop such a system. They want to have a list of prime numbers and their primitive roots. You are going to write a program to help them. Given a prime number p and another integer r < p , you need to tell whether r is a primitive root of p.
+
+<h3 align="center">Input</h3>
+<p>There will be multiple test cases. Each test case starts with two integers <b>p</b> ( p < 2 <sup> 31 </sup> ) and <b>n</b> (1 &#8804; n &#8804; 100 ) separated by a space on a single line. p is the prime number we want to use and n is the number of candidates we need to check. Then n lines follow each containing a single integer to check. An empty line follows each test case and the end of test cases is indicated by p=0 and n=0 and it should not be processed. The number of test cases is atmost 60.</p>
+
+<h3 align="center">Output</h3>
+<p>For each test case print "YES"  (quotes for clarity) if r is a primitive root of p and "NO" (again quotes for clarity) otherwise.</p>
+
+<h3 align="center">Example</h3>
+
+<pre>
+<b>Input:</b>
+5 2
+3
+4
+
+7 2
+3
+4
+
+0 0
+
+
+<b>Output:</b>
+YES
+NO
+YES
+NO
+</pre>
+
+
+<h3 align="center">Explanation</h3>
+<p> In the first test case  3<sup>1</sup>, 3<sup>2 </sup>, 3<sup>3</sup> and 3<sup>4</sup> are respectively 3, 4, 2 and 1 (mod 5). So, 3 is a primitive root of 5. </p>
+<p>4<sup>1</sup>, 4<sup>2</sup> , 4<sup>3</sup> and 4<sup>4</sup> are respectively 4, 1, 4 and 1 respectively. So, 4 is not a primitive root of 5. </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/swarnaprakash">Swarnaprakash</a></td></tr>
+<tr><td>Date:</td><td>2009-01-14</td></tr>
+<tr><td>Time limit:</td><td>0.727s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Kurukshetra 09 OPC</td></tr>	
+</table>

@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nosy"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ACS" target="_blank">376. A concrete simulation</a></td><td><a href="http://www.spoj.com/problems/ACS"target="_blank">ACS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLTZ" target="_blank">515. Collatz</a></td><td><a href="http://www.spoj.com/problems/CLTZ"target="_blank">CLTZ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZZPERM" target="_blank">518. Zig-Zag Permutation</a></td><td><a href="http://www.spoj.com/problems/ZZPERM"target="_blank">ZZPERM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIV" target="_blank">526. Divisors</a></td><td><a href="http://www.spoj.com/problems/DIV"target="_blank">DIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIV2" target="_blank">530. Divisors 2</a></td><td><a href="http://www.spoj.com/problems/DIV2"target="_blank">DIV2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRCOUNT" target="_blank">9570. Counting binary strings</a></td><td><a href="http://www.spoj.com/problems/STRCOUNT"target="_blank">STRCOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MIFF" target="_blank">9832. Matrix inverse</a></td><td><a href="http://www.spoj.com/problems/MIFF"target="_blank">MIFF</a><br>
+</td></tr>

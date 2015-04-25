@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/bidhan"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BISHOP2" target="_blank">9038. Chessboard Billiard</a></td><td><a href="http://www.spoj.com/problems/BISHOP2"target="_blank">BISHOP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HABLU" target="_blank">9076. Hablu and Bablu</a></td><td><a href="http://www.spoj.com/problems/HABLU"target="_blank">HABLU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCD" target="_blank">9331. DCD</a></td><td><a href="http://www.spoj.com/problems/DCD"target="_blank">DCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DONALDO" target="_blank">11895. DONALDO</a></td><td><a href="http://www.spoj.com/problems/DONALDO"target="_blank">DONALDO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RANDG" target="_blank">12363. Red And Green</a></td><td><a href="http://www.spoj.com/problems/RANDG"target="_blank">RANDG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCJ121CC" target="_blank">14883. Box Factory</a></td><td><a href="http://www.spoj.com/problems/GCJ121CC"target="_blank">GCJ121CC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLASSICO" target="_blank">15038. Yell Classico</a></td><td><a href="http://www.spoj.com/problems/CLASSICO"target="_blank">CLASSICO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CRAZY" target="_blank">15863. Crazy Tank</a></td><td><a href="http://www.spoj.com/problems/CRAZY"target="_blank">CRAZY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EST" target="_blank">16809. Estimation</a></td><td><a href="http://www.spoj.com/problems/EST"target="_blank">EST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENCODE" target="_blank">16956. Encoded Coordinates</a></td><td><a href="http://www.spoj.com/problems/ENCODE"target="_blank">ENCODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DORTMUND" target="_blank">20635. Dortmund Dilemma</a></td><td><a href="http://www.spoj.com/problems/DORTMUND"target="_blank">DORTMUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AJOB" target="_blank">20637. Ajob Subsequence</a></td><td><a href="http://www.spoj.com/problems/AJOB"target="_blank">AJOB</a><br>
+</td></tr>

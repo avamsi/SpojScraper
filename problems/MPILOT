@@ -1,0 +1,102 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MPILOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4259. Pilots</h1>
+		<h2>Problem code: MPILOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MPILOT/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MPILOT/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+Charlie acquired airline transport company and to stay in business he needs to lower the expenses by 
+any means possible. 
+There are N pilots working for his company (N is even) and N/2 plane crews needs to be made. A 
+plane crew consists of two pilots - a  captain and his  assistant. A captain must be older than his 
+assistant. Each pilot has a contract granting him two possible salaries - one as a captain and the other as 
+an assistant. A captain's salary is larger than assistant's for the same pilot. However, it is possible that an 
+assistant has larger salary than his captain.  
+Write a program that will compute the minimal amount of money Charlie needs to give for the pilots' 
+salaries if he decides to spend some time to make the optimal (i.e. the cheapest) arrangement of pilots 
+in crews. 
+ 
+</p><p>
+<h3>Input</h3>
+</p><p>
+The first line of input contains integer N, 2 &#8804; N &#8804; 10,000, N is even, the number of pilots working for 
+the Charlie's company. 
+The next N lines of input contain pilots' salaries. The lines are sorted by pilot's age, the salaries of the 
+youngest pilot are given the first. Each of those N lines contains two integers separated by a space 
+character, X i Y, 1 &#8804; Y < X &#8804; 100,000, a salary as a captain (X) and a salary as an assistant (Y). 
+</p><p>
+<h3>Output</h3>
+</p><p>
+The first and only line of output should contain the minimal amount of money Charlie needs to give 
+for the pilots' salaries. 
+ 
+</p><p>
+<h3>Sample</h3>
+<pre>
+input 
+4 
+5000 3000 
+6000 2000 
+8000 1000 
+9000 6000 
+ 
+output 
+19000 
+
+input 
+6 
+10000 7000 
+9000 3000 
+6000 4000 
+5000 1000 
+9000 3000 
+8000 6000 
+ 
+output 
+32000 
+
+
+</pre>
+ 
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-04-25</td></tr>
+<tr><td>Time limit:</td><td>0.432s-0.656s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 04</td></tr>	
+</table>

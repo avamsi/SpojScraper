@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/fendy_k1"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/AVDM" target="_blank">8461. Adventure in Moving</a></td><td><a href="http://www.spoj.com/problems/AVDM"target="_blank">AVDM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BARN" target="_blank">8462. Barn Allocation</a></td><td><a href="http://www.spoj.com/problems/BARN"target="_blank">BARN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PSWITCH" target="_blank">8507. Party Switching</a></td><td><a href="http://www.spoj.com/problems/PSWITCH"target="_blank">PSWITCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BCAKE" target="_blank">10145. Birthday Cake</a></td><td><a href="http://www.spoj.com/problems/BCAKE"target="_blank">BCAKE</a><br>
+</td></tr>

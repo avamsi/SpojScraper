@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HOLI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9942. Holiday Accommodation</h1>
+		<h2>Problem code: HOLI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Nowadays, people have many ways to save money on accommodation when they are on vacation. One of these ways is exchanging houses with other people. </p>
+
+<p>Here is a group of <b>N</b> people who want to travel around the world. They live in different cities, so they can travel to some other people's city and use someone's house temporary. Now they want to make a plan that choose a destination for each person. There are two rules should be satisfied:</p>
+
+<ol>
+<li>All the people should go to one of the other people's city.</li>
+<li>Two of them never go to the same city, because they are not willing to share a house.</li>
+</ol>
+
+<p>They want to maximize the sum of all people's travel distance. The travel distance of a person is the distance between the city he lives in and the city he travels to. These <b>N</b> cities have <b>N</b>-1 highways connecting them. The travelers always choose the shortest path when traveling.</p>
+
+<p>Given the highways' information, it is your job to find the best plan, that maximum the total travel distance of all people.</p>
+
+<h3>Input</h3>
+<p>The first line of input contains one integer <b>T</b> (1 &#8804; <b>T</b> &#8804; 10), indicating the number of test cases.</p>
+
+<p>Each test case contains several lines.
+The first line contains an integer <b>N</b> (2 &#8804; <b>N</b> &#8804; 10<sup>5</sup>), representing the number of cities.
+Then the following <b>N</b>-1 lines each contains three integers <b>X</b>, <b>Y</b>, <b>Z</b> (1 &#8804; <b>X</b>, <b>Y</b> &#8804; <b>N</b>, 1 &#8804; <b>Z</b> &#8804; 10<sup>6</sup>), means that there is a highway between city <b>X</b> and city <b>Y</b>, and length of that highway.</p>
+
+<p>You can assume all the cities are connected and the highways are bi-directional.</p>
+
+<h3>Output</h3>
+<p>For each test case in the input, print one line: <tt>"Case #X: Y"</tt>, where <b>X</b> is the test case number (starting with 1) and <b>Y</b> represents the largest total travel distance of all people.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+4
+1 2 3
+2 3 2
+4 3 2
+6
+1 2 3
+2 3 4
+2 4 1
+4 5 8
+5 6 5
+
+<b>Output:</b>
+Case #1: 18
+Case #2: 62
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2011-11-08</td></tr>
+<tr><td>Time limit:</td><td>0.738s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC Regional Contest, Chengdu 2011</td></tr>	
+</table>

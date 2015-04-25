@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCIRCLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20563. Minion Circle</h1>
+		<h2>Problem code: MCIRCLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>El Macho's army of mutated minions is marching towards Gru, the army is standing in a rectangular formation measuring <strong>NxM</strong>. The spray of antidotes done by Gru has turned some of the minions back to normal, but now they are trapped within the army of mutated ones. Formally, a normal minion is <em>"not trapped"</em> if :<br /> 1) either he is on one of the edges of the rectangle<br /> 2) or one of his direct neighbors (directly in front/back of him, or left/right of him) is <em>not trapped</em>.<br /> <br /> Any trapped minion will be killed by the mutated minions, which Gru cannot let happen. Gru will use his antidote ray to turn exactly one row and one column of the army to normal minions. If there are any normal minions in that row or column, they remain unaffected. Can Gru select a row and a column such that no normal minion remains trapped after the antidote ray?<br /> <br /> <strong>INPUT:</strong><br /> First line contains <strong>T</strong>, number of testcases<br /> Each testcase starts with a line containing two space separated integers <strong>N</strong> and <strong>M</strong>.<br /> N lines follow, each containing M characters. jth character of the ith line is <strong>"B"</strong> if the minion at ith row and jth column in the army is mutated, <strong>"W"</strong> otherwise.<br /> <br /> <strong>OUTPUT:</strong><br /> Print "YES or "NO" (quotes for clarity) to indicate wheather it is possible for Gru to save the trapped minions.<br /> <br /> <strong>CONSTRAINTS:</strong><br /> 1&lt;=T&lt;=10</p>
+<p>1&lt;=N,M&lt;=1000<br /> <br /> <strong>SAMPLE INPUT:</strong><br /> 1<br /> 3 3<br /> BBB<br /> BWB<br /> BBB<br /> <br /> <strong>SAMPLE OUTPUT:</strong><br /> YES<br /> <br /> <strong>EXPLAINATION:</strong><br /> Any row and column pair selected by Gru guarantees that the trapped minion does not remain trapped.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simple_belief">Piyush Kumar</a></td></tr>
+<tr><td>Date:</td><td>2014-07-27</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

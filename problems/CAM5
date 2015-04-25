@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CAM5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10380. prayatna PR</h1>
+		<h2>Problem code: CAM5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">help the Prayatna pr team</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="white-space: pre;"> </span>Well, the annual technical symposium of Department of Computer Technology is around the corner. All that we need, to make it a grand success is Publicity among the peer groups ( ofCourse the sponsors too :P ). We dicided to share the job between the student groups. As per the plan we decided to meet people in person and influence them to attend Prayatna. But to meet them we have to go to various student groups. To do so, we had to cut our classes. But being studious ( ahem.. else just a BrutForce will pass ;) ) students refused to cut more classes. Instead of meeting every one in person we decided to meet few people such that the person to whom we pass the news will spread it to all his friends. And those friends will pass it to other friends and so on. Your task is to find the number of people to be met by the organizers to spread the news.&nbsp;</div>
+<p>&nbsp;</p>
+<p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; help the Prayatna pr team</p>
+<p>&nbsp;</p>
+<p><span style="white-space: pre;"> </span>Well, the annual technical symposium of Department of Computer Technology is around the corner. All that we need, to make it a grand success is Publicity among the peer groups ( ofCourse the sponsors too :P ). We dicided to share the job between the student groups. As per the plan we decided to meet people in person and influence them to attend Prayatna. But to meet them we have to go to various student groups. To do so, we had to cut our classes. But being studious. students refused to cut more classes. Instead of meeting every one in person we decided to meet few people such that the person to whom we pass the news will spread it to all his friends. And those friends will pass it to other friends and so on. Your task is to find the number of people to be met by the organizers to spread the news.&nbsp;</p>
+<p>&nbsp;</p>
+<p>caution: large I/O</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>First line of input is 't' - Test cases. Follwed by N, the number of peers in the testcase ( 0 to N-1 ). followed by the no.of friend description 'e'. Following are 'e' descriptions of type &nbsp;</p>
+<p>" a b " denoting 'a' friends with 'b' . if 'a' is friends with 'b' then 'b' is firends with 'a'.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>Output contains t line, the number of people, the organizers have to meet in person for each test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /></pre>
+<pre>2<br /><br />4<br />2<br />0 1 <br />1 2<br /><br /><br />3<br />0<br /><br /><strong>Output:</strong><br /></pre>
+<pre>2<br />3</pre>
+<pre><strong>Test case Expalained:</strong> <br /><br />case 1 : 0 is friends with 1; 1 is friends with 2 ;  so if we pass the news to 0 &amp; 3 , news will pass it to the entire N peers<br />case 2 : no one is friends with any one. So we have to meet every one in person. </pre>
+<pre><strong>Constraints:</strong> <br /><br />t=10<br />2 &lt;= N &lt;= 100000<br />0 &lt;= e &lt;= N/2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/keybo13">karthikeyan</a></td></tr>
+<tr><td>Date:</td><td>2012-01-11</td></tr>
+<tr><td>Time limit:</td><td>0.376s-0.662s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BLSUMSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18964. Sum of subsequences</h1>
+		<h2>Problem code: BLSUMSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/BLSUMSEQ/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/BLSUMSEQ/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Given an positive integer n and a sequence a<sub>1</sub>&hellip;a<sub>n.</sub> There are q queries. Each query has one of two formats :</p>
+<p><span style="white-space: pre;"> </span>- Format 0 l r k : you need to output the k-th smallest positive integer that can&rsquo;t be partition into a sum of any subsequence of a<sub>l</sub>...a<sub>r&nbsp;</sub></p>
+<p><span style="white-space: pre;"> </span>- Format 1 l r x : you need to output the numbers of ways to partition x into a sum of a subseqence of a<sub>l</sub>...a<sub>r</sub>&nbsp;(or the numbers of subsequence that sum of all its elements equal to x) (modulo 2<sup>32</sup>)</p>
+<p><strong>Input :</strong></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fist line : two positive n and q (1 &le; n &le; 100, 1 &le; q &le; 10000)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second line : n positive a<sub>1</sub>&hellip;a<sub>n&shy;&nbsp;</sub>(0 &le; a<sub>i</sub>&nbsp;&le; 100)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next q lines : each line denotes a query with one of two format listed above (1 &le; l &le; r &le; n, 1 &le; k &le; 10<sup>9</sup>, 0 &le; x &le; 10<sup>9</sup>)</p>
+<p><strong>Output :</strong></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; q lines : the i-th line is the answer of i-th query.</p>
+<p><strong>Sample :</strong></p>
+<p><strong><span style="white-space: pre;"> </span>Input :</strong></p>
+<p><span style="white-space: pre;"> </span>5 3</p>
+<p><span style="white-space:pre"> </span>1 0 2 4 1</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 200px; width: 1px; height: 1px; overflow: hidden;">0 2 3 2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 200px; width: 1px; height: 1px; overflow: hidden;">1 1 4 0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 200px; width: 1px; height: 1px; overflow: hidden;">1 2 5 3</div>
+<p><span style="white-space: pre;"> </span>0 2 3 2</p>
+<p><span style="white-space: pre;"> </span>1 1 4 0</p>
+<p><span style="white-space: pre;"> </span>1 2 5 3</p>
+<p><strong><span style="white-space: pre;"> </span>Output :</strong></p>
+<p><strong></strong><span style="white-space: pre;"> </span>3</p>
+<p><span style="white-space: pre;"> </span>1</p>
+<p><span style="white-space: pre;"> </span>2</p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2014-03-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

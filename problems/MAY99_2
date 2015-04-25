@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAY99_2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13381. Manku Word</h1>
+		<h2>Problem code: MAY99_2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Manku loves Codechef's Lucky Number and now he decided to start Manku words :)<br /><br />Manku words are those words which have only letters 'm','a','n','k','u'.<br /><br />Generally in english ,<br />a comes before k, k comes before m and so on but in Manku's dictionary 'm' comes before 'a' , 'a' comes before 'n' , 'n' comes before 'k' , 'k' comes before 'u'.<br /><br />Thus according to manku<br /><br />1st manku word is m<br />2nd manku word is a<br />3rd manku word is n<br />4th manku word is k<br />5th manku word is u<br />6th manku word is mm<br />7th manku word is ma<br />&nbsp; &nbsp;<br />and so on ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br /><br /><br />Your task is very simple<br />For given value of n , write the nth manku word<br /><br />1&lt;=n&lt;=10^18</p>
+<h3>Input</h3>
+<p><br />First line of input contains an integer t (1&lt;=t&lt;=100)<br /><br />Each test case contains an integer n</p>
+<h3>Output</h3>
+<p>For every test case print the nth manku word on separate line</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<br />5<br />10<br />4<br />16<br />17<br />31
+
+<strong>Output:</strong>
+<br />mu<br />k<br />nm<br />na<br />mmm<br />&nbsp;&nbsp;&nbsp; </pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mayank99">Mayank Tuteja</a></td></tr>
+<tr><td>Date:</td><td>2013-01-17</td></tr>
+<tr><td>Time limit:</td><td>0.195s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ADA ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 PAS fpc PERL PERL 6 PHP PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>similar to codechef's lucky number</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/adurysk"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SECTORS" target="_blank">15847. Equalize the Sectors</a></td><td><a href="http://www.spoj.com/problems/SECTORS"target="_blank">SECTORS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIGOKEYS" target="_blank">15849. Find the Treasure</a></td><td><a href="http://www.spoj.com/problems/DIGOKEYS"target="_blank">DIGOKEYS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DGAME" target="_blank">15850. Game</a></td><td><a href="http://www.spoj.com/problems/DGAME"target="_blank">DGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PSERVICE" target="_blank">15851. Permutations</a></td><td><a href="http://www.spoj.com/problems/PSERVICE"target="_blank">PSERVICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14A" target="_blank">19142. BSTRING</a></td><td><a href="http://www.spoj.com/problems/INS14A"target="_blank">INS14A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14B" target="_blank">19143. TRISQRS</a></td><td><a href="http://www.spoj.com/problems/INS14B"target="_blank">INS14B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14C" target="_blank">19144. Digo plays with Numbers</a></td><td><a href="http://www.spoj.com/problems/INS14C"target="_blank">INS14C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14D" target="_blank">19145. Digo Needs Guns</a></td><td><a href="http://www.spoj.com/problems/INS14D"target="_blank">INS14D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14E" target="_blank">19146. Glorious Gamblers</a></td><td><a href="http://www.spoj.com/problems/INS14E"target="_blank">INS14E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14F" target="_blank">19147. Save CodeVillage</a></td><td><a href="http://www.spoj.com/problems/INS14F"target="_blank">INS14F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14G" target="_blank">19148. Kill them All</a></td><td><a href="http://www.spoj.com/problems/INS14G"target="_blank">INS14G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14H" target="_blank">19149. Virus Revisited</a></td><td><a href="http://www.spoj.com/problems/INS14H"target="_blank">INS14H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14I" target="_blank">19150. Infinite Sequence</a></td><td><a href="http://www.spoj.com/problems/INS14I"target="_blank">INS14I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14J" target="_blank">19151. Checkers</a></td><td><a href="http://www.spoj.com/problems/INS14J"target="_blank">INS14J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14K" target="_blank">19152. Digo Goes Training</a></td><td><a href="http://www.spoj.com/problems/INS14K"target="_blank">INS14K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14L" target="_blank">19153. Rooted Trees</a></td><td><a href="http://www.spoj.com/problems/INS14L"target="_blank">INS14L</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INS14M" target="_blank">19154. Terrorist Attack</a></td><td><a href="http://www.spoj.com/problems/INS14M"target="_blank">INS14M</a><br>
+</td></tr>

@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADDLCM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11345. lcm addition</h1>
+		<h2>Problem code: ADDLCM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Mao is very good in mathematics, he likes to play with numbers and number theory is his favorite chapter. Once he decided to give a question to kalyu his friend . Now Kalyu is always busy in writing articles, as he likes maths but articles is his passion and source of income too, so he can&rsquo;t give much time solving that maths question, but he too don&rsquo;t want to hurt his friend, so help kalu in his problem ?</p>
+<p>Given a,b such that a&lt;=b&nbsp; calculate the addition:-</p>
+<p>&nbsp;LCM(a,b) + LCM(a+1,b) + .. + LCM(b,b), where LCM(a,b) denotes the Least Common Multiple of the integers a and b.</p>
+<p><br />Since, output may be very large, take the mod 10^9+7</p>
+<h3>Input</h3>
+<p>First line cosists of T=number of test&nbsp; cases, next T line will contain a and b</p>
+<h3>Output</h3>
+<p>For each T lines, print the required output.</p>
+<h3>Constraints</h3>
+<p>T&lt;=100000</p>
+<p>1 &lt;= a &lt;= b &lt;= 1000000</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />1 6<br />10 15<br />41 90<br /><br /><strong>Output:<br /></strong>66<br />675<br />139860</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/avinashse">avinash</a></td></tr>
+<tr><td>Date:</td><td>2012-04-08</td></tr>
+<tr><td>Time limit:</td><td>2.772s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

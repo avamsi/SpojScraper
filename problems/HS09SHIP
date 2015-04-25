@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HS09SHIP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4785. Starship</h1>
+		<h2>Problem code: HS09SHIP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are traveling by starship and at any time you are always moving in one of <strong>6</strong> directions: forwards, backwards, up, down, left, or right. In other words, during every second, one of the three coordinates of your position changes by exactly one unit. Let us suppose that you are at (<strong>x</strong><sub>1</sub>,<strong>y</strong><sub>1</sub>,<strong>z</strong><sub>1</sub>) and you would like to reach (<strong>x</strong><sub>2</sub>,<strong>y</strong><sub>2</sub>,<strong>z</strong><sub>2</sub>). Unfortunately, yours is only a first generation starship, which means that all movements are completely random, so at every second you will be moving with probability 1/6 forwards/backwards/up/down/left/right. Could you compute the probability that we will be at the destination in the <strong>n-</strong>th second?</p>
+<h3>Input</h3>
+<p>The first line contains integer <strong>T</strong>, representing the number of test cases. Each test case starts with a positive integer n, the next line gives the starting position of the starship, while the final one is the destination. It is known that: <strong>T</strong>&lt;30000, <strong>0</strong>&lt;n&lt;=1000. The absolute value of the <strong>x,y,z</strong> coordinates are smaller than 10<sup>6</sup>. There are <strong>5</strong> input sets for <strong>10</strong> points.</p>
+<h3>Output</h3>
+<p>Output</p>
+<p><strong>T</strong> lines, and in the <strong>i</strong>-th line give the required probability for the <strong>i</strong>-th test case. Use <strong>10 </strong>digits after the decimal point!</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />2<br />0 0 0<br />0 0 0<br />4<br />0 0 0<br />0 0 0<br />100<br />2 -3 4<br />-4 5 6<br />100<br />2 -3 4<br />-4 5 7<br />1000<br />0 0 0<br />0 0 0<br /><br /><br /><strong>Output:</strong><br />0.1666666667<br />0.0694444444<br />0.0001389381<br />0.0000000000<br />0.0000208505</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-09-07</td></tr>
+<tr><td>Time limit:</td><td>0.389s-1.148s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PYTH 3.2.3 n PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>High School Programming League</td></tr>	
+</table>

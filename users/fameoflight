@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/fameoflight"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PMATRIX" target="_blank">4644. Proving Equivalences</a></td><td><a href="http://www.spoj.com/problems/PMATRIX"target="_blank">PMATRIX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CCROSS" target="_blank">4656. Cross Mountain Climb</a></td><td><a href="http://www.spoj.com/problems/CCROSS"target="_blank">CCROSS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HHEMANT" target="_blank">4658. Help Hemant Verma</a></td><td><a href="http://www.spoj.com/problems/HHEMANT"target="_blank">HHEMANT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUNPROB" target="_blank">4672. Yanu in Movie theatre</a></td><td><a href="http://www.spoj.com/problems/FUNPROB"target="_blank">FUNPROB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COMBAT" target="_blank">5296. Air Combat</a></td><td><a href="http://www.spoj.com/problems/COMBAT"target="_blank">COMBAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INTERVA2" target="_blank">5298. Interval Challenge</a></td><td><a href="http://www.spoj.com/problems/INTERVA2"target="_blank">INTERVA2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MEXICAN" target="_blank">5300. Mexican Standoff</a></td><td><a href="http://www.spoj.com/problems/MEXICAN"target="_blank">MEXICAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QUERYSTR" target="_blank">5301. Query Problem</a></td><td><a href="http://www.spoj.com/problems/QUERYSTR"target="_blank">QUERYSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TETRAVEX" target="_blank">5317. Tetravex Puzzle</a></td><td><a href="http://www.spoj.com/problems/TETRAVEX"target="_blank">TETRAVEX</a><br>
+</td></tr>

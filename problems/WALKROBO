@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WALKROBO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10439. Walking Robot</h1>
+		<h2>Problem code: WALKROBO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Walking Robot<br /><br />Leonard is a student of robotics, and his teacher, Dr. Cooper, asked his class to build a robot to interact with the environment and change its behavior upon certain events. The environment, behavior changes and the events are up to the student, so Leonard decided to make a robot that walks in a grid with a set of movements. There are downloading spots in the grid in which the robot can learn new movements. The task of the robot is to go from one point of the grid to another in as fewest steps as possible.<br /><br />The grid is composed of M rows and N columns of squares. The botton-left square is position (0,0) and the top-right square is position (N-1,M-1). A movement is defined as a tuple (X,Y). Where X denotes the movement on the x axis and Y on the y axis. A movement is considered as 1 step. The robot can not make a movement that will end outside the boundaries of the grid.<br /><br />There are K possible movements for the robot to learn. The robot stars with T movements on its memory. If the robot is in a downloading spot, he can choose to learn the movement available at that spot, this takes 1 step. The robot can not learn new movements while he is moving. The robot starts at position (0,0) and should move to position (N-1,M-1).</p>
+<h3>Input</h3>
+<p>The first line has four integers M, N (2 &lt;= M,N &lt;= 15), K (1 &lt;=  K &lt;= 12) and T (0 &lt;= T &lt;= K). After this line there will be K  lines. The Kth line contains two integers (X,Y) (-10 &lt;= X,Y &lt;= 10)  which describe the Kth movement. Movements are indexed from 1 to K  inclusive. Afterwards there will be a line with T numbers separed by  spaces, which describe the movements that are initially known by the  robot. Then there is the description of the grid: there will be M lines  with N integers each. 0 indicates a free square, a positive number means  there is a downloading spot for the movement with that number index.  The numbers of the grid will always be between 0 and K inclusive. The  last case is followed by a line containing four zeros. This case should  not be processed.</p>
+<h3>Output</h3>
+<p>For each test case print a single line with "Case #X: S" where X is the  number of the test case (starting from 1) and S is the lowest number of  steps to achieve the destination. If it is not possible for the robot to  achieve the destination, print -1 instead of the number of steps.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br />4 3 2 1<br />1 0<br />0 1<br />1<br />0 0 0<br />0 0 0<br />0 0 0<br />0 0 2<br />5 5 4 1<br />2 1<br />-1 1<br />-1 0<br />-1 -2<br />1<br />0 4 3 0 0<br />0 0 0 0 0<br />0 0 0 0 2<br />0 0 0 0 0<br />0 0 0 0 0<br />5 5 4 1<br />2 1<br />-1 1<br />-1 0<br />-1 -2<br />1<br />4 0 3 0 0<br />0 0 0 0 0<br />0 0 0 0 2<br />0 0 0 0 0<br />0 0 0 0 0<br />7 7 3 0<br />1 1<br />2 2<br />4 4<br />0 0 0 0 0 0 0<br />0 0 0 0 0 0 0<br />0 0 0 0 0 0 0<br />0 0 0 0 0 0 0<br />0 0 3 0 0 0 0<br />0 2 0 0 0 0 0<br />1 0 0 0 0 0 0<br />0 0 0 0
+<br /><strong>Output:</strong>
+<br />Case #1: 6<br />Case #2: 11<br />Case #3: -1<br />Case #4: 5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.100s-10.18s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UFPE</td></tr>	
+</table>

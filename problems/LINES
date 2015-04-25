@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LINES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3184. Game of Lines</h1>
+		<h2>Problem code: LINES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Farmer John has challenged Bessie to the following game: FJ has a board with dots marked at N (2 &#8804; N &#8804; 200) distinct lattice points. Dot i has the integer coordinates X<sub>i</sub> and Y<sub>i</sub> (-1,000 &#8804; X<sub>i</sub>, Y<sub>i</sub> &#8804; 1,000).</p>
+
+<p>Bessie can score a point in the game by picking two of the dots and drawing a straight line between them; however, she is not allowed to draw a line if she has already drawn another line parallel to it. Bessie would like to know her chances of winning, so she has asked you to help find the maximum score she can obtain.</p>
+
+<h3>Input</h3>
+<p>There will be multiple test cases. For each case, the first line contains the integer N, and each of the next N lines gives a pair of integers, X<sub>i</sub> and Y<sub>i</sub>. The file ends with the case N = 0, which should not be processed.</p>
+
+<h3>Output</h3>
+<p>For each test case, print a single integer representing the maximum number of lines Bessie can draw, no two of which are parallel.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+-1 1
+-2 0
+0 0
+1 1
+0
+
+<b>Output:</b>
+4
+</pre>
+
+<p>Bessie can draw lines of the following four slopes: -1, 0, &#8531;, and 1.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-10-19</td></tr>
+<tr><td>Time limit:</td><td>0.421s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO Feb 2008</td></tr>	
+</table>

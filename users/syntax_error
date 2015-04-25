@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/syntax_error"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HSEQ" target="_blank">5511. Heavy Sequences</a></td><td><a href="http://www.spoj.com/problems/HSEQ"target="_blank">HSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQUOIA" target="_blank">5541. Sequoiadendron</a></td><td><a href="http://www.spoj.com/problems/SEQUOIA"target="_blank">SEQUOIA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PWSUM" target="_blank">6893. Power Sums</a></td><td><a href="http://www.spoj.com/problems/PWSUM"target="_blank">PWSUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPAR" target="_blank">6906. Raining Parabolas</a></td><td><a href="http://www.spoj.com/problems/RPAR"target="_blank">RPAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACAB" target="_blank">7010. Police Business</a></td><td><a href="http://www.spoj.com/problems/ACAB"target="_blank">ACAB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCOMP" target="_blank">7378. Manhattan Companies</a></td><td><a href="http://www.spoj.com/problems/MCOMP"target="_blank">MCOMP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TTOP" target="_blank">8004. Tree Topology</a></td><td><a href="http://www.spoj.com/problems/TTOP"target="_blank">TTOP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DPMAX" target="_blank">8105. Dot Product Maximization</a></td><td><a href="http://www.spoj.com/problems/DPMAX"target="_blank">DPMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKY" target="_blank">8129. Sky Lift</a></td><td><a href="http://www.spoj.com/problems/SKY"target="_blank">SKY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XMAX" target="_blank">8217. XOR Maximization</a></td><td><a href="http://www.spoj.com/problems/XMAX"target="_blank">XMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TSUM" target="_blank">8372. Triple Sums</a></td><td><a href="http://www.spoj.com/problems/TSUM"target="_blank">TSUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LSQF" target="_blank">8550. Longest Square Factor</a></td><td><a href="http://www.spoj.com/problems/LSQF"target="_blank">LSQF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXMATCH" target="_blank">9012. Maximum Self-Matching</a></td><td><a href="http://www.spoj.com/problems/MAXMATCH"target="_blank">MAXMATCH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INCEST" target="_blank">9081. Snail family problems</a></td><td><a href="http://www.spoj.com/problems/INCEST"target="_blank">INCEST</a><br>
+</td></tr>

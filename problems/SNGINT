@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNGINT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18273. Encode Integer</h1>
+		<h2>Problem code: SNGINT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given an integer N <b>(N > -1 and N < 10<sup>7</sup>)</b>. Encode N into another possible smallest integer M <b>(M > 0)</b>, such that product of digits of M equals to N.
+
+<h3>Input</h3>
+<p>First line input is T <b>(total no. of test cases)</b>, followed by T <b>(T < 10001)</b> lines containing integer N.
+
+<h3>Output</h3>
+<p>For each N output M or -1 <b>(if encoding is not possible)</b> in each line.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+24
+5
+11
+
+<b>Output:</b>
+38
+5
+-1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newborn">AvmnuSng</a></td></tr>
+<tr><td>Date:</td><td>2014-02-03</td></tr>
+<tr><td>Time limit:</td><td>0.065s-0.222s</td></tr>
+<tr><td>Source limit:</td><td>1024B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="https://facebook.com/criusabhimanyu">Abhimanyu Singh</a><br><a href="http://goo.gl/KXdHYG">My Problems</a></td></tr>	
+</table>

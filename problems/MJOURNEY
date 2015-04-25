@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MJOURNEY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3961. Journey with Pigs</h1>
+		<h2>Problem code: MJOURNEY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MJOURNEY/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MJOURNEY/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+Farmer John has a pig farm near town A. He wants to visit his friend living
+in town B. During this journey he will visit n small villages so he decided
+to earn some money. He tooks n pigs and plans to sell one pig in each 
+village he visits. Pork prices in villages are di&#64256;erent, in the j-th village
+the people would buy a pork at pj rubles per kilogram. The distance from town
+A to the j-th village along the road to town B is dj kilometers.
+Pigs have di&#64256;erent weights. Transporting one kilogram of pork per one kilometer
+of the road needs t rubles for addition fuel.
+
+Help John decide, which pig to sell in each town in order to earn as much money
+as possible.
+</pre>
+<h3>Input</h3>
+<pre>
+The &#64257;rst line of the input &#64257;le contains integer numbers n (1 &#8804; n &#8804; 1000) and t
+(1 &#8804; t &#8804; 10^9). The second line contains n integer numbers wi (1 &#8804; wi &#8804; 10^9) 
+&#8212; the weights of the pigs. The third line contains n integer numbers dj 
+(1 &#8804; dj &#8804; 10^9) &#8212; the distances to the villages from the town A. The fourth line
+contains n integer numbers pj (1 &#8804; pj &#8804; 10^9) &#8212; the prices of pork 
+in the villages.
+
+SAMPLE INPUT
+3 1
+10 20 15
+10 20 30
+50 70 60
+</pre>
+<h3>Output</h3>
+
+<pre> 
+Output n numbers, the j-th number is the number of pig to sell in the j-th village. 
+The pigs are numbered from 1 in the order they are listed in the input &#64257;le.
+
+SAMPLE OUTPUT
+3 2 1
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.158s-0.351s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td> NEERC 2007&#8211;2008</td></tr>	
+</table>

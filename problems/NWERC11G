@@ -1,0 +1,118 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NWERC11G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9893. Smoking gun</h1>
+		<h2>Problem code: NWERC11G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>  Smoking gun</h3>
+<!--l. 3-->
+<p>Andy: &#8221;Billy the Kid fired first!&#8221; <br /> <!--l. 5--></p>
+<p>Larry: &#8221;No, I&#8217;m sure I heard the first shot coming from John!&#8221; <br /> <!--l. 8--></p>
+<p>The arguments went back and forth during the trial after the big shoot-down, somewhere in the old wild west. Miraculously, everybody had survived (although there were serious injuries), but nobody could agree about the exact sequence of shots that had been fired. It was known that everybody had fired at most one shot, but everything had happened very fast. Determining the precise order of the shots was important for assigning guilt and penalties. <!--l. 17--></p>
+<p>But then the sheriff, Willy the Wise, interrupted: &#8221;Look, I&#8217;ve got a satellite image from the time of the shooting, showing exactly where everybody was located. As it turns out, Larry was located much closer to John than to Billy the Kid, while Andy was located just slightly closer to John than to Billy the Kid. Thus, because sound travels with a finite speed of 340 meters per second, Larry may have heard John&#8217;s shot first, even if Billy the Kid fired first. But, although Andy was closer to John than to Billy the Kid, he heard Billy the Kid&#8217;s shot first &#8211; so we know for a fact that Billy the Kid was the one who fired first! <!--l. 28--></p>
+<p>Your task is to write a program to deduce the exact sequence of shots fired in situations like the above. <!--l. 31--></p>
+<p> </p>
+<h4>Input</h4>
+<!--l. 32-->
+<p>On the first line a positive integer: the number of test cases, at most 100. After that per test case:</p>
+<ul>
+<li>one line with two integers <em>n </em>(2 &#8804; <em>n </em>&#8804; 100) and <em>m </em>(1 &#8804; <em>m </em>&#8804; 1<span style="margin-left:0.3em"> 000): the number of       people involved and the number of observations. </li>
+<li><em>n </em>lines with a string <em>S</em>, consisting of up to 20 lower and upper case letters, and two       integers <em>x </em>and <em>y </em>(0 &#8804; <em>x,y </em>&#8804; 1<span style="margin-left:0.3em"> 000<span style="margin-left:0.3em"> 000): the unique identifier for a person and his/her       position in Cartesian coordinates, in metres from the origin. </li>
+<li><em>m </em>lines of the form &#8220;<tt>S1</tt><tt> heard</tt><tt> S2</tt><tt> firing</tt><tt> before</tt><tt> S3</tt>&#8221;, where <em>S</em>1, <em>S</em>2 and <em>S</em>3 are       identifiers among the people involved, and <em>S</em>2<em>&#8800;</em><em>S</em>3.</li>
+</ul>
+<!--l. 48-->
+<p>If a person was never mentioned as <em>S</em>2 or <em>S</em>3, then it can be assumed that this person never fired, and only acted as a witness. No two persons are located in the same position. <!--l. 52--></p>
+<p>The test cases are constructed so that an error of less than 10<sup>-7</sup> in one distance calculation will not affect the output. <!--l. 55--></p>
+<p> </p>
+<h4>Output</h4>
+<!--l. 56-->
+<p>Per test case:</p>
+<ul>
+<li>one  line  with  the  ordering  of  the  shooters  that  is  compatible  with  all  of  the       observations, formatted as the identifiers separated by single spaces.</li>
+</ul>
+<!--l. 63-->
+<p>If multiple distinct orderings are possible, output &#8220;<tt>UNKNOWN</tt>&#8221; instead. If no ordering is compatible with the observations, output &#8220;<tt>IMPOSSIBLE</tt>&#8221; instead. <!--l. 67--></p>
+<p> </p>
+<h4>Sample in- and output</h4>
+<table align="center" id="TBL-1" border="1" cellspacing="5" cellpadding="5" rules="groups">
+<colgroup><col id="TBL-1-1"></col></colgroup><colgroup id="TBL-1-2g"><col id="TBL-1-2"></col></colgroup>
+<tbody>
+<tr id="TBL-1-1-" style="vertical-align:baseline;">
+<td id="TBL-1-1-1" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Input</span></p>
+</td>
+<td id="TBL-1-1-2" style="white-space:wrap; text-align:left;"><!--l. 43-->
+<p><span>Output</span></p>
+</td>
+</tr>
+<tr id="TBL-1-2-" style="vertical-align:baseline;">
+<td id="TBL-1-2-1" style="white-space:wrap; text-align:left;"><!--l. 46-->
+<pre>3
+4 2
+BillyTheKid 0 0
+Andy 10 0
+John 19 0
+Larry 20 0
+Andy heard BillyTheKid firing before John
+Larry heard John firing before BillyTheKid
+2 2
+Andy 0 0
+Beate 0 1
+Andy heard Beate firing before Andy
+Beate heard Andy firing before Beate
+3 1
+Andy 0 0
+Beate 0 1
+Charles 1 3
+Beate heard Andy firing before Charles</pre>
+</td>
+<td id="TBL-1-2-2" style="white-space:wrap; text-align:left;"><!--l. 50-->
+<pre>BillyTheKid John
+IMPOSSIBLE
+UNKNOWN</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<h4>Copyright notice</h4>
+<p>
+This problem text is copyright by the NWERC 2011 jury. It is
+licensed under the Creative Commons Attribution-Share Alike license
+version 3.0; The complete license text can be found at:
+<a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">http://creativecommons.org/licenses/by-sa/3.0/legalcode</a>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jthread">Jeroen Bransen</a></td></tr>
+<tr><td>Date:</td><td>2011-11-02</td></tr>
+<tr><td>Time limit:</td><td>0.652s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://2011.nwerc.eu/team.php">NWERC 2011 Jury</a></td></tr>	
+</table>

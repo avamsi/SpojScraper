@@ -1,0 +1,103 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KL11B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11267. Arnook Defensive Line</h1>
+		<h2>Problem code: KL11B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">Based on the latest intelligence reports, Chief Arnook of the northern tribe has become suspicious of the warrior nations that dwell south of the border. The chief has ordered his warriors to protect the southern border which runs parallel to the 54<sup>o</sup> latitude line and stretches between the longitudes of 1<sup>o</sup> to 1000,000,000<sup>o</sup>, inclusive. </span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">Each warrior is assigned the task of protecting a segment of the border defined to lie between longitudes &ldquo;a&rdquo; and &ldquo;b&rdquo;, inclusive. No two warriors are assigned to protect the exact same segment. Bound by loyalty to his chief, a warrior will inform the chief upon his arrival at his appointed post and will never leave once he arrives.&nbsp;</span></p>
+<div>
+<div>
+<div>
+<div>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">Your task is to write a program that performs the following two operations <span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">to help Chief Arnook track the status of his border protection. &nbsp; &nbsp;</span></span></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p>&nbsp;</p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">+ a b</span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">a warrior assumes his position and protects the segment between longitudes &ldquo;a&rdquo; and &ldquo;b&rdquo;, inclusive.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">? c d &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<div>
+<div>
+<div>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">computes the number of warriors who completely protect the segment between longitudes &ldquo;c&rdquo; and &ldquo;d&rdquo;, inclusive. The segment between the longitudes &ldquo;c&rdquo; and &ldquo;d&rdquo;, inclusive, is said to be completely protected by a warrior X if and only if warrior X protects a segment between </span></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">&ldquo;a&rdquo; and &ldquo;b&rdquo;, inclusive, and a &le; c &le;&nbsp;d &le; b.<br /> </span></p>
+</div>
+</div>
+</div>
+</div>
+<p><span style="font-family: LiberationSerif;"><br /></span><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">&nbsp;</span></p>
+</div>
+<div>
+<h3><strong>Input</strong></h3>
+</div>
+</div>
+</div>
+</div>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">The input starts with an integer N (1 &le;&nbsp;N &le;&nbsp;500000), on a line by itself, that indicates the number of operations. Each of the following N lines contains one operation. The description of an operation consists of a character &ldquo;+&rdquo; or &ldquo;?&rdquo; followed by two integers on a line by itself. The entries on a line are separated by single blank spaces.&nbsp;</span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';"><br /></span></p>
+<h3>Output</h3>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">There is one output line for each input line that starts with the operation &ldquo;?&rdquo;. The output consists of a single integer that represents the number of warriors who completely protect the corresponding segment at the time.&nbsp;</span></p>
+<p><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';"><span style="font-size: 12.000000pt; font-family: 'LiberationSerif';">There is no output for input lines that start with the character &ldquo;+&rdquo;. &nbsp; &nbsp;</span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+9
++ 5 10
++ 7 20
++ 3 15
+? 9 12
++ 10 20
+? 8 9
++ 6 30
+? 8 9
+? 9 12
+
+<strong>Output:</strong>
+2
+3
+4
+3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2012-03-30</td></tr>
+<tr><td>Time limit:</td><td>3.636s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC Kuala Lumpur 2011</td></tr>	
+</table>

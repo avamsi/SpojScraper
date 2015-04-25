@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ARITHSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4593. Arithmetic sequence</h1>
+		<h2>Problem code: ARITHSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/ARITHSEQ/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/ARITHSEQ/vn/">Ti&#7871;ng Vi&#7879;t</a></td> 
+</tr></table>
+
+
+<p>
+Given an arithmetic sequence a, a + d, a + 2*d, ..., a + n*d.
+</p>
+
+<h3>Request</h3>
+<p>
+Count the number of digit x appearing in the given sequence.
+</p>
+
+<h3>Input</h3>
+<p>
+- A line containing a, d, n, x.
+</p>
+
+<h3>Output</h3>
+<p>
+- The result found.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+10 5 2 0
+
+<b>Output:</b>
+2
+</pre>
+
+<h3>Limitations</h3>
+<p>
+- 1 &#8804; a, n &#8804; 10<sup>9</sup>.<br/>
+- 1 &#8804; d &#8804; 20,000.
+</p>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-07-16</td></tr>
+<tr><td>Time limit:</td><td>0.067s-0.136s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mr Tuan Khuc Anh - NTU (Singapore)</td></tr>	
+</table>

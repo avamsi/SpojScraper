@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/newborn"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SNGGW" target="_blank">15867. Great Warrior</a></td><td><a href="http://www.spoj.com/problems/SNGGW"target="_blank">SNGGW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGPG" target="_blank">15891. Prime Generator The Easiest Question Ever</a></td><td><a href="http://www.spoj.com/problems/SNGPG"target="_blank">SNGPG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGNM2" target="_blank">15996. Number Magic II</a></td><td><a href="http://www.spoj.com/problems/SNGNM2"target="_blank">SNGNM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGCP" target="_blank">16062. Count Primes</a></td><td><a href="http://www.spoj.com/problems/SNGCP"target="_blank">SNGCP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGDIV69" target="_blank">16758. Divisible by 6 and 9</a></td><td><a href="http://www.spoj.com/problems/SNGDIV69"target="_blank">SNGDIV69</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGINT" target="_blank">18273. Encode Integer</a></td><td><a href="http://www.spoj.com/problems/SNGINT"target="_blank">SNGINT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGMSG" target="_blank">18598. Encode Message</a></td><td><a href="http://www.spoj.com/problems/SNGMSG"target="_blank">SNGMSG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNGLOOP1" target="_blank">20038. Easiest Loop 1</a></td><td><a href="http://www.spoj.com/problems/SNGLOOP1"target="_blank">SNGLOOP1</a><br>
+</td></tr>

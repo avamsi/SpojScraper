@@ -1,0 +1,95 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MKTHNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3946. K-th Number</h1>
+		<h2>Problem code: MKTHNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MKTHNUM/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MKTHNUM/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+You are working for Macrohard company in data structures department. After 
+failing your previous task about key insertion you were asked to write a
+new data structure that would be able to return quickly k-th order statistics
+in the array segment.
+</p><p>
+That is, given an array a[1 ... n] of different integer numbers, your 
+program must answer a series of questions Q(i, j, k) in the form: "What would
+be the k-th number in a[i ... j] segment, if this segment was sorted?"
+</p><p>
+For example, consider the array a = (1, 5, 2, 6, 3, 7, 4). Let the question
+be Q(2, 5, 3). The segment a[2 ... 5] is (5, 2, 6, 3). If we sort this 
+segment, we get (2, 3, 5, 6), the third number is 5, and therefore the
+answer to the question is 5. 
+</p><p>
+<h3>Input</h3>
+</p><p>
+The first line of the input contains n &#8212; the size of the array, and m &#8212; 
+the number of questions to answer (1 &#8804; n &#8804; 100000, 1 &#8804; m &#8804; 5000).
+</p><p>
+The second line contains n different integer numbers not exceeding 10^9 
+by their absolute values &#8212; the array for which the answers should be given.
+</p><p>
+The following m lines contain question descriptions, each description consists
+of three numbers: i, j, and k (1 &#8804; i &#8804; j &#8804; n, 1 &#8804; k &#8804; j - i + 1) and 
+represents the question Q(i, j, k). 
+</p> <pre>
+SAMPLE INPUT
+7 3
+1 5 2 6 3 7 4
+2 5 3
+4 4 1
+1 7 3
+
+</pre>
+<h3>Output</h3>
+
+<pre> 
+For each question output the answer to it &#8212; the k-th number in sorted 
+a[i ... j] segment. 
+
+SAMPLE OUTPUT
+5
+6
+3
+</pre>
+<b>Note : naive solution will not work!!!</b>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-24</td></tr>
+<tr><td>Time limit:</td><td>0.115s-0.667s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Northeastern Europe 2004 Northern Subregion</td></tr>	
+</table>

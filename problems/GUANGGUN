@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GUANGGUN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9952. 111&#8230;1 Squared</h1>
+		<h2>Problem code: GUANGGUN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We call an integer <em>Sticks</em> if its decimal representation contains only digit 1. </p>
+<p>Let S(<b>n</b>) be the sticks with <b>n</b> digits, find the sum of digits of S(n)<sup>2</sup></p>
+
+<p>For example, S(9)<sup>2</sup>=12345678987654321, its sum of digits is 81.</p>
+
+<h3>Input</h3>
+<p>Each line contains an integer represents <b>n</b>(1 &#8804; <b>n</b> &#8804; 10<sup>18</sup>). </p>
+<p>Input is terminated by EOF, and contains at most 100 lines.</p>
+
+<h3>Output</h3>
+<p>For each <b>n</b>, print an integer represents the answer. </p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+9
+10
+
+<b>Output:</b>
+81
+82
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2011-11-11</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>4096B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SOCOLA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6072. Chocolate</h1>
+		<h2>Problem code: SOCOLA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Chocolate in its many forms is enjoyed by millions of people around the world every day. It is a truly universal candy, available in virtually every country around the world.
+<p>You find that the only thing better than eating chocolate is to share it with friends. Unfortunately, your friends are very picky and have different appetites: some would like more and others less of the chocolate that you offer them. You have found it increasingly difficult to determine whether their demands can be met. It is time to write a program that solves the problem once and for all!
+<p>Your chocolate comes as a rectangular bar. The bar consists of same-sized rectangular pieces. To share the chocolate, you may break one bar into two pieces along a division between rows or columns of the bar. You may then repeatedly break the resulting pieces in the same manner. Each of your friends insists on a getting a single rectangular portion of the chocolate that has a specified number of pieces. You are a little bit insistent as well: you will break up your bar only if all of it can be distributed to your friends, with none left over.
+<p>For example, Figure 9 shows one way that a chocolate bar consisting of 3 x 4 pieces can be split into 4 parts that contain 6, 3, 2, and 1 pieces respectively, by breaking it 3 times. (This corresponds to the first sample input.)
+
+<img src='https://www.spoj.pl/content/paulmcvn:socola.png' />
+
+<p>
+Figure 9
+
+
+<h3>Input</h3>
+
+<p>The input consists of multiple test cases, each describing a chocolate bar to share. Each description starts with a line containing a single integer n (1 <= n <= 15), the number of parts into which the bar is supposed to be split. This is followed by a line containing two integers x and y (1 <= x, y <= 100), the dimensions of the chocolate bar. The next line contains n positive integers, giving the number of pieces that are supposed to be in each of the n parts.
+<p>
+The input is terminated by a line containing the integer zero.
+
+<h3>Output</h3>
+
+<p>
+For each test case, first display its case number. Then display whether it is possible to break the chocolate in the desired way: display "Yes" if it is possible, and "No" otherwise. Follow the format of the sample output.
+
+<h3>Sample Input</h3>
+<pre>
+4 
+3 4
+6 3 2 1
+2
+2 3
+1 5
+0
+</pre>
+
+<h3>Sample Output</h3>
+<pre>
+Case 1: Yes
+Case 2: No
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2010-02-09</td></tr>
+<tr><td>Time limit:</td><td>0.680s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC World Final 2010</td></tr>	
+</table>

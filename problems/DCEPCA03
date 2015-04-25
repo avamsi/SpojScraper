@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPCA03"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12914. Totient Extreme</h1>
+		<h2>Problem code: DCEPCA03</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given the value of N, you will have to find the value of H. The meaning of H is given in the following code</p>
+<p>H=0;</p>
+<p>For( i=1;i&lt;=n;i++){</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For( j=1;j&lt;=n;j++){</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; H=H+totient(i)*totient(j);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+<p>}</p>
+<p><strong>Totient</strong> or phi function, &phi;(n) is an arithmetic function that counts the number of positive integers less than or equal to n that are relatively prime to n. That is, if n is a positive integer, then &phi;(n) is the number of integers k in the range 1 &le; k &le; n for which gcd(n, k) = 1</p>
+<h3>Constraints</h3>
+<p>0 &lt; T &lt;= 50<br />0 &lt; N &lt;= 10^4</p>
+<h3>Input</h3>
+<p>The first line contains T, the number of test cases. It is followed by T lines each containing a number N .</p>
+<h3>Output</h3>
+<p>For each line of input produce one line of output. This line contains the value of H for the corresponding N.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>3</pre>
+<pre>10
+
+<strong>Output:</strong>
+</pre>
+<pre>16</pre>
+<pre>1024</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-12-05</td></tr>
+<tr><td>Time limit:</td><td>0.334s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

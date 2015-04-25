@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ATOMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18164. Atoms in the Lab</h1>
+		<h2>Problem code: ATOMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"> Mr. Yagami is a scientist in the Bhabha Atomic Research Centre. They are   conducting a lab experiment on nuclear fission. In nuclear fission, one atom   breaks into more than one atom of the same type.</span></p>
+<p><span style="font-size: small;"> Initially, there are <strong>N</strong> atoms in the lab. Starting from now <strong>(t=0)</strong>, after each   second, every atom will break into <strong>K</strong> atoms of the same type. They don&rsquo;t want   the number of atoms to exceed <strong>M</strong>, so they have to stop the reaction at some   time <strong>t=T</strong>. Can you find this value <strong>T</strong> for Mr. Yagami. </span></p>
+<h3><span style="font-size: small;">Input Format:</span></h3>
+<p><span style="font-size: small;"> First line contains <strong>P</strong>, the number of test cases. Next <strong>P</strong> lines contain three   integers each. These three integers represent the values of <strong>N</strong>,<strong> K</strong> and <strong>M</strong> respectively. </span></p>
+<h3><span style="font-size: small;">Output Format:</span></h3>
+<p><span style="font-size: small;"> For each test case print the time at which the reaction will have to be   stopped. </span></p>
+<h3><span style="font-size: small;">Constraints:</span></h3>
+<p><span style="font-size: small;"><strong> 1 &le; P &le; 10^4<br /> 2 &le; N, K, M &le; 10^18<br /> </strong> </span></p>
+<h3><span style="font-size: small;">Sample Input:</span></h3>
+<pre><span style="font-size: small;">2
+2 2 7
+2 2 8</span></pre>
+<h3><span style="font-size: small;">Sample Output:</span></h3>
+<pre><span style="font-size: small;">1
+2</span></pre>
+<h3><span style="font-size: small;">Explanation:</span></h3>
+<p><span style="font-size: small;"> 1st test case: <br /> at t=1, number of atoms=4<br /> at t=2, number of atoms will be 8.<br /> So reaction has to be stopped at t=1.<br /> <br /> 2nd test case:<br /> at t=1, number of atoms=4<br /> at t=2, number of atoms will be 8.<br /> at t=3, number of atoms will be 16.</span></p>
+<p><span style="font-size: small;"><br /> <strong>Problem Setter: Lalit Kundu</strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/darkshadows">darkshadows</a></td></tr>
+<tr><td>Date:</td><td>2014-01-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PHU09H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5522. Buy Your House</h1>
+		<h2>Problem code: PHU09H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">You are going to buy a house and hence communicated with a real estate development company, which has just started their business and you are going to be the first buyer. So they are offering you something special. The real estate company has a rectangular shaped land of width W and height H. They are using coordinate system for measuring lands. (0, 0) is the lower left corner of their land and any point which has distance x from lower edge of the land and distance y from left edge of the land is known as (x, y) in the coordinate system.</p>
+<p style="text-align: justify;">The real estate company has already built some houses in that piece of land. All of them are<br />rectangular shaped and their edges are parallel to edges of the main land. The location of a house can be addressed by four integers x1, y1, x2, y2. Where (x1, y1) is the lower left corner and (x2, y2) upper right corner of the house.</p>
+<p style="text-align: justify;"><br />The special offer is that you can choose any rectangular shaped region that contains<br />exactly one house with any amount of adjacent open space. You may not have enough money to afford open space and choose to buy only the region that a house occupies. If you have enough money, you can keep open space in front of your house for gardening!</p>
+<p style="text-align: justify;"><br />But still there are some restrictions. For the ease of their future use of rest of their land<br />you can only choose a rectangular shaped region and the edges of which are parallel to the edges of the main land. The corners of your selected region should be integer coordinates. It can be (3, 2) but cannot be (3.5, 2). You cannot chose a region for which part of a house is inside the region and another part of that house is outside the region. You cannot choose a region having more than one house and a region having no house. How many ways you can choose your land following the above rules?</p>
+<h3 style="text-align: justify;">Input</h3>
+<p style="text-align: justify;">Input will start with an integer T (T is around 500), the number of test cases. Each of the test cases starts with two integers W and H (1 &lt;= W, H &lt;= 1000000000), width and height of the land and the next line contains an integer N (1 &lt;= N &lt;= 50), the number of houses in the land.</p>
+<p style="text-align: justify;">Each of the next N lines will contain four integer x1, y1, x2, y2 ( 0 &lt;= x1 &lt; x2 &lt;= W and<br />0 &lt;= y1 &lt; y2 &lt;= H ), which describes the location of the house. Note that no house can overlap with another house and all the given coordinates will be non negative integers.</p>
+<h3 style="text-align: justify;">Output</h3>
+<p style="text-align: justify;">For each input, print a single line of the form &ldquo;Case #: W&rdquo;, where &lsquo;#&rsquo; will be replaced by the<br />case number and W will be replaced by the number of ways you can choose your land. Here W<br />can be very large, so you should print the number of ways modulo 1000000007 as W.</p>
+<h3 style="text-align: justify;">Example</h3>
+<pre style="text-align: justify;"><strong>Input:</strong><br />2<br />3 3<br />1<br />1 1 2 2<br />10 10<br />2<br />1 1 4 4<br />6 6 8 8<br /><br /><strong>Output:</strong><br />Case 1: 16<br />Case 2: 429<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wasi">Mir Wasi Ahmed</a></td></tr>
+<tr><td>Date:</td><td>2009-12-03</td></tr>
+<tr><td>Time limit:</td><td>4.960s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC Phuket Regional 2009, Author: Md. Arifuzzaman Arif </td></tr>	
+</table>

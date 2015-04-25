@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ENEMY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2417. Eliminate The Enemies</h1>
+		<h2>Problem code: ENEMY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a modification of the popular game 'Pacman', the player has to move in a two-dimensional grid. Several cells of the grid are blocked. The player can start from any cell that is not blocked and can move in any of the directions, i.e. north, west,south or east, provided that the cells are unblocked.<br/><br />
+As soon as the player passes a cell, an enemy is generated in that cell, making it impossible for the player to pass through that cell again. Thus, the player can pass through any given cell only once. The player has to traverse all the unblocked cells in the grid in order to win .<br/><br/>
+The player can begin at any free cell. Note that the same path with different starting points and even with the same
+starting point but with different paths of traversal is treated as different routes. The problem requires you to print the total number of all such possible routes.
+
+<h3>Input</h3>
+<p>Each test case starts with a line containing two integers, m and n. Each of the next m lines contain a string of n characters describing the configuration of the grid. '*' denotes a blocked cell and '.' denotes unblocked cells. The input ends with a case having m = 0 and n = 0 and this case need not be processed.
+
+<h3>Output</h3>
+<p>For each test case, print one line containing the total number of possible routes for the corresponding case. As this number can be quite large, you should print ans%1000000007 where ans is the required result.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 3
+...
+.*.
+...
+3 7
+...*...
+.*.*.*.
+.......
+3 3
+***
+*.*
+***
+0 0
+
+
+<b>Output:</b>
+16
+8
+1
+</pre>
+
+<h3>Constraints and Limits</h3>
+<p>m &#8804; 100, n &#8804; 7, number of test cases &#8804; 50
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ajaysomani">Ajay Somani</a></td></tr>
+<tr><td>Date:</td><td>2008-02-05</td></tr>
+<tr><td>Time limit:</td><td>0.100s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 ERL SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://felicity.iiit.ac.in/codecraft/">CodeCraft 08</a>, Problem Setter: Jin Bin</td></tr>	
+</table>

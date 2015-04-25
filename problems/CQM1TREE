@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CQM1TREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22528. Paths in a Tree</h1>
+		<h2>Problem code: CQM1TREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a tree and a set of edges <strong>K</strong>, find total number of distinct paths in the tree consisting of all the edges in <strong>K</strong>. Two paths are distinct if the end nodes of the paths are different.  Also, a path like (1-&gt;2-&gt;3) is same as (3-&gt;2-&gt;1).</p>
+<p>A path is defined as a series of edges which connect a sequence of vertices which are all distinct.</p>
+<h3>Input</h3>
+<p>First line denotes the number of test cases <strong>T</strong> (&lt;=100) <br /><strong>T</strong> test cases follow. <br />Each Test case is defined as: <br />First line contains <strong>n</strong> (1&lt;=n&lt;=2*10^4) and <strong>k</strong> (&lt;=n-1) which are the number of nodes and size of the edge set, respectively. <br />n-1 lines follow, each defining an edge between pair of nodes <strong>u</strong> and <strong>v</strong>. <br />nodes are numbered 1 to n. <br />A single line consisting of <strong>k</strong> space separated indices (0-based, in order they appear in the input) of edges which are in the set.</p>
+<h3>Output</h3>
+<p>For each test case, output a single integer denoting the number of  distinct paths in the tree consisting of all the edges in the set.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 <br />2 1 <br />1 2 <br />0 <br />3 1 <br />1 2 <br />2 3 <br />1 <br />7 3 <br />1 6 <br />1 2 <br />1 5 <br />2 4 <br />4 7 <br />2 3 <br />0 5 4
+
+<strong>Output:</strong>
+1 <br />2 <br />0
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nims11">VV</a></td></tr>
+<tr><td>Date:</td><td>2015-01-28</td></tr>
+<tr><td>Time limit:</td><td>1.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (CQM 1, BIT Mesra)</td></tr>	
+</table>

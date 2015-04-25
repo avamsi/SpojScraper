@@ -1,0 +1,113 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ORDERSET"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3273. Order statistic set</h1>
+		<h2>Problem code: ORDERSET</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/ORDERSET/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/ORDERSET/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>In this problem, you have to maintain a dynamic set of 
+
+numbers which support the two fundamental operations</p>
+<ul>
+<li>INSERT(S,x): if x is not in S, insert x into S</li>
+<li>DELETE(S,x): if x is in S, delete x from S</li>
+</ul>
+<p>and the two type of queries</p>
+<ul>
+<li>K-TH(S) : return the k-th smallest element of S</li>
+<li>COUNT(S,x): return the number of elements of S smaller 
+
+than x</li>
+</ul>
+
+<h3>Input</h3>
+<ul>
+<li>Line 1: Q (1 &#8804; Q &#8804; 200000), the number of 
+
+operations</li>
+<li>In the next Q lines, the first token of each line is a character 
+
+I, D, K or C meaning that the corresponding operation is 
+
+INSERT, DELETE, K-TH or COUNT, respectively, following 
+
+by a whitespace and an integer which is the parameter for that 
+
+operation.</li>
+</ul>
+<p>If the parameter is a value x, it is guaranteed that 0 &#8804; |x| 
+
+&#8804; 10<sup>9</sup>. If the parameter is an index k, it is 
+
+guaranteed that 1 &#8804; k &#8804; 10<sup>9</sup>.</p>
+
+<h3>Output</h3>
+<p>For each query, print the corresponding result in a single 
+
+line. In particular, for the queries K-TH, if k is larger than the 
+
+number of elements in S, print the word 'invalid'.</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input</b>
+8
+I -1
+I -1
+I 2
+C 0
+K 2
+D -1
+K 1
+K 2
+
+<b>Output</b>
+1
+2
+2
+invalid
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-10-28</td></tr>
+<tr><td>Time limit:</td><td>0.300s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>&#169; <a href='http://vnoi.info'>VNOI</a></td></tr>	
+</table>

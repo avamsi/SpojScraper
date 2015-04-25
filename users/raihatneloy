@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/raihatneloy"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ABSP1" target="_blank">18155. abs(a-b) I</a></td><td><a href="http://www.spoj.com/problems/ABSP1"target="_blank">ABSP1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INTSUB" target="_blank">20654. Interesting Subset</a></td><td><a href="http://www.spoj.com/problems/INTSUB"target="_blank">INTSUB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNTINDX" target="_blank">20673. Count The Indexes</a></td><td><a href="http://www.spoj.com/problems/CNTINDX"target="_blank">CNTINDX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TULIPNUM" target="_blank">21347. Tulip And Numbers</a></td><td><a href="http://www.spoj.com/problems/TULIPNUM"target="_blank">TULIPNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUFEQPRE" target="_blank">21360. Suffix Equal Prefix</a></td><td><a href="http://www.spoj.com/problems/SUFEQPRE"target="_blank">SUFEQPRE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OHANISER" target="_blank">21394. Ohani And The Series</a></td><td><a href="http://www.spoj.com/problems/OHANISER"target="_blank">OHANISER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OHANIBTR" target="_blank">21395. Ohani And Binary Search Tree</a></td><td><a href="http://www.spoj.com/problems/OHANIBTR"target="_blank">OHANIBTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TKUDDUS" target="_blank">21396. Taklu Kuddus</a></td><td><a href="http://www.spoj.com/problems/TKUDDUS"target="_blank">TKUDDUS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNTINDX2" target="_blank">21414. Count The Indexes 2</a></td><td><a href="http://www.spoj.com/problems/CNTINDX2"target="_blank">CNTINDX2</a><br>
+</td></tr>

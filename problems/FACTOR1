@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACTOR1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4412. Factorization, Factorization, Factorization</h1>
+		<h2>Problem code: FACTOR1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Factorize <em>x<sup>n</sup>-1</em> into several irreducible polynomials over the integers.</p>
+<h3>Input</h3>
+<p>Multiply test cases. For each test case:</p>
+<p>A single line - <em>n</em>.(2&lt;= <em>n</em> &lt;= 1200).</p>
+<p>Input terminates by a single zero.</p>
+<h3>Output</h3>
+<p>For each test case, output the factorization of the given polynomial.</p>
+<p>There are multiple ways to express the factorization of a polynomial. To make it unique, we sort the irreducible polynomials according to the following rules:</p>
+<p>Lower order polynomials are always lexicographically smaller than higher order polynomials. Same order polynomials should be sorted by their coefficients. We compare the coefficients from high degree terms to low degree terms, including the omitted terms, which the coefficients are regard as 0. Coefficients are being compared first by absolute value then by sign. Smaller absolute values are lexicographically smaller. For the same absolute value, negative coefficients are lexicographically smaller than positive coefficients.</p>
+<p>See example for more output format details.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+12
+0
+
+<strong>Output:</strong>
+(x-1)(x+1)(x^2+1)(x^2-x+1)(x^2+x+1)(x^4-x^2+1)
+</pre>
+<h3>Hint</h3>
+<p>There should <b>not</b> be a "*" between digit and x, i.e. -2x^2 should be printed as -2x^2.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2009-05-23</td></tr>
+<tr><td>Time limit:</td><td>1.322s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Fudan University Local Contest #1</td></tr>	
+</table>

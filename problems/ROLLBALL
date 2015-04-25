@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROLLBALL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2019. The Rolling Ball</h1>
+		<h2>Problem code: ROLLBALL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds -->
+<HTML>
+<HEAD>
+<TITLE>Rolling Ball</TITLE>
+</HEAD>
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001002000000000000000">Problem</A></FONT></H2>
+
+<P>A solid spherical ball of radius <b>R</b> rolls without slipping on the inside surface of a fixed cone, whose tip points downward. The half-angle at the
+vertex of the cone is <b>u</b>. Initial conditions have been set up so that the ball travels around the cone in a horizontal circle of radius <b>l>R</b>, 
+with the points on the ball that touch the cone tracing out a circle on the ball.
+Determine the radius of the circle of these contact points, if you want the sphere to travel around the cone as fast as possible.
+<p>
+
+
+</U></U><H2><FONT COLOR=#0070E8><A NAME="SECTION0001003000000000000000">The Input</A></FONT></H2>
+<P>
+Each line of input has integers <b>l</b> (R < l <= 1000000) <b>R</b> (0 < R <= 1000) and <b>u</b> (0 < u < 90) given in degrees.
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001004000000000000000">The Output</A></FONT></H2>
+<P>
+For each line of input, output the radius of the circle of the contact points, round to integer.
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001005000000000000000">Sample Input</A></FONT></H2>
+<P>
+<PRE>
+220000 100 29
+</PRE>
+<P>
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001006000000000000000">Sample Output</A></FONT></H2>
+<P>
+<PRE>
+46
+</PRE>
+</BODY>
+</div>
+<br />
+
+<hr size="1" />
+Problemsetter ---  Wu, Xiaogang
+</HTML>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2007-11-06</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

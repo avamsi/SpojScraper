@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RTREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20775. Roger and tree</h1>
+		<h2>Problem code: RTREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Roger is a computer science student who likes connected undirected acyclic graphs, also known as trees.&nbsp;He especially&nbsp;likes solving problems about trees. Recently Roger found a piece of paper with a rooted tree&nbsp;with <strong>'N'</strong> vertices drawn on it&nbsp;(numbered from <strong><strong>1</strong> to '<strong>N</strong></strong><strong>'</strong>). He also found<strong> 'Q'</strong> queries on the same piece of paper,&nbsp;where each query was an integer<strong> <strong>'</strong><strong>S</strong><strong>'&nbsp;</strong></strong>between <strong>1 to 'N'</strong>. But the paper said nothing about the description&nbsp;of the queries. So he decided to find the longest path of each of the subtree 'S'.</span></p>
+<p><span style="font-size: small;">Roger spent two sleepless nights trying to solve this problem efficiently. He is still trying&nbsp;and won't sleep until he knows the&nbsp;answer to each query.&nbsp;Write a program which answers all the queries correctly.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-weight: bold;">INPUT FORMAT</span></p>
+<p><span style="font-size: small;">The first line contains an integer 'N', then N-1 lines follow.</span></p>
+<p><span style="font-size: small;">Each of the next 'N-1' line contains two integer 'U' and 'V' which means that vertex 'U' and 'V' are connected.</span></p>
+<p><span style="font-size: small;">Next line contains an integer 'R' which denotes the root of the tree.</span></p>
+<p><span style="font-size: small;">Next line contains another integer 'Q' which denotes the number of queries.</span></p>
+<p><span style="font-size: small;">Each of the next 'Q' line contains an integer 'S' between (1 to N).</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small; font-weight: bold;">OUTPUT FORMAT</span></p>
+<p><span style="font-size: small;">For each query print the longest path of the subtree 'S' rooted at vertex 'R'.</span></p>
+<p><span style="font-size: small;">Output exactly 'Q' lines, each line containing the output of the ith query.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Roger is a computer science student who likes connected undirected acyclic graphs, also known as trees. He especially likes solving problems about trees. Recently Roger found a piece of paper with a rooted tree with 'N' vertices drawn on it (numbered from 1 to N). He also found 'Q' queries on the same piece of paper, where each query was an integer 'S' between 1 to 'N'. But the paper said nothing about the description of the queries. So he decided to find the diameter (longest path) of each of the subtree 'S'.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Roger spent two sleepless nights trying to solve this problem efficiently. He is still trying and won't sleep until he knows the answer to each query. Write a program which answers all the queries correctly.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input Format</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line of each test case contains an integer 'N', then N-1 lines follow:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each of the next 'N-1' line contains two integer 'U' and 'V' which means that vertex 'U' and 'V' are connected.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Next line contains an integer 'R' which denotes the ROOT of the tree.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Next line contains another integer 'Q' which denotes the number of QUERIES.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each of the next 'Q' line contains an integer 'S' between (1 to N).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output Format</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each query print the diameter of the subtree 'S' rooted at vertex 'R'.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output exactly 'Q' lines, each line containing the output of the ith query.</div>
+<p><span style="font-size: small; font-weight: bold;">SAMPLE INPUT</span></p>
+<p><span style="font-size: small;">3</span></p>
+<p><span style="font-size: small;">1 2</span></p>
+<p><span style="font-size: small;">1 3</span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">2</span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">2</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small; font-weight: bold;">SAMPLE OUTPUT</span></p>
+<p><span style="font-size: small;">2</span></p>
+<p><span style="font-size: small;">0</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small; font-weight: bold;">CONSTRAINTS</span></p>
+<p><span style="font-size: small;">1 &le; N &le; 10^5</span></p>
+<p><span style="font-size: small;">1 &le; U,V &le; N</span></p>
+<p><span style="font-size: small;">1 &le; R &le; N</span></p>
+<p><span style="font-size: small;">1 &le; Q &le; 10^5</span></p>
+<p><span style="font-size: small;">1 &le; S &le; N</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ranasaha">Rana Saha</a></td></tr>
+<tr><td>Date:</td><td>2014-08-26</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (Codecracker 2014)</td></tr>	
+</table>

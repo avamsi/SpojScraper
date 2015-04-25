@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04G1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7866. Regular expressions (Hard)</h1>
+		<h2>Problem code: ADV04G1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Regular expression is an expression which defines a set of strings. In this problem regular expression will contain only small latin letters a-z and special characters &#8216;?&#8217;, &#8216;*&#8217; &#1080; &#8216;+&#8217;. Each letter corresponds to itself in the defined strings. Special character can occur only after some letter and means the number of repetitions of the letter:</p>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="1"><tbody><tr><td align="left" nowrap=""> Character</td><td align="left" nowrap="">Repetitions</td></tr>
+<tr><td align="left" nowrap=""> <tt>?</tt></td><td align="left" nowrap="">none or one</td></tr>
+<tr><td align="left" nowrap=""> <tt>*</tt></td><td align="left" nowrap="">none or more</td></tr>
+<tr><td align="left" nowrap=""> <tt>+</tt></td><td align="left" nowrap="">one or more</td></tr>
+</tbody></table>
+</div>
+<p>For example &#8220;ac&#8221;, &#8220;abc&#8221;, &#8220;acc&#8221;, &#8220;abcccc&#8221;, and so on match regular expression &#8220;ab?c+&#8221;.
+
+For the given string find the substring which matches the given regular expression. If there are many such substrings find the most left one. If there are many of those as well fing the longest one.
+
+<h3>Input</h3>
+<p>The first line of input contains number T - the amount of test cases. The description of T test cases follows. The first line of each test case is the given string S of length L. Next line contains number n - the amount of regular expressions. Next n lines describe one regular expression Ri each for which you should find the matching substrings.
+
+<h3>Constraints</h3>
+<p>1 <= T <= 100<br />
+1 <= n <= 10<br />
+1 <= L <= 200<br />
+1 <= R<sub>i</sub> <= 100
+
+<h3>Output</h3>
+<p>For each regular expression print the matching substring or -1 if there is no such substring in the given string.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+aabbcc
+5
+b*c
+a?b+c+
+ab?c
+b?c?
+a?b?c?
+
+<b>Output:</b>
+bbc
+abbcc
+-1
+
+a
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.752s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken TCL </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/, author: Alexey Shchepin</td></tr>	
+</table>

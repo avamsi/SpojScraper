@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CTOI10D1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6951. MP3 Player</h1>
+		<h2>Problem code: CTOI10D1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h1><strong><span>The MP3 Player</span></strong></h1>
+<p>Georg's new MP3 player has many interesting features, one of them  being the key lock. All the keys are locked after more than <span><em>T</em></span> seconds of inactivity. After the key lock is engaged, no key performs its original function, but if any key is pressed, the  key lock is disengaged.</p>
+<p>For example, assume that <span><em>T</em> = 5</span> and the player is currently locked. Georg presses the key <span><em>A</em></span>, waits for 3  seconds, presses the key <span><em>B</em></span>, waits for 5 seconds, presses <span><em>C</em></span>,  waits for 6 seconds, and presses <span><em>D</em></span>. In this case only the keys <span><em>B</em></span> and <span><em>C</em></span> perform their regular functions. Note that the keys became locked between <span><em>C</em></span> and <span><em>D</em></span> was pressed.</p>
+<p>Sound level of the MP3 player is controlled by the <tt>+</tt> and <tt>-</tt> keys, increasing and decreasing volume by <span>1</span> unit respectively. The sound level is an integer between <span>0</span> and  <span><em>V</em><sub><em>m</em><em>a</em><em>x</em></sub></span>.  Pressing the <tt>+</tt> key at volume <span><em>V</em><sub><em>m</em><em>a</em><em>x</em></sub></span> or pressing the <tt>-</tt> key at volume <span>0</span> leaves the volume unchanged.</p>
+<p><a id="Task_specification" name="Task_specification"></a></p>
+<h2><strong><span>Task specification</span></strong></h2>
+<p>Georg does not know the value of <span><em>T</em></span>.  He wanted to find it by an experiment.  Starting with a locked keyboard, he pressed a sequence of <span><em>N</em></span> <tt>+</tt> and <tt>-</tt> keys. At the end of the experiment Georg read the final volume from the  player's display.  Unfortunately, he forgot to note the volume before his first keypress. For the purpose of this task, the unknown initial volume will be denoted  <span><em>V</em><sub>1</sub></span> and the known final volume will be denoted <span><em>V</em><sub>2</sub></span>.</p>
+<p>You are given the value <span><em>V</em><sub>2</sub></span> and a list of keystrokes in the order in which Georg made them. For each key, you are given the type of the key (<tt>+</tt> or <tt>-</tt>) and the number of seconds from the beginning of the experiment to the  moment when the key was pressed. The task is to find the largest possible <strong>integer</strong> value  of <span><em>T</em></span> which is consistent with the outcome of the experiment.</p>
+<p><a id="Input_specification" name="Input_specification"></a></p>
+<h2><strong><span>Input specification</span></strong></h2>
+<p>The first line of the input contains three space-separated integers <span><em>N</em></span>, <span><em>V</em><sub><em>m</em><em>a</em><em>x</em></sub></span> and  <span><em>V</em><sub>2</sub></span> (<img src="http://riesky.sk/ceoi2010/i/9dfc98e9c17641e243ca89cbb7f7b08d.png" alt="0 \leq V_2 \leq V_{max}" />).  Each of the next <span><em>N</em></span> lines contains a  description  of one key in the sequence: a character <tt>+</tt> or <tt>-</tt>, a space and an integer <span><em>C</em><sub><em>i</em></sub></span> (<img src="http://riesky.sk/ceoi2010/i/0cb5360b038d69988d8b20776effac34.png" alt="0 \leq C_i \leq 2\cdot 10^9" />),  the number of seconds from the beginning of the experiment. You may  assume that the keypresses are in sorted order and that all times are distinct (i.e., <span><em>C</em><sub><em>i</em></sub> &lt; <em>C</em><sub><em>i</em> + 1</sub></span> for all <img src="http://riesky.sk/ceoi2010/i/0910613ed692e7c6c72eeb1cb3d1b3ef.png" alt="1 \leq i &lt; N" />).</p>
+<p><a id="Constraints" name="Constraints"></a></p>
+<h2><strong><span>Constraints</span></strong></h2>
+<p>You may assume that <img src="http://riesky.sk/ceoi2010/i/5e48b0d6ec8aae89db3308bafa7bdab7.png" alt="2 \leq N \leq 100\,000" /> and <img src="http://riesky.sk/ceoi2010/i/7730774264b7c3dce768c6c8b0e41ed4.png" alt="2 \leq V_{max} \leq 5\,000" />.</p>
+<p>In test cases worth 40 points <img src="http://riesky.sk/ceoi2010/i/8f2b8e70de458be7932b372589b316ea.png" alt="N \leq  4\,000" />.</p>
+<p>In test cases worth 70 points <img src="http://riesky.sk/ceoi2010/i/05a2e7d73dd5b8adda051ef187736b71.png" alt="N \cdot  V_{max} \leq 400\,000" />.</p>
+<p><a id="Output_specification" name="Output_specification"></a></p>
+<h2><strong><span>Output specification</span></strong></h2>
+<p>If <span><em>T</em></span> can be arbitrarily large,  output a single line containing the word "<tt>infinity</tt>" (quotes for clarity).</p>
+<p>Otherwise, output a single line containing two integers <span><em>T</em></span> and <span><em>V</em><sub>1</sub></span> separated by a single space.</p>
+<p>The values must be such that carrying out the experiment with  locking time <span><em>T</em></span> starting at volume   <span><em>V</em><sub>1</sub></span> gives the final volume  <span><em>V</em><sub>2</sub></span>. If there are multiple possible answers, output the one with the largest <span><em>T</em></span>; if there are still multiple possible answers, output the one with the largest <span><em>V</em><sub>1</sub></span>.</p>
+<p>(Note that at least one solution always exists: for <span><em>T</em> = 0</span> none of the keys performs its  action, so it suffices to take <span><em>V</em><sub>1</sub> = <em>V</em><sub>2</sub></span>.)</p>
+<p><a id="Examples" name="Examples"></a></p>
+<h2><strong><span>Examples</span></strong></h2>
+<p><strong><strong>input:</strong></strong></p>
+<pre>6 4 3<br />- 0<br />+ 8<br />+ 9<br />+ 13<br />- 19<br />- 24<br /></pre>
+<p><strong><strong>output:</strong></strong></p>
+<pre>5 4<br /></pre>
+<p><em>For <span><em>T</em> = 5</span> the keys perform the  following actions: unlock, unlock, <tt>+</tt>, <tt>+</tt>, unlock, <tt>-</tt>.</em></p>
+<p><em>For any <img src="http://riesky.sk/ceoi2010/i/9cf3e27455d31d7a83ccf61dc4371860.png" alt="V_1\in\{2,3,4\}" /> we would get <span><em>V</em><sub>2</sub> = 3</span>. Note  that the output contains the largest possible <span><em>V</em><sub>1</sub></span>.</em></p>
+<p><em>For <img src="http://riesky.sk/ceoi2010/i/130f856360b9459ce396b9b577717479.png" alt="T\geq 6" /> the last two keystrokes will both be active, hence it will be impossible  to</em> have <span><em>V</em><sub>2</sub> = 3</span>.</p>
+<p><br /> <strong><strong>input:</strong></strong></p>
+<pre>3 10 10<br />+ 1<br />+ 2<br />+ 47<br /></pre>
+<p><strong><strong>output:</strong></strong></p>
+<pre>infinity<br /></pre>
+<p><em>If <span><em>V</em><sub>1</sub> = 10</span> then for  any <span><em>T</em></span> we'll have <span><em>V</em><sub>2</sub> = 10</span>.</em></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/company_1">Phan Công Minh</a></td></tr>
+<tr><td>Date:</td><td>2010-07-17</td></tr>
+<tr><td>Time limit:</td><td>0.105s-0.211s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>CEOI 2010</td></tr>	
+</table>

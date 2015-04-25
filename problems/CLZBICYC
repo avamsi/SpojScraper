@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CLZBICYC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21352. Avantgarde and Bicycle</h1>
+		<h2>Problem code: CLZBICYC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p id="docs-internal-guid-c0a217cb-11cb-ece3-ecea-3fc945ec4b49" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Mr.Avantgarde loves to ride his bicycle and visit all his CSI-DTU friends once in a while. His town is a N&times;N grid. He has to visit M friends marked by the letter 'F' .Empty land is marked with '.' .He is initially located at his house marked by 'S ' and after visiting all of his friends he will return to his home .He is allowed to move horizontally, vertically and diagonally to adjacent squares only. Additionally,each cell in a grid has some altitude and the tiredness associated with the whole trip is equal to the difference between highest altitude and the lowest altitude encountered in the whole trip. But Mr.Avantgarde is very lazy and wants you to calculate the minimum tiredness he can achieve in the whole trip.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">The first line of input contains an integer N (2 &lt;= N &lt;= 50). The following N lines represents the required grid.The character &lsquo;S&rsquo; will appear exactly once, while the character &lsquo;F&rsquo; will appear at least once. The following N lines each contain N positive integers less than 10^6, the altitudes of the fields mentioned in the corresponding above grid.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Print the least possible tiredness that Mr.Avantgarde can achieve.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"> </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: normal; font-style: italic; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Sample Input </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">S..</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">.FF</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">...</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">3 2 4</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">7 4 2</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2 3 1</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; color: #000000; font-weight: normal; font-style: italic; font-variant: normal; vertical-align: baseline; text-decoration: underline; background-color: transparent;">Sample Output </span></p>
+<p><span style="font-size: 15px; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/csi_dtu">CSI</a></td></tr>
+<tr><td>Date:</td><td>2014-10-15</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

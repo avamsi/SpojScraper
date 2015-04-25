@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC10I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7971. The Cyber Traveling Salesman</h1>
+		<h2>Problem code: ACPC10I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In light of the exploding population on earth, a number of cities are being constructed on the moon. We would like you to assist in determining the best road system for these cities. Considering the high cost associated with building roads on the moon, all what is required is for the roads to form a cycle starting from the city that appears first in the input, passing through all other cities exactly once (but in any arbitrary order,) and then ending back to the first. (Yes, this problem is a variation of the traveling-salesman problem.)<br />You are given the cost of building a road between each pair of cities. Roads are one-way, but the cost for building a road from city i to j is the same as the cost of building from city j to i. When roads intersect at a location that is not a city, you must account for the cost of constructing bypassing bridges. Constructing a bypass system costs k &#8727; (k &#8722; 1) &#8727; C/2 where k is the number of roads intersecting at that location, and C is a given constant. Note that the cities are laid out so that no three cities fall on the same straight line.</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case is specified using 2 &#8727; N + 1 lines. The first line specifies two integers: (2 < N < 9) is the number of cities and (0 < C &#8804; 1, 000, 000) is the coefficient used in determining the cost of building bridges. Following the first line, the Cartesian coordinates of the cities are specified in order. Each city is specified on a separate line made of two integers: xi and yi where (&#8722;1, 000 &#8804; xi , yi &#8804; 1, 000). No two cities are located at the same (x, y) location.<br />The last N lines of a test case specify an N &#8727; N matrix representing the cost of building a road between any two cities. The matrix is specified using N lines, each with N integers in a row-major format. The j th value on the ith row, denoted as cij is the cost of building a road from city-i to city-j where (0 < cij &#8804; 10<sup>6</sup> ) and (cij = cji ) and (cii = 0).<br />The last case is followed by a line having two zeros.</p>
+<h3>Output</h3>
+<p>For each test case, print the following line:<br />k. M<br />Where k is the test case number (starting at one,) and M is minimum cost needed to build the road system.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 1<br />1 2<br />0 1<br />2 1<br />1 0<br />0 1 8 3<br />1 0 3 9<br />8 3 0 2<br />3 9 2 0<br />4 100<br />1 2<br />0 1<br />2 1<br />1 0<br />0 1 8 3<br />1 0 3 9<br />8 3 0 2<br />3 9 2 0<br />0 0<br /><br /><strong>Output:</strong><br />1. 10<br />2. 20<br /></pre>
+<p style="text-align: center;"><img title="a" src="../../../content/omar_azazy:ACPC10I" alt="a" width="535" height="243" /></p>
+<p style="text-align: center;"></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/omar_azazy">Omar ElAzazy</a></td></tr>
+<tr><td>Date:</td><td>2010-11-30</td></tr>
+<tr><td>Time limit:</td><td>0.400s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACPC 2010</td></tr>	
+</table>

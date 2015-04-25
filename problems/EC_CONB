@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EC_CONB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16420. Even Numbers</h1>
+		<h2>Problem code: EC_CONB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Marina is a college girl who likes to play with all kinds of numbers. One day she was very bored and decided to play around with even numbers.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">She notes N numbers on the board(odd and even numbers) and then, she modifies only even numbers (for some reason she likes the odd numbers) and inverts its binary representation and replaces each even number. But soon she gets bored and ask &nbsp;you help in order to automate the conversion process.</div>
+<p>Marina is a college girl who likes to play with all kinds of numbers. One day she was very bored and decided to play around with even numbers.</p>
+<p>She writes N numbers on the board (odd and even numbers) and then, she modifies only even numbers (for some reason she likes the odd numbers) and inverts its binary representation (from the left to the right ) and replaces each even number. But soon she gets bored and ask &nbsp;you help in order to automate the conversion process.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>In the first line contains the value of N. This integer is followed by N lines, every one with a positive integer a<sub>i </sub>(1 &lt;= a<sub>i </sub>&lt;= 10^7)</p>
+<h3>Output</h3>
+<p>The output will contain N lines, the numbers that are on the blackboard after the conversion process</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+10
+8
+3
+5
+2
+
+<strong>Output:</strong>
+5
+1
+3
+5
+1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eddycael">Eddy Cael</a></td></tr>
+<tr><td>Date:</td><td>2013-10-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>2000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PYTH 2.7 RUBY </td></tr>
+	
+</table>

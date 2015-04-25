@@ -1,0 +1,106 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EARTHQK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3641. Earthquakes</h1>
+		<h2>Problem code: EARTHQK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/EARTHQK/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/EARTHQK/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>
+In 3010, a group of people from the Earth has moved to live in the planet Alpha. Because the climatic condition of the planet is very severe, only a certain part of land can be cultivated.
+</p>
+<p> 
+Suppose that the surface of the planet is a plane, and the cultivable land has the shape of a non self-cutting polygon which has N vertices with coordinates (X1, Y1), (X2, Y2), ..., (Xn , Yn), listed in a traversal order around the polygon. On the cultivable land, the group of people from Earth lives in a research station at position (Xp, Yp).
+</p>
+<img src='http://vn.spoj.pl/SPOJVN/content/EARTHQK.gif' />
+<p>
+On the planet Alpha, earthquakes often occur. Each time an earthquake occurs, a crack is created that people can not move through. This crack can go through the cultivable land and divide the cultivable land into separated parts. Luckily, the crack never crosses the research station. The example in the figure above shows two cracks divide the cultivable land into three separated parts, and the area of cultivable land that the group of people living in the research station can reach after two earthquakes is 22.
+</p>
+<p>
+Let's assume that there are M earthquakes occurred, which are numbered from 1 to M. Each earthquake generated a crack that is described by a line passing through two points (Xj1, Yj1) and (Xj2, Yj2) (j=1..M).
+</p>
+<p> 
+Your task is to write a program to calculate the area of cultivable land that the group of people living in the research station in position (Xp, Yp) can reach after M earthquakes.
+</p>
+<h3>Input</h3>
+<p>
+The input file consists of several data sets. The first line of the input file contains the number of data sets which is a positive integer and is not bigger than 20. The following lines describe the data sets.
+</p>
+<p>
+For each data test, the first line contains the integer N (3 &#8804;  N &#8804;  1000). The ith line of the following N lines contains two integers Xi and Yi (-10000 &#8804; Xi,Yi &#8804; 10000) separated by space, denoting the coordinates of ith vertex of the polygon, representing the cultivable land. The next line contains two integers (Xp,Yp) (-10000 &#8804; Xp,Yp &#8804; 10000) separated by space, denoting the coordinates of the research station. The next line contains the integer M (1 &#8804; M &#8804; 1000). The jth line of the following M lines contains four integers Xj1, Yj1, Xj2, and Yj2 separated by space, describing the line representing the crack created by the jth earthquake.
+</p>
+<h3>Output</h3>
+<p>
+For each data test, write in one line an integer indicating the integer part of (s * 100) where s is the area of reachable cultivable land after M earthquakes.
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Sample Input</b>
+2
+3
+0 0
+2 0
+0 2
+0 0
+1
+1 1 1 0
+6
+1 1
+9 1
+9 5
+5 5
+5 8
+1 8
+5 3
+2
+1 1 5 8
+7 1 7 2	
+
+<b>Sample Output</b>
+150
+2200
+</pre>
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2009-01-04</td></tr>
+<tr><td>Time limit:</td><td>0.059s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ADA ASM BASH C C# C++ 4.9 C99 strict D FORT JAR JAVA NEM NICE PAS fpc PAS gpc PERL PYTH 2.7 ST </td></tr>
+<tr><td>Resource:</td><td>ACM Regional, Ho Chi Minh City 2008</td></tr>	
+</table>

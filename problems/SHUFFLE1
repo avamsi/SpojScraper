@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SHUFFLE1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7337. Shuffling</h1>
+		<h2>Problem code: SHUFFLE1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A casino owns an expensive card shuffling machine which may shuffle up to 520 cards at a<br />time (there are 52 cards in each deck). For convenience, we will simply label the cards 1, 2,<br />3, ..., N where N is the total number of cards, and copies of the same card (e.g. Ace of<br />Spades) from different decks are considered different. Unfortunately, the card shuffling<br />machine is defective, and it always shuffles the cards the same way. The company that<br />produces these machines is out of business because of the economic downturn. There is no<br />one who can fix the machine, and a new machine is too expensive.</p>
+<p><br />Being a brilliant employee of the casino, you realized that all is not lost. You can shuffle the<br />cards differently simply by using the machine zero or more times. For example, suppose<br />that the machine shuffles the cards 1, 2, 3, 4 into the order 2, 3, 4, 1. If you put the cards into<br />the machine, take the shuffled cards out and insert them into the machine again (without<br />changing the order), you will get the order 3, 4, 1, 2. That way, it is possible to shuffle the<br />cards in many different ways even though it may take longer. But this is not a significant<br />issue since decks do not have to be reshuffled often, and used decks can be shuffled while<br />other decks are being used to avoid any waiting time.</p>
+<p><br />Unfortunately, not all shufflings can be produced in this way in general, and you wish to<br />know if this procedure "stack the decks" in a favorable way for the casino or the player. As<br />a first step, you wish to know which shufflings are possible to produce, and how many times<br />you need to use the machine on the deck in order to produce the shuffling.</p>
+<h3>Input</h3>
+<p>The input for each case consists of three lines. The first line consists of a single integer N<br />indicating the number of cards to shuffle. The number of cards is a positive integer up to<br />520. The second line consists of the integers 1, 2, ..., N listed in some order and separated by<br />a space. The list gives the order of the shuffling performed by the machine when the input<br />cards are ordered 1, 2, ..., N. The third line is in the same format as the second line, and<br />gives the shuffling we wish to obtain. The end of input is indicated by a line in which N = 0.</p>
+<h3>Output</h3>
+<p>For each case, print the smallest number of times (zero or more) you need to pass the deck<br />through the machine to produce the desired shuffling. If it is not possible, print -1. The<br />output for each case should be in a single line. You may assume that the answer will always<br />fit in a 32-bit signed integer.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />2 3 4 1<br />3 4 1 2<br />4<br />2 3 4 1<br />1 3 2 4<br />10<br />2 1 3 5 6 7 8 9 10 4<br />1 2 3 9 10 4 5 6 7 8<br />0<br /><strong>Output:</strong>
+2<br />-1<br />12</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-09-19</td></tr>
+<tr><td>Time limit:</td><td>0.913s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Rocky Mountain Regionals 2009/10</td></tr>	
+</table>

@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9518. The Time of Day</h1>
+		<h2>Problem code: LCM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are no days and nights on byte island, so the residents here can hardly determine the length of a single day. Fortunately, they have invented a clock with several pointers. They have <b>N</b> pointers which can move round the clock. Every pointer ticks per second, and the <i>i</i>-th pointer move to the start position after <i>i</i> times of ticks. The wise of the byte island decide to define a day as the time interval between the start time and the first time when all the pointers moves to the position exactly the same as the start time.
+The wise of the island decide to choose some of the <b>N</b> pointers to make the length of the day are greater than or equal to a given seconds <b>M</b>. They want to know how many different ways to make it possible.
+
+<h3>Input</h3>
+
+<p>There are a lot of test cases, the number of test cases are in the first line of input.
+<p>For each test cases, there are only one line contains two integers <b>N</b> and <b>M</b>, indicating the number of pointers and the lower bound for seconds of a day. (1 <= <b>N</b> <= 40, 1 <= <b>M</b> <= 2<sup>63</sup>-1)
+
+<h3>Output</h3>
+
+<p>For each test case, output a single integer denoting the number of ways.</p>
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+3
+5 5
+10 1
+10 128
+
+<b>Output:</b>
+Case #1: 22
+Case #2: 1023
+Case #3: 586
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2011-09-08</td></tr>
+<tr><td>Time limit:</td><td>0.129s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM/ICPC Regionals, Shanghai 2011 Preliminary, by g201513</td></tr>	
+</table>

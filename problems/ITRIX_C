@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ITRIX_C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8666. Maximum - Profit -- Version II</h1>
+		<h2>Problem code: ITRIX_C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Everyone enjoyed <a href="http://www.codechef.com/BYTCDE11">BYTCDE11</a>. So the &ldquo;Maximum Profit &rdquo;problem is &ldquo;</p>
+<p><em>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</em><em>Chakra is a young and dynamic entrepreneur, who is developing rapidly as a successful hotelier. He owns the Quickbyte chain of restaurants, 'M' of which are fully functional now. He divides each day into 'M' &nbsp;time slots. For each time slot 'j', in every restaurant 'i', there are Aij waiters and Bij customers. Being a quality conscious person, he wants each waiter to handle atmost one customer in a given time slot. Since he is really busy, in a day each restaurant is open only during one of the time slots. Since the hunger and demand for food varies during the day, the price which the&nbsp; customer is willing to pay varies, and is given by Cij for a restaurant 'i' during a time slot 'j'.Given the values of Aij, Bij and Cij, find the maximum profit which Chakra can make in a day . </em>&ldquo;..</p>
+<p>Let&rsquo;s add a constraint&nbsp; &ldquo;<strong>Only one restaurant &nbsp;can be opened in a time slot</strong> &nbsp;&rdquo;.Also the number of restaurants and number of time slots will be equal (&lsquo;<strong>M</strong>&rsquo;).</p>
+<p>&nbsp;</p>
+<p><strong>Input Format:</strong></p>
+<p>The first line of input contains an integer 't', denoting the number of test cases.</p>
+<p>For each testcase, the first line contains an integer 'M'.</p>
+<p>Each of the next 'M' lines contains 'M&rsquo; integers. The jth integer on the ith line denotes the value of Aij.</p>
+<p>Each of the next 'M' lines contains 'M' integers. The jth integer on the ith line denotes the value of Bij</p>
+<p>Each of the next 'M' lines contains 'M' integers. The jth integer on the ith line denotes the value of Cij</p>
+<p><strong>Output Format:</strong></p>
+<p>For each test case output one value, denoting the maximum profit which Chakra can make in a day.</p>
+<p><strong>Example</strong></p>
+<p><strong>Input:</strong></p>
+<p>2</p>
+<p>2</p>
+<p>1 2</p>
+<p>3 2</p>
+<p>3 2</p>
+<p>1 2</p>
+<p>4 5</p>
+<p>3 1</p>
+<p>3</p>
+<p>1 1 1</p>
+<p>1 1 1</p>
+<p>1 1 1</p>
+<p>1 1 1</p>
+<p>1 1 1</p>
+<p>1 1 1</p>
+<p>1000 33 10</p>
+<p>75 1000 1000</p>
+<p>100 50 39</p>
+<p><strong>Output:</strong></p>
+<p>13</p>
+<p>2050</p>
+<p><strong>Constraints:</strong></p>
+<p>t &lt;= 50</p>
+<p>1 &lt;= M&lt;= 15</p>
+<p>1 &lt;= Aij, Bij &lt;= 5000</p>
+<p>0 &lt;= Cij &lt;= 10^9</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegradhakrish">Radhakrishnan Venkataramani</a></td></tr>
+<tr><td>Date:</td><td>2011-03-27</td></tr>
+<tr><td>Time limit:</td><td>0.220s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ITRIX 2011 </td></tr>	
+</table>

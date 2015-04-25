@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LOSTCT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1456. The Secret of a Lost City</h1>
+		<h2>Problem code: LOSTCT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/LOSTCT/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/LOSTCT/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>The famous archaeologist Blue Mary has found a site of a   lost city. She found 12 huge steles in the center of the city -   called Ice-Peak City by her, on which there were many designs.   Blue Mary named these designs Ice-Peak Articles(IPA for   short). Unfortunately, she can't find Ice-Peak city any more   after she returns to her lab.</p>
+<p>The only thing Blue Mary knows about Ice-Peak city is   pictures of the designs on the steles. With her intelligence she   soon comes up with the syntax of IPA. Its BNF form is   below.</p>
+<pre>&lt;IPA&gt;        ::=&lt;sentence&gt;{&lt;sentence&gt;}
+&lt;sentence&gt;   ::=&lt;noun phrase&gt;{&lt;verb phrase&gt;&lt;noun phrase&gt;}[&lt;verb phrase&gt;]
+&lt;noun phrase&gt;::=&lt;noun&gt;|[&lt;adverb&gt;]&lt;noun phrase&gt;
+&lt;verb phrase&gt;::=&lt;verb&gt;|[&lt;adverb&gt;]&lt;verb phrase&gt;
+&lt;words&gt;      ::=&lt;verb&gt;|&lt;noun&gt;|&lt;adverb&gt;
+</pre>
+<p>Where</p>
+<p>nouns, verbs and adverbs are given by a dictionary which   we will discuss later.</p>
+<p>| denotes or.</p>
+<p>Things in [] will appear zero or one time.</p>
+<p>Things in {} will appear zero or more times.</p>
+<p>Blue Mary has compiled a dictionary of words in IPA.   Since characters appeared in IPA only contain 26 different   forms, we will use small latin letters 'a' to 'z' to represent.</p>
+<p>There are no seperators between words or sentences, so   Blue Mary asks you to write a program which will split a   correct IPA into minimum number of sentences, and split these   sentences into minimum number of words.</p>
+<h3>Input</h3>
+<p>The first line contains the number of words in the   dictionary, no more than 1000.</p>
+<p>Next lines contain the words in the form "X.Y", one per   line, where X is one of the characters 'n', 'v', 'a', denoting that   the corresponding word is noun, verb or adverb, and  Y is a   string of lowercase latin letters, whose length will be no nore   than 20.</p>
+<p>The next line contains a correct IPA (contains only   lowercase latin letters), ends with a dot(.). The length of the   IPA will be no more than 5KB.</p>
+<h3>Output</h3>
+<p>The first line contains the minimum number of sentences in   IPA. The second line contains the minimum number of words   in IPA, when given IPA is split into minimum number of   sentences.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+11
+n.table
+n.baleine
+a.silly
+n.snoopy
+n.sillysnoopy
+v.is
+v.isnot
+n.kick
+v.kick
+a.big
+v.cry
+sillysnoopyisnotbigtablebaleinekicksnoopysillycry.
+
+<strong>Output:</strong>
+2
+9
+</pre>
+<p><strong>Time limit has been changed to 1 second in total for all tests.</strong>  </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2000, Day 1; translated by Blue Mary and Ngo Minh Duc</td></tr>	
+</table>

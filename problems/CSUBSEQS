@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CSUBSEQS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2816. Common Subsequences</h1>
+		<h2>Problem code: CSUBSEQS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given four strings, each consisting of at most 50 lower case letters ('a'-'z'). Count the number of non-empty common subsequences of them (the number of distinct non-empty strings which are subsequences of all four strings). Note that a subsequence does not have to be contiguous.</p>
+
+<h3>Input</h3>
+<p>Four lines: each line consists of a single string.</p>
+
+<h3>Output</h3>
+<p>An integer representing the answer.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+aabb
+abab
+baba
+acba
+
+<b>Output:</b>
+4
+</pre>
+
+<p>The four sequences are "a", "b", "aa", and "ab".</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2008-06-22</td></tr>
+<tr><td>Time limit:</td><td>0.522s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>co-author: <a href="/users/neal_wu/">Neal Wu</a></td></tr>	
+</table>

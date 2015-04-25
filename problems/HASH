@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HASH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3578. Hashing</h1>
+		<h2>Problem code: HASH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider the hash function h(y) = a*y + b (mod m) which maps each
+integer to some integer between 0 and m-1.  You are given
+x,n,c,d and are curious how many of the hash values
+h(x),h(x+1),...,h(x+n) land in the interval [c,d].
+
+<h3>Input</h3>
+<p>The first line contains a positive integer t, the number of test
+cases (1 &#8804; t &#8804; 10^5).  t lines then follow, where the ith
+line gives the values a,b,x,n,c,d,m,
+space-separated, for the ith test case.  All given values are
+non-negative.  Also,
+1 &#8804; m &#8804; 10<sup>15</sup>, c &#8804; d < m, a,b < m, x+n &#8804;
+10<sup>15</sup>, and a*(x+n) + b &#8804; 10<sup>15</sup>.
+
+<h3>Output</h3>
+<p>For each test case in order output the number of i, 0 &#8804; i &#8804; n,
+such that c &#8804; a*(x+i) + b (mod m) &#8804; d in that test case,
+followed by a newline.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+2 3 1 3 0 1 7
+1 0 0 8 0 8 9
+
+<b>Output:</b>
+1
+9
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-12-22</td></tr>
+<tr><td>Time limit:</td><td>3.609s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/acmicpc/www/2008/indiv/index.html">MIT Individual Contest 2008</a></td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/devendrag"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/POWPOW" target="_blank">11848. Power with Combinatorics</a></td><td><a href="http://www.spoj.com/problems/POWPOW"target="_blank">POWPOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POWPOW2" target="_blank">11851. Power with Combinatorics(HARD)</a></td><td><a href="http://www.spoj.com/problems/POWPOW2"target="_blank">POWPOW2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIFERACE" target="_blank">14181. LIFE IS A RACE</a></td><td><a href="http://www.spoj.com/problems/LIFERACE"target="_blank">LIFERACE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMSUM" target="_blank">15766. Enjoy Sum with Operations</a></td><td><a href="http://www.spoj.com/problems/SUMSUM"target="_blank">SUMSUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADDGP" target="_blank">15769. Enjoy Adding GP to Series</a></td><td><a href="http://www.spoj.com/problems/ADDGP"target="_blank">ADDGP</a><br>
+</td></tr>

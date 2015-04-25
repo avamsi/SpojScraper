@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ROBOTGRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9652. Robots on a grid</h1>
+		<h2>Problem code: ROBOTGRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You have recently made a grid traversing robot that can<br /> nd its way from the top left corner of a grid to the<br />bottom right corner. However, you had forgotten all your<br />AI programming skills, so you only programmed your robot<br />to go rightwards and downwards (that's after all where the<br />goal is). You have placed your robot on a grid with some<br />obstacles, and you sit and observe. However, after a while<br />you get tired of observing it getting stuck, and ask yourself<br />\How many paths are there from the start position to the<br />goal position?", and \If there are none, could the robot have<br />made it to the goal if it could walk upwards and leftwards?"<br />So you decide to write a program that, given a grid of<br />size n x n with some obstacles marked on it where the robot<br />cannot walk, counts the dierent ways the robot could go<br />from the top left corner s to the bottom right t, and if none,<br />tests if it were possible if it could walk up and left as well.<br />However, your program does not handle very large numbers, so the answer should be<br />given modulo 2^31 - 1.</p>
+<h3>Input</h3>
+<p>On the rst line is one integer, 1 &lt; n &lt;= 1000. Then follows n lines, each with n characters,<br />where each character is one of '.' and '#', where '.' is to be interpreted as a walkable<br />tile and '#' as a non-walkable tile. There will never be a wall at s, and there will never<br />be a wall at t.</p>
+<h3>Output</h3>
+<p>Output one line with the number of dierent paths starting in s and ending in t (modulo<br />2^31 - 1) or THE GAME IS A LIE if you cannot go from s to t going only rightwards and<br />downwards but you can if you are allowed to go left and up as well, or INCONCEIVABLE if<br />there simply is no path from s to t.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />.....<br />#..#.<br />#..#.<br />...#.<br />.....
+
+<strong>Output:</strong>
+6
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-10-05</td></tr>
+<tr><td>Time limit:</td><td>0.126s-0.632s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Nordic programming contest</td></tr>	
+</table>

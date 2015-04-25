@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACEFRND"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9788. Friends of Friends</h1>
+		<h2>Problem code: FACEFRND</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bob uses a social networking site almost all the time. He was wondering what are Friends of Friends in that social networking site? If &ldquo;X&rdquo; is his friend, and &ldquo;Y&rdquo; is X&rsquo;s friend but &ldquo;Y&rdquo; is not his friend, then &ldquo;Y&rdquo; is called his friend of friend. You have to find how many friends of friends Bob has. (Each user in that social networking site has a unique 4-digit ID number)</p>
+<h3>Input</h3>
+<p>First line contains a integer &ldquo;N&rdquo; (1&lt;=N&lt;=100) the number of friends in Bob's Profile. Then follow N lines.</p>
+<p>First Integer in each line is the ID number of Bob's friend, then an integer &ldquo;M&rdquo; (1&lt;=M&lt;=100) is the number of people in his friend list. Then follow M integers in that line, denoting the ID number of friends in his friend list (excluding Bob).&nbsp;</p>
+<h3>Output</h3>
+<p>Output a single integer denoting Bob's number of friends of friends.</p>
+<p><strong>Example</strong></p>
+<pre><strong>Input:</strong>
+<p>3</p><p>2334 5 1256 4323 7687 3244 5678</p><p>1256 2 2334 7687</p>4323 5 2334 5678 6547 9766 9543
+
+<strong><br /></strong></pre>
+<pre><strong>Output:</strong>
+</pre>
+<pre>6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ankitism">Ankit Kumar Vats </a></td></tr>
+<tr><td>Date:</td><td>2011-10-20</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

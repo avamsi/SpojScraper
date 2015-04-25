@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/anhdq"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TWINSNOW" target="_blank">4354. Snowflakes</a></td><td><a href="http://www.spoj.com/problems/TWINSNOW"target="_blank">TWINSNOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TABLE5X5" target="_blank">4378. Twofive</a></td><td><a href="http://www.spoj.com/problems/TABLE5X5"target="_blank">TABLE5X5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CARDSHUF" target="_blank">4390. Cards shuffing</a></td><td><a href="http://www.spoj.com/problems/CARDSHUF"target="_blank">CARDSHUF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FLOWGROW" target="_blank">4477. Flower growing</a></td><td><a href="http://www.spoj.com/problems/FLOWGROW"target="_blank">FLOWGROW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOBIVINA" target="_blank">4485. MobiZone vs VinaGone</a></td><td><a href="http://www.spoj.com/problems/MOBIVINA"target="_blank">MOBIVINA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STREDUCE" target="_blank">4532. String reduction</a></td><td><a href="http://www.spoj.com/problems/STREDUCE"target="_blank">STREDUCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARITHSEQ" target="_blank">4593. Arithmetic sequence</a></td><td><a href="http://www.spoj.com/problems/ARITHSEQ"target="_blank">ARITHSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PA06ANT" target="_blank">4839. Ant</a></td><td><a href="http://www.spoj.com/problems/PA06ANT"target="_blank">PA06ANT</a><br>
+</td></tr>

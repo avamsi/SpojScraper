@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOBIVINA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4485. MobiZone vs VinaGone</h1>
+		<h2>Problem code: MOBIVINA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MOBIVINA/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MOBIVINA/vn/">Ti&#7871;ng Vi&#7879;t</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>KTuan and AnhDQ, CEOs of two telecommunication corporations MobiZone and VinaGone have signed a contract to use their network in common. N people have accepted to try this new service. The i<sup>th</sup> people accepts to pay M<sub>i</sub> to use MobiZone's service or V<sub>i</sub> to use VinaGone's one; and any two people i<sup>th</sup> and j<sup>th</sup> accept to pay C<sub>ij</sub> in common whether they use different services (the network cost).</p>
+<h3>Request</h3>
+<p>Find a way of choosing networks for N people satisfying the sum of total cost is minimum.</p>
+<h3>Input</h3>
+<p>- The first line contains number N. <br />- The second line contains N number(s) M<sub>i</sub>. <br />- The third line contains N number(s) V<sub>i</sub>. <br />- The last N line(s), each of them contains N number(s) C<sub>ij</sub> (C<sub>ij</sub> = C<sub>ji</sub>).</p>
+<h3>Output</h3>
+<p>- Contains the minimum total cost.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />1 1 10<br />10 10 1<br />0 0 1<br />0 0 1<br />1 1 0<br /><br /><strong>Output:</strong><br />5<br /></pre>
+<h3>Limitations</h3>
+<p>- N &le; 250. <br />- The remaining numbers of Input do not exceed 1000.</p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-06-08</td></tr>
+<tr><td>Time limit:</td><td>0.000s-0.25s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mr Tuan Khuc Anh - NTU (Singapore)</td></tr>	
+</table>

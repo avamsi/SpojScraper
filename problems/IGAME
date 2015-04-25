@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20848. Interesting Game</h1>
+		<h2>Problem code: IGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">Alice and Bob play an interesting game and the game is played on a number.</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;">So a player, on his chance, can choose any non zero digit of the number and decrease the digit by any non zero amount such that the resulting digit remains non-negative. The player who gets all the digits of the number 0 wins. Both play optimally and Alice starts first. Now tell how many numbers are there between A and B on which if the game is played Alice wins and also find how many numbers are there where Bob wins. On every number between A and B, Alice plays first on that number .</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Input Format</strong><br />The Input line consists of T test cases. On each line there are two numbers A and B.</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Output Format</strong><br />The Output line consists of T lines each having two numbers.</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Constraints:</strong><br />1 &le; T &le; 10000<br />1 &le; A &le; B &le; 10<span style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 0; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative; top: -0.5em;">18</span></span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Sample Input</strong><br />2<br />1 10<br />101 110</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Sample Output</strong><br />10 0<br />8 2</span></p>
+<p style="border: 0px; line-height: 1.5em; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-size: small;"><strong>Explanation</strong><br />In the first case the first player Alice will always win because she can reduce any digit to 0.<br />In the second case the second player Bob will win on 2 numbers 101 and 110. Rest Alice will win.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aayushagarwal">Aayush Agarwal</a></td></tr>
+<tr><td>Date:</td><td>2014-08-30</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for codecracker</td></tr>	
+</table>

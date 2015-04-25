@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KUTH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5531. Kutevi Hard</h1>
+		<h2>Problem code: KUTH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>One day Mirko was cleaning up his room and found a straightedge and a compass. He went to the school the next day and challenged his friend Slavko to a geometric construction battle. Mirko knows how to construct some angles using the straightedge and compass and knows how to subtract and add any two angels he constructs. Slavko now shouts random angles and Mirko must draw them as fast as possible. You are observing this battle and would like to know if Mirko can construct the angles Slavko shouts at all.</p>
+<h3>Input</h3>
+<p>The first line of input contains two integers, N (1 &le; N &le; 100000), number of angles Mirko knows how to construct initially and K (1 &le; K &le; 100000), number of angles Slavko selected. The second line of input contains N positive real numbers with exactly 6 decimal digits, all smaller than 360, the angles Mirko knows how to construct initially. The third line contains K positive real numbers with exactly 6 decimal digits, all smaller than 360, the angles Slavko selected.</p>
+<h3>Output</h3>
+<p>Output consist of K lines, one for each angle Slavko selected. The i-th line should contain "YES" if Mirko can construct the i-th angle, and "NO" otherwise.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2 1
+30.000000 70.000000
+40.000000
+
+<strong>Output:</strong>
+YES
+
+<strong>Input:</strong>
+1 1
+100.000000
+60.000000
+
+<strong>Output:</strong>
+YES
+
+<strong>Input:</strong>
+3 2
+10.000000 20.000000 30.000000
+5.000000 70.000000
+
+<strong>Output:</strong>
+NO
+YES
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/stjepang">stjepan</a></td></tr>
+<tr><td>Date:</td><td>2009-12-04</td></tr>
+<tr><td>Time limit:</td><td>0.117s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>based on problem "Kutevi" (COCI 09/10, #2) authored by <a href="https://www.spoj.pl/users/brahle/">Bruno Rahle</a></td></tr>	
+</table>

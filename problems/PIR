@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PIR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23. Pyramids</h1>
+		<h2>Problem code: PIR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Recently in Farland, a country in Asia, the famous scientist Mr. Log Archeo discovered ancient pyramids. But unlike those in Egypt and Central America, they have a triangular (not rectangular) foundation. That is, they are tetrahedrons in the mathematical sense. In order to find out some important facts about the early society of the country (it is widely believed that the pyramid sizes are closely connected with Farland's ancient calendar), Mr. Archeo needs to know the volume of the pyramids. Unluckily, he has reliable data about their edge lengths only. Please, help him!
+</p>
+<H3>Input</h3>
+<P>
+t [number of tests to follow]
+In each of the next t lines six positive integer numbers not exceeding 1000 separated by spaces (each number is one of the edge lengths of the pyramid ABCD). The order of the edges is the following: AB, AC, AD, BC, BD, CD.
+</p>
+<H3>Output</h3>
+<P>
+For each test output a real number - the volume, printed accurate to four digits after decimal point.
+</p>
+<H3>Example</h3>
+<P>
+<pre>
+<p>Input:</p>
+<tt>2
+1 1 1 1 1 1
+1000 1000 1000 3 4 5
+</tt>
+<p>Output:</p>
+0.1179
+1999.9937
+</pre>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-05-14</td></tr>
+<tr><td>Time limit:</td><td>0.143s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2002-2003 NEERC, Northern Subregion</td></tr>	
+</table>

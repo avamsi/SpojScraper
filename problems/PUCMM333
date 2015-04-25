@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PUCMM333"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13116. Dividing Xorland</h1>
+		<h2>Problem code: PUCMM333</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;">
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr">&nbsp;</p><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Xorland is a beautiful Kingdom located in the northern part of the Hispaniola Island. You can picture it as a perfect n x n square. Incredibly, n^2 people live there, each in a perfect 1x1 square. They all have an integer spirit in the range [1, 10^6]. The King died recently and, as is custom, Xorland must be divided into three parts.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Xorlandic people love to apply the Xor operation on their spirits, so it is normal to expect them to use it also to divide the land. Xorland must be divided by two parallel lines. These parallel lines must also be parallel to one side of the square. Each part will be non-empty. To divide the land, this is what they do:</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(1) Place two parallel lines inside the square.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(2) Construct a non-empty subset of the spirits of the first part and call it </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">A</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(3) Construct a non-empty subset of the spirits of the second part and call it </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">B</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(4) Construct a non-empty subset of the spirits of the third part and call it </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">C</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(4) Apply the Xor operation on A, on B and on C.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(5) Find the value of Xor(A) + Xor(B) + Xor(C) and call it SUM.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">(6) Eat and Drink joyfully for SUM days straight.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Between us, Xorlandic people LOVE eating and drinking! That is why they want to find the partition that yields the greatest sum. Help them! Write a program that finds this number.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The first line of input contains N (3 &lt;= N &lt;= 5), the length of the sides of the squared area. Then follow N lines, each bearing a spirit. Each spirit will be a positive integer in the range [1, 10^6]. </span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output the greatest sum possible.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Sample Cases</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1 1 1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">2 2 2</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3 3 3</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">9</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">In this case, the optimal choice is to divide vertically. Column 1 is {1, 2, 3}; Column 2 is {1, 2, 3} and Column 3 is {1, 2, 3}. Taking A = {3}, B = {3} and C{3} we get 3 * Xor{3} = 9, the optimal answer. Note that other subsets may yield 9 as well. </span></p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/poncholo">Olson Ortiz</a></td></tr>
+<tr><td>Date:</td><td>2013-01-01</td></tr>
+<tr><td>Time limit:</td><td>0.411s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Olimpiada de Programación PUCMM ACM-ISC 2013</td></tr>	
+</table>

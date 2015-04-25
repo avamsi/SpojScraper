@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PARSUMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10111. Nonnegative Partial Sums</h1>
+		<h2>Problem code: PARSUMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a sequence of <em>n</em> numbers <em>a</em><sub>0</sub>, &hellip;, <em>a</em><sub><em>n</em>&minus;1</sub>. A cyclic shift by <em>k</em> positions (0 &le; <em>k</em> &le; <em>n</em>&minus;1) results in the following sequence: <em>a</em><sub><em>k</em></sub>, <em>a</em><sub><em>k</em>+1</sub>, &hellip;, <em>a</em><sub><em>n</em>&minus;1</sub>, <em>a</em><sub>0</sub>, <em>a</em><sub>1</sub>, &hellip;, <em>a</em><sub><em>k</em>&minus;1</sub>. How many of the <em>n</em> cyclic shifts satisfy the condition that the sum of the first <em>i</em> numbers is greater than or equal to zero for all <em>i</em> with 1 &le; <em>i</em> &le; <em>n</em>?</p>
+<p><br /> <br /> <strong><span style="color: black; "><span style="font-size: medium; ">Input</span></span></strong></p>
+<p>Each test case consists of two lines. The first contains the number <em>n</em> (1 &le; <em>n</em> &le; 10<sup>6</sup>), the number of integers in the sequence. The second contains <em>n</em> integers <em>a</em><sub>0</sub>, &hellip;, <em>a</em><sub><em>n</em>&minus;1</sub> (&minus;1000 &le; <em>a</em><sub><em>i</em></sub> &le; 1000) representing the sequence of numbers. The input will finish with a line containing 0.</p>
+<p><br /> <br /> <strong><span style="color: black; "><span style="font-size: medium; ">Output</span></span></strong></p>
+<p>For each test case, print one line with the number of cyclic shifts of the given sequence which satisfy the condition stated above.</p>
+<p><br /> <br /> <strong><span style="color: black; "><span style="font-size: medium; ">Sample Input</span></span></strong></p>
+<pre class="verbatim">3
+2 2 1
+3
+-1 1 1
+1
+-1
+0
+</pre>
+<p><br /> <br /> <strong><span style="color: black; "><span style="font-size: medium; ">Sample Output</span></span></strong></p>
+<pre class="verbatim">3
+2
+0
+</pre>
+<!--CUT END --> <!--HTMLFOOT--> <!--ENDHTML--> <!--FOOTER--> 
+<hr size="2" />
+<blockquote class="quote"><em>Problemsetter: Adrian Kuegel</em></blockquote>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/elhipercubo">David García Soriano</a></td></tr>
+<tr><td>Date:</td><td>2011-11-26</td></tr>
+<tr><td>Time limit:</td><td>8.989s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Southwestern Europe Regional, SWERC 2011</td></tr>	
+</table>

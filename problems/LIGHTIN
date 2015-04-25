@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LIGHTIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9070. Lightning Conductor</h1>
+		<h2>Problem code: LIGHTIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Progressive climate change has forced the Byteburg authorities to build a huge lightning conductor     that would protect all the buildings within the city.     These buildings form a row along a single street, and are numbered from <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.1.png" alt="" /></span> to <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.2.png" alt="" /></span>.</p>
+<p>The heights of the buildings and the lightning conductor are non-negative integers.     Byteburg's limited funds allow construction of only a single lightning conductor.     Moreover, as you would expect, the higher it will be, the more expensive.</p>
+<p>The lightning conductor of height <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.3.png" alt="" /></span> located on the roof of the building <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.4.png" alt="" /></span> (of height <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.5.png" alt="" /></span>)     protects the building <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.6.png" alt="" /></span> (of height <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.7.png" alt="" /></span>) if the following inequality holds:</p>
+<p align="center"><span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.8.png" alt="" /></span></p>
+<p>where <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.9.png" alt="" /></span> denotes the absolute value of the difference between <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.10.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.11.png" alt="" /></span>.</p>
+<p>Byteasar, the mayor of Byteburg, asks your help.     Write a program that, for every building <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.12.png" alt="" /></span>, determines the minimum height     of a lightning conductor that would protect all the buildings if it were put     on top of the building <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.13.png" alt="" /></span>.</p>
+<h2>Input</h2>
+<p>In the first line of the standard input there is a single integer     <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.14.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.15.png" alt="" /></span>) that denotes the number of buildings in Byteburg.     Each of the following <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.16.png" alt="" /></span> lines holds a single integer <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.17.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.18.png" alt="" /></span>)     that denotes the height of the <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.19.png" alt="" /></span>-th building.</p>
+<h2>Output</h2>
+<p>Your program should print out exactly <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.20.png" alt="" /></span> lines to the standard output.     The <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.21.png" alt="" /></span>-th line should give a non-negative integer <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.22.png" alt="" /></span> denoting the minimum     height of the lightning conductor on the <span><img src="http://main.edu.pl/en/images/OI18/pio-en-tex.23.png" alt="" /></span>-th building.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>6
+5
+3
+2
+4
+2
+4</pre>
+<p>the correct result is:</p>
+<pre>2
+3
+5
+3
+5
+4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-06-25</td></tr>
+<tr><td>Time limit:</td><td>0.066s-0.205s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>XVIII POI</td></tr>	
+</table>

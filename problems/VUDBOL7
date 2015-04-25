@@ -1,0 +1,342 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VUDBOL7"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11460. Planning Poker</h1>
+		<h2>Problem code: VUDBOL7</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+	<form action="/SPOJ/newsubmit/VUDBOL7/" method="post" id="newform">
+<p>Planning Poker, also called Scrum poker, is a consensus-based technique for estimating, mostly used to estimate effort or relative size of user stories in software development.<br/>
+A typical Planning Poker Deck has cards showing the Fibonacci sequence including a zero: 0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. other decks use similar progressions.<br/>
+We have some tasks estimated with other complexities from 1 to 10000000.<br/>
+We need to estimate the complexity of all tasks using the Fibonacci sequence used in Planning Poker. The rule is that the old complexity will change to the valid complexity more close. But if two complexities are in equal distances take the higher.<br/>
+<h3>Input</h3>
+<p>The input consists of multiple test cases.<br/>
+Each test case begins with a line containing an integer &#8220;N&#8221; (1 &lt;= N &lt;= 100000) the number of tasks. In the following line are the complexities of "N" tasks from "0" to "N-1" (1 &lt;= task[i] &lt;= 10000000).<br/>
+The end of input is indicated by a line with one zero. This is not a part of any test cases.<br/>
+<h3>Output</h3>
+<p>For each test case print the list of new complexities sorted in ascending order. Print a space character between two complexities.<br/>
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+5
+1 2 3 4 5
+5
+7 8 9 11 10
+0
+
+<b>Output:</b>
+1 2 3 5 5
+8 8 8 8 13
+
+</pre>
+
+	
+	<div id="global_result">
+	</div>
+	<br/>
+	<table class="problems" width="100%">
+		<tr class="headerrow">
+			<th width="17%" class="">ID</th>
+			<th width="36%">RESULT</th>
+			<th width="16%">TIME</th>
+		</tr>
+		<tr class="kol3">
+			<td class="status_sm"></td>
+			<td manual="0" status="15" id="statusres_8071" class="statusres td5">
+	    	</td>
+	    	<td id="statustime_8071" class="statustext td6">
+	    	</td>
+		</tr>
+	</table>
+	
+	<input type="hidden" name="ajax" value="1"/>
+	<input type="hidden" name="ajax2" value="1"/>
+	<script type="text/javascript" src="/gfx/jquery-ui-1.7.1.custom.min.js"></script>
+	<script type="text/javascript" src="/gfx/jquery.form.js"></script>
+	<input type="hidden" id="debug" value="0"/>
+
+<script language="JavaScript">
+<!--
+		var loader = "<img src='/SPOJ/gfx/loader.gif'/>";
+        var screen_width = 1;
+        var screen_height = 1;
+        var win_width = 1;
+        var win_height = 1;
+        var win_left = 1;
+        var win_top = 1;
+        var tmp = "";
+		function load(){
+                a = new Array();
+                //for(var i = 0; i<9; i++){
+                        //var results = $('.statusres[status='+i+'][manual=0]').each(function(i, el){
+			var results = $('.statusres[final=0]').each(function(i, el){
+				if( $(el).attr('status') != '20'){
+	                                var zz = $(el).attr('id').substring(10);
+        	                        a.push( zz );
+                	                $('#statustime_'+zz).html(loader);
+				}
+                        });
+                //};
+                if( a.length > 0 ){
+                $.ajax({
+                        type: "POST",
+                        url: "/SPOJ/status/ajax=1,ajaxdiff=1",
+                        data: "ids="+a.join(','),
+                        dataType: 'json',
+                        success: function(data){
+                                for(var i = 0; i<data.length; i++){
+                                        $("#statusres_" + data[i].id).attr('status', data[i].status);
+					$("#statusres_" + data[i].id).attr('final', data[i].final);
+                                        $("#statusres_" + data[i].id).html(data[i].status_description);
+                                        $("#statustime_" + data[i].id).html(data[i].time);
+                                        $("#statusch_" + data[i].id).html(data[i].chk_id);
+                                        if( data[i].status >= 9 ){
+                                                $("#statusres_" + data[i].id).parent('tr').attr('class', 'kol');
+                                                $("#statusmem_" + data[i].id).html(data[i].mem);
+						if( data[i].final == '0' && data[i].status < 20){
+							$("#statustime_" + data[i].id).html( loader );
+						}
+                                        }
+                                        if( data[i].status == 15 ){
+                                                $("#statusres_" + data[i].id).parent('tr').attr('class', 'kol3');
+                                        }
+                                        if( data[i].status < 9 ){
+                                                $("#statusres_" + data[i].id).html( $("#statusres_" + data[i].id).html());
+                                                $("#statustime_" + data[i].id).html( loader );
+                                        }
+                                        $("#statusres_" + data[i].id).parent().attr('class', data[i].color);
+                                }
+				setTimeout(load, 5000);
+                        },
+                        error: function(err,a,b){
+							if( $("#debug").attr("value") == 1 ){
+								alert(err);
+								alert(a);
+								alert(b);
+								tmp = err;
+							};
+                        }
+                });
+                }
+        }
+
+$(document).ready(function(){
+        function reload_window_dim(){
+			screen_width = $(window).width() - 10;
+			screen_height = $(window).height() - 10;
+			win_width = screen_width * 4 / 5;
+			win_height = screen_height * 4 / 5;
+			win_left = screen_width / 10;
+			win_top = screen_height / 10;
+		}
+		reload_window_dim();
+
+        load();
+    
+        $.ui.dialog.defaults.bgiframe = true;
+	
+		function source_code_execute(){
+			$("#op_window_sourcecode_link").unbind("click");
+			$("#op_window_sourcecode_link").bind("click", function(){
+				$('#op_window_mjudge').hide();
+				$('#op_window_sourcecode').show();
+				var url = $('#url').attr('value');
+				loadCode(url, "op_window_sourcecode", false);
+				return false;
+			});
+		}
+		function plain_text_execute(){
+			$("#op_window_plaintext_link").unbind("click");
+			$("#op_window_plaintext_link").bind("click", function(){
+				$('#op_window_mjudge').hide();
+				$('#op_window_sourcecode').show();
+				var url = $('#url').attr('value');
+				url = url.replace('src', 'src\/plain');
+				loadCode(url, "op_window_sourcecode", true);
+				return false;
+			});
+		}
+		function copy_to_submit_execute(){
+			$("#op_window_copy_to_submit_link").unbind("click");
+			$("#op_window_copy_to_submit_link").bind("click", function(){
+				var id = $('#solutionid').attr('value');
+				var pcode = $('#pcode').attr('value');
+				window.location.href = "/SPOJ/submit/"+pcode+"/?id="+id;
+			});
+		}
+		function manual_rejudge_execute(){
+			$("#op_window_mjudge_link").unbind("click");
+			$("#op_window_mjudge_link").bind("click", function(){
+				$('#op_window_mjudge').show();
+				$('#op_window_sourcecode').hide();
+				return false;
+			});
+		}
+		
+		function createWindow(){
+			reload_window_dim();
+			$("#op_window").dialog({
+				//bgiframe: true,
+				autoOpen: false,
+				height: win_height,
+				width: win_width,
+				modal: true,
+				buttons: {
+					Close: function() {
+						$(this).dialog('close');
+						//$(this).dialog('destroy');
+					}
+				}
+			});
+			$(".ui-dialog .ui-dialog-titlebar").append("<a class=\"ui-dialog-titlebar-resize ui-corner-all\" href=\"\"><span class=\"ui-icon ui-icon-newwin\" unselectable=\"on\" style=\"-moz-user-select: none;\">resize</span></a>");
+			$(".ui-dialog .ui-dialog-titlebar .ui-icon-newwin").bind("click", function(){
+				reload_window_dim();
+				if( ! $(".ui-dialog").attr("max") ){
+					$('#op_window').parents('.ui-dialog:first').animate({ width: screen_width, height: screen_height, left: 0, top: 0 });
+					$('#op_window').animate({ width: screen_width, height: screen_height-100 });
+					$(".ui-dialog").attr("max", "1");
+				} else {
+					$('#op_window').parents('.ui-dialog:first').animate({ width: win_width, height: win_height, left: win_left, top: win_top });
+					$("#op_window").animate({ width: win_width, height: (win_height - 100) });
+					$(".ui-dialog").attr("max", "");
+				}
+				return false;
+			});
+			source_code_execute();
+			plain_text_execute();
+			manual_rejudge_execute();
+			copy_to_submit_execute();
+		};
+		
+		createWindow(); 
+		
+		
+		function loadCode(url,objectid,pre){
+			$("#"+objectid).html(loader);
+			if( ! url ) return;
+			$.ajax({
+				type: "POST",
+				url: url,
+				cache: false,
+				data: "post=1",
+				success: function(data){
+					if( ! pre ){
+						$("#"+objectid).html(data);
+					} else {
+						$("#"+objectid).html("<pre>" + data + "</pre>");
+					}
+				},
+				error: function(){
+					$("#"+objectid).html("error ;(");	
+				}
+			});
+		}
+		
+		
+					
+			$(".op_window").bind("click", function(){
+				reload_window_dim();
+				$('#solutionid').attr('value', ( $(this).attr('sid') ) );
+				$('#pcode').attr('value', ( $(this).attr('pcode') ) );
+				$('#op_window').dialog('open');
+				$('#op_window').dialog('enable');
+				//$('.ui-dialog').css('display', 'block');
+				$(".ui-dialog").attr("max", "");
+				var url = "/SPOJ/files/src/" + $(this).attr('sid') + "/";
+				$('#url').attr('value', url);
+				loadCode(url, "op_window_sourcecode", false);
+				$("#op_window_sourcecode_link").click();
+				return false;
+			});
+			
+				
+		
+		
+		$(".ideone-run").click(function(){
+			var $this = $(this);
+			$.ajax({
+                	type: "post",
+                	url: "/files/src/plain/"+$(this).attr('sid')+"/",
+                	cache: false,
+                	dataType: 'html',
+                	success: function(data){
+                		ideone_submit(data, $this.attr('lang'), '', $this.attr('note'), true, true);
+                	}
+                });
+            return false;
+		});
+		
+	});
+-->
+</script>
+
+
+	<div id="op_window" title="<a href='#' id='op_window_sourcecode_link'>Source code</a> | <a href='#' id='op_window_plaintext_link'>Plain text</a> | <a href='#' id='op_window_copy_to_submit_link'><b>Copy to submit</b></a>">
+		<input type="hidden" class="url" value="" id="url"/>
+		<div id="op_window_sourcecode">
+		code...
+		</div>
+		<input type="hidden" class="solutionid" id="solutionid"/>
+		<input type="hidden" class="pcode" id="pcode"/>
+	</div>
+	
+	<script type="text/javascript">
+	<!--
+		$(document).ready(function() {
+			$("#newform").bind('submit', function() {
+				$(this).ajaxSubmit({
+					success: function(responseText, statusText){
+						var id = responseText;
+						$(".status_sm").html(id);
+						$(".td5").attr('id', 'statusres_'+id);
+						$(".td5").attr('status', '0');
+						$(".td6").attr('id', 'statustime_'+id);
+						$(".td7").attr('id', 'statusmem_'+id);
+						load();
+					}
+				});
+				return false;
+			});
+		});
+	-->
+	</script>
+	
+	
+	<br/><br/>
+	<input type="submit" value="Submit solution"/>
+	
+	</form>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/emgbvudduu">Edwin Guzman</a></td></tr>
+<tr><td>Date:</td><td>2012-04-25</td></tr>
+<tr><td>Time limit:</td><td>0.142s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+	
+</table>

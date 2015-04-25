@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SOLDIER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3033. Help the soldier</h1>
+		<h2>Problem code: SOLDIER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Igor, a famous russian soldier, must go to war in Afghanistan (we are in late 80&#8217;s). His superiors allowed him to buy himself his equipment. So, he must buy 6 items: helmet, bulletproof vest, trousers, boots,  tunic and a firearm. This items are represented with numbers from 1 to 6. There are N( 6 < N < 101 ) items of this 6 types. Each item is characterized by its price p[i] (in rublas ) and is quality q[i]. Igor has T (0 < T < 1001 ) rublas and he wants to maximize the total quality of his equipment. The total quality is the quality of the item with the lowest quality. Help him.
+
+<h3>Input</h3>
+<p>On the first line there are two integers N and T. On the lines 2 ... N+1 there are 3 integers, type[i] (from 1 to 6) p[i] and q[i]. ( 0 < p[ i ], q[ i ] < T )
+
+<h3>Output</h3>
+<p>Output the total quality.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+7 53
+5 8 2
+2 4 8
+6 8 13
+1 13 12
+4 5 1
+3 2 7
+3 13 5
+
+<b>Output:</b>
+1
+
+<b>Note:</b>
+If there is no answer, output 0.
+There can be less than 6 types of items.
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/toni2007">Pripoae Toni</a></td></tr>
+<tr><td>Date:</td><td>2008-09-14</td></tr>
+<tr><td>Time limit:</td><td>0.109s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Original</td></tr>	
+</table>

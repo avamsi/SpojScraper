@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DRAWM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7210. Draw Mountains</h1>
+		<h2>Problem code: DRAWM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are a member of a team that is working in a new wonderful graphics program.<br />Your task is to write a module for drawing skylines of mountains. However, for now the<br />program is in beta version, so each skyline is discretized. This means that your module<br />receives as input a sequence of integers representing heights. Each pair of consecutive<br />heights in the sequence may differ by at most 1 and produces a column of output, each<br />column containing a single character. The particular character to write and its position<br />in the column depend on the pair of heights. When both heights are equal an underscore<br />(&ldquo; &rdquo;) must be printed. If the heigths within the pair increase or decrease, you must write<br />a slash (&ldquo;/&rdquo;) or a backslash (&ldquo;\&rdquo;), respectively. The position of the character in the<br />column is such that the skyline visually respect the given heights.<br />For instance, the sequence of heights (1, 2, 3, 2, 3, 3, 2, 1, 0) must produce the skyline shown<br />in the following figure.</p>
+<p><span style="font-family: courier new,courier;">&nbsp; &nbsp; _<br />&nbsp;/\/ \<br />/&nbsp;&nbsp;&nbsp;&nbsp; \<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</span></p>
+<p>Notice that when the sequence of heights has C + 1 elements, the corresponding skyline<br />has only C columns. Given a sequence of heights, you must draw the skyline according<br />to the rules given above. See the examples for further clarification.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in exactly two lines. The first<br />line contains an integer C indicating the number of columns of the skyline (1 &le; C &le; 70).<br />The second line contains C + 1 integers Hi separated by single spaces representing the<br />sequence of heights (0 &le; Hi &le; 30 for 1 &le; i &le; C + 1). You may assume that there exist<br />an height Hi = 0, and that the difference between succesive heights is at most 1 (i.e.<br />|Hi &minus; Hi+1 | &le; 1 for 1 &le; i &le; C). The last line of the input contains a single &minus;1 and should<br />not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output the correponding skyline, followed by a line with exactly three<br />asterisks (&ldquo;***&rdquo;). While writting the skyline, use only regular spaces, newlines, and the<br />three characters mentioned in the statement. Ths skyline must be left aligned and it<br />must contain exactly C columns. There must be no trailing spaces at the end of printed<br />lines, neither empty lines.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />8<br />1 2 3 2 3 3 2 1 0<br />3<br />1 0 0 1<br />-1<br /><br /><strong>Output:</strong><br /><span style="font-family: courier new,courier;">  &nbsp; _<br />&nbsp;/\/ \<br />/&nbsp;&nbsp;&nbsp;&nbsp; \<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<br /></span>***<br />\_/<br />***</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-22</td></tr>
+<tr><td>Time limit:</td><td>1.919s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2009</td></tr>	
+</table>

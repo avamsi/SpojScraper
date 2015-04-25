@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POLISH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10419. Polish Language</h1>
+		<h2>Problem code: POLISH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Russell can't wait to know Poland. As he waits he decided to learn a little of the Polish Language. To do this in a funny way he intends to use an old Polish dictionary and play a game he learned from the old Carl.</p>
+<p>Given a word s in the dictionary, Russell is interested in sequences of suffixes of s. But not just any one! Russell considers amusing sequences of suffixes with the following properties:</p>
+<ul>
+<li>The suffixes appear in increasing sizes.</li>
+<li>The suffixes appear in lexicographic order.</li>
+</ul>
+<p>As an example, if s = ABACA then the sequences (ABACA), (A, CA) and (A, ACA, BACA) please Russell but (ABACA, ACA) or (CA, ACA) doesn't.</p>
+<p>Help Russell find the number of amusing sequences of suffixes of a given word s modulo 1000000007 (10^9 + 7).</p>
+<h3>Input</h3>
+<p>The input consists of several test cases. Each test case consists of only one line containing a string <strong>S</strong> with 1 to 100000 (10^5) uppercase latin letters (A - Z).</p>
+<h3>Output</h3>
+<p>For each test case output a single line containing the number of amusing sequences of suffixes of <strong>S</strong> modulo 1000000007 (10^9 + 7).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+ABACA<br />NIE<br />PIJ<br />WODY<br />CAMPINAS
+
+<strong>Output:</strong>
+11<br />7<br />5<br />8<br />20
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-17</td></tr>
+<tr><td>Time limit:</td><td>0.801s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IME/USP 1 - Brazilian ICPC Training Camp, Jan-Feb/2012</td></tr>	
+</table>

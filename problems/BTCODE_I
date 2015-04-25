@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTCODE_I"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8427. Permutation Game</h1>
+		<h2>Problem code: BTCODE_I</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Harsha is given 9 integers a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, .... a<sub>9</sub>. This denotes that he is given a<sub>1</sub> 1's, a<sub>2</sub> 2's,......a<sub>9</sub> 9's. Let 'x' = (a<sub>1</sub> + a<sub>2</sub> + ...a<sub>9</sub>). Now, Harsha makes all possible 'x' digit numbers by using these given digits. Let S be the set of all such numbers which he makes. Now he constructs a directed graph containing |S| nodes, in which each node denotes a unique number from the set. For all numbers u,v belonging to S, there is a directed edge from node 'u' to node 'v in the graph iff u&gt;v. It is easy to note that we obtain a directed acyclic graph. Whats more, the edges of the graph are weighted. The weight of an edge joining node 'u' and node 'v' is equal to u+v. Now, Deepak decides to test Harsha's memory and gives him 'Q' queries. Each query consists of two numbers 'u', 'v' (u&gt;v, both belonging to the set S). For each query Harsha must provide the following answers:</p>
+<p>1) How many distinct paths are there from node 'u' to node 'v' in the graph. <br />2) For each distinct path 'i' from node 'u' to node 'v', let S<sub>i</sub> denote the sum of weights of all edges on this path. Calculate the value of sum(S<sub>i</sub>), for every distinct path 'i' from node 'u' to node 'v'.</p>
+<h3>Input</h3>
+<p>The first line of input contains 9 integers a<sub>1</sub>, a<sub>2</sub>, ....a<sub>9</sub>. The second line contains a single integer 'Q', denoting the number of queries. Each of the next 'Q' lines contain 2 numbers 'u' and 'v'.</p>
+<h3>Output</h3>
+<p>For each query, output 2 space separted integers denoting the number of distinct paths and sum of weights of all paths respectively. Since the output can be large, output these quantities modulo 1000000007.</p>
+<p>Two paths (v<sub>1</sub>, v<sub>2</sub>, .... v<sub>m</sub>) and (u<sub>1</sub>, u<sub>2</sub>, .... u<sub>n</sub>) are distinct if: <br />1) m != n <br />2) m = n, there exists some index 'k' (1 &lt;= k &lt;= m) such that v<sub>k</sub> != u<sub>k</sub></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2 0 1 0 0 0 0 0 0
+1
+311 113
+
+<strong>Output:</strong>
+2 1110
+
+<strong>Constraints:</strong>
+1 &lt;= (a<sub>1</sub>  + a<sub>2</sub> + .... a<sub>9</sub>) &lt;= 500
+1 &lt;= Q &lt;= 20
+a<sub>i</sub> &gt;= 0
+
+</pre>
+<p><strong>Explanation:</strong></p>
+<p>Test case 1: The set S for the above problem is {311, 113, 131}. The edges of the graph are 311-&gt;131, 311-&gt;113, 131-&gt;113. There are 2 distinct paths from 311 to 113, namely (311-&gt;131-&gt;113) and (311-&gt;113). The sum of weights of edges on path-1 = (311+131)+(131+113) = 686. For path-2, the sum of weights of edges = (311+113) = 424. Therefore, answer  = 686 + 424 = 1110.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/suh_ash2008">suhash</a></td></tr>
+<tr><td>Date:</td><td>2011-02-26</td></tr>
+<tr><td>Time limit:</td><td>1.711s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2011, NIT Trichy, India</td></tr>	
+</table>

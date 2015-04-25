@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WRP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20689. WA,RTE and Placements</h1>
+		<h2>Problem code: WRP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">The Placement Season has started at the&nbsp;</span><strong>Aliens&rsquo; College of MachineLearning</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;(ACM) and as expected, every alien of the college is burning the candle at both ends. William Archer(WA), the topper and the most eligible bachelor of&nbsp;</span><strong>ACM</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;is however indifferent towards the situation. He has been spending all his time with his friend Rihanna-the Exuberant(RTE) and ignoring his studies. RTE, being the more mature and sensible of the two, devises a plan for WA so that he could spend adequate time with her without compromising his studies. Upon consultation with her best friend AC, she comes up with the following plan for WA:&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">1. She divides WA's next&nbsp;</span><strong>N</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;hours into&nbsp;</span><strong>K</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;sessions.&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">2. Each session can last for&nbsp;</span><strong>x</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;hours where x is an&nbsp;</span><strong>integer</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;and&nbsp;</span><strong>1&lt;=x&lt;=M</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">.&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">3. In each session, WA can&nbsp;</span><em>either study or meet RTE</em><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">.&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">4. If WA is studying in one session, he must meet RTE in the next session and vice versa.&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">5. WA must always study in the first session.&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">You have been hired by WA to calculate how many different timelines can RTE prepare for the next N hours.&nbsp;</span></p>
+<h3 style="text-align: left;">Input</h3>
+<p><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">The first line specifies the number of test cases T and the next T lines contain 3 integers each: N,K and M.&nbsp;</span></p>
+<p style="text-align: left;"><strong><span style="font-size: 1.17em;">Output</span></strong></p>
+<p><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">For every test case print a single integer which is the number of different ways RTE can prepare WA's timeline for the next N hours. Print your</span><strong>&nbsp;answer modulo 1000000007</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">.&nbsp;</span></p>
+<p><strong>Constraints</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;</span><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;</span></p>
+<h3 style="text-align: left;"><span style="font-weight: normal;"><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">T &lt;= 100&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">1 &lt;= N, K, M &lt;= 100000&nbsp;</span><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">K&lt;=N&nbsp;</span></span></h3>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+4 3 2
+7 4 3
+1 1 1</pre>
+<pre><strong>Output:</strong></pre>
+<pre>3
+16
+1</pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 530px; width: 1px; height: 1px; overflow: hidden;">Pinku can prepare the following &lt;i&gt;three&lt;/i&gt; schedules for the next 4 hours</div><strong><span style="font-size: medium;">Explanation for Sample Input 1:</span></strong></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;">RTE can prepare the following three schedules for the next 4 hours</span></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;">S|MM|S
+SS|M|S
+S|M|SS</span></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;">where S indicates that WA should be studying that hour&nbsp;</span></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;">while M indicates that he should be meeting RTE that hour.</span></pre>
+<pre><span style="font-family: arial, helvetica, sans-serif;">Note that WA has to start with his studies always in order to satisfy Point 5 of the plan.</span>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 530px; width: 1px; height: 1px; overflow: hidden;">&lt;code&gt;</div>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/utk1369">utk1369</a></td></tr>
+<tr><td>Date:</td><td>2014-08-14</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on UVA-10721 but with larger constraints</td></tr>	
+</table>

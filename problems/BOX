@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2000. Boxes (Hard)</h1>
+		<h2>Problem code: BOX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are n boxes on the circle. The boxes are numbered from 1 to n in clock wise order. There are balls in the boxes, and the number of all the balls in the boxes is not greater than n.
+<p>
+The balls should be displaced in such a way that in each box there remains no more than one ball. In one move we can shift a ball from one box to one of it's neighboring boxes.
+<p>
+Write a program that: 
+reads from the standard input the number of boxes n and the arrangement of balls in the boxes, 
+computes the minimal number of moves necessary to displace the balls in such a way that in each box there remains no more than one ball, 
+writes the result in the standard output. 
+
+
+<h3>Input</h3>
+<p>
+The first line of the input file contains an integer t representing the number of test cases. Then t test cases follows. Each test case has the following form:
+<ul>
+<li> The first line contains one positive integer n - the number of boxes
+<li> The second line contains n nonnegative integer separated by single spaces. The i-th number is the number of balls in the i-th box.
+</ul>
+
+<h3>Output</h3>
+<p>For each test case, output one nonnegative integer - the number of moves necessary to displace the balls in such a way that in each box there remains no more than one ball. 
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+12
+0 0 2 4 3 1 0 0 0 0 0 1
+
+<b>Output:</b>
+19
+</pre>
+<h3>Note</h3>
+<p>There are two input files.</p>
+<p>In the first input file, t=19, n<=1000, time limit=0.5 second;</p>
+<p>In the second input file, t=3, n<=200000, time limit=15 seconds.</p>
+<b>Warning: large input/output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-11-02</td></tr>
+<tr><td>Time limit:</td><td>0.060s-1.240s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>POI III, stage 3; Special thanks to <a href="http://www.spoj.pl/users/g201513">Lei Huang</a></td></tr>	
+</table>

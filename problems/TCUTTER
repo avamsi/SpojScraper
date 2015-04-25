@@ -1,0 +1,109 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TCUTTER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>405. Tin Cutter</h1>
+		<h2>Problem code: TCUTTER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+In a Tin Cutting factory there is a machine for cutting parts from tin plates. It has an
+extraordinarily sharp knife able to make horizontal or vertical segment cuts in the tin plates. Each
+cutting process consists of a sequence of such cuts. Each segment cut is given by its endpoints that
+are always located inside the tin plate. During the cutting process some parts of tin plate can fall
+out and so some holes in the plate can emerge.
+<P>
+<P>
+Factory management needs to predict the number of holes in the plate at the end of the
+given sequence of cuts. Write a program that answers this question. Single segment cuts are not
+considered to be holes.
+<P>
+<P>
+Here there are examples of some situations that can arise after cutting:
+<P>
+<center><img src=/content/ak15:308img5.gif></center>
+<P align="center">
+two holes two holes one hole one hole
+</P>
+<h3>Input</h3>
+<p>The input file consists of blocks of lines. Each block except the last
+describes one cutting
+process. In the first line of the block there is a number  <IMG WIDTH=64 HEIGHT=26 ALIGN=MIDDLE ALT="tex2html_wrap_inline33" SRC="/content/ak15:308img1.gif"  > 
+
+indicating the number of segment
+cuts in the cutting process. These cuts are defined by the following <I>N</I>
+lines. The line defining one
+segment cut has the form  <IMG WIDTH=78 HEIGHT=25 ALIGN=MIDDLE ALT="tex2html_wrap_inline37" SRC="/content/ak15:308img2.gif"  >  where  <IMG WIDTH=46 HEIGHT=25 ALIGN=MIDDLE ALT="tex2html_wrap_inline39" SRC="/content/ak15:308img3.gif"  >  and  <IMG WIDTH=46 HEIGHT=25 ALIGN=MIDDLE ALT="tex2html_wrap_inline41" SRC="/content/ak15:308img4.gif"  > 
+are the co-ordinates of the end
+points of the segment cut. They are separated by one space. The co-ordinates
+are integers and
+always define horizontal or vertical segment (i.e. segment parallel
+with <I>x</I> or <I>y</I> axis).
+</P>
+<P>
+The last block consists of just one line containing 0.
+<P>
+<h3>Output</h3>
+<p>The output file contains the lines corresponding to the blocks in the input
+file. Each such line
+contains the number of holes that remain in the tin plate after the
+execution of the corresponding
+cuts.
+</P>
+<P>
+There is no line in the output file corresponding to the
+last "null" block of the input file.
+<P>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+4
+0 1 1 1
+1 1 1 0
+1 0 0 0
+0 0 0 1
+2
+0 1 2 1
+1 2 1 0
+0
+
+<b>Output:</b>
+
+1
+0
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.563s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Regional Contest 1996</td></tr>	
+</table>

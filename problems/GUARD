@@ -1,0 +1,162 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GUARD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3254. Guard</h1>
+		<h2>Problem code: GUARD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><p style="text-align: center;"><img style="width: 436px; height: 337px;"
+   alt="Guard Placement" src="http://mcpc.cigas.net/archives/2007/mcpc2007/guard/guards.png"></p>
+
+   <p>The Bluewater Security Company provides guards for clients with valuable
+   possessions. Bluewater has found that clients are interested in having
+   guards posted where they can see everything that is valuable merely by
+   turning their heads, and also like guards to be posted particularly close to
+   particularly valuable items. A sample site layout is shown above. Ignore the
+   three black dots for now. Various locations are labeled and assigned values.
+   For instance location A at coordinates (0,8) is the position of an item with
+   value 4. Locations showing a value 0, like G, do not have a valuable item.
+   The straight lines indicate corridors. For simplicity, corridors are modeled
+   as line segments with 0 width. A guard at an intersection point of several
+   corridors can see and therefore guard the items on each of the corridors. If
+   Bluewater were contracted to supply 3 guards, they might choose to post them
+   at the positions indicated with the small black dots. The guard not at an
+   already labeled position is at (15.5, 6). To model the desire for guards to
+   be closer to items of higher value, Bluewater calculates the <span style=
+   "font-style: italic;">risk</span> to a valuable item to be the value of the
+   item times the minimum distance to a guard that can <span style=
+   "font-style: italic;">see</span> the item. Even if a guard is close to an
+   item that is around a corner, that guard does <span style=
+   "font-style: italic;">not</span> affect the risk to the item, since the
+   guard cannot see around a corner. In the diagram shown, the risks to the
+   items are A: 4x5=20, C: 4x2.5=10, D: 2x0=0, .... The largest risks are
+   for H: 50x7.5=375 and I: 50x7.5=375, so the maximum risk to any one item is
+   375. With this site layout, no arrangement of 3 guards would provide a lower
+   maximum risk, so this arrangement of 3 guards minimizes the maximum risk.
+   Bluewater would like to be able to tell any client who requests a particular
+   number of guards for a particular site layout, what the minimized maximum
+   risk will be.</p>
+
+
+<h3>Input</h3>
+<p>The input will consist of one to sixteen data
+   sets, followed by a line containing only 0. On each line the data will
+   consist of blank separated tokens.</p>
+
+   <p>The first line of a dataset contains integers <span style=
+   "font-style: italic;">p c g</span>, where <span style=
+   "font-style: italic;">p</span> is the number of points specified,
+   <span style="font-style: italic;">c</span> is the number of corridors, and
+   <span style="font-style: italic;">g</span> is the number of guards to be
+   placed. Constraints are 1<span style="font-style: italic;">&lt; p</span>
+
+   &lt; 12; 0 &lt; <span style="font-style: italic;">c</span> &lt; 12; 0 &lt;
+   <span style="font-style: italic;">g</span> &lt; 5.  </p>
+
+   <p>Next in the dataset are a total of <span style=
+   "font-style: italic;">p</span> groups of four tokens, each consisting of a
+   capital letter and three nonnegative integers <span style=
+   "font-style: italic;">L</span> <span style="font-style: italic;">x y
+   v</span> indicating the point (<span style="font-style: italic;">x</span>,
+   <span style="font-style: italic;">y</span>) with label <span style=
+   "font-style: italic;">L</span> contains an item with value <span style=
+   "font-style: italic;">v</span>. If <span style=
+   "font-style: italic;">p</span> is no greater than 6, these groups will all
+   be on one line. If <span style="font-style: italic;">p</span> is greater
+   than 6, then the seventh and further groups will be on the next line. Labels
+   will be consecutive letters starting from A. All the numbers are less than
+   1000. Each of the points is unique. A value of 0 for <span style=
+   "font-style: italic;">v</span> means there is no item of value there. The
+   number of locations with items of value will be at least as large as the
+
+   number of guards. </p>
+
+   <p>The last line of a dataset contains <span style=
+   "font-style: italic;">c </span>strings of letters, one for each corridor.
+   For each corridor the letters are labels for points along the corridor, in
+   order along the line segment from one end to the other, including both
+   endpoints, all intersection points with other corridors, and all locations
+   on the corridor with a valuable item. Each of the points given in the
+   dataset will lie on at least one of the corridors.  </p>
+
+
+<h3>Output</h3>
+<p>There is one line of output for each data set.  If there
+   are not enough guards supplied to be able to see all the valuables, the line
+   is "too few guards".  Otherwise the line is an unsigned number <span style=
+   "font-style: italic;">r</span> rounded to two places beyond the decimal
+   point, where r is the minimum value over all placements of <span style=
+   "font-style: italic;">g</span> guards of the maximum "risk" to the
+   valuables.</p>
+
+   <p>The first example dataset matches the illustration above, and the next
+   three examples only vary the number of guards.</p>
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+11 5 3
+A 0 8 4 B 5 8 0 C 14 8 4 D 21 8 2 E 25 8 1 F 5 22 1
+G 5 20 0 H 11 12 50 I 20 0 50 J 19 10 5 K 25 4 5
+ABCDE AG FGB GHCI JDK
+11 5 2
+A 0 8 4 B 5 8 0 C 14 8 4 D 21 8 2 E 25 8 1 F 5 22 1
+G 5 20 0 H 11 12 50 I 20 0 50 J 19 10 5 K 25 4 5
+ABCDE AG FGB GHCI JDK
+11 5 1
+A 0 8 4 B 5 8 0 C 14 8 4 D 21 8 2 E 25 8 1 F 5 22 1
+G 5 20 0 H 11 12 50 I 20 0 50 J 19 10 5 K 25 4 5
+ABCDE AG FGB GHCI JDK
+11 5 4
+A 0 8 4 B 5 8 0 C 14 8 4 D 21 8 2 E 25 8 1 F 5 22 1
+G 5 20 0 H 11 12 50 I 20 0 50 J 19 10 5 K 25 4 5
+ABCDE AG FGB GHCI JDK
+3 3 1
+A 0 0 50 B 0 3 60 C 4 0 20
+AB CB CA
+0
+
+<b>Output:</b>
+375.00
+1250.00
+too few guards
+21.21
+150.00
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikola_borisof">Nikola P Borisov</a></td></tr>
+<tr><td>Date:</td><td>2008-10-25</td></tr>
+<tr><td>Time limit:</td><td>0.688s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mid-Central Regional ACM-ICPC Contest 2007</td></tr>	
+</table>

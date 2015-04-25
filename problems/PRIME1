@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PRIME1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2. Prime Generator</h1>
+		<h2>Problem code: PRIME1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Peter wants to generate some prime numbers for his cryptosystem. Help him!
+Your task is to generate all prime numbers between two given numbers!
+</p>
+<h3>Input</h3>
+<p>
+The input begins with the number t of test cases in a single line (t<=10). In each of the next t lines there are two numbers m and n (1 <= m <= n <= 1000000000, n-m<=100000) separated by a space.
+</p>
+<h3>Output</h3>
+<p>For every test case print all prime numbers p such that m <= p <= n,
+one number per line, test cases separated by an empty line.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+1 10
+3 5
+
+<b>Output:</b>
+2
+3
+5
+7
+
+3
+5
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages (though most should be OK if the algorithm is well designed)</b>
+
+<h3>Information</h3>
+After cluster change, please consider <a href="http://www.spoj.com/problems/PRINT/">PRINT</a> as a more challenging problem.
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-05-01</td></tr>
+<tr><td>Time limit:</td><td>6s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken </td></tr>
+	
+</table>

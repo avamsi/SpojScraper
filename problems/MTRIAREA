@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MTRIAREA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3931. Maximum Triangle Area</h1>
+		<h2>Problem code: MTRIAREA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MTRIAREA/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MTRIAREA/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>&nbsp;</p>
+<p>Given n distinct points on a plane, your task is to &#64257;nd the triangle that  have the maximum area, whose vertices are from the given points.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The input consists of several test cases. The &#64257;rst line of each test case  contains an integer n, indicating the number of points on the plane. Each of  the following n lines contains two integer xi and yi, indicating the ith points.  The last line of the input is an integer &minus;1, indicating the end of input,  which should not be processed. You may assume that 1 &le; n &le; 50000 and  &minus;10^4 &le; xi, yi &le; 10^4 for all i = 1 . . . n.</p>
+<pre>Sample Input
+3
+3 4
+2 6
+2 7
+5
+2 6
+3 9
+2 0
+8 0
+6 5
+-1
+</pre>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>For each test case, print a line containing the maximum area, which contains  two digits after the decimal point. You may assume that there is always an answer which is greater than zero.</p>
+<pre>Sample output
+0.50
+27.00
+</pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-23</td></tr>
+<tr><td>Time limit:</td><td>0.170s-0.712s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Pre Shanghai 2004</td></tr>	
+</table>

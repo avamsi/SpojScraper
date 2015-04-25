@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC10A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7974. What&#8217;s Next</h1>
+		<h2>Problem code: ACPC10A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>According to Wikipedia, an arithmetic progression (AP) is a sequence of numbers such that the difference of any two successive members of the sequence is a constant. For instance, the sequence 3, 5, 7, 9, 11, 13, . . . is an arithmetic progression with common difference 2. For this problem, we will limit ourselves to arithmetic progression whose common difference is a non-zero integer.<br />On the other hand, a geometric progression (GP) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed non-zero number called the common ratio. For example, the sequence 2, 6, 18, 54, . . . is a geometric progression with common ratio 3. For this problem, we will limit ourselves to geometric progression whose common ratio is a non-zero integer.<br />Given three successive members of a sequence, you need to determine the type of the progression and the next successive member.</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each case is specified on a single line with three integers (&minus;10, 000 &lt; a1 , a2 , a3 &lt; 10, 000) where a1 , a2 , and a3 are distinct.<br />The last case is followed by a line with three zeros.</p>
+<h3>Output</h3>
+<p>For each test case, you program must print a single line of the form:<br />XX v<br />where XX is either AP or GP depending if the given progression is an Arithmetic or Geometric Progression. v is the next member of the given sequence. All input cases are guaranteed to be either an arithmetic or geometric progressions.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 7 10<br />2 6 18<br />0 0 0<br /><br /><strong>Output:</strong><br />AP 13<br />GP 54</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/omar_azazy">Omar ElAzazy</a></td></tr>
+<tr><td>Date:</td><td>2010-11-30</td></tr>
+<tr><td>Time limit:</td><td>1.799s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACPC 2010</td></tr>	
+</table>

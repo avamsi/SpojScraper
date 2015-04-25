@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HXH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15328. Hunter x Hunter</h1>
+		<h2>Problem code: HXH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Gon and Killua are two very talented hunters, and they are also very skilled fighters, however it is well known that Killua is faster and smarter than Gon, and Gon is stronger and is way more decided than Killua. That makes them almost the perfect team (they just need more time to become the most skilled hunters that ever lived) and they are so good as a team that they decided to fight and defeat many enemies (as much as they can) so they made a plan, as the enemies are in a N x N grid Gon decided to start at position 0,0 of this grid and Killua at position n-1,n-1. To maximize the number of defeated enemies Gon moves only to the Right and Down, and Killua to the Left and Up, they count how many enemies they defeated and stop when both of them are in the same cell and they give each other a high five. So if they complete the ride without doing this they will be mad, so that will not be a solution.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">However Killua wants this to be perfect, so he is tracing a new plan, but he does not know the best ride, as you are an amazing programmer he asked you for your help and you need to give him the maximum amount of enemies they can defeat together and then give each other a high five, only with this information the super brain of Killua will figure out the rest.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">&nbsp;</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">Remember, the ride will not finish if they do not give each other that high five.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">The grid has this properties:</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">&lsquo;#&rsquo; is an obstacle that neither Gon nor Killua can pass through</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">&lsquo;.&rsquo; Is a walkable area</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">&lsquo;*&rsquo; is an enemy</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">Also they move at the same time, if any of them cannot move, it will not be a valid move. They never stand still.</span></p>
+<h3>Input</h3>
+<p><span style="font-size: small;">The input consist on several test cases represented by T each of them start with an 2&lt;=N&lt;=500 the size of the grid and the grid itself.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small;"><strong>Output</strong></span></p>
+<p><span style="font-size: small;">Just show the maximum number of enemies that both can defeat, and then give each other a high five. If this cannot be done print -1<br /></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small;"><strong>Input test:</strong></span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">5</span></p>
+<p><span style="font-size: small;">..*..</span></p>
+<p><span style="font-size: small;">.*..*</span></p>
+<p><span style="font-size: small;">#...*</span></p>
+<p><span style="font-size: small;">..*..</span></p>
+<p><span style="font-size: small;">.....<br /></span></p>
+<p><span style="font-size: small;"><strong>Output test:</strong></span></p>
+<p><span style="font-size: small;">3</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small;">They could defeat all 5 if they weren&rsquo;t going to give each other a high five, but as they do and they never stand still, they will defeat only 3 and then give a High five, Killua defeats 2 and Gon 1.</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rocker3011">Rocker3011</a></td></tr>
+<tr><td>Date:</td><td>2013-07-01</td></tr>
+<tr><td>Time limit:</td><td>0.009s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

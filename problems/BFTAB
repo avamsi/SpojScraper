@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BFTAB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10819. BF Vector</h1>
+		<h2>Problem code: BFTAB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your task is to put in the output n char of the read input. You have to use BF</p>
+<h3>Input</h3>
+<p>- first line have x chars (1&lt;=x&lt;=99) and ends with a line feed (10)</p>
+<p>- second line is one number n (00&lt;=n&lt;=99)</p>
+<h3>Output</h3>
+<p>Its only one char</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+01234567</pre>
+<pre>02
+
+<strong>Output:</strong>
+2</pre>
+<pre><strong>Input:</strong></pre>
+<pre>0112ok3-12kewpl11,2eo12o3ke12ls12w1io2j34e12md</pre>
+<pre>14</pre>
+<pre><strong>Output:</strong></pre>
+<pre>l</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/marqu92">Marek Kotewicz</a></td></tr>
+<tr><td>Date:</td><td>2012-02-27</td></tr>
+<tr><td>Time limit:</td><td>0.349s-0.712s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF </td></tr>
+	
+</table>

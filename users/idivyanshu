@@ -1,0 +1,18 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/idivyanshu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CSQUARE" target="_blank">7683. Powered and Squared</a></td><td><a href="http://www.spoj.com/problems/CSQUARE"target="_blank">CSQUARE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CENCRY" target="_blank">7696. Encryption</a></td><td><a href="http://www.spoj.com/problems/CENCRY"target="_blank">CENCRY</a><br>
+</td></tr>

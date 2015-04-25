@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GNY07H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2530. Tiling a Grid With Dominoes</h1>
+		<h2>Problem code: GNY07H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We wish to tile a grid 4 units high and <i><b>N</b></i> units long with rectangles (dominoes) 2 units by one unit (in
+either orientation). For example, the figure shows the five different ways that a grid 4 units high and 2
+units wide may be tiled.
+
+<p><img align="center" src="https://www.spoj.pl/content/marcog:GNY07_tiles.png">
+
+<p>Write a program that takes as input the width, <i><b>W</b></i>, of the grid and outputs the number of different ways
+to tile a 4-by-<i><b>W</b></i> grid.
+
+<h3>Input</h3>
+<p>The first line of input contains a single integer <i><b>N</b></i>, (1 &#8804; <i><b>N</b></i> &#8804; 1000) which is the number of datasets that
+follow.
+<p>Each dataset contains a single decimal integer, the width, <i><b>W</b></i>, of the grid for this problem instance.
+
+<h3>Output</h3>
+<p>For each problem instance, there is one line of output: The problem instance number as a decimal
+integer (start counting at one), a single space and the number of tilings of a 4-by-<i><b>W</b></i> grid. The values
+of <i><b>W</b></i> will be chosen so the count will fit in a 32-bit integer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+3
+7
+
+<b>Output:</b>
+1 5
+2 11
+3 781
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/marcog">Marco Gallotta</a></td></tr>
+<tr><td>Date:</td><td>2008-03-12</td></tr>
+<tr><td>Time limit:</td><td>9.600s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Greater New York Regionals 2007</td></tr>	
+</table>

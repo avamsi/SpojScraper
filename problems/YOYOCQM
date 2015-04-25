@@ -1,0 +1,46 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/YOYOCQM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22531. Yo Yo Jagdish Singh</h1>
+		<h2>Problem code: YOYOCQM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Like many teenagers of his age, Jagdish is into Honey Singh these  days, and has decided to enter a rapping contest. A rap song can be  represented as a single word of uppercase characters (A-Z). The contest  assigns score based on the smallest length word which is not a substring  of the song. The participant with the highest score gets a chance to  meet with Honey Singh.<br />Jagdish is pumped up about this, and starts  writing his song. He asks Anandi for help. Anandi being a Heavy Metal  fan, dislikes the whole idea. However, she ends up helping Jagdish by  evaluating his songs by finding a string (containing uppercase letters)  with smallest length which is not a substring of the song. If multiple  strings of same lengths are present, the lexicographically smallest one  is considered as the result. Help Anandi find such string.</p>
+<p><strong>Input</strong><br />Each line represents an input, consisting of a string (made up of uppercase characters A-Z). Read till EOF</p>
+<p><strong>Output<br /></strong>For each input, output the result string.</p>
+<p><strong>Constraints</strong><br />There will be 100 test cases.<br />1&lt;= Length of input string &lt;= 10^4</p>
+<p><strong>Sample Input<br /></strong>ABCD<br />BBB</p>
+<p><strong>Sample Output</strong><br />E<br />A</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nims11">VV</a></td></tr>
+<tr><td>Date:</td><td>2015-01-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (CQM 8, BIT Mesra)</td></tr>	
+</table>

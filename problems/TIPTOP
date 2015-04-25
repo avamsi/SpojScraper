@@ -1,0 +1,45 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TIPTOP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16033. Tip Top Game</h1>
+		<h2>Problem code: TIPTOP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Problem Statement:</span></span></strong></span><span style="white-space: normal;"><pre><span style="white-space: normal;"><p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Alim and sufian are two good friends. They loves to playing game with number recently they discover a new game name &ldquo;Tip Top&rdquo;. The rule of the game is they took a number (<strong>N</strong>) randomly after that they find the all divisors of N. Then they starting to play the game first alim took a divisor, then sufian so on. The person who took the last divisor will win the game.</span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Every time the game started with alim . Now alim wants to know when he will win.</span></span></p><span style="font-family: arial,helvetica,sans-serif;">
+</span><p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">As you a good programmer your task is to find will alim win or not.</span></span></p><p><span style="font-size: small;"><span style="font-family: 'comic sans ms', sans-serif;"><span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span><br /></span></span></p><p><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Input:</span></span></strong></span></p><p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Input starts with an integer&nbsp;<strong>T ( T&nbsp;&le;&nbsp;10<sup>5&nbsp;</sup>)</strong>, denoting the number of test cases.&nbsp;Each case starts with a line containing an integer&nbsp;<strong><strong>N</strong></strong><strong> ( 1 </strong><strong>&le;</strong><strong> N </strong><strong>&le;</strong><strong> 10<sup>18&nbsp;</sup>)</strong>&nbsp;the number.</span></span></p><p><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Output:</span></span></strong></span></p><p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">For each case you have to print &ldquo;<strong>Yes</strong>&rdquo; if alim will win otherwise &ldquo;<strong>No</strong>&rdquo; with case number.&nbsp;</span><span style="font-size: small;">See the sample input/output for exact formatting.</span></span></p><p><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="text-decoration: underline;"><span style="font-size: medium;">Sample Input/Output:</span></span></strong></span></p><table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td width="324" valign="top"><p style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Sample Input</span></strong></span></p></td><td width="240" valign="top"><p style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Sample Output</span></strong></span></p></td></tr><tr><td width="324" valign="top"><p><span style="font-size: medium;"><span style="font-family: arial,helvetica,sans-serif;"><strong>&nbsp;2</strong></span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>&nbsp;4</strong></span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>&nbsp;5</strong></span></span></p></td><td width="240" valign="top"><p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;"><strong>&nbsp;Case 1:&nbsp;Yes</strong><br /><strong>&nbsp;Case 2:&nbsp;No</strong></span></span></p></td></tr></tbody></table><pre><span style="white-space: normal;"><p><strong><br /></strong></p><p><strong>____________________________________________________________________________________________<br /><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;"><span style="text-decoration: underline;">Problem setter</span>: Ajharul Islam Barid, Dept. of CSE</span></span></strong></p><p><span style="font-family: arial,helvetica,sans-serif;"><strong><em><span style="font-size: small;">Bangladesh University of Business and Technology (BUBT)</span></em></strong></span></p></span></pre>
+</span></pre>
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shipu_a">Shipu Ahamed</a></td></tr>
+<tr><td>Date:</td><td>2013-09-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

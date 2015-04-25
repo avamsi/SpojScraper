@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMMGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3969. M&M Game</h1>
+		<h2>Problem code: MMMGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MMMGAME/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MMMGAME/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+Little John is playing very funny game with his younger brother. There  is 
+one big box filled with M&Ms of different colors. At first John has 
+to eat several M&Ms of the same color. Then his opponent has to make a turn. 
+And so on. Please note that each player has to eat at least one M&M 
+during his turn. If John (or his brother) will eat the last M&M from the 
+box he will be considered as a looser and he will have to buy a new candy box. 
+
+Both of players are using optimal game strategy. John starts first always. 
+You will be given information about M&Ms and your task is to determine a 
+winner of such a beautiful game.
+</pre>
+<h3>Input</h3>
+<pre>
+The first line of input will contain a single integer T &#8211; the number of 
+test cases. Next T pairs of lines will describe tests in a following format. 
+The first line of each test will contain an integer N &#8211; 
+the amount of 
+different M&M colors in a box. Next line will contain N integers Ai, 
+separated by spaces &#8211; amount of M&Ms of i-th color. 
+Constrains: 
+1 <= T <= 474, 
+1 <= N <= 47, 
+1 <= Ai <= 4747
+</pre>
+<h3>Output</h3>
+<pre>
+Output T lines each of them containing information about game winner. 
+Print &#8220;John&#8221; if John will win the game or &#8220;Brother&#8221; in other case.
+</pre>
+<h3>Sample</h3>
+<pre>Sample input: 
+2 
+3 
+3 5 1 
+1 
+1 
+Sample output: 
+John 
+Brother </pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-27</td></tr>
+<tr><td>Time limit:</td><td>0.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Southeastern European 2007</td></tr>	
+</table>

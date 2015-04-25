@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC10F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7972. World of cubes</h1>
+		<h2>Problem code: ACPC10F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You&rsquo;ve been assigned the task of programming a new video game called the World of Cubes. The game is played inside a box-shaped object (mathematically speaking: a rectangular cuboid) which we&rsquo;ll call the hall. Within the hall, the player is assigned N positions, called focal points.<br />The player must build N cubes, all parallel to the axes, and each is centered around one of the focal points. The mission is for the N cubes to completely fill the hall. It is acceptable for the cubes to overlap and even to extend beyond the hall. The only restriction is that all the cubes must be of equal side-length. And we would like you to compute the minimum such length.</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case is specified using N +1 lines.<br />The first line specifies four integers: (1 &le; N &le; 50) is the number of cubes and (1 &le; X, Y, Z &le; 10<sup>9</sup> ) are the dimensions of the hall. One corner of the hall is at the origin (0, 0, 0), with the opposing corner at (X, Y, Z).<br />N lines follow, each specifying the coordinate of a focal point using three integers: (0 &le; x &le; X), (0 &le; y &le; Y ), and (0 &le; z &le; Z).<br />The last test case is followed by a line containing four zeros.</p>
+<h3>Output</h3>
+<p>For each test case, print the following line:<br />k. D<br />Where k is the test case number (starting at one,) and D is an integer which is the smallest length of the cube edges so that the N cubes would completely fill the hall.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 4 4 8<br />2 2 2<br />2 2 6<br />2 4 4 8<br />2 2 2<br />2 2 5<br />0 0 0 0<br /><br /><strong>Output:</strong><br />1. 4<br />2. 6</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/omar_azazy">Omar ElAzazy</a></td></tr>
+<tr><td>Date:</td><td>2010-11-30</td></tr>
+<tr><td>Time limit:</td><td>0.623s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACPC 2010</td></tr>	
+</table>

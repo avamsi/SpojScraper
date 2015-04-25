@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kashyap_kumar"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ABA12B" target="_blank">10376. String Factorization!</a></td><td><a href="http://www.spoj.com/problems/ABA12B"target="_blank">ABA12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABA12C" target="_blank">10394. Buying Apples!</a></td><td><a href="http://www.spoj.com/problems/ABA12C"target="_blank">ABA12C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABA12D" target="_blank">10395. Sum of divisors!</a></td><td><a href="http://www.spoj.com/problems/ABA12D"target="_blank">ABA12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABA12E" target="_blank">10405. Shooting the balloons!</a></td><td><a href="http://www.spoj.com/problems/ABA12E"target="_blank">ABA12E</a><br>
+</td></tr>

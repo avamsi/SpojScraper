@@ -1,0 +1,133 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/REMGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2047. Stone Removing Game</h1>
+		<h2>Problem code: REMGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Consider the following game. The game is played on a  5 x 5 board.  Initially  every  array  cell  has  a  piece 
+in  it.  Two players  remove pieces alternatively  from  the  board.  The player  can  remove  any  number  of  consecutive pieces  in a row or column.
+For example,  in  the configuration depicted below where one  indicates  a 
+piece,  the  player  can  either  remove  one  piece  (<B>A1</B>, <B>A2</B>,  or 
+<B>B1</B>),  or remove two pieces (<B>A1</B> and <B>A2</B>, or <B>A1</B> and
+<B>B1</B>) simultaneously. The game ends when one player is forced to take the
+last piece, and the other player wins the game.
+
+<P>
+
+<P>
+<BR>
+
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1">
+<TR><TD ALIGN="CENTER"> </TD>
+<TD ALIGN="CENTER"><B> 1</B></TD>
+<TD ALIGN="CENTER"><B> 2</B></TD>
+<TD ALIGN="CENTER"><B> 3</B></TD>
+<TD ALIGN="CENTER"><B> 4</B></TD>
+<TD ALIGN="CENTER"><B> 5</B></TD>
+</TR>
+<TR><TD ALIGN="CENTER"><B> A</B></TD>
+<TD ALIGN="CENTER">1</TD>
+<TD ALIGN="CENTER">1</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><B> B</B></TD>
+<TD ALIGN="CENTER">1</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><B> C</B></TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><B> D</B></TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><B> E</B></TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+<TD ALIGN="CENTER">0</TD>
+</TR>
+</TABLE></DIV>
+
+<P>
+
+<P>
+<BR>
+Write  a  program  that  evaluates  board  configurations  from  this  game.  
+The  program must  output  "winning" when there exists a winning move
+that no matter how the opponent responds, it will force the opponent to take
+the last piece. Otherwise, the program must output "losing". 
+
+<h3>Input</h3>
+<p> 
+The first line contains <b>n</b>, the number
+of test cases.  For each test case, a 5x5 grid
+of an initial game configuration is shown.
+<h3>Output</h3>
+<p>
+For each case, output "winning" or "losing".
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 
+1 0 0 0 0 
+1 1 0 0 0 
+1 1 1 0 0 
+1 1 1 1 0 
+1 1 1 1 1
+
+<b>Output:</b>
+winning
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2007-11-13</td></tr>
+<tr><td>Time limit:</td><td>0.059s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Adapted from Taiwan TPC 1999, Harder datasets.</td></tr>	
+</table>

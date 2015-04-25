@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NITT4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12324. Tiles</h1>
+		<h2>Problem code: NITT4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a N x M floor with few blocks already filled, check if it is possible to fill the remaining space with only 2 x 1 blocks, if it is not possible, print the minimum number of 1 x 1 blocks required to fill the floor&nbsp;completely.</p>
+<h3>Input</h3>
+<p>First line contains N (number of rows), M (number of columns), B (number of already blocked cells), followed by B lines each containing 2 integers x, y coordinates of the blocked cell</p>
+<p>1 &lt;= N &lt;= 100, 1 &lt;= M &lt;= 100, 0 &lt;= B &lt;= N*M</p>
+<h3>Output</h3>
+<p>If it is possible to fill the floor with only 2 x 1 tiles, print Yes, else print No and the minimum number of 1 x 1 tiles required.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 1 0</pre>
+<pre><strong>Output:</strong>
+No 1</pre>
+<pre><strong>Input:</strong></pre>
+<pre>2 2 0</pre>
+<pre><strong>Output:</strong></pre>
+<pre><strong></strong>Yes</pre>
+<pre><strong>Input:</strong></pre>
+<pre><strong></strong>2 2 2</pre>
+<pre>0 1</pre>
+<pre>1 0</pre>
+<pre><strong>Output:</strong></pre>
+<pre><strong></strong>No 2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/chakradarraju">jack(chakradarraju)</a></td></tr>
+<tr><td>Date:</td><td>2012-09-30</td></tr>
+<tr><td>Time limit:</td><td>0.210s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY NODEJS PYPY PYTH 3.2.3 n PY3.4 SCM chicken VB.net </td></tr>
+	
+</table>

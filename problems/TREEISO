@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TREEISO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7826. Tree Isomorphism</h1>
+		<h2>Problem code: TREEISO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given two undirected trees T1 and T2 with equal number of vertices N (1 &le; N &le; 100,000) numbered 1 to N, find out if they are isomorphic.<br /><br />Two trees T1 and T2 are isomorphic if there is a bijection f between the vertex sets of T1 and T2 such that any two vertices u and v of T1 are adjacent in T1 if and only if f(u) and f(v) are adjacent in T2.</p>
+<h3>Input</h3>
+<p>The first line of input contains the number of test cases nTest (1&lt;= nTest &lt;= 400). Each test case contains:</p>
+<ul>
+<li>The first line contains the number of nodes N.</li>
+<li>Each of next N-1 lines contain two integers A, B, denoting that there is an edge in T1 between nodes A and B (1 &le; A, B &le; N).</li>
+<li>Each of next N-1 lines contain two integers A, B, denoting that there is an edge in T2 between nodes A and B (1 &le; A, B &le; N).</li>
+</ul>
+<p>The sum of N over all test cases will not exceed 100,000.</p>
+<h3>Output</h3>
+<p>For each test case print YES if T1 and T2 are isomorphic and NO otherwise.&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />4<br />4 2<br />4 1<br />2 3<br />4 2<br />2 3<br />4 1<br />5<br />3 4<br />3 2<br />3 5<br />3 1<br />3 4<br />4 2<br />2 5<br />2 1
+
+<strong>Output:</strong>
+YES<br />NO
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/indy256">Andrey Naumenko</a></td></tr>
+<tr><td>Date:</td><td>2010-11-10</td></tr>
+<tr><td>Time limit:</td><td>0.261s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

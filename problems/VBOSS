@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VBOSS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3867. Who is The Boss</h1>
+		<h2>Problem code: VBOSS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Several surveys indicate that the taller you are, the higher you can climb the corporate ladder. At TALL Enterprises Inc. this "de facto standard" has been properly formalized: your boss is always at least as tall as you are. Furthermore, you can safely assume that your boss earns a bit more than you do. In fact, you can be absolutely sure that your immediate boss is the person who earns the least among all the employees that earn more than you and are at least as tall as you are. Furthermore, if you are the immediate boss of someone, that person is your subordinate, and all his subordinates are your subordinates as well. If you are nobody's boss, then you have no subordinates. As simple as these rules are, many people working for TALL are unsure of to whom they should be turning in their weekly progress report and how many subordinates they have. Write a program that will help in determining for any employee who the immediate boss of that employee is and how many subordinates they have. Quality Assurance at TALL have devised a series of tests to ensure that your program is correct. These test are described below.</p>
+
+<h3>Input</h3>
+<p>On the first line of the input is a single positive integer n, telling the number of test scenarios to follow. Each scenario begins with a line containing two positive integers m and q, where m (at most 30000) is the number of employees and q (at most 200) is the number of queries. The following m lines each list an employee by three integers on the same line: employee ID number (six decimal digits, the first one of which is not zero), yearly salary in Euros and finally height in &#956;m (1 &#956;m = 10-6 meters - accuracy is important at TALL). The chairperson is the employee that earns more than anyone else and is also the tallest person in the company. Then there are q lines listing queries. Each query is a single legal employee ID.</p>
+<p>The salary is a positive integer which is at most 10 000 000. No two employees have the same ID,and no two employees have the same salary. The height of an employee is at least 1 000 000 &#956;m and at most 2 500 000 &#956;m.</p>
+
+<h3>Output</h3>
+<p>For each employee ID x in a query output a single line with two integers y k, separated by one space character, where y is the ID of x's boss, and k is the number of subordinates of x. If the query is the ID of the chairperson, then you should output 0 as the ID of his or her boss (since the chairperson has no immediate boss except, possibly, God). </p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 3
+123456 14323 1700000
+123458 41412 1900000
+123457 15221 1800000
+123456
+123458
+123457
+4 4
+200002 12234 1832001
+200003 15002 1745201
+200004 18745 1883410
+200001 24834 1921313
+200004
+200002
+200003
+200001
+
+<b>Output:</b>
+123457 0
+0 2
+123458 1
+200001 2
+200004 0
+200004 0
+0 3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nkvuong">Phenomenal</a></td></tr>
+<tr><td>Date:</td><td>2009-02-15</td></tr>
+<tr><td>Time limit:</td><td>0.219s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NWERC 2003</td></tr>	
+</table>

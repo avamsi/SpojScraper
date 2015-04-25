@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MWORDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>697. Matrix Words</h1>
+		<h2>Problem code: MWORDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+Given an NxN matrix of characters. We start at position (1,1) and want to reach (N,N) in exactly 2N-1 moves. Each move consists of movement in one of the four standard directions. As we move, we collect the characters found in our positions forming a string. We now constrain our attention to all paths that do not cross the diagonal of
+the matrix. However the parts of the path can be on the diagonal line. These paths can be classified into two partitions; the paths that lie above and paths that lie below the diagonal. Each path is represented by a string of characters formed by the ordered concatenation of
+characters found on the way. If we consider the set of all valid paths, (both upper and lower) get their corresponding strings, sort them all in alphabetical order, we obtain the (ordered) master set. Note that
+the master set might contain duplicates, and all strings in the master set consist of exactly 2N-1 characters. Let M be the total number of strings in the master set, given an integer I, we need to find the string with index = I (modulo M) within the master set.<br>
+  If Master Set = { &#8220;A&#8221;,&#8221;B&#8221;,&#8221;B&#8221;,&#8221;C&#8221; } (although this set can never be a master set!)<br>
+  I=0 produces &#8220;A&#8221;, while I=2 and I=5, produces &#8220;B&#8221;.</p>
+<p><strong>Constraints: </strong><br>
+  N<=30.<br>
+  I<=10<sup>18</sup>. &#8216;I&#8217; will fit into a 64-bit integer.</p>
+
+<h3>Input</h3>
+<p>  T-number of test cases<br>
+  N I<br>
+  Next is the NxN matrix of characters, N characters per line.<br>
+  All characters are between &#8216;A&#8217;-&#8216;Z&#8217; (only uppercase).</p>
+
+<h3>Output</h3>
+<p>For each test case output the corresponding string sought for in the master set.</p>
+
+<h3>Example</h3>
+<tt>
+<p><strong>Sample Input:</strong><br>
+  2 <br>
+  3 18<br>
+  DAA<br>
+  BDA<br>
+  BBD <br>
+
+  3 18<br>
+  DAA<br>
+  ADA<br>
+  AAD</p>
+<p><strong>Sample Output:</strong><br>
+  DBBBD<br>
+
+  DADAD</p>
+</tt>
+<p><strong>Explanation: </strong><br>
+  Test case I: Master Set = { &#8220;DAAAD&#8221;, &#8220;DADAD&#8221;,&#8221;DBBBD&#8221;,&#8221;DBDBD&#8221;}<br>
+  Test case II: Master Set = { &#8220;DAAAD&#8221;,&#8221;DAAAD&#8221;,&#8221;DADAD&#8221;,&#8221;DADAD&#8221;}<br>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2006-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.212s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://pragyan.org/bytecode/2k6/"> ByteCode '06 </a></td></tr>	
+</table>

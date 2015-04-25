@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LONGCS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10570. Longest Common Substring</h1>
+		<h2>Problem code: LONGCS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Substrings are consecutive parts of a string. A problem usually solved with dynamic programming<br />is to find the longest common substring problem is to find the longest string (or strings) that is a<br />substring (or are substrings) of two strings.<br />Your task is to find the length of the longest common substring of K strings.</p>
+<h3>Input</h3>
+<p>The first line contains an integer T, the number of test cases (1 &le; T &le; 20) . Each test case, consists<br />of one line containing an integer K (1 &le; K &le; 10), and K lines, each containing a string (length of<br />s &lt;= 10^4), the strings only contain the character &lsquo;a&rsquo; &ndash; &lsquo;z&rsquo;.</p>
+<h3>Output</h3>
+<p>Output T lines, one for each test case, containing the required sequence, with a blank space<br />between consecutive terms. It is guaranteed that all terms in the sequence are integers.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2 <br />2 <br />aaabbb <br />bbaabb <br />3 <br />icode <br />coder <br />contest
+
+<strong>Output:</strong>
+4<br />2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>0.280s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UNI</td></tr>	
+</table>

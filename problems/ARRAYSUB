@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ARRAYSUB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10582. subarrays</h1>
+		<h2>Problem code: ARRAYSUB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px; line-height: 20px; text-align: left;">Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.</span></p>
+<h3>Input</h3>
+<p>the number n denoting number of elements in the array then after a new line we have the numbers of the array</p>
+<p>and then k in a new line</p>
+<p>n&lt;10^6</p>
+<p>k&lt;10^5</p>
+<p>1 &lt;= k &lt;=n</p>
+<p>and each element of the array is between 0 and 10^6</p>
+<h3>Output</h3>
+<p>print the output array</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+9</pre>
+<pre><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px; line-height: 20px; text-align: left;">1  2  3  1  4  5  2  3  6</span>
+3
+<strong>Output:</strong>
+<span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px; line-height: 20px; text-align: left;">3 3 4 5 5 5 6</span></pre>
+<pre><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px; line-height: 20px; text-align: left;"><br /></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/priyamehtanit">priyamehtanit </a></td></tr>
+<tr><td>Date:</td><td>2012-02-09</td></tr>
+<tr><td>Time limit:</td><td>0.222s-0.972s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

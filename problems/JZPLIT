@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JZPLIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9534. Turn on the lights</h1>
+		<h2>Problem code: JZPLIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Recently Zippy received a puzzle. It is an n*m matrix. In each cell of the matrix, there is a switch and a light. Once he flips the switch in a cell, lights in the same column or the same row as the cell (including itself) change to its opposite state (which means: on-&gt;off off-&gt;on). Zippy wants to turn on all the lights. Please help him to solve the puzzle.</p>
+<h3>Input</h3>
+<p>First line, n, m.</p>
+<p>The following n lines, each line is a m-length string, represting the original state. (0 means on and 1 means off)</p>
+<p>1&lt;=n,m&lt;=1000</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 42px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">First line, n, m.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 42px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The following n lines, each line is a m-length string, represting the original state. (0 means on and 1 means off)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 42px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1&lt;=n,m&lt;=100</div>
+<h3>Output</h3>
+<p>n lines, each line is a m-length string. It's obvious that if a valid solution exists, there exists a solution that every switch is flipped no more than once. So 1 means the switch is flipped once and 0 means the swtich remains unflipped.&nbsp;</p>
+<p>It's guaranteed that there always exists a solution. If there are multiple solutions, output any of them.&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2 3
+010
+010
+
+<strong>Output:</strong>
+010
+101<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sevenk">sevenkplus</a></td></tr>
+<tr><td>Date:</td><td>2011-09-12</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

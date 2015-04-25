@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/simba"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/QUEST4" target="_blank">660. Dungeon of Death</a></td><td><a href="http://www.spoj.com/problems/QUEST4"target="_blank">QUEST4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QUEST5" target="_blank">661. Nail Them</a></td><td><a href="http://www.spoj.com/problems/QUEST5"target="_blank">QUEST5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBS" target="_blank">665. String it out</a></td><td><a href="http://www.spoj.com/problems/SUBS"target="_blank">SUBS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VOCV" target="_blank">666. Con-Junctions</a></td><td><a href="http://www.spoj.com/problems/VOCV"target="_blank">VOCV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IM" target="_blank">962. Intergalactic Map</a></td><td><a href="http://www.spoj.com/problems/IM"target="_blank">IM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EN" target="_blank">964. Entrapment</a></td><td><a href="http://www.spoj.com/problems/EN"target="_blank">EN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PB" target="_blank">967. Parking Bay</a></td><td><a href="http://www.spoj.com/problems/PB"target="_blank">PB</a><br>
+</td></tr>

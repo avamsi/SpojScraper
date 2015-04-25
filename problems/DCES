@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9543. Dynamic Congruence Equation System</h1>
+		<h2>Problem code: DCES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider the congruence equation system as the following form:<br /><br />x[1] = k1 x[p1] + b1 (mod 10007)<br />x[2] = k2 x[p2] + b2 (mod 10007)<br />...<br />x[n] = kn x[pn] + bn (mod 10007)<br /><br />We will ask you to achieve some instructions as the following form:</p>
+<ul>
+<li>A i: Ask the current x[i]'s value. (or "-1" for no solution, "-2" for multiply solution.)</li>
+<li>C i k p b: Modify the ith congruence equation to a new one.</li>
+</ul>
+<h3>Input</h3>
+<p>The first two lines are N and Q.<br />Than following Q lines are the query above.</p>
+<p>(.. N &le; 30, 000, Q &le; 100, 000 .. .)</p>
+<h3>Output</h3>
+<p>For each query, print the result.</p>
+<h3>Example</h3>
+<pre><strong>Input 1:</strong><br />5<br />2 2 1<br />2 3 2<br />2 4 3<br />2 5 4<br />2 3 5<br />5<br />A 1<br />A 2<br />C 5 3 1 1<br />A 4<br />A 5 </pre>
+<pre><strong>Output 1:</strong><br />4276<br />7141<br />4256<br />2126<br /><strong><br />Input 2:</strong><strong><br /></strong>4<br />0 1 0<br />1 3 0<br />1 4 0<br />1 2 0<br />6<br />A 1<br />A 2<br />A 3<br />A 4<br />C 1 1 5 1<br />A 1<br /><strong><br />Output 2:</strong><br />0<br />-2<br />-2<br />-2<br />-1<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lychees">xiaodao</a></td></tr>
+<tr><td>Date:</td><td>2011-09-14</td></tr>
+<tr><td>Time limit:</td><td>0.071s-0.140s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FHQ's query</td></tr>	
+</table>

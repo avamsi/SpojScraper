@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPEC_SET"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18829. Special Set</h1>
+		<h2>Problem code: SPEC_SET</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Little boy Sai is fascinated with Natural Numbers. He especially likes Special Sets of order <strong>k</strong>. A set of numbers <strong>S</strong>,&nbsp;is called Special Set of order k if, for any two numbers <strong>x</strong>&nbsp;and <strong>y </strong><strong>(not necessarily distinct) &nbsp;</strong>belonging to <strong>S</strong>, <strong>x should not be equal to k*y</strong>.&nbsp;</p>
+<p>Now, Sai wants to find the size of maximum possible Special Set formed out of the numbers <strong>1,2,3...n. </strong>Hope you can help him.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>First line contains <strong>t(1&lt;=t&lt;=10<sup>5</sup>)</strong>, the number of test cases. Next <strong>t</strong> lines contain two space separated integers <strong>n</strong>&nbsp;and <strong>k</strong>.</p>
+<p><strong>1&lt;=n,k&lt;=10<sup>8</sup></strong></p>
+<h3>Output</h3>
+<p>For each test case, output on a single line the size of maximal Special set.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>6 2
+
+<strong>Output:</strong>
+</pre>
+<pre>4</pre>
+<pre><strong><strong>Explaination:</strong></strong></pre>
+<pre>For the above case, the maximal Special set is: 1,3,4,5</pre>
+<pre><strong><br /></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nitish712">nitish rao</a></td></tr>
+<tr><td>Date:</td><td>2014-03-04</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own Problem</td></tr>	
+</table>

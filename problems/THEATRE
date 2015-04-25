@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/THEATRE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14156. Movie Theatre Madness</h1>
+		<h2>Problem code: THEATRE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3 style="text-align: left;">Problem Statement</h3>
+<p>A group of friends have gone to watch the first day first show of an awesome new movie. However, since they did not book the tickets well in advance, they have ended up with crazy seats. To be more specific, rather than getting seats such that all the friends are seated in the same row, they have ended up with seats such that all of them are seated in the same column! Now this is very inconvenient since they won't be able to chat with each other during the movie or have any kind of fun, but they are okay with this since they'd rather watch the movie like this, than not watch the movie at all.<br /><br />But there is another problem apart from this. Now we know that all the friends are seated in a single column, one behind the other. Since all of them reached the theatre just in time for the movie, they rushed and occupied the first of the booked seats that they could find. However all the friends have different heights, and due to the lack of planning, there is no guarantee that a shorter person is always seated in front of a taller person. But this would mean that the shorter person would struggle to see the screen throughout the movie !<br /><br />But the movie has started and it's too late now to do anything. <br /><br />What you need to do is the following : For every person, find the height of the closest person seated in front of him/her who is blocking his/her view ( that is, the<span style="text-decoration: underline;"> person closest in front with a greater height</span> ). If no such person exists, take this height as 1. Print the product of all such values modulo 1000000007.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Input</h3>
+<p>On the first line you have a single integer N ( 2&lt;=N&lt;=10<sup>5</sup> ), the total number of friends.<br /><br />This is followed by N space separated integers a<sub>1</sub> a<sub>2</sub>.... a<sub>N</sub>, which correspond to the <span style="text-decoration: underline;">height of the people from back to front.</span>That is, a<sub>1</sub> is the height of the person seated on the last row, a<sub>2</sub> is the height of the person seated on the second last row ( just in front of a<sub>1</sub> ) and so on... uptil a<sub>N</sub> which is the height of the person seated right at the very front ( 1&lt;=a<sub>i</sub>&lt;=10<sup>9</sup> ).<strong><span style="text-decoration: underline;"> </span></strong><span style="text-decoration: underline;">Note that all these integers are distinct.</span></p>
+<h3 style="text-align: left;">Output</h3>
+<p>On a single line, output the result. ( For every person, find the height of the closest blocking person. <span style="text-decoration: underline;">This value is 1 if no such person exists</span>. Print the product of all these values modulo 1000000007 ).<br /><br /><span style="text-decoration: underline;"><strong>NOTE </strong><strong>:</strong><strong> </strong></span>By closest blocking person to a<sub>i</sub> we mean find a<sub>j</sub>, such that a<sub>j</sub>&gt;a<sub>i</sub>, j&gt;i, and ( j-i ) is minimum. ( Please look at sample test cases for further clarity )</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Example</h3>
+<pre><strong>Input #1:</strong><br />5<br />5 2 1 4 3<br />&nbsp;<br /><strong>Output #1:</strong><br />16<br /><strong><br /><br />Input #2:</strong><br />5<br />9 8 3 5 7<br /><br /><strong>Output #2:<br /></strong>35<strong><br /><br /><br />Input #3:<br /></strong>10<br />30 10 50 70 11 60 20 80 31 12<strong><br /><br />Output #3: <br /></strong>999962375<br /><br /><h3 style="text-align: left;">Explanation :</h3></pre>
+<p><span style="text-decoration: underline;">Input #1 </span>:</p>
+<p>blockingHeight( 5 ) = 1 ( since 5 is the tallest, no one is blocking him )<br />blockingHeight( 2 ) = 4<br />blockingHeight( 1 ) = 4 ( Note that although 3 is also taller that 1, 4 is closer to 1 )<br />blockingHeight( 4 ) = 1 ( No one blocking 4 )<br />blockingHeight( 3 ) = 1 ( No one blocking 3 )<br /><br />Answer=1*4*4*1*1=16</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arya5691">Gowri Sundaram</a></td></tr>
+<tr><td>Date:</td><td>2013-03-16</td></tr>
+<tr><td>Time limit:</td><td>0.256s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+	
+</table>

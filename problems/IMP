@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IMP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>62. The Imp</h1>
+		<h2>Problem code: IMP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+An Imp jumps on an infinite chessboard. Moves possible
+for the Imp are described by two pairs of integers:
+(a,b) and (c,d) - from square (x,y) the Imp
+can move to one of the squares: (x+a,y+b), (x-a,y-b),
+(x+c,y+d), (x-c,y-d). We want to know for which square
+different from (0,0) to which the Imp can jump from (0,0)
+(possibly in many moves) the value |x|+|y| is the lowest.
+</P>
+<H3> Task </H3>
+<P>
+Write a program which
+</P>
+<div align="justify">
+<ul>
+<li> reads from standard input two pairs (a,b) and (c,d) of
+integers, different from (0,0), describing moves of the Imp,
+</li>
+<li> determines a pair of integers (x,y) different from (0,0),
+for which the Imp can jump (possibly in many moves) from square (0,0)
+to square (x,y) and for which the value |x|+|y| is the lowest.
+</li>
+<li> writes out to standard output the value |x|+|y|.
+</li>
+</ul></div>
+
+
+<H3> Input </H3>
+<P>
+Ten test cases. Each test consists of four numbers a,b,c,d in one line, separated
+by spaces. <br>
+-100000 <= a, b, c, d <= 100000
+</P>
+
+<H3> Output </H3>
+<P>
+For every test case your program should write a single line with a number equal the lowest possible value |x|+|y|.
+</P>
+<H3>Example</H3>
+<pre><tt><b>Input:</b>
+13 4 17 5
+[and 9 test cases more]
+<b>Output:</b>
+2
+[and 9 answers more]
+</tt>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-15</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B>(Algorithm Tamers) 2003 Round V</td></tr>	
+</table>

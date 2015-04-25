@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BRPAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4202. Brackets Parade</h1>
+		<h2>Problem code: BRPAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Count the number of different correct bracket sequences consisting of k1 pairs of brackets of the 1st type, k2 pairs of brackets of the 2nd type, &#8230;, km pairs of brackets of the m-th type. The bracket sequence is considered correct in the following cases:<ul><li>empty sequence is correct;</li><li>if A is correct and B is correct then AB is correct;</li><li>if A is correct then (<sub>i</sub>A)<sub>i</sub> is correct where (<sub>i</sub> and )<sub>i</sub> are opening and closing brackets of the same type.</li></ul></p>
+
+
+<h3>Input</h3>
+<p>The first line of input is the number 0 < n <= 1000 of test cases. Each of the following n lines describe a test case. Each line starts with number 0 < m <= 100 the amount of different bracket types. Then m positive numbers k1, k2, &#8230;, km follow each separated with a space. Number ki is the amount of pairs of brackets of i-th type. The total amount of pairs of brackets is not greater than 1000.</p>
+
+<h3>Output</h3>
+<p>For each test case output a line containing single integer &#8211; the answer to the problem modulo 1000000007.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+1 4
+2 2 2
+3 1 2 3
+
+<b>Output:</b>
+14
+84
+7920
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2009-04-11</td></tr>
+<tr><td>Time limit:</td><td>0.159s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Open All-Ukrainian Collegiate Contest Semi-Final, 2009</td></tr>	
+</table>

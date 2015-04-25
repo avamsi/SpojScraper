@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SIRNUMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19270. SIR CHIRAG AND MAGIC NUMBERS</h1>
+		<h2>Problem code: SIRNUMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sir Chirag is famous for his 'Intelligencia". He found that <strong>Dukkar</strong>&nbsp;and <strong>Chapta</strong>&nbsp;were unable to solve a question.</p>
+<p>The magic Numbers are described as: The numbers are strictly positive, don't contain any leading zeroes. It has exaclty 'p' digits and if we move the last digit of the number to the beginning, it grows exactly 'x' times.&nbsp;</p>
+<p>Chirag Sir took the task to solve it. It took him minutes to solve. Now its your turn.</p>
+<p>You have to find the Minimum possible number that satisfies the above conditions Given 'p' and 'x'.</p>
+<h3>Input</h3>
+<p>First line contains the number of test cases T: 0&lt;T&lt;=50</p>
+<p>Next T lines contains two intergers <strong>p</strong> and <strong>x&nbsp;</strong></p>
+<p>0&lt;p&lt;=1000000 and 0&lt;x&lt;10</p>
+<h3>Output</h3>
+<p>If such a number is not possible then print "Impossible" (Without the quotes). else print the number.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>6 5</pre>
+<pre>1 2</pre>
+<pre>6 4
+
+<strong>Output:</strong>
+142857</pre>
+<pre>Impossible</pre>
+<pre>102564</pre>
+<pre>(observe that for the first test case : 142857x5 = 714285)</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prateeknischal">pika_pika</a></td></tr>
+<tr><td>Date:</td><td>2014-03-27</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Codeforces</td></tr>	
+</table>

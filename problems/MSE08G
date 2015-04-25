@@ -1,0 +1,97 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSE08G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4194. Another Lucky Numbers</h1>
+		<h2>Problem code: MSE08G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MSE08G/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MSE08G/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+ 
+John has recently arrived in Bucharest for the South Eastern 
+European Regional Contest. John is famous for his theory of lucky 
+numbers. That&#8217;s why all the contestants and spectators are very happy. 
+According to that theory  4 and  7 are lucky digits, and all the 
+other digits are not lucky. A lucky number is a number that contains 
+only lucky digits in decimal notation. A very lucky number is a number 
+that can be expressed as a product of several lucky numbers. A lucky 
+number by itself is considered to be very lucky. For  example, numbers 
+47, 49, 112 are very lucky. </p><p>
+Your task is to calculate the number of very lucky numbers that are 
+not less than A and not greater than B. Of course, numbers A and B are 
+given by John. </p><p>
+ 
+ 
+<h3>Input</h3>
+</p><p>
+The first line of the input contains a single integer T &#8211; a number 
+of test cases. Each of the next T lines contains two integers separated 
+by a single space &#8211; A and B. 
+</p><p>
+<h3>Output</h3>
+</p><p>
+Output must contain T lines &#8211; answers for the test cases. 
+Constrains: </p><p>
+1 &#8804; T &#8804; 7777, </p><p>
+1 &#8804; A &#8804; B &#8804; 1000000000000 (10^12).  </p><p>
+ 
+ 
+<h3>Sample</h3>
+<pre>
+Input :
+4 
+1 2 
+88 99 
+112 112 
+1 100 
+Ouput: 
+0 
+0 
+1 
+10 
+
+ 
+Hint: 
+Very lucky numbers for the last case are 4, 7, 16, 28, 44, 47, 49, 64, 74 and 77. 
+</pre>
+ 
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-04-10</td></tr>
+<tr><td>Time limit:</td><td>0.142s-1.018s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Southeastern European 2008</td></tr>	
+</table>

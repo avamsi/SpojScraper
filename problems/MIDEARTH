@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MIDEARTH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19899. Middle Earth</h1>
+		<h2>Problem code: MIDEARTH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Middle Earth&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Barbarians in Middle-Earth consider pillaging villages a sport and they are quite fond of it. Hussain the greatest barbarian in the world arrived to Gondor, and wants to prove himself by pillaging as many villages as he can.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">There are N villages in Gondor that Hussain can pillage in any order he likes, but to pillage village i he has to spend Ai golden coins from his personal bank account on weapons and armor to successfully pillage that village otherwise he will die in the attack, but if his attack is successful he will loot Bi golden coins and add it to his personal bank account.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Hussain starts with C golden coins in his bank account and due to his barbarian code of honor he will keep attacking villages until he either pillages all villages or dies.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Barbarians define a strong village if and only if Ai&gt;Bi, Hussain also knows based on the BEAA (Barbarian Enemy Analysis Algorithm) that in Gondor there will never be more than 15 strong villages.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">And because Hussain is a proud barbarian and wants to bring honor to his tribe he asked you to determine the maximum number of villages that he can successfully pillage.</div>
+<p>Barbarians in Middle-Earth consider pillaging villages a sport and they are quite fond of it. Hussain the greatest barbarian in the world arrived to Gondor, and wants to prove himself by pillaging as many villages as he can.&nbsp;</p>
+<p>There are N villages in Gondor that Hussain can pillage in any order he likes, but to pillage village i he has to spend Ai golden coins from his personal bank account on weapons and armor to successfully pillage that village otherwise he will die in the attack, but if his attack is successful he will loot Bi golden coins and add it to his personal bank account.&nbsp;</p>
+<p>Hussain starts with C golden coins in his bank account and due to his barbarian code of honor he will keep attacking villages until he either pillages all villages or dies.&nbsp;</p>
+<p>Barbarians define a strong village if and only if Ai&gt;Bi, Hussain also knows based on the BEAA (Barbarian Enemy Analysis Algorithm) that in Gondor there will never be more than 15 strong villages <strong>that could be attacked at any time </strong>(That means if there is a village that could never be attacked the algorithm will simply ignore it).&nbsp;</p>
+<p>And because Hussain is a proud barbarian and wants to bring honor to his tribe he asked you to determine the maximum number of villages that he can successfully pillage.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line of input contains T (the number of test cases).&nbsp;</p>
+<p>The first line of each test case contains 2 integers separated by spaces (1 &le; n &le; 10^5) and (1&le; C &le; 10^9).&nbsp;</p>
+<p>The following N lines contain 2 integers separated by spaces (1 &le; Ai, Bi &le; 10^9).&nbsp;</p>
+<h3>Output</h3>
+<p>The answer to each test case separated by a new line.&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 
+4 2 
+2 10 
+1 0 
+10 23 
+54 44
+
+<strong>Output:</strong>
+3 
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mrzero77">Alex Abbas</a></td></tr>
+<tr><td>Date:</td><td>2014-05-24</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

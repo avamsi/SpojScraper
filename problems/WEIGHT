@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WEIGHT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8284. Weighted Sum</h1>
+		<h2>Problem code: WEIGHT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given N integers, A[1] to A[N]. You have to assign weights to  these integers such that their weighted sum is maximized. The weights  should satisfy the following conditions :</p>
+<ol>
+<li> Each weight should be an positive integer. </li>
+<li> W[1] = 1 </li>
+<li> W[i] should be in the range [2, W[i-1] + 1] for i &gt; 1 </li>
+</ol>
+<p>Weighted sum is defined as S = A[1] * W[1] + A[2] * W[2] + ... + A[N] * W[N]</p>
+<h3>Input</h3>
+<p>There are multiple test cases. <br /> First line contains the number of test cases <br /> Each test case consists of a single line containing N. <br /> This is followed by N lines, each containing A[i]</p>
+<h3>Output</h3>
+<p>For each test case, output one line - the maximum weighted sum.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 <br />4 <br />1 <br />2 <br />3 <br />-4<br /><strong>Output:</strong>
+6<br /><strong>Explanation<br /></strong>The weights are 1,2,3,2<br /><br /></pre>
+<h3>Constraints</h3>
+<p>N &lt;= 10^6 <br /> | A[i] | &lt;= 10^6 <br /> Total number of test cases is around 10.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kunal_jain">Kunal Jain</a></td></tr>
+<tr><td>Date:</td><td>2011-02-07</td></tr>
+<tr><td>Time limit:</td><td>0.280s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>CodeCraft 11</td></tr>	
+</table>

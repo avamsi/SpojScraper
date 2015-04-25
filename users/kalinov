@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kalinov"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CYCLERUN" target="_blank">4574. Riding in cycles</a></td><td><a href="http://www.spoj.com/problems/CYCLERUN"target="_blank">CYCLERUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABCDEF" target="_blank">4580. ABCDEF</a></td><td><a href="http://www.spoj.com/problems/ABCDEF"target="_blank">ABCDEF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GREMLINS" target="_blank">4667. Gremlins</a></td><td><a href="http://www.spoj.com/problems/GREMLINS"target="_blank">GREMLINS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MINES4" target="_blank">5373. Four Mines</a></td><td><a href="http://www.spoj.com/problems/MINES4"target="_blank">MINES4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PATULJCI" target="_blank">5652. Snow White and the N dwarfs</a></td><td><a href="http://www.spoj.com/problems/PATULJCI"target="_blank">PATULJCI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZIGZAG" target="_blank">7019. Zig-Zag rabbit</a></td><td><a href="http://www.spoj.com/problems/ZIGZAG"target="_blank">ZIGZAG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPATTERN" target="_blank">7022. Cow Patterns</a></td><td><a href="http://www.spoj.com/problems/CPATTERN"target="_blank">CPATTERN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOLACI" target="_blank">7023. Cookies</a></td><td><a href="http://www.spoj.com/problems/KOLACI"target="_blank">KOLACI</a><br>
+</td></tr>

@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NUMTRY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11202. Number Theory</h1>
+		<h2>Problem code: NUMTRY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>f(n) and g(n) are two functions defined as following :</p>
+<p>f(n) = <span style="font-size: small;">&prod;</span>( p<sub>i</sub><sup>2e<sub>i</sub>+1</sup>+1 ), where p<sub>i</sub> is prime factor of n and e<sub>i</sub> is highest power of p<sub>i</sub> in n.</p>
+<p>g(n) = <span style="font-size: small;">&Sigma;</span>( n/gcd(n,i) ); 1 &lt;= i&nbsp; &lt;= n</p>
+<p>For a given value of n, you have to compute [f(n)/g(n)] % 1000000007.</p>
+<h3>Input</h3>
+<p>First line has T ( &lt;= 10000 ), next T lines has 2 &lt;= n &lt;= 10^12.</p>
+<h3>Output</h3>
+<p>[f(n)/g(n)] % 1000000007 for each test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />2<br />4
+
+<strong>Output:</strong><br />3<br />3 <br /><br /></pre>
+<p><strong>Warning:</strong> Test cases aren't random. Test files consist of large  primes, strong  pseudo primes, Carmichael numbers, squares of primes,  product of large  primes, worst possible test cases for fermat, miller  rabin and other  primality testing algorithms.</p>
+<p><strong>Note</strong>: You may try the<a href="../NUMTRYE"> tutorial version </a>( same test files, 5s-100s time limit ).<strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vipulmehta">XeRoN!X</a></td></tr>
+<tr><td>Date:</td><td>2012-03-23</td></tr>
+<tr><td>Time limit:</td><td>0.013s-1.192s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Number Theory</td></tr>	
+</table>

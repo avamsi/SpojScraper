@@ -1,0 +1,121 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CAKE3"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2159. Delicious Cake</h1>
+		<h2>Problem code: CAKE3</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Lenka likes to bake cakes since her childhood, when she has learned to bake from
+her mom.  She soon became a cake expert able to bake chocolate cakes, apple
+pies, muffins, cookies, cheese cakes, tortes and many other cakes. 
+</p>
+
+<p>
+Recently, she has started her studies of math at Comenius University in
+Bratislava.  In the first year she is taking combinatorics class. Today she is
+studying for the final exam. Since the brain needs a lot of sugar to study math,
+she has baked, just for herself, her favorite, very delicious, strawberry cake. 
+</p>
+
+<p>
+The cake, still hot, is lying on an <b>N</b>×<b>M</b> inch sheet pan. 
+Hungrily waiting for the cake to cool off Lenka came up with an interesting combinatorial question: 
+How many different possibilities to cut the cake are there so that every 
+connected piece consists of some number of 1×1 inch unit squares?
+</p>
+
+<H3>Problem specification</H3>
+
+<p>
+The cake can be viewed as a grid consisting of <b>N</b>×<b>M</b> unit squares.
+We are allowed to cut the cake along the grid lines. As a result the cake splits into
+several connected pieces. (Two unit squares remain connected 
+if they share a side which was not cut.) How many different ways are there to cut the cake? 
+We consider two cuttings of the cake to be the same if the resulting connected pieces 
+of both cuttings have the same shape and are at the same positions within the cake.
+In other words, we are only counting those cuttings where no cut leads between two
+unit squares that are in the same connected piece.
+</p>
+
+<p>
+The following picture ilustrates all the 12 different possible ways how to cut a 2×2 inch cake:
+<img alt="12 possible ways of cutting a 2×2 cake" src="/content/john_jones:cake3a.gif"><br>
+Note that cutting, for example, as on following picture<br> 
+<img alt="Not a good way of cutting" src="/content/john_jones:cake3b.gif"><br>
+is the same as not cutting at all.
+</p>
+
+
+<H3>Input specification</H3>
+
+<p>
+The first line of the input file contains an integer <b>T</b>
+specifying the number of test cases.
+Each test case is preceded by a blank line.
+</p>
+
+<p>
+Each test case consists of a single line with two positive integers <b>N</b> and <b>M</b> &#8211; dimensions of the cake.
+</p>
+
+<H3>Output specification</H3>
+
+<p>
+For each test case output a line with a single positive integer &#8211; the number of
+different possibilities how to cut the cake.
+</p>
+
+<h3>Example</h3>
+
+<b>Input:</b><br/>
+<pre>
+2
+
+1 2
+
+2 2
+</pre>
+
+<b>Output:</b><br/>
+<pre>
+2
+12
+</pre>
+<b>Note</b>
+<p>For all the test cases, <i>min</i>(<b>N</b>,<b>M</b>)<=5, <i>max</i>(<b>N</b>,<b>M</b>)<=130.</p>
+
+<b>Blue Mary's Note: The data has been enhanced on Feb.28, 2008 to avoid precalculated tables. Sorry to some users. </b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>1.060s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2007</td></tr>	
+</table>

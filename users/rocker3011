@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/rocker3011"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/FAST2" target="_blank">11383. Fast Sum of two to an exponent</a></td><td><a href="http://www.spoj.com/problems/FAST2"target="_blank">FAST2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROT" target="_blank">11906. Rescue On Time</a></td><td><a href="http://www.spoj.com/problems/ROT"target="_blank">ROT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HXH" target="_blank">15328. Hunter x Hunter</a></td><td><a href="http://www.spoj.com/problems/HXH"target="_blank">HXH</a><br>
+</td></tr>

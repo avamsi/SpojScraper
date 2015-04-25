@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DETER2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1772. Find The Determinant II</h1>
+		<h2>Problem code: DETER2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem you have to calculate the determinant of an N x N matrix whose entries are given by <b>m[i][j] = gcd(i,j)<sup>k</sup></b>, 1 &#8804; i,j &#8804; N.<br /><br />
+Here gcd(i,j) denotes the greatest common divisor of i and j.<br /><br />
+As the determinant D can grow very large, you have to print D%1000003.
+
+<h3>Input</h3>
+<p>First line of input consists of a single integer containing the number of test cases T ( equal to around 20), each of the following T lines contain two integers N and k where N is the size of the matrix and k is the exponent.<br />
+1 &#8804; N &#8804; 1000000<br />
+1 &#8804; k &#8804; 10<sup>9</sup><br />
+
+<h3>Output</h3>
+<p>One line corresponding to each test case containing the determinant modulo 1000003 for the corresponding test case.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+4 2
+2 4
+4 3
+
+
+<b>Output:</b>
+288
+15
+10192
+</pre>
+
+<b>Note</b>: You may want to solve <a href="https://www.spoj.pl/problems/DETER">DETER</a> first, in case you havent already solved it.
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ajaysomani">Ajay Somani</a></td></tr>
+<tr><td>Date:</td><td>2007-09-07</td></tr>
+<tr><td>Time limit:</td><td>0.230s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>"The Art of Computer Programming"</td></tr>	
+</table>

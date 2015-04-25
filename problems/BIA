@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BIA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>59. Bytelandian Information Agency</h1>
+		<h2>Problem code: BIA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>Bytelandian Information Agency (BIA) uses a net of <i>n</i> computers.
+The computers are numbered from <i>1</i> to <i>n</i>, and
+the computer number <i>1</i> is a server. The computers are connected
+by one-way information channels. Every channel connects a pair of computers.
+The whole network is organised in such a way that one can send information
+from the server to any other computer either directly or indirectly.
+</P>
+<p>
+When BIA acquires new information, the information is put on the server
+and propagated in the net. The chief of BIA considers what would happen
+if one computer stopped working (was blown away by terrorists for example).
+It could happen that some other computers would stop receiving information
+from the server, because the broken computer was a necessary transmitter.
+We will call such computers <i>critical</i>. For example in the situation
+in the picture below the critical computers are <i>1</i> and <i>2</i>. <i>1</i>
+is the server and all information sent from the server to <i>3</i> has to go
+through <i>2</i>.
+</p>
+<img src="/content/kfas:BIA.gif" alt="BIA computer net" width=300 height=249 border=0/>
+<H3> Task </H3>
+<P>
+Write a program which
+</P>
+<div align="justify">
+<ul>
+<li> reads a description of the net from standard input,
+</li>
+<li> finds all critical computers.
+</li>
+<li> writes the numbers of critical computers to standard output.
+</li>
+</ul></div>
+<H3> Input </H3>
+<P>
+Ten test cases (given one under another, you have to process all!).
+Each test case consists of several lines.
+In the first line there are numbers <i>n</i> and <i>m</i>. <i>n</i> denotes
+the number of computers in the net,<i>(2<=n<=5000)</i>. <i>m </i> denotes the
+number of information
+channels, <i>n-1<=m<=200000</i>. The following <i>m</i> lines describes a single information
+channel and consist of two integer numbers <i>a</i> and <i>b</i> separated by a space.
+It means the computer <i>a</i> sends information to computer <i>b</i> by that channel.
+You may assume there are no two channels which start and end at the same points <i>a, b</i>.
+</P>
+<H3> Output </H3>
+<P>
+For every testcase your program should write two lines. In the first line
+<i>k</i> - the number of critical computers in the net. In the second line
+<i>k</i> numbers separated by single spaces - the numbers of critical computers in increasing order.
+</P>
+<H3>Example</H3>
+<pre>
+<tt><b>Input:</b>
+4 5
+1 2
+1 4
+2 3
+3 4
+4 2
+[and 9 test cases more]
+</tt>
+<tt><b>Output:</b>
+2
+1 2
+[and 9 test cases more]
+</tt>
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-14</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B> (Algorithm Tamers)<br>Round IV, 2003</td></tr>	
+</table>

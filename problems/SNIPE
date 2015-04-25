@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNIPE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10421. Run, Snipe, Run</h1>
+		<h2>Problem code: SNIPE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Kevin, the Snipe, and her children (apparently Kevin is a girl) were reunited, all thanks to Russell and Mr. Fredricksen! Now the two humans have embarked to their next adventure, towards Poland, but Kevin just noticed her children stole Mr. Fredricksen's cane without him realizing. It must be returned before they go too far away!</p>
+<p style="text-align: center;"><img src="http://icpc.s3.amazonaws.com/summer-school-2012/usp-ime-1/kevin_the_snipe.jpg" alt="" width="445" height="321" /></p>
+<p>Kevin is not sure where they are now, but knows they went with their flying house somewhere to the northeast, and has narrowed it down to a few points where they might be resting. She will send some of her children to warn them of the missing cane. Each snipe can check multiple places, but since the house should be flying again soon, they can't waste any time and should always move to the north and/or to the east. Additionally, she wants to send the minimum number possible as long as every location on her list is visited.</p>
+<p>Your job is to help her determine this number.</p>
+<h3>Input</h3>
+<p>Input consists of several test cases.&nbsp;</p>
+<p>Each test case begins with a single integer <strong>N</strong> (1 &le; <strong>N</strong> &le; 1000), the number of places the house can be.</p>
+<p><strong>N</strong> lines follow, each containing two integers, <strong>e<sub>i</sub></strong> and <strong>n<sub>i</sub></strong>, the distance (in miles) to the east and to the north, respectively of the <strong>i</strong><sup>th</sup> place related to Kevin's position. 0 &le;<strong>e<sub>i</sub></strong>, <strong>n<sub>i</sub></strong> &le;= 10000.</p>
+<p>Input is terminated by a line containing a single integer zero.</p>
+<h3>Output</h3>
+<p>For each test case output a single integer: the minimum number of snipes needed to reach every place.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />1 1<br />2 2<br />3 3<br />4 4<br />5 5<br />5<br />1 5<br />2 4<br />3 3<br />4 2<br />5 1<br />5<br />0 1<br />1 1<br />1 2<br />2 2<br />2 3<br />0
+
+<strong>Output:</strong>
+1<br />5<br />1
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-17</td></tr>
+<tr><td>Time limit:</td><td>0.513s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IME/USP 1 - Brazilian ICPC Training Camp, Jan-Feb/2012</td></tr>	
+</table>

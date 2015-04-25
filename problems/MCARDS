@@ -1,0 +1,123 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCARDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4053. Card Sorting</h1>
+		<h2>Problem code: MCARDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MCARDS/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MCARDS/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+Dave&#8217;s little son Maverick likes to play card games, but being only four
+years old, he always lose when playing with his older friends. Also,
+arranging cards in his hand is quite a problem to him. 
+</p><p>
+When Maverick gets his cards, he has to arrange them in groups so that
+all the cards in a group are of the same color. Next, he has to sort 
+the cards in each group by their value &#8211; card with lowest value should
+be the leftmost in its group. Of course, he has to hold all the cards 
+in his hand all the time.</p><p>
+He has to arrange his cards as quickly as possible, i.e. making as 
+few moves as possible. A move consists of changing a position of 
+one of his cards.</p><p>
+Write a program that will calculate the lowest number of moves needed 
+to arrange cards.</p><p>
+ 
+ 
+<h3>Input</h3>
+</p><p>
+The first line of input file contains two integers C, number of colors
+(1 &#8804; C &#8804; 4), and N, number of cards of the same color (1 &#8804; N &#8804; 100), 
+separated by a space character. </p><p>
+Each of the next C*N lines contains a pair of two integers X 
+and Y, 1 &#8804; X &#8804; C, 1 &#8804; Y &#8804; N, separated by a space character. </p><p>
+Numbers in each of those lines determine a color (X) and a value (Y) 
+of a card dealt to little Maverick. The order of lines corresponds 
+to the order the cards were dealt to little Maverick.
+No two lines describe the same card.</p><p>
+
+ 
+<h3>Output</h3>
+</p><p>
+The first and only line of output file should contain the lowest number 
+of moves needed to arrange the cards as described above.
+</p><p>
+<h3>Sample</h3>
+<pre>
+CARDS.IN
+
+2 2
+2 1
+1 2
+1 1
+2 2
+
+CARDS.OUT
+
+2
+ 
+CARDS.IN
+
+4 1
+2 1
+3 1
+1 1
+4 1
+
+CARDS.OUT
+
+0
+ 
+CARDS.IN
+
+3 2
+3 2
+2 2
+1 1
+3 1
+2 1
+1 2
+
+CARDS.OUT
+2
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.164s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 01</td></tr>	
+</table>

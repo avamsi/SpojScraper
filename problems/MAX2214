@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAX2214"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11808. Max 2214</h1>
+		<h2>Problem code: MAX2214</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Max2214 is a game that consists of a board of <strong>R</strong> rows and <strong>C</strong> columns and two kinds of blocks: Some of the blocks are 2 cells high and 2 cells wide, the others are 1 cell high and 4 cells wide.  Some of the cells of the board might be marked. The objective of the game is to place the most blocks on top of the board in a way that the blocks are aligned to the rows and columns, no pair of blocks overlap, marked cells do not contain any block, and the 1x4 blocks are placed horizontally exclusively. Also, blocks must be completely inside the board.</p>
+<h3>Input</h3>
+<p>The input consists in a single test case with a 15 seconds execution limit.</p>
+<p>The test case begins with 2 integers <strong>R</strong> and <strong>C </strong>in a single line: (1 &lt;= <strong>R </strong>&lt;= 52) (1 &lt;=<strong> C</strong> &lt;= 22).</p>
+<p>The next <strong>R</strong> lines contain <strong>C</strong> characters. Each character represents a cell. If a character is X, it means the cell is a marked cell. If the character is '.' (A dot character) it means the cell is not marked.</p>
+<h3>Output</h3>
+<p>Show a single line containing the maximum quantity of blocks that can be placed in the board following the rules mentioned above.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre>4 5<br />X....<br />X..XX<br />X..XX<br />....X</pre>
+<strong>Output:</strong> <br />
+<pre>3</pre>
+<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vexorian">Vexorian</a></td></tr>
+<tr><td>Date:</td><td>2012-07-01</td></tr>
+<tr><td>Time limit:</td><td>1.976s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>First international programming camp - Bolivia</td></tr>	
+</table>

@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COINS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>346. Bytelandian gold coins</h1>
+		<h2>Problem code: COINS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+In Byteland they have a very strange monetary system.
+<p>
+Each Bytelandian gold coin has an integer number written on it. A coin n
+can be exchanged in a bank into three coins: n/2, n/3 and n/4.
+But these numbers are all rounded down (the banks have to make a profit).
+
+<p>
+You can also sell Bytelandian coins for American dollars. The exchange
+rate is 1:1. But you can not buy Bytelandian coins.
+
+<p>
+You have one gold coin. What is the maximum amount of American dollars
+you can get for it?
+
+<h3>Input</h3>
+<p>
+The input will contain several test cases (not more than 10). Each
+testcase is a single line with a number n, 0 <= n <= 1 000 000 000.
+It is the number written on your coin.
+
+
+<h3>Output</h3>
+<p>
+For each test case output a single line, containing the maximum amount
+of American dollars you can make.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+12
+2
+
+<b>Output:</b>
+13
+2
+</pre>
+
+<p>
+You can change 12 into 6, 4 and 3, and then change these into
+$6+$4+$3 = $13.
+
+If you try changing the coin 2 into 3 smaller coins, you will get
+1, 0 and 0, and later you can get no more than $1 out of them.
+It is better just to change the 2 coin directly into $2.
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tomek">Tomek Czajka</a></td></tr>
+<tr><td>Date:</td><td>2005-05-03</td></tr>
+<tr><td>Time limit:</td><td>9s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.cs.purdue.edu/homes/czajkat/progchal.html">Purdue Programming Contest Training</a></td></tr>	
+</table>

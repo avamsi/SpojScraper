@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KSELECT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12421. Chocolate Distribution</h1>
+		<h2>Problem code: KSELECT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Problem Statement</h3>
+<p>It is little John's birthday, and he has just received n boxes of chocolates as presents from his friends and family ( 1 &lt; n &lt;= 50 ). Now his mother knows that if she allows him to keep all the chocolates for himself, then he will definitely eat them all and end up with a stomach ache. So she instructs John to give one box each to each of the students in his class ( excluding himself ).<br /><br />Now John's class has k students, excluding himself, ( 1 &lt;= k &lt; 50 ) and the ith box of chocolates contains exactly a[ i ] chocolates inside ( 1 &lt;= a[ i ] &lt;= 1000 ). So John obviously wants to select the k boxes such that the sum of the chocolates in the remaining ( n-k ) boxes is maximized, so he has more chocolates for himself.<br /><br />This would be an easy task, except that John is very superstitious and wants to select these boxes in a very specific manner. He considers the number 4 and all its multiples to be extremely unlucky, and at no stage does he want the number of chocolates that he has to be a multiple of 4. Luckily, the sum of all the chocolates in all the n boxes is not a multiple of 4, and he wants to keep things that way.&nbsp; So, while distributing the boxes, he will only consider handing out a box, if the sum of the remaining chocolates that he has is not a multiple of 4.<br /><br />John is confused as to how he should do this, so please help him out. Your task is to help John select k boxes from the n boxes <span style="text-decoration: underline;">one at a time</span>, such that at no stage is the number of remaining chocolates a multiple of 4, and such that the final number of chocolates remaining with John is maximized ( and also not a multiple of 4 ). &nbsp;&nbsp; &nbsp;<br /><br /><span style="text-decoration: underline;">NOTE</span> : <strong>At every step</strong>, the sum of the chocolates in the remaining boxes must not be a multiple of 4. That is, after handing out the ith box, ( 1 &lt;= i &lt;= k ), the sum of the chocolates in the remaining ( n-i ) boxes should not be a multiple of 4.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Input</h3>
+<p>In the first line we have a single integer T - the number of test cases ( T &lt;= 55 ). Then T test cases follow.</p>
+<p>Each test case contains 2 lines. The first line contains 2 space separated numbers - n, the number of boxes ( 1 &lt; n &lt;= 50 ), and k, the number of students in John's class, excluding himself ( 1 &lt;= k &lt; 50&nbsp; )<br /><br />The second line contains n space separated numbers, such that the ith number ( a[ i ] ) denotes the number of chocolates in the ith box ( 1 &lt;= a[ i ] &lt;= 1000 ).</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Output</h3>
+<p>For each test case, on a single line, print the maximum possible chocolates that John can end up with after a valid distribution sequence. Print -1 if no such distribution exists.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Example</h3>
+<pre><strong>Input:</strong>
+<br />2<br />6 3<br />1 1 1 1 1 1<br />8 6 <br />1 6 1 10 1 2 7 11<br /><br /><strong>Output:</strong>
+<br />-1<br />21<br /><strong><br /><br />Explanation:</strong><br /><br /></pre>
+<p>For the first case, the initial total number of chocolates is 6. After giving away any one of the boxes, the sum of chocolates remaining with John becomes 5. At this point, it becomes impossible to select any of the remaining boxes without making the sum with John a multiple of 4.</p>
+<p><br />For the second test case, the maximum chocolates that can remain with John after a valid distribution sequence is 21.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arya5691">Gowri Sundaram</a></td></tr>
+<tr><td>Date:</td><td>2012-10-08</td></tr>
+<tr><td>Time limit:</td><td>0.123s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

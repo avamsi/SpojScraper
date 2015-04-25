@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CUTCAKE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17626. Eat all the brownies !</h1>
+		<h2>Problem code: CUTCAKE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">PROBLEM:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">BrownieDude was given the job of cutting cake at a party for serving the guests. But BrownieDude is both lazy and hungry, so he wants to cut the cake into maximum number of pieces with minimum number of cuts and go off to eating brownies.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The host of the party says that BrownieDude can cut the cake into unequal pieces but cannot cut in more than one plane.(Only vertical cuts are allowed.) Given the number of guests, find the number of cuts sufficient to generate the cake pieces.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">First line contains 't', the number of test cases. 't' lines follow.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each line denotes the number of guests.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">One number denoting the number of cuts.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Note: It is guaranteed that an integer solution will always exist.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Example Input:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Example Output:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Explanation for test cases: If there is only one guest, there is no need to cut the cake. If there are 2 guests, the cake can be cut into 2 pieces in 1 cut.</div>
+<p>BrownieDude was given the job of cutting cake at a party for serving the guests. But BrownieDude is both lazy and hungry, so he wants to cut the cake into maximum number of pieces with minimum number of cuts and go off to eating brownies.&nbsp;</p>
+<p>The host of the party says that BrownieDude can cut the cake into unequal pieces but cannot cut in more than one plane.(Only vertical cuts are allowed.) Given the number of guests, find the number of cuts sufficient to generate the cake pieces.</p>
+<p><span style="font-size: 1.17em;">Input</span></p>
+<p>First line contains 't', the number of test cases. 't' lines follow. (1 &lt;= t &lt;= 1000)</p>
+<p>Each line denotes the number of guests. (1 &lt;= n &lt;= 10^11)</p>
+<p><span style="font-size: 1.17em;">Output</span></p>
+<p>One number denoting the number of cuts.</p>
+<p>&nbsp;</p>
+<p>Note: It is guaranteed that an integer solution will always exist.</p>
+<p>&nbsp;</p>
+<p>Example Input:</p>
+<p>2</p>
+<p>1</p>
+<p>2</p>
+<p>&nbsp;</p>
+<p>Example Output:</p>
+<p>0</p>
+<p>1</p>
+<p>&nbsp;</p>
+<p>Explanation for test cases: If there is only one guest, there is no need to cut the cake. If there are 2 guests, the cake can be cut into 2 pieces in 1 cut.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codingcapo">Pandian</a></td></tr>
+<tr><td>Date:</td><td>2013-12-19</td></tr>
+<tr><td>Time limit:</td><td>0.390s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

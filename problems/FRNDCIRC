@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FRNDCIRC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15267. FRIEND CIRCLE</h1>
+		<h2>Problem code: FRNDCIRC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Lucy has made too many friends but she does not know how many friends are in her circle.&nbsp;Assume that every relation is mutual. If Lucy is Patty's friend, then Patty is also Lucy's friend. Your task is to help Lucy in keeping track of each person's circle size.</p>
+<h3>Input Specification</h3>
+<p>The first line of input contains one integer T (<em>T&lt;=10</em>) specifying the number of test cases to follow. Each test case begins with a line containing an integer N <em>(N&lt;=100000)</em>, the number of new relations. Each of the following <em>N</em>&nbsp;lines contains couple of strings denoting the names of two people who have just formed relation, separated by a space. Names will have no more than <em>20</em> characters.</p>
+<h3>Output Specification</h3>
+<p>Print a line containing one integer, the number of people in the combined circle&nbsp;of two people who have just become friends.</p>
+<h3>Input<span style="font-size: 10px;">&nbsp;</span></h3>
+<pre>1
+4
+Lucy Patty
+Patty Alice
+Alice Mira
+Tiffany Jayden </pre>
+<h3>Output</h3>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 135px; width: 1px; height: 1px; overflow: hidden;">2</div>2
+3
+4
+2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bit_cracker007">Vamos</a></td></tr>
+<tr><td>Date:</td><td>2013-06-26</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.579s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

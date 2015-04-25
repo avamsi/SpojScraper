@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RRSCHED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2826. Round-Robin Scheduling</h1>
+		<h2>Problem code: RRSCHED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A computer processor is given N tasks to perform (1 &#8804; N &#8804; 50,000). The i-th task requires T<sub>i</sub> seconds of processing time (1 &#8804; T<sub>i</sub> &#8804; 1,000,000,000). The processor runs the tasks as follows: each task is run in order, from 1 to N, for 1 second, and then the processor repeats this again starting from task 1. Once a task has been completed, it will not be run in later iterations. Determine, for each task, the total running time elapsed once the task has been completed.</p>
+
+<h3>Input</h3>
+<p>The first line of the input contains the integer N, and the next N lines contain the integers T<sub>1</sub> through T<sub>N</sub>.</p>
+
+<h3>Output</h3>
+<p>Output N lines, the i-th of which contains an integer representing the time elapsed when task i has been processed.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+8
+1
+3
+3
+8
+
+<b>Output:</b>
+22
+2
+11
+12
+23
+</pre>
+
+<p>The second task is completed during the first iteration, finishing 2 seconds in. On the third iteration, the third and fourth tasks complete at 11 seconds and 12 seconds, respectively. Finally, on the eighth iteration, the first and last tasks complete at 22 seconds and 23 seconds, respectively.</p>
+
+<center><b>Warning: large input/output data.</b></center>
+<br>
+
+<i><font size=1>Note: This problem statement is the exclusive and proprietary property of TopCoder, Inc. Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited. (c)2006, TopCoder, Inc. All rights reserved.</font></i>
+
+<p><font size=1>(See <a href="http://forums.topcoder.com/?module=Thread&threadID=608536&start=0&mc=30#956263">this post</a> for more information.)</font></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-07-02</td></tr>
+<tr><td>Time limit:</td><td>0.131s-0.305s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>TopCoder High School SRM 52 (with raised constraints)</td></tr>	
+</table>

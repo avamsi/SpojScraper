@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VNACM14H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23185. Pencil Game</h1>
+		<h2>Problem code: VNACM14H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Â  Â  Minh has a box of pencils. The box is a rectangle of size M ĂN, where position (i, j) has a pencil Â with a length of exactly i Ă N + j (0 â¤ i â¤ M-1, 0 â¤ j â¤ N-1). Note that position (0, 0) does not have any pencil hence having a length of 0.</p>
+<p>Â  Â  He wonders if he could select a sub-rectangle of the box and join all the pencils within that sub-rectangle together, to get a new long pencil that has a specific length L that he wants.</p>
+<p>Â  Â  Your task is to find a sub-rectangle of the box in which the total length of the contained pencils is L and return the area of that the sub-rectangle. If there are multiple solutions, return the smallest Â possible area. If thereâs no such sub-rectangle, return -1.</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Minh has a box of pencils. The box is a rectangle of size M ĂN, where position (i, j) has a pencilÂ </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">with a length of exactly i Ă N + j (0 â¤ i â¤ M-1, 0 â¤ j â¤ N-1). Note that position (0, 0) does not haveÂ </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">any pencil hence having a length of 0.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">He wonders if he could select a sub-rectangle of the box and join all the pencils within that sub-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">rectangle together, to get a new long pencil that has a specific length L that he wants.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Your task is to find a sub-rectangle of the box in which the total length of the contained pencilsÂ </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">is L and return the area of that the sub-rectangle. If there are multiple solutions, return the smallestÂ </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">possible area. If thereâs no s</div>
+<h3>Input</h3>
+<p>The input file consists of several datasets. The first line of the input file contains the number of</p>
+<p>datasets which is a positive integer and is not greater than 150. The following lines describe theÂ </p>
+<p>datasets.</p>
+<p>Â  Â  Each dataset contains three space-separated numbers M, N and L (1 â¤ M, N â¤ 10^6,Â 1 â¤ L â¤ 10^12) written in one line.</p>
+<h3>Output</h3>
+<p>Â  Â For each dataset, write in one line the smallest possible area of the sub-rectangle in which the total sum of pencil lengths is L. Write in one line -1 if there is no such sub-rectangle.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+2 3 8
+2 2 7</pre>
+<pre><strong>Output:</strong>
+4
+-1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hungsonvt">Gáş§y :))</a></td></tr>
+<tr><td>Date:</td><td>2015-03-09</td></tr>
+<tr><td>Time limit:</td><td>1s-8s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

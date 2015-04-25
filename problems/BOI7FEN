@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOI7FEN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7740. Fence</h1>
+		<h2>Problem code: BOI7FEN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Leopold is indeed a lucky fellow. He just won a huge estate in the lottery. The estate contains several grand buildings in addition to the main mansion, in which he intends to live from now on. However, the estate lacks a fence protecting the premises from trespassers, which concerns Leopold to a great extent. He decides to build a fence, but unfortunately he cannot afford to put it round all of his newly acquired land. After some thinking, he decides it is sufficient to have a fence that encloses the main mansion, except for one important restriction: the fence must not lie too close to any of the buildings.<br />To be precise, seen from above, each building is enclosed in a surrounding forbidden rectangle within which no part of the fence may lie. The rectangles&rsquo; sides are parallel to the x- and y-axis. Each part of the fence must also be parallel either to the x-axis or the y-axis.</p>
+<p><img title="Fence" src="http://vn.spoj.pl/SPOJVN/content/boi7fen.jpg" alt="Figure 5.1: The main mansion (black) and three other buildings with sur- rounding forbidden rectangles. The thick black line shows a shortest allowed fence enclosing the main mansion." width="633" height="348" /></p>
+<p>Figure 5.1: The main mansion (black) and three other buildings with surrounding forbidden rectangles. The thick black line shows a shortest allowed fence enclosing the main mansion.</p>
+<h3>Input</h3>
+<p>The first line of the input file contains a positive integer m (1 &le; m &le; 100), the number of buildings of the estate. Then follow m lines each describing a forbidden rectangle enclosing a building. Each row contains four space-separated integers tx, ty, bx, and by, where (tx, ty) are the coordinates of the upper left corner and (bx, by) the coordinates of the bottom right corner of the rectangle. All coordinates obey 0 &le; tx &lt; bx &le; 10,000 and 0 &le; ty &lt; by &le; 10,000. The first rectangle is the forbidden rectangle enclosing the main mansion.</p>
+<h3>Output</h3>
+<p>Contains one line with a single positive integer equal to the minimum length of any allowed fence enclosing the main mansion.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4<br />8 4 13 8<br />2 1 6 7<br />4 7 9 11<br />14 7 19 11<br /><strong>Output:</strong><br />32</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-04</td></tr>
+<tr><td>Time limit:</td><td>0.193s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Baltic Olympiad 2007</td></tr>	
+</table>

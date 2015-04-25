@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIV2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>530. Divisors 2</h1>
+		<h2>Problem code: DIV2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let N be a positive integer and d(N) be the number of positive divisors of  N including 1 and N. Your task is to compute all N in [1,10^6] for which d(N)&gt;3 and if M divides N then d(M) divides d(N) too.</p>
+<h3>Input</h3>
+<p>None.</p>
+<h3>Output</h3>
+<p>To make the problem less output related write out only every 108-th of them, one per line.</p>
+<h3>Example</h3>
+<pre><strong>Output:</strong>
+267
+511
+753
+...
+999579
+999781
+999977
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nosy">Noszály Csaba</a></td></tr>
+<tr><td>Date:</td><td>2005-05-24</td></tr>
+<tr><td>Time limit:</td><td>0.873s
+</td></tr>
+<tr><td>Source limit:</td><td>3333B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Folklore</td></tr>	
+</table>

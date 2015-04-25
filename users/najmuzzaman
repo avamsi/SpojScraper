@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/najmuzzaman"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NAJ0001" target="_blank">21356. Divisible Number Sum</a></td><td><a href="http://www.spoj.com/problems/NAJ0001"target="_blank">NAJ0001</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJPF" target="_blank">21524. Pattern Find</a></td><td><a href="http://www.spoj.com/problems/NAJPF"target="_blank">NAJPF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PPBRJB" target="_blank">21525. Red John is Back</a></td><td><a href="http://www.spoj.com/problems/PPBRJB"target="_blank">PPBRJB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PPBRQ" target="_blank">21526. Rotating Cube</a></td><td><a href="http://www.spoj.com/problems/PPBRQ"target="_blank">PPBRQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJMS" target="_blank">21572. Marble & store</a></td><td><a href="http://www.spoj.com/problems/NAJMS"target="_blank">NAJMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJHQ" target="_blank">21585. Hazzat&#8217;s Query</a></td><td><a href="http://www.spoj.com/problems/NAJHQ"target="_blank">NAJHQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJPWG" target="_blank">21615. Playing with GCD</a></td><td><a href="http://www.spoj.com/problems/NAJPWG"target="_blank">NAJPWG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAJGC" target="_blank">21616. Game of chocolate</a></td><td><a href="http://www.spoj.com/problems/NAJGC"target="_blank">NAJGC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CWC2015" target="_blank">23541. CWC-2015</a></td><td><a href="http://www.spoj.com/problems/CWC2015"target="_blank">CWC2015</a><br>
+</td></tr>

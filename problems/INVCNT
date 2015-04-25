@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INVCNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6256. Inversion Count</h1>
+		<h2>Problem code: INVCNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Let A[0...n - 1] be an array of n distinct positive integers. If i &lt; j and A[i] &gt; A[j] then the pair (i, j) is called an inversion of A. Given n and an array A your task is to find the number of inversions of A.</span></span></p>
+<h3><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Input</span></span></h3>
+<p style="text-align: justify;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">The first line contains t, the number of testcases followed by a blank space. Each of the t tests start with a number n (n &lt;= 200000). Then n + 1 lines follow. In the ith line a number A[i - 1] is given (A[i - 1] &lt;= 10^7). The (n + 1)th line is a blank space.</span></span></p>
+<h3><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Output</span></span></h3>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">For every test output one line giving the number of inversions of A.<br /></span></span></p>
+<h3><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Example</span></span></h3>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;"><strong>Input:</strong></span></span></p>
+<pre><span style="font-size: small;"><span style="font-family: verdana,geneva;"><span style="font-size: medium;">2<br /><br />3<br />3<br />1<br />2<br /><br />5<br />2<br />3<br />8<br />6<br />1<br /></span><br /><br /></span></span></pre>
+<p><span style="font-size: small;"><span style="font-family: verdana,geneva;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Output:</strong></span> <br /></span></span></p>
+<pre><span style="font-size: small;"><span style="font-family: verdana,geneva;"><span style="font-size: medium;">2<br />5</span><br /></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gooey_kablooie">Paranoid Android</a></td></tr>
+<tr><td>Date:</td><td>2010-03-06</td></tr>
+<tr><td>Time limit:</td><td>3.599s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+	
+</table>

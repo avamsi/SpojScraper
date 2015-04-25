@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NY10E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8611. Non-Decreasing Digits</h1>
+		<h2>Problem code: NY10E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A number is said to be made up of non-decreasing digits if all the digits to the left of any digit is less than or equal to that digit.For example, the four-digit number <strong>1234</strong> is composed of digits that are non-decreasing.&nbsp; Some other four-digit numbers that are composed of non-decreasing digits are<strong> 0011</strong>, <strong>1111</strong>, <strong>1112</strong>, <strong>1122</strong>, <strong>2223</strong>.&nbsp; As it turns out, there are exactly 715 four-digit numbers composed of non-decreasing digits. <br />&nbsp;<br />Notice that leading zeroes are required: 0000, 0001, 0002 are all valid four-digit numbers with non-decreasing digits. <br />&nbsp;<br />For this problem, you will write a program that determines how many such numbers there are with a specified number of digits.</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer P, (1 &le; P &le; 1000), which is the number of data sets that follow.&nbsp; Each data set is a single line that contains the data set number, followed by a space, followed by a decimal integer giving the number of digits N, (1 &le; N &le; 64).</p>
+<h3>Output</h3>
+<p>For each data set there is one line of output.&nbsp; It contains the data set number followed by a single space, followed by the number of N digit values that are composed entirely of non-decreasing digits.</p>
+<p><strong>Example</strong></p>
+<pre><strong>Input:</strong><br />3<br />1 2<br />2 3<br />3 4<br /><br /><strong>Output:</strong><br />1 55<br />2 220<br />3 715<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/johnm91">John Mario</a></td></tr>
+<tr><td>Date:</td><td>2011-03-22</td></tr>
+<tr><td>Time limit:</td><td>0.166s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Greater New York Regionals 2010</td></tr>	
+</table>

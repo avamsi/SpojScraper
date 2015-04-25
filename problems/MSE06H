@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSE06H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4226. Japan</h1>
+		<h2>Problem code: MSE06H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MSE06H/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MSE06H/vn/">Vietnamese</a></td> 
+</tr></table>
+
+ 
+<p>
+Japan plans to welcome the ACM ICPC World Finals and a lot of roads 
+must be built for the venue. Japan is tall island with N cities on the 
+East coast and M cities on the West  coast  (M  &#8804;  1000, N  &#8804;  1000).  
+K  superhighways  will  be  build. Cities  on  each 
+coast are numbered 1, 2, ... from North to South. Each superhighway is 
+straight line and connects city on  the East coast with city of  the 
+West coast. </p><p>
+The  funding  for  the construction is guaranteed by ACM. A major portion 
+of the sum is determined by the number of  crossings between  superhighways. 
+At most  two  superhighways  cross at one  location. Write a program  
+that calculates  the number of  the crossings between 
+superhighways. 
+<p> 
+The input file starts with T - the number of test cases. Each test case 
+starts with three numbers &#8211; N, M, K. Each of the next K lines contains 
+two numbers &#8211; the numbers of cities connected by  the superhighway. 
+The first one  is  the number of  the city on  the 
+East coast and second one is the number of the city of the West coast. 
+</p> <p>
+For each test case write one line on the standard output: 
+</p> <p>Test case "case number": "number of crossings" </p>
+
+<h3>Sample</h3>
+<pre>
+Input :
+1 
+3 4 4 
+1 4 
+2 3 
+3 2 
+3 1 
+Ouput: 
+Test case 1: 5
+</pre>
+
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-04-16</td></tr>
+<tr><td>Time limit:</td><td>0.124s-0.209s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Southeastern European 2006</td></tr>	
+</table>

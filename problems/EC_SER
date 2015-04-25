@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EC_SER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20930. Progression</h1>
+		<h2>Problem code: EC_SER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let be <strong>S</strong> a infinite secuence of integers:</p>
+<p>S<sub>0</sub> = <strong>a</strong>;<br /> S<sub>1</sub> = <strong>b</strong>;<br /> S<sub>i</sub> = |S<sub>i-2</sub> - S<sub>i-1</sub>| for all &nbsp;i &gt;= 2.</p>
+<p>You have two integers&nbsp;<strong>a</strong>&nbsp;and&nbsp;<strong>b. </strong>You must answer some queries about the n-th element in the secuence</p>
+<h3>Input</h3>
+<p>The first line contains <strong>a</strong> y <strong>b</strong> ( 0 &lt;=&nbsp; <strong>a,b</strong>&nbsp; &lt;= 10^18).</p>
+<p>The second line contains a integer&nbsp;<strong>q</strong> ( 1 &lt;= q &lt;= 100000 ).</p>
+<p>The third contains <strong>q</strong>&nbsp;integers <strong>q<sub>i</sub></strong>.</p>
+<h3>Output</h3>
+<p>For each <strong>q</strong><strong><sub>i</sub></strong>&nbsp;you must print a line with the q<sub>i</sub>-th elementh of&nbsp;<strong>S.</strong></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>21&nbsp;12</p><p>5</p>0 1&nbsp;2&nbsp;3&nbsp;4
+
+<strong>Output:</strong>
+<p>21</p><p>12</p><p>9</p><p>3</p><p>6</p><p>Note.- the values of q<sub>i</sub> are in the range of 64 bits</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/eddycael">Eddy Cael</a></td></tr>
+<tr><td>Date:</td><td>2014-09-05</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 JAVA </td></tr>
+<tr><td>Resource:</td><td>Internas UTO 2014</td></tr>	
+</table>

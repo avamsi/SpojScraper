@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VENOM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18937. Touch of Venom</h1>
+		<h2>Problem code: VENOM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Sometimes you have to try fighting even though you know that your enemy is very powerful than you. Your hero with initial health H is about to fight against a venomous enemy who has a poisonous value of P. The enemy's poison deals i*P damage at it's ith attacking chance(i>=1). The hero dies when his health becomes <=0. After enemy's attack, if the hero survives, he heals himself with a health of A by using his skills. Then the enemy gets the chance again and the cycle continues till the hero dies. Find the survival time of the hero. You can safely assume that the hero is mortal.<br/><br/>
+
+<p>Example Scenario:
+<p>Initial Health(H) = 10, Poison (P) = 2, Heal value(A) = 1
+<p>At time 1, enemy does 1*2 damage reducing the hero's health to 8
+<p>At time 2, hero heals himself by 1 increasing his health to 9
+<p>At time 3, enemy does 2*2 damage reducing the hero's health to 5
+<p>At time 4, hero heals himself by 1 increasing his health to 6
+<p>At time 5, enemy does 3*2 damage and kill the hero.
+<p>The hero survived 5 units of time.<br/><br/>
+
+<p><b>Input:</b>
+<p>The first line consists of an integer t, the number of test cases. For each test case there is a line with 3 integers H, P and A.<br/><br/>
+
+<p><b>Output:</b>
+<p>For each test case, find the survival time of the hero.<br/><br/>
+
+<p><b>Input Constraints:</b>
+<p>1<=t<=10^6
+<p>1<=H<=10^6
+<p>1<=P<=10^6
+<p>0<=A&lt;P<br/><br/>
+
+<p><b>Sample Input:</b>
+<p>3
+<p>3 7 2
+<p>81 4 1
+<p>87 8 4<br/><br/>
+
+<p><b>Sample Output:</b>
+<p>1
+<p>13
+<p>9<br/><br/>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2014-03-10</td></tr>
+<tr><td>Time limit:</td><td>0.75s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

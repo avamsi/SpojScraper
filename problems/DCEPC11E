@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC11E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16240. Easy Password</h1>
+		<h2>Problem code: DCEPC11E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-e7a7-682b-a5f6662a826f"> </span></span></p>
+<p><span style="font-size: small;"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">This is the year 2100. Pranjali ma&rsquo;am due to her intelligence survived this far, by her &ldquo;Secret Potion&rdquo; to freeze her age. She keeps her lotion in a very secret vault which is electronic password protected. This is a very special system designed by our great Sameer sir, which don&rsquo;t take any specific string as a password. Rather than it takes a &ldquo;Tree&rdquo;, yes you heard that right a &ldquo;Tree&rdquo; of numbers as a password. Your password should be exact to the tree both in structure and value to unlock the vault. Its high time and many hackers are trying to hack the system. So Pranjali ma&rsquo;am was bit worried and wanted to change the password. Some of the new passwords are very vulnerable so Sameer sir told not to use them. You have to make the </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">new password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> for Pranjali ma&rsquo;am to keep her &ldquo;Secret Potion&rdquo; safe. You are given </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">, and the one </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">restricted password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> provided by Sameer sir. The structure and value of both might not be same as Sameer sir don&rsquo;t know the exact password, he only know the current hacking pattern of the hackers.</span></span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">You have to make a </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">new password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> with same structure as </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">, with the nodes of </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> permuted in some order and any new node should not be exactly equal in position and value to </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">restricted password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">. The position of a node is defined by the sequence of moves (Left / Right) required to go down from the root to that node.</span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">If there are multiple answers, print the one whose difference is minimum from the </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">. </span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Calculating difference between trees :</span></p>
+<p><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Diff = |sum((old[node[i]] - new[node[i]])*10^i)| where i is n-1 to 0. The ordering of nodes is based on level order traversal of trees. i.e. i will be n-1 for root node and so on.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">First line contains t, number of test cases. In each test case first line contain n and m, n is the number of nodes of </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> and m is the number of nodes of </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">restricted password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">. Next line contains n space separated numbers(value of nodes of </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">). Next n lines contains expression like A B, in ith line A and B is the left and right child of node with index i(0 based). If there is no right or left child of a node -1 will be provided in place of any index. </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Next line contains m space separated numbers(value of nodes of </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">restricted password tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">).Then this tree is also described as the tree above. </span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">One integer. Minimum diff as per the above formula between </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">old tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> and </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">new tree</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> OR -1 if no such tree is possible.</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Constraints</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="line-height: 17px; white-space: pre-wrap;">1 &lt;= T &lt;= 50</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">0 &lt;= node_value &lt;= 9</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1 &lt;= n &lt;= 18</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Note:</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1. New tree can be same as old tree.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">2. If no such tree is possible print -1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3. All trees in the problem are Binary Trees</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: center;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Example</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Input :</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; white-space: pre-wrap; line-height: 1.15;">1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">3 3</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">5 4 8</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1 2</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">-1 -1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">-1 -1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">5 1 8</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1 2</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">-1 -1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">-1 -1</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output :</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">63</span></p>
+<p>&nbsp;</p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">Explanation :</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">According to the rule specified above the most feasible tree is rooted at node with value 4 and it's left child being 8 and right child being 5.</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> <br /></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">So the minimum diff is 63.</span><span style="font-size: small;"><span id="docs-internal-guid-667eb55e-85f3-ab06-4bde-7c5f3aad8c79"> </span></span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-10-05</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+	
+</table>

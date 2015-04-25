@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/QTREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>375. Query on a tree</h1>
+		<h2>Problem code: QTREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a tree (an acyclic undirected connected graph) with <b>N</b> nodes, and edges numbered 1, 2, 3...<b>N</b>-1.
+<p>We will ask you to perfrom some instructions of the following form:</p>
+<ul>
+<li><b>CHANGE i ti</b> : change the cost of the i-th edge to ti<br>
+or
+<li><b>QUERY a b</b> : ask for the maximum edge cost on the path from node a to node b
+</ul>
+
+<h3>Input</h3>
+<p>The first line of input contains an integer <b>t</b>, the number of test cases (<b>t</b> <= 20). t test cases follow.
+<p>For each test case:</p> 
+<ul>
+<li>In the first line there is an integer <b>N</b> (<b>N</b> <= 10000),
+<li>In the next <b>N</b>-1 lines, the i-th line describes the i-th edge: a line with three integers <b>a b c</b> denotes an edge between <b>a</b>, <b>b</b> of cost <b>c</b> (<b>c</b> <= 1000000),
+<li>The next lines contain instructions <b>"CHANGE i ti"</b> or <b>"QUERY a b"</b>,
+<li>The end of each test case is signified by the string "<b>DONE</b>".
+</ul>
+<p>There is one blank line between successive tests.
+
+<h3>Output</h3>
+<p>For each "<b>QUERY</b>" operation, write one integer representing its result.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+
+3
+1 2 1
+2 3 2
+QUERY 1 2
+CHANGE 1 3
+QUERY 1 2
+DONE
+
+<b>Output:</b>
+1
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2005-06-08</td></tr>
+<tr><td>Time limit:</td><td>0.851s
+</td></tr>
+<tr><td>Source limit:</td><td>15000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 C99 strict CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+	
+</table>

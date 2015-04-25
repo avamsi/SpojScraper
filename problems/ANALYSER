@@ -1,0 +1,114 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANALYSER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1455. Program Analyser</h1>
+		<h2>Problem code: ANALYSER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Input</h3>
+<p>A Program which has the following format:</p>
+<pre>
+&lt;Program>::=&lt;sentence>&lt;line break>{&lt;sentence>&lt;line break>}
+&lt;setence>::=&lt;level>&lt;space>&lt;body>
+&lt;body>::=&lt;addition> | &lt;output> | &lt;goto> | &lt;condition> | &lt;end>
+&lt;addition>::=&lt;variable>+&lt;integer>
+&lt;output>::=&lt;variable>?
+&lt;goto>::=GO&lt;space>&lt;level>
+&lt;condition>::=IF&lt;space>&lt;variable>=&lt;integer>&lt;space>&lt;goto>
+&lt;end>::=END
+&lt;variable>::=&lt;character>
+&lt;level>::=&lt;integer>
+&lt;integer>::=&lt;digit>{&lt;digit>}
+&lt;character>::=A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z
+&lt;digit>::= 0|1|2|3|4|5|6|7|8|9
+&lt;line break>::=(ASCII 10)
+&lt;space>::=(ASCII 32)
+</pre>
+<p>The program runs following the following rules:</p>
+<div align="justify">
+    <ul>
+        <li>
+        Program starts from the sentence whose level is minimum, and executed by the level from low to high except that the sentence is&lt;goto>or&lt;condition>.
+        <li>
+        All variables are initialized to 0.
+        <li>
+        &lt;Addition>means&lt;variable>+=&lt;integer>in C++.
+        <li>
+        &lt;output>means write the value of&lt;variable>to the output file(we aren't interesting about the real output file.)
+        <li>
+        &lt;condition>means if and only if the value of the &lt;variable> equals to &lt;integer>, &lt;goto> will be executed, otherwise the next sentence executed is as usual.
+        <li>
+        After&lt;goto>, the next sentence executed is the sentence with level which equals to the level in&lt;goto>.
+        <li>
+        Program terminates by itself when &lt;end> is executed.
+        <li>
+        The numbers during the program is running will fit in a signed 32-bit integer.
+        <li>
+        The number of sentences in the program is not more than 100.
+        <li>
+        The length of each line in the input file is not more than 20.
+        <li>
+        The input is correct.
+        <li>
+        The sentence with the maximum level is always &lt;end>.
+        <li>
+        Any level is not more than 3000.
+        </li>
+    </ul>
+</div>
+<p>Input terminate by EOF.</p>
+<h3>Output</h3>
+<p>Output the number of sentences executed.If the program can not terminate by itself,output -1.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+10 A+1
+20 IF A=5 GO 60
+60 END
+30 A+2
+40 A?
+50 GO 20
+
+<b>Output:</b>
+11
+
+<b>Hint:</b>
+10->20->30->40->50->20->30->40->50->20->60
+</pre>
+<h3>Note</h3>
+<p>You may try problem <a href="http://www.spoj.pl/problems/ANALYS_T">ANALYS_T</a> first. It's the same problem with this one and its time limit is not so strict.</p>
+
+<h3>Log</h3>
+<p>The time limit of this problem has been changed from 0.4/0.5 second to 1 second per test on Jun.5, 2008. All the solutions have been rejudged.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>0.070s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2000,Day 1; translated by Blue Mary</td></tr>	
+</table>

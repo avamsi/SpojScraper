@@ -1,0 +1,111 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DELCOMM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>409. DEL Command</h1>
+		<h2>Problem code: DELCOMM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>It is required to find out whether it is possible to delete given files
+from MS-DOS directory
+executing the DEL command of MS-DOS operation system only once.
+There are no nested subdirectories.</p>
+<h3>A note</h3>
+<P>
+DEL command has the following format: <TT>DEL</tt> <EM>wildcard</em>
+
+<P>
+
+<P>
+<BR>
+The actual wildcard as well as a full file name can be made up either of
+a name containing 1 up to 8
+characters or of a name and extension, containing up to 3 characters.
+The point character '.' separates the extension from the file name.
+The extension can be empty and this is equivalent to a
+name without any extension (in this case a wildcard ends with a point).
+In a wildcard the characters
+'?' and '*' can be used. A question mark substitutes exactly one character
+of the full file name
+excluding a point, an asterisk any sequence of characters
+(containing no points) even empty one.
+An asterisk can appear only at the last position of the name and the extension.
+
+<P>
+
+<P>
+<BR>
+MS-DOS system can permit maybe other wildcards but they can not be used
+in this task. File names
+and extensions consist only of Latin capitals and digits.
+
+<P>
+<h3>Input</h3>
+<p>The first line of the input is an integer M, then a blank line followed by M datasets. There is a blank line between datasets.
+
+<p>Input data for each dataset contains a list of full file names without empty lines
+and spaces. Each
+name is written in a separate line of input data file and preceded with
+a control sign: '-' for delete
+or '+' for keep. Full file names are not repeated. The list comprises
+at least one file, and at least one
+file is marked to be deleted. There are no more than 1000 files.
+
+<P>
+<h3>Output</h3>
+<p>
+For each dataset, write to the first line of output the required DEL command
+(only one
+proposal) or <TT>IMPOSSIBLE</tt> if there is no solution.
+A space should separate "<TT>DEL</tt>" from wildcard.
+<b>Print a blank line between datasets.</b>
+
+<P>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+1
+
+-BP.EXE
+-BPC.EXE
++TURBO.EXE
+
+<b>Output:</b>
+
+DEL ?P*.*
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-27</td></tr>
+<tr><td>Time limit:</td><td>4.809s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Northeastern European Regional Contest 1996</td></tr>	
+</table>

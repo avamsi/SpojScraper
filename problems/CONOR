@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CONOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20972. Alia and Cryptography</h1>
+		<h2>Problem code: CONOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div>
+<div id="problem-statement-preview">
+<p>Alia  is world&rsquo;s most widely acclaimed cryptographer. Recently she developed a  new way to encrypt passwords over the internet. Instead of using the  secret &ldquo;Key&rdquo;, now she intends to use a secret &ldquo;Key Matrix&rdquo; for  encryption.</p>
+<p>The &ldquo;Key Matrix&rdquo; consists of an integer matrix of dimensions m * n.  Besides, there are four coordinates x1, y1, x2, y2. The &ldquo;Key&rdquo; can be  retrieved from &ldquo;Key Matrix&rdquo; performing bitwise XOR(^) operation over all  the integers present in rectangle having its upper left corner as (x1,  y1) and lower right index as (x2, y2). (Note:  the matrix is 0 based)  Also Alia has developed new tools to regularly update his key to protect  it from &ldquo;attackers&rdquo;. So she will update the values of some cells from  time to time. You friend, being an expert hacker has finally retrieve  the &ldquo;Key Matrix&rdquo; . Now he only needs to use the matrix to retrieve the  key. Since this appears to be a tedious task, he turns to you. Help your  friend by retrieving the secret &ldquo;key&rdquo; from the &ldquo;key matrix&rdquo;.</p>
+<p>In brief, you&rsquo;ll have to do the following two operations over the matrix</p>
+<p>0 x1 y1 x2 y2 : Perform the XOR of all the integers present in the  rectangle having its upper left corner as (x1, y1) and lower right index  as (x2, y2).</p>
+<p>1 x1 y1 k:  Update the value at position (x1, y1) by k.</p>
+<p><strong>Input:</strong></p>
+<p>The first line of input will contain integers m and n (separated with space) specifying the dimensions of the  matrix. This is followed by a m * n matrix (m rows and n columns) denoting the &ldquo;Key Matrix&rdquo;. The next line contains an integer q denoting the number of queries. Each of the following q lines contains a single query in the specified  format.</p>
+<p><strong>Output:</strong></p>
+<p>For each query, print the value of the secret &ldquo;Key&rdquo; that you retrieve from the &ldquo;Key Matrix&rdquo;</p>
+<p><strong>Constraints</strong></p>
+<p>1 &lt;= m, n &lt; 600</p>
+<p>1 &lt;= q &lt;= 20,000</p>
+<p>0 &lt;= x1, x2 &lt;= m &ndash; 1</p>
+<p>0 &lt;= y1, y2 &lt;= n &ndash; 1</p>
+<p>0 &lt;= Aij, k &lt;= 10^8</p>
+<p><strong>Sample Input:</strong></p>
+<p>2 2</p>
+<p>1 2</p>
+<p>3 4</p>
+<p>2</p>
+<p>1 0 0 2</p>
+<p>0 0 0 1 1</p>
+<p><strong>Sample Ouptut:</strong></p>
+<p>7</p>
+<p><strong>Explanation</strong></p>
+<p>The first query updates the value of (0, 0) to 2. Now the Key matrix appears like 2 2 3 4 Now for query 2 the secret key is the XOR of the value in the entire matrix So the key is 2 ^ 2 ^ 3 ^ 4 = 7</p>
+</div>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pranjuldb">pranjuldb</a></td></tr>
+<tr><td>Date:</td><td>2014-09-09</td></tr>
+<tr><td>Time limit:</td><td>0.300s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Codehurdle</td></tr>	
+</table>

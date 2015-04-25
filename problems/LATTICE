@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LATTICE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4178. Distance on a square lattice</h1>
+		<h2>Problem code: LATTICE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let L to be an <i>nXn</i> square lattice, you can consider its points as <i>(x,y)</i>, where <i>x</i> and <i>y</i> are integers from the [1,<i>n</i>] interval.
+And let f(<i>n</i>) to be the expected distance between two not neccesserily distinct points on the lattice. For example f(1)=0 and f(2)=(2 + <span style="white-space: nowrap; font-size:larger">
+&#8730;<span style="text-decoration:overline;"> 2 </span>
+</span>)/4.
+
+<h3>Input</h3>
+<p>There is no input.
+
+<h3>Output</h3>
+<p>5000 lines, on the n-th line give the value of f(<i>n</i>) by 2 digits after the decimal point.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+No input.
+
+<b>Output:</b>
+0.00
+0.85
+1.45
+2.01
+2.55
+.
+.
+.
+2607.03
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-04-07</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB F# GO GROOVY JS2 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SED TCL TECS TEXT </td></tr>
+<tr><td>Resource:</td><td>own resource</td></tr>	
+</table>

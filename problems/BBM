@@ -1,0 +1,105 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BBM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13978. Billion ByteMan March</h1>
+		<h2>Problem code: BBM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Warning:</h3>
+<p> Source code size limit is 2048B (half is enougth) and time limit could not allow all language to get AC ; I got AC in 1.5s with language C.
+The <b>main</b> difficulty of the problem is to manage efficiently the given precomputed
+values <b>and</b> the memory available, in the given time. Have fun ;-)
+</p>
+
+
+<h3>The March</h3>
+<p>Leo invited all his friends to a giant meeting for peace in byteland.
+All people came in bus which were all full.</br>
+Last year, they were <a href="http://www.spoj.com/problems/TMB/">thousands of people</a>.
+As Leo like structured things, he thought to form groups.
+</br>
+Two years ago, all the ways to form homogeneous team with the 4 people (A,B,C,D) were : </p>
+<pre>
+{{A,B,C,D}} : one team of 4 (one way),
+{{A}, {B}, {C}, {D}} : four 'teams' of 1 (one way more),
+{{A,B}, {C,D}} or {{A,C}, {B,D}} or {{A,D}, {B,C}} : two teams of 2 (3 ways more).
+</pre>
+<p>
+for a total of 5 ways. But this year many more people are awaited.</br>
+As the answer should not fit in a 64-bit container, you should give your answer modulo M7=1000000007.</p>
+
+<h3>Input</h3>
+<p>
+The input starts with 2^12 useful precomputed values:
+ factorial(i) MOD M7 for i in [0 ; 2^30[ with a step of 2^18, each one on one line.</br>
+The input continues with the number T of test cases in a single line.</br>
+In each of the next T lines there are two integers : N, K.</br>
+N is the quantity of bus that came to the meeting.</br>
+K is the common capacity of each bus.</p>
+
+<h3>Output</h3>
+<p>
+For each test case, your task is to calculate the number of ways people
+can form homogeneous teams.</br>
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1            <--- 0! mod M7
+639926614    <--- (2^18)! mod M7
+[...]        ( 4093 lines more)
+0            <--- (2^30 - 2^18)! mod M7
+3
+2 2
+1 6
+2 3
+
+<b>Output:</b>
+5
+27
+27
+</pre>
+
+
+<h3>Constraints</h3>
+<pre>
+0 < T &#8804; 300
+0 < K &#8804; 30000
+0 < N &#8804; 30000
+</pre>
+<p>Uniform-random input in the range.</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-03-03</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>2048B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18261. Maggu and Weird things</h1>
+		<h2>Problem code: IITWPC4G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">Maggu is a weird guy. Whenever he gets bored, he starts playing weird games. As he is an odd boy, he likes to play only with arrays of even length n. Maggu cannot play with large numbers, so he will do all the operations modulo 10^9 + 7.</span></span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;">He likes performing "weird operations" on the array very much. A Weird Operation#1 on an array seq[] is defined as follows:&nbsp;</span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;">tempSeq[n] ; //is a temporary array</span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">for (i = 0; i &lt; n; i++) &nbsp;{</span></span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; &nbsp;int cnt = 0;</span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; for (cnt = 0; cnt &lt; k; cnt++) {</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp; int j = (i + cnt) % n;</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp; if (cnt % 2 == 0) tempSeq[i] += seq[j];</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp; else tempSeq[i] -= seq[j];</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">&nbsp; &nbsp; &nbsp;}</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">}</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">for (int i = 0; i &lt; n; i++) seq[i] = tempSeq[i];</span></span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;">Weird operation#2 is even more cooler than this. In this operation, he swaps the adjacant entries of the array.</span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">Pseudo code is as follows:</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">for (int i = 0; i &lt; n; i += 2) swap (seq[i], seq[i + 1]);</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">A "Super Weird operation" is applying weird operation#1 followed by weird operation#2 on the array seq[] .He wants to apply this operation m times and desires to know the final contents of the seq.</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">He is bored of playing this game, So he asks you to find out the final content of the seq.</span></span></span></p><div><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></span></div></pre>
+<h3>Input</h3>
+<pre><p><span style="white-space: normal;"><span style="font-size: medium;">First line contains number of test cases: T (1 &lt;= T &lt;= 100).</span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">For each test case, first line contains three space seperated n, k, m (1 &lt;= n &lt;= 50, 1 &lt;= k &lt;= n, 1 &lt;= m &lt;= 10^9). n is always even.</span></span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">The next line contains n space separated integers seq[i](starting from 0), -10^9 &lt;= seq[i] &lt;= 10^9.</span></span></span></p><div><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></span></div></pre>
+<h3>Output</h3>
+<pre><p><span style="white-space: normal;"><span style="font-size: medium;">For each test case, output n space separated integers where ith element represents seq[i] after m "Super Weird Operations".</span></span></p><div><span style="white-space: normal;"><span style="font-size: medium;"><br /></span></span></div></pre>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre><p><span style="font-size: xx-small;"><span style="white-space: normal;"><span style="font-size: medium;">1</span></span></span></p><p><span style="white-space: normal;"><span style="font-size: medium;">4 3 1</span></span></p><p><span style="font-size: x-small;"><span style="white-space: normal;"><span style="font-size: medium;">2 4 -3 5</span></span></span></p></pre>
+<strong>Output:</strong>&nbsp;</pre>
+<pre><span style="font-size: medium;">12 1000000002 7 1000000001</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-02-01</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

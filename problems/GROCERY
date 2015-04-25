@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GROCERY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1685. Grocery store</h1>
+		<h2>Problem code: GROCERY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A cashier in a grocery store seems to have difficulty in
+distinguishing the multiplication symbol and the addition symbol. 
+To make things easier for him, you want to buy goods in such a
+way that the product of their prices is the same as the sum of
+their prices. </p>
+<p>Of course, if you buy only one item, this is always true. With two
+items and three items, it still seems quite a boring task to you,
+so now you are interested in finding possible prices of four items
+such that the sum of the four prices is equal to the product of the
+four prices. You should consider the prices are in &#8364; with two
+digits after the decimal point. Obviously, each product costs at
+least one cent.</p>
+
+<h4>Input Specification</h4>
+<p>This problem has no input.</p>
+
+<h4>Output Specification</h4>
+<p>
+Print all solutions which have a sum of the four items of at most
+<strong>20.00 &#8364;</strong>. For each solution, print one line with
+the prices of the four items in non-decreasing order, with one space
+character between them. You may print the solutions in any order,
+but make sure to print each solution only once.</p>
+<h4>Sample Output</h4>
+<pre>0.50 1.00 2.50 16.00
+1.25 1.60 1.75 1.84
+1.25 1.40 1.86 2.00
+...
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2007-07-06</td></tr>
+<tr><td>Time limit:</td><td>0.219s
+</td></tr>
+<tr><td>Source limit:</td><td>600B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>University of Ulm Local Contest 2007</td></tr>	
+</table>

@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ORZ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1810. Nuclear Plants</h1>
+		<h2>Problem code: ORZ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Great Plain of Algorithmia plays an extremely important role in the agriculture of the Bandulu Kingdom: this is the only place where barley (Hordeum vulgare), an essential ingredient of beer, can be produced. Unfortunately, it is not possible to grow barley on the full area of the plain, as several nuclear plants have recently been built, and you cannot grow barley near a nuclear plant (since you do not want to produce giant-size, aggressive, man-eating barley-mutants). Your task is to write a program that determines the size of the area that can be used for growing barley. 
+<p>The Great Plain of Algorithmia is an n * m km<sup>2</sup> rectangle, the coordinates of the four corners being (0, 0),(0, m),(n, 0) and (n, m). There are two types of nuclear plants: small and large. You are not allowed to grow barley within 0.58km of a small nuclear plant or within 1.31km of a large nuclear plant. </p>
+<h3>Input</h3>
+<p>The input contains several blocks of test cases. Each block begins with a line containing four integers: 1 <= n, m <= 10000 describe the size of the plain, ks <= 100 is the number of small nuclear plants, and kl <= 100 is the number of large nuclear plants. The next ks lines describe the coordinates of the small nuclear plants, each line contains two integers 0 <= x <= n and 0 <= y <= m . The next kl lines describe the large nuclear plants in a similar fashion. 
+<p>The input is terminated by a block with n = m = ks = kl = 0 .</p>
+<h3>Output</h3>
+<p>For each test case, you have to output a single line containing the area that can be used for growing barley. This number should be a real value with two digits of precision. To avoid rounding problems, we accept solutions with a maximum of 0.01(positive or negative) error.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+10 10 2 2
+2 2
+4 4
+5 6
+1 8
+10 10 1 0
+5 5
+0 0 0 0
+
+<b>Output:</b>
+87.46
+98.94
+</pre>
+
+<b>Time limit has been changed from 2 seconds to 5 seconds.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-09-23</td></tr>
+<tr><td>Time limit:</td><td>0.491s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Budapest 2005</td></tr>	
+</table>

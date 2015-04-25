@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/bhavik"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RROOT" target="_blank">18174. REAL ROOTS</a></td><td><a href="http://www.spoj.com/problems/RROOT"target="_blank">RROOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODEM4" target="_blank">18297. Problem4</a></td><td><a href="http://www.spoj.com/problems/CODEM4"target="_blank">CODEM4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUBE" target="_blank">19976. HYPERCUBES</a></td><td><a href="http://www.spoj.com/problems/CUBE"target="_blank">CUBE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVISION" target="_blank">20172. Divisiblity by 3</a></td><td><a href="http://www.spoj.com/problems/DIVISION"target="_blank">DIVISION</a><br>
+</td></tr>

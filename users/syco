@@ -1,0 +1,148 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/syco"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ALTPERM" target="_blank">5830. Alternating Permutations</a></td><td><a href="http://www.spoj.com/problems/ALTPERM"target="_blank">ALTPERM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERMJUMP" target="_blank">5831. Permutation Jumping</a></td><td><a href="http://www.spoj.com/problems/PERMJUMP"target="_blank">PERMJUMP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANDROUND" target="_blank">5832. AND Rounds</a></td><td><a href="http://www.spoj.com/problems/ANDROUND"target="_blank">ANDROUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XORROUND" target="_blank">5833. XOR Rounds</a></td><td><a href="http://www.spoj.com/problems/XORROUND"target="_blank">XORROUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FINDMAX" target="_blank">5969. Finding Maximum</a></td><td><a href="http://www.spoj.com/problems/FINDMAX"target="_blank">FINDMAX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FINDPRM" target="_blank">5970. Finding Primes</a></td><td><a href="http://www.spoj.com/problems/FINDPRM"target="_blank">FINDPRM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCMSUM" target="_blank">5971. LCM Sum</a></td><td><a href="http://www.spoj.com/problems/LCMSUM"target="_blank">LCMSUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXSUMSQ" target="_blank">5972. Maximum Sum Sequences</a></td><td><a href="http://www.spoj.com/problems/MAXSUMSQ"target="_blank">MAXSUMSQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SELTEAM" target="_blank">5973. Selecting Teams</a></td><td><a href="http://www.spoj.com/problems/SELTEAM"target="_blank">SELTEAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRKNIGHT" target="_blank">5975. Travelling Knight</a></td><td><a href="http://www.spoj.com/problems/TRKNIGHT"target="_blank">TRKNIGHT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRGRID" target="_blank">5976. Traversing Grid</a></td><td><a href="http://www.spoj.com/problems/TRGRID"target="_blank">TRGRID</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WEIRDFN" target="_blank">5977. Weird Function</a></td><td><a href="http://www.spoj.com/problems/WEIRDFN"target="_blank">WEIRDFN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRQPRIME" target="_blank">5978. Frequent Prime Ranges</a></td><td><a href="http://www.spoj.com/problems/FRQPRIME"target="_blank">FRQPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YAPP" target="_blank">5979. Yet Another Permutations Problem</a></td><td><a href="http://www.spoj.com/problems/YAPP"target="_blank">YAPP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATGAME" target="_blank">5980. Matrix Game</a></td><td><a href="http://www.spoj.com/problems/MATGAME"target="_blank">MATGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TSPAGAIN" target="_blank">6503. Travelling Salesman Again !</a></td><td><a href="http://www.spoj.com/problems/TSPAGAIN"target="_blank">TSPAGAIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARRANGE2" target="_blank">6985. Rearranging Digits</a></td><td><a href="http://www.spoj.com/problems/ARRANGE2"target="_blank">ARRANGE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMSLOPE" target="_blank">6986. Summing Slopes</a></td><td><a href="http://www.spoj.com/problems/SUMSLOPE"target="_blank">SUMSLOPE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AVOIDSOS" target="_blank">6999. Avoiding SOS Grids</a></td><td><a href="http://www.spoj.com/problems/AVOIDSOS"target="_blank">AVOIDSOS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VLATTICE" target="_blank">7001. Visible Lattice Points</a></td><td><a href="http://www.spoj.com/problems/VLATTICE"target="_blank">VLATTICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUILDING" target="_blank">7002. Buildings</a></td><td><a href="http://www.spoj.com/problems/BUILDING"target="_blank">BUILDING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CNTTREE" target="_blank">7296. Trees Again</a></td><td><a href="http://www.spoj.com/problems/CNTTREE"target="_blank">CNTTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRIDCOIN" target="_blank">7297. Placing Coins on a Grid</a></td><td><a href="http://www.spoj.com/problems/GRIDCOIN"target="_blank">GRIDCOIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MULTQ3" target="_blank">7299. Multiples of 3</a></td><td><a href="http://www.spoj.com/problems/MULTQ3"target="_blank">MULTQ3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHUFFLE1" target="_blank">7337. Shuffling</a></td><td><a href="http://www.spoj.com/problems/SHUFFLE1"target="_blank">SHUFFLE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ITERBIT" target="_blank">7356. Iterated Bitcount Function</a></td><td><a href="http://www.spoj.com/problems/ITERBIT"target="_blank">ITERBIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREESUM" target="_blank">7363. Tree Sum</a></td><td><a href="http://www.spoj.com/problems/TREESUM"target="_blank">TREESUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10A" target="_blank">8055. Playground</a></td><td><a href="http://www.spoj.com/problems/AMR10A"target="_blank">AMR10A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10B" target="_blank">8056. Regex Edit Distance</a></td><td><a href="http://www.spoj.com/problems/AMR10B"target="_blank">AMR10B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10C" target="_blank">8057. Square Free Factorization</a></td><td><a href="http://www.spoj.com/problems/AMR10C"target="_blank">AMR10C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10D" target="_blank">8058. Soccer Teams</a></td><td><a href="http://www.spoj.com/problems/AMR10D"target="_blank">AMR10D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10E" target="_blank">8059. Stocks Prediction</a></td><td><a href="http://www.spoj.com/problems/AMR10E"target="_blank">AMR10E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10G" target="_blank">8061. Christmas Play</a></td><td><a href="http://www.spoj.com/problems/AMR10G"target="_blank">AMR10G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10H" target="_blank">8062. Shopping Rush</a></td><td><a href="http://www.spoj.com/problems/AMR10H"target="_blank">AMR10H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10I" target="_blank">8063. Dividing Stones</a></td><td><a href="http://www.spoj.com/problems/AMR10I"target="_blank">AMR10I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR10J" target="_blank">8064. Mixing Chemicals</a></td><td><a href="http://www.spoj.com/problems/AMR10J"target="_blank">AMR10J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTA" target="_blank">9721. 2s Complement</a></td><td><a href="http://www.spoj.com/problems/CODESPTA"target="_blank">CODESPTA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTB" target="_blank">9722. Insertion Sort</a></td><td><a href="http://www.spoj.com/problems/CODESPTB"target="_blank">CODESPTB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTC" target="_blank">9723. Card Shuffling</a></td><td><a href="http://www.spoj.com/problems/CODESPTC"target="_blank">CODESPTC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTD" target="_blank">9725. Queens on a Board</a></td><td><a href="http://www.spoj.com/problems/CODESPTD"target="_blank">CODESPTD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTE" target="_blank">9746. Bytelandian Tours</a></td><td><a href="http://www.spoj.com/problems/CODESPTE"target="_blank">CODESPTE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTF" target="_blank">9748. Palindromes</a></td><td><a href="http://www.spoj.com/problems/CODESPTF"target="_blank">CODESPTF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTG" target="_blank">9749. Cliques</a></td><td><a href="http://www.spoj.com/problems/CODESPTG"target="_blank">CODESPTG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTH" target="_blank">9750. Polygon Diagonals</a></td><td><a href="http://www.spoj.com/problems/CODESPTH"target="_blank">CODESPTH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODESPTI" target="_blank">9751. Repairing Roads</a></td><td><a href="http://www.spoj.com/problems/CODESPTI"target="_blank">CODESPTI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11A" target="_blank">10228. Magic Grid</a></td><td><a href="http://www.spoj.com/problems/AMR11A"target="_blank">AMR11A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11B" target="_blank">10229. Save the Students</a></td><td><a href="http://www.spoj.com/problems/AMR11B"target="_blank">AMR11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11C" target="_blank">10230. Robbing Gringotts</a></td><td><a href="http://www.spoj.com/problems/AMR11C"target="_blank">AMR11C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11D" target="_blank">10231. Wizarding Duel</a></td><td><a href="http://www.spoj.com/problems/AMR11D"target="_blank">AMR11D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11E" target="_blank">10232. Distinct Primes</a></td><td><a href="http://www.spoj.com/problems/AMR11E"target="_blank">AMR11E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11F" target="_blank">10233. Magical Bridges</a></td><td><a href="http://www.spoj.com/problems/AMR11F"target="_blank">AMR11F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11H" target="_blank">10235. Array Diversity</a></td><td><a href="http://www.spoj.com/problems/AMR11H"target="_blank">AMR11H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11I" target="_blank">10236. Generations</a></td><td><a href="http://www.spoj.com/problems/AMR11I"target="_blank">AMR11I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR11J" target="_blank">10237. Goblin Wars</a></td><td><a href="http://www.spoj.com/problems/AMR11J"target="_blank">AMR11J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTSTRING" target="_blank">10354. Count Strings</a></td><td><a href="http://www.spoj.com/problems/CTSTRING"target="_blank">CTSTRING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COINTOSS" target="_blank">10355. Coin Tosses</a></td><td><a href="http://www.spoj.com/problems/COINTOSS"target="_blank">COINTOSS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12A" target="_blank">13041. The Black Riders</a></td><td><a href="http://www.spoj.com/problems/AMR12A"target="_blank">AMR12A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12B" target="_blank">13042. Gandalf vs the Balrog</a></td><td><a href="http://www.spoj.com/problems/AMR12B"target="_blank">AMR12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12D" target="_blank">13043. The Mirror of Galadriel</a></td><td><a href="http://www.spoj.com/problems/AMR12D"target="_blank">AMR12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12E" target="_blank">13044. Dyslexic Gollum</a></td><td><a href="http://www.spoj.com/problems/AMR12E"target="_blank">AMR12E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12F" target="_blank">13045. Denethors Decryption of Dequeue permutations</a></td><td><a href="http://www.spoj.com/problems/AMR12F"target="_blank">AMR12F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12G" target="_blank">13046. The Glittering Caves of Aglarond</a></td><td><a href="http://www.spoj.com/problems/AMR12G"target="_blank">AMR12G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12I" target="_blank">13047. Saruman of Many Colours</a></td><td><a href="http://www.spoj.com/problems/AMR12I"target="_blank">AMR12I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12J" target="_blank">13048. Escape from the Mines</a></td><td><a href="http://www.spoj.com/problems/AMR12J"target="_blank">AMR12J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12K" target="_blank">13049. The Loyalty of the Orcs</a></td><td><a href="http://www.spoj.com/problems/AMR12K"target="_blank">AMR12K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12C" target="_blank">13050. Entmoot</a></td><td><a href="http://www.spoj.com/problems/AMR12C"target="_blank">AMR12C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMR12H" target="_blank">13051. Wormtongues Mind</a></td><td><a href="http://www.spoj.com/problems/AMR12H"target="_blank">AMR12H</a><br>
+</td></tr>

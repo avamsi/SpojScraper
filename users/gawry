@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/gawry"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BRICKS" target="_blank">77. New bricks disorder</a></td><td><a href="http://www.spoj.com/problems/BRICKS"target="_blank">BRICKS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWOSQRS" target="_blank">91. Two squares or not two squares</a></td><td><a href="http://www.spoj.com/problems/TWOSQRS"target="_blank">TWOSQRS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAYING" target="_blank">123. Paying in Byteland</a></td><td><a href="http://www.spoj.com/problems/PAYING"target="_blank">PAYING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALIENS" target="_blank">145. Aliens</a></td><td><a href="http://www.spoj.com/problems/ALIENS"target="_blank">ALIENS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COVER" target="_blank">412. K-path cover</a></td><td><a href="http://www.spoj.com/problems/COVER"target="_blank">COVER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSP" target="_blank">419. Transposing is Fun</a></td><td><a href="http://www.spoj.com/problems/TRANSP"target="_blank">TRANSP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AROAD" target="_blank">421. Another Road Problem</a></td><td><a href="http://www.spoj.com/problems/AROAD"target="_blank">AROAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSP2" target="_blank">422. Transposing is Even More Fun</a></td><td><a href="http://www.spoj.com/problems/TRANSP2"target="_blank">TRANSP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ASSIGN" target="_blank">423. Assignments</a></td><td><a href="http://www.spoj.com/problems/ASSIGN"target="_blank">ASSIGN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CARD" target="_blank">1797. Cardsharper</a></td><td><a href="http://www.spoj.com/problems/CARD"target="_blank">CARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TILING" target="_blank">2038. Rectangle Tiling</a></td><td><a href="http://www.spoj.com/problems/TILING"target="_blank">TILING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZZPERM2" target="_blank">11946. Zig-Zag Permutation 2</a></td><td><a href="http://www.spoj.com/problems/ZZPERM2"target="_blank">ZZPERM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZIGZAG2" target="_blank">14905. Zig when you zag</a></td><td><a href="http://www.spoj.com/problems/ZIGZAG2"target="_blank">ZIGZAG2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAILURE" target="_blank">19991. In case of failure</a></td><td><a href="http://www.spoj.com/problems/FAILURE"target="_blank">FAILURE</a><br>
+</td></tr>

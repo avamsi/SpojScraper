@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EQU2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1739. Yet Another Equation</h1>
+		<h2>Problem code: EQU2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider the equation
+
+<blockquote><p align=justify>
+
+<p><i>x</i><sup>2</sup> - <i>n</i><i>y</i><sup>2</sup> = 1
+</blockquote><p align=justify>
+
+<p>where <i>n</i> is some integer.<br>
+
+<p>Find the smallest strictly positive integer solutions (<i>x</i>, <i>y</i>) for a given <i>n</i>.
+
+<h3>Input</h3>
+<p>The number of test cases <i>t</i> (around 30), followed by a list of <i>t</i> values of <i>n</i> (2 &#8804; <i>n</i> &#8804; 1000). You can assume that the equation can be solved for all values of <i>n</i> in the input set.
+
+<h3>Output</h3>
+<p>For every test case, the values of <i>x</i> and <i>y</i> separated by a space character, on separate lines.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+6
+61
+
+<b>Output:</b>
+3 2
+5 2
+1766319049 226153980
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mpersano">Mauro Persano</a></td></tr>
+<tr><td>Date:</td><td>2007-08-18</td></tr>
+<tr><td>Time limit:</td><td>4.739s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Brahmagupta, circa 628 AD</td></tr>	
+</table>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SHAHBG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13707. SHAHBAG</h1>
+		<h2>Problem code: SHAHBG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>They say "History repeats itself" and this is what happening in  Bangladesh on Feb 2013.&nbsp; Mass people fought the war in 1971 and now they  are rising again to fight war criminals who betrayed the country. In  "Shahbag" you can hear the voice of people wanting justice.<br /><br /></p>
+<p style="text-align: center;"><img title="Shabag protest" src="http://shafaetsplanet.com/uploads/spoj/shahbag.jpg" alt="Shabag protest" width="469" height="312" /></p>
+<p>&nbsp;</p>
+<p>If  you go to shahbag you can see many human chains. For this problem we   imagine a straight line going through middle of shahbag. Each position   of the line is marked from 1 to 20000.</p>
+<p>&nbsp;</p>
+<p>People are forming human chains along the line.  Initially every position is empty. When someone stands in i<sup>th&nbsp; </sup>position  he holds hand of people who are standing in his left and right(if there  any) and join there group. If there are no people beside him, he forms a  new group.<br /><br />When a new people come your job is to mark his position and count currently how many groups are there in shahbag. <br /><br />For example suppose:<br />&nbsp;&nbsp; a man came first and stood in postion 2. Currently there are only 1 group.<br />&nbsp;&nbsp; then another man stood in position 4. Currently there are 2 groups.<br />&nbsp;&nbsp; another man stood in position 3. Now there are only 1 group.</p>
+<p>And yes, people wont leave until they get justice, so no need to worry about that.mi</p>
+<p><strong>Input:</strong></p>
+<p>There  will be a single case. First line will contain an integer Q which  denotes number of people. Next line will contain Q(1&lt;=Q&lt;=20000) integers p<sub>i</sub> which denotes position of i-th people that joined the chain. Each p<sub>i </sub>will be distinct and at most 20000.</p>
+<p><strong>Output:</strong></p>
+<p>For each pi print number of groups currently in shahbag. In last line print the string "Justice". Dont print any extra spaces.</p>
+<p>&nbsp;</p>
+<p><strong>Sample Input:</strong></p>
+<p>6<br />2 4 3 6 7 5</p>
+<p>&nbsp;</p>
+<p><strong>Sample output:</strong></p>
+<p>1<br />2<br />1<br />2<br />2<br />1<br />Justice</p>
+<p>&nbsp;</p>
+<p>Note:</p>
+<p>This problem is based on true event. You can find the details <a href="http://en.wikipedia.org/wiki/2013_Shahbag_Protest">here.</a></p>
+<p>Alternate writer: Rashedul Hasan Rijul</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shafaet_csedu">Shafaet</a></td></tr>
+<tr><td>Date:</td><td>2013-02-11</td></tr>
+<tr><td>Time limit:</td><td>0.134s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

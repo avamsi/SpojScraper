@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SCPC11F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9759. GO</h1>
+		<h2>Problem code: SCPC11F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">In the game of Go, two players alternate placing black and white stones on lattice points of an n &times; n grid, each attempting to surround as much territory (i.e., regions of unfilled lattice points) as possible. At the end of the game, the score for each player is the total area of the territory surrounded by his or her stones. Given the locations of black and white stones on a Go board at the end of a match, your task is to compute the score of each player in order to</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">determine the winner.1</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Formally, two grid lattice points with coordinates (r, c) and (r&prime;, c&prime;) are adjacent if |r &minus; r&prime;| + |c &minus; c&prime;| = 1.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&nbsp;A connected region of unfilled lattice points belongs to one player&rsquo;s</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">territory if all adjacent filled lattice points contain stones belonging to that player (see Figure 1). Finally, a player&rsquo;s score consists of the number of unfilled lattice points in his or her territory</div>
+<p>&nbsp;</p>
+<p>In the game of Go, two players alternate placing black and white stones on lattice points of an n &times; n grid, each attempting to surround as much territory (i.e., regions of unfilled lattice points) as possible. At the end of the game, the score for each player is the total area of the territory surrounded by his or her stones. Given the locations of black and white stones on a Go board at the end of a match, your task is to compute the score of each player in order to</p>
+<p>determine the winner.1</p>
+<p>Formally, two grid lattice points with coordinates (r, c) and (r&prime;, c&prime;) are adjacent if |r &minus; r&prime;| + |c &minus; c&prime;| = 1.</p>
+<p>&nbsp;A connected region of unfilled lattice points belongs to one player&rsquo;s</p>
+<p>territory if all adjacent filled lattice points contain stones belonging to that player (see Figure 1). Finally, a player&rsquo;s score consists of the number of unfilled lattice points in his or her territory.</p>
+<p style="text-align: center; "><img src="http://i51.tinypic.com/2prtjkp.png" alt="Figure" width="524" height="525" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>
+<p><span>1 Note that the scoring of Go boards described here does not correspond exactly to the real game of Go: we make the simplifying assumptions that all &ldquo;disputes&rdquo; have been settled so that any territories surrounded by stones of both colors are considered neutral, and that all groups on the board are considered &ldquo;alive.&rdquo;</span></p>
+<div>
+<div><span style="font-weight: normal;">Figure 1: Diagram of a 9 &times; 9 Go board. Unfilled lattice points belonging to black&rsquo;s territory are marked with B, and unfilled lattice points belonging to white&rsquo;s territory are marked with W. Neutral unfilled lattice points are unmarked. In the game above, white wins by 21 &minus; 3 = 18.</span></div>
+</div>
+</h3>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The input test file will contain multiple cases, each consisting of three lines. Each test case begins with a line containing three integers, n (where 1 &le; n &le; 19), b, and w (where b &ge; 0,w &ge; 0 and 1 &le; b + w &le; n2). Here, n denotes the size of the board, b is the number of black pieces placed, and w is the number of white pieces placed. The second line of each test case contains b pairs of integers r1 c1 . . . rb cb (where 1 &le; ri , ci &le; n) indicating the positions of the b black stones. The third line of each test case contains w pairs of integers r'1 c'1 . . . r'w c'w (where&nbsp;1 &le; r'i , c'i &le; n) indicating the positions of the w white stones. No two stones will be located at the same lattice point. Input is terminated by a single line containing only the number 0; do not process this line.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, print either &ldquo;White wins by &rdquo;, &ldquo;Black wins by &rdquo;, or &ldquo;Draw&rdquo;.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 1 0
+1 1
+2 0 1
+1 1
+5 12 4
+1 1 1 2 1 3 2 1 2 3 3 1 3 3 4 1 4 3 5 1 5 2 5 3
+1 4 2 4 3 4 3 5
+0
+
+<strong>Output:</strong>
+Draw
+White wins by 3
+Black wins by 1<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aliarous">Ali Arous</a></td></tr>
+<tr><td>Date:</td><td>2011-10-19</td></tr>
+<tr><td>Time limit:</td><td>1.811s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Syrian Collegiate Programming Contest 2011</td></tr>	
+</table>

@@ -1,0 +1,96 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3533. Game on board</h1>
+		<h2>Problem code: BGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/BGAME/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/BGAME/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>Two players, A and B, play a game on a square board of size n×n. The squares of the board are either white or black. The game is played only on the white squares &#8212; the black ones are excluded from the game. Each player has
+one piece, initially placed at this player&#8217;s starting point &#8212; one of the white squares on the board. The starting point of A is different than that of B.</p>
+<p>In each move a player moves his piece to one of the neighboring white squares (either up, down, left or right). If the player moves his piece to the
+square currently occupied by his opponent&#8217;s piece, he gets an extra move (this way he jumps over the opponent). Note that in this case the direction of the second move can be different than that of the first move. </p> <p>
+Player A moves first, then players alternate. The goal of the game is to reach the opponent&#8217;s starting point. The player whose piece reaches his opponent&#8217;s starting point first, wins the game. Even if the player&#8217;s last move consists of two jumps, and he only jumps over his opponent&#8217;s starting point (since it is occupied by his opponent), the player wins. We want to determine which player has a winning strategy (a player has a winning  trategy if he can win regardless of his opponent&#8217;s moves).</p>
+<h3>Task</h3>
+<p>
+Write a program, that:<ul>
+<li>	reads the layout of the grid and the starting points of the two players from the standard input,
+<li>	finds the player who has a winning strategy,
+<li>	writes the result to the standard output.
+</ul>
+</p>
+<h3>Input</h3>
+<p>The first line of the standard input contains one integer t the number of test cases (1 &#8804; t &#8804; 10 ). After it the description of t tests appears. Each test is described as follows. In the first line of the test there is one integer n (2 &#8804; n &#8804; 300 ), the length of the side of the grid. Then next n lines contain the description of the grid. Each line consists of n characters (with no whitespaces between them). Each character is either &#8217;.&#8217; a white square), &#8217;#&#8217; (a black square), &#8217;A&#8217; (the starting point of A) or &#8217;B&#8217; (the starting point of B).</p><p>
+
+You may assume that there exists a path of white squares between the starting points of A and B.
+</p>
+<h3>Output</h3>
+<p>For each test case exactly one line should be printed to standard output containing a single character &#8217;A&#8217; or &#8217;B&#8217;, indicating the player who has a winning strategy.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+4
+A...
+.#..
+....
+...B
+4
+A...
+....
+..#.
+...B
+
+
+<b>Output:</b>
+B
+A
+
+</pre>
+
+
+
+
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2008-12-14</td></tr>
+<tr><td>Time limit:</td><td>0.789s-26s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>BOI</td></tr>	
+</table>

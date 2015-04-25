@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UMNOZAK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3314. Umnozak</h1>
+		<h2>Problem code: UMNOZAK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The digit-product of a positive integer is the product of the number's decimal digits. For example, the digit-product of 2612 is 2 &#183; 6 &#183; 1 &#183; 2 = 24.</p>
+
+<p>The self-product of a number is the product of the number and its digit-product. For example, the self-product of 2612 is 2612 &#183; 24 = 62688.</p>
+
+<p>Write a program that, given two positive integers A and B (1 &#8804; A &#8804; B < 10<sup>18</sup>), calculates the number of positive integers whose self-product is between A and B, inclusive.</p>
+
+<h3>Input</h3>
+<p>The first line of input contains the integer T (1 &#8804; T &#8804; 20). The next T lines each contain a pair of integers A and B.</p>
+
+<h3>Output</h3>
+<p>For each test case, print a line with the number of positive integers whose self-product is between A and B.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+20 30
+145 192
+2224222 2224222
+
+<b>Output:</b>
+2
+4
+1
+</pre>
+
+<p>For the second example, the self-products of the numbers 19, 24, 32, and 41 are 171, 192, 192 and 164, respectively.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-11-08</td></tr>
+<tr><td>Time limit:</td><td>1.329s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian Olympiad in Informatics 2008</td></tr>	
+</table>

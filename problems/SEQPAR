@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEQPAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>685. Partition the sequence</h1>
+		<h2>Problem code: SEQPAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Given an integer sequence containing n elements (numbered from 1 to n), your task is to find the minimum value M so that we can find k + 1 integers 0 = p(0) < p(1) < p(2) < ... < p(k-1) < p(k) = n, such that for any i from 0 to k - 1, the sum of elements from  postition p(i)+1 to postition p(i+1) is not greater than M.
+
+<h3>Input</h3>
+<p>
+
+The first line of input contains the number of test cases nTest (1 <= nTest <= 10). <p>
+Each test case contains: <p>
+The first line contains n, k. (1 <= k <= n <= 15000) <p>
+Each of the next n lines contains an integer of the sequence with value range from -30000 to 30000.
+
+<h3>Output</h3>
+<p>
+For each test case write the minimum number M in a separate line.
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+9 4
+1
+1
+1
+3
+2
+2
+1
+3
+1
+
+<b>Output:</b>
+5
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dtmp">Nguyen Dinh Tu</a></td></tr>
+<tr><td>Date:</td><td>2006-01-02</td></tr>
+<tr><td>Time limit:</td><td>7.414s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Viet Nam Olympiad in Informatic 2005, Day I</td></tr>	
+</table>

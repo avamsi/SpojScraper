@@ -1,0 +1,158 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COUNTPAS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7186. Counting Pascal</h1>
+		<h2>Problem code: COUNTPAS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Pascal&rsquo;s triangle is a common figure in combinatorics. It is a triangle formed by rows of integers.<br />The top row contains a single 1. Each new row has one element more than the previous one<br />and is formed as follows: the leftmost and rightmost values are 1, while each of the other values<br />is the sum of the two values above it. Here we depict the first 7 rows of the triangle.</p>
+<table style="height: 100px; width: 10px;" border="0" align="center">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>2</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>5</td>
+<td>&nbsp;</td>
+<td>10</td>
+<td>&nbsp;</td>
+<td>10</td>
+<td>&nbsp;</td>
+<td>5</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>15</td>
+<td>&nbsp;</td>
+<td>20</td>
+<td>&nbsp;</td>
+<td>15</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Pascal&rsquo;s triangle is infinite, of course, and contains the value 1 an unbounded number of times.<br />However, any other value appears a finite number of times in the triangle. In this problem you<br />are given an integer K &ge; 2. Your task is to calculate the number of values in the triangle that<br />are different from 1 and less than or equal to K.</p>
+<h3>Input</h3>
+<p>The input contains several test cases. Each test case is described in a single line that contains<br />an integer K (2 &le; K &le; 10<sup>9</sup> ). The last line of the input contains a single &minus;1 and should not be<br />processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with an integer indicating the number of values in Pascal&rsquo;s<br />triangle that are different from 1 and less than or equal to K.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />6<br />-1<br /><br /><strong>Output:</strong><br />1<br />10</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.983s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2008</td></tr>	
+</table>

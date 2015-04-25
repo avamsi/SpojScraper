@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITKWPCJ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15563. Check the string Powers</h1>
+		<h2>Problem code: IITKWPCJ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Feluda likes strings and mathematics very much. As Feluda is still a child, he was only recently introduced to concept of powers. Being a novice guy, he thinks about powering strings as well as numbers. He defines A^n (A powered to n) to be A + A + ... + A which is a concatenation of n copies of A. For example "bhupkas"^2 = "bhupkasbhupkas".</p>
+<p>He wants to check if given two strings A and B, can he find such positive integers n and m so that A ^ n = B ^ m. We are only interested in YES/NO answer, no need to give n and m values.</p>
+<p><br></p>
+
+<h3>Input</h3>
+<p>First line contains integer T: number of test cases (T <= 100).</p>
+<p>Single line per test case containing strings A and B. Both will be non-empty, of lengths of at most 10^5, composed only of lower case letters.</p>
+<p><br></p>
+
+<h3>Output</h3>
+<p>For each test case, output "YES" if it possible to find integers n and m so that A ^ n = B ^ m or "NO" otherwise (quotes for clarity).</p>
+<p><br></p>
+
+<h3>Example</h3>
+<pre><strong><u>Input:</u></strong>
+3
+a a
+ab ba
+praveen praveen
+
+<strong><u>Output:</u></strong>
+YES
+NO
+YES</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href=</td></tr>	
+</table>

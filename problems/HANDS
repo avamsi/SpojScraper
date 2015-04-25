@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HANDS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9046. Clock Hands</h1>
+		<h2>Problem code: HANDS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">The minute hand and hour hand love each other. The &lsquo;Second&rsquo; hand is a spy who wants to keep track on how many times they pass over each other in a given interval on a day. Help the second hand.</p>
+<p style="text-align: center;"><strong>Input</strong></p>
+<p>First line contains the number of test cases t. Each test case has two lines representing the start time and end time respectively. The time would be in format (hh:mm). hh will be between 00 and 23, mm will be between 00 and 59. If the minute and hour hand are overlapping right at the start time (like at 12:00) then it would <strong>not be counted</strong>. (00:00 &lt;= '<strong>start time</strong>' &lt;&nbsp;'<strong>end time</strong>' &lt;= 23:59)</p>
+<p style="text-align: center;"><strong>Output</strong></p>
+<p>For each test case print, on a separate line, the number of times they overlap each other.</p>
+<p>Example</p>
+<p>Input</p>
+<p>5</p>
+<p>00:00<br />03:00</p>
+<p>00:00<br />00:10</p>
+<p>06:00<br />12:00</p>
+<p>11:59<br />12:01</p>
+<p>00:00<br />12:00</p>
+<p>Output</p>
+<p>2<br />0<br />6<br />1<br />11</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikunj165">Nikunj Jain</a></td></tr>
+<tr><td>Date:</td><td>2011-06-17</td></tr>
+<tr><td>Time limit:</td><td>0.239s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

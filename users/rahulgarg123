@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/rahulgarg123"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GIWED" target="_blank">1672. The Great Indian Wedding</a></td><td><a href="http://www.spoj.com/problems/GIWED"target="_blank">GIWED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AMBM" target="_blank">1673. Ambitious Manager</a></td><td><a href="http://www.spoj.com/problems/AMBM"target="_blank">AMBM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUSION" target="_blank">1675. Fusion Cube</a></td><td><a href="http://www.spoj.com/problems/FUSION"target="_blank">FUSION</a><br>
+</td></tr>

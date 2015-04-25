@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOTATRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2905. Not a Triangle</h1>
+		<h2>Problem code: NOTATRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You have N (3 &#8804; N &#8804; 2,000) wooden sticks, which are labeled from 1 to N. The i-th stick has a length of L<sub>i</sub> (1 &#8804; L<sub>i</sub> &#8804; 1,000,000). Your friend has challenged you to a simple game: you will pick three sticks at random, and if your friend can form a triangle with them (degenerate triangles included), he wins; otherwise, you win. You are not sure if your friend is trying to trick you, so you would like to determine your chances of winning by computing the number of ways you could choose three sticks (regardless of order) such that it is impossible to form a triangle with them.</p>
+
+<h3>Input</h3>
+<p>The input file consists of multiple test cases. Each test case starts with the single integer N, followed by a line with the integers L<sub>1</sub>, ..., L<sub>N</sub>. The input is terminated with N = 0, which should not be processed.</p>
+
+<h3>Output</h3>
+<p>For each test case, output a single line containing the number of triples.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+4 2 10
+3
+1 2 3
+4
+5 2 9 6
+0
+
+<b>Output:</b>
+1
+0
+2
+
+</pre>
+
+<p>For the first test case, 4 + 2 < 10, so you will win with the one available triple. For the second case, 1 + 2 is equal to 3; since degenerate triangles are allowed, the answer is 0.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2008-08-03</td></tr>
+<tr><td>Time limit:</td><td>0.418s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+	
+</table>

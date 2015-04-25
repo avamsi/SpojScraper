@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ETF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4141. Euler Totient Function</h1>
+		<h2>Problem code: ETF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/ETF/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/ETF/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>In number theory, the totient <img src = "https://vn.spoj.pl/SPOJVN/content/phi.jpg"> of a positive integer n is defined to be the number of positive integers less than or equal to n that are coprime to n.</p>
+<p>Given an integer n (1 <= n <= 10^6). Compute the value of the totient <img src = "https://vn.spoj.pl/SPOJVN/content/phi.jpg">. </p>
+
+<h3>Input</h3>
+<p>
+First line contains an integer T, the number of test cases. (T <= 20000)
+</p>
+<p>
+T following lines, each contains an integer n.
+</p>
+<h3>Output</h3>
+<p>
+T lines, one for the result of each test case.
+</p>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+1
+2
+3
+4
+5
+
+<b>Output:</b>
+1
+1
+2
+2
+4
+
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-03-27</td></tr>
+<tr><td>Time limit:</td><td>0.161s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/APS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13753. Amazing Prime Sequence</h1>
+		<h2>Problem code: APS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bablu is very fond of Series and Sequences...</p>
+<p>After studying Fibonacci Series in Class IX, he was impressed and he designed his own sequence as follows...</p>
+<p>a[0] = a[1] = 0&nbsp;</p>
+<p>For n &gt; 1, a[n] = a[n - 1] + f(n), where f(n) is smallest prime factor of n.</p>
+<p>He is also very fond of programming and thus made a small program to find a[n], but since he is in Class IX, he is not very good at programming. So, he asks you for help. Your task is to find a[n] for the above sequence....</p>
+<h3>Input</h3>
+<p>Your code will be checked for multiple Test Cases.</p>
+<p>First Line of Input contains T (&lt;= 100), the number of Test Cases.</p>
+<p>Next T lines contain a single number N. (1 &lt; N &lt; 10^7).</p>
+<h3>Output</h3>
+<p>Single line containing a[n] i.e. nth number of the sequence for each test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3</pre>
+<pre>2</pre>
+<pre>3</pre>
+<pre>4
+
+<strong>Output:</strong>
+2
+</pre>
+<pre>5</pre>
+<pre>7</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ksh15">c[R]@zY f[R]0G</a></td></tr>
+<tr><td>Date:</td><td>2013-02-14</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

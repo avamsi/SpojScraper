@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/davii"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MINSEQ" target="_blank">5120. Minimal Possible String</a></td><td><a href="http://www.spoj.com/problems/MINSEQ"target="_blank">MINSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOMB" target="_blank">5128. Bomb the Bridge</a></td><td><a href="http://www.spoj.com/problems/BOMB"target="_blank">BOMB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ISUN1" target="_blank">5637. LL and ErBao</a></td><td><a href="http://www.spoj.com/problems/ISUN1"target="_blank">ISUN1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TUPLEDIV" target="_blank">9753. Tuple Division</a></td><td><a href="http://www.spoj.com/problems/TUPLEDIV"target="_blank">TUPLEDIV</a><br>
+</td></tr>

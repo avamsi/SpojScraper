@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sidi"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/FUNFACT" target="_blank">7380. Factorial challenge</a></td><td><a href="http://www.spoj.com/problems/FUNFACT"target="_blank">FUNFACT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PEBBLE" target="_blank">7668. Pebble Solver</a></td><td><a href="http://www.spoj.com/problems/PEBBLE"target="_blank">PEBBLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMEZUK" target="_blank">9587. The Prime conjecture</a></td><td><a href="http://www.spoj.com/problems/PRIMEZUK"target="_blank">PRIMEZUK</a><br>
+</td></tr>

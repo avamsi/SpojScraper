@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AGGRCOW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>297. Aggressive cows</h1>
+		<h2>Problem code: AGGRCOW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Farmer John has built a new long barn, with N (2 <= N <= 100,000)
+stalls. The stalls are located along a straight line at positions
+x1,...,xN (0 <= xi <= 1,000,000,000).<BR><BR>
+
+His C (2 <= C <= N) cows don't like this barn layout and become
+aggressive towards each other once put into a stall. To prevent the
+cows from hurting each other, FJ want to assign the cows to the
+stalls, such that the minimum distance between any two of them is
+as large as possible.  What is the largest minimum distance?<BR>
+
+</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follows. <BR>
+* Line 1: Two space-separated integers: N and C<BR>
+* Lines 2..N+1: Line i+1 contains an integer stall location, xi<BR>
+</p>
+
+<h3>Output</h3>
+<p>For each test case output one integer: the largest minimum distance.<BR>
+
+<h3>Example</h3>
+<p>
+<b>Input:</b>
+<pre>
+1
+5 3
+1
+2
+8
+4
+9
+</pre>
+<p>
+<b>Output:</b>
+<pre>
+3
+</pre>
+<p>
+<b>Output details:</b>
+<p>
+FJ can put his 3 cows in the stalls at positions 1, 4 and 8, <BR>resulting in 
+a minimum distance of 3.<BR>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-02-16</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO February 2005 Gold Division</td></tr>	
+</table>

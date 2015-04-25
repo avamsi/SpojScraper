@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STC04"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15571. Difference</h1>
+		<h2>Problem code: STC04</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A word consisting of N&nbsp;lower-case letters of the English alphabet ('<tt>a</tt>'-'<tt>z</tt>') is given. We would like to choose a non-empty contiguous (i.e. one-piece) fragment of the word so as to maximise the difference in the number of occurrences of the most and the least frequent letter in the fragment. We are assuming that the least frequent letter has to occur at least once in the resulting fragment. In particular, should the fragment contain occurrences of only one letter, then the most and the least frequent letter in it coincide.</p>
+<h2>Input</h2>
+<p>The first line of the standard input holds one integer N&nbsp;(1 &lt;= N &lt;= 10<sup>6</sup>) that denotes the length of the word. The second line holds a word consisting of N&nbsp;lower-case letters of the English alphabet.</p>
+<h2>Output</h2>
+<p>The first and only line of the standard output is to hold a single integer, equal to the maximum difference in the number of occurrences of the most and the least frequent letter that is attained in some non-empty contiguous fragment of the input word.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>10
+aabbaaabab</pre>
+<p>the correct result is:</p>
+<pre>3</pre>
+<p><strong>Explanation of the example:</strong>&nbsp;The fragment that attains the difference of 3 in the number of occurrences of&nbsp;<tt>a</tt>&nbsp;and&nbsp;<tt>b</tt>&nbsp;is&nbsp;<tt>aaaba</tt>.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2013-08-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>POI XVIII</td></tr>	
+</table>

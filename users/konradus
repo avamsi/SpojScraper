@@ -1,0 +1,18 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/konradus"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TKV1000" target="_blank">18170. Takeover Wars</a></td><td><a href="http://www.spoj.com/problems/TKV1000"target="_blank">TKV1000</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IDC1948" target="_blank">18302. Identity crisis</a></td><td><a href="http://www.spoj.com/problems/IDC1948"target="_blank">IDC1948</a><br>
+</td></tr>

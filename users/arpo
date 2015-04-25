@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/arpo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/INCPOWK" target="_blank">6221. Increasing Powers of K</a></td><td><a href="http://www.spoj.com/problems/INCPOWK"target="_blank">INCPOWK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALNUM" target="_blank">10606. Balanced Numbers</a></td><td><a href="http://www.spoj.com/problems/BALNUM"target="_blank">BALNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWODEL" target="_blank">10607. Delivery</a></td><td><a href="http://www.spoj.com/problems/TWODEL"target="_blank">TWODEL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UNICA" target="_blank">10608. Unique Strings</a></td><td><a href="http://www.spoj.com/problems/UNICA"target="_blank">UNICA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RRANGE" target="_blank">10611. Ranges</a></td><td><a href="http://www.spoj.com/problems/RRANGE"target="_blank">RRANGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUNAREA" target="_blank">10612. Funny Areas</a></td><td><a href="http://www.spoj.com/problems/FUNAREA"target="_blank">FUNAREA</a><br>
+</td></tr>

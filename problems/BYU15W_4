@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BYU15W_4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23435. Game Calculator</h1>
+		<h2>Problem code: BYU15W_4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><!--     .center {         margin-left: auto;         margin-right: auto;     }     .example-table {         margin-top: 10px;         text-align: left;         width: 100%;     }     .example-table td {         max-width: 0;         word-wrap: break-word;         vertical-align: top;     }     .example-table.vertical-spacer {         height: 5px;     }     .section {         margin-top: 19px;         margin-bottom: 19px;     }     .paragraph {         margin-top: 10px;         margin-bottom: 10px;         text-align: left;     }     .paragraph ul, .paragraph pre {         margin-top: 3px;         margin-bottom: 3px;     } --></p>
+<div class="section">
+<h3>Description</h3>
+<div class="paragraph">A game is played where two armies face each other. Each turn, every unit in both armies either scores a hit or a miss. Each army then removes a number of units equal to the number of hits scored by the opposing army. The game is over when at the end of a turn, one army does not have any more units. If both armies run out of units on the same turn, the game is a draw. The probability of any one unit scoring a hit is determined at the beginning of the game and remains constant.</div>
+<div class="paragraph">The goal is to determine the probability of army A winning, army B winning, or the game ending in a draw.</div>
+</div>
+<div class="section">
+<h3>Example</h3>
+<div class="paragraph">If the probability of scoring a hit is 0.3, army A has 2 units, and army B has 1 unit, then A has a 0.86839 chance of winning, B has a 0.09213 chance of winning and there is a 0.03948 chance of a draw.</div>
+</div>
+<div class="section">
+<h3>Input</h3>
+<div class="paragraph">The first line contains a single positive integer <strong>T</strong>, representing the number of test cases. <strong>T</strong> test cases follow. Each test case is two lines long. The first line of each test case contains a single decimal number <strong>H</strong>. The second line contains two positive integers <strong>A</strong> and <strong>B</strong>, representing the number of units in each army.</div>
+<h4>Limits</h4>
+<div class="paragraph">0 &lt; <strong>H</strong> &lt;= 1         <br /> 0 &lt; <strong>A</strong>, <strong>B</strong> &lt;= 1,000,000</div>
+</div>
+<div class="section">
+<h3>Output</h3>
+<div class="paragraph">For each test case, output a single line containing three decimal numbers representing the chance of A winning, B winning and ending in a draw, respectively. Each number should rounded to exactly 5 decimal places.</div>
+</div>
+<table class="section example-table" border="0">
+<tbody>
+<tr>
+<th>Input</th>
+</tr>
+<tr>
+<td>
+<pre>2
+0.3
+2 1
+0.854
+8 8
+</pre>
+</td>
+</tr>
+<tr>
+<th>Output</th>
+</tr>
+<tr>
+<td>
+<pre>0.86839 0.09213 0.03948
+0.38532 0.38532 0.22936
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/byuadmin">BYU Admin</a></td></tr>
+<tr><td>Date:</td><td>2015-03-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHEATCON"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10572. Cheating on the contest</h1>
+		<h2>Problem code: CHEATCON</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For the first time the Skyrim Free School of Mathematics, Philosophy and Linguistics will host<br />the Regular Expressions (regex) Contest (RegExCon). The contest happens this way: participants<br />compete always against 1 opponent. One wins one loses. Only one will remain, the champion. In one<br />dispute both participants receive a list with several regular expressions and for each regex the<br />participants must calculate if several given words are recognized or not by the regex. As a member of<br />the School you are participating, and want to win.<br />So, to guarantee your victory, you have to write a program to solve the problem and let it<br />executing in your Cool Stuff Calculator Machine at home. As a mage, expert in Alteration and Illusion,<br />you can easily control your machine with your mind, so you can use your program while in the contest.<br />It's forbidden to use magic in the contest, but coincidentally the Winterhold School will host some<br />Mage Congress, so you don't need to worry, use your magic.<br />A regular expression is used to describe a language (a set of words). Consider that the alphabet<br />of all languages in this problem is {a, b}.<br />A regex R is valid if:<br />1) R is &ldquo;a&rdquo; or &ldquo;b&rdquo;;<br />2) R is &ldquo;(P.S)&rdquo; where P and S are regular expressions;<br />3) R is &ldquo;(P|S)&rdquo; where P and S are regular expressions;<br />4) R is &ldquo;(P*)&rdquo; where P is a regular expression;<br />Regular expressions can be nested. There is no ternary operation with operators &ldquo;.&rdquo; and &ldquo;|&rdquo;,<br />neither binary operation with operator &ldquo;*&rdquo;. Words always start with &ldquo;(&ldquo; and finish with &ldquo;)&rdquo;.<br />Set L of words recognized by R is formed following next rules:<br />1) If R is &ldquo;(a)&rdquo;, L = {a};<br />2) If R is &ldquo;(b)&rdquo;, L = {b};<br />3) If R is &ldquo;(P.S)&rdquo;, L = all words that can be obtained from a concatenation of words p and s,<br />where p is recognized by P and s by S;<br />4) If R is &ldquo;(P|S)&rdquo;, L = union of the sets of words recognized by P and S;<br />5) If R is &ldquo;(P*)&rdquo;, R recognizes the concatenation of 0 or more words recognized by P.</p>
+<h3>Input</h3>
+<p>Input file contains several test cases. First line of a test case contains a regex (defined before, between 1 and 150). Next line<br />contain an integer P (1 &le; P &le; 100). Each one of the next P lines contains a word formed by 'a's and 'b's (&lt;= 50)<br />that represents the following question: &ldquo;Is this word recognized by the given regex?&rdquo;.</p>
+<h3>Output</h3>
+<p>For each question described before, answer &ldquo;Y&rdquo; (no quotes) if the answer is &ldquo;yes&rdquo; or &ldquo;N&rdquo; (no quotes) if<br />the answer is &ldquo;not&rdquo;. At the end of each test case print a blank line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+(a)<br />3<br />a<br />b<br />aa<br />(a.b)<br />3<br />a<br />ab<br />b<br />(a|b)<br />4<br />a<br />b<br />ab<br />ba<br />(a*)<br />3<br />a<br />aaaaaaaaaaa<br />aaaaabaaaaa<br />((a*).(b*))<br />3<br />bbbaaa<br />aaabbb<br />bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+<strong>Output:</strong>
+Y<br />N<br />N<br />N<br />Y<br />N<br />Y<br />Y<br />N<br />N<br />Y<br />Y<br />N<br />N<br />Y<br />Y
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>0.995s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>UFU</td></tr>	
+</table>

@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04I1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7886. Boards (Hard)</h1>
+		<h2>Problem code: ADV04I1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Super Board Games Inc. is a big company producing board games. A new game was invented within it which may become very popular. A board divided into square cells is required for this game. Left and lower borders of the board should be level and the height of columns of cells should not increase from left to right. Also the board must be entirely paveable with dominoes. After it was found out that the game is the most interesting when played on the board consisting of n cells, it has been decided to release as many versions of the game using different n-cell boards as possible. Help the company count the number of different boards that can be released.
+
+<h3>Input</h3>
+<p>The first line of input is number T - the amount of test cases. Each test is a single integer n - the number of cells.
+
+<h3>Constraints</h3>
+<p>1 <= T <= 100<br />
+1 <= n <= 100
+
+<h3>Output</h3>
+<p>For each test case output the answer to the problem in the statement.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+3
+4
+
+<b>Output:</b>
+2
+0
+5
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.195s
+</td></tr>
+<tr><td>Source limit:</td><td>1000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/, author: Alexey Shchepin</td></tr>	
+</table>

@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOI02TRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20327. Triangles</h1>
+		<h2>Problem code: BOI02TRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><p>There are given n isosceles right triangles on a plane. Each triangle can be described by three integers x,y,m (m&gt;0). Vertices of such a triangle are points which have coordinates (x;y), (x+m;y) and (x; y+m).</p>
+<p>Write a program which calculates the total area covered by triangles.</p>
+<h2>Input data</h2>
+<p>The first line of the input contains one positive integer n (n &lt;= 2000), the number of triangles on a plane.</p>
+<p>The next n lines of the file describe the triangles, one triangle per line. Each line contains three integers x<sub>i</sub>, y<sub>i</sub> and m<sub>i</sub>, separated by single spaces (1 &lt;= i&nbsp;&lt;= n, &#8209;10<sup>7</sup>&nbsp;&lt;= x<sub>i</sub>&nbsp;&lt;= 10<sup>7</sup>, &#8209;10<sup>7</sup>&nbsp;&lt;= y<sub>i</sub>&nbsp;&lt;= 10<sup>7</sup>, 0&nbsp;&lt;&nbsp;m<sub>i</sub>&nbsp;&lt;= 1000).</p>
+<h2>Output data</h2>
+<p>On the first line of the output one number with exactly one digit after decimal point must be written &ndash; the total area covered by triangles.</p>
+<h4>Example</h4><div style="text-align: center;"><img style="vertical-align: middle;" src="https://www.spoj.pl/CSP/content/triangle.gif" alt="Triangles" width="223" height="192" /></div>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="189" valign="top">
+<p><strong>input</strong></p>
+</td>
+<td width="189" valign="top">
+<p>&nbsp;</p>
+</td>
+<td rowspan="2" width="189" valign="top">
+<p><strong>&nbsp;</strong></p>
+</td>
+</tr>
+<tr>
+<td width="189" valign="top">
+<p align="left">5<br /> -5 -3 6<br /> -1 -2 3<br /> 0 0 2<br /> -2 2 1<br /> -4 -1 2</p><p align="left"><strong>Output</strong></p><p align="left">24.5</p>
+</td>
+<td width="189" valign="top">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/faiyaz26">Faiyaz</a></td></tr>
+<tr><td>Date:</td><td>2014-07-11</td></tr>
+<tr><td>Time limit:</td><td>0.039s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Baltic Informatics Olympiad 2002</td></tr>	
+</table>

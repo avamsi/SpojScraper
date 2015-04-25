@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOVICE43"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8442. Problem 3</h1>
+		<h2>Problem code: NOVICE43</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">When I first learned backtracking I made a program to find all the permutations of the English alphabets in lexicographically increasing. Filled with elation I showed the program to Rohil. Rohil being someone who likes to do stuff off the league was not impressed and gave me the following variation of the problem help me to solve the problem:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">You have to find the number of permutations of length N(1&lt;=N&lt;=12) such that at whenever an alphabet say($) appears in the permutation all the alphabets smaller than $ should have appeared before it at least once. An alphabet is smaller than another if it appears before the other in the English alphabet. &lsquo;a&rsquo; being the smallest and &lsquo;z&rsquo; being the largest. For example when N=2 then aa,ab are the only valid permutations and ba,bb is invalid since in ba all the alphabets smaller than b have not appeared at least once before it. See example for further clarification.</div>
+<p>When I first learned backtracking I made a program to find all the permutations of the English alphabets in lexicographically increasing. Filled with elation I showed the program to Rohil. Rohil being someone who likes to do stuff off the league was not impressed and gave me the following variation of the problem help me to solve the problem:&nbsp;</p>
+<p>You have to find the number of permutations of length N(1&lt;=N&lt;=11) such that at whenever an alphabet (say 'c' ) appears in the permutation all the alphabets smaller than 'c' should have appeared before it at least once. An alphabet is smaller than another if it appears before the other in the English alphabet. &lsquo;a&rsquo; being the smallest and &lsquo;z&rsquo; being the largest. For example when N=2 then aa,ab are the only valid permutations and ba,bb is invalid since in ba all the alphabets smaller than b have not appeared at least once before it. See example for further clarification.</p>
+<h3>Input</h3>
+<p>Line 1: T(no. of test cases)</p>
+<p>Line 2: n1</p>
+<p>Line 3: n2</p>
+<p>&hellip;</p>
+<p>&hellip;</p>
+<h3>Output</h3>
+<p>Line 1: no. of such permutations of length n1</p>
+<p>&hellip;&hellip;</p>
+<p>&hellip;..</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+2
+3
+
+<strong>Output:</strong>
+2
+5</pre>
+<pre>Explanation for N=3, the possible permutations are:
+abc
+aba
+abb
+aab
+aaa</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-03-01</td></tr>
+<tr><td>Time limit:</td><td>0.379s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>NSIT Noivce contest #4</td></tr>	
+</table>

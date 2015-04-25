@@ -1,0 +1,135 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PRLGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1471. A Game of Pearls</h1>
+		<h2>Problem code: PRLGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The game of pearls is to use the following 12 kinds of pearl designs each one and only one time to make the big pearl design.The pearl designs can be rotated and turned over arbitrarily. See the pictures below.</p>
+<pre>
+
+                   The empty grids
+
+<img src="/content/john_jones:prlgame.bmp">
+
+                  A sample big pearl design
+
+<img src="/content/john_jones:prlgame2.bmp">
+
+A sample big pearl design used characters instead of colors
+
+<img src="/content/john_jones:prlgame3.bmp">
+
+          Part A
+
+<img src="/content/john_jones:prlgameA.bmp">
+
+          Part B
+
+<img src="/content/john_jones:prlgameB.bmp">
+
+          Part C
+
+<img src="/content/john_jones:prlgameC.bmp">
+
+          Part D
+
+<img src="/content/john_jones:prlgameD.bmp">
+
+          Part E
+
+<img src="/content/john_jones:prlgameE.bmp">
+
+          Part F
+
+<img src="/content/john_jones:prlgameF.bmp">
+
+          Part G
+
+<img src="/content/john_jones:prlgameG.bmp">
+
+          Part H
+
+<img src="/content/john_jones:prlgameH.bmp">
+
+          Part I
+
+<img src="/content/john_jones:prlgameI.bmp">
+
+          Part J
+
+<img src="/content/john_jones:prlgameJ.bmp">
+
+          Part K
+
+<img src="/content/john_jones:prlgameK.bmp">
+
+          Part L
+
+<img src="/content/john_jones:prlgameL.bmp">
+
+</pre>
+<h3>Input</h3>
+<p>Ten test cases(given one after another,you have to process all!), Each contains a big design, 'A'-'L' denote the filled grids, '.' denotes the empty grids,see the example. You can assume that the pearl designs used are completely put into the empty grids.</p>
+<h3>Output</h3>
+<p>A big design which has no grids that haven't been filled and each pearl design is used one and only one time in it,or 'No solution'(without quotes) if there's no solution.If there are multiple solutions,output any.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+.
+..
+...
+....
+.....
+.....C
+...CCC.
+EEEHH...
+E.HHH....
+E.........
+[and 9 test cases more]
+
+<b>Output:</b>
+B
+BK
+BKK
+BJKK
+JJJDD
+GJGDDC
+GGGCCCI
+EEEHHIIA
+ELHHHIAAF
+ELLLLIFFFF
+[and 9 test cases more]
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>4.718s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 2005,Day 1; translated by Blue Mary</td></tr>	
+</table>

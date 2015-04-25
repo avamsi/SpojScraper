@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10589. King</h1>
+		<h2>Problem code: KING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The Nlogonia Kingdom needs a new king. Differently from other monarchy kingdoms,<br />where the king&rsquo;s choice is hierarchical, at Nlogonia any citizen can apply for the post and the<br />whole population can vote on those who applied. However, with these conditions, a big<br />problem arises: every citizen would probably apply and vote for itself.<br />In order to solve this problem the Nlogonia council decided to split the voting process<br />in two phases. In the first phase, known as constraint phase, every citizen must write two<br />constraints about another two candidates. A constraint can be of one of the following two<br />types: a reliability constraint, which means that the citizen trusts another citizen and wishes<br />that it takes place in the second phase of the voting process; an unreliability constraint, which<br />means that the citizen doesn&rsquo;t trust another one and wishes that he doesn&rsquo;t take place in the<br />second phase of the process. The council decided that at least one of the constraints of every<br />citizen must be satisfied in order to choose the group of candidates that can go forward to the<br />second phase. The citizen cannot give itself a reliability constraint.<br />The second phase of the process is a simple voting process where every citizen<br />chooses between one of the candidates that remained from the first phase.<br />Your job is to determine if it is possible to satisfy at least one of the two constraints of<br />every citizen, even if it means that no candidate remains for the second phase, in this case the<br />council decides who must be the king.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains one integer N<br />representing the number of citizen in the Nlogonia Kingdom (3 &le; N &le; 1000). The candidates are<br />identified by different integer from 0 to N-1. Each of the next N lines describes the two<br />constraints of a citizen, and each one starts with an uppercase letter that is either &lsquo;R&rsquo; or &lsquo;U&rsquo;,<br />where &lsquo;R&rsquo; indicates a reliability constraint and &lsquo;U&rsquo; indicates a unreliability constraint, followed<br />by a integer C (0 &le; C &lt; 1000) representing the candidate that the citizen gave the constraint.<br />The two constraints will be separated by single space.<br />The last test case is followed by a line containing one zero.</p>
+<h3>Output</h3>
+<p>For each test, use the output uppercase &lsquo;Y&rsquo; if it is possible to satisfy at least one<br />constraint for each citizen and &lsquo;N&rsquo; if it is not.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3<br />R1U0<br />U2R1<br />R2R0<br />4<br />R1U0<br />R0U1<br />R0R1<br />U0U1
+
+<strong>Output:</strong>
+Y<br />N
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-10</td></tr>
+<tr><td>Time limit:</td><td>0.263s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

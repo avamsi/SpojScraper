@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ranasaha"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RTREE" target="_blank">20775. Roger and tree</a></td><td><a href="http://www.spoj.com/problems/RTREE"target="_blank">RTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RTREE2" target="_blank">22560. Valid Path</a></td><td><a href="http://www.spoj.com/problems/RTREE2"target="_blank">RTREE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RTREE3" target="_blank">22561. Roger and tree III</a></td><td><a href="http://www.spoj.com/problems/RTREE3"target="_blank">RTREE3</a><br>
+</td></tr>

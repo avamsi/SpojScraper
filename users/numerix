@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/numerix"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/POCALC1" target="_blank">8478. Ancient Pocket Calculator</a></td><td><a href="http://www.spoj.com/problems/POCALC1"target="_blank">POCALC1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHONMESS" target="_blank">8491. Messy Phone List</a></td><td><a href="http://www.spoj.com/problems/PHONMESS"target="_blank">PHONMESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POCALC2" target="_blank">8542. Modern Pocket Calculator</a></td><td><a href="http://www.spoj.com/problems/POCALC2"target="_blank">POCALC2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LINQSOLV" target="_blank">8558. Linear Equation Solver</a></td><td><a href="http://www.spoj.com/problems/LINQSOLV"target="_blank">LINQSOLV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOUROW" target="_blank">8574. Four in a row</a></td><td><a href="http://www.spoj.com/problems/FOUROW"target="_blank">FOUROW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRIMPERM" target="_blank">8591. Prime Permutations</a></td><td><a href="http://www.spoj.com/problems/PRIMPERM"target="_blank">PRIMPERM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TETRAHRD" target="_blank">10802. Sum of Tetranacci numbers</a></td><td><a href="http://www.spoj.com/problems/TETRAHRD"target="_blank">TETRAHRD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCIRC" target="_blank">22274. Missing Side</a></td><td><a href="http://www.spoj.com/problems/CIRCIRC"target="_blank">CIRCIRC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAUMAU" target="_blank">22303. Mau-Mau</a></td><td><a href="http://www.spoj.com/problems/MAUMAU"target="_blank">MAUMAU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYTABL" target="_blank">22319. Polynomial Table</a></td><td><a href="http://www.spoj.com/problems/POLYTABL"target="_blank">POLYTABL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYDRAW" target="_blank">22320. Polynomial Drawing</a></td><td><a href="http://www.spoj.com/problems/POLYDRAW"target="_blank">POLYDRAW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PTC" target="_blank">22784. Pythagorean Triple Counting</a></td><td><a href="http://www.spoj.com/problems/PTC"target="_blank">PTC</a><br>
+</td></tr>

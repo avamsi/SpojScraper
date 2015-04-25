@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DSUBTREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9505. Distinct Subtrees</h1>
+		<h2>Problem code: DSUBTREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given an unrooted tree, the subtree is defined as a connected component of the given tree. Two subtrees are considered the same if there exists a map from nodes of one tree to another so that the edges of both trees are corresponding the same pair of nodes after mapping.</p>
+<p>Your task is to find out how many distinct subtrees for a given unrooted tree.</p>
+<h3>Input</h3>
+<p>The input consists of multiple test cases. The first line of input contains an integer denoting the number of test cases.</p>
+<p>For each test case, the first line contains one integer <strong>n</strong> denoting the number of nodes of the given tree. (1 &lt;= <strong>n</strong> &lt;= 15)</p>
+<p>Then <strong>n</strong>-1 lines follow, each line contains two integers denoting an edge of the tree. The index of the node counts from 1.</p>
+<h3>Output</h3>
+<p>For each test case, output the number of distinct subtrees for the given tree.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+3
+1 2
+1 3
+9
+9 4
+4 3
+1 3
+7 4
+1 6
+5 7
+2 4
+6 8
+
+<strong>Output:</strong>
+Case #1: 3
+Case #2: 21
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2011-09-08</td></tr>
+<tr><td>Time limit:</td><td>0.150s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Fudan University Local Contest #3, by g201513</td></tr>	
+</table>

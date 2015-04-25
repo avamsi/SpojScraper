@@ -1,0 +1,107 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BAC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>73. Bacterial</h1>
+		<h2>Problem code: BAC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+In the biology laboratory we are observing several bacterial 
+        samples, and under 
+                the microscope we have them shaded with different colors to see them expanding 
+                their territory on the plate.
+</p>
+<p>It is interesting to know that the 
+        bacterial are 
+                quite 'friendly' that once they meet each other, they do not expand into each 
+                other's occupation any more. The bacterial samples are expanding 
+        at similar speeds and we take them as the same speed.</p><p>Since the experiment is tedious and lengthy (Oh My 
+                God! there are several thousand samples at our pick), we are going to run a 
+                simulation based on this reality, taking the variable that these 
+        samples may be planted in different starting spots.</p>
+        <p>
+We are using rectangular plates and 
+        bacterial racing is bounded within the plate.</p>
+        <img src="/content/nealzane:BAC.gif" width="195" height="162">
+
+<h3>Input format</h3>         <p>There are multiple test cases (about 20000 of them) each taking the following format:</p>
+<div align=left>
+<ul><li>one line with two integers between 1 
+        and 1000 inclusive indicating width and height of the plate
+<li>one line with one integer between 1 and 100 inclusive indicating the 
+        number of bacterial samples
+<li>for each bacterial sample there is one line with two integers 
+        indicating the sample's position:<br>
+        x y, where x, y specify a position within or on the bound of the 
+        plate.
+</ul></div>
+        <p>The plate lies in such a coordinating system that the lower-left corner of it is (0,0) and the upper-right corner is (width,height).</p>
+        <p>A test with zero plate area marks the end of 
+        the tests and this one shall not be processed.</p>
+        <p>Between each input block there is a 
+        blank line.</p>
+        <p>
+<h3>Output format</h3>
+<p>
+Generate a report having the samples sorted on their domination, 
+        with each line taking the following format:<br>
+        &lt;sample id> &lt;area occupation><br>
+        where: 'sample id' takes 3 columns right justified, with '0' padded to 
+        the left as necessary, and 'area occupation' 
+        takes 14 columns with 2 digit precision, right justified.</p>
+        <p>The sample occupying more area shall be 
+        reported prior to those occupying less. The input data will ensure 
+        enough difference in areas to avoid ambiguity.</p>
+        <p>Between each output block there shall 
+        be a blank line.</p>
+<h3>Example</h3>
+<pre>
+<b>Sample input:</b>
+
+<tt>10 10
+2
+5 5
+0 0
+
+0 0</tt>
+
+<b>Sample output:</b>
+
+<tt>001         87.50
+002         12.50</tt>
+
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nealzane">Neal Zane</a></td></tr>
+<tr><td>Date:</td><td>2004-06-08</td></tr>
+<tr><td>Time limit:</td><td>1.631s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Neal Zane</td></tr>	
+</table>

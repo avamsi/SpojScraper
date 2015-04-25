@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/wanderley"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DNA" target="_blank">866. DNA Translation</a></td><td><a href="http://www.spoj.com/problems/DNA"target="_blank">DNA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUBES" target="_blank">867. Perfect Cubes</a></td><td><a href="http://www.spoj.com/problems/CUBES"target="_blank">CUBES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMPORT" target="_blank">869. Galactic Import</a></td><td><a href="http://www.spoj.com/problems/IMPORT"target="_blank">IMPORT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BASE" target="_blank">870. Basically Speaking</a></td><td><a href="http://www.spoj.com/problems/BASE"target="_blank">BASE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQUENCE" target="_blank">871. Letter Sequence Analysis</a></td><td><a href="http://www.spoj.com/problems/SEQUENCE"target="_blank">SEQUENCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MARKUP" target="_blank">872. Mark-up</a></td><td><a href="http://www.spoj.com/problems/MARKUP"target="_blank">MARKUP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRANSMIT" target="_blank">898. Transmitters</a></td><td><a href="http://www.spoj.com/problems/TRANSMIT"target="_blank">TRANSMIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WSCIPHER" target="_blank">899. Ws Cipher</a></td><td><a href="http://www.spoj.com/problems/WSCIPHER"target="_blank">WSCIPHER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPLIT" target="_blank">900. Split Windows</a></td><td><a href="http://www.spoj.com/problems/SPLIT"target="_blank">SPLIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INDEXGEN" target="_blank">901. Index Generation</a></td><td><a href="http://www.spoj.com/problems/INDEXGEN"target="_blank">INDEXGEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HANGOVER" target="_blank">902. Hangover</a></td><td><a href="http://www.spoj.com/problems/HANGOVER"target="_blank">HANGOVER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOUBLEVI" target="_blank">903. Double Vision</a></td><td><a href="http://www.spoj.com/problems/DOUBLEVI"target="_blank">DOUBLEVI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMAGE" target="_blank">904. Image Perimeters</a></td><td><a href="http://www.spoj.com/problems/IMAGE"target="_blank">IMAGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALL" target="_blank">1774. All Discs Considered</a></td><td><a href="http://www.spoj.com/problems/ALL"target="_blank">ALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOOLE" target="_blank">1775. Boolean Logic</a></td><td><a href="http://www.spoj.com/problems/BOOLE"target="_blank">BOOLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CODE" target="_blank">1785. Code</a></td><td><a href="http://www.spoj.com/problems/CODE"target="_blank">CODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DANGER" target="_blank">1786. In Danger</a></td><td><a href="http://www.spoj.com/problems/DANGER"target="_blank">DANGER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENCONDIN" target="_blank">1787. Run Length Encoding</a></td><td><a href="http://www.spoj.com/problems/ENCONDIN"target="_blank">ENCONDIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FRACTAN" target="_blank">1788. Fractan</a></td><td><a href="http://www.spoj.com/problems/FRACTAN"target="_blank">FRACTAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GREEDULM" target="_blank">1789. Huffman´s Greed</a></td><td><a href="http://www.spoj.com/problems/GREEDULM"target="_blank">GREEDULM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEAPULM" target="_blank">1790. Binary Search Heap Construction</a></td><td><a href="http://www.spoj.com/problems/HEAPULM"target="_blank">HEAPULM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ASSIST" target="_blank">1798. Assistance Required</a></td><td><a href="http://www.spoj.com/problems/ASSIST"target="_blank">ASSIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOTTOM" target="_blank">1799. The Bottom of a Graph</a></td><td><a href="http://www.spoj.com/problems/BOTTOM"target="_blank">BOTTOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONTEST" target="_blank">1800. Fixed Partition Contest Management</a></td><td><a href="http://www.spoj.com/problems/CONTEST"target="_blank">CONTEST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRINK" target="_blank">1801. Drink, on Ice</a></td><td><a href="http://www.spoj.com/problems/DRINK"target="_blank">DRINK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EDGE" target="_blank">1802. Edge</a></td><td><a href="http://www.spoj.com/problems/EDGE"target="_blank">EDGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOLD" target="_blank">1803. Fold</a></td><td><a href="http://www.spoj.com/problems/FOLD"target="_blank">FOLD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GENETIC" target="_blank">1804. Genetic Code</a></td><td><a href="http://www.spoj.com/problems/GENETIC"target="_blank">GENETIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HISTOGRA" target="_blank">1805. Largest Rectangle in a Histogram</a></td><td><a href="http://www.spoj.com/problems/HISTOGRA"target="_blank">HISTOGRA</a><br>
+</td></tr>

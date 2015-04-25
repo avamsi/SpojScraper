@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN75"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8549. BST again</h1>
+		<h2>Problem code: MAIN75</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">N nodes are labled with integers from 1 to N. Now these N nodes are inserted in a empty binary search tree. But the constraint is that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">we have to build this tree such that height of the tree is exactly equal to H. Your tast is to find how many distict binary search trees exists&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">of these nodes such that their height is exactly equal to H ?</div>
+<p>N nodes are labled with integers from 1 to N. Now these N nodes are inserted in a empty binary search tree. But the constraint is that&nbsp;we have to build this tree such that height of tree is exactly equal to H. Your tast is to find how many distict binary search trees exists&nbsp;of these nodes such that their height is exactly equal to H ?</p>
+<p>Two BSTs are considered to be different if there exist a node whose parent is different in both trees.</p>
+<h3>Input</h3>
+<p>Input First line contains 1&lt;=T&lt;=10 the number of test cases. Follwomg T lines contains 2 integers each. N and H. 1&lt;=N&lt;=500, 0&lt;=H&lt;=500.</p>
+<h3>Output</h3>
+<p>For each test case print the required answer modulo 1000000007.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>2 1</pre>
+<pre><strong>Output:</strong>
+2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.969s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for NSIT-IIITA main contest #7</td></tr>	
+</table>

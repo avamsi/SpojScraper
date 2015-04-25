@@ -1,0 +1,101 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DYZIO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>56. Dyzio</h1>
+		<h2>Problem code: DYZIO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Dyzio is Jasiek's friend and he also likes riddles. Here is a riddle he came up with:
+</P>
+<div align="justify">
+<i>
+Jasiek, here is a piece of string, which has to be cut into smaller pieces.
+I will not tell you directly how to do it, but look at this
+sequence of zeros (0) and ones (1). A one at the begining means that the string
+has to be cut in half. If the first digit was zero, it would be the only
+digit in the sequence and mean you don't have to cut anything - I want
+the whole string. If you have to cut the string anyway then after the first
+1 I wrote what to do with the left piece (according to the same rules as with
+the whole string) and then I wrote what to do with the right piece of string
+(all the time with the same rules of notation). Every time you have to
+cut the left piece first, only then can you cut the right one. Now start cutting
+and tell me, how many cuts you have to do until you have cut off the shortest piece.
+</i>
+</div>
+<P>
+Unfortunately mom hid the scissors from Jasiek, but luckily a computer was at hand
+and Jasiek quickly wrote a program simulating the string cutting. Can you write
+such a program?
+</P>
+<H3> Task </H3>
+<P>
+Write a program which
+</P>
+<div align="justify">
+<ul>
+<li> reads (from standard input) description of the way the string is cut,
+</li>
+<li> counts how many cuts have to be made in order to get the first shortest piece.
+</li>
+<li> writes out the outcome (to standard output)
+</li>
+</ul></div>
+<H3> Input </H3>
+<P>
+Ten test cases (given one under another, you have to process all!).
+Each test case consists of two lines.
+In the first line there is a number <i>n (1<=n<=20000)</i>. In the second
+line one zero-one word (a sequence of zeros and ones without spaces between them)
+of length <i>n</i> - the description of the cutting procedure given by Dyzio.
+</P>
+<H3> Output </H3>
+<P>
+For every testcase your program should write (to the standard output) only
+one line with one integer equal to the number of
+cuts which have to be made in order to get the shortest piece.
+</P>
+<H3>Example</H3>
+<pre><tt><b>Input:</b>
+9
+110011000
+[and 9 test cases more]
+</tt>
+<tt><b>Output:</b>
+4
+[and 9 test cases more]
+</tt>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-10</td></tr>
+<tr><td>Time limit:</td><td>1.903s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B> (Algorithm Tamers)<br>Round III, 2003</td></tr>	
+</table>

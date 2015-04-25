@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PUCMM335"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13118. The Rook and The Rookette </h1>
+		<h2>Problem code: PUCMM335</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;">
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15; text-align: justify;">Once upon a time, there was a noble rook called Danny who lived in a normal 8x8 chessboard. All squares lived in peace and Danny was a joyful rook, moving either vertically or horizontally across the board, never going off limits. Oh boy did he enjoy moving! He spent all days visiting the 64 squares and bringing flowers and other gifts to them. All squares loved Danny very much, even though they felt sorry for him because there was no Rookette for him to date.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The King took notice of the squares&rsquo; gossiping and he did something very remarkable. He arranged Danny a date with Mar&iacute;a, a Rookette from another chessboard. So, Mar&iacute;a stepped in one of the squares and Danny went immediately after her. However, the King made sure it wasn&rsquo;t easy for Danny. He told him:</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;Danny, I love you very much. We all do. What I am doing right now is because I love you.&rdquo;</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Danny was perplexed, without a clue. &ldquo;What do you mean, Oh righteous King?&rdquo;</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Suddenly, the King arranged M bombs in M squares. &ldquo;In life, you must work hard to achieve your dreams. I cannot just hand Mar&iacute;a over to you. You need to earn your right to date her.&rdquo;</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;Oookkkk&hellip;&rdquo; said Danny, in a doubtful tone. </span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&ldquo;I may also step in one of the squares. Go after her!&rdquo; </span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">And off went Danny. Assume Danny is very desperate to meet her, so he will try to get to her in the shortest possible way. The King &nbsp;wants to prolong Danny&rsquo;s path (maybe to have him think thoroughly about becoming a man). The King needs to decide where he will step in, he has N empty squares to choose from. </span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Write a program that outputs the length of the path should both Danny and the King act optimally. There will always be a path.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">There is a single test case per input file. The first 8 lines contain 8 characters each, and they represent the initial state of the chessboard. The lines are enumerated from 0 to 7 and so are the 8 characters of each line. The character at position (i, j) &nbsp;can be one of the following:</span></p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&lsquo;.&rsquo;</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;: an empty square</span></p>
+</li>
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline;" dir="ltr">
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&lsquo;#&rsquo; </span><span style="background-color: transparent; font-weight: normal; vertical-align: baseline; white-space: pre-wrap;">: a bomb</span></p>
+</li>
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&lsquo;?&rsquo; : the princess</span></p>
+</li><li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr"><p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">'$': Danny</span></p></li>
+</ul>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The following line contains N (0 &lt;= N &lt;= 10), representing the number of empty squares the King has to choose from. Then follow N lines. Each of these lines contain two integers Xi, Yi (0 &lt;= Xi, Yi &lt;= 7), the position of an empty square.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Write a single line containing the length of the path Danny takes to reach Mar&iacute;a, if both Danny and the King act optimally.</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Sample Input</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">$......?</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">########</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">#######.</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">1</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">7 7</span></p>
+<br />
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Sample Output</span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">7</span></p>
+<br /></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/poncholo">Olson Ortiz</a></td></tr>
+<tr><td>Date:</td><td>2013-01-01</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY PYPY PY3.4 SCM chicken VB.net </td></tr>
+	
+</table>

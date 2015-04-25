@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIVISION"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20172. Divisiblity by 3</h1>
+		<h2>Problem code: DIVISION</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Divisiblity by 3 rule is pretty simple rule:Given a number n sum the&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">digits of n and check if sum is divisible by 3.If divisible then n is&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">divisible by 3 else not divisible.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Seems pretty simple but what if we want to extend this rule in binary&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">representation!! Given a binary representation we can again find if it is&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">divisible by 3 or not.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Making it little bit interesting what if only length of binary&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">representation of a number is given say n.Can we find how many numbers&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">exist in decimal form such that when converted into binary form has n&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">length and is divisible by 3 ??</div>
+<p style="text-align: left;"><span style="font-size: small;">Divisiblity by 3 rule is pretty simple rule: Given a number sum the&nbsp;digits of number and check if sum is divisible by 3.If divisible then it is&nbsp;divisible by 3 else not divisible.Seems pretty simple but what if we want to extend this rule in binary&nbsp;representation!! </span></p>
+<p style="text-align: left;"><span style="font-size: small;">Given a binary representation we can again find if it is&nbsp;divisible by 3 or not.&nbsp;Making it little bit interesting what if only length of binary&nbsp;representation of a number is given say n.</span></p>
+<p style="text-align: left;"><span style="font-size: small;"><span style="color: #ff0000;">Now can we find how many numbers&nbsp;exist in decimal form(base 10) such that when converted into binary(base 2) form has n&nbsp;length and is divisible by 3 ?? (1 &lt;= n &lt; 2*10^18)</span></span></p>
+<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></p>
+<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Input</strong></span></p>
+<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;Length of binary form: n</span></p>
+<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;"><strong>output</strong></span></p>
+<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">Print in new line the answer modulo 1000000007.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>2</pre>
+<pre><strong>Output:</strong>
+1</pre>
+<pre>2</pre>
+<pre><strong>Explanation:</strong> For n=2 there are only 2 numbers divisible by 3 viz.0 (00) and 3 (11) and having length 2 in binary form.</pre>
+<pre><strong>NOTE:</strong>There are multiple testfiles containing many testcases each so read till EOF.</pre>
+<pre><strong>Warnings: </strong>Leading zeros are allowed in binary representation and slower languages might require fast i/o. Take care.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/bhavik">Bhavik</a></td></tr>
+<tr><td>Date:</td><td>2014-06-28</td></tr>
+<tr><td>Time limit:</td><td>0.132s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

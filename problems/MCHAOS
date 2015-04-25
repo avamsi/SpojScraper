@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCHAOS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4480. Chaos Strings</h1>
+		<h2>Problem code: MCHAOS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table style="width: 100%; background-color: #41bd46;" border="1">
+<tbody>
+<tr>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MCHAOS/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MCHAOS/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>&nbsp;</p>
+<p>Little Lovro likes to play games with words. During the last few weeks he realized that some words don't like each other.</p>
+<p><br />The words A and B don't like each other if the word A is lexicographically before the word B, but the word B' is lexicographically before the word A', where X' stands for the word X reversed (if X="kamen" then X'="nemak"). For example, the words "lova" and "novac" like each other, but the words "aron" and "sunce" don't like each other.</p>
+<p>Given some set of the words, we define&nbsp; the degree of chaos of the set as&nbsp; the number of pairs of different words that don't like each other.</p>
+<p>Write a program that, given a set of words, finds the chaos degree for the set.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The first line of input contains an integer N, 2 &le; N &le; 100 000.</p>
+<p>Each of the following N lines contains one word &ndash; a sequence of at most 10 lowercase letters of the English alphabet ('a'-'z'). There will be no two identical words in the set.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>The first and only line of output should contain a single integer &ndash; the chaos degree of the given set of words.</p>
+<p><br />Note: use 64-bit signed integer type (int64 in Pascal, long long in C/C++).</p>
+<p>&nbsp;</p>
+<h3>Sample</h3>
+<pre>input <br />&nbsp;<br />2 <br />lopta <br />kugla <br />&nbsp;<br />output <br />&nbsp;<br />0<br /><br />input <br />&nbsp;<br />4 <br />lova <br />novac <br />aron <br />sunce <br />&nbsp;<br />output <br />&nbsp;<br />3<br /><br />input <br />&nbsp;<br />14 <br />branimir <br />vladimir <br />tom <br />kruz <br />bred <br />pit <br />zemlja <br />nije <br />ravna <br />ploca <br />ko <br />je <br />zapalio <br />zito <br />&nbsp;<br />output <br />&nbsp;<br />48<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-06-06</td></tr>
+<tr><td>Time limit:</td><td>0.152s-0.219s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 06</td></tr>	
+</table>

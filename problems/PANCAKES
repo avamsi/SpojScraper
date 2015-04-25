@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PANCAKES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7405. Delicious Pancakes</h1>
+		<h2>Problem code: PANCAKES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Just as promised, PolyProg will invite you to a bounteous pancake buffet right after this contest. Can you already feel the seductive odours dazing your senses? Well, before your mouth starts watering, you should solve this last problem.</p>
+<p style="text-align: center;"><img src="http://www.spoj.pl/content/imuteb:pancakes.jpg" alt="" width="440" height="400" /></p>
+<p style="text-align: justify;">As you might know, the basic ingredients to pancakes are flour, milk and eggs. These may be completed by a passel of additional toppings such as sugar, jam, berries, cheese, ham, mushrooms etc. As the chef of the evening was yet uncertain about the recipe he&rsquo;d whip up tonight, he asked his assistant simply to buy random quantities of each ingredient.</p>
+<p style="text-align: justify;">With these quantities he could make <em>N1</em> pancakes according to recipe 1, <em>N2</em> if he decides to follow recipe 2, <em>N3</em> for recipe 3 and so on and so forth. As the end of the competition is close, the chef will not have enough time to combine several recipes: All pancakes tonight will be of the same taste (too bad :( ). The repertoire of recipes is huge, and as we imagine you to have a ravenous appetite, you are to select the recipe that yields the largest number of pancakes.</p>
+<p>&nbsp;</p>
+<p><strong>INPUT</strong></p>
+<p style="text-align: justify;">The input consists of several test-cases separated by an empty line. The first line of each test-case holds the number of ingredients <em>N (1&lt;=N&lt;=50)</em> the assistant bought followed by the number of recipes <em>R (1&lt;=R&lt;=100) </em>in the chef&rsquo;s repertoire. Each of the next lines contains exactly <em>N</em> non-negative integers (no larger than 10<sup>6</sup>) informing about the ingredients. The first of these lines lists the quantities the assistant bought of each ingredient. The remaining <em>R</em> lines list the quantities (in the same order as the previous line) necessary to make ten pancakes according to the recipe r<sub>i</sub> (from 1 to <em>R</em>). The input ends on a test-case having both <em>N</em> and <em>R</em> zero, which must not be processed.</p>
+<p>&nbsp;</p>
+<p><strong>OUTPUT</strong></p>
+<p style="text-align: justify;">Your program should produce one line per test-case containing the recipe that yields the largest number of pancakes followed by the number of entire pancakes that can be made then. If there is a tie, prefer the recipe that appears first in the input.</p>
+<p>&nbsp;</p>
+<p><strong>SAMPLE INPUT</strong></p>
+<p><span style="font-family: courier new,courier;">3 2</span></p>
+<p><span style="font-family: courier new,courier;">20 20 20</span></p>
+<p><span style="font-family: courier new,courier;">5 10 1</span></p>
+<p><span style="font-family: courier new,courier;">2 1 3</span></p>
+<p><span style="font-family: courier new,courier;">&nbsp;</span></p>
+<p><span style="font-family: courier new,courier;">6 3</span></p>
+<p><span style="font-family: courier new,courier;">100 60&nbsp;130 80&nbsp;100 90</span></p>
+<p><span style="font-family: courier new,courier;">10 5 10 5 10 5</span></p>
+<p><span style="font-family: courier new,courier;">1 2 1 2 20 7</span></p>
+<p><span style="font-family: courier new,courier;">0 0 0 10 30 1</span></p>
+<p><span style="font-family: courier new,courier;">&nbsp;</span></p>
+<p><span style="font-family: courier new,courier;">0 0</span></p>
+<p><span style="font-family: courier new,courier;">&nbsp;</span></p>
+<p><strong>SAMPLE OUTPUT</strong></p>
+<p><span style="font-family: courier new,courier;">2 66</span></p>
+<p><span style="font-family: courier new,courier;">1 100</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/imuteb">Christian Kauth</a></td></tr>
+<tr><td>Date:</td><td>2010-09-26</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+	
+</table>

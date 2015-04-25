@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PFORLOOP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13002. For Loops Challenge</h1>
+		<h2>Problem code: PFORLOOP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><strong> </strong></p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Bjarne is learning about programming. Yesterday&rsquo;s lesson was about </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> loops. To put his skills into practice, he had to write a number of </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> loops that printed consecutive positive integers. He was so proud of his creation that he stored the output of his program into a file. For example, the contents of the file could have looked like this:</span></p>
+<p><strong><strong> <br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">5 6 7 8 9 10 11 12 13 14</span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">56 57 58 59 60 61 62 63 64 65</span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">100 101 102 103 104 105 106</span></strong><br /><br /> </strong></p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Today, he opened his file and realized it is now inconsistent: the numbers weren&rsquo;t sorted in ascending order anymore! His wife told him she was bored so she swapped some numbers around. He&rsquo;s so frustrated he can&rsquo;t rewrite the program. </span></p>
+<p>&nbsp;</p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Your task is to help him out. Read out the numbers and print all the C++ for loops that recreate the original file.</span></p>
+<p><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><strong>Input</strong></span></p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">There are many lines in the input. The i-th line contains a sequence of space-separated positive integers, where each integer is between 0 and 1000000000. It is guaranteed there are no repeated integers and that there will be at minimum one line with one integer, no line will have more than 1000 integers.</span></p>
+<p><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><strong>Output</strong></span></p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Output all the for loops that generate Bjarne&rsquo;s original file, one per line. Print the </span><span style="font-size: 15px; font-family: Arial; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> loops in &nbsp;order. That is, if the numbers of the i-th loop are less than the numbers of the j-th loop, the i-th for loop must be printed first. </span></p>
+<p>&nbsp;</p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Notes:</span></p>
+<p>&nbsp;</p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><span style="font-size: small;">Name &lsquo;i&rsquo; the variable of each for loop.</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><span style="font-size: small;">Don&rsquo;t use brackets.</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr"><span style="font-size: small;"><span style="text-align: justify; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">The </span><span style="text-align: justify; background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="text-align: justify; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> loop condition must be inclusive, that is, use &lsquo;&lt;=&rsquo;. </span> </span>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: small;"><br /></span></p>
+</li>
+<li style="list-style-type: disc; background-color: transparent; vertical-align: baseline;" dir="ltr"><span style="font-size: small;">The increment section of the for loop must be "i++".</span></li>
+</ul>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><span style="font-size: small;">The C++ code you print need not include a line ending command. </span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;" dir="ltr">
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: small;"><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Beware of spaces. All your </span><span style="background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"> loops must contain the same number of spaces as this sample:</span></span></p>
+</li>
+</ul>
+<p style="margin-left: 36pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="font-size: small;"><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">for</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">(int</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">i</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">=</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">a;</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">i</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&lt;=</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">b;</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">i++)</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">cout</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&lt;&lt;</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">i</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&lt;&lt;</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&ldquo;</span><span style="background-color: #ffff00; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;"> </span><span style="background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;">&ldquo;;</span></span></p>
+<p><br /><br /><br /><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><strong>Example</strong></span><br /><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><strong>Input</strong></span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">9 6 100 1 3 105</span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">2 4 101 102 103 104 5 7 8</span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><strong>Output</strong></span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">for (int i = 1; i &lt;= 9; i++) cout &lt;&lt; i &lt;&lt; &ldquo; &ldquo;;</span><br /><span style="font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">for (int i = 100; i &lt;= 105; i++) cout &lt;&lt; i &lt;&lt; &ldquo; &ldquo;;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kojak_">kojak_</a></td></tr>
+<tr><td>Date:</td><td>2012-12-15</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>OPPAI Practice Problems</td></tr>	
+</table>

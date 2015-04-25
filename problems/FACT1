@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FACT1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4941. Integer Factorization (20 digits)</h1>
+		<h2>Problem code: FACT1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>This is a problem to test the robustness of your Integer Factorization algorithm.</p>
+<p>
+Given some integers, you need to factor them into product of prime numbers.
+</p>
+<p>
+The largest integer given in the input file has 20 digits.
+<a href='/problems/FACT2'>FACT2</a> is a harder version of this problem (the numbers are larger).
+</p>
+<p>You may need to use a general factorization algorithm since no special numbers (e.g. Fermat numbers) are considered when designing the input data.</p>
+
+<h3>Input</h3>
+<p>There are several numbers given, each one in a line. </p>
+<p>The input ends with a number 0.</p>
+<p>The number of test cases is about 10.</p>
+
+<h3>Output</h3>
+<p>For each number, print in a line the factorization of it. See examples below for the output format.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3111989
+13091989
+2432902008176640000
+77145199750673
+0
+
+<b>Output:</b>
+317^1 9817^1
+17^2 89^1 509^1
+2^18 3^8 5^4 7^2 11^1 13^1 17^1 19^1
+328439^1 234884407^1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2009-10-08</td></tr>
+<tr><td>Time limit:</td><td>3.065s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

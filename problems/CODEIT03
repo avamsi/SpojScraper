@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CODEIT03"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10366. Play with Dates</h1>
+		<h2>Problem code: CODEIT03</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h1 style="text-align: center;"><span style="font-family: verdana,geneva;"><strong>Play with dates</strong></span></h1>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Problem Statement:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Given the date, month and year, find the day.</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Input Specification:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">The  first line consists of an integer t, the number of test cases. Then for  each test case there are three integers the date, month and year.</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Output Specification:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">For each test case print the day in words in a separate line(</span>The first character should be caps followed by small letters<span style="font-family: verdana,geneva;">).</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Input Constraints:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">1&lt;=t&lt;=100</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Date/month/year &gt;= 11/1/2012</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Date/month/year&lt;=31/12/3000</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">The given date will always be a valid date</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Sample Input:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">3</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">11 1 2012</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">12 1 2012</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">13 1 2012</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;"><strong>Sample Output:</strong></span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Wednesday</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Thursday</span></p>
+<p><span style="font-family: verdana,geneva;"> </span></p>
+<p><span style="font-family: verdana,geneva;">Friday</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2012-01-09</td></tr>
+<tr><td>Time limit:</td><td>0.375s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

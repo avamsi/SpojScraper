@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMZSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11931. AMZ Word</h1>
+		<h2>Problem code: AMZSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>AmzMohammad is a novice problem setter in Spoj. for start of his work he decided to write a classical and sample problem. ( for UI ACM summer program )&nbsp;</p>
+<p>how many N-words(words with n letters) from the alphabet {0,1,2} are such that neighbors differ at most by 1?&nbsp;</p>
+<h3>Input</h3>
+<p>an integer N.</p>
+<h3>Output</h3>
+<p>Number of N-words with told conditions.</p>
+<p>answer is less than 1000000000. it is the only constraint :)</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+
+<strong>Output:</strong>
+7</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mathscholar">mohammad mahmoodi</a></td></tr>
+<tr><td>Date:</td><td>2012-07-31</td></tr>
+<tr><td>Time limit:</td><td>0.079s-0.197s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>AmzMohammad ( Mohammad Mahmoodi )</td></tr>	
+</table>

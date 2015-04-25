@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OLOLO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7742. Onotole needs your help</h1>
+		<h2>Problem code: OLOLO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<table style="width: 100%;" border="0">
+<tbody>
+<tr>
+<td><img src="../../../content/pyshnograev:onotole" alt="" align="left" /></td>
+<td valign="top">
+<p>Onotole has a lot of pyani. Each pyani has a number, writing on it. Pyanis with equal numbers are&nbsp;<span id="result_box" lang="en"><span title="&#1053;&#1072;&#1078;&#1084;&#1080;&#1090;&#1077;, &#1095;&#1090;&#1086;&#1073;&#1099; &#1091;&#1074;&#1080;&#1076;&#1077;&#1090;&#1100; &#1072;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1081; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;">indistinguishable.</span></span>&nbsp;Onotole knows everything, so, he knows that each pyani appeared twice, and only one pyani is unique. He wants to get &#1074;&#1079;&#1076;&#1088;&#1098;&#1078;&#1085;&#1080; &#1101;&#1092;&#1092;&#1077;&#1082;&#1090;, and he needs the unique pyani. Given the list of&nbsp;pyanis&nbsp;denote which one of them appeared once (it is guaranteed that other&nbsp;pyanis&nbsp;appeared twice).</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Input</h3>
+<p>First line of input contains number of pyanis N&lt;=500 000. Next&nbsp;N lines contain a single positive integer 1 &lt;=&nbsp;Pi &lt;= 10^9.</p>
+<h3>Output</h3>
+<p>Output one positive integer on pyani,&nbsp;which appeared once.</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /></strong>3<strong><br /></strong>1<br />8<br />1<br /><strong>Output:</strong>
+8<br /></pre>
+<p><strong>Onotole has found not optimal AC algorithms, so all solutions will be rejudged. He is watching you.</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pyshnograev">Efim</a></td></tr>
+<tr><td>Date:</td><td>2010-11-04</td></tr>
+<tr><td>Time limit:</td><td>0.134s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

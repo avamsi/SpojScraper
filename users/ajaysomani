@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ajaysomani"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DETER2" target="_blank">1772. Find The Determinant II</a></td><td><a href="http://www.spoj.com/problems/DETER2"target="_blank">DETER2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARRANGE" target="_blank">2412. Arranging Amplifiers</a></td><td><a href="http://www.spoj.com/problems/ARRANGE"target="_blank">ARRANGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BUILD" target="_blank">2413. Building Beacons</a></td><td><a href="http://www.spoj.com/problems/BUILD"target="_blank">BUILD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CCOST" target="_blank">2414. Calculate The Cost</a></td><td><a href="http://www.spoj.com/problems/CCOST"target="_blank">CCOST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DSUBSEQ" target="_blank">2416. Distinct Subsequences</a></td><td><a href="http://www.spoj.com/problems/DSUBSEQ"target="_blank">DSUBSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ENEMY" target="_blank">2417. Eliminate The Enemies</a></td><td><a href="http://www.spoj.com/problems/ENEMY"target="_blank">ENEMY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FFROG" target="_blank">2418. Flying Frogs</a></td><td><a href="http://www.spoj.com/problems/FFROG"target="_blank">FFROG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLGRID" target="_blank">2419. G-Line Grid</a></td><td><a href="http://www.spoj.com/problems/GLGRID"target="_blank">GLGRID</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HHAND" target="_blank">2420. Hospital at Hands</a></td><td><a href="http://www.spoj.com/problems/HHAND"target="_blank">HHAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ININT" target="_blank">2421. Incrementing The Integer</a></td><td><a href="http://www.spoj.com/problems/ININT"target="_blank">ININT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JAZZYJOB" target="_blank">2422. Jazzy Job</a></td><td><a href="http://www.spoj.com/problems/JAZZYJOB"target="_blank">JAZZYJOB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIBE2" target="_blank">3390. Tribe Council</a></td><td><a href="http://www.spoj.com/problems/TRIBE2"target="_blank">TRIBE2</a><br>
+</td></tr>

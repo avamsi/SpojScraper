@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OFFSTRAT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10573. Problem Offensive Strategy</h1>
+		<h2>Problem code: OFFSTRAT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p class="western" style="margin-bottom: 0cm;">&nbsp;</p>
+<p class="western" style="margin-bottom: 0cm;"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"> <span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">Foo Football Club is a very offensive soccer team. Its coach is planing a new attack strategy.</span></span></span></span></span><span style="font-style: normal;"><strong><br /></strong></span><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">In order not to change its image of offensive team, the coach wants to be sure that the new attack strategy is going to be strongly offensive. He is a very grumpy coach so he does not allow the players to make a pass that is not in the strategy sheet. In fact he is so mad that he does not allow the player who holds the ball to move.</span></span></span></span></span><span style="font-style: normal;"><strong><br /><br /></strong></span><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">A attack strategy is strongly offensive if each football pass position inside the field goes to another football pass position inside the field which is in the same distance or closer to the enemy line of goal, and also it should be possible to reach the enemy goal from every pass position described in the strategy sheet.</span></span></span></span></span></span></span></p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p class="western" style="margin-bottom: 0cm;"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">The first line of input consist of a number T (T&lt;=20</span></span></span></span></span><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">) representing the number of test cases, then T test cases follow describing a strategy.</span></span></span></span></span></span></span></p>
+<p class="western" style="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none;">&nbsp;</p>
+<p class="western" style="margin-bottom: 0cm;"><a name="internal-source-marker_0.4763403229881078"></a> <span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">Each test case begins with two integers W and</span></span></span></span></span><strong> </strong><span style="font-weight: normal;">H </span><strong>(1&lt;W,H&lt;=100 , also W and H are even integers) </strong><span style="font-weight: normal;">representing the width</span><strong> </strong><span style="text-decoration: none;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">and high of the soccer field. </span></span></span></span></span><span style="text-decoration: none;"><span style="font-family: Arial;"><span style="font-size: small;"><span style="font-style: normal;"><span style="font-weight: normal;"><span style="background: none repeat scroll 0% 0% transparent;">The goal lines is the line x = w and the goal is gotten form a pass point (x,y) if it is possible reach the point (w,h/2) from (x,y).</span></span></span></span></span></span></span></span></p>
+<p class="western" style="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none;"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% transparent;">These are followed by an integer number M (1&lt;=M&lt;1000000) the number of available passes in the strategy. The next M lines consist of four integer numbers x0, y0, x1, y1 (0&lt;= x0,x1 &lt;= W and 0&lt;=y0,y1&lt;=H). representing the start position (x0,y0), and the end position (x1,y1) of an available pass in. </span></span></span></span></p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p class="western" style="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none;"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="font-size: small;"><span style="background: none repeat scroll 0% 0% transparent;">For each test case the output should consist of a single line containing &ldquo;Yes&rdquo; (without quotes) if the strategy is strongly offensive or &ldquo;No&rdquo; (without quotes) otherwise.</span></span></span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+
+</pre>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">2</span></span></p>
+<p class="western">&nbsp;</p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">2 2 1 </span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">0 1 2 1 </span></span></p>
+<p class="western">&nbsp;</p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">2 2 4 </span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">0 1 2 1 </span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">0 0 1 1 </span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">0 2 1 1 </span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">1 1 2 1 </span></span></p>
+<pre><strong>Output:</strong>
+
+</pre>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">Yes</span></span></p>
+<p class="western"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;">Yes</span></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">
+<p class="western" style="margin-bottom: 0cm" align="CENTER"><span style="color: #000000;"><span style="font-family: Arial,sans-serif;"><span style="font-size: large;"><strong>Problem Offensive Strategy</strong></span></span></span></p>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-02-07</td></tr>
+<tr><td>Time limit:</td><td>1.238s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>FAMAF-UNC</td></tr>	
+</table>

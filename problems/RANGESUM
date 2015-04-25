@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RANGESUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14543. Range Sum</h1>
+		<h2>Problem code: RANGESUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3 style="text-align: left;">Problem Statement</h3>
+<p>You are initially given an array of N integers ( 1&lt;=N&lt;=10<sup>5</sup> ). Given this array, you have to perform 2 kinds of operations : <br /><br />(i) Operation 1 : Op1( l, r )<br /><br />You are given 2 integers l and r. ( 1 &lt;= l &lt;= r &lt;= current size of the array ). You need to return the sum of all the elements with indices between l and r ( both inclusive ). That is, if the elements currently in the array are a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>.... a<sub>n</sub>, you need to return the following sum : a<sub>l</sub> + a<sub>l+1</sub> + a<sub>l+2</sub> ... + a<sub>r</sub>. <br /><br />(ii) Operation 2 : Op2( x )<br /><br />You are given a single integer x ( |x| &lt;= 10<sup>9</sup> ). Add this element to the <span style="text-decoration: underline;">beginning</span> of the array. After this operation, x will now become a<sub>1</sub>, the old a<sub>1</sub> will now become a<sub>2</sub>, and so on. The size of the array will increase by 1.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Input</h3>
+<p>The first line contains a single integer N ( 1 &lt;= N &lt;= 10<sup>5</sup> ), the number of elements initially in the array.<br /><br />This is followed by a line containing N space separated integers, a<sub>1</sub> a<sub>2</sub> .... a<sub>N</sub>. ( |a<sub>i</sub>| &lt;= 10<sup>9</sup> )<br /><br />The next line contains a single integer Q, the number of operations you will be asked to perform. ( 1 &lt;= Q &lt;= 10<sup>5</sup> )<br /><br />Q lines of input follow. Each such line starts with either the number 1 or the number 2. This indicates the type of operation that you are required to perform. The format of these queries are as follows : <br /><br />1 l r : Carry out operation 1 with arguments l and r. ( 1 &lt;= l &lt;= r &lt;= current size of the array )<br />That is, return the sum of the following array elements : a<sub>l</sub> + a<sub>l+1</sub> ... + a<sub>r</sub><br /><br />2 x : Carry out operation 2 with the argument x. ( |x| &lt;= 10<sup>9</sup> )<br />That is, add the value x at the beginning of the array.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: left;">Output</h3>
+<p>For each query of type 1, output the return value on a new line. No output needs to be printed for queries of type 2.</p>
+&nbsp;
+<h3 style="text-align: left;">Example</h3>
+<pre><strong>Input #1:</strong>
+<br />10<br />1 2 3 4 5 6 7 8 9 10<br />4<br />1 1 10<br />1 1 1<br />1 10 10<br />1 2 7<br /><br /><strong>Output #1:</strong><br /><br />55<br />1<br />10<br />27<br /><strong><br /><br />Input #2:</strong><br /><br />5<br />6 7 8 9 10<br />9<br />2 5<br />2 4<br />1 2 7<br />2 3<br />2 2<br />2 1<br />1 1 10<br />1 1 1<br />1 10 10<br /><strong><br /><br />Output #2:</strong><br /><br />45<br />55<br />1<br />10<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arya5691">Gowri Sundaram</a></td></tr>
+<tr><td>Date:</td><td>2013-04-11</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

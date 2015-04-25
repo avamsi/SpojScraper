@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC604"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11440. Unlock it ! Part 2</h1>
+		<h2>Problem code: DCEPC604</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Now you all helped Vaibhav solve the puzzle and open the gate last time (although not<br />too much help). But as soon as he opens the gate, there is another puzzle to open the front door. Let&rsquo;s see whether this time you all are able to help him or not.</p>
+<p>Fac(n) = no of zeroes in n!<br />Fact(n)= Fac(n)%25+1<br /><br /> F(0)=1<br /><br /> F(1)=1<br /><br /> F(2)=1<br /><br /> F(n) = product of all odd primes less than or equal to n (for n&lt;=10)<br /><br /> F(n) = 4^fact(n) * f(n/5) * f(n/10) &nbsp; (for n&gt;10)</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><strong>For every fraction , a floor value is taken for evaluation.</strong></p>
+<p style="text-align: justify;"><strong>For eg. F(11)=4^fact(11) * F(floor(11/5)) * F(floor(11/10))&nbsp; = 4^3 * F(2) * F(1) = 64</strong><br /><br />Given N. Find the max value of&nbsp;<strong>(a^b)%mod</strong>&nbsp;such that a and b satisfies the relation gcd(a,b) = F(N).<br /><br />Gcd : Greatest common divisor</p>
+<h3>Input</h3>
+<p>First line gives T, total number of testcases.<br />Next T line gives number N</p>
+<h3>Output</h3>
+<p>For each test case, print the desired value on a new line.</p>
+<h3>Constraints</h3>
+<p>T&lt;=10<br /><br />N&lt;=10^6</p>
+<p>mod = 10^9.</p>
+<p>NOTE: a must be &lt;= 5*F(n) and b must be &lt;=5*F(n) , a can be equal to b and mod=10^9</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<br />1</pre>
+<pre><span class="AM">2</span>&nbsp;
+
+<strong>Output:</strong>
+<br />1024
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-04-22</td></tr>
+<tr><td>Time limit:</td><td>0.073s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

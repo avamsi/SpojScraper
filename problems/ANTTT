@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANTTT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4465. The Ant</h1>
+		<h2>Problem code: ANTTT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are <strong>n</strong> sticks lying on the ground. The Ant can move only along the sticks. It can go from one stick to another only if the sticks intersect or touch each other. Help the Ant find out if it can  reach the stick <strong>y</strong> from the stick <strong>x</strong>.</p>
+<h3>Input</h3>
+<p>The first line of the input contains number <strong>t</strong> &#8211; the amount of tests. Then <strong>t</strong> test descriptions follow. The first line of each test contains two  integers <strong>n</strong> and <strong>m</strong> - the number of stick and the number of queries. Next<strong> n</strong> lines contain four integers <strong>Ax</strong>,<strong> Ay</strong>, <strong>Bx</strong>, <strong>By</strong> - the coordinates of the endpoints of a stick. You may consider stick to be straight segment on a plane. The next <strong>m</strong> lines contain two integers each <strong>x</strong> and <strong>y</strong> which are the queries.</p>
+<h3>Constraints</h3>
+<p>1 &lt;= <strong>t</strong> &lt;= 100<br /> 1 &lt;= <strong>n</strong>, <strong>m</strong> &lt;= 1000<br />-10000 &lt;= <strong>Ax</strong>, <strong>Ay</strong>, <strong>Bx</strong>, <strong>By</strong> &lt;= 10000<br />1 &lt;= <strong>x</strong>, <strong>y</strong> &lt;= <strong>n </strong></p>
+<h3>Output</h3>
+<p>For each query print "YES" if the Ant can reach the stick number <strong>y</strong> from the stick number <strong>x</strong>, otherwise print "NO".</p>
+<h3>Example</h3>
+<pre><strong>Input:<br /><p><span style="font-weight: normal;">2<br />3 3<br />1 3 4 3<br />3 4 3 1<br />3 1 5 1<br />1 2<br />1 3<br />2 2<br />3 3<br />1 1 3 1<br />2 1 3 1<br />3 2 4 1<br />1 2<br />1 3<br />2 3</span></p></strong></pre>
+<pre><strong><br />Output:<p><span style="font-weight: normal;">YES<br />YES<br />YES<br />YES<br />NO<br />NO</span><span style="font-weight: normal;"><span style="font-weight: normal;"> </span></span></p></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2009-06-02</td></tr>
+<tr><td>Time limit:</td><td>1.111s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2009, http://sevolymp.uuuq.com/<br />author: elmariachi1414</td></tr>	
+</table>

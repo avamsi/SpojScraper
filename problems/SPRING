@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPRING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10453. Spring Loaded</h1>
+		<h2>Problem code: SPRING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bob have just got a new toy from his Physics teacher to play with. It is called the Super Coiled<br />Spring Loaded String (SCSLS for short) and it involves coiled springs, but unfortunately no magnets.<br />The complex structure of the trinket is made of N bars (numbered from 0 to N &minus; 1) and M springs<br />(numbered from 0 to M &minus; 1), each of which connects two different bars. All springs are laid out<br />longitudinally to the entire string while the bars are perpendicular to them.<br />The bars can be positioned freely along the longitudinal axis, but when two bars connected by a<br />spring are pulled away from each other, a restoring force appears at the spring. Bob knows that this<br />elastic force is given by Hooke&rsquo;s Law, which states that |F | = kx, where k is a spring constant, x<br />is the displacement of the spring and |F | is the absolute value of the force. Because the SCSLS is a<br />very strange device, its springs are also special since they are Zero-length springs, each with a specific<br />constant ki . This kind of spring have infinitesimal length so that when it is stretched, its length is<br />equal to its displacement.<br />Bob wants to leave his new toy displayed in his bedroom and he will do so by nailing the bars to<br />the wall. He needs to position them horizontally such that bars 0 and N &minus; 1 are D units distant from<br />each other and the remaining bars are between them (in any relative order). Being a very meticulous<br />kid, he always takes good care of all his toys. So, he wants to achieve a configuration such that the<br />maximum force exerted on any spring is the lowest possible (because this way the springs are supposed<br />to have greater durability).</p>
+<p><img src="http://www.students.ic.unicamp.br/~ra093887/spring.jpeg" alt="spring example" width="593" height="183" /></p>
+<p>For example, in the figure above we have N = 4 bars and M = 4 springs showed at the left in their<br />initial configuration. Suppose the spring constants are k0 = 10, k1 = 20, k2 = 10 and k3 = 1 and Bob<br />wants a total distance of D = 10. The best configuration is showed at the right, in which the springs<br />are subject to forces |F0 | = 40, |F1 | = 40, |F2 | = 40 and |F3 | = 6, all of which are no greater than 40.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains three integers N , M and D<br />representing respectively the number of bars (2 &le; N &le; 100), the number of springs (1 &le; M &le; 104 )<br />and the needed distance between bars 0 and N &minus; 1 (1 &le; D &le; 105 ). Each of the next M lines describes<br />a spring using two distinct integers A, B and an integer K, indicating that there is a spring connecting<br />bars A and B (0 &le; A, B &le; N &minus; 1) with spring constant K (1 &le; K &le; 105 ).<br />The last test case is followed by a line containing three zeros.</p>
+<h3>Output</h3>
+<p>For each test case output a line with the lowest possible value of the maximum elastic force in a valid<br />configuration. Your answer should be rounded to two decimal digits.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3 2 5<br />1 0 1<br />1 2 1<br />3 3 5<br />1 0 1<br />1 2 1<br />0 2 2<br />4 4 10<br />0 2 10<br />1 2 20<br />1 3 10<br />2 3 1<br />0 0 0<br /><br /><strong>Output:</strong>
+2.50<br />10.00<br />40.00 </pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulo_costa">Paulo Costa</a></td></tr>
+<tr><td>Date:</td><td>2012-01-19</td></tr>
+<tr><td>Time limit:</td><td>3.418s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Unicamp</td></tr>	
+</table>

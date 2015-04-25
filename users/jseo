@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/jseo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/STREETR" target="_blank">8132. Street Trees</a></td><td><a href="http://www.spoj.com/problems/STREETR"target="_blank">STREETR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHAIR" target="_blank">8139. Chairs</a></td><td><a href="http://www.spoj.com/problems/CHAIR"target="_blank">CHAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FASTFOOD" target="_blank">8288. Fast Food Restaurant</a></td><td><a href="http://www.spoj.com/problems/FASTFOOD"target="_blank">FASTFOOD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOICOST" target="_blank">8980. Cost</a></td><td><a href="http://www.spoj.com/problems/KOICOST"target="_blank">KOICOST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOIREP" target="_blank">8982. Representatives</a></td><td><a href="http://www.spoj.com/problems/KOIREP"target="_blank">KOIREP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOILINE" target="_blank">8985. Line up</a></td><td><a href="http://www.spoj.com/problems/KOILINE"target="_blank">KOILINE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TUG" target="_blank">9040. Tug of War</a></td><td><a href="http://www.spoj.com/problems/TUG"target="_blank">TUG</a><br>
+</td></tr>

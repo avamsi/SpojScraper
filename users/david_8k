@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/david_8k"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DISTO" target="_blank">10346. Streets of distortion</a></td><td><a href="http://www.spoj.com/problems/DISTO"target="_blank">DISTO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DICT" target="_blank">10381. Search in the dictionary!</a></td><td><a href="http://www.spoj.com/problems/DICT"target="_blank">DICT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALIEN" target="_blank">10401. Aliens at the train</a></td><td><a href="http://www.spoj.com/problems/ALIEN"target="_blank">ALIEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALIEN2" target="_blank">10471. Aliens at the train, again!</a></td><td><a href="http://www.spoj.com/problems/ALIEN2"target="_blank">ALIEN2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIXDOOM" target="_blank">10930. Dixon Dominoes</a></td><td><a href="http://www.spoj.com/problems/DIXDOOM"target="_blank">DIXDOOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VERODOOM" target="_blank">10958. Vero Dominoes</a></td><td><a href="http://www.spoj.com/problems/VERODOOM"target="_blank">VERODOOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GREAT_E" target="_blank">11157. The Great Escape</a></td><td><a href="http://www.spoj.com/problems/GREAT_E"target="_blank">GREAT_E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRAWB" target="_blank">11165. Magic Strawberries</a></td><td><a href="http://www.spoj.com/problems/STRAWB"target="_blank">STRAWB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLA" target="_blank">11371. Answer the boss!</a></td><td><a href="http://www.spoj.com/problems/RPLA"target="_blank">RPLA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLB" target="_blank">11372. Blueberries</a></td><td><a href="http://www.spoj.com/problems/RPLB"target="_blank">RPLB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLC" target="_blank">11373. Coke madness</a></td><td><a href="http://www.spoj.com/problems/RPLC"target="_blank">RPLC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLD" target="_blank">11374. Database</a></td><td><a href="http://www.spoj.com/problems/RPLD"target="_blank">RPLD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLE" target="_blank">11375. Espionage</a></td><td><a href="http://www.spoj.com/problems/RPLE"target="_blank">RPLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLG" target="_blank">11493. Goto & labels</a></td><td><a href="http://www.spoj.com/problems/RPLG"target="_blank">RPLG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLH" target="_blank">11494. Hard Launching</a></td><td><a href="http://www.spoj.com/problems/RPLH"target="_blank">RPLH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLI" target="_blank">11495. Ignore the bounds</a></td><td><a href="http://www.spoj.com/problems/RPLI"target="_blank">RPLI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLJ" target="_blank">11496. Just the distance</a></td><td><a href="http://www.spoj.com/problems/RPLJ"target="_blank">RPLJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLK" target="_blank">11769. Kind and gently</a></td><td><a href="http://www.spoj.com/problems/RPLK"target="_blank">RPLK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLL" target="_blank">11770. Lifesavers</a></td><td><a href="http://www.spoj.com/problems/RPLL"target="_blank">RPLL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLM" target="_blank">11771. Mountain Cave</a></td><td><a href="http://www.spoj.com/problems/RPLM"target="_blank">RPLM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPLN" target="_blank">11772. Negative Score</a></td><td><a href="http://www.spoj.com/problems/RPLN"target="_blank">RPLN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALIEN3" target="_blank">11789. Aliens at the subway</a></td><td><a href="http://www.spoj.com/problems/ALIEN3"target="_blank">ALIEN3</a><br>
+</td></tr>

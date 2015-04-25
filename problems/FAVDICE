@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FAVDICE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1026. Favorite Dice</h1>
+		<h2>Problem code: FAVDICE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>BuggyD loves to carry his favorite die around.  Perhaps you wonder why it's his favorite?  Well, his die is magical and can be transformed into an N-sided unbiased die with the push of a button.  Now BuggyD wants to learn more about his die, so he raises a question:</p>
+
+<p>What is the expected number of throws of his die while it has <b>N</b> sides so that each number is rolled at least once?</p>
+
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>t</b>, the number of test cases.  <b>t</b> test cases follow.</p>
+
+<p>Each test case consists of a single line containing a single integer <b>N</b> (1 <= <b>N</b> <= 1000) - the number of sides on BuggyD's die.</p>
+
+<h3>Output</h3>
+<p>For each test case, print one line containing the expected number of times BuggyD needs to throw his <b>N</b>-sided die so that each number appears at least once.  The expected number must be accurate to 2 decimal digits.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+1
+12
+
+<b>Output:</b>
+1.00
+37.24
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kawigi">Matthew Reeder</a></td></tr>
+<tr><td>Date:</td><td>2006-10-29</td></tr>
+<tr><td>Time limit:</td><td>0.391s
+</td></tr>
+<tr><td>Source limit:</td><td>30000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Al-Khawarizm 2006</td></tr>	
+</table>

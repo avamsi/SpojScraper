@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/prog2001"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HEADSHOT" target="_blank">7132. Headshot</a></td><td><a href="http://www.spoj.com/problems/HEADSHOT"target="_blank">HEADSHOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOIGARD" target="_blank">7133. Garden 2005</a></td><td><a href="http://www.spoj.com/problems/IOIGARD"target="_blank">IOIGARD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOIPALIN" target="_blank">7150. Palindrome 2000</a></td><td><a href="http://www.spoj.com/problems/IOIPALIN"target="_blank">IOIPALIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOIBOUND" target="_blank">7152. Boundary 2003</a></td><td><a href="http://www.spoj.com/problems/IOIBOUND"target="_blank">IOIBOUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CURSE" target="_blank">7193. The Pharaoh Curse</a></td><td><a href="http://www.spoj.com/problems/CURSE"target="_blank">CURSE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FLATAND" target="_blank">11904. A Classic Myth - Flatland Superhero</a></td><td><a href="http://www.spoj.com/problems/FLATAND"target="_blank">FLATAND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRECOUNT" target="_blank">11905. Tree Count</a></td><td><a href="http://www.spoj.com/problems/TRECOUNT"target="_blank">TRECOUNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALLLSTA" target="_blank">11921. Ball Stack</a></td><td><a href="http://www.spoj.com/problems/BALLLSTA"target="_blank">BALLLSTA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DOMECIR" target="_blank">11984. Dome of Circus</a></td><td><a href="http://www.spoj.com/problems/DOMECIR"target="_blank">DOMECIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRASSPLA" target="_blank">12005. Grass Planting</a></td><td><a href="http://www.spoj.com/problems/GRASSPLA"target="_blank">GRASSPLA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12B" target="_blank">12397. Johnny plays with connect 4</a></td><td><a href="http://www.spoj.com/problems/LCPC12B"target="_blank">LCPC12B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12C" target="_blank">12398. Johnny Listens to Music</a></td><td><a href="http://www.spoj.com/problems/LCPC12C"target="_blank">LCPC12C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12D" target="_blank">12399. Johnny Hates Climbing</a></td><td><a href="http://www.spoj.com/problems/LCPC12D"target="_blank">LCPC12D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12E" target="_blank">12400. Johnnys Empire</a></td><td><a href="http://www.spoj.com/problems/LCPC12E"target="_blank">LCPC12E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12F" target="_blank">12407. Johnny The Gambler</a></td><td><a href="http://www.spoj.com/problems/LCPC12F"target="_blank">LCPC12F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12G" target="_blank">12408. Johnny Studies Genetics</a></td><td><a href="http://www.spoj.com/problems/LCPC12G"target="_blank">LCPC12G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCPC12H" target="_blank">12409. Johnny at school</a></td><td><a href="http://www.spoj.com/problems/LCPC12H"target="_blank">LCPC12H</a><br>
+</td></tr>

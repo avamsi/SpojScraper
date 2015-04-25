@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KOSPC13B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13511. Determine the vismin value !</h1>
+		<h2>Problem code: KOSPC13B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are N students in a class. The teacher wants to  test the acuity of the students' vision as well as mind in an  entertaining way.She comes up with an idea.</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The students were made to stand in a line and numbered  from 1 to N, each carrying a board with a number K on it.The test is as  follows : the teacher calls out a student X;the student can look at  either sides and choose a student Y who carries a board with a number  greater than or equal to the number on the board carried by X and  calculates a value called as "vismin value". "vismin value" is defined  as the product of the difference between the positions of X and Y and  the smallest of the numbers on the boards carried by X and Y.If it is  not possible to choose Y,"vismin value" will be 0. Now, the way the  students are tested is how far the students maximise the "vismin  value".For each student called, he/she answers with a "vismin value".If  it is maximum, teacher says "Maximum".If there is a greater value  possible, the teacher says the value which the student is running short  of, to attain the maximum value.If the value said by the student is  greater than the maximum value possible, the teacher says "Not  possible".</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Consider yourself as the teacher and print the output accordingly.</span></span></p>
+<p><span style="font-size: small;"><span style="text-decoration: underline;"><strong>Input:</strong></span><br /></span></p>
+<p><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">The first line of the input consists of N,the number of students in the class.</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">The  second line consists of N space separated integers K representing the  numbers on the boards carried by the respective students.</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Then, each line/query consists of a student number separated by the vismin value determined by the student.</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Input ends with both student number and vismin value equal to 0.</span><br /><br /><span style="text-decoration: underline;"><strong>Output:</strong></span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">For each query, print what the teacher would have said.</span><br /></span></p>
+<p><strong><span style="text-decoration: underline;"><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"><strong>Constraints</strong></span></span></span><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"> :</span></span></strong></p>
+<p><span style="font-size: small;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1&lt;=N&lt;=100000</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1&lt;=k&lt;=10^9</span></span></p>
+<p><span style="font-size: small;">Number of queries &lt;= 10000</span></p>
+<p><span style="font-size: small;"><br /><span style="color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline;">Input :</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">5</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">5 3 6 7 1</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 13</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 18</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">1 15</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">4 5</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">5 4</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">0 0</span><br /><span style="color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; vertical-align: baseline; text-decoration: underline;">Output :</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">2</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Not possible</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Maximum</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Not possible</span><br /><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Maximum</span><br /></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codingcapo">Pandian</a></td></tr>
+<tr><td>Date:</td><td>2013-01-26</td></tr>
+<tr><td>Time limit:</td><td>0.146s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

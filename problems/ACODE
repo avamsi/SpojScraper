@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACODE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>394. Alphacode</h1>
+		<h2>Problem code: ACODE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Alice and Bob need to send secret messages to each other and are discussing ways to encode their
+messages:</p>
+<blockquote>
+<p>
+	<u>Alice:</u> &#8220;Let&#8217;s just use a very simple code: We&#8217;ll assign &#8216;A&#8217; the code word 1, &#8216;B&#8217; will be 2,
+	and so on down to &#8216;Z&#8217; being assigned 26.&#8221;<br></p>
+<p>
+	<u>Bob:</u> &#8220;That&#8217;s a stupid code, Alice. Suppose I send you the word &#8216;BEAN&#8217; encoded as 25114.
+	You could decode that in many different ways!&#8221;<br>
+</p>
+<p>
+	<u>Alice:</u> &#8220;Sure you could, but what words would you get? Other than &#8216;BEAN&#8217;, you&#8217;d get
+	&#8216;BEAAD&#8217;, &#8216;YAAD&#8217;, &#8216;YAN&#8217;, &#8216;YKD&#8217; and &#8216;BEKD&#8217;. I think you would be able to figure out the
+	correct decoding. And why would you send me the word &#8216;BEAN&#8217; anyway?&#8221;<br>
+</p>
+<p>
+	<u>Bob:</u> &#8220;OK, maybe that&#8217;s a bad example, but I bet you that if you got a string of length 5000
+	there would be tons of different decodings and with that many you would find at least two
+	different ones that would make sense.&#8221;<br>
+</p>
+<p>
+	<u>Alice:</u> &#8220;How many different decodings?&#8221;<br>
+</p>
+<p>
+	<u>Bob:</u> &#8220;Jillions!&#8221;
+</p>
+</blockquote>
+<p>
+For some reason, Alice is still unconvinced by Bob&#8217;s argument, so she requires a program that will
+determine how many decodings there can be for a given string using her code.</p>
+<h3>Input</h3>
+<p>Input will consist of multiple input sets. Each set will consist of a single line of at most 5000 digits representing a
+valid encryption (for example, no line will begin with a 0). There will be no spaces between the digits.
+An input line of &#8216;0&#8217; will terminate the input and should not be processed.</p>
+<h3>Output</h3>
+<p>For each input set, output the number of possible decodings for the input string. All answers will be
+within the range of a 64 bit signed integer.</p>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+25114
+1111111111
+3333333333
+0
+
+<b>Output:</b>
+
+6
+89
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2005-07-09</td></tr>
+<tr><td>Time limit:</td><td>0.341s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM East Central North America Regional Programming Contest 2004</td></tr>	
+</table>

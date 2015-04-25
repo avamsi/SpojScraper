@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TEAMNIM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11273. Team Nim</h1>
+		<h2>Problem code: TEAMNIM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Elayne and Nynaeve have teamed up against Aviendha and Birgitte to play a game of Nim. There are 3 piles of coins with X, Y and Z coins initially. In each turn the current player selects any non-empty pile, and removes any non-zero number of coins from that heap. Then play passes to the next player. The team whose player cannot make any valid move, loses, and the other team wins the game. Assume that all the players play optimally. Find out which team wins the game.<br /><br /><strong>Input:</strong><br />The first line contains T, the number of test cases. T test cases follow.<br />The first line of each test case contains 3 integers X,Y,Z.<br />This is followed by 4 lines containing the names "Elayne", "Nynaeve", "Aviendha", "Birgitte" (without quotes) in some order. This denotes the order of play. The player listed first gets the first turn, the next listed player gets the next turn and so on. After the player listed fourth, turn comes back to the player listed first and play continues.<br /><br /><br /><strong>Output:</strong><br />Output T lines, each containing the winner's description for the corresponding test case.<br />Output "Elayne/Nynaeve" (without quotes) if Elayne and Nynaeve's team wins.<br />Output "Aviendha/Birgitte" (without quotes) if Aviendha and Birgitte's team wins.<br /><br /><br /><strong>Constraints:</strong><br />T &lt;= 50000<br />1 &lt;= X,Y,Z &lt;= 1000000000<br /><br /><strong>Sample Input:</strong><br />3<br />1 1 1<br />Elayne<br />Nynaeve<br />Aviendha<br />Birgitte<br />2 2 1<br />Aviendha<br />Elayne<br />Birgitte<br />Nynaeve<br />3 1 3<br />Elayne<br />Nynaeve<br />Birgitte<br />Aviendha<br /><strong><br />Sample Output:</strong><br />Elayne/Nynaeve<br />Aviendha/Birgitte<br />Elayne/Nynaeve<br /><br /><br /><strong>Explanation:</strong><br />In the first test case, the players do not really have any choice. Elayne, Nynaeve and Aviendha empty one pile each on their turn, and Birgitte cannot make any valid move after that.<br />In the second test case, Aviendha should empty the third pile of 1 coin. Now if Elayne takes 2 coins from a pile, Birgitte takes 2 coins from the other pile, leaving Nynaeve with no move. Or if Elayne takes 1 coin from a pile, Birgitte takes 1 coin from the other pile, and play will continue to leave Elayne with no move on her next turn.<br />In the third test case, Elayne and Nynaeve should each take 3 coins and empty a pile. Birgitte is forced to take the last coin leaving Aviendha with no move.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rudradevbasak">Rudradev Basak</a></td></tr>
+<tr><td>Date:</td><td>2012-03-30</td></tr>
+<tr><td>Time limit:</td><td>0.826s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem, used for ACM Indo-Pak Contest</td></tr>	
+</table>

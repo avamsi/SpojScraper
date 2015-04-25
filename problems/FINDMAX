@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FINDMAX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5969. Finding Maximum</h1>
+		<h2>Problem code: FINDMAX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">One way of finding the maximum element in an array is to initialize a variable to the first element in the array, iterate through the remaining array, and update the variable whenever a value strictly greater than it is found. Assuming that the array contains N elements each in the range 1..K, how many such arrays exist such that the above algorithm performs exactly P updates? Initialization of the variable is not counted as an update.<br /><br />For example,the possible arrays for N = 4,K = 3 and P = 2 are<br />1) {1,1,2,3}<br />2) {1,2,1,3}<br />3) {1,2,2,3}<br />4) {1,2,3,1}<br />5) {1,2,3,2}<br />6) {1,2,3,3}</p>
+<p style="text-align: center;"><br /><strong>Input<br /></strong></p>
+<p style="text-align: left;"><br />The first line contains T the number of test cases. There follow T lines, containing 3 space seperated integers N,K and P.</p>
+<p style="text-align: center;"><br /><strong>Output</strong></p>
+<p style="text-align: left;">Output T lines, one for each test case. On each line, output the answer as asked above. Since the answers can get very big, output the answer modulo 1000000007.</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p style="text-align: left;">Sample Input :<br />3<br />4 3 2<br />2 3 1<br />3 4 1<br /><br />Sample Output :<br />6<br />3<br />30</p>
+<p style="text-align: center;"><br /><strong>Constraints</strong></p>
+<p style="text-align: left;"><br />1 &lt;= T &lt;= 100<br />1 &lt;= n &lt;= 100<br />1 &lt;= K &lt;= 300<br />0 &lt;= P &lt; n</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-01-24</td></tr>
+<tr><td>Time limit:</td><td>0.131s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Codechef Snackdown Onsite</td></tr>	
+</table>

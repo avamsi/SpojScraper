@@ -1,0 +1,198 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12561. Forbidden Machine</h1>
+		<h2>Problem code: CDC12_F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Finally Ronny could make it to the safe place, he left his family there and decided to go to this</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">new planet and talk to their King. Ronny know that he can&rsquo;t do this by himself, so he called</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">every army of the Earth to have a backup in case that things turn out bad.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">They made it to the new planet, and realize that it was like only rainbows and teddy bears,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">and just at the entrance there was a sign that said: &rdquo;Welcome to Rainbowland&rdquo;. Ronny and</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">his army went through this planet directly to their castle. At the entrance, a guard wearing a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">hat colored with rainbow colors, stopped Ronny. He said that Ronny could pass if and only if</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">he could solve a puzzle: The Forbidden Machine Puzzle.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">This puzzle consists on a machine that takes strings, and then says if the strings are correct.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">A string is considered correct if it follows the rules of the machine. This rules consists on a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sequence of state transitions. Each transition tells the machine that if it was in a state X, it</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">can go to a state Y with a character Z on the string. The machine starts reading from the first</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">position of the string, and each transition move the string one position to the left, so the next</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">position to read it&rsquo;s the second one. It is important to add that the machine always start on</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">an initial state and a string follows the rules of the machine if and only if this can made it to</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">a final state of the machine, and the string has been read completely. Ronny has a hard time</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">understanding this machine, so he would like you to simulate it, in order to have the correct</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">answer for the guard.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Please note that a single state-character combination can lead to several different states.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer T , which specifies the number of test cases. Then, will follow</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the descriptions of T test cases.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Each test case will contain a line with 4 integers, N , M , F and Q. N is the number of states</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">of the machine, M is the number of transitions, F is the number of final states of the machine,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">and Q it&rsquo;s the initial state. Then F lines will follow with a single integer E on it, representing</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">that the state E it&rsquo;s a final state. Then M lines will follow, with 2 integers I and J and a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">character C; this represents that there exists a transition that goes from state I to state J</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">reading the character C. Then will be a line with an integer S, that indicate the number of</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">strings to process, and S lines will follow, each one with a string A that has to be evaluated by</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Ronny.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The input must be read from standard input.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC 2012 - Contest Session</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">15</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each input case you must "Scenario #i:" where i is the number of the test case that you</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">are evaluating (Starting by 1). Then S lines, with the string and the answer of the machine for</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">that string, if the string is correct, you should output "Accepted", and if it&rsquo;s not, you should</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">output "Rejected" (Quotes for clarity).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The output must be written to standard output.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Sample input Output for the sample input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2 Scenario #1:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">4 8 1 0 ababbaa Rejected</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0 abababab Accepted</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0 1 a aaaabbbb Accepted</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1 0 a Scenario #2:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1 2 b aaabcccc Rejected</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2 1 b aabbbbcdc Rejected</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0 3 b abbcdddcc Rejected</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3 0 b acdddddd Accepted</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3 2 a abc Accepted</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2 3 a&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">ababbaa&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">abababab&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">aaaabbbb&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">6 8 2 0&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">2&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">5&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0 0 a&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">0 1 a&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1 1 b&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1 2 c&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">1 3 c&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">3 4 d&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">4 4 d&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">4 5 d&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">5&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">aaabcccc&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">aabbbbcdc&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">abbcdddcc&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">acdddddd&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">abc&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC 2012 - Contest Session</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Constraints</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; 1 &le; T &le; 100</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; 1 &le; N &le; 100</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; 1 &le; F , Q, I, J, E &le; N</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; 1 &le; S &le; 100</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; 1 &le; |A| &le; 1000</div>
+<p>&nbsp;</p>
+<p>Finally Ronny could make it to the safe place, he left his family there and decided to go to this&nbsp;new planet and talk to their King. Ronny know that he can&rsquo;t do this by himself, so he called&nbsp;every army of the Earth to have a backup in case that things turn out bad.</p>
+<p>They made it to the new planet, and realize that it was like only rainbows and teddy bears,&nbsp;and just at the entrance there was a sign that said: &rdquo;Welcome to Rainbowland&rdquo;. Ronny and&nbsp;his army went through this planet directly to their castle. At the entrance, a guard wearing a&nbsp;hat colored with rainbow colors, stopped Ronny. He said that Ronny could pass if and only if&nbsp;he could solve a puzzle: The Forbidden Machine Puzzle.</p>
+<p>This puzzle consists on a machine that takes strings, and then says if the strings are correct.&nbsp;A string is considered correct if it follows the rules of the machine. This rules consists on a&nbsp;sequence of state transitions. Each transition tells the machine that if it was in a state X, it&nbsp;can go to a state Y with a character Z on the string. The machine starts reading from the first</p>
+<p>position of the string, and each transition move the string one position to the left, so the next&nbsp;position to read it&rsquo;s the second one. It is important to add that the machine always start on&nbsp;an initial state and a string follows the rules of the machine if and only if this can made it to&nbsp;a final state of the machine, and the string has been read completely. Ronny has a hard time&nbsp;understanding this machine, so he would like you to simulate it, in order to have the correct&nbsp;answer for the guard.</p>
+<p>Please note that a single state-character combination can lead to several different states.</p>
+<p><strong>Input</strong></p>
+<p>The first line contains an integer T , which specifies the number of test cases. Then, will follow</p>
+<p>the descriptions of T test cases.</p>
+<p>Each test case will contain a line with 4 integers, N , M , F and Q. N is the number of states&nbsp;of the machine, M is the number of transitions, F is the number of final states of the machine,&nbsp;and Q it&rsquo;s the initial state. Then F lines will follow with a single integer E on it, representing&nbsp;that the state E it&rsquo;s a final state. Then M lines will follow, with 2 integers I and J and a&nbsp;character C; this represents that there exists a transition that goes from state I to state J&nbsp;reading the character C. Then will be a line with an integer S, that indicate the number of&nbsp;strings to process, and S lines will follow, each one with a string A that has to be evaluated by&nbsp;Ronny.</p>
+<p><strong>Output</strong></p>
+<p>For each input case you must "Scenario #i:" where i is the number of the test case that you&nbsp;are evaluating (Starting by 1). Then S lines, with the string and the answer of the machine for&nbsp;that string, if the string is correct, you should output "Accepted", and if it&rsquo;s not, you should&nbsp;output "Rejected" (Quotes for clarity).</p>
+<p>Sample input Output for the sample input</p>
+<table border="2">
+<tbody>
+<tr>
+<td>INPUT</td>
+<td>OUTPUT</td>
+</tr>
+<tr valign="top">
+<td>
+<p>2</p>
+<p>4 8 1 0&nbsp;</p>
+<p>0&nbsp;</p>
+<p>0 1 a&nbsp;</p>
+<p>1 0 a&nbsp;</p>
+<p>1 2 b&nbsp;</p>
+<p>2 1 b</p>
+<p>0 3 b&nbsp;</p>
+<p>3 0 b&nbsp;</p>
+<p>3 2 a&nbsp;</p>
+<p>2 3 a&nbsp;</p>
+<p>3&nbsp;</p>
+<p>ababbaa&nbsp;</p>
+<p>abababab&nbsp;</p>
+<p>aaaabbbb&nbsp;</p>
+<p>6 8 2 0&nbsp;</p>
+<p>2&nbsp;</p>
+<p>5&nbsp;</p>
+<p>0 0 a&nbsp;</p>
+<p>0 1 a&nbsp;</p>
+<p>1 1 b&nbsp;</p>
+<p>1 2 c&nbsp;</p>
+<p>1 3 c&nbsp;</p>
+<p>3 4 d&nbsp;</p>
+<p>4 4 d&nbsp;</p>
+<p>4 5 d&nbsp;</p>
+<p>5&nbsp;</p>
+<p>aaabcccc&nbsp;</p>
+<p>aabbbbcdc&nbsp;</p>
+<p>abbcdddcc&nbsp;</p>
+<p>acdddddd&nbsp;</p>
+<p>abc&nbsp;</p>
+</td>
+<td>
+<p>Scenario #1:</p>
+<p>ababbaa Rejected</p>
+<p>abababab Accepted</p>
+<p>aaaabbbb Accepted</p>
+<p>Scenario #2:</p>
+<p>aaabcccc Rejected</p>
+<p>aabbbbcdc Rejected</p>
+<p>abbcdddcc Rejected</p>
+<p>acdddddd Accepted</p>
+<p>abc Accepted</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Constraints</strong></p>
+<p>&bull; 1 &le; T &le; 100</p>
+<p>&bull; 1 &le; N &le; 100</p>
+<p>&bull; 1 &le; F , Q, I, J, E &le; N</p>
+<p>&bull; 1 &le; S &le; 100</p>
+<p>&bull; 1 &le; |A| &le; 1000</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

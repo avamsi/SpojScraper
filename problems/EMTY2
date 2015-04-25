@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EMTY2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18714. Can You Make It Empty 2</h1>
+		<h2>Problem code: EMTY2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a string S with only 0 and 1. You can delete the string 100 from any position of S an infinite number of times and obtain a new S after concatenation. Is it possible to make the string empty?</p>
+<p>As for example, if S=101000 then 10<strong>100</strong>0-&gt;<strong>100-&gt;</strong>empty</p>
+<p>If S=1010001 then 10<strong>100</strong>01-&gt;<strong>100</strong>1-&gt;1-&gt;not empty</p>
+<p><strong>Input</strong></p>
+<p>Input starts with an integer&nbsp;<strong>T (&le; 100)</strong>, denoting the number of test cases.</p>
+<p>Each case contains a string S. The size of string is at most 120000.</p>
+<p><strong>Output</strong></p>
+<p>For each test case, print the case number and &ldquo;yes&rdquo; if it is possible to make the string S empty, print &ldquo;no&rdquo; otherwise.</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="319" valign="top">
+<p><strong>Sample Input</strong></p>
+</td>
+<td width="319" valign="top">
+<p><strong>Output for Sample Input</strong></p>
+</td>
+</tr>
+<tr>
+<td width="319" valign="top">
+<p>2<br />101000<br />1010001</p>
+</td>
+<td width="319" valign="top">
+<p>Case 1: yes<br />Case 2: no</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br /><br />PROBLEM SETTER: MD ABDUL ALIM, DEPT. OF CSE, BUBT</p>
+<p>SPECIAL THANKS: RAIHAT ZAMAN NELOY, DEPT. OF CSE, JU</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/alim14">Md Abdul Alim</a></td></tr>
+<tr><td>Date:</td><td>2014-03-03</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

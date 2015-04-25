@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ICODER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1881. Instruction Decoder</h1>
+		<h2>Problem code: ICODER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div align="justify">
+<p>
+Mathews uses a brand new 16-bit instruction processor. (Yeah i am being sarcastic!). It has one register (say R) and it supports two instructions: <br>
+<ul>
+<li>ADD X; Impact: R = (R + X) mod 65536
+<li>MUL X; Impact: R = (R * X) mod 65536
+<li>[For both instructions 0 &lt;= X &lt;= 65535]
+</ul>
+Mathews sees a segment of code, but doesnot know what value the register had before the code was being executed. How many possible values can the register have after the segment completed execution?
+</p>
+<br>
+<b>Input Format:</b><br>
+The input file consists of multiple testcases. <br>
+The first line of each testcase contains one integer, <b>N</b>. (1 &lt;= N &lt;= 100,000).<br>
+The following <b>N</b> lines contain one instructions each. <br>
+Input terminates with a line containing N=0, which must not be processed. <br>
+<br>
+<b>Output Format:</b><br>
+For each testcase print one integer in a single line, denoting the number of different values the register can take after code execution.<br>
+<br>
+<b>Sample Input:</b><br>
+<pre>
+1
+ADD 3
+1
+MUL 0
+5
+MUL 3
+ADD 4
+MUL 5
+ADD 3
+MUL 2
+8
+ADD 32
+MUL 5312
+ADD 7
+MUL 7
+ADD 32
+MUL 5312
+ADD 7
+MUL 7
+0
+</pre>
+
+<b>Sample Output:</b><br>
+<pre>
+65536
+1
+32768
+16
+</pre>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2007-10-08</td></tr>
+<tr><td>Time limit:</td><td>0.476s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NITT ACM ICPC Local Contest 2007 [Self]</td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/alim14"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EMTY2" target="_blank">18714. Can You Make It Empty 2</a></td><td><a href="http://www.spoj.com/problems/EMTY2"target="_blank">EMTY2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HIPPO" target="_blank">20041. Hippo and Bloody Jungle</a></td><td><a href="http://www.spoj.com/problems/HIPPO"target="_blank">HIPPO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LPPP" target="_blank">20674. Lov-e Pap Pap-e Polti</a></td><td><a href="http://www.spoj.com/problems/LPPP"target="_blank">LPPP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EMTY3" target="_blank">21284. Can You Make It Empty 3</a></td><td><a href="http://www.spoj.com/problems/EMTY3"target="_blank">EMTY3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CEQU" target="_blank">21357. Crucial Equation</a></td><td><a href="http://www.spoj.com/problems/CEQU"target="_blank">CEQU</a><br>
+</td></tr>

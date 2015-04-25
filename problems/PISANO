@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PISANO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13419. Modular Fibonacci Period</h1>
+		<h2>Problem code: PISANO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Perhaps the first thing one notices when the Fibonacci sequence is reduced mod M is that
+it seems periodic.</p>
+
+<p>
+For example :</br>
+F (mod 4) = <b>0 1 1 2 3 1</b> 0 1 1 2 3 ... </br>
+F (mod 5) = <b>0 1 1 2 3 0 3 3 1 4 0 4 4 3 2 0 2 2 4 1</b> 0 1 1 2 3 ... </br>
+</p>
+
+<p>
+We define K(M) the period of the Fibonacci sequence reduced mod M if it is periodic.</br>
+We just saw that K(4) = 6 and K(5) = 20.
+</p>
+
+<h3>Input</h3>
+<p>
+The input begins with the number T of test cases in a single line.</br>
+In each of the next T lines there are one integer M.
+</p>
+
+
+<h3>Output</h3>
+<p>
+For each test case, on a single line, print K(M), or "Not periodic." without quotes if need.
+</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+3
+4
+5
+6
+
+<b>Output:</b>
+6
+20
+24
+</pre>
+
+<h3>Constraints</h3>
+<pre>
+1 < T < 10^4
+1 < M < 10^12
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-01-20</td></tr>
+<tr><td>Time limit:</td><td>10s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

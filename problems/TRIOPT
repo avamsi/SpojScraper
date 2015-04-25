@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRIOPT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>827. Trigonometric optimization</h1>
+		<h2>Problem code: TRIOPT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Many problems arising in practical applications may be stated as <i>optimization problems</i>. Usually it is necessary to maximize or minimize so called <i>criterion function</i> taking into account some <i>constraints</i>.
+
+<p>
+Let&#8217;s consider a trigonometric optimization problem. It is necessary to maximize or to minimize criterion function <b>F<sub>1</sub>(x) + F<sub>2</sub>(y) + F<sub>3</sub>(z)</b> with constraint <b>x + y + z = S</b>, where <b>x</b>, <b>y</b>, <b>z</b> &#8211; variables, <b>S</b> &#8211; parameter, <b>x</b>, <b>y</b>, <b>z</b>, <b>S</b> - natural numbers.  Each of the functions <b>F<sub>1</sub></b>, <b>F<sub>2</sub></b> and <b>F<sub>3</sub></b> is a trigonometric function <b><i>sin</i></b> or <b><i>cos</i></b>.
+
+<p>
+You need to write a program which solves the <i>trigonometric optimization</i> problem.
+
+<h3>Input</h3>
+<p>
+The first line of the input data contains integer <b>T</b> (1 &#8804; <b>T</b> &#8804; 65) - the number of testcases. Then the descriptions of <b>T</b> testcases follow.
+<p>
+The description of each testcase consists of <i>5</i> lines. The first line describes function <b>F<sub>1</sub></b> and contains either <b>sin</b> or <b>cos</b>. The second and the third lines describe functions <b>F<sub>2</sub></b> and <b>F<sub>3</sub></b> respectively and have the same format as the first line. Next, the fourth line contains either <b>min</b> or <b>max</b>. If the line contains <b>min</b> than it is necessary to minimize <i>criterion function</i>, otherwise it is necessary to maximize <i>criterion function</i>. Finally, the fifth line contains parameter <b>S</b> value (3 &#8804; <b>S</b> &#8804; 1 000 000).
+
+<h3>Output</h3>
+<p>For each testcase you should output one line into the output data. This line should contain one real number &#8211; the found value of the <i>criterion function</i>. Absolute error of your answer must not exceed <b>10<sup>-10</sup></b>.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+sin
+cos
+sin
+max
+10
+
+<b>Output:</b>
+2.7787651403
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mystic">Ivan Metelsky</a></td></tr>
+<tr><td>Date:</td><td>2006-04-27</td></tr>
+<tr><td>Time limit:</td><td>14.56s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC Western Subregion QF 2005</td></tr>	
+</table>

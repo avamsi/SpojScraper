@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abhijith"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TTTABLE" target="_blank">4273. Train TimeTable</a></td><td><a href="http://www.spoj.com/problems/TTTABLE"target="_blank">TTTABLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EBOXES" target="_blank">4343. Empty Boxes</a></td><td><a href="http://www.spoj.com/problems/EBOXES"target="_blank">EBOXES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REC" target="_blank">5294. Recurrence</a></td><td><a href="http://www.spoj.com/problems/REC"target="_blank">REC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QCJ1" target="_blank">6041. Mountain Walking</a></td><td><a href="http://www.spoj.com/problems/QCJ1"target="_blank">QCJ1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QCJ2" target="_blank">6042. Another Box Problem</a></td><td><a href="http://www.spoj.com/problems/QCJ2"target="_blank">QCJ2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QCJ3" target="_blank">6043. The Game</a></td><td><a href="http://www.spoj.com/problems/QCJ3"target="_blank">QCJ3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QCJ4" target="_blank">6044. Minimum Diameter Circle</a></td><td><a href="http://www.spoj.com/problems/QCJ4"target="_blank">QCJ4</a><br>
+</td></tr>

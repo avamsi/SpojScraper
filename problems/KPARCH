@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KPARCH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2648. Archiver</h1>
+		<h2>Problem code: KPARCH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+One of your friends wants to write his own archiver. He is going to replace neighboring equal substrings with only one copy. For example, he is going to change substring "AA" with something like "2(A)" and if "A" is long enough it will reduce the file size.
+<br /><br />
+But, before performing any coding stuff he wants to know how many such double substrings are there in the input file.
+<br /><br />
+He asks you to help him, because this task is very difficult for him.
+
+<h3>Input</h3>
+<p>Input file contains the text to be archived. It will only contain Latin letters (big and small). Its size will not exceed 200000 symbols. Letters are case sensitive, i.e. "X" is not equal to "x".
+
+<h3>Output</h3>
+<p>Write a number of substrings of input text which can be written as "AA", i.e. consist of two equal concatenated parts.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+abcdefg
+
+<b>Output:</b>
+0
+</pre>
+
+<pre>
+<b>Input:</b>
+blabla
+
+<b>Output:</b>
+1
+</pre>
+
+<pre>
+<b>Input:</b>
+aCacaacaa
+
+<b>Output:</b>
+4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kingpin">Pavel Kuznetsov</a></td></tr>
+<tr><td>Date:</td><td>2008-04-11</td></tr>
+<tr><td>Time limit:</td><td>0.111s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IT Festival Arkhangelsk 2007</td></tr>	
+</table>

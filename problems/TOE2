@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TOE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1162. Tic-Tac-Toe ( II )</h1>
+		<h2>Problem code: TOE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In the game of tic-tac-toe, two players take turns marking squares of an initially empty 3 × 3 grid with either X&#8217;s or O&#8217;s. The first player always marks squares using X&#8217;s, whereas the second player always marks squares using O&#8217;s. If at any point during the game either player manages to mark three consecutive squares in a row, column, or diagonal with his/her symbol, the game terminates.
+
+<p><br>
+Given a board configuration, your goal is to determine whether the board configuration represents the possible final state of a valid tic-tac-toe game.
+
+<p><br>
+<h3>Input</h3>
+<p>The input test file will contain multiple cases. Each test case consists of a single line containing 9 characters, which represent the 9 squares of a tic-tac-toe grid, given one row at a time. Each character on the line will either be &#8216;X&#8217;, &#8216;O&#8217; (the letter O), or &#8216;.&#8217; (indicating an unfilled square). The end-of-file is marked by a single line containing the word &#8220;end&#8221;.
+
+<p><br>
+<h3>Output</h3>
+<p>For each input test case, write a single line containing either the word &#8220;valid&#8221; or &#8220;invalid&#8221; indicating whether the given board configuration is the final state of some possible tic-tac-toe game.
+
+<p><br>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+XXXOO.XXX
+XOXOXOXOX
+OXOXOXOXO
+XXOOOXXOX
+XO.OX...X
+.XXX.XOOO
+OOXXXOOXO
+end
+
+<b>Output:</b>
+invalid
+valid
+invalid
+valid
+valid
+invalid
+invalid
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2006-12-14</td></tr>
+<tr><td>Time limit:</td><td>0.206s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Stanford Local 2006</td></tr>	
+</table>

@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/turbo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SQRROOT" target="_blank">245. Square Root</a></td><td><a href="http://www.spoj.com/problems/SQRROOT"target="_blank">SQRROOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BICYCLE" target="_blank">278. Bicycle</a></td><td><a href="http://www.spoj.com/problems/BICYCLE"target="_blank">BICYCLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INUMBER" target="_blank">279. Interesting number</a></td><td><a href="http://www.spoj.com/problems/INUMBER"target="_blank">INUMBER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIFTS" target="_blank">280. Lifts</a></td><td><a href="http://www.spoj.com/problems/LIFTS"target="_blank">LIFTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MUDDY" target="_blank">282. Muddy Fields</a></td><td><a href="http://www.spoj.com/problems/MUDDY"target="_blank">MUDDY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NAPTIME" target="_blank">283. Naptime</a></td><td><a href="http://www.spoj.com/problems/NAPTIME"target="_blank">NAPTIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PON" target="_blank">288. Prime or Not</a></td><td><a href="http://www.spoj.com/problems/PON"target="_blank">PON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYEQ" target="_blank">290. Polynomial Equations</a></td><td><a href="http://www.spoj.com/problems/POLYEQ"target="_blank">POLYEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AGGRCOW" target="_blank">297. Aggressive cows</a></td><td><a href="http://www.spoj.com/problems/AGGRCOW"target="_blank">AGGRCOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCUBE" target="_blank">303. The Unstable Cube</a></td><td><a href="http://www.spoj.com/problems/UCUBE"target="_blank">UCUBE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RATTERN" target="_blank">309. The Room Pattern</a></td><td><a href="http://www.spoj.com/problems/RATTERN"target="_blank">RATTERN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PITPAIR" target="_blank">318. Pythagorean Legacy</a></td><td><a href="http://www.spoj.com/problems/PITPAIR"target="_blank">PITPAIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BISHOPS" target="_blank">328. Bishops</a></td><td><a href="http://www.spoj.com/problems/BISHOPS"target="_blank">BISHOPS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CALLS" target="_blank">329. Calls</a></td><td><a href="http://www.spoj.com/problems/CALLS"target="_blank">CALLS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HARDQ" target="_blank">332. Hard Question</a></td><td><a href="http://www.spoj.com/problems/HARDQ"target="_blank">HARDQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHDISP" target="_blank">334. The Philosophical Dispute</a></td><td><a href="http://www.spoj.com/problems/PHDISP"target="_blank">PHDISP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACT" target="_blank">359. Alpha Centauri Tennis</a></td><td><a href="http://www.spoj.com/problems/ACT"target="_blank">ACT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IGARB" target="_blank">362. Ignore the Garbage</a></td><td><a href="http://www.spoj.com/problems/IGARB"target="_blank">IGARB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHIDIAS" target="_blank">365. Phidias</a></td><td><a href="http://www.spoj.com/problems/PHIDIAS"target="_blank">PHIDIAS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FARMER" target="_blank">366. Farmer</a></td><td><a href="http://www.spoj.com/problems/FARMER"target="_blank">FARMER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EMPODIA" target="_blank">367. Empodia</a></td><td><a href="http://www.spoj.com/problems/EMPODIA"target="_blank">EMPODIA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRINT" target="_blank">503. Prime Intervals</a></td><td><a href="http://www.spoj.com/problems/PRINT"target="_blank">PRINT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TEM" target="_blank">757. Thermal Luminescence</a></td><td><a href="http://www.spoj.com/problems/TEM"target="_blank">TEM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CH3D" target="_blank">760. Convex Hull 3D</a></td><td><a href="http://www.spoj.com/problems/CH3D"target="_blank">CH3D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CATM" target="_blank">1418. The Cats and the Mouse</a></td><td><a href="http://www.spoj.com/problems/CATM"target="_blank">CATM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NGM" target="_blank">1419. A Game with Numbers</a></td><td><a href="http://www.spoj.com/problems/NGM"target="_blank">NGM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GEOM" target="_blank">1420. Geometry and a Square</a></td><td><a href="http://www.spoj.com/problems/GEOM"target="_blank">GEOM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FIRM" target="_blank">1421. Goods</a></td><td><a href="http://www.spoj.com/problems/FIRM"target="_blank">FIRM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLK" target="_blank">2631. Chomp</a></td><td><a href="http://www.spoj.com/problems/CLK"target="_blank">CLK</a><br>
+</td></tr>

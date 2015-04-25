@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BUILDING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7002. Buildings</h1>
+		<h2>Problem code: BUILDING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A certain city has M buildings, all having a width of 1. The ith building has height h_i units. The outline of the city can be seen by everyone passing along, and you wish to place an advertisement in front. You want the advertisement to be totally contained within the boundary defined by the outline of the city. The advertisement should be rectangular in shape, and its base should be at ground level. Also, it should have an integral height and its vertical edges should coincide with the vertical edges of the buildings. Now you wonder, for each building x, how many ways are there to place an advertisement such that it hides (fully or partially) building x ?<br /><br />Input :<br />The first line contains an integer M, the number of buildings. The second line contains M space seperated integers, the heights of the buildings.<br /><br />Output :<br />Output M integers. The ith integer is the number of possible advertisements which cover the ith building partially or fully.<br /><br />Sample Input :<br />4<br />2 1 4 4<br /><br />Sample Outout :<br />5 6 12 10<br /><br />Constraints :<br />1 &lt;= M &lt;= 100000<br />1 &lt;= h_i &lt;= 10000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-07-29</td></tr>
+<tr><td>Time limit:</td><td>0.635s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Indian ICPC training camp</td></tr>	
+</table>

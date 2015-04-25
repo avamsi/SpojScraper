@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POWERUP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21690. Power the Power Up</h1>
+		<h2>Problem code: POWERUP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Your younger brother's teacher gave him this simple problem.</p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Given&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>b</em></span>&nbsp;and&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>c</em></span>. Evaluate the result of this expression:</p>
+<p><span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>1</sub>&thinsp;=&thinsp;<em>b</em><sup><em>c</em></sup></span></p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Your brother definitely was able to solve this easy problem. So his teacher decided to give him a bit harder problem.</p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Given&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>a</em></span>,<span style="font-size: 18px; font-family: 'times new roman';"><em>b</em></span>&nbsp;and&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>c</em></span>. Evaluate the result of this expression:</p>
+<p><span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>1</sub>&thinsp;=&thinsp;<em>b</em><sup><em>c</em></sup></span></p>
+<p><span style="font-size: 18px; font-family: 'times new roman';"><sup><em></em></sup></span><span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>2</sub>&thinsp;=&thinsp;<em>a</em><sup><em>Result</em>1</sup></span></p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">However, your brother was also able to solve it. It was not that harder. His teacher was excited -though- and gave him this Bonus Programming Assignment.</p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Write a program that is given a,b and c; calculates the value of&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>2</sub></span>. Since the output may be exponentially very large, checking the correctness of solutions will be a bit subtle problem. So, instead of printing the whole value of&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>2</sub></span>, just print the reaminder of dividing&nbsp;<span style="font-size: 18px; font-family: 'times new roman';"><em>Result</em><sub>2</sub></span>&nbsp;by 1,000,000,007 (<span style="font-size: 18px; font-family: 'times new roman';">10<sup>9</sup>&thinsp;+&thinsp;7</span>).</p>
+<p style="margin: 0px 0px 1em; padding: 0px; font-family: verdana; font-size: 14px; line-height: 21px;">Can you help him solve that task?</p>
+<h3><span style="font-family: arial; font-size: 16px; font-weight: bold; line-height: 21px;">Input</span></h3>
+<p><span style="font-family: verdana; font-size: 14px; line-height: 21px;">The input consists of several test cases. Each case is on a single line. In each case, given three space separated integers a,b and c (</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;">0</span><span style="font-family: verdana; font-size: 14px; line-height: 21px;">&nbsp;&lt;=</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;"><em>a</em>,&thinsp;<em>b</em>,&thinsp;<em>c</em></span><span style="font-family: verdana; font-size: 14px; line-height: 21px;">&nbsp;&lt;=&nbsp;</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;">2<sup>31</sup>&thinsp;-&thinsp;1</span><span style="font-family: verdana; font-size: 14px; line-height: 21px;">). The input is terminated by&nbsp;</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;"><em>a</em>&thinsp;=&thinsp;<em>b</em>&thinsp;=&thinsp;<em>c</em>&thinsp;=&thinsp;&thinsp;-&thinsp;1</span></p>
+<h3><span style="font-family: arial; font-size: 16px; font-weight: bold; line-height: 21px;">Output</span></h3>
+<p><span style="font-family: verdana; font-size: 14px; line-height: 21px;">For each case, print exactly one line containing the value of&nbsp;</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;"><em>Result</em><sub>2</sub></span><span style="font-family: verdana; font-size: 14px; line-height: 21px;">&nbsp;modulus&nbsp;</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;">10<sup>9</sup>&thinsp;+&thinsp;7</span></p>
+<div style="margin: 0px; padding: 0px; font-family: arial; font-size: 16px; font-weight: bold; line-height: 21px;">Sample test(s)</div>
+<div style="margin: 0px; padding: 0px; font-family: arial; font-size: 16px; font-weight: bold; line-height: 21px;">
+<pre style="margin: 0px; padding: 0.25em; font-size: 15px; line-height: 1.25em; background-color: #efefef;"><strong>Input</strong></pre>
+<pre style="margin: 0px; padding: 0.25em; font-size: 15px; line-height: 1.25em; background-color: #efefef;"><pre style="margin: 0px; padding: 0.25em; font-size: 15px; line-height: 1.25em; background-color: #efefef;">2 2 2<br />3 4 5<br />-1 -1 -1</pre>
+</pre>
+<pre style="margin: 0px; padding: 0.25em; font-size: 15px; line-height: 1.25em; background-color: #efefef;"><strong>Output</strong></pre>
+<pre style="margin: 0px; padding: 0.25em; font-size: 15px; line-height: 1.25em; background-color: #efefef;"><pre style="font-size: 15px; margin: 0px; line-height: 1.25em; padding: 0.25em; background-color: #efefef;"><pre style="font-size: 15px; margin: 0px; line-height: 1.25em; padding: 0.25em; background-color: #efefef;">16<br />763327764</pre>
+</pre>
+</pre>
+<h3 style="font-weight: bold;">Note</h3>
+<p style="font-weight: bold;"><span style="font-family: verdana; font-size: 14px; line-height: 21px;">You can assume that&nbsp;</span><span style="font-size: 18px; font-family: 'times new roman'; line-height: 21px;">0<sup>0</sup>&thinsp;=&thinsp;1</span><span style="font-family: verdana; font-size: 14px; line-height: 21px;">.</span></p>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahmad_visum">Ahmed Salem [mrtempo]</a></td></tr>
+<tr><td>Date:</td><td>2014-11-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Palestinian Collegiate Programming Contest 2013</td></tr>	
+</table>

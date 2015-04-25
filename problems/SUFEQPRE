@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUFEQPRE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21360. Suffix Equal Prefix</h1>
+		<h2>Problem code: SUFEQPRE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a curious boy in noapara village , his name is &ldquo;MODON&rdquo;. &nbsp;He wrote a line of small letters only.<br /> Now, he want to know how many proper suffix is also prefix of that line. Proper suffix is a suffix of a text whose length is less than the original text<br /> Now you have to help &ldquo;MODON&rdquo;.&nbsp;</p>
+<p><span style="font-size: 1.17em;">Input</span></p>
+<p>Input starts with an integer&nbsp;<strong>T (&le; 50)</strong>, denoting the number of test cases.</p>
+<p>Each case contains a string <strong>S</strong> where 1<strong> &le; length(S) &le; 10<sup>6</sup></strong>.</p>
+<h3>Output</h3>
+<p>&nbsp;For each case, print the case number and the answer .</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>3<br /><span style="font-size: 10px;">ababab<br /></span><span style="font-size: 10px;">aaaa<br /></span><span style="font-size: 10px;">abcabc&nbsp;</span></p><strong>Output:</strong>
+Case 1: 2<br />Case 2: 3<br />Case 3: 1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raihatneloy">Raihat Zaman Neloy</a></td></tr>
+<tr><td>Date:</td><td>2014-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

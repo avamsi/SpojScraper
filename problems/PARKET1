@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PARKET1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8374. PARKET</h1>
+		<h2>Problem code: PARKET1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ivica has set up a new parquet flooring in his room. The room is L decimeters long and W decimeters&nbsp;wide.&nbsp;</p>
+<p>The blocks are of quadratic shape and each has an area of one quadratic decimeter. Once Ivica had set&nbsp;up the flooring, which consists of brown.colored blocks, he decided to paint the blocks on the edge&nbsp;of the room red.&nbsp;</p>
+<p>The picture below illustrates the scenario from the test case #2 &ndash; outer blocks are red, while the&nbsp;remaining two inner blocks are brown:&nbsp;</p>
+<p style="text-align: center;"><img src="http://spoj.com/content/piotrkakol:PARKET1.png" alt="" /></p>
+<p>Marica has come to visit Ivica. While Ivica was serving her cookies, she counted the number of blocks&nbsp;of each color. When she returned home, she recalled of the two numbers and wished to calculate the&nbsp;dimensions of Ivica&rsquo;s room. Help her!&nbsp;</p>
+<p style="text-align: center;"><strong>INPUT&nbsp;</strong></p>
+<p>The first and only line of input contains two integers separated by a space, &nbsp;R (the number of red blocks) and B (the number of brown blocks). The following constraints will apply: 8 &le; R &le; 5000, 1 &le;&nbsp;B &le; 2*10<sup>6</sup>.&nbsp;</p>
+<p style="text-align: center;"><strong>OUTPUT&nbsp;</strong></p>
+<p>The first and only line of output must contain the dimensions of the room, L and W, respectively. If the numbers differ, output the greater one first. The test data will ensure that a unique solution always exists.</p>
+<p>&nbsp;</p>
+<p><strong>input 1<br /></strong>8 1</p>
+<p><strong>output 1<br /></strong>3 3</p>
+<p><strong>input 2<br /></strong>10 2</p>
+<p><strong>output 2<br /></strong>4 3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohamed_maher">Kawmia Institutes</a></td></tr>
+<tr><td>Date:</td><td>2011-02-19</td></tr>
+<tr><td>Time limit:</td><td>0.220s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI</td></tr>	
+</table>

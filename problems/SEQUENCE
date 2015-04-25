@@ -1,0 +1,146 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEQUENCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>871. Letter Sequence Analysis</h1>
+		<h2>Problem code: SEQUENCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+
+Cryptographic analysis makes extensive use of the frequency with which
+letters and letter sequences occur in a language.  If an encrypted
+text is known to be in english, for example, a great deal can be
+learned from the fact that the letters E, L, N, R, S, and T are the
+most common ones used in written english.  Even more can be learned if
+common letter pairs, triplets, etc. are known. <P>
+
+For this problem you are to write a program which accepts as input a
+text file of unspecified length and performs letter sequence analysis
+on the text.  The program will report the five most frequent letter
+sequences for each set of sequences from one to five letters.  That is
+it will report the individual characters which occur with the five
+highest frequencies, the pairs of characters which occur with the five
+highest frequencies, and so on up to the letter sequences of five
+characters which occur with the five highest frequencies. <P>
+
+The program should consider contiguous sequences of alphabetic
+characters only, and case should be ignored (e.g. an `a' is the same
+as an `A').  A report should be produced using the format shown in the
+example at the end of this problem description.  For each sequence
+length from one to five, the report should list the sequences in
+descending order of frequency.  If there are several sequences with
+the same frequency then all sequences should be listed in alphabetical
+order as shown (list all sequences in upper case).  Finally, if there
+are less than five distinct frequencies for a particular sequence
+length, simply report as many distinct frequency lists as possible. <P>
+
+When a text file containing simply the line ``Peter Piper Picks
+Pickles!'' is used as input, the output should appear as shown here: <P>
+
+<PRE>
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 5, Sequence(s) = (P)
+Frequency = 4, Sequence(s) = (E)
+Frequency = 3, Sequence(s) = (I)
+Frequency = 2, Sequence(s) = (C,K,R,S)
+Frequency = 1, Sequence(s) = (L,T)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 3, Sequence(s) = (PI)
+Frequency = 2, Sequence(s) = (CK,ER,IC,PE)
+Frequency = 1, Sequence(s) = (ES,ET,IP,KL,KS,LE,TE)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 2, Sequence(s) = (ICK,PIC)
+Frequency = 1, Sequence(s) = (CKL,CKS,ETE,IPE,KLE,LES,PER,PET,PIP,TER)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 2, Sequence(s) = (PICK)
+Frequency = 1, Sequence(s) = (CKLE,ETER,ICKL,ICKS,IPER,KLES,PETE,PIPE)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 1, Sequence(s) = (CKLES,ICKLE,PETER,PICKL,PICKS,PIPER)
+</PRE>
+
+When the first three paragraphs of this problem description are used
+as input, the output should appear as shown here: <P>
+
+<PRE>
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 201, Sequence(s) = (E)
+Frequency = 112, Sequence(s) = (T)
+Frequency = 96, Sequence(s) = (S)
+Frequency = 90, Sequence(s) = (R)
+Frequency = 84, Sequence(s) = (N)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 37, Sequence(s) = (TH)
+Frequency = 33, Sequence(s) = (EN)
+Frequency = 27, Sequence(s) = (HE)
+Frequency = 24, Sequence(s) = (RE)
+Frequency = 23, Sequence(s) = (NC)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 24, Sequence(s) = (THE)
+Frequency = 21, Sequence(s) = (ENC,EQU,QUE,UEN)
+Frequency = 12, Sequence(s) = (NCE,SEQ,TER)
+Frequency = 9, Sequence(s) = (CES,FRE,IVE,LET,REQ,TTE)
+Frequency = 8, Sequence(s) = (ETT,FIV)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUE,QUEN)
+Frequency = 20, Sequence(s) = (UENC)
+Frequency = 12, Sequence(s) = (ENCE,SEQU)
+Frequency = 9, Sequence(s) = (FREQ,NCES,REQU)
+Frequency = 8, Sequence(s) = (ETTE,FIVE,LETT,TTER)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUEN)
+Frequency = 20, Sequence(s) = (QUENC)
+Frequency = 12, Sequence(s) = (SEQUE,UENCE)
+Frequency = 9, Sequence(s) = (ENCES,FREQU,REQUE)
+Frequency = 8, Sequence(s) = (ETTER,LETTE)
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2006-06-01</td></tr>
+<tr><td>Time limit:</td><td>0.870s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Mid Central Regionals 1995</td></tr>	
+</table>

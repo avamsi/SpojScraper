@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TETRA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16. Sphere in a tetrahedron</h1>
+		<h2>Problem code: TETRA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Of course a Sphere Online Judge System is bound to have some tasks about spheres.
+So here is one. Given the lengths of the edges of a tetrahedron
+calculate the radius of a sphere inscribed in that tetrahedron
+(i.e. a sphere tangent to all the faces).
+</p>
+<H3>Input</h3>
+<P align=justify>
+Number N of test cases in a single line. ( N <= 30 )
+Each of the next N lines
+consists of 6 integer numbers -- the lengths of the edges of a tetrahedron
+separated by single spaces. The edges are not longer than 1000 and
+for the tetrahedron WXYZ, the order of the edges is: WX, WY, WZ, XY, XZ, YZ.
+</p>
+<H3>Output</h3>
+<P align=justify>
+N lines, each consisting of a real number given with four digits decimal precision
+equal to the radius of a sphere inscribed in the given tetrahedron.
+</p>
+<H3>Example</h3>
+<P>
+<pre>
+Input:
+2
+1 1 1 1 1 1
+1000 999 998 5 5 6
+
+Output:
+0.2041
+1.4189
+</pre>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-05-11</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

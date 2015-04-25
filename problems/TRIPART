@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRIPART"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>261. Triangle Partitioning</h1>
+		<h2>Problem code: TRIPART</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+A triangle can be divided into two equal triangles by drawing a median on its largest edge (in the figure below such a division is shown with the red line). Then the smaller two triangles can be divided in similar fashion into equal triangles (shown in the picture below with blue lines). This process can continue forever.
+</p>
+<img src="/content/thanhvy:tripart.jpg">
+<p>
+Some mathematicians have found that when we split a triangle into smaller ones using the method specified above we have only some "styles" of triangles that only differ in size. So now given the lengths of the sides of the triangle your job is to find out how many different styles of small triangles we have. (Two triangles are of same style if they are similar.)
+</p>
+
+<h3>Input</h3>
+<p>
+First line of the input file contains an integer <i>N (0 < N < 35)</i> that indicates how many lines of input there are.
+</p>
+<p>
+Each line contains three integers <i>a, b, c (0 < a,b,c < 100)</i> which indicate the sides of a valid triangle. (A valid triangle means a real triangle with positive area.)
+</p>
+
+<h3>Output</h3>
+<p>
+For each line of input you should produce an integer <i>T</i>, which indicates the number of different styles of small triangles, formed for the triangle at input. Look at the example for details. You can safely assume that for any triangle <i>T</i> will be less than <i>100</i>.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3 4 5
+12 84 90
+
+<b>Output:</b>
+3
+41
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2004-12-24</td></tr>
+<tr><td>Time limit:</td><td>0.180s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Thanh Vy Hua Le, special thanks to my friends in EPS</td></tr>	
+</table>

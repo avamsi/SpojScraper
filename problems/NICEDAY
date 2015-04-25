@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NICEDAY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>709. The day of the competitors</h1>
+		<h2>Problem code: NICEDAY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> 
+The International Olympiad in Informatics is coming and the leaders of the Vietnamese Team have to choose the best contestants all over the country. Fortunately, the leaders could choose the members of the team among N very good contestants, numbered from 1 to N (3 &#8804; N &#8804; 100000). In order to select the best contestants the leaders organized three competitions. Each of the N contestants took part in all three competitions and there were no two contestants with equal results on any of the competitions. We say that contestant &#1040; is better than another contestant &#1042; when &#1040; is ranked before &#1042; in all of the competitions. A contestant A is said to be excellent if no other contestant is better than A. The leaders of the Vietnamese Team would like to know the number of excellent contestants.
+
+
+<h3>Input</h3>
+<p>
+First line of the input contains an integer t (1 &#8804; t &#8804; 10 ), equal to the number of testcases. Then descriptions of t testcases follow.
+First line of description contains the number of competitors N .
+Each of the next N lines describes one competitor and contains integer numbers ai, bi, ci (1 &#8804; ai, bi , ci &#8804; N ) separated by spaces, the order of i-th competitor's ranking in the first competition , the second competition and the third competition.
+<h3>Output</h3>
+<p>
+For each test case in the input your program should output the number of excellent contestants in one line.
+<h3>
+Note : Because the input is too large so we have 4 input files and the total time limit is 4s ( not 1s ).
+</h3>
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+3
+1 2 3
+2 3 1
+3 1 2
+
+<b>Output:</b>
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hard7771988">Nguyen Minh Hieu</a></td></tr>
+<tr><td>Date:</td><td>2006-01-20</td></tr>
+<tr><td>Time limit:</td><td>0.109s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Base on a problem from BOI</td></tr>	
+</table>

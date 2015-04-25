@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BLOPER2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19301. Operators (new ver)</h1>
+		<h2>Problem code: BLOPER2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="font-family: 'courier new', courier;">Given a sequence a1, a2,..., an&nbsp;and a integer S, your task is find a way to insert an operator &lsquo;+&rsquo; , &lsquo;-&lsquo;,&nbsp;&lsquo;.&lsquo;,&nbsp;&lsquo;~&lsquo;&nbsp; to every neighbor pair of A, that the result of the expression after insert equal to S.</span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"> Note that :<br /> - a . b = a + 2 * b<br /> - a ~ b = a - 2 * b</span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><br /></span></span></span></p>
+<h3><strong><strong>Input</strong></strong></h3>
+<p><span style="font-family: 'courier new', courier;"><br /> First line : &nbsp;N and S (2 &le; N &le; 22, |S| &le; 5 * 10<sup>16</sup>)<br /> Second line : N integers,&nbsp;a1, a2,..., an &nbsp;(|ai|&nbsp;&le; 10<sup>15</sup>)</span></p>
+<p><span style="font-family: 'courier new', courier;"><br /><strong> &nbsp;<strong>&nbsp;</strong></strong></span></p>
+<h3><strong><strong>Output</strong></strong></h3>
+<p>&nbsp;</p>
+<p><span style="font-family: 'courier new', courier;"><br /></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;">If there are way(s) to insert, output any of them, otherwise output &ldquo;Impossible&rdquo; (without quotes).</span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><br /></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'book antiqua', palatino;"><strong><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><span style="white-space: pre;"> </span></span></span></strong></span></span></span></p>
+<h3><strong>Example </strong></h3>
+<p>&nbsp;</p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><strong>&nbsp;</strong><strong>Input :</strong><br />9 5</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;">1 2 3 4 5 6 7 8 9</span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><strong>Output :<br /></strong>-~~~++++</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><br /><strong>Input :<br /></strong>3 -1</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;">-2 5 7<br /><strong>Output :<br /></strong>Impossible</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><br /><strong>Details :<br /></strong>In first test case : 1 - 2 - 2 * 3 - 2 * 4 - 2 * 5 + 6 + 7 + 8 + 9 = 5</span></span></span></span></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;">You may want to try another version <a href="../../problems/BLOPER">here</a>.</span></span></span></span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2014-03-30</td></tr>
+<tr><td>Time limit:</td><td>1.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

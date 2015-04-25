@@ -1,0 +1,97 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQCOUNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1708. Square Count</h1>
+		<h2>Problem code: SQCOUNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Little Bobby Roberts, age 8, has been dragged to yet another museum by his parents. While they while
+away the hours studying Etruscan pottery and Warhol soup cans, Bobby must depend on himself for
+entertainment. Having a mathematical bent, he recently started counting all the square tiles on the
+floors of the museum. He soon realized that the tiles could be grouped into larger squares that needed
+to be added to the count. The problem became a bit more complicated when he started counting squares
+contained in multiple rooms, since some squares overlapped both rooms. For example, the two rooms
+shown below contain a total of 86 squares: 45 1 × 1 squares, 28 2 × 2 squares and 13 3 × 3 squares.
+(Note the opening between the two rooms is only 3 squares wide.)
+
+<p><p>
+<center><img src='/content/steinersp:SQCount.png'alt='subir imagenes' border='0'></center>
+
+<p><p>
+While this helped kill several days&#8217; worth of museum visits, it soon became rather tedious, so Bobby is
+now looking for a program to automate the counting process for him.
+
+<h3>Input</h3>
+<p>
+Input will consist of multiple test cases. The first line of each case will be a positive integer n <= 1000
+which will indicate the number of rooms in the museum. After this will be n lines, each containing a
+description of one room. Each room will be rectangular in shape and will be described by a line of the
+form
+
+<p><p>
+x<sub>1</sub> y<sub>1</sub> x<sub>2</sub> y<sub>2</sub>
+
+<p><p>
+where (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) are opposing corner coordinates (integers) of the room. No two rooms will
+overlap, though they may share a side. If the shared side is of length m > 2, then a door of length m&#8722;2
+exists between the two rooms, centered along the shared length. No square of any size will overlap more
+than two rooms. All <i>x</i> and <i>y</i> values will be <= 1, 000, 000. An input line of n = 0 terminates input and
+should not be processed.
+
+<h3>Output</h3>
+<p>
+For each test case, output the total number of squares on a single line in the format shown below. All
+answers will fit within a 32-bit integer and cases are enumerated starting at 1.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+0 0 9 3
+10 6 4 3
+3
+11 20 15 24
+11 17 15 20
+15 16 20 24
+0
+
+<b>Output:</b>
+Case 1: 86
+Case 2: 152
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-07-26</td></tr>
+<tr><td>Time limit:</td><td>0.460s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>East Central North America 2005</td></tr>	
+</table>

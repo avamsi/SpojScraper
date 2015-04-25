@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ABCDEF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4580. ABCDEF</h1>
+		<h2>Problem code: ABCDEF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a set S of integers between -30000 and 30000 (inclusive).</p>
+<p>Find the total number of sextuples <img style="border: 0px initial initial;" src="../../../content/kalinov:abcdef1" alt="" width="255" height="20" />&nbsp;that satisfy:&nbsp;</p>
+<p style="text-align: center;"><img src="../../../content/kalinov:abcdef2" alt="" width="107" height="42" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<h3 style="font-size: 1.17em;">Input</h3>
+<p>The first line contains integer N (1 &le; N &le; 100), the size of a set S.</p>
+<p>Elements of S are given in the next N lines, one integer per line. Given numbers will be distinct.</p>
+<h3>Output</h3>
+<p>Output the total number of plausible&nbsp;sextuples.</p>
+<h3>Examples</h3>
+<table style="width: 100%;" border="0" frame="void" align="center">
+<tbody>
+<tr>
+<td align="left" valign="top">
+<pre><strong>Input:</strong>
+1
+1
+
+<strong>Output:</strong>
+1</pre>
+</td>
+<td align="left" valign="top">
+<pre><strong>Input:</strong>
+2
+2
+3
+
+<strong>Output:</strong>
+4</pre>
+</td>
+<td align="left" valign="top">
+<pre><strong>Input:</strong>
+2
+-1
+1
+
+<strong>Output:</strong>
+24</pre>
+</td>
+<td align="left" valign="top">
+<pre><strong>Input:</strong>
+3
+5
+7
+10
+
+<strong>Output:</strong>
+10</pre>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="white-space: pre;"><strong><br /></strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kalinov">Luka Kalinovcic</a></td></tr>
+<tr><td>Date:</td><td>2009-07-13</td></tr>
+<tr><td>Time limit:</td><td>0.360s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

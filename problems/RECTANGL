@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RECTANGL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1960. Rectangles</h1>
+		<h2>Problem code: RECTANGL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a set <i>S</i> of <i>N</i> points in the plane and must count the number of distinct axis-parallel rectangles whose four vertices all lie in <i>S</i> (that is, count those rectangles which have two sides parallel to the <b>x</b>-axis, and the other two sides parallel to the <b>y</b>-axis).
+
+<h3>Input</h3>
+<p>The first line of the input is <i>N</i> (1 &#8804; <i>N</i> &#8804; 250000), the number of points in <i>S</i>.  <i>N</i> lines then follow, where the <b>i</b>-th line is of the form "<i>x<sub>i</sub></i> <i>y<sub>i</sub></i>", giving the coordinates of a point (<i>x<sub>i</sub></i>, <i>y<sub>i</sub></i>) in <i>S</i>.  All given points are distinct, and all coordinates fit into a 32-bit signed integer.
+
+<h3>Output</h3>
+<p> Your output should consist of a single number, the number of distinct axis-parallel rectangles whose four vertices all lie in <i>S</i>, followed by a newline.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+6
+-1 0
+-1 1
+0 0
+0 1
+1 0
+1 1
+
+<b>Output:</b>
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2007-10-25</td></tr>
+<tr><td>Time limit:</td><td>0.114s-4.273s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/indiv/index.html">MIT Individual Contest 2007</a></td></tr>	
+</table>

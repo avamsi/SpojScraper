@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FRQPRIME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5978. Frequent Prime Ranges</h1>
+		<h2>Problem code: FRQPRIME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A range [L..H] is called a K-Frequent Prime range if there are atleast K primes amongst the numbers L,L+1,..,H. Given N and K, calculate how many subranges of the range [2..N] are K-Frequent Prime.<br /><br /></p>
+<p style="text-align: center;"><strong>Input</strong></p>
+<p>The first line contains the number of test cases T. Each of the next T lines contains 2 integers N and K.</p>
+<p style="text-align: center;"><br /><strong>Output</strong></p>
+<p>Output T lines, one corresponding to each test case, containing the required answer.</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p><br />Sample Input :<br />4<br />2 1<br />5 2<br />5 1<br />9 3<br /><br />Sample Output :<br />1<br />4<br />9<br />8<br /><br />Note : For the first test case, the only valid subrange is [2..2], whereas for the second test case, the valid subranges are : [2..3],[2..4],[2..5],[3..5].</p>
+<p style="text-align: center;"><strong>Constraints</strong></p>
+<p style="text-align: left;">1 &lt;= T &lt;= 100</p>
+<p style="text-align: left;">2 &lt;= N &lt;= 100000</p>
+<p style="text-align: left;">0 &lt;= K &lt;= 10000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-01-25</td></tr>
+<tr><td>Time limit:</td><td>0.340s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Technovanza</td></tr>	
+</table>

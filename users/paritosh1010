@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/paritosh1010"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BYTESE1" target="_blank">3920. Lucius Dungeon</a></td><td><a href="http://www.spoj.com/problems/BYTESE1"target="_blank">BYTESE1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYTESE2" target="_blank">3921. The Great Ball</a></td><td><a href="http://www.spoj.com/problems/BYTESE2"target="_blank">BYTESE2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYTESM1" target="_blank">3922. Mystical River</a></td><td><a href="http://www.spoj.com/problems/BYTESM1"target="_blank">BYTESM1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYTESM2" target="_blank">3923. Philosophers Stone</a></td><td><a href="http://www.spoj.com/problems/BYTESM2"target="_blank">BYTESM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BYTESH1" target="_blank">3924. Filchs Dilemna</a></td><td><a href="http://www.spoj.com/problems/BYTESH1"target="_blank">BYTESH1</a><br>
+</td></tr>

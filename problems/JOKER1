@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JOKER1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13875. Knifes Are Fun</h1>
+		<h2>Problem code: JOKER1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">" Guns are too quick. You can't savor all the little emotions. You see, in their last moments, people show you who they really&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">are. So in a way, I know your friends better than you ever did. Would you like to know which of them were cowards?"</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Joker has many knifes, and he wants to assign a distinct integer to each knife so he can easily identify them. The i-th knife&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">can have an integer between 1 and maxNumber[i], inclusive.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Return the number of ways he can assign numbers to his knifes, modulo 1,000,000,007. If it's impossible to assign distinct&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">integers to the knifes, print 0.</div>
+<p>&nbsp;</p>
+<p><strong>"</strong><strong>Do you know, why I use a knife? Guns are too quick. You can't savor all the little emotions. You see, in their last moments, people show you who they really are. So in a way, I know your friends better than you ever did. Would you like to know which of them were cowards?"</strong></p>
+<p><strong><br /></strong></p>
+<p>Joker has many knifes, and he wants to assign a distinct integer to each knife so he can easily identify them. The i-th knife can have an integer between 1 and maxNumber[i], inclusive.</p>
+<p>Return the number of ways he can assign numbers to his knifes, modulo 1,000,000,007. If it's impossible to assign distinct integers to the knifes, print 0.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The first line contains the number of test cases T (1&lt;=T&lt;=666)</p>
+<p>Each test case has 2 lines - 1st line denotes number of knifes ,N (1&lt;=N&lt;=66) Joker has and the 2nd line denotes the numbers {maxNumber[0]....maxNumber[N-1]} Joker has.</p>
+<p>1&lt;=maxNumber[i]&lt;=3000</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>Print the number of ways Joker can assign numbers to his knifes, modulo 1,000,000,007. If it's impossible to assign distinct integers to the knifes, print 0.In last line print the string "KILL BATMAN\n".Dont print any extra spaces.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+1
+7
+2
+5 8
+3
+2 1 2
+
+<strong>Output:</strong>
+7
+35
+0
+KILL BATMAN<span style="white-space: normal;">
+</span></pre>
+<pre><strong>Explanation :</strong>
+Test case 1 : Joker can assign any number between 1 and 7, inclusive, to the only knife.
+Test case 2 : Joker wants you too think !
+Test case 3 : (1,1,1) (1,1,2) (2,1,1) (2,1,2) are the possible combinations . As the numbering of knifes is not unique so the output is 0.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/joker_bane">Rajarshi Sarkar</a></td></tr>
+<tr><td>Date:</td><td>2013-02-23</td></tr>
+<tr><td>Time limit:</td><td>0.5s
+</td></tr>
+<tr><td>Source limit:</td><td>5000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

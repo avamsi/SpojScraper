@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TROOPS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5885. Troops of Sand Monsters</h1>
+		<h2>Problem code: TROOPS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Under the command of the Evil Vizier there are N unique troops of sand monsters, where each&nbsp; troop contains Ci sand monsters. The Vizier in his desperate battle against the Prince of Persia has ordered all his troops to attack him simultaneously. <br />&nbsp;<br />The Prince realizes that he cannot defeat all of the sand monsters, as they are invincible&nbsp; when they are active. So he uses the Eye of the Storm spell to freeze all the sand monsters of all troops. Now the Prince can kill any monster by stabbing each monster once using the Dagger of Time. Once the monster is killed, it can never become active again and releases a certain quantity of the Sands of Time. It takes one unit of time to kill any monster. <br />&nbsp;<br />Each troop i, consits of Ci similar monsters, all with the same spell resistance time Ti - after which it becomes active again and therefore invulnerable - and Sand Si - which can be taken by the Prince after killing it. <br />&nbsp;<br />The spell lasts only for a limited duration of time. So, the Prince has to kill as many sand monsters as possible and take maximum sand from the monsters before they become active again. It is not necessary for The Prince to kill all the monsters in a troop before moving on to next troop.</p>
+<h3>Input</h3>
+<p>The first line contains K &lt;=70&nbsp; the number of testcases. Each testcase begins with 'N' (&lt;=1000) the number of troops of monsters. Next N lines contain 3 integers Ci, Ti, Si. 1&lt;i&lt;=N,&nbsp; 1&lt;=Ci&lt;=15000, 1&lt;=Ti&lt;=1000000, 1&lt;=Si&lt;=100,</p>
+<h3>Output</h3>
+<p>Single Line containing the maximum amount of sand that Prince can get if he kills some or all the monsters.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 <br />4 <br />2 1 2 <br />2 3 6 <br />2 5 5 <br />2 7 8<br /><br /><strong>Output:</strong><br />40<br /><br /><h3>Explanation</h3>(time, troop, sand) <br />(0,1,2) (1,2,6) (2,2,6) (3,3,5) (4,3,5) (5,4,8) (5,4,8) = 40<br /><p>&nbsp;</p><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/n_arun89">arun</a></td></tr>
+<tr><td>Date:</td><td>2010-01-15</td></tr>
+<tr><td>Time limit:</td><td>0.449s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Kurukshetra OPC 2010</td></tr>	
+</table>

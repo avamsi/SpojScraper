@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04A1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7857. Tower Game (Hard)</h1>
+		<h2>Problem code: ADV04A1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Daniel is building towers out of blocks. He has many black and white blocks. He has built n towers out of those. Now he suggests Max playing the following game. Black block will belong to Daniel and white blocks will be Max's blocks. During his turn the player can take any of his blocks from any tower and remove it and all the blocks above it. As usual the player who can't make the move loses. Daniels make the first move. Determine who will win if both players play optimally.
+
+<h3>Input</h3>
+<p>The input starts with number t - the amount of test cases. The first line of each test is number n - the number of towers. Then n strings follow. Each string is formed of 'B' and 'W' characters, where 'B' means bleck block and 'W' - white block. Each string describes one tower from bottom to top.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 20<br />1 <= n <= 1000<br />String consist of no less than 1 character and no more than 1000 characters.
+
+<h3>Output</h3>
+<p>For each test case print 'Win' if Daniel wins and 'Loss' if Max wins given both players play optimally.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+5
+BBWWB
+BWBB
+BB
+WWW
+WB
+
+<b>Output:</b>
+Win
+
+</pre>
+
+<h4>Beware! Much input data.</h4>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.146s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CPRIME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3505. Prime Number Theorem</h1>
+		<h2>Problem code: CPRIME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/CPRIME/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/CPRIME/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>In number theory, the Prime Number Theorem describes the asymptotic distribution of prime numbers. Let &#960;(x) be the number of prime numbers not greater than x. The Prime Number Theorem states that:</p>
+<img src='http://upload.wikimedia.org/math/c/9/3/c93061b930d29877a2364a62e5ecc1a5.png' />
+<p>Your task is to write a program to verify how well the Prime Number Theorem can estimate &#960;(x). To be more precise, for a given x, you have to calculate the percent error |&#960;(x) - x/lnx| / &#960;(x) %.</p>
+
+<h3>Input</h3>
+<p>The input contains several test cases (no more than 1000). Each test case contains a value of x (2 &#8804; x &#8804; 10<sup>8</sup>) given in one line. A number 0 terminates the input.</p>
+
+<h3>Output</h3>
+<p>For each value of x, output the percent error of the estimation of &#960;(x), rounded to 1 decimal digit.</p>
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+10000000
+2
+3
+5
+1234567
+0
+
+<b>Output:</b>
+6.6
+188.5
+36.5
+3.6
+7.7
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-11</td></tr>
+<tr><td>Time limit:</td><td>1.812s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>&#169; <a href='http://vnoi.info'>VNOI</a></td></tr>	
+</table>

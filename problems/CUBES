@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CUBES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>867. Perfect Cubes</h1>
+		<h2>Problem code: CUBES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+
+For hundreds of years Fermat's Last Theorem, which stated simply that
+for <I>n</I> > 2 there exist no integers <I>a</I>, <I>b</I>, <I>c</I>
+> 1 such that <I>a</I>^<I>n</I> = <I>b</I>^<I>n</I> +
+<I>c</I>^<I>n</I>, has remained elusively unproven.  (A recent proof
+is believed to be correct, though it is still undergoing scrutiny.)
+It <I>is</I> possible, however, to find integers greater than 1 that
+satisfy the "perfect cube" equation <I>a</I>^3 = <I>b</I>^3 +
+<I>c</I>^3 + <I>d</I>^3 (e.g. a quick calculation will show that the
+equation 12^3 = 6^3 + 8^3 + 10^3 is indeed true).  This problem
+requires that you write a program to find all sets of numbers
+{<I>a</I>,<I>b</I>,<I>c</I>,<I>d</I>} which satisfy this equation for
+<I>a</I> <= 100. <P>
+
+The output should be listed as shown below, one perfect cube per line,
+in non-decreasing order of a (i.e. the lines should be sorted by their
+<I>a</I> values).  The values of <I>b</I>, <I>c</I>, and <I>d</I>
+should also be listed in non-decreasing order on the line itself.
+There do exist several values of <I>a</I> which can be produced from
+multiple distinct sets of <I>b</I>, <I>c</I>, and <I>d</I> triples.
+In these cases, the triples with the smaller <I>b</I> values should be
+listed first.  <P>
+
+Note that the programmer will need to be concerned with an efficient
+implementation.  The official time limit for this problem is 2
+minutes, and it is indeed possible to write a solution to this
+problem which executes in under 2 minutes on a 33 MHz 80386 machine.
+Due to the distributed nature of the contest in this region, judges
+have been instructed to make the official time limit at their site the
+greater of 2 minutes or twice the time taken by the judge's solution
+on the machine being used to judge this problem. <P>
+
+The first part of the output is shown here: <P>
+
+<PRE>
+Cube = 6, Triple = (3,4,5)
+Cube = 12, Triple = (6,8,10)
+Cube = 18, Triple = (2,12,16)
+Cube = 18, Triple = (9,12,15)
+Cube = 19, Triple = (3,10,18)
+Cube = 20, Triple = (7,14,17)
+Cube = 24, Triple = (12,16,20)
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2006-06-01</td></tr>
+<tr><td>Time limit:</td><td>0.990s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Mid Central Regionals 1995</td></tr>	
+</table>

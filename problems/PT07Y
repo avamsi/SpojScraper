@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PT07Y"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1436. Is it a tree</h1>
+		<h2>Problem code: PT07Y</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+You are given an unweighted, undirected graph.
+Write a program to check if it's a tree topology.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input file contains two integers <i>N</i> and <i>M</i> --- number of nodes and number of edges in the graph
+(0 < <i>N</i> <= 10000, 0 <= <i>M</i> <= 20000). Next <i>M</i> lines contain <i>M</i> edges of that graph --- Each line contains a pair (<i>u</i>, <i>v</i>) means
+there is an edge between node <i>u</i> and node <i>v</i> (1 <= <i>u</i>,<i>v</i> <= <i>N</i>).
+</p>
+
+<h3>Output</h3>
+<p>
+Print <i>YES</i> if the given graph is a tree, otherwise print <i>NO</i>.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 2
+1 2
+2 3
+
+<b>Output:</b>
+YES
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-03-28</td></tr>
+<tr><td>Time limit:</td><td>0.166s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Co-author Amber</td></tr>	
+</table>

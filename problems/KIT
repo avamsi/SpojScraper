@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19039. Krypt in Time</h1>
+		<h2>Problem code: KIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><p>Krypt in Time</p>
+<p>&nbsp;</p>
+<p>In a land far away people can travel back in time in person or send messages to them in the past. Sending messages that can change ones future is forbidden. The messages that are sent are intercepted by the time police.&nbsp; Jim wants to send a message to himself in the past to prevent his death. He decides to encrypt using a "number-pad".&nbsp; All the numbers in number-pad are between 0 and 25. The message he wants to send can be encrypted if each character in the string is encoded by a number from the pad provided each number from the number- pad is only used once. The encryption is done by shifting each letter in the message by k positions, where k is determined by the number-pad. Shift occurs between the alphabets "a" and "z". If a letter in the message is shifted past "z" then it starts back at "a" and continues to shift.</p>
+<p>For example:&nbsp; If the number-pad contains 2, the message abc is transformed to cde and xyz to zab.</p>
+<p>&nbsp;</p>
+<p>Input Format</p>
+<p>The first line will contain the size of the number-pad N, followed by a sequence of numbers for the pad. The remaining input consists of a series of words to be encrypted using the number-pad. You may assume that the maximum size of the pad (N) is 100 numbers, all numbers in the pad are between 0 and 25, and that all input will be lowercase letters. The end of input is indicated by -1.</p>
+<p>&nbsp;</p>
+<p>Output Format</p>
+<p>For each word to be encrypted, output a line containing the encrypted word.</p>
+<p>&nbsp;</p>
+<p>Example</p>
+<p>Input 1:<br />
+10<br />
+1 2 3 4 5 4 3 2 1 0<br />
+aa aaa<br />
+zzzzz<br />-1</p><p>
+Output 1:<br />
+bc<br />
+def<br />
+dcbaz</p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/arjunk1993">Arjun Krishnan </a></td></tr>
+<tr><td>Date:</td><td>2014-03-13</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 JAVA PHP PYTH 2.7 </td></tr>
+	
+</table>

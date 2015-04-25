@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC804"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11998. Totient Fever</h1>
+		<h2>Problem code: DCEPC804</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Another Totient problem by Ankur Sir J. He is madly in love with totient. Let&rsquo;s see what he has prepared this time.</p>
+<p>Recently he was studying integral properties of Quadratic functions. He found some interesting notions of real and complex numbers through Quadratic functions. But as you know he is a big totient fan, he mixed totient with quadratic functions this time and that resulted into a nice problem. He wants to find out if there exists a real root &lsquo;x&rsquo; in the equation below:</p>
+<p style="text-align: center;">Totient(a*x^2 + b*x + c) = k</p>
+<p>Given &lsquo;a&rsquo;, &lsquo;b&rsquo;, &lsquo;c&rsquo; and &lsquo;k&rsquo;, output &ldquo;Yes&rdquo; if a real root exists or &ldquo;No&rdquo; if no real root exists.</p>
+<h3>Input</h3>
+<p>First line contains T, the no. of test cases.</p>
+<p>Each of the next T lines contains a, b, c and k.</p>
+<h3>Output</h3>
+<p>Output T lines, each for a single test case, containing either a &ldquo;Yes&rdquo; or a &ldquo;No&rdquo; corresponding to the test case.</p>
+<h3>Constraints</h3>
+<p>0&lt;T&lt;=100</p>
+<p>0&lt;a&lt;=10^6</p>
+<p>0&lt;b&lt;=10^6</p>
+<p>0&lt;c&lt;=10^6</p>
+<p>0&lt;k&lt;=10^6</p>
+<p>b^2 &gt;= 4*a*c</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>1 4 3 4</pre>
+<pre>1 21 11 10
+
+<strong>Output:</strong>
+Yes</pre>
+<pre>Yes</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.583s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

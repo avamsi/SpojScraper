@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCD2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2906. GCD2</h1>
+		<h2>Problem code: GCD2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+Frank explained its friend Felman the algorithm of Euclides to calculate the GCD 
+of two numbers. Then Felman implements it algorithm 
+
+<pre>
+int gcd(int a, int b)
+{
+	if (b==0)
+		return a;
+	else
+		return gcd(b,a%b);
+}
+</pre>
+and it proposes to Frank that makes it 
+but with a little integer and another integer that has up to 250 digits. <p>
+Your task is to help Frank programming an efficient code for the challenge of Felman.
+
+
+<h3>Input</h3>
+<p>The first line of the input file contains a number representing the number of lines to follow.
+Each line consists of two number A and B (0 <= A <= 40000 and A <= B < 10^250).
+
+<h3>Output</h3>
+<p>Print for each pair (A,B) in the input one integer representing the GCD of A and B.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+2 6
+10 11
+
+
+<b>Output:</b>
+2
+1
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/frankr">Frank Rafael Arteaga</a></td></tr>
+<tr><td>Date:</td><td>2008-08-04</td></tr>
+<tr><td>Time limit:</td><td>0.25s
+</td></tr>
+<tr><td>Source limit:</td><td>1000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict LISP clisp LISP sbcl ERL JAVA JS NODEJS PERL PERL 6 PHP PYTH 2.7 RUBY SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>My own Resource</td></tr>	
+</table>

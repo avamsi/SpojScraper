@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PEBBLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7668. Pebble Solver</h1>
+		<h2>Problem code: PEBBLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Pebble is a popular turn-based multi-player game played by kids. In this game, all the players are given a binary string (i.e., a string consisting only of 0's and 1's) of some fixed length. The goal of the game is to convert this binary string to a string containing all 0's.</p>
+<p>In a turn, a player is allowed to perform only one operation:- Replace a 1 by a 0 or vice-versa. But each such operation will flip the states of all the bits following the bit you changed.</p>
+<p>Take for example, the string: 1001010. You decide to flip the 1 located at the 4th position. The new string after the operation will be : 1000101. (Note that 5th to 7th bits flipped as a result of flipping the 4th bit.)</p>
+<p>Your small sister loves to play this game very much. So, you decide to gift her the pebble-solver software which solves this game with the minimum number of operations(how else will you make sure that she always wins?!). And we want to make sure that your software doesn't have any bugs. (he he)</p>
+<h3>Input</h3>
+<p>There are going to multiple test cases. Each test case consists of a single line which is the initial bit-string.</p>
+<h3>Output</h3>
+<p>Output corresponding to the each test case in the following format :</p>
+<p>"Game #x: y", where x indicates the test case number and y is the minimum number of steps required for your program to solve the game.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+0101
+10000
+00</pre>
+<pre><strong>Output:</strong>
+Game #1: 3
+Game #2: 2
+Game #3: 0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sidi">Siddharth Kothari</a></td></tr>
+<tr><td>Date:</td><td>2010-10-25</td></tr>
+<tr><td>Time limit:</td><td>0.537s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

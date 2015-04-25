@@ -1,0 +1,46 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSS6"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4487. Can you answer these queries VI</h1>
+		<h2>Problem code: GSS6</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a sequence A of N <em>(N &lt;= 100000)</em> integers, you have to apply Q <em>(Q &lt;= 100000)</em> operations:<br /><br />Insert, delete, replace an element, find the maximum contiguous(non empty) sum in a given interval.</p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer N.<br />The following line contains N integers, representing the starting<br />sequence A1..AN, <em>(|Ai| &lt;= 10000)</em>.<br /><br />The third line contains an integer Q. The next Q lines contains the operations in following form:<br /><br /><strong>I x y</strong>: insert element y at position x <em>(between x - 1 and x)</em>.<br /><strong>D x</strong>&nbsp; : delete the element at position x.<br /><strong>R x y</strong>: replace element at position x with y.<br /><strong>Q x y</strong>: print max{Ai + Ai+1 + .. + Aj | x &lt;= i &lt;= j &lt;= y}.<br /><br />All given positions are valid, and given values are between -10000 and +10000.<br /><br />The sequence will never be empty.</p>
+<h3>Output</h3>
+<p>For each <strong>"Q"</strong> operation, print an integer(one per line) as described above.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />3 -4 3 -1 6<br />10<br />I 6 2<br />Q 3 5<br />R 5 -4<br />Q 3 5<br />D 2<br />Q 1 5<br />I 2 -10<br />Q 1 6<br />R 2 -1<br />Q 1 6<br /><br /><strong>Output:</strong><br />8<br />3<br />6<br />3<br />5<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mukel">Alfonso2 Peterssen</a></td></tr>
+<tr><td>Date:</td><td>2009-06-08</td></tr>
+<tr><td>Time limit:</td><td>0.298s-0.447s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>my own</td></tr>	
+</table>

@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCJ101AB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6700. Make it Smooth</h1>
+		<h2>Problem code: GCJ101AB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You have a one-dimensional array of <b>N</b> pixels. Each pixel has a value, represented by a number between 0 and 255, inclusive. The distance between two pixels is the absolute difference of their numbers.
+<p>You can perform each of the following operations zero or more times:
+<ol>
+<li>With cost <b>D</b>, delete any pixel, so its original neighbors become neighboring pixels.
+<li>With cost <b>I</b>, insert one pixel of any value into any position - either between two existing pixels, or before the first pixel, or after the last pixel.
+<li>You can change the value of any pixel. The cost is the absolute difference of the old value of the pixel and the new value of the pixel.
+</ol>
+<p>
+The array is smooth if any neighboring pixels have distance at most <b>M</b>. Find the minimum possible cost of a sequence of operations that makes the array smooth.
+<p>
+Note: The empty array - the array containing no pixels - is considered to be smooth.
+
+<h3>Input</h3>
+<p>The first line of the input gives the number of test cases, <b>T</b>. <b>T</b> test cases follow, each with two lines. The first line is in the form "<b>D I M N</b>", the next line contains <b>N</b> numbers <b>a<sub>i</sub></b>: the values of the pixels from left to the right.
+
+<h3>Output</h3>
+<p>For each test case, output one line containing "Case #x: y", where x is the case number (starting from 1), and y is the minimum cost to make the input array smooth.
+
+<h3>Limits</h3>
+<p>All the numbers in the input are integers.<br>
+1 &#8804; <b>T</b> &#8804; 100<br>
+0 &#8804; <b>D, I, M, a<sub>i</sub></b> &#8804; 255<br>
+1 &#8804; <b>N</b> &#8804; 100
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+6 6 2 3
+1 7 5
+100 1 5 3
+1 50 7
+
+<b>Output:</b>
+Case #1: 4
+Case #2: 17
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/shkoorah">Ruslan Sennov</a></td></tr>
+<tr><td>Date:</td><td>2010-05-26</td></tr>
+<tr><td>Time limit:</td><td>3.767s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Google Code Jam 2010</td></tr>	
+</table>

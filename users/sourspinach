@@ -1,0 +1,108 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sourspinach"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RETDIG" target="_blank">14820. Return of the Digger</a></td><td><a href="http://www.spoj.com/problems/RETDIG"target="_blank">RETDIG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TLIGHTS" target="_blank">14821. Traffic Lights</a></td><td><a href="http://www.spoj.com/problems/TLIGHTS"target="_blank">TLIGHTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BSHIP" target="_blank">14822. Battleships</a></td><td><a href="http://www.spoj.com/problems/BSHIP"target="_blank">BSHIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ABSHIP" target="_blank">14823. Advanced Battleships</a></td><td><a href="http://www.spoj.com/problems/ABSHIP"target="_blank">ABSHIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CFATHER" target="_blank">14830. The Codefather</a></td><td><a href="http://www.spoj.com/problems/CFATHER"target="_blank">CFATHER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOXWOLF" target="_blank">14833. The Fox and the Wolf</a></td><td><a href="http://www.spoj.com/problems/FOXWOLF"target="_blank">FOXWOLF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FOXLINGS" target="_blank">14834. Foxlings</a></td><td><a href="http://www.spoj.com/problems/FOXLINGS"target="_blank">FOXLINGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOXD" target="_blank">14839. Boxdropper</a></td><td><a href="http://www.spoj.com/problems/BOXD"target="_blank">BOXD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOXLINGS" target="_blank">14848. Boxlings</a></td><td><a href="http://www.spoj.com/problems/BOXLINGS"target="_blank">BOXLINGS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ULASER" target="_blank">14862. Union Laser</a></td><td><a href="http://www.spoj.com/problems/ULASER"target="_blank">ULASER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SALES" target="_blank">14864. Sales</a></td><td><a href="http://www.spoj.com/problems/SALES"target="_blank">SALES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATT" target="_blank">14886. Matts Trip</a></td><td><a href="http://www.spoj.com/problems/MATT"target="_blank">MATT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODA" target="_blank">14887. Good Travels</a></td><td><a href="http://www.spoj.com/problems/GOODA"target="_blank">GOODA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODB" target="_blank">14888. Good Predictions</a></td><td><a href="http://www.spoj.com/problems/GOODB"target="_blank">GOODB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODC" target="_blank">14889. Good Strategy</a></td><td><a href="http://www.spoj.com/problems/GOODC"target="_blank">GOODC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODD" target="_blank">14890. Good Code</a></td><td><a href="http://www.spoj.com/problems/GOODD"target="_blank">GOODD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODE" target="_blank">14891. Good Debugging</a></td><td><a href="http://www.spoj.com/problems/GOODE"target="_blank">GOODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODF" target="_blank">14892. Good Aim</a></td><td><a href="http://www.spoj.com/problems/GOODF"target="_blank">GOODF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODG" target="_blank">14893. Good Inflation</a></td><td><a href="http://www.spoj.com/problems/GOODG"target="_blank">GOODG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GOODH" target="_blank">14894. Good Celebration</a></td><td><a href="http://www.spoj.com/problems/GOODH"target="_blank">GOODH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAFFDEF" target="_blank">14923. King Graffs Defense</a></td><td><a href="http://www.spoj.com/problems/GRAFFDEF"target="_blank">GRAFFDEF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAFFTOL" target="_blank">14924. King Graffs Tolls</a></td><td><a href="http://www.spoj.com/problems/GRAFFTOL"target="_blank">GRAFFTOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAFFTRI" target="_blank">14925. King Graffs Trip</a></td><td><a href="http://www.spoj.com/problems/GRAFFTRI"target="_blank">GRAFFTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SANTA1" target="_blank">14944. Reindeer Games</a></td><td><a href="http://www.spoj.com/problems/SANTA1"target="_blank">SANTA1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SANTA2" target="_blank">14946. Travelling Santa</a></td><td><a href="http://www.spoj.com/problems/SANTA2"target="_blank">SANTA2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SANTA3" target="_blank">14947. Breaking and Entering</a></td><td><a href="http://www.spoj.com/problems/SANTA3"target="_blank">SANTA3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTAB" target="_blank">14971. The Foxens Treasure</a></td><td><a href="http://www.spoj.com/problems/UOFTAB"target="_blank">UOFTAB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTAC" target="_blank">14972. Foxhole</a></td><td><a href="http://www.spoj.com/problems/UOFTAC"target="_blank">UOFTAC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTAD" target="_blank">14973. Reverse Fox Hunt</a></td><td><a href="http://www.spoj.com/problems/UOFTAD"target="_blank">UOFTAD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTAE" target="_blank">14974. Foxling Feeding Frenzy</a></td><td><a href="http://www.spoj.com/problems/UOFTAE"target="_blank">UOFTAE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTAF" target="_blank">14975. Foxic Expressions</a></td><td><a href="http://www.spoj.com/problems/UOFTAF"target="_blank">UOFTAF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTBB" target="_blank">14977. Attack of the Bloons</a></td><td><a href="http://www.spoj.com/problems/UOFTBB"target="_blank">UOFTBB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTBC" target="_blank">14978. Homemade Asteroids</a></td><td><a href="http://www.spoj.com/problems/UOFTBC"target="_blank">UOFTBC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTBD" target="_blank">14979. Diablo Bot</a></td><td><a href="http://www.spoj.com/problems/UOFTBD"target="_blank">UOFTBD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTBE" target="_blank">14980. MVP</a></td><td><a href="http://www.spoj.com/problems/UOFTBE"target="_blank">UOFTBE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTBF" target="_blank">14981. Light Cycling</a></td><td><a href="http://www.spoj.com/problems/UOFTBF"target="_blank">UOFTBF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLIDE" target="_blank">15073. Team Slide Treasure Hunt Race</a></td><td><a href="http://www.spoj.com/problems/SLIDE"target="_blank">SLIDE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOURNEY" target="_blank">15074. Tourney</a></td><td><a href="http://www.spoj.com/problems/TOURNEY"target="_blank">TOURNEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RDINNER" target="_blank">15075. A Romantic Dinner Outing</a></td><td><a href="http://www.spoj.com/problems/RDINNER"target="_blank">RDINNER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RMOVIE" target="_blank">15076. A Romantic Movie Outing</a></td><td><a href="http://www.spoj.com/problems/RMOVIE"target="_blank">RMOVIE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTCC" target="_blank">18465. A Subtle Surf</a></td><td><a href="http://www.spoj.com/problems/UOFTCC"target="_blank">UOFTCC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTCD" target="_blank">18466. A Frightening Evening</a></td><td><a href="http://www.spoj.com/problems/UOFTCD"target="_blank">UOFTCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTCE" target="_blank">18467. A Brief Expedition</a></td><td><a href="http://www.spoj.com/problems/UOFTCE"target="_blank">UOFTCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTCF" target="_blank">18468. A Pleasant Stroll</a></td><td><a href="http://www.spoj.com/problems/UOFTCF"target="_blank">UOFTCF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UOFTCG" target="_blank">18469. Office Mates</a></td><td><a href="http://www.spoj.com/problems/UOFTCG"target="_blank">UOFTCG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FBWHEELS" target="_blank">18521. Fortunate Wheels</a></td><td><a href="http://www.spoj.com/problems/FBWHEELS"target="_blank">FBWHEELS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FBTOURS" target="_blank">18522. Tours</a></td><td><a href="http://www.spoj.com/problems/FBTOURS"target="_blank">FBTOURS</a><br>
+</td></tr>

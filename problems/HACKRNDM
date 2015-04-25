@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HACKRNDM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9734. Hacking the random number generator</h1>
+		<h2>Problem code: HACKRNDM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You recently wrote a random number generator code for a web application and now you notice that some cracker has cracked it. It now gives numbers at a difference of some given value k more predominantly. You being a hacker decide to write a code that will take in n numbers as input and a value k and find the total number of pairs of numbers whose absolute difference is equal to k, in order to assist you in your random number generator testing.</p>
+<p>NOTE: All values fit in the range of a signed integer, n,k&gt;=1</p>
+<h3>Input</h3>
+<p>1st line contains n &amp; k.<br />2nd line contains n numbers of the set. All the n numbers are assured to be distinct.</p>
+<h3>Output</h3>
+<p>One integer saying the no of pairs of numbers that have a diff k.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5 2<br />1 5 3 4 2
+
+<strong>Output:</strong>
+3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vijay_kansal">vijay</a></td></tr>
+<tr><td>Date:</td><td>2011-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.195s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

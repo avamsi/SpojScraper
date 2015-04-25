@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8282. Distance</h1>
+		<h2>Problem code: DIST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given the coordinates of N cities (xi,yi). Each city also has a  popularity value, pi. You have to place a new city (x,y) such that the  sum of distances of this new point from all the other given points is  minimized. <br /> Distance of the new point from a given city i is given by : <br /> d = |xi - x| ^ pi + | yi - y | ^ pi</p>
+<h3>Input</h3>
+<p>There are multiple test cases. <br /> First line contains the number of testcases. <br /> Each testcases starts with the number N, the number of points. <br /> This is followed by the descriptions of each in the format <br /> xi yi pi <br /> The input consists of only integers</p>
+<h3>Output</h3>
+<p>For each testcase, output the minimum distance obtained, with exactly 3 digits after the decimal point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 <br />3 <br />1 2 0 <br />4 5 1 <br />2 4 2<br /><strong>Output:</strong>
+4.500<br /><br /></pre>
+<h3>Constraints</h3>
+<p>No. of testcases &lt;= 10 <br /> N &lt;= 10^5 <br /> |xi,yi| &lt;= 1000 <br /> 0 &lt;= pi &lt;= 3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kunal_jain">Kunal Jain</a></td></tr>
+<tr><td>Date:</td><td>2011-02-07</td></tr>
+<tr><td>Time limit:</td><td>1.303s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>CodeCraft 11</td></tr>	
+</table>

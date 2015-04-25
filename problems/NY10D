@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NY10D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8626. Show Me The Fax</h1>
+		<h2>Problem code: NY10D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-family: 'Times New Roman'; font-size: medium;">Fax machines use a form of compression based on&nbsp;run-length encoding. Run-length encoding (RLE) is a very simple form of data compression in which&nbsp;runs&nbsp;of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs: for example, relatively simple graphic images such as icons, text, and line drawings. It is not useful with files that don't have many runs as it could potentially double the file size (photograph, for example).</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">For this problem, you will write a program that decodes a block of data using a very simple RLE algorithm. A&nbsp;run&nbsp;is encoded using a two byte sequence. The first byte of the sequence contains the&nbsp;count, and the second contains the&nbsp;value&nbsp;to repeat. The&nbsp;count&nbsp;is encoded using an 8 bit value with the high order bit set to 1. The remaining 7 bits represent the&nbsp;count-3. This gives a maximum run count of 130 per 2 byte sequence. (This implies that the minimum run count is 3). Bytes that are not part of a&nbsp;run&nbsp;are encoded as-is with a prefix byte indicating the count of bytes in the&nbsp;non-run&nbsp;minus 1, 0 through 127, representing a range of 1 - 128 (the high order bit will always be 0 in the case of&nbsp;non-run&nbsp;data).</p>
+<h2>Input</h2>
+<p style="font-family: 'Times New Roman'; font-size: medium;">The first line of input contains a single integer&nbsp;<em>P</em>,&nbsp;(1<img src="http://acmicpc-live-archive.uva.es/nuevoportal/data/4876img1.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" /><em>P</em><img src="http://acmicpc-live-archive.uva.es/nuevoportal/data/4876img1.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" />1000), which is the number of data sets that follow. Each data set consists of multiple lines. The first line contains two (2) decimal integer values: the problem number, followed by a space, followed by the number of bytes&nbsp;<em>B</em>,&nbsp;(1<img src="http://acmicpc-live-archive.uva.es/nuevoportal/data/4876img1.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" /><em>B</em><img src="http://acmicpc-live-archive.uva.es/nuevoportal/data/4876img1.png" border="0" alt="$ \le$" width="18" height="31" align="MIDDLE" />5000), to decode. The remaining line(s) contain(s) the data to be decoded. Each line of data to decode contains 80&nbsp;hexadecimal digits&nbsp;(except the last line, which may contain less).&nbsp;2 hexadecimal digits&nbsp;are used to represent each&nbsp;byte. Hexadecimal digits are:&nbsp;<tt>0</tt>,&nbsp;<tt>1</tt>,&nbsp;<tt>2</tt>,&nbsp;<tt>3</tt>,&nbsp;<tt>4</tt>,&nbsp;<tt>5</tt>,&nbsp;<tt>6</tt>,&nbsp;<tt>7</tt>,<tt>8</tt>,&nbsp;<tt>9</tt>,&nbsp;<tt>A</tt>,&nbsp;<tt>B</tt>,&nbsp;<tt>C</tt>,&nbsp;<tt>D</tt>,&nbsp;<tt>E</tt>,&nbsp;<tt>F</tt></p>
+<h2>Output</h2>
+<p style="font-family: 'Times New Roman'; font-size: medium;">For each data set, there are multiple lines of output. The first line contains a decimal integer giving the data set number followed by a single space, followed by a decimal integer giving the total number of decoded bytes. The remaining lines contain the decoded data, 80 hexadecimal digits per line, except the last line which may contain less.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre>4 
+1 2 
+0007 
+2 4 
+00F481A5 
+3 32 
+850080FF016666825A0A717273747580080110111384550301020399807700CC 
+4 2 
+A568</pre>
+<strong>Output:</strong>
+<pre>1 1 
+07 
+2 5 
+F4A5A5A5A5 
+3 44 
+0000000000000000FFFFFF66665A5A5A5A5A71727374758008011011135555555555555501020399 
+777777CC 
+4 40 
+68686868686868686868686868686868686868686868686868686868686868686868686868686868</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/disatoba">Diego Satoba</a></td></tr>
+<tr><td>Date:</td><td>2011-03-23</td></tr>
+<tr><td>Time limit:</td><td>2.275s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Greater New York Region 2010</td></tr>	
+</table>

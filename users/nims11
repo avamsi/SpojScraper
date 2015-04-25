@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/nims11"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CQM1TREE" target="_blank">22528. Paths in a Tree</a></td><td><a href="http://www.spoj.com/problems/CQM1TREE"target="_blank">CQM1TREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DANDVIOL" target="_blank">22529. Dandiya Night and Violence</a></td><td><a href="http://www.spoj.com/problems/DANDVIOL"target="_blank">DANDVIOL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TINKUJOB" target="_blank">22530. Tinku got a job</a></td><td><a href="http://www.spoj.com/problems/TINKUJOB"target="_blank">TINKUJOB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YOYOCQM" target="_blank">22531. Yo Yo Jagdish Singh</a></td><td><a href="http://www.spoj.com/problems/YOYOCQM"target="_blank">YOYOCQM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COOLPROB" target="_blank">22532. Cool Problem</a></td><td><a href="http://www.spoj.com/problems/COOLPROB"target="_blank">COOLPROB</a><br>
+</td></tr>

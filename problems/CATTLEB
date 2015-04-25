@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CATTLEB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3678. Cattle Bruisers</h1>
+		<h2>Problem code: CATTLEB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Canmuu is out for revenge after being utterly defeated by Bessie in paintball and has challenged Bessie to a video game.
+</p>
+<p>
+In this game, Bessie starts out at point (BX, BY) in the coordinate grid (-1,000 <= BX <= 1,000; -1000 <= BY <= 1,000), and tries to escape, starting at time 0. She moves continuously at a velocity of (BVX, BVY) units/second (-100 <= BVX <= 100; -100 <= BVY <= 100). Thus, at time 1 she will be at point (BX + BVX, BY + BVY); at time
+1.5 she will be at (BX + 1.5*BVX, BY + 1.5*BVY).
+</p>
+<p>
+Unfortunately, Canmuu has sent N (1 <= N <= 50,000) cattle bruisers to pursue Bessie.  At time t=0, cattle bruiser i is at position (X_i, Y_i) (-1,000 <= X_i <= 1,000; -1,000 <= Y_i <= 1,000) with velocity (VX_i, VY_i) units/second (-1,000 <= VX_i <= 1,000; -1,000 <= VY_i <= 1,000).
+</p>
+<p>
+Each cattle bruiser carries a "proximity" weapon to fire at Bessie; the weapon can hurt Bessie when the cattle bruiser is no further than R (1 <= R <= 2,500) units from her.
+</p>
+<p>
+Bessie has a shield to protect herself from these attacks. However, she does not want to waste any of her shield's power, so she would like to know the maximum number of cattle bruisers within firing range for any (potentially non-integer) time t >= 0.
+</p>
+<p>
+In order to avoid precision errors with real numbers, it is guaranteed that the answer produced will be the same whether the attack range is decreased to R-0.0001 or increased to R+0.0001.
+</p>
+<h3>Input</h3>
+<p>
+
+* Line 1: Six space-separated integers: N, R, BX, BY, BVX, and BVY
+
+* Lines 2..N+1: Line i+1 contains four space-separated integers: X_i,
+        Y_i, VX_i, and VY_i
+
+<h3>Output</h3>
+<p>
+
+* Line 1: Print a single integer denoting the maximum number of cattle
+        bruisers within attack range at any point in time.
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+
+3 1 0 0 0 2
+0 -3 0 4
+1 2 -1 1
+1 -2 2 -1
+</pre>
+
+<b>Input details:</b>
+<p>
+Bessie starts at point (0, 0) and is moving at 2 units per second in the (positive) y-direction. There are 3 cattle bruisers, the first of which starts at point (0, -3) and travels 4 units per second in the y-direction. The maximum distance for a cattle bruiser to be in range of Bessie is 1 unit.
+</p>
+<pre>
+<b>Output:</b>
+
+2
+</pre>
+<b>Output details:</b>
+<p>
+At time 1.5, Bessie is at point (0, 3), and the three bruisers are at points (0, 3), (-0.5, 3.5), and (4, -3.5). The first two cattle bruisers are within 1 unit of Bessie, while the third will never be within 1 unit of Bessie, so 2 is the most achievable.
+</p>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wasi">Mir Wasi Ahmed</a></td></tr>
+<tr><td>Date:</td><td>2009-01-07</td></tr>
+<tr><td>Time limit:</td><td>0.158s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>USACO Holiday Special Contest 2009, Problemsetter - Neal Wu</td></tr>	
+</table>

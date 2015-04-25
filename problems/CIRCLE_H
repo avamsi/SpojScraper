@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CIRCLE_H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14443. Three Circle Problem (HARD)</h1>
+		<h2>Problem code: CIRCLE_H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;">Given 3 distinct circles with positive integer radius&nbsp;<strong>R1</strong>,&nbsp;<strong>R2</strong>, and&nbsp;<strong>R3</strong>, and arranged like in the picture below:</p>
+<p style="text-align: center;"><img title="Three Circle Problem" src="http://2.bp.blogspot.com/--iPB1gKWYoI/UV9VOPlVd2I/AAAAAAAAASM/c874mfDdhSU/s1600/circle+upload.png" alt="Three Circle Problem" width="465" height="281" /></p>
+<p>Now, your task is to compute radius of small circle that can be created like yellow circle in the picture above. All circles in the picture above tangent each other.</p>
+<h3>Input</h3>
+<p>The first line in the input data, there is an integer&nbsp;<strong>T</strong>(0 &lt;&nbsp;<strong>T</strong>&nbsp;&le; 10<sup>5</sup>) denoting number of test cases, than&nbsp;<strong>T</strong>&nbsp;lines follow.</p>
+<p>For each lines, there are three integer<span style="text-align: center;">&nbsp;</span><strong>R1</strong><span style="text-align: center;">,&nbsp;</span><strong>R2</strong><span style="text-align: center;">, and&nbsp;</span><strong>R3</strong><span style="text-align: center;">, (0 &lt; {<strong>R1</strong>,<strong>R2</strong>,<strong>R3</strong>} &lt; 10<sup>30</sup>) denoting radius of each circle like in the picture above.</span></p>
+<h3>Output</h3>
+<p>For each test case, output radius of small circle that can be made, like in the picture above. Truncate the output to 50 digit after decimal point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>3</pre>
+<pre>1 1 1</pre>
+<pre>10 10 10</pre>
+<pre>23 46 69
+
+<strong>Output:</strong></pre>
+<pre>0.15470053837925152901829756100391491129520350254025</pre>
+<pre>1.54700538379251529018297561003914911295203502540253</pre>
+<pre>6.00000000000000000000000000000000000000000000000000</pre>
+<p>&nbsp;</p>
+<p><em>You can see my submission history and time record for this problem</em>: <a title="My submission history" href="http://3.bp.blogspot.com/-BKUN7sz9G7s/UV9hyjCd0MI/AAAAAAAAASc/IoVNHBgCNqA/s1600/TCP(hard).png" target="_blank">here</a></p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-04-05</td></tr>
+<tr><td>Time limit:</td><td>10s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

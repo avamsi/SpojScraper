@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INCEST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9081. Snail family problems</h1>
+		<h2>Problem code: INCEST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem we'll be looking at a group of snails. Two snails, numbered <strong>a</strong> and <strong>b</strong> can get married, and some time after that they may even get divorced. Any snail may be married to number of other snails. <br /><br />The problem arises because snails don't like being married to their ancestors, and they don't know who their ancestors are - they only know the set of snails they're directly related to. A marriage between two snails from which one is an ancestor of the other is called "bad".<br /><br />If they knew who the oldest snail (the ancestor of everyone else) is, everyone would know their ancestors.<br /><br />For the given group of <strong>N</strong> snails numbered from 1 to <strong>N</strong>, you'll be given <strong>N</strong>-1 pairs of snails (<strong>a</strong>, <strong>b</strong>), indicating that snails a and b are directly related. <br /><br />Next you'll be given <strong>Q</strong> queries of the form:<br /><br /><strong>Q</strong> <strong>n</strong>&nbsp; -&nbsp; suppose <strong>n</strong> is the oldest snail, how many "bad" marriages are there in the group?<br /><strong>M a b</strong>&nbsp; -&nbsp; snails <strong>a</strong> and <strong>b</strong> just got married.<br /><strong>D a b</strong>&nbsp; -&nbsp; snails <strong>a</strong> and <strong>b</strong> just got divorced.</p>
+<p>No snail can ever get married to himself.</p>
+<p>You may assume that no pair will get married twice (if they are already married). You may also assume that no pair will get divorced if they don't get married before that.</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer <strong>N</strong> (2 &lt;= <strong>N</strong> &lt;= 200000).<br />Each of the next <strong>N</strong>-1 lines contains a pair of integers <strong>a</strong> and <strong>b</strong> (1 &lt;= <strong>a</strong> &lt; <strong>b</strong> &lt;= N).<br />The next line contains an integer <strong>Q</strong> (1 &lt;= <strong>Q</strong> &lt;= 300000).<br />Each of the next <strong>Q</strong> lines contains a query as defined above.</p>
+<h3>Output</h3>
+<p>For each query of type <strong>Q</strong> output a single line containing the number of "bad" marriages if snail numbered <strong>n</strong> was the oldest one.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />1 2<br />1 3<br />2 4<br />2 5<br />9<br />Q 1<br />M 3 5<br />Q 1<br />Q 3<br />M 1 4<br />Q 3<br />Q 4<br />D 3 5<br />Q 3
+
+<strong>Output:</strong>
+0<br />0<br />1<br />2<br />1<br />1<br />&nbsp;</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syntax_error">gustav</a></td></tr>
+<tr><td>Date:</td><td>2011-06-27</td></tr>
+<tr><td>Time limit:</td><td>0.335s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, idea from a yuoi problem</td></tr>	
+</table>

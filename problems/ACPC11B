@@ -1,0 +1,83 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC11B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10239. Between the Mountains</h1>
+		<h2>Problem code: ACPC11B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Did you try to ride a telepherique (cable car)? It is a lot of fun. Our company is trying to</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">build a new telepherique line between two high mountains and you will be invited for a free</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">ride. The trick to get your free ride is to help the company in building the telepherique line.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The company wants to build two platforms, one on each mountain. The line will extend</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">between these two platforms. The suitable points for holding a platform in each mountain</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">were determined, and the altitudes of these points were reported.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">One of the talented engineers suggested that the company can save a lot of energy if the two</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">stations have the same altitude or at least have altitudes which are as close to each other as</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">possible. Your job is to select two points, one at each mountain, from those suitable points,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">so that the altitude difference between the two points is as little as possible.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Your program will be tested on one or more test cases. The first line of the input will be a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">single integer T , the number of test cases (1 &le; T &le; 100). Follows 2T lines containing the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">test cases, each on a pair of lines.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Each of the two lines in a case describe the altitudes of suitable points to build a platform</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">on one mountain. Each line starts with an integer N , the number of reported altitudes</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">(1 &le; N &le; 1, 000), followed by N integers, which represent the altitudes reported from this</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">mountain. Any altitude value will be between 1 and 1, 000, 000, inclusive.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">For each test case, output, on a single line, a single number representing the minimum</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 109px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">altitude difference between two suitable platform points, one at each mountain.</div>
+<p>Did you try to ride a telepherique (cable car)? It is a lot of fun. Our company is trying to&nbsp;build a new telepherique line between two high mountains and you will be invited for a free&nbsp;ride. The trick to get your free ride is to help the company in building the telepherique line.</p>
+<p>The company wants to build two platforms, one on each mountain. The line will extend&nbsp;between these two platforms. The suitable points for holding a platform in each mountain&nbsp;were determined, and the altitudes of these points were reported.</p>
+<p>One of the talented engineers suggested that the company can save a lot of energy if the two&nbsp;stations have the same altitude or at least have altitudes which are as close to each other as&nbsp;possible. Your job is to select two points, one at each mountain, from those suitable points,&nbsp;so that the altitude difference between the two points is as little as possible.</p>
+<p style="padding-left: 300px; "><span style="font-size: medium;"><strong>Input</strong></span></p>
+<p>Your program will be tested on one or more test cases. The first line of the input will be a&nbsp;single integer T , the number of test cases (1 &le; T &le; 100). Follows 2T lines containing the&nbsp;test cases, each on a pair of lines.</p>
+<p>Each of the two lines in a case describe the altitudes of suitable points to build a platform&nbsp;on one mountain. Each line starts with an integer N , the number of reported altitudes&nbsp;(1 &le; N &le; 1,000), followed by N integers, which represent the altitudes reported from this&nbsp;mountain. Any altitude value will be between 1 and 1,000,000, inclusive.</p>
+<p style="padding-left: 300px; "><span style="font-size: medium;"><strong><span style="font-family: 'comic sans ms', sans-serif;">Output</span></strong></span></p>
+<p>For each test case, output, on a single line, a single number representing the minimum</p>
+<p>altitude difference between two suitable platform points, one at each mountain.</p>
+<p>&nbsp;</p>
+<p style="padding-left: 300px; "><strong><span style="font-size: medium;"><span style="font-family: 'comic sans ms', sans-serif;">Example</span></span></strong></p>
+<p>&nbsp;</p>
+<pre><strong>Input:</strong>
+2
+8 1 3 5 7 9 7 3 1
+8 2 4 6 8 10 8 6 2
+8 2 3 5 10 9 3 2 1
+7 1 2 6 12 13 3 2
+
+<strong>Output:</strong>
+1
+0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wahba">mohamedwahba</a></td></tr>
+<tr><td>Date:</td><td>2011-12-15</td></tr>
+<tr><td>Time limit:</td><td>0.170s-0.823s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Arab Collegiate Programming Contest 2011</td></tr>	
+</table>

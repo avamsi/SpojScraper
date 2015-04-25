@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HLP_RAMS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18878. Topper Rama Rao</h1>
+		<h2>Problem code: HLP_RAMS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rama Rao is the topper of his branch. One of his friends was jealous of it. So, he poses a question to test Rama Rao and is as follows:</p>
+<p>For a given <strong>n</strong>, find the number of even and odd numbers among the set, <strong><strong>{ </strong><sup>n</sup><strong>C</strong><sub>0</sub><strong>, </strong><strong><sup>n</sup>C<sub>1</sub>,... <sup>n</sup>C<sub>n </sub>}. </strong></strong></p>
+<p>Rama Rao was having hard time solving it. He hopes you can help him.</p>
+<h3>Input</h3>
+<p>First line contains <strong>t( 1&lt;=t&lt;=10<sup>5</sup>), </strong>the number of test cases. Next t lines contain one integer per line, denoting <strong>n(0&lt;=n&lt;=10<sup>12</sup>)</strong>.&nbsp;</p>
+<h3>Output</h3>
+<p>For each test case, output two space separated integers specifying the number of even numbers and odd numbers respectively.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>3</pre>
+<pre>4
+
+<strong>Output:</strong>
+0 4</pre>
+<pre>3 2</pre>
+<pre><strong>Explaination:</strong></pre>
+<pre> for 3, values are: <strong>1 3 3 1</strong>. All are odd. Hence <strong>0 4</strong></pre>
+<pre> for 4, values are: <strong>1 4 6 4 1</strong>. Hence <strong>3 2</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nitish712">nitish rao</a></td></tr>
+<tr><td>Date:</td><td>2014-03-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>My own Problem</td></tr>	
+</table>

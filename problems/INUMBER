@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INUMBER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>279. Interesting number</h1>
+		<h2>Problem code: INUMBER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For the given number <i>n</i> find the minimal positive integer divisable by <i>n</i>, with the sum of digits equal to <i>n</i>.
+</p>
+
+<h3>Input</h3>
+<p><i>t</i> &#8211; the number of test cases, then <i>t</i> test cases follow. (t <= 50)<BR>
+Test case description:<br>
+<i>n</i> - integer such that 0 < <i>n</i> <= 1000
+
+<h3>Output</h3>
+<p>For each test case output the required number (without leading zeros).
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+2
+1
+10
+
+<b>Output:</b>
+1
+190
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2005-01-13</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>4096B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>XII team championship of St.-Petersburg in programming</td></tr>	
+</table>

@@ -1,0 +1,91 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMAXPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3878. Rectangles Perimeter</h1>
+		<h2>Problem code: MMAXPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MMAXPER/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MMAXPER/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+Given  are n  rectangles,  numbered  from 1  to n. We place  them  
+tightly on  the  axis OX,  from  left  to right, according to 
+rectangles' numbers. Each rectangle stays on the axis OX either by its 
+shorter or by its longer side (see the picture below). Compute the 
+length of the upper envelop line, i.e. perimeter's length of the obtained 
+figure minus  the  length of  the  left, right and 
+bottom straight line segments of the picture. Write program to 
+find the maximum possible length of the upper envelop line.
+</pre>
+<a href="http://tinypic.com" target="_blank"><img height = 70% width=70% src="http://i39.tinypic.com/dc5tls.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+<br><c><h3>INPUT</h3></c>
+<pre>
+On  the  first  line  of  the  standard  input,  the  value  of  n 
+is written. On  each  of  the  next  n  lines,  two integers are given 
+&#8211; a_i  and b_i &#8211; the side lengths of the i_th rectangle.  
+Constraints:  0 < n < 1000; 0 < a_i < b_i < 1000, for each i = 1, 2, &#8230;, n. 
+
+SAMPLE INPUT:
+5 
+2 5 
+3 8 
+1 10 
+7 14 
+2 5 
+</pre>
+<c><h3>OUTPUT </h3></c>
+<pre>
+On a line of the standard output, your program should write the 
+result as a positive integer
+
+SAMPLE OUTPUT  
+
+68
+</pre>
+<b>Explanation: </b>
+<pre>A configuration, that yields the maximum length of the upper envelop
+line, is presented on the picture. 
+The  upper  envelop  line  consists  of  segments DC, CG, GF, FJ,  JI,  IM,
+ML, LP,  and PO. 
+The  total length is 5 + 6 + 3 + 7 + 10 + 13 + 7 + 12 + 5 = 68</pre>
+<b>Problem for kid - Please, think like kid.</b>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-17</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>BOI For Kid 08</td></tr>	
+</table>

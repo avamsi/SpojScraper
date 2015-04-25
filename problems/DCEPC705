@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC705"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11476. Weird Points</h1>
+		<h2>Problem code: DCEPC705</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given N distinct points in a plane, a point (x1, y1) is said to be dominating another point (x2, y2) if x1&gt;=x2 and y1&gt;=y2.</p>
+<p>The Dominance of a point is the absolute difference between 2 quantities &ndash; no. of points dominated by this point and no. of points not dominated by this point. <strong>(excluding itself)</strong></p>
+<p>A Weird point is the point whose Dominance value is greater than or equal to a threshold value &lsquo;k&rsquo;. Find the no. of such Weird Points among those N given points.</p>
+<h3>Input</h3>
+<p>First line gives T, the no. of test cases.</p>
+<p>Each test case consists of 2 integers in first line, N and K, as specified above.</p>
+<p>Next N lines give the coordinates of N points in the plane. &ldquo;Xi&rdquo; and &ldquo;Yi&rdquo; are space separated.</p>
+<h3>Output</h3>
+<p>Output T lines, each containing the required answer.</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=10<br /> 1&lt;=N&lt;=10^5<br /> 1&lt;=Xi, Yi&lt;=10^9<br /> 0&lt;=K&lt;=N</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1</pre>
+<pre>4 2</pre>
+<pre>3 1<br />7 5<br />2 8<br />6 7</pre>
+<pre><strong>Output:</strong><br />2<br /><br /></pre>
+<p><span style="font-size: small;"><strong>Problem Statement and Test Cases has been updated 2012-05-17  18:10:00</strong>.</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-04-30</td></tr>
+<tr><td>Time limit:</td><td>0.430s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

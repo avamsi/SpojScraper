@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KMSL4B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>481. Roots of polynomial</h1>
+		<h2>Problem code: KMSL4B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+<p>p(x)=pk x^k + ... + p0x^0 is a given polynomial of degree at most 20. Check whether all roots of p() belong to the open unit disc |z|< 1 on the complex plain.
+
+<h3>Input</h3>
+<p>
+First the number of polynomials appears. Then the data for the following polynomials follows in the consecutive lines. For each of them first  the degree is given, then in the following line the coefficients p0, p1, ... appear, separated by spaces.
+<h3>Output</h3>
+<p>
+Each line of the output is the solution for the following polynomials. It shoud be '1' if the roots of p() belong to the open unit disc, or '0' otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+2
+1 2 1
+2
+0.5 1 1
+
+<b>Output:</b>
+0
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nadolski">Adam Nadolski</a></td></tr>
+<tr><td>Date:</td><td>2004-12-03</td></tr>
+<tr><td>Time limit:</td><td>0.632s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

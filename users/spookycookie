@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/spookycookie"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HAMSTER1" target="_blank">4200. Hamster flight</a></td><td><a href="http://www.spoj.com/problems/HAMSTER1"target="_blank">HAMSTER1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRPAR" target="_blank">4202. Brackets Parade</a></td><td><a href="http://www.spoj.com/problems/BRPAR"target="_blank">BRPAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/QUEEN" target="_blank">4235. Wandering Queen</a></td><td><a href="http://www.spoj.com/problems/QUEEN"target="_blank">QUEEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANTTT" target="_blank">4465. The Ant</a></td><td><a href="http://www.spoj.com/problems/ANTTT"target="_blank">ANTTT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GASWARS" target="_blank">4657. Gas Wars</a></td><td><a href="http://www.spoj.com/problems/GASWARS"target="_blank">GASWARS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACVSPOW" target="_blank">5161. Factorial vs Power</a></td><td><a href="http://www.spoj.com/problems/FACVSPOW"target="_blank">FACVSPOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VIENTIAN" target="_blank">5163. Tower of Vientiane</a></td><td><a href="http://www.spoj.com/problems/VIENTIAN"target="_blank">VIENTIAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MONONUM" target="_blank">5196. Monotonous numbers</a></td><td><a href="http://www.spoj.com/problems/MONONUM"target="_blank">MONONUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIFFDIAG" target="_blank">5197. Differential Diagnosis</a></td><td><a href="http://www.spoj.com/problems/DIFFDIAG"target="_blank">DIFFDIAG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GARDENAR" target="_blank">5240. Area of a Garden</a></td><td><a href="http://www.spoj.com/problems/GARDENAR"target="_blank">GARDENAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMMUL" target="_blank">6286. Sum of products</a></td><td><a href="http://www.spoj.com/problems/SUMMUL"target="_blank">SUMMUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PYRA" target="_blank">6288. Treeramids</a></td><td><a href="http://www.spoj.com/problems/PYRA"target="_blank">PYRA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOMBER" target="_blank">6289. Bomberman</a></td><td><a href="http://www.spoj.com/problems/BOMBER"target="_blank">BOMBER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROBBERY2" target="_blank">6290. Robbery 2</a></td><td><a href="http://www.spoj.com/problems/ROBBERY2"target="_blank">ROBBERY2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHMOOGLE" target="_blank">6292. Shmoogle Wave</a></td><td><a href="http://www.spoj.com/problems/SHMOOGLE"target="_blank">SHMOOGLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YODANESS" target="_blank">6294. Yodaness Level</a></td><td><a href="http://www.spoj.com/problems/YODANESS"target="_blank">YODANESS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXPER" target="_blank">6296. Experiment</a></td><td><a href="http://www.spoj.com/problems/EXPER"target="_blank">EXPER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROOTCIPH" target="_blank">6297. Decipher</a></td><td><a href="http://www.spoj.com/problems/ROOTCIPH"target="_blank">ROOTCIPH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NGON" target="_blank">6325. Many polygons</a></td><td><a href="http://www.spoj.com/problems/NGON"target="_blank">NGON</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RPSSL" target="_blank">6356. Rock-Paper-Scissors-Lizard-Spock</a></td><td><a href="http://www.spoj.com/problems/RPSSL"target="_blank">RPSSL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOWLING1" target="_blank">6477. Bowling</a></td><td><a href="http://www.spoj.com/problems/BOWLING1"target="_blank">BOWLING1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HAMSTER2" target="_blank">6478. Hamster Flight 2</a></td><td><a href="http://www.spoj.com/problems/HAMSTER2"target="_blank">HAMSTER2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/VGCD" target="_blank">6479. The Very Greatest Common Divisor</a></td><td><a href="http://www.spoj.com/problems/VGCD"target="_blank">VGCD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEFMAY" target="_blank">6738. Nice Quadrangles</a></td><td><a href="http://www.spoj.com/problems/CHEFMAY"target="_blank">CHEFMAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCKYCONT" target="_blank">7301. Lucky Controller</a></td><td><a href="http://www.spoj.com/problems/LCKYCONT"target="_blank">LCKYCONT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEFJUN" target="_blank">7322. Prime Pattern</a></td><td><a href="http://www.spoj.com/problems/CHEFJUN"target="_blank">CHEFJUN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEFJUL" target="_blank">7323. Happy Days</a></td><td><a href="http://www.spoj.com/problems/CHEFJUL"target="_blank">CHEFJUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04A1" target="_blank">7857. Tower Game (Hard)</a></td><td><a href="http://www.spoj.com/problems/ADV04A1"target="_blank">ADV04A1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04B1" target="_blank">7859. Upper Right King (Hard)</a></td><td><a href="http://www.spoj.com/problems/ADV04B1"target="_blank">ADV04B1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04C" target="_blank">7860. Deal or No Deal</a></td><td><a href="http://www.spoj.com/problems/ADV04C"target="_blank">ADV04C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04D" target="_blank">7861. UFO</a></td><td><a href="http://www.spoj.com/problems/ADV04D"target="_blank">ADV04D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04E" target="_blank">7862. Prisoner of Benda</a></td><td><a href="http://www.spoj.com/problems/ADV04E"target="_blank">ADV04E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04F1" target="_blank">7864. Four Chips (Hard)</a></td><td><a href="http://www.spoj.com/problems/ADV04F1"target="_blank">ADV04F1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04G1" target="_blank">7866. Regular expressions (Hard)</a></td><td><a href="http://www.spoj.com/problems/ADV04G1"target="_blank">ADV04G1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04H" target="_blank">7868. Join</a></td><td><a href="http://www.spoj.com/problems/ADV04H"target="_blank">ADV04H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04J" target="_blank">7870. Invisible point</a></td><td><a href="http://www.spoj.com/problems/ADV04J"target="_blank">ADV04J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04K" target="_blank">7874. Calculator</a></td><td><a href="http://www.spoj.com/problems/ADV04K"target="_blank">ADV04K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04L" target="_blank">7875. Miles and kilometers</a></td><td><a href="http://www.spoj.com/problems/ADV04L"target="_blank">ADV04L</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADV04I1" target="_blank">7886. Boards (Hard)</a></td><td><a href="http://www.spoj.com/problems/ADV04I1"target="_blank">ADV04I1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEFFEB" target="_blank">8661. Bogosort</a></td><td><a href="http://www.spoj.com/problems/CHEFFEB"target="_blank">CHEFFEB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHEFMAR" target="_blank">8663. Squares Game</a></td><td><a href="http://www.spoj.com/problems/CHEFMAR"target="_blank">CHEFMAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROBOR" target="_blank">8910. Probablistic OR</a></td><td><a href="http://www.spoj.com/problems/PROBOR"target="_blank">PROBOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAAAARTY" target="_blank">8930. Party!</a></td><td><a href="http://www.spoj.com/problems/PAAAARTY"target="_blank">PAAAARTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YALOP" target="_blank">9443. Trial of Doom</a></td><td><a href="http://www.spoj.com/problems/YALOP"target="_blank">YALOP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BLOCKDRO" target="_blank">9444. Block Drop</a></td><td><a href="http://www.spoj.com/problems/BLOCKDRO"target="_blank">BLOCKDRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLONES" target="_blank">9445. Attack of the Clones</a></td><td><a href="http://www.spoj.com/problems/CLONES"target="_blank">CLONES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHORTCIR" target="_blank">9446. Shortest Circuit Evaluation</a></td><td><a href="http://www.spoj.com/problems/SHORTCIR"target="_blank">SHORTCIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GENETICS" target="_blank">9447. Genetics</a></td><td><a href="http://www.spoj.com/problems/GENETICS"target="_blank">GENETICS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWARM" target="_blank">9448. Swarm of Polygons</a></td><td><a href="http://www.spoj.com/problems/SWARM"target="_blank">SWARM</a><br>
+</td></tr>

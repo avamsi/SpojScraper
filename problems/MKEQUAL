@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MKEQUAL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16482. Make them equal !</h1>
+		<h2>Problem code: MKEQUAL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You have an array containing n elements. At any move, you choose two indices i and j ( 0 &lt;= i,j &lt;n and i != j ) and increment value at one index and decrement value at other index. You can make this move any number of times. What is the maximum number of elements which can have the same value (after any number of moves) ?</p>
+<h3>Input</h3>
+<p>First line consists of t, the number of test cases. ( 1&lt;=t&lt;=100)</p>
+<p>t sets follow. Each set contains n, the number of elements in the array, in the first line. (1&lt;=n&lt;=100000)</p>
+<p>Next line of each set consists of n space separated integers ( 0&lt;=value&lt;=100000)</p>
+<h3>Output</h3>
+<p>Output t lines each containing the required answer.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1<br />4<br />1 2 3 4<br /><strong>Output:</strong>&nbsp;
+3
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/codingcapo">Pandian</a></td></tr>
+<tr><td>Date:</td><td>2013-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.5s-1s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

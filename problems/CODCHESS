@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CODCHESS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16139. Naya Shatranj (New Chess)</h1>
+		<h2>Problem code: CODCHESS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">A and B are playing a very interesting variant of the ancient Indian game 'shatranj(also known as chess)' on a 'maidaan'(chessboard) n&times;n in size.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">They take turns to put game pieces called 'ghoda'(knight) so that no two 'ghodas'(knights) could threat each other.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;"> A 'ghoda' located in square (a,b) can threat squares (a+1,b+2),(a-1,b+2),(a+1,b-2),</span><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">(a-1,b-2),(a+2,b-1),(a+2,b+1),</span><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">(a-2,b-1),(a-2,b+1).</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">The player who can't put a new 'ghoda' during his move loses. Find out which player wins considering that both players play optimally well and A starts.</span></p>
+<h3>Input</h3>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">The first line contains integer T (1&le;T&le;10^4) &mdash; the number of 'maidaans' (boards), for which you should determine the winning player. Next T lines contain T integers ni (1&le;ni&le;10^5) &mdash; the sizes of the 'maidaans'(chessboards).</span></p>
+<h3>Output</h3>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">For each ni&times;ni board print on a single line "0" if A wins considering both players play optimally well. Otherwise, print "1".</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>2</pre>
+<pre>1
+
+<strong>Output:</strong>
+1</pre>
+<pre>0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/csi_dtu">CSI</a></td></tr>
+<tr><td>Date:</td><td>2013-09-27</td></tr>
+<tr><td>Time limit:</td><td>0.186s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

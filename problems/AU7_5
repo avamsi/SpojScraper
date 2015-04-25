@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AU7_5"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14871. STUDENTS</h1>
+		<h2>Problem code: AU7_5</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p><span style="font-size: small;"><strong>Problem Statement</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">Professor X wants to position N (1 &lt;= N &lt;= 100,000) girls and boys in a single row to  present at the annual fair. </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">Professor has observed that the boys have been quite pugnacious lately; if two boys too  close together in the line, they will argue and begin to fight, ruining the presentation. Ever  resourceful, Professor calculated that any two boys must have at least K (0 &lt;= K &lt; N) girls  between them in order to avoid a fight. </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">Professor would like you to help him by counting the number of possible sequences of N  boys and girls that avoid any fighting. Professor considers all boys  to be the same and all  girls to be the same; thus, two sequences are only different if they have different kinds of  students in some position. </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Input</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">First line contains C (1&lt;=C&lt;=20) the number of test cases </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">Next  C lines contain N and K </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Output</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;"> A single integer representing the number of ways Professor could create such a sequence of  students. Since this number can be quite large, output the result modulo 5000011. </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Sample Input</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">1</span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">4 2 </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Sample Output</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">6 </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Explanation</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">GGGG </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">BGGG </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">GBGG </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">GGBG </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">GGGB </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">BGGB </span></span></p>
+<p><span style="font-size: small;"><strong><span style="font-weight: normal;"> </span>Time Limit</strong><span style="font-weight: normal;"> </span></span></p>
+<p><span style="font-size: small;"><span style="font-weight: normal;">1s</span></span></p>
+<p>&nbsp;</p>
+<address><span style="white-space: normal;"> </span></address>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/n_arun89">arun</a></td></tr>
+<tr><td>Date:</td><td>2013-05-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+	
+</table>

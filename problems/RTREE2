@@ -1,0 +1,97 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RTREE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22560. Valid Path</h1>
+		<h2>Problem code: RTREE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><br /></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Roger was having fun solving his problems until he found this one.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">As you know, an undirected connected graph with N nodes and N-1 edges is called a tree.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">You are given an integer 'K' and a tree consisting of 'N' nodes. Each node 'i' has a value a(i) associated with it.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">We call a path 'P' of tree valid if following conditions are satisfied:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1) P has atleast 2 nodes associated with it.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2) Max a(u) - Min a(u) &gt;= K (u belongs to the nodes present in the choosen P).</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Your task is to count the number of Valid Paths.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">INPUT FORMAT:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">The first line contains two space-separated integers N and K.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">The second line contains N space-separated positive integers a(1),&thinsp;a(2),&thinsp;...,&thinsp;a(n).</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Then the next n&thinsp;-&thinsp;1 line each contain pair of integers u and v (1&thinsp;&le;&thinsp;u,&thinsp;v&thinsp;&le;&thinsp;n) denoting that there is an edge between u and v.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">OUTPUT FORMAT:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Print the number of Valid Paths.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">CONSTRAINTS:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 &lt;= N &lt;= 5000</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 &lt;= u,v &lt;= N</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">0 &lt;= K &lt;= 10^9</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">0 &lt;= &thinsp;ai&thinsp;&lt;= 10^9</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE INPUT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">3 1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 2 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE OUTPUT</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">3</span></div>
+<p><span style="font-size: small;">Roger was having fun solving his problems until he found this one.&nbsp;As you know, an undirected connected graph with <strong>N</strong> nodes and <strong>N-1</strong> edges is called a tree.&nbsp;You are given an integer <strong>'K' </strong>and a tree consisting of <strong>'N'</strong> nodes. Each node<strong> 'i'</strong> has a value<strong> a(i)</strong> associated with it.</span></p>
+<p><span style="font-size: small;">We call a path <strong>'P'</strong> of tree valid if following conditions are satisfied:</span></p>
+<ul>
+<li><span style="font-size: small;"><strong>P</strong>&nbsp;has atleast 2 nodes associated with it.</span></li>
+<li><strong><span style="font-size: small;">Max a(u) - Min a(u) &gt;= K</span></strong><span style="font-size: small;"> (u belongs to the nodes present in the choosen P).</span></li>
+</ul>
+<p><span style="font-size: small;">Your task is to count the number of Valid Paths.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>INPUT FORMAT</strong></span></p>
+<p><span style="font-size: small;">The first line contains two space-separated integers<strong> N</strong> and <strong>K</strong>.</span></p>
+<p><span style="font-size: small;">The second line contains<strong> N</strong> space-separated positive integers <strong>a(1),&thinsp;a(2),&thinsp;...,&thinsp;a(n).</strong></span></p>
+<p><span style="font-size: small;">Then the next<strong> n&thinsp;-&thinsp;1</strong> line each contain pair of integers <strong>u</strong> and <strong>v&nbsp;</strong>denoting that there is an edge between u and v.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>OUTPUT FORMAT</strong></span></p>
+<p><span style="font-size: small;">Print the number of Valid Paths.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>SAMPLE INPUT</strong></span></p>
+<p><span style="font-size: small;">3 1</span></p>
+<p><span style="font-size: small;">1 2 3</span></p>
+<p><span style="font-size: small;">1 2</span></p>
+<p><span style="font-size: small;">2 3</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>SAMPLE OUTPUT</strong></span></p>
+<p><span style="font-size: small;">3</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>CONSTRAINTS</strong></span></p>
+<p><span style="font-size: small;">1 &lt;= N &lt;= 5000</span></p>
+<p><span style="font-size: small;">1 &lt;= u,v &lt;= N</span></p>
+<p><span style="font-size: small;">0 &lt;= K &lt;= 10^9</span></p>
+<p><span style="font-size: small;">0 &lt;= &thinsp;ai&thinsp;&lt;= 10^9</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ranasaha">Rana Saha</a></td></tr>
+<tr><td>Date:</td><td>2015-01-31</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem (Codecracker 2015)</td></tr>	
+</table>

@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sevenk"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/JZPCIR" target="_blank">7709. Jumping Zippy</a></td><td><a href="http://www.spoj.com/problems/JZPCIR"target="_blank">JZPCIR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JZPSTA" target="_blank">7851. Stacks of Zippy</a></td><td><a href="http://www.spoj.com/problems/JZPSTA"target="_blank">JZPSTA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JZPEXT" target="_blank">8177. Beautiful numbers EXTREME</a></td><td><a href="http://www.spoj.com/problems/JZPEXT"target="_blank">JZPEXT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JZPFOR" target="_blank">9086. Formula 3D</a></td><td><a href="http://www.spoj.com/problems/JZPFOR"target="_blank">JZPFOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JZPLIT" target="_blank">9534. Turn on the lights</a></td><td><a href="http://www.spoj.com/problems/JZPLIT"target="_blank">JZPLIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JZPLIT2" target="_blank">9535. Turn on the lights 2</a></td><td><a href="http://www.spoj.com/problems/JZPLIT2"target="_blank">JZPLIT2</a><br>
+</td></tr>

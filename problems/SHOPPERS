@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SHOPPERS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7630. SHOPPERS</h1>
+		<h2>Problem code: SHOPPERS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">A group of N shoppers go to a supermarket. The supermarket has M items. Each shopper wants to buy only the items he likes.</p><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">They plan to buy K items in all. A shopper can buy at max only one item. Some shoppers may not buy anything and some items might not be bought.</p><br /><h3 style="margin-top: 8px; margin-right: 0px; margin-bottom: 12px; margin-left: 0px; font-family: Arial, Helvetica, sans-serif; color: #656565; font-size: 15px; font-weight: bold; padding: 0px;">Input</h3><br /><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">First line contains the number of test cases.</p><br /><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">Each test case contains three integers N , M and K separated by spaces. Then follow N lines containing M characters each.</p><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">If jth character of ith line is 1 then ith shopper likes item j.</p><br /><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">1&lt;= K &lt;= N, M &lt;=13</p><br /><h3 style="margin-top: 8px; margin-right: 0px; margin-bottom: 12px; margin-left: 0px; font-family: Arial, Helvetica, sans-serif; color: #656565; font-size: 15px; font-weight: bold; padding: 0px;">Output</h3><br /><p style="padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; font-family: Arial, Helvetica, sans-serif; font: normal normal normal 12px/1.4em Arial, sans-serif; line-height: 1.5em; margin: 0px;">For each test case, output the number of ways K items in all can be bought.</p><br /><h3 style="margin-top: 8px; margin-right: 0px; margin-bottom: 12px; margin-left: 0px; font-family: Arial, Helvetica, sans-serif; color: #656565; font-size: 15px; font-weight: bold; padding: 0px;">Example</h3><br /><pre style="font-family: Arial, Helvetica, sans-serif; padding: 0px; margin: 0px;"><strong>Input:</strong><br />1<br />4 4 2<br />1111<br />0100<br />0100<br />1100<br /><br /><br /><strong>Output:</strong><br />14</pre>
+<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ashish_pant">P != NP</a></td></tr>
+<tr><td>Date:</td><td>2010-10-22</td></tr>
+<tr><td>Time limit:</td><td>0.150s-0.433s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 C++14 C99 strict JAVA PYTH 2.7 </td></tr>
+<tr><td>Resource:</td><td>MNNIT IOPC 2010</td></tr>	
+</table>

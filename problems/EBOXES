@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EBOXES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4343. Empty Boxes</h1>
+		<h2>Problem code: EBOXES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><b>N</b> large empty boxes (assume they are of type:1) are initially placed on a table. An unknown number of 
+boxes (type:1) are selected and in each of
+them <b>K</b> smaller boxes (type:2) are placed.
+Again an unknown number of type:2 boxes are selected and <b>K</b> boxes of type:3 are placed inside. This process is repeated
+<b>T</b> times. Now a box is assumed to be empty when it has no smaller boxes inside it. Finally after all the 
+processes are complete let there be <b>F</b> empty boxes in total.
+
+<h3>LIMITS</h3>
+1< N,K,T,F <1000000
+
+<h3>Input</h3>
+<p>First line of the input file contains the number of test cases. Then each line contains 4 integers N,K,T,F as described
+above.
+
+<h3>Output</h3>
+<p>Each line should contain the total number of boxes on the table.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+11 8 2 102
+
+<b>Output:</b>
+115
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abhijith">abhijith reddy d</a></td></tr>
+<tr><td>Date:</td><td>2009-05-07</td></tr>
+<tr><td>Time limit:</td><td>2.369s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

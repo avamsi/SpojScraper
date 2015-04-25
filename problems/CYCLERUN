@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CYCLERUN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4574. Riding in cycles</h1>
+		<h2>Problem code: CYCLERUN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are N cities, numbered from 1 to N,&nbsp;in the country you are living. <strong>Each pair</strong> of the cities is connected with exactly one road. However, <strong>each road is a one-way road</strong>, so it is either possible to go&nbsp;directly from A to B or from B to A for each pair of cities (A, B).</p>
+<p>You are living in city #1 and you are practicing for upcoming cycling marathon, so you want to construct the following training plan:</p>
+<p>First day you have to ride over 3 roads starting from and finishing in city #1.</p>
+<p>Second day you have to ride over 4 roads in the same manner.</p>
+<p>Third day you have to ride over 5 roads.</p>
+<p>...</p>
+<p>The last, (N-2)-th, day you have to ride over N roads starting from and finishing in city #1.</p>
+<p>You don't like to visit the same city more than once per day, so you have to find a training route for each day that passes through <strong>each city at most once</strong>. City #1 should appear only at the start and at the end of each route.</p>
+<p>Write the program that, given the layout of the network, outputs training route for each day, or writes "impossible" if such training plan is not achievable.</p>
+<h3>Input</h3>
+<p>The first line of input contains the integer N (3 &le; N &le; 1000), number of cities.</p>
+<p>Each of the next N lines contains exactly N characters that describes network layout. <em>j</em>-th character in&nbsp;<em>i</em>-th of these lines is '1' if it is possible to ride from city number <em>i</em> to city number <em>j</em>, or '0' otherwise.</p>
+<h3>Output</h3>
+<p>You should output training route for each day in a separate line. Training route consists of space separated integers - numbers of the cities in order they should be visited. Each training route starts and ends with 1.</p>
+<p>If there is no achievable training plan, output word 'impossible' in a single line, instead.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+01000
+00011
+11001
+10100
+10010
+
+<strong>Output:</strong>
+1 2 5 1
+1 2 4 3 1
+1 2 4 3 5 1
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kalinov">Luka Kalinovcic</a></td></tr>
+<tr><td>Date:</td><td>2009-07-07</td></tr>
+<tr><td>Time limit:</td><td>0.099s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

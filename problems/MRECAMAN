@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MRECAMAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3934. Recaman&#8217;s Sequence</h1>
+		<h2>Problem code: MRECAMAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MRECAMAN/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MRECAMAN/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>The Recaman&rsquo;s sequence is de&#64257;ned by a0 = 0 ; for m &gt; 0, a(m) = a(m&minus;1) &minus; m if the resulting a(m) is positive and not already in the sequence, otherwise a(m) = a(m&minus;1) + m. The &#64257;rst few numbers in the Recaman&rsquo;s Sequence is 0, 1, 3,6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9 &middot; &middot; &middot; .</p>
+<p>Given k, your task is to calculate ak.</p>
+<h3 style="text-align: center;">Input</h3>
+<p>The input consists of several test cases. Each line of the input contains an integer k where 0 &le; k &le; 500000. The last line contains an integer &minus;1, which should not be processed.</p>
+<pre><br />Sample Input<br />7<br />10000<br />-1<br /></pre>
+<h3 style="text-align: center;">Output</h3>
+<pre> <br />For each k given in the input, print one line containing ak to the output.<br /><br />Sample output<br />20<br />18658<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-23</td></tr>
+<tr><td>Time limit:</td><td>0.138s-0.778s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Pre Shanghai 2004</td></tr>	
+</table>

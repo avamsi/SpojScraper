@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCAMP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19686. Mining Camps</h1>
+		<h2>Problem code: MCAMP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+Mansur plays the new computer strategic game. The main task in such games is mining resources.
+<br/>
+Fortunately in this game only one resource is necessary for development &#8212; the gold, and also there is one supplementary resource type &#8212; energy.
+<br/>
+In this game there are mining camps, which provide certain amount of gold and energy. &#1040;ll camps are located along the straight line.
+<br/>
+To protect the mining camps one can build a forcefield (a closed line contiguos segment containing mining camps) , which needs energy amount equal to it&#8217;s length. 
+<br/>
+( if  forcefield  start camp is located at X1 and  its end camp is at X2 energy needed for the whole forcefield is |X1-X2| )
+<br/>
+Mansur wants to build one forcefield in such way, that energy of protected mining camps is enough for the forcefield, and amount of gold provided by these mining camps is maximal possible.
+<br/>
+Write a program to help Mansur find the maximal amount of gold which he can obtain from protected mining camps.
+<br/>
+
+
+<h3>Input</h3>
+<p>
+First line of the input file contains one integer N &#8212; number of mining camps. 
+<br/>
+N<=10^5
+<br/>
+Following N lines contain:
+<br/>
+three space separated integers xi, gi, di, 0 <= xi <= 10^9, 1 <= gi <= 10^9, 1 <= di <= 10^9: mine coordinates,amount of gold and energy provided by the mine. All xi are different and given in increasing order.
+<br/>
+
+
+<h3>Output</h3>
+Output only one number &#8212; maximal amount of gold which Mansur can mine.
+<br/>
+
+<pre>
+<b>Input:</b>
+4 <br/>
+0 5 1 <br/>
+1 7 2 <br/>
+4 4 1 <br/>
+7 15 1 <br/>
+
+<b>Output:</b>
+16
+<br/>
+<br/>
+The Forcefield is camps [1,3] energy is 1+2+1=4 >= 4-0 so answer is 5+4+7=16
+<br/>
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/blackjaguar97">Se7s</a></td></tr>
+<tr><td>Date:</td><td>2014-04-29</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>APIO 2014 Training Session</td></tr>	
+</table>

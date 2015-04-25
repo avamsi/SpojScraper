@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSCHED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18965. Milk Scheduling</h1>
+		<h2>Problem code: MSCHED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MSCHED/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MSCHED/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><span style="font-size: small;">Farmer John has N cows that need to be milked (1 &lt;= N &lt;= 10,000), each of which takes only one unit of time to milk.</span></p>
+<p><span style="font-size: small;">Being impatient animals, some cows will refuse to be milked if Farmer John waits too long to milk them. More specifically, cow i produces g_i gallons of milk (1 &lt;= g_i &lt;= 1000), but only if she is milked before a deadline at time d_i (1 &lt;= d_i &lt;= 10,000). Time starts at t=0, so at most x total cows can be milked prior to a deadline at time t=x.</span></p>
+<p><span style="font-size: small;">Please help Farmer John determine the maximum amount of milk that he can obtain if he milks the cows optimally.</span></p>
+<p><span style="font-size: small;"><strong>Input </strong>:</span></p>
+<p><span style="font-size: small;">&nbsp;- Line 1: The value of N.</span></p>
+<p><span style="font-size: small;">&nbsp;- Lines 2..1+N: Line i+1 contains the integers g_i and d_i.</span></p>
+<p><span style="font-size: small;"><strong>Output </strong>: A single numbers denotes the maximum number of gallons of milk Farmer John can obtain.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>Sample</strong> :</span></p>
+<p><span style="font-size: small;">&nbsp;<strong>Input:</strong></span></p>
+<p><span style="font-size: small;">&nbsp;4</span></p>
+<p><span style="font-size: small;">&nbsp;10 3</span></p>
+<p><span style="font-size: small;">&nbsp;7 5</span></p>
+<p><span style="font-size: small;">&nbsp;8 1</span></p>
+<p><span style="font-size: small;">&nbsp;2 1</span></p>
+<p><span style="font-size: small;">&nbsp;<strong>Output :</strong></span></p>
+<p><span style="font-size: small;">&nbsp;25</span></p>
+<p><span style="font-size: small;">Input details : There are 4 cows. The first produces 10 gallons of milk if milked by time 3, and so on.</span></p>
+<p><span style="font-size: small;">Output details : Farmer John milks cow 3 first, giving up on cow 4 since she cannot be milked by her deadline due to the conflict with cow 3. Farmer John then milks cows 1 and 2.</span></p>
+<p><span style="font-size: small;"> </span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kata69">Kata</a></td></tr>
+<tr><td>Date:</td><td>2014-03-12</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO Dec 13, Silver Div</td></tr>	
+</table>

@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCPC12F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12407. Johnny The Gambler</h1>
+		<h2>Problem code: LCPC12F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="white-space: normal;"><p>Johnny is a gambling addict. He entered a casino and started playing a game with the dealer. The game is as follows: the dealer deals a sequence of <strong><em>N</em></strong> cards, each card containing a number <strong><em>C[i]</em></strong> and asks Johnny how many pairs (<strong><em>j, k</em></strong>) such that <strong><em>j</em></strong> < <strong><em>k</em></strong> and <strong><em>C[j] </em></strong>+ <strong><em>C[k] </em></strong>= <strong><em>X</em></strong>. If Johnny answers correctly he wins, otherwise the dealer wins.</p>
+<h2>Input Format         </h2>
+<p>The first line of input contains an integer <strong><em>T</em></strong>, the number of test cases. <strong><em>T</em></strong> test cases follow, Each test case start with the value of 0 &#8804; <strong><em>X </em></strong>&#8804; 2*10<sup>3</sup> followed by the number of cards 0 < <strong><em>N </em></strong>&#8804; 10<sup>5</sup> followed by <strong><em>N</em></strong> numbers representing the numbers on the cards 0 &#8804; <strong><em>C[i] </em></strong>&#8804; 10<sup>3</sup>.</p>
+<h2>Output Format</h2>
+<p>There should be <strong><em>T</em></strong> lines, containing the following format.</p>
+<p><strong><em>k. S</em></strong></p>
+<p>Where <strong><em>k</em></strong> is the test case number (starting at 1), a single period, a single space and <strong><em>S</em></strong> representing the number of valid pairs (<strong><em>j</em></strong>, <strong><em>k</em></strong>) as described above.</p>
+<table style="width: 100%;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<h2>Sample Input</h2>
+</td>
+<td valign="top">
+<h2>Sample Input</h2>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>1</p>
+<p>10 3 1 5 9</p>
+</td>
+<td valign="top">
+<p>1. 1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-10-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>LCPC 2012</td></tr>	
+</table>

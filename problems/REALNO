@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/REALNO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16267. Real Numbers</h1>
+		<h2>Problem code: REALNO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><br /><span style="white-space: normal;"><p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">Find whether there exists a pair of real nos. whose sum is in range<strong> (1,2)</strong> in an array consisting of real nos. in the range <strong>(0,2)</strong>. If there exists such a pair print "found" else print "not found". (double quotes for clarity)</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;"><strong>Note: all intervals given above are open intervals.</strong></p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;"><strong>INPUT:</strong></p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">First line is the number of test cases t (t&lt;=6),</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">then for each case no. of real nos. in the array is given (n)</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">then in the next line the real nos. are given.</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;"><strong>OUTPUT:</strong>print the required ans, i.e., "<strong>found</strong>" or "<strong>not found</strong>"</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">&nbsp;</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">Constraints:</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;"><strong>1 &lt;= n &lt;= 3*10^5</strong></p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">e.g.,</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">&nbsp;</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">Input:</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">2</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">3</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">0.7 0.5 1.2</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">5</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">1.2 1.3 1.22 0.999 1.5</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">&nbsp;</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">Output:</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">found</p>
+<p style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 16px; margin: 0px; padding: 0px;">not found</p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aditya_pearl">Aditya Gourav</a></td></tr>
+<tr><td>Date:</td><td>2013-10-06</td></tr>
+<tr><td>Time limit:</td><td>0.009s-0.699s</td></tr>
+<tr><td>Source limit:</td><td>500000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ADA C C++ 4.3.2 C++ 4.9 </td></tr>
+	
+</table>

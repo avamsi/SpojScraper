@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COWPIC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7809. Cow Photographs </h1>
+		<h2>Problem code: COWPIC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Farmer John wants to take a picture of his entire herd of N (1 &lt;= N &lt;= 100,000) cows conveniently numbered 1..N so he can show off to his friends. <br /><br />On picture day, the cows run to form a single line in some arbitrary order with position i containing cow c_i (1 &lt;= c_i &lt;= N). Farmer John has his own ideas about how the cows should line up. <br /><br />FJ thinks cow i may stand only to the left of cow i+1 (for all i, 1 &lt;= i &lt;= N-1) and that cow N may only stand to the left of Cow 1.&nbsp; Of course, no cow will stand to the left of the first (leftmost) cow in the line.<br /><br />The cows are hungry for the promised post-photo dinner, so Farmer John wants to take the picture as quickly as possible. Cows are not great at following directions, so he will only choose a pair of adjacent cows and have them switch places once per minute. How quickly is Farmer John able to get them into some acceptable order? <br /><br /><br />Consider a set of 5 cows whose initial lineup looks like this:<br /><br /><span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp; Left&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Right<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp; 5&nbsp; 4&nbsp; 2&nbsp; 1<br /></span><br />He can first swap the second pair of cows:<br /><br /><span style="font-family: courier new,courier;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp; 4&nbsp; 5&nbsp; 2 1<br /></span><br />and then swap the rightmost pair:<br /><span style="font-family: courier new,courier;"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp; 4&nbsp; 5&nbsp; 1&nbsp; 2<br /></span><br />to yield an acceptable lineup that required but two minutes of cow swapping.</p>
+<h3>Input</h3>
+<p>Line 1: A single integer: N<br />Lines 2..N+1: Line i+1 contains the number of the i-th cow in line: c_i</p>
+<h3>Output</h3>
+<p>Line 1: The minimum amount of time, in minutes, that it takes Farmer John to get the cows into some appropriate order.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />3<br />5<br />4<br />2<br />1<br /><br /><strong>Output:</strong><br />2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/smilitude">Iqram Mahmud</a></td></tr>
+<tr><td>Date:</td><td>2010-11-09</td></tr>
+<tr><td>Time limit:</td><td>0.177s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USACO November 2010</td></tr>	
+</table>

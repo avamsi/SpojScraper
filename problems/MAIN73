@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN73"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8546. Manoj and Pankaj </h1>
+		<h2>Problem code: MAIN73</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Manoj and Pankaj play the following game on a N*M grid, Each cell of which is either empty or contain a stone.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Each player in his his turn must take one the two moves described below:-</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1. He can shift an stone to its adjacent right cell, if that cell is empty</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2. or he can remove a stone completely from the grid.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Player who take the last turn will wins the game. It is also given that both the players will play optimally and Manoj always take the first turn.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">You have to find who will win the game.&nbsp;</div>
+<p>Manoj and Pankaj play the following game on a N*M grid, Each cell of which is either empty or contain a stone.</p>
+<p>Each player in his his turn must take one the two moves described below:-</p>
+<p>1. He can shift an stone to its adjacent right cell, if that cell is empty</p>
+<p>2. He can remove a stone completely from the grid.</p>
+<p>1st player who is unable to take a move looses the game . It is also given that both the players will play optimally and Manoj always take the first turn.</p>
+<p>You have to find who will win the game.&nbsp;</p>
+<h3>Input</h3>
+<p>First line of each test case contains two integers N and M. (1&lt;=N,M&lt;=200) Each of next&nbsp;N lines contains an string, jth character on of ith string is '*' if there is an stone otherise it is '.' (empty). Input ends when N, M = 0,0. which is not to be processed.</p>
+<h3>Output</h3>
+<p>For each test case print 'Manoj' if Manoj wins, print 'Pankaj' otherwise.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+
+2 2
+.*
+.*
+
+2 2
+.*
+*.
+0 0</pre>
+<pre><strong>Output:</strong>
+Pankaj
+Manoj</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.316s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for NSIT-IIITA main contest #7</td></tr>	
+</table>

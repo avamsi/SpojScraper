@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NORMA2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22343. Norma</h1>
+		<h2>Problem code: NORMA2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="docs-internal-guid-1dea4bc6-ce9d-3fe3-f1e8-fb52663b840b"><span style="font-size: xx-small;"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Mirko got an array of integers for his birthday from his grandmother Norma. As any other kid, he was hoping for some money, but got an array. Luckily, in his town there is a pawn shop that buys up arrays. The cost of an array of integers is </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">min * max * L</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> kunas, where </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">min</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> is the minimal integer in the array, </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">max</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> is the maximal and </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">L</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> is the array length. Mirko is going to sell a subsequence of consecutive numbers from his array. He calculated the average price of all such subsequences.</span></p>
+<p><br /><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">In order to check his result, he wants you to do the same. He will be pleased with only the last 9 digits of the sum of all prices, so you don&rsquo;t need to bother with large and real numbers.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p><span id="docs-internal-guid-1dea4bc6-ce9d-b681-6f18-894fed0ee895"><span style="font-size: xx-small;"> </span></span></p>
+<p style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;" dir="ltr"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The first line of input contains an integer </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">N </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">(1 &le; </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">N </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">&le; 500 000).</span></p>
+<p><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Each of the following </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">N</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> lines contains a member of Mirko&rsquo;s array. The members of the array will be integers from the interval [1, 10</span><span style="vertical-align: super; white-space: pre-wrap; background-color: transparent;">8</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">].</span></p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p><span id="docs-internal-guid-1dea4bc6-ce9d-ec1c-2432-51b9975030f3"><span style="font-size: xx-small;"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The first and only line of output must contain an integer, the last 9 digits of the required sum from the task. </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">You don&rsquo;t need to output </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">the leading zeroes of that 9-digit integer.</span></span></span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />1<br />3&nbsp;</pre>
+<pre><strong>Output:</strong>
+16</pre>
+<pre><strong>Input:<br /></strong>4<br />2<br />4<br />1<br />4&nbsp;</pre>
+<pre><strong>Output:<br /></strong>109<strong>&nbsp;<br /></strong><strong><br /></strong></pre>
+<pre><strong>Input:<br /></strong>6<br />8<br />1<br />3<br />9<br />7<br />4&nbsp;</pre>
+<pre><strong>Output:<br /></strong>1042<strong>&nbsp;</strong></pre>
+<pre>&nbsp;</pre>
+<pre><strong>&nbsp;</strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ikatanic">Ivan Katanic</a></td></tr>
+<tr><td>Date:</td><td>2015-01-09</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 14/15 Round 2</td></tr>	
+</table>

@@ -1,0 +1,121 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CMEXPR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10. Complicated Expressions</h1>
+		<h2>Problem code: CMEXPR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+The most important activity of ACM is the GSM network. As the mobile phone
+operator, ACM must build its own transmitting stations. It is very important
+to compute the exact behaviour of electro-magnetic waves. Unfortunately,
+prediction of electro-magnetic fields is a very complex task and the
+formulas describing them are very long and hard-to-read. For
+example, Maxwell's Equations describing the basic laws of
+electrical engineering are really tough.
+<p>
+ACM has designed its own computer system that can make some field
+computations and produce results in the form of mathematic expressions.
+Unfortunately, by generating the expression in several steps, there are
+always some unneeded parentheses inside the expression. Your task is to take
+these partial results and make them "nice" by removing all unnecessary
+parentheses.
+</p>
+<H3>Input</h3>
+
+<P>
+There is a single positive integer <VAR>T</var> on the first line of input (equal to about 10000). It stands
+for the number of expressions to follow. Each expression consists of a single
+line containing only lowercase letters, operators (<TT>+</tt>, <TT>-</tt>, <TT>*</tt>,
+<TT>/</tt>) and parentheses (<TT>(</tt> and <TT>)</tt>). The letters are variables
+that can have any value, operators and parentheses have their usual meaning.
+Multiplication and division have higher priority then subtraction and
+addition. All operations with the same priority are computed from left to
+right (operators are left-associative). There are no spaces inside the
+expressions. No input line contains more than 250 characters.
+
+<P>
+<H3>Output</h3>
+
+<P>
+Print a single line for every expression. The line must contain the same
+expression with unneeded parentheses removed. You must remove as many
+parentheses as possible without changing the semantics of the expression.
+The semantics of the expression is considered the same if and only if any of
+the following conditions hold:
+<div align=left>
+<UL>
+<LI>The ordering of operations remains the same. That means "(<VAR>a</var>+<VAR>b</var>)+<VAR>c</var>" is
+  the same as "<VAR>a</var>+<VAR>b</var>+<VAR>c</var>", and "<VAR>a</var>+(<VAR>b</var>/<VAR>c</var>)" is the same as "<VAR>a</var>+<VAR>b</var>/<VAR>c</var>".
+<LI>The order of some operations is swapped but the result remains unchanged
+  with respect to the addition and multiplication associativity.
+  That means "<VAR>a</var>+(<VAR>b</var>+<VAR>c</var>)" and "(<VAR>a</var>+<VAR>b</var>)+<VAR>c</var>" are the same. We can also combine
+  addition with subtraction and multiplication with division, if the
+  subtraction or division is the second operation. For example, "<VAR>a</var>+(<VAR>b</var>-<VAR>c</var>)"
+  is the same as "<VAR>a</var>+<VAR>b</var>-<VAR>c</var>".
+</ul>
+</div>
+<P>
+You cannot use any other laws, namely you cannot swap left and right
+operands and you cannot replace "<VAR>a</var>-(<VAR>b</var>-<VAR>c</var>)" with "<VAR>a</var>-<VAR>b</var>+<VAR>c</var>".
+
+<h3>Example</h3>
+<p>Sample Input:</p>
+
+<PRE>
+<tt>8
+(a+(b*c))
+((a+b)*c)
+(a*(b*c))
+(a*(b/c)*d)
+((a/(b/c))/d)
+((x))
+(a+b)-(c-d)-(e/f)
+(a+b)+(c-d)-(e+f)
+</tt></pre>
+
+<p>Sample Output:</p>
+
+<PRE>
+<tt>a+b*c
+(a+b)*c
+a*b*c
+a*b/c*d
+a/(b/c)/d
+x
+a+b-(c-d)-e/f
+a+b+c-d-(e+f)
+</tt></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-09</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Central European Programming Contest, Prague 2000</td></tr>	
+</table>

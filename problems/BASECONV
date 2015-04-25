@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BASECONV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19133. Base Conversion</h1>
+		<h2>Problem code: BASECONV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Leo didn't do all the job in his <a href = "http://www.spoj.com/problems/DUKKAR2/">last problem</a>, somebody gave him the numbers in a convenient base. It was the bottleneck of the problem... Now your task is to do this job.
+</p>
+
+<h3>Input</h3>
+<p>The first line of input contains three integers
+ <strong><em>T</em></strong>, the number of test cases, 
+ <strong><em>B1</em></strong>, the first base, 
+ <strong><em>B2</em></strong>, the second base.</br> 
+ 
+Follow 2×<strong><em>T</em></strong> lines.</br>
+For each test case, on the first line your are given one integer <strong><em>k</em></strong>.</br>
+On the second line you are given <strong><em>k</em></strong> integers : the digits of <strong><em>N</em></strong> in base <strong><em>B1</em></strong>.</br>
+</br>
+<strong><em>N = a<sub>0</sub>×B1<sup>0</sup> + ... + a<sub>i</sub>×B1<sup>i</sup> + ... + a<sub>k-1</sub>×B1<sup>k-1</sup> </em></strong>
+</p>
+
+<h3>Output</h3>
+<p>For each test case, you have to print the number <strong><em>N</em></strong> in base <strong><em>B2</em></strong>.
+See sample for details.</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 10 100
+5
+5 4 3 2 1
+</pre>
+<pre><strong>Output:</strong>
+3
+45 23 1
+</pre>
+<h3>Explanations</h3>
+<p>For the lonely case, N = 5×10<sup>0</sup> + 4×10<sup>1</sup> + 3×10<sup>2</sup> + 2×10<sup>3</sup> + 1×10<sup>4</sup> = 12345.</br>
+We have: N = 45×100<sup>0</sup> + 23×10<sup>1</sup> + 1×10<sup>2</sup>. You have to print 3, the number of digits,
+ then the digits: 45, 23 and 1.</br>
+
+<h3>Constraints</h3>
+<pre>
+0 < T <= 50
+1 < B1,B2 <= 10^9
+1 < k <= 10000
+0 <= a<sub>i</sub> < B1  , a<sub>k-1</sub>>0
+</pre>
+<p>Time limit is sqrt(T_basic_pike_code * T_awaited_python_code) = sqrt(13.34*6.97), based on my Python3/Pike experiments.</br>
+You may try before the <a href="http://www.spoj.com/problems/BASECVT/">tutorial edition</a>.</br>
+<strong>Have fun ;-)</strong>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-03-19</td></tr>
+<tr><td>Time limit:</td><td>9.630s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

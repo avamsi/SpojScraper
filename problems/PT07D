@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PT07D"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1480. Let us count 1 2 3</h1>
+		<h2>Problem code: PT07D</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Given two integer <i>n</i>, <i>p</i>. 4 kinds of query is needed to solve:</p>
+<p>
+1. Counting the number of labeled unrooted trees with <i>n</i> nodes<br>
+2. Counting the number of labeled rooted trees with <i>n</i> nodes<br>
+3. Counting the number of unlabeled rooted trees with <i>n</i> nodes<br>
+4. Counting the number of unlabeled unrooted trees with <i>n</i> nodes<br>
+Calculate the answer modulo <i>p</i>.
+
+<h3>Input</h3>
+<p>
+Each line contains three integers <i>k</i>, <i>n</i>, <i>p</i>. <i>k</i> denotes which kind of query this
+case is.<br>
+For Kind 1 or Kind 2 query, 1 <= <i>n</i> <= 10<sup>9</sup>.<br>
+For Kind 3 or Kind 4 query, 1 <= <i>n</i> <= 10<sup>3</sup> and <i>n</i> <= <i>p</i>.<br>
+For all queries, 2 <= <i>p</i> <= 10<sup>4</sup> and <i>p</i> is a prime.
+
+<h3>Output</h3>
+<p>
+For each query, output a line which contains only one integer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1 2 2
+2 2 3
+3 2 5
+4 2 3
+
+<b>Output:</b>
+1
+2
+1
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-04-07</td></tr>
+<tr><td>Time limit:</td><td>0.031s-0.420s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Co-author Amber</td></tr>	
+</table>

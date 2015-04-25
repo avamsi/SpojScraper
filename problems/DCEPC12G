@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC12G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17399. G Force</h1>
+		<h2>Problem code: DCEPC12G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Prime(n) is defined as&nbsp; number of primes less than equal to N.</p>
+<p>Totient(n) is defined as the number of positive integers less than or equal to&nbsp;n&nbsp;that are&nbsp;relatively prime&nbsp;to&nbsp;n.</p>
+<p>F(N) = Prime(n) &ndash; Totient(n)&nbsp;</p>
+<p>and we don&rsquo;t like negative values, so if F(n) &lt; 0, consider it as 0.</p>
+<p>G(n) = Totient(n) ^ (Factorial (F(N)))</p>
+<p>&nbsp;</p>
+<p>You are given a number N. You have to output G(N) % 10^9+7.</p>
+<h3>Input</h3>
+<p>First line consists of T, the number of test cases.</p>
+<p>Each of the next T lines contains one integer N.</p>
+<h3>Output</h3>
+<p>Output T lines each line containing the value of function G(N) % 10^9+7</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=100</p>
+<p>1&lt;=N&lt;=10000000</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>2
+
+<strong>Output:</strong>
+1</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-12-07</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+	
+</table>

@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/YOUTUBE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8392. Youtube</h1>
+		<h2>Problem code: YOUTUBE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>N students are bored in computer class so they watch funny video clips on YouTube.</p>
+<p>The site contains K popular clips, numbered 1 through N. When a video clip is watched, a list of similar video clips is displayed on the side.</p>
+<p>Every student picks a video clip from the main page and starts watching it. After exactly one minute every student gets bored of his or her video clip, so he opens the <strong>first </strong>video clip from the list of similar clips on the side (even if he already watched that clip).</p>
+<p>Write a program that determines for each student which video clip he will be watching <strong>during the M-th minute </strong>of the class.</p>
+<h3>Input</h3>
+<p>The first line contains three integers N, K and M (1 &le; N, K &le; 100 000) (1 &lt; M &le; 1 000 000 000), the numbers of students, video clips and minutes.</p>
+<p>The second line contains N integers, each between 1 and K, the indices of video clips the students start watching.</p>
+<p>The third line contains K integers, each between 1 and K, the index of the first similar clip for each video clip.</p>
+<h3>Output</h3>
+<p>Output N integers, the indices of video clips that students will be watching during the M-th minute.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 5 2<br />1 2 4 3<br />5 5 1 2 3
+<strong><br />Output:</strong>
+5 5 2 1<br /><strong><br /><br />Input:</strong><br />2 6 5<br />1 6<br />2 3 4 1 4 5<br /><strong><br />Output:</strong><br />1 2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/stjepang">stjepan</a></td></tr>
+<tr><td>Date:</td><td>2011-02-21</td></tr>
+<tr><td>Time limit:</td><td>0.373s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Croatian Nationals 2009</td></tr>	
+</table>

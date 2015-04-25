@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GCDSQF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6059. Another GCD problem</h1>
+		<h2>Problem code: GCDSQF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;"><span style="font-size: x-small;">A number is </span><a title="Square-free" href="http://en.wikipedia.org/wiki/Square-free_integer"><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">square-free</span></span></a><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></span></span></span><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">if its prime descomposition contains no repeated factors. </span></span><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">For example: 1001 = 7 * 11 * 13 is square-free, but 20 = 2 * 2 * 5 is not square-free.</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Square-free numbers can encoding as binary numbers. Here are examples to illustrate: <br /><br />Sequence of prime numbers 2 3 5 7 11 13 17 ... <br /><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">42 = 2 * 3 * 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;=&gt;&nbsp;&nbsp;&nbsp;&nbsp; 1101</span></span></span></span></span><br />1001 = 7 * 11 * 13&nbsp;&nbsp;&nbsp;&nbsp;&lt;=&gt;&nbsp;&nbsp;&nbsp;&nbsp; 000111<br />10 = 2 * 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;=&gt;&nbsp;&nbsp;&nbsp;&nbsp; 101</span></span></span></span></span></p>
+<p>&nbsp;<br /><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Your task is given two square-free integers A and B in binary representation<br />compute gcd (A + B, lcm (A, B)). If the result is a square-free number your answer should <br />have the binary format, if the answer&nbsp;is 1 print "relatively prime", and if <br />is neither of these two cases print the result in base 10.</span></span></p>
+<p style="text-align: center;"><strong><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Input</span></span></strong></p>
+<p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">In the first line an integer T (1 &lt;= T &lt;= 100) the number of test cases.<br />The following 2 * T lines will appear integers A and B. The length of the integers<br />A and B encoded in binary form must not exceed 1000 characters.</span></span></p>
+<h3 style="TEXT-ALIGN: center"><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Output</span></span></h3>
+<p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">For each of the T pairs A, B print in the specified format gcd (A + B, lcm (A, B)).</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Example</span></span></p>
+<pre><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input:</strong></span></span><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;"><strong>&nbsp;</strong>
+</span></span></pre>
+<pre><p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">2 <br />000111 <br />101 <br />11 <br />011</span></span></p>
+
+<strong><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Output:</span></span></strong></pre>
+<pre><p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">relatively prime <br />01</span></span></p></pre>
+<p>
+<hr />
+</p>
+<p><span style="font-size: x-small;"><span style="font-family: arial,helvetica,sans-serif;">Note: In the input may have unnecessary zeros on the right of the numbers A and B, but<br />Your answer only must be with necessary zeros.</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/frankr">Frank Rafael Arteaga</a></td></tr>
+<tr><td>Date:</td><td>2010-02-07</td></tr>
+<tr><td>Time limit:</td><td>0.064s
+</td></tr>
+<tr><td>Source limit:</td><td>6000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem, Discrete Math</td></tr>	
+</table>

@@ -1,0 +1,68 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GSS7"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6779. Can you answer these queries VII</h1>
+		<h2>Problem code: GSS7</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a tree with N ( <em>N&lt;=100000</em> ) nodes. Each node has a interger value x_i (<em> |x_i|&lt;=10000 </em>).</p>
+<p>You have to apply Q ( <em>Q&lt;=100000</em> ) operations:</p>
+<p>1. <em>1 a b </em>: answer the maximum contiguous sum (maybe empty,will always larger than or equal to 0 )&nbsp;from the path <em>a-&gt;b</em> ( inclusive ).</p>
+<p>2. <em>2 a b c</em> : change all value in the path <em>a-&gt;b</em> ( inclusive ) to c.</p>
+<h3>Input</h3>
+<p>first line consists one interger N.</p>
+<p>next line consists N interger x_i.</p>
+<p>next N-1 line , each consists two interger u,v , means that node u and node v are connected</p>
+<p>next line consists 1 interger Q.</p>
+<p>next Q line : <em>1 a b </em>or <em>2 a b c</em> .</p>
+<h3>Output</h3>
+<p>For each query, output one line the maximum contiguous sum.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5</pre>
+<pre>-3 -2 1 2 3</pre>
+<pre>1 2</pre>
+<pre>2 3</pre>
+<pre>1 4</pre>
+<pre>4 5</pre>
+<pre>3</pre>
+<pre>1 2 5</pre>
+<pre>2 3 4 2</pre>
+<pre>1 2 5
+
+<strong>Output:</strong>
+5
+</pre>
+<pre>9</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lqp18_31">&#21016;&#21551;&#40527;</a></td></tr>
+<tr><td>Date:</td><td>2010-06-14</td></tr>
+<tr><td>Time limit:</td><td>0.142s-0.570s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>my own problems</td></tr>	
+</table>

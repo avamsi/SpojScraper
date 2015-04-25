@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JNEXT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12150. Just Next !!!</h1>
+		<h2>Problem code: JNEXT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">JUST NEXT !!!</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">DevG likes too much fun to do with numbers. Once his friend Arya came and gave him a challenge, he gave DevG an array of digits which is forming a number currently (will be called as given number). DevG was challanged to find the just next greater number which can be formed using digits of given number. Now DevG needs your help to find that just next greater number and win the challenge.</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Input:&nbsp;</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">The first line have t number of test cases (1&lt;=t&lt;=100). In next 2*t lines for each test case first there is number n (1&lt;=n&lt;=1000000) which denotes the number of digits in given number and next line contains n digits of given number separated by space.</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output:</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Print the just next greater number if possible else print -1 in one line for each test case.</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Note : there will be no test case which contains zero in starting digits of any given number.</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Sample Test Cases :</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Input :&nbsp;</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">2</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">5</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 5 4 8 3</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">10</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 4 7 4 5 8 4 1 2 6</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output :</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">15834</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1474584162</span></span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Time Limit : 2 sec</span></span></div>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">DevG likes too much fun to do with numbers. Once his friend Arya came and gave him a challenge, he gave DevG an array of digits which is forming a number currently (will be called as given number). DevG was challanged to find the just next greater number which can be formed using digits of given number. Now DevG needs your help to find that just next greater number and win the challenge.</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Input:&nbsp;</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">The first line have t number of test cases (1&lt;=t&lt;=100). In next 2*t lines for each test case first there is number n (1&lt;=n&lt;=1000000) which denotes the number of digits in given number and next line contains n digits of given number separated by space.</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output:</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Print the just next greater number if possible else print -1 in one line for each test case.</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Note :</strong>&nbsp;There will be no test case which contains zero in starting digits of any given number.</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Sample Test Cases :</span></span></strong></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></strong></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Input :&nbsp;</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">2</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">5</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 5 4 8 3</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">10</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1 4 7 4 5 8 4 1 2 6</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p><strong><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">Output :</span></span></strong></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">15834</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">1474584162</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lalit1301">! include(L.ppt)</a></td></tr>
+<tr><td>Date:</td><td>2012-08-31</td></tr>
+<tr><td>Time limit:</td><td>1.297s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>MNNIT OPC 31-08-2012</td></tr>	
+</table>

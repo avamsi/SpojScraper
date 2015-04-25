@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQFREE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4168. Square-free integers</h1>
+		<h2>Problem code: SQFREE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In number theory we call an integer square-free if it is not divisible by a perfect square, except 1. You have to count them!
+
+<h3>Input</h3>
+<p>First line contains an integer <i>T</i>, the number of test cases (<i>T</i>&#8804;100).
+The following T lines each contains one positive integer: <i>n</i>, where n &#8804; 10<sup>14</sup>
+<h3>Output</h3>
+<p><i>T</i> lines, on each line output the number of (positive) square-free integers not larger than n.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+1
+1000
+100000000000000
+
+<b>Output:</b>
+1
+608
+60792710185947
+</pre>
+
+<b>Warning: A naive algorithm probably not works. </b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gerrob">Robert Gerbicz</a></td></tr>
+<tr><td>Date:</td><td>2009-04-06</td></tr>
+<tr><td>Time limit:</td><td>2.177s
+</td></tr>
+<tr><td>Source limit:</td><td>2009B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>classic, own input</td></tr>	
+</table>

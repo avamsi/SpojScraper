@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PARCARD2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15257. Partition function (HARD)</h1>
+		<h2>Problem code: PARCARD2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="color: #000020; font-family: verdana, geneva; font-size: 13px; text-align: justify; background-color: #f6f9e0; line-height: 19.1875px;">You need to output&nbsp;</span><span style="color: #000020; font-family: verdana, geneva; font-size: 13px; text-align: justify; background-color: #f6f9e0; line-height: 19.1875px;">the number of distinct ways of representing&nbsp;</span><em>n</em><span style="color: #000020; font-family: verdana, geneva; font-size: 13px; text-align: justify; background-color: #f6f9e0; line-height: 19.1875px;">&nbsp;as a sum o</span><span style="color: #000020; font-family: verdana, geneva; font-size: 13px; text-align: justify; background-color: #f6f9e0; line-height: 19.1875px;">f natural numbers (with order irrelevant)</span><span style="color: #000020; font-family: verdana, geneva; font-size: 13px; text-align: justify; background-color: #f6f9e0;">&nbsp;for given integer n.</span></p>
+<h3>Input</h3>
+<p>n, 0 &le; n &le; 10<sup>8</sup></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2013</pre>
+<pre><strong>Output:</strong>
+6805659785780163657391920602286596663406217911</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mikhaelkh">Michael Kharitonov</a></td></tr>
+<tr><td>Date:</td><td>2013-06-24</td></tr>
+<tr><td>Time limit:</td><td>30s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

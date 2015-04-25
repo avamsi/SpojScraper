@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TCNUMFL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>449. Simple Numbers with Fractions Conversion</h1>
+		<h2>Problem code: TCNUMFL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Every integer number <em>n</em> is represented in positional number system of base <em>r</em> by a sequence of digits 0 &lt;= <em>d<sub>i</sub></em> &lt; <em>r</em>, decimal point ',' and fractional part, so the value is equal to:</p>
+<p><em>n</em> = <em>d</em><sub>0<em></em></sub> +  <em>r</em> * <em>d</em><sub>1<em></em></sub> + <em>r<sup>2</sup></em> * <em>d</em><sub>2<em></em></sub> +  <em>r<sup>3</sup></em> * <em>d</em><sub>3<em></em></sub> + ... + <em>r<sup>-1</sup></em> * <em>d</em><sub>-1<em></em></sub> + <em>r<sup>-2</sup></em> * <em>d</em><sub>-2<em></em></sub> +  <em>r<sup>-3</sup></em> * <em>d</em><sub>-3<em></em></sub> + ...</p>
+<p align="justify">Your task is to convert a given number in <em>r</em>-base represantation into <em>s</em>-base representation with <em>l</em> digits after decimal point (no rounding - use floor), for example: decimal 231,5 into binary 11100111,1 with one digit after decimal point. Assume that <em>r</em> &lt;= 36 and the digits are 0,1,2,3,4,5,6,7,8,9, <em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F</em>, <em>G</em>, <em>H</em>, <em>I</em>, <em>J</em>, <em>K</em>, <em>L</em>, <em>M</em>, <em>N</em>, <em>O</em>, <em>P</em>, <em>Q</em>, <em>R</em>, <em>S</em>, <em>T</em>, <em>U</em>, <em>V</em>, <em>W</em>, <em>X</em>, <em>Y</em>, <em>Z</em>.</p>
+<h3>Input</h3>
+<p><em>N</em> [the number of series &lt;= 1000] <br /><em>n r s l</em> [<em>n</em> &lt; 36<sup>1000</sup> + 1, <em>r</em>,<em>s</em> &lt;= 36, l &lt;= 1000 ]</p>
+<h3>Output</h3>
+<p><em>n</em> [<em>s</em>-base representation of number <em>n</em>]</p>
+<p>Text grouped in [ ] does not appear in the input and output file.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />10<br />500,1 6 31 3<br />3866,DJ 22 27 1<br />EH75,L3 24 4 3<br />A73C,10B 13 27 2<br />6C6J,E483 22 6 2<br />JA,L 30 5 4<br />6,5A 20 31 2<br />1,C5 14 7 1<br />HD,6K 26 9 2<br />1001,011 2 10 3<br /><br /><strong>Output:</strong><br />5P,555<br />1M8H,H<br />301223231,320<br />14MB,25<br />1255211,35<br />4310,3222<br />6,8G<br />1,6<br />555,23<br />9,375</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ppp5">Piotr Piotrowski</a></td></tr>
+<tr><td>Date:</td><td>2004-11-08</td></tr>
+<tr><td>Time limit:</td><td>2.5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

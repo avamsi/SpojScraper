@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/priyamehtanit"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PAREN" target="_blank">10463. COUNT PAREN</a></td><td><a href="http://www.spoj.com/problems/PAREN"target="_blank">PAREN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ARRAYSUB" target="_blank">10582. subarrays</a></td><td><a href="http://www.spoj.com/problems/ARRAYSUB"target="_blank">ARRAYSUB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAKESUM" target="_blank">11642. MAKESUM</a></td><td><a href="http://www.spoj.com/problems/MAKESUM"target="_blank">MAKESUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUMMING" target="_blank">15864. SUMMING</a></td><td><a href="http://www.spoj.com/problems/SUMMING"target="_blank">SUMMING</a><br>
+</td></tr>

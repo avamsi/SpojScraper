@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHOTU"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18095. Faridi and Yadav</h1>
+		<h2>Problem code: CHOTU</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Once it happend that the two scientists(perhaps mad) <strong>Mr Yadav </strong>and <strong>Mr  Faridi</strong> discovered an unusual radioactive compound named mahobanium , that decays at constant rate. And as the compund  decays it looses weight.The two of them start playing a game, in which both of them sit at equal distance from a point C , one sits in  west and the other in east. Being famous scientists a lot of students have come to see them(basically not to them but the compund ,  they had discovered) .The students have gathered around the two .The  scientist also have a small robot , named CHOTU.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">Initially Mr Faridi has all the stones of mahobanium compound with him  and all have equal weight. Faridi gives stones (one at a time)to CHOTU and directs him to show the compound to  one of the student (who has'nt  seen the compound yet) and then immediately go towards Mr Yadav.(Assume  no loss of time in showing the stone to students , also CHOTU follows  the shortest path while moving and always runs at same speed = 5m/s).The  students , actually have placed themselves in such a way that all the  stones that have reached Yadav have the same weight(Assume that  radioactive decay starts as soon as it is placed  in CHOTU'S hand).A child can place itself to atmost distance of X units  from the centre along east or west . and to atmost  distance of Y units from the centre C along north or south.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><strong><span style="font-size: small;">Given test cases t ( &lt; 1000 ) the values of X and Y (say X &gt; Y)  and (X &lt; 1000 ) , scratch your brain to find out the maximum distance  that can exist between Mr Yadav and Faridi so that above conditions are  always followed.Print your answer upto 3 digits of decimal point.</span></strong></p>
+<p><span style="font-size: small;"> </span></p>
+<h3><span style="font-size: small;">Input</span></h3>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">First Line has test cases t ( &lt; 1000 ) </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">The next t lines has two Integers X and Y separated by space[the values of X and Y (say X &gt; Y)  and (X &lt; 1000 )] </span></p>
+<p><span style="font-size: small;"> </span></p>
+<h3><span style="font-size: small;">Output</span></h3>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;">Print Required answer upto 3 digits of decimal point.</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"><strong>Sample Input</strong><br /> 1<br /> 4 2</span></p>
+<p><span style="font-size: small;"> </span></p>
+<p><span style="font-size: small;"><strong>Sample</strong> <strong>Output</strong><br /> 6.928 </span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aqfaridi">aqfaridi</a></td></tr>
+<tr><td>Date:</td><td>2014-01-19</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

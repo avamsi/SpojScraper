@@ -1,0 +1,168 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/racer"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TRIOMINO" target="_blank">2961. Triomino Game</a></td><td><a href="http://www.spoj.com/problems/TRIOMINO"target="_blank">TRIOMINO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAVLI" target="_blank">3361. Cavli</a></td><td><a href="http://www.spoj.com/problems/CAVLI"target="_blank">CAVLI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SETNJA" target="_blank">3362. Setnja</a></td><td><a href="http://www.spoj.com/problems/SETNJA"target="_blank">SETNJA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SVADA" target="_blank">3363. Svada</a></td><td><a href="http://www.spoj.com/problems/SVADA"target="_blank">SVADA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BGAME" target="_blank">3533. Game on board</a></td><td><a href="http://www.spoj.com/problems/BGAME"target="_blank">BGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GLOVE" target="_blank">3565. Choosing Gloves</a></td><td><a href="http://www.spoj.com/problems/GLOVE"target="_blank">GLOVE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PAGAIN" target="_blank">3587. Prime Again </a></td><td><a href="http://www.spoj.com/problems/PAGAIN"target="_blank">PAGAIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MINMOVE" target="_blank">3605. Minimum Rotations</a></td><td><a href="http://www.spoj.com/problems/MINMOVE"target="_blank">MINMOVE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLIKAR" target="_blank">3732. Slikar</a></td><td><a href="http://www.spoj.com/problems/SLIKAR"target="_blank">SLIKAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREZOR" target="_blank">3733. Trezor</a></td><td><a href="http://www.spoj.com/problems/TREZOR"target="_blank">TREZOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIODNI" target="_blank">3734. Periodni</a></td><td><a href="http://www.spoj.com/problems/PERIODNI"target="_blank">PERIODNI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRTREE" target="_blank">3762. Bread Tree</a></td><td><a href="http://www.spoj.com/problems/BRTREE"target="_blank">BRTREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LUBEN" target="_blank">3831. Lubenica</a></td><td><a href="http://www.spoj.com/problems/LUBEN"target="_blank">LUBEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KRUS" target="_blank">3832. Kruska</a></td><td><a href="http://www.spoj.com/problems/KRUS"target="_blank">KRUS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRES" target="_blank">3833. Tresnja</a></td><td><a href="http://www.spoj.com/problems/TRES"target="_blank">TRES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RELJEF" target="_blank">3865. Reljef</a></td><td><a href="http://www.spoj.com/problems/RELJEF"target="_blank">RELJEF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TABLIC" target="_blank">3876. Tablica</a></td><td><a href="http://www.spoj.com/problems/TABLIC"target="_blank">TABLIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CVJETICI" target="_blank">3877. Cvjetici</a></td><td><a href="http://www.spoj.com/problems/CVJETICI"target="_blank">CVJETICI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAJSTOR" target="_blank">3881. Majstor</a></td><td><a href="http://www.spoj.com/problems/MAJSTOR"target="_blank">MAJSTOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIJEVI" target="_blank">3882. Cijevi</a></td><td><a href="http://www.spoj.com/problems/CIJEVI"target="_blank">CIJEVI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPACESET" target="_blank">3893. Space settlement</a></td><td><a href="http://www.spoj.com/problems/SPACESET"target="_blank">SPACESET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOBALLS" target="_blank">3894. Bouncing Balls</a></td><td><a href="http://www.spoj.com/problems/BOBALLS"target="_blank">BOBALLS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTRGAME" target="_blank">3895. Matrix Game</a></td><td><a href="http://www.spoj.com/problems/MTRGAME"target="_blank">MTRGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MAXISET" target="_blank">3896. Maximal Independent Set</a></td><td><a href="http://www.spoj.com/problems/MAXISET"target="_blank">MAXISET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CVXPOLY" target="_blank">3897. Convex Polygons</a></td><td><a href="http://www.spoj.com/problems/CVXPOLY"target="_blank">CVXPOLY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALDR" target="_blank">3898. Even Palindrome</a></td><td><a href="http://www.spoj.com/problems/PALDR"target="_blank">PALDR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FINFRAC" target="_blank">3899. Finding Fractions</a></td><td><a href="http://www.spoj.com/problems/FINFRAC"target="_blank">FINFRAC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MCQUERY" target="_blank">3900. MinCut Query</a></td><td><a href="http://www.spoj.com/problems/MCQUERY"target="_blank">MCQUERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BNWNIM" target="_blank">3901. Black and White Nim</a></td><td><a href="http://www.spoj.com/problems/BNWNIM"target="_blank">BNWNIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FWFUNC" target="_blank">3902. Fight with functions</a></td><td><a href="http://www.spoj.com/problems/FWFUNC"target="_blank">FWFUNC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ETF" target="_blank">4141. Euler Totient Function</a></td><td><a href="http://www.spoj.com/problems/ETF"target="_blank">ETF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IZBORI" target="_blank">4154. IZBORI</a></td><td><a href="http://www.spoj.com/problems/IZBORI"target="_blank">IZBORI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OTOCI" target="_blank">4155. OTOCI</a></td><td><a href="http://www.spoj.com/problems/OTOCI"target="_blank">OTOCI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLAHTE" target="_blank">4156. PLAHTE</a></td><td><a href="http://www.spoj.com/problems/PLAHTE"target="_blank">PLAHTE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE00" target="_blank">4300. Rectangles</a></td><td><a href="http://www.spoj.com/problems/AE00"target="_blank">AE00</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE2B" target="_blank">4302. (K,N)-Knight</a></td><td><a href="http://www.spoj.com/problems/AE2B"target="_blank">AE2B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE2A" target="_blank">4303. Dice</a></td><td><a href="http://www.spoj.com/problems/AE2A"target="_blank">AE2A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE3A" target="_blank">4305. Drilling</a></td><td><a href="http://www.spoj.com/problems/AE3A"target="_blank">AE3A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE4B" target="_blank">4306. The way to Bytemountain</a></td><td><a href="http://www.spoj.com/problems/AE4B"target="_blank">AE4B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE4A" target="_blank">4307. Stamps</a></td><td><a href="http://www.spoj.com/problems/AE4A"target="_blank">AE4A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE5B1" target="_blank">4308. Byteantean towns</a></td><td><a href="http://www.spoj.com/problems/AE5B1"target="_blank">AE5B1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE5A1" target="_blank">4309. Circular game</a></td><td><a href="http://www.spoj.com/problems/AE5A1"target="_blank">AE5A1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE5B2" target="_blank">4310. Permutacja</a></td><td><a href="http://www.spoj.com/problems/AE5B2"target="_blank">AE5B2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AE5A2" target="_blank">4311. Quasi-template</a></td><td><a href="http://www.spoj.com/problems/AE5A2"target="_blank">AE5A2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KRECT" target="_blank">4329. Counting K-Rectangle</a></td><td><a href="http://www.spoj.com/problems/KRECT"target="_blank">KRECT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PKA" target="_blank">7387. Airplane Parking</a></td><td><a href="http://www.spoj.com/problems/PKA"target="_blank">PKA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PKD" target="_blank">7389. Rating Hazard</a></td><td><a href="http://www.spoj.com/problems/PKD"target="_blank">PKD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PC8H" target="_blank">7402. Repair Depots</a></td><td><a href="http://www.spoj.com/problems/PC8H"target="_blank">PC8H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LEXIPOS" target="_blank">7561. Lexicographic position</a></td><td><a href="http://www.spoj.com/problems/LEXIPOS"target="_blank">LEXIPOS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YOKOF" target="_blank">7579. Power Calculus</a></td><td><a href="http://www.spoj.com/problems/YOKOF"target="_blank">YOKOF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YOKOH" target="_blank">7581. The Best Name for Your Baby</a></td><td><a href="http://www.spoj.com/problems/YOKOH"target="_blank">YOKOH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/YOKOC" target="_blank">7583. Cubic Eight-Puzzle</a></td><td><a href="http://www.spoj.com/problems/YOKOC"target="_blank">YOKOC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PC8C" target="_blank">7589. Cave Crisis</a></td><td><a href="http://www.spoj.com/problems/PC8C"target="_blank">PC8C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PC8F" target="_blank">7599. Optimal Strategy for the ICPC</a></td><td><a href="http://www.spoj.com/problems/PC8F"target="_blank">PC8F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NE06D" target="_blank">7627. Driving Direction</a></td><td><a href="http://www.spoj.com/problems/NE06D"target="_blank">NE06D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWIST" target="_blank">7734. Twist and whirl - want to cheat </a></td><td><a href="http://www.spoj.com/problems/TWIST"target="_blank">TWIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOI7ESC" target="_blank">7737. Escape</a></td><td><a href="http://www.spoj.com/problems/BOI7ESC"target="_blank">BOI7ESC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOI7SOU" target="_blank">7739. Sound</a></td><td><a href="http://www.spoj.com/problems/BOI7SOU"target="_blank">BOI7SOU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOI7FEN" target="_blank">7740. Fence</a></td><td><a href="http://www.spoj.com/problems/BOI7FEN"target="_blank">BOI7FEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOI7SEQ" target="_blank">7741. Sequence</a></td><td><a href="http://www.spoj.com/problems/BOI7SEQ"target="_blank">BOI7SEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09I" target="_blank">7776. Kind of a blur</a></td><td><a href="http://www.spoj.com/problems/ANARC09I"target="_blank">ANARC09I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09J" target="_blank">7777. National Treasure</a></td><td><a href="http://www.spoj.com/problems/ANARC09J"target="_blank">ANARC09J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09H" target="_blank">7778. Land Division</a></td><td><a href="http://www.spoj.com/problems/ANARC09H"target="_blank">ANARC09H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ANARC09G" target="_blank">7779. Stock Chase</a></td><td><a href="http://www.spoj.com/problems/ANARC09G"target="_blank">ANARC09G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/C1LJUTNJ" target="_blank">7881. Ljutnja</a></td><td><a href="http://www.spoj.com/problems/C1LJUTNJ"target="_blank">C1LJUTNJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/C1TABOVI" target="_blank">7882. Tabovi</a></td><td><a href="http://www.spoj.com/problems/C1TABOVI"target="_blank">C1TABOVI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/C2CRNI" target="_blank">7884. Crni</a></td><td><a href="http://www.spoj.com/problems/C2CRNI"target="_blank">C2CRNI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ZEROCNT" target="_blank">8265. Zero Count</a></td><td><a href="http://www.spoj.com/problems/ZEROCNT"target="_blank">ZEROCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ONBRIDGE" target="_blank">10931. Online Bridge Searching</a></td><td><a href="http://www.spoj.com/problems/ONBRIDGE"target="_blank">ONBRIDGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KL11B" target="_blank">11267. Arnook Defensive Line</a></td><td><a href="http://www.spoj.com/problems/KL11B"target="_blank">KL11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUKU11G" target="_blank">11871. Captain Qs Treasure</a></td><td><a href="http://www.spoj.com/problems/FUKU11G"target="_blank">FUKU11G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FUKU11J" target="_blank">11873. Round Trip</a></td><td><a href="http://www.spoj.com/problems/FUKU11J"target="_blank">FUKU11J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PK11E" target="_blank">11899. Queen Game</a></td><td><a href="http://www.spoj.com/problems/PK11E"target="_blank">PK11E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PK11F" target="_blank">11900. Spelling Suggestion</a></td><td><a href="http://www.spoj.com/problems/PK11F"target="_blank">PK11F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PK11I" target="_blank">11901. Paths in a Tree</a></td><td><a href="http://www.spoj.com/problems/PK11I"target="_blank">PK11I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FZ10B" target="_blank">12056. Nubulsa Expo</a></td><td><a href="http://www.spoj.com/problems/FZ10B"target="_blank">FZ10B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BNMT" target="_blank">12908. Binary Matrix</a></td><td><a href="http://www.spoj.com/problems/BNMT"target="_blank">BNMT</a><br>
+</td></tr>

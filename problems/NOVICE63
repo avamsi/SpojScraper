@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOVICE63"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9103. Special Numbers</h1>
+		<h2>Problem code: NOVICE63</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Ted thinks that integers having equal number of 1's and 0's in their binary representation are special. Therefore, he wants to know how many such integers are present.</p>
+<p><strong>Note:</strong>&nbsp;For this problem, the binary representation of an integer(&gt;0) is considered from the least significant bit to the last set bit.       Which means, 5 has a binary representation of 101, 3 has a binary representation of 11 etc.        As such, one example of a special number is 9 which has a binary representation, 1001.</p>
+<h3>Input</h3>
+<p>First line contains an integer T(atmost 100) denoting the total number of test cases. Each test case contains a single integer N(2 &lt;= N &lt;= 2^60).  N is always a power of 2.</p>
+<h3>Output</h3>
+<p>A single integer denoting the total number of such special numbers in the range 1 to N (inclusive).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+8
+16
+32
+
+<strong>Output:</strong>
+1
+4
+4
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/amitcodename13">amit karmakar</a></td></tr>
+<tr><td>Date:</td><td>2011-07-02</td></tr>
+<tr><td>Time limit:</td><td>0.300s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem used in - http://www.spoj.pl/NOVICE6/</td></tr>	
+</table>

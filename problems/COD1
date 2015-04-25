@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COD1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16134. Save the cows!</h1>
+		<h2>Problem code: COD1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">There is a green square grid of size nXm with k cows in it.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">The objective of the cows is to escape the field.If any one of the cows escape all cows are set free.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">There is a farmer who tries to restrict the field by putting up fences along the border .Initially the grid is not fenced.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">Cows coordinate and think of a plan to escape.Cows get the first move.Cows and farmer move alternatively.At any move any one of the k cows can move to their neighboring cell(the cell that shares an edge with it).If the cow is already at the edge of the field and the edge is not fenced then it can escape it and hence all cows are set free.After every move of the cows the farmer can fence some edge at the border of the field of length 1 so that no cow is able to escape from that edge anymore.</span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">The questio</span><span style="display: inline; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">n is:"Will the innocent cows manage to escape?"</span></p>
+<h3>Input</h3>
+<p>First line contains T-number of test cases(0&lt;T&lt;=100)</p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">Each test case contains 3 integers, separated by space: 1&le;n,m&le;100 &mdash; dimensions of the field and 0&le;k&le;100 &mdash; the number of cows. Each of the next k lines contains 2 integers, separated by space: 1&le;x&le;n, 1&le;y&le;m &mdash; coordinates of the corresponding cow. There could be more than one cow at a cell.</span></p>
+<h3>Output</h3>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.800000190734863px; line-height: 13.600000381469727px;">Output one word: "YES" &mdash; if cows escape, "NO" &mdash; otherwise.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>1
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 216px; width: 1px; height: 1px; overflow: hidden;">2 2 1</div>2 2 1
+1 2
+<strong>Output:</strong>
+YES</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/csi_dtu">CSI</a></td></tr>
+<tr><td>Date:</td><td>2013-09-27</td></tr>
+<tr><td>Time limit:</td><td>10s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

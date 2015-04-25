@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GEN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1676. Text Generator</h1>
+		<h2>Problem code: GEN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+LoadingTime has been given a task these days. He is required to write a tool called Text Generator. This software is widely used among the kids who are under seven. It generates an article with the size of a given number L for users. If an article contains at least one word which the users know, we consider it readable. Now, LoadingTime wants to know, how many readable articles can it generates, and he can improve his Text Generator. Could you help him?? </p>
+
+<h3>Input</h3>
+
+<p>The input contains multiple test cases.</p>
+<p>The first
+line of each test case contains two integer N (1 &lt;= N &lt;= 10), L
+(1 &lt;= L &lt;= 1000000). The following N lines contain N words representing
+the words knew by the users. All the words and the generated article only
+contain uppercase letters, and the length of each word is not greater than 6. 
+</p>
+
+<h3>Output</h3>
+
+<p>For each test case, your program should output a integer as LoadingTime
+required. As the number could be quite large, you only need to print
+the answer modulo 10007. 
+
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+2 2
+A
+B
+2 10000
+ABC
+B
+
+<b>Output:</b>
+100
+5960
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2007-07-05</td></tr>
+<tr><td>Time limit:</td><td>1.386s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+<tr><td>Resource:</td><td> </td></tr>	
+</table>

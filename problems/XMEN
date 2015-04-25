@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/XMEN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13805. X-MEN</h1>
+		<h2>Problem code: XMEN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Dr. Charles Xavier is trying to check the correlation between the DNA samples of Magneto and Wolverine. Both the DNAs are of length <span style="font-weight: bold;">N</span>, and can be described by using all integers between <span style="font-weight: bold;">1</span> to <span style="font-weight: bold;">N</span> exactly once. The correlation between two DNAs is defined as the Longest Common Subsequence of both the DNAs.<br /> Help Dr. Xavier find the correlation between the two DNAs.</p>
+<h3>Input :</h3>
+<p>First line of input contains number of Test Cases <span style="font-weight: bold;">T</span>.<br /> ach test case starts with an integer <span style="font-weight: bold;">N</span>, size of DNA.<br /> Next two lines contains <span style="font-weight: bold;">N</span> integers each, first line depicting the sequence of Magneto's DNA and second line depicting Wolverine's DNA.</p>
+<h3>Output :</h3>
+<p>For each test case print one integer, the correlation between the two DNAs.</p>
+<h3>Sample Input :</h3>
+<pre>2
+2
+1 2
+2 1
+3
+1 2 3
+1 3 2
+</pre>
+<h3>Sample Output :</h3>
+<pre>1
+2
+</pre>
+<h3>Constraints :</h3>
+<p>1 &le; <span style="font-weight: bold;">T</span> &le; 10 <br /> 1 &le; <span style="font-weight: bold;">N</span> &le; 100000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/smithinsu">smit hinsu</a></td></tr>
+<tr><td>Date:</td><td>2013-02-18</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>CodeCraft 13 , Author : Nadeem Moidu</td></tr>	
+</table>

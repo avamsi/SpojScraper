@@ -1,0 +1,101 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PBBN2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12824. Print Big Binary Numbers</h1>
+		<h2>Problem code: PBBN2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Some answers for some problems could be huge binary numbers.
+In order to check the computation, one could ask you the sum of its digits.
+With a little base, the answer is a small number too, but not with a bigger base.</p>
+
+<p>
+<a href="http://www.spoj.com/problems/PELLFOUR/">XerK</a> would like to avoid precomputed results and wish check you've computed his huge numbers.
+Here's a problem that check computation of a big number N. A <a href=http://www.spoj.pl/problems/PBBN1/>tutorial edition</a> exists without language restrictions.</p>
+
+<p>
+Let define the function CHK(N, B):</br>
+Input  : N a big number in binary representation, B a power of two. Consider N as a base B number.</br>
+Output : the sum of its digits in this base.
+</p>
+
+<p>
+Example :with B=2^8, 12345678 = 78 + 97*B + 188*B*B, so CHK(12345678, B) = 78 + 97 + 188</p>
+
+<p>
+This should be easily computed with few bitwise-AND, bitshifts and additions.</p>
+
+
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.</br>
+In each of the next T lines there are four integers A, B, C, D, given in base 10.
+</p>
+
+<h3>Output</h3>
+<p>For each test case :</br>
+* compute N = (A^B) XOR (C^D).</br>
+* print CHK(N, 2^16384) as a base 10 number.</br>
+(^ denote the power, and XOR the bitwise operator)
+</p>
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+7 3 5 4
+1234 5678 9012 4444
+
+
+<b>Output:</b>
+806
+1194204158794232147799<...snip...>9938532444216215551948305
+</pre>
+
+<h3>Explanations</h3>
+<p>For test case 1:</br>
+7^3 = 343, 5^4 = 625, 343 XOR 625 = 806, CHK(806, 2^16384) = 806.</p>
+<p>
+For test case 2:</br>
+You have to output all 4933 digits of the result.
+</p>
+
+<h3>Constraints</h3>
+<pre>
+1 < T <= 321
+1 < A, B, C, D <= 10^4
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2012-11-23</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASM C C++ 4.3.2 C++ 4.9 C99 strict D FORT PAS fpc PAS gpc </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

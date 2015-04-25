@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8057. Square Free Factorization</h1>
+		<h2>Problem code: AMR10C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You all know about factorization of an integer.&nbsp; Here we want you to factor a number into as few factors as possible.&nbsp; That is easy, you say, just have the number itself, and that will be the smallest number of factors i.e. 1. <br />But wait, I haven't finished -- each of the factors that you find must be square-free.&nbsp; A square-free number, however you factor it, won't have any factor that is a perfect square.&nbsp; Of course, you can never include 1 as a factor. <br />&nbsp;<br /><strong>INPUT</strong><br />The first line of input is the number of test cases T. <br />The next T lines each have an integer N. <br />&nbsp;<br /><strong>OUTPUT</strong><br />For each testcase, output the smallest number of square-free factors. <br />&nbsp;<br /><strong>CONSTRAINTS</strong> <br />T &lt;= 1e4 <br />2 &lt;= N &lt;= 1e6 <br />&nbsp;<br /><strong>SAMPLE INPUT </strong><br />2 <br />6 <br />8 <br />&nbsp;<br /><strong>SAMPLE OUTPUT </strong><br />1 <br />3</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>0.274s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem, ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

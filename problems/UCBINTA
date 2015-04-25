@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UCBINTA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20976. Sum</h1>
+		<h2>Problem code: UCBINTA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Once upon a time, there existed a sequence A consisting of N positive integers. You don't know the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sequence itself, but you do know the sum of every two elements of the sequence. Find the sequence A!</div>
+<p>Once upon a time, there existed a sequence A consisting of N positive integers. You don't know the</p>
+<p>sequence itself, but you do know the sum of every two elements of the sequence. Find the sequence A!</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line of input contains the positive integer N (2 &le;&nbsp;N &le;&nbsp;1000). Each of the following N lines</p>
+<p>contains N positive integers smaller than or equal to 100000, forming the table S. The following relations</p>
+<p>hold: S(i, j) = A[i] + A[j] for i &ne;&nbsp;j, and S(i, j) = 0 for i = j. Here S(i, j) denotes the number in the</p>
+<p>i<sup>th</sup> row and j<sup>th</sup> column of the table, and A[i] denotes the i<sup>th</sup> element of the sequence A. It is guaranteed</p>
+<p>that for any input data set there exists a unique sequence of positive integers A with the given properties.</p>
+<h3>Output</h3>
+<p>The first and only line of output must contain the required sequence A (in the form of N space separated</p>
+<p>positive integers).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+0 2
+2 0</pre>
+<pre><strong>Output:</strong>
+1 1</pre>
+<pre><strong>Input:</strong>
+4
+0 3 6 7
+3 0 5 6
+6 5 0 9
+7 6 9 0</pre>
+<pre><strong>Output:</strong>
+2 1 4 5</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tzyirvo">Gabriel Menacho</a></td></tr>
+<tr><td>Date:</td><td>2014-09-09</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>http://www.soj.me/9562</td></tr>	
+</table>

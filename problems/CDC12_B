@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12557. Basic Routines</h1>
+		<h2>Problem code: CDC12_B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> </p>
+<p>Ronny is arriving from the work and the terrible traffic he was on. He leaves the car keys and decides to go and lay down to think about the activities he must do. He soon realizes that some activities require more energy than others. Ronny has N activities planned, and each activity has a name and a value associated, which is the amount of energy Ronny will spend by doing this activity. In addition, Ronny recovers energy each time he finishes an activity. He recovers number of energy points equal to number activities he has completed. For example, if he has 80 points of energy and doing an activity X costs Y energy, then he will have 80&#8722;Y+1 energy points. If he then performs another activity with costing Z energy, he will have (80&#8722;Y +1)&#8722;Z+2 energy points. Ronny&#8217;s energy must never be lower than 0 points.
+<p>He realized that he may not be able to complete all the activities. You are required to write a program to help him choose an subset of activities that can be finished with the given amount energy. See output description for more details.</p>
+<p> </p>
+
+<p><strong>Input</strong></p>
+<p>The first line contains an integer T , number of test cases. Then, descriptions of T test cases. Each test case will begin with two integers N and E, denoting respectively the number of activities that Ronny has planned and Ronny&#8217;s initial energy. N lines will follow, each with a string A and an integer V , denoting the name of the activity and the value associated with it.</p>
+<p>The data must be read from standard input.</p>
+<p> </p>
+
+<p><strong>Output</strong></p>
+<p>For each input case you must print two lines line. First must start with string "Scenario #i:", where i is the test case number (starting by 1). Next a space and the maximum number of activities Ronny can do. Second line must contain a list of activities sorted by name (order of execution may be different). There must be an space after each name.</p>
+<p>If there are many possible solutions, output the subset that requires the least amount of energy. If there is still a tie, output the lexicographical smaller sequence of names.</p>
+<p>The output must be written to standard output.</p>
+<p> </p>
+<div>
+<table border="2">
+<tbody>
+<tr>
+<td>Input</td>
+<td>Output</td>
+</tr>
+<tr align="left" valign="top">
+<td>2<br /> 5 80<br /> CleanClothes 45<br /> MakeFood 40<br /> Shower 10<br /> EatFood 20<br /> WatchTv 5<br /> 4 80<br /> Gaming 20<br /> TVShow 30<br /> ScoreSomeCoke 20<br /> DrinkCoke 10<br /></td>
+<td>Scenario #1: 4<br /> EatFood MakeFood Shower WatchTv<br /> Scenario #2: 4<br /> DrinkCoke Gaming ScoreSomeCoke TVShow<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p> </p>
+<p><strong>Constraints</strong></p>
+<p style="padding-left: 30px;"> T &#8804; 100</p>
+<p style="padding-left: 30px;"> 1 &#8804; N &#8804; 100,000</p>
+<p style="padding-left: 30px;"> 1 &#8804; E &#8804; 1,000,000</p>
+<p style="padding-left: 30px;"> 1 &#8804; |A| &#8804; 100</p>
+<p style="padding-left: 30px;"> 1 &#8804; V &#8804; 100</p>
+<p> </p>
+
+<p><strong>First case analysis:</strong></p>
+<p>Ronny can choose activities {1, 3, 4, 5} or {2, 3, 4, 5}. Doing the second set of activities costs him less energy, so that's the final answer.</p>
+<p> </p>
+<p><strong>News: Inserted all test cases from the original contest. Statement updated.</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>0.134s-0.432s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

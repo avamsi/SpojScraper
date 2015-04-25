@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PARTPLNE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8325. Partitioning the plane</h1>
+		<h2>Problem code: PARTPLNE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given the coordinates of 4*K+5 points on a plane such that no three of them are collinear. You need to select five points from these : a central point O and four arm points A,B,C,D such that:</p>
+<ul>
+<li>Rays from the centre to the arm points divide the plane into four regions containing an equal number of points </li>
+<li>None of the four central angles is a reflex angle </li>
+<li> Sum of absolute values of the cotangents of the central angles is as low as possible </li>
+</ul>
+<p>&nbsp;</p>
+<p>If it is possible to choose points satisfying this condition, output the lowest possible value for the sum of absolute values of the cotangents of the central angles. Otherwise report that it is not possible.</p>
+<h3>Input</h3>
+<p>The first line of input contains T(&lt;=4), the number of test cases. Following this are the descriptions of the T test cases.</p>
+<p>The first line in the description of each test case gives K(&lt;=100). Following this are 4*K+5 lines giving the x and y coordinates of each point separated by a space (0&lt;=x,y&lt;=10<sup>6</sup>)</p>
+<h3>Output</h3>
+<p>For each test case output in a different line the minimum sum of absolute values of the cotangents of the central angles, with six digits after the decimal point. If the division cannot be done in the manner explained, print Impossible</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />0<br />0 0<br />0 1<br />1 1<br />1 0<br />2 3<br />0<br />0 0<br />2 0<br />0 1<br />2 1<br />1 2<br /><br /><strong>Output:</strong><br />4.500000<br />Impossible<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2011-02-13</td></tr>
+<tr><td>Time limit:</td><td>1.181s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IOPC2011</td></tr>	
+</table>

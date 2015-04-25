@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PTIME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11736. Prime Time</h1>
+		<h2>Problem code: PTIME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-size: medium; padding: 0pt; margin: 0.5em;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">For your math homework this week your teacher gave you five large numbers and asked you to find their prime factors. However these numbers aren't&nbsp;<em>nearly</em>&nbsp;large enough for someone with knowledge of programming like yourself. So you decide to take the factorial of each of these numbers. Recall that N! (N factorial) is the product of the integers from 1 through N (inclusive). It&rsquo;s your job now to create a program to help you do your homework.</span></span></p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Input</span></span></h3>
+<p><span style="color: #000000;"><span style="font-family: 'times new roman', times;"><span style="font-size: medium;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Each test case contains a number N (2 &le; N &le; 10000).</span></span></span></span></span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Output</span></span></h3>
+<p><span style="color: #000000;"><span style="font-family: 'times new roman', times;"><span style="font-size: medium;">The output should contain a line&nbsp;</span><span style="font-size: medium;">representing the prime factorization of the factorial given number, which should be of the form:&nbsp;</span><span style="font-size: medium;"><em><span style="font-family: 'times new roman',times;">p<sub>1</sub>^e<sub>1</sub>&nbsp;* p<sub>2</sub>^e<sub>2</sub>&nbsp;* ... * p<sub>k</sub>^e<sub>k</sub></span></em></span><span style="font-size: medium;"><span style="font-size: medium;">&nbsp;</span>where p</span><sub>1</sub><span style="font-size: medium;">, p</span><sub>2</sub><span style="font-size: medium;">, ..., p</span><sub>k</sub><span style="font-size: medium;">&nbsp;are the distinct prime factors of the factorial of the given number in increasing order, and e</span><sub>1</sub><span style="font-size: medium;">, e</span><sub>2</sub><span style="font-size: medium;">, ..., e</span><sub>k</sub><span style="font-size: medium;">&nbsp;are their exponents.</span></span></span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Example</span></span></h3>
+<p>&nbsp;</p>
+<pre><span style="color: #000000;"><strong>Input:</strong><span style="color: #000000;"><br /></span></span></pre>
+<pre><span style="color: #000000;"><span style="font-size: small;"><span style="font-family: 'courier new', courier;"><span style="font-size: medium;"><span style="color: #000000;">10</span></span>
+</span></span>
+</span><span style="font-weight: bold;">Output:</span></pre>
+<pre><pre style="padding: 0pt; margin: 0pt;"><span style="color: #000000;"><span style="font-size: small;"><span style="font-family: courier new,courier;"><span style="font-size: medium;">2^8 * 3^4 * 5^2 * 7^1</span></span>
+</span></span></pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/amlesh_jk92">Amlesh Jayakumar</a></td></tr>
+<tr><td>Date:</td><td>2012-06-19</td></tr>
+<tr><td>Time limit:</td><td>0.197s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>DWITE Programming Contest 2012 (Own Problem)</td></tr>	
+</table>

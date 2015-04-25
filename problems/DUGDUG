@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DUGDUG"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10648. DUGDUG</h1>
+		<h2>Problem code: DUGDUG</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Dug Dug is a sweet and cute girl who just loves to eat sweet and choclates but only those which I used to gift her. One day I just said that "DUG DUG you are sweet and also like sweet". I will give you as many sweets as you want but you have to tell me the number of ways you can exchange the words in the sentence such that the sentence is not changed. Note that you can exchange one or more pair of words in the sentence simultaneously but all those pairs should be of different words. Dug Dug was confused. She got angry and said if you want to give the sweet then give otherwise go from here. I said "I i will , i i i will give". She got the choclates but you will not get it easily.</p>
+<p>Your task is to find out the number of ways words in a sentence can be exchanged without changing the sentence. Note - one or more pair of words in the sentence can be exchanged simultaneously but all those pairs should be of different words.</p>
+<h3>Input</h3>
+<p>Input will consists of several lines each containing a sentence consisting of not more than 5000 characters.</p>
+<h3>Output</h3>
+<p>For each line of input out a single integer denoting the number of ways in which words in a sentence can be exchanged without changing the sentence.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+DUG DUG you are sweet and also like sweet<br />I i will , i i i will give<br />Ok done you will get what you want<br />Done !!!!!!!!<br /><br /><strong>Output:</strong>
+3<br />13<br />1<br />0<br /><br /><strong>Explaination:</strong> <br />For the first sentence "DUG DUG you are sweet and also like sweet" there are three ways - <br />1) You can change the first "DUG" with second "DUG"<br />2) You can change the first "sweet" with second "sweet"<br />3) You can change the first "DUG" with second "DUG" and first "sweet" with second "sweet".</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dugdug">Min2</a></td></tr>
+<tr><td>Date:</td><td>2012-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.150s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

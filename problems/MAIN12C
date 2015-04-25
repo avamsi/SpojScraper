@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN12C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11105. Email ID</h1>
+		<h2>Problem code: MAIN12C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Everyone loves Swampy. Swampy the Alligator lives under the city and yearns for a more human like existence. One day Swampy thought to learn the intricacies of the internet. He went to a book store in SwampVille immediately and bought a book on "Basic Internet". After reading the book Swampy decided to try on some exercises.  The exercise demanded Swampy to report all valid email-id's in a given free-form text string. Check output section for exact specification. Swampy lacks the intelligence of humans and therefore needs you to help him in this job.  The chapter defined email-id's as a string consisting of two parts. From left to right, these are username and site-address. The username is non-empty string of minimum length 5 build from characters {a-z A-Z 0-9 . _} (excluding the brackets). The username cannot start from '.' or '_' The site-address is build of a prefix which is non-empty string build from characters {a-z A-Z 0-9} (excluding the brackets) followed by one of the following suffixes {".com", ".org", "edu", ".co.in"}. There is no space character in the email-id.  The entire email-id is "username@site-address".</p>
+<h3>Input</h3>
+<p>First line of the input contains an integer T, the number of test cases. Then T test cases follow. Each test case consists of String S on a single line. S is made up of characters {a-z A-Z 0-9 ~!@#$%^&amp;*()&lt;&gt;?,.} (excluding the brackets) and space character too.</p>
+<h3>Output</h3>
+<p>For each test case, print Case #X: K, where X is the test case number starting from 1, K is the number of email-id's found in S, and then K lines with email-id's found in S.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+svm11@gmail.com
+svm11@gmail.com svm12@gmail.co.in
+
+<strong>Output:</strong>
+Case #1: 1
+svm11@gmail.com
+Case #2: 2
+svm11@gmail.com
+svm12@gmail.co.in
+</pre>
+<p>Constraints: T &lt;= 100 |S| &lt;= 10000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikunj165">Nikunj Jain</a></td></tr>
+<tr><td>Date:</td><td>2012-03-15</td></tr>
+<tr><td>Time limit:</td><td>0.595s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Vaibhav Mittal</td></tr>	
+</table>

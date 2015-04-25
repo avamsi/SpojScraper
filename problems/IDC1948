@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IDC1948"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18302. Identity crisis</h1>
+		<h2>Problem code: IDC1948</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For every given number n we define x(n) as distance from n to the first number after n in form of 99...99. For example x(100)=899, x(45)=54, etc. Given several n numbers you have to find the Z<sub>p</sub>, where x(n)<span style="color: #000020; font-size: 13px; background-color: #f6f9e0;">&equiv;</span>n mod p.</p>
+<h3>Input</h3>
+<p>First line of input icontains one number T (T&lt;20) - the number of test cases. In each of the next T lines contains one number each to represent n (0&lt;n&lt;30000000).</p>
+<h3>Output</h3>
+<p>In each line you have to write one number - the least p&gt;1 that x(n)<span style="color: #000020; font-size: 13px; background-color: #f6f9e0;">&equiv;</span>n mod p. If there is no such p the line should contain -1.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2</pre>
+<pre>234</pre>
+<pre>5
+
+<strong>Output:</strong>
+3
+</pre>
+<pre>-1</pre>
+<pre>Explanation:</pre>
+<pre>x(234)=765. 765 mod 3=0, 234 mod 3=0 =&gt; 765<span style="color: #000020; font-size: 13px; background-color: #f6f9e0;">&equiv;</span>234 mod 3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/konradus">Konrad Krystecki</a></td></tr>
+<tr><td>Date:</td><td>2014-02-04</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MB1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6450. PP numbers</h1>
+		<h2>Problem code: MB1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>PP numbers are prime numbers and palindromes in decimal notation at once. Your task is to find <em>n</em>-th PP number in ascending order. Then calculate product of its non-zero digits - let's call it <em>m</em> - and find <em>m</em>-th prime number in ascending order.</p>
+<h3>Input</h3>
+<p>In the first line of input there is one positive integer <em>Z</em> (1 &#8804; <em>Z</em> &#8804; 1000) which states the number of test cases. Following <em>Z</em> lines contain test cases.</p>
+<p>Each test case consists of one positive integer <em>n</em> (1 &#8804; <em>n</em> &#8804; 113) which states the number of PP number to find.</p>
+<h3>Output</h3>
+<p>For each test case print in separate line two numbers: <em>n</em>-th PP number and <em>m</em>-th prime number.</p>
+<h3>Example</h3>
+<p><strong>Input:</strong></p>
+<pre>
+3
+1
+5
+2
+</pre>
+<p><strong>Output:</strong></p>
+<pre>
+2 3
+11 2
+3 5
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/macbon">Maciej Boniecki</a></td></tr>
+<tr><td>Date:</td><td>2010-04-02</td></tr>
+<tr><td>Time limit:</td><td>0.176s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>2nd Warsaw School of Computer Science Programming Championship</td></tr>	
+</table>

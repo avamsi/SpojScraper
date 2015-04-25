@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FTOUR2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1825. Free tour II</h1>
+		<h2>Problem code: FTOUR2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>After the success of 2nd anniversary (take a look at problem <b>FTOUR</b> for more details), this 3rd year, Travel Agent SPOJ goes on with another discount tour.</p>
+
+<p> The tour will be held on <i>ICPC</i> island, a miraculous one on the Pacific Ocean. We list <b>N</b> places (indexed from 1 to <b>N</b>) where the visitors can have a trip. Each road connecting them has an <i>interest value</i>, and this value can be <i>negative</i> (if there is nothing interesting to view there). Simply, these <b>N</b> places along with the roads connecting them form a <i>tree structure</i>. We will choose <i>two places</i> as the departure and destination of the tour.</p>
+
+<p> Since September is the festival season of local inhabitants, some places are extremely crowded (we call them <i>crowded places</i>). Therefore, the organizer of the excursion hopes the tour will visit <i>at most <b>K</b> crowded places</i> (too tiring to visit many of them) and of course, the <i>total number of interesting value</i> should be maximum.</p>
+
+<p>Briefly, you are given a map of <b>N</b> places, an integer <b>K</b>, and <b>M</b> id numbers of <i>crowded place</i>. Please help us to find the optimal tour. Note that we can visit each place only <i>once</i> (or our customers easily feel bored), also the departure and destination places <i>don't need to be different</i>.</p>
+
+<h3>Input</h3>
+<p>There is exactly one case. First one line, containing 3 integers <b>N K M</b>, with 1 <= <b>N</b> <= 200000, 0 <= <b>K</b> <= <b>M</b>, 0 <= <b>M</b> <= <b>N</b>.
+<p>Next <b>M</b> lines, each line includes an id number of a <i>crowded place</i>.
+<p>The last (<b>N</b> - 1) lines describe (<b>N</b> - 1) two-way roads connected <b>N</b> places, form <b>a b i</b>, with <b>a, b</b> is the id of 2 places, and <b>i</b> is its <i>interest value</i> (-10000 <= <b>i</b> <= 10000).
+
+<h3>Output</h3>
+<p>Only one number, the maximum total interest value we can obtain.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+8 2 3
+3
+5
+7
+1 3 1
+2 3 10
+3 4 -2
+4 5 -1
+5 7 6
+5 6 5
+4 8 3
+
+
+<b>Output:</b>
+12
+</pre>
+
+<h3>Explanation</h3>
+<div align="left">
+We choose 2 and 6 as the departure and destination place, so the tour will be 2 -> 3 -> 4 -> 5 -> 6, total interest value = 10 + (-2) + (-1) + 5 = 12
+<div>
+<br>
+<div align="center">
+<b>* Added some unofficial cases</b>
+</div>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-09-28</td></tr>
+<tr><td>Time limit:</td><td>0.088s-0.443s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Adapted from Preslav Le's problem, first used in Bulgarian OI 07</td></tr>	
+</table>

@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/YAPP"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5979. Yet Another Permutations Problem</h1>
+		<h2>Problem code: YAPP</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>How many permutations of the first N numbers exist such that the maximum element between the indices [i..j] is either present at index i, or at index j ?</p>
+<p style="text-align: center;"><br /><strong>Input</strong></p>
+<p style="text-align: left;">The first line contains the number of test cases T. Each of the next T lines contains an integer N</p>
+<p style="text-align: center;"><br /><strong>Output</strong></p>
+<p>Output T lines containing the required answer for the corresponding test case. Since the answers can get really big, output the result modulo 1000000007.</p>
+<p style="text-align: center;"><strong>Example</strong></p>
+<p><br />Sample Input :<br />1<br />2<br /><br />Sample Output :<br />2</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>Constraints</strong></p>
+<p>&nbsp;</p>
+<p>1 &lt;= T &lt;=10000</p>
+<p>1 &lt;= N &lt;= 1000000000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-01-25</td></tr>
+<tr><td>Time limit:</td><td>1.690s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>own problem used for Technovanza</td></tr>	
+</table>

@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAXLN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8670. THE MAX LINES</h1>
+		<h2>Problem code: MAXLN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span id="internal-source-marker_0.8809220087714493" style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">In this problem you will be given a half-circle. The half-circle&rsquo;s radius is r. You can take any point A on the half-circle and draw 2 lines from the point to the two sides of the diameter(AB and AC). Let the sum of square of one line&rsquo;s length and the other line&rsquo;s length is s.</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://docs.google.com/drawings/image?authkey=CLnNvY8O&amp;id=sE2qJlnf5DUTr7awOFtMOwA&amp;w=346&amp;h=200&amp;rev=36&amp;ac=1" alt="" width="346px;" height="200px;" /><br /><br /><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Like in the figure s=AB^2+AC. And BC=2r.</span><br /><br /><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Now given r you have to find the maximum value of s. That is you have to find point A such that AB^2+AC is maximum.</span><br /><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Input:</span><br /><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">First line of the test case will be the number of test case T(1&lt;=T&lt;=1000) . Then T lines follows. On each line you will find a integer number r(1&lt;=r&lt;=1000000); each representing the radius of the half-circle.</span><br /><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Output:</span><br /><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">For each input line, print a line containing &ldquo;Case I: &rdquo;, where I is the test case number and the maximum value of s. Print 2 digit after decimal(Errors should be less then .01).</span><br /><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Sample Input:</span><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span><br /><br /><span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Sample Output:</span><br /><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Case 1: 4.25</span></p>
+<p><span style="font-size: 11pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ridowan007">Muhammad Ridowan</a></td></tr>
+<tr><td>Date:</td><td>2011-03-28</td></tr>
+<tr><td>Time limit:</td><td>0.680s-1.679s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem(used for CSE,University of Dhaka, Newbies Contest)</td></tr>	
+</table>

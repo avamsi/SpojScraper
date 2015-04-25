@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MSET"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>22766. Make Sets</h1>
+		<h2>Problem code: MSET</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">For a given number&nbsp;<strong>N</strong>&nbsp;you have&nbsp;<strong>K</strong>&nbsp;copies of each number from 1 to N. Therefore, you have a total of&nbsp;<strong>N*K</strong>&nbsp;numbers. You need to form&nbsp;<strong>M</strong>&nbsp;sets&nbsp;<strong>s1 ,s2 ,s3 , .... &nbsp;sm</strong>&nbsp;&nbsp;where a set should contain unique numbers(set may be empty).<br style="box-sizing: border-box;" />Now, let D be the sum of size of all M sets.(where the size of a set is number of elements in it)<br style="box-sizing: border-box;" />Let&nbsp;<strong>G(i)</strong>= number of ways to form M sets such that D is equal to i.<br style="box-sizing: border-box;" />Find&nbsp;<strong>G(0)+ G(1) +...... G(N*K)</strong>&nbsp;&nbsp;modulo 10^9 + 7.<br style="box-sizing: border-box;" />Note: Ordering of sets matters as the sets are numbered.</p>
+<p><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><strong>For eg:</strong><br style="box-sizing: border-box;" />N=2, M=2, K=2<br style="box-sizing: border-box;" />So, the numbers present initially are (1,1,2,2)<br style="box-sizing: border-box;" />G(0)=1, &nbsp; &nbsp;&nbsp;<br style="box-sizing: border-box;" />{ } ,{ }</p>
+<p><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">G(1)=4,<br style="box-sizing: border-box;" />{1}, { }<br style="box-sizing: border-box;" />{2},{ }<br style="box-sizing: border-box;" />{ }, {1}<br style="box-sizing: border-box;" />{ },{2}</p>
+<p><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">G(2)=6,<br style="box-sizing: border-box;" />{1},{2}<br style="box-sizing: border-box;" />{2},{1}<br style="box-sizing: border-box;" />{1},{1}<br style="box-sizing: border-box;" />{2},{2}<br style="box-sizing: border-box;" />{1,2} , { }<br style="box-sizing: border-box;" />{ },{1,2}</p>
+<p><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">G(3)=4,<br style="box-sizing: border-box;" />{1,2},{1}<br style="box-sizing: border-box;" />{1,2},{2}<br style="box-sizing: border-box;" />{1}, {1,2}<br style="box-sizing: border-box;" />{2}, {1,2}</p>
+<p><br style="box-sizing: border-box; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">G(4)=1,<br style="box-sizing: border-box;" />{1,2}, {1,2}<br style="box-sizing: border-box;" />{ } represents empty set.<br style="box-sizing: border-box;" />So answer = G(0)+G(1)+G(2)+G(3)+G(4) = 16</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;"><strong>Input Specification<br style="box-sizing: border-box;" /></strong>First line of input consists of integer t denoting number of test cases.<br style="box-sizing: border-box;" />Each of the next t lines contain 3 integers N, M , K where &nbsp; N&gt;=M&gt;=K</p>
+<p><strong>Output Specification<br /></strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">Output consists of t lines. Each line contains the answer modulo 10^9 + 7.</span></p>
+<p><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">&nbsp;</span><strong>Constraint</strong></p>
+<p><strong>&nbsp;</strong><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">1&lt;=t&lt;=100<br /></span><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">1&lt;=M&lt;=N&lt;=100000<br /></span><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">0&lt;=K&lt;=M</span></p>
+<pre><span style="font-size: 12px; white-space: normal;"><p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;"><strong>Sample Input<br style="box-sizing: border-box;" /></strong>3<br style="box-sizing: border-box;" />2 2 2<br style="box-sizing: border-box;" />4 3 1<br style="box-sizing: border-box;" />3 1 1</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><strong>Sample Output<br style="box-sizing: border-box;" /></strong>16<br style="box-sizing: border-box;" />256<br style="box-sizing: border-box;" />8</p></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sanket_singhal">Sanket Singhal</a></td></tr>
+<tr><td>Date:</td><td>2015-02-16</td></tr>
+<tr><td>Time limit:</td><td>1s-2s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem(CQM-5 BIT Mesra)</td></tr>	
+</table>

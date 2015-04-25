@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SEQ1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1451. 01 Sequence</h1>
+		<h2>Problem code: SEQ1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The input consists of exactly 5 test cases in the following format:</p>
+<h3>Input</h3>
+<pre>N A0 B0 L0 A1 B1 L1 [3<=N<=1000,1<=A0<=B0<=L0<=N,1<=A1<=B1<=L1<=N]
+</pre>
+<h3>Output</h3>
+<p>Exactly 5 lines,each contains:</p>
+<p>a) A sequence (We name it S) consisting only characters '0' and '1' and no extra whitespaces, which satisfy the following conditions: </p>
+<div align="justify">
+    <ul>
+        <li>
+        The number of '0' in any consecutive subsequence of S whose length is L0 is not more than B0 and not less than A0.
+        <li>
+        The number of '1' in any consecutive subsequence of S whose length is L1 is not more than B1 and not less than A1.</li>
+    </ul>
+</div>
+<p>or</p>
+<p>b)A single number -1,if the sequence which satisfies the conditions above doesn't exist.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+6 1 2 3 1 1 2
+[and 4 test cases more]
+
+<b>Output:</b>
+010101
+[and 4 test cases more]
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-04-01</td></tr>
+<tr><td>Time limit:</td><td>0.323s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Chinese National Olympiad in Informatics 1999,Day 1; translated by Blue Mary</td></tr>	
+</table>

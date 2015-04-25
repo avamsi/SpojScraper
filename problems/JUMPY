@@ -1,0 +1,86 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JUMPY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10301. A jumpy cycle</h1>
+		<h2>Problem code: JUMPY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A <em>cycle</em> is a connected undirected graph with <span class="texhtml"><em>n</em></span> vertices of degree 2. (Special cases: The cycle for <span class="texhtml"><em>n</em> = 2</span> is a graph with two vertices and two parallel edges between them. For <span class="texhtml"><em>n</em> = 1</span> the cycle is a graph with a single vertex and a loop. In all cases, you can imagine the cycle as a circle passing through <span class="texhtml"><em>n</em></span> locations.)</p>
+<p>The <em>distance</em> <span class="texhtml"><em>d</em></span> of two vertices is the number of edges on the shortest path that connects them.</p>
+<p>A <em>labelling</em> of a cycle is a function <span class="texhtml"><em>f</em></span> that assigns a positive integer to each of its vertices.</p>
+<p>Given a labelling, we may pick a starting vertex and direction  along the cycle and write down the labels in the order in which we  encounter them. The <span class="texhtml"><em>n</em></span>-tuple obtained in this way is called a <em>label list</em>.</p>
+<p>There may be multiple label lists corresponding to a single  labelling. For example, the label lists (3,8,25,14,17) and  (25,8,3,17,14) may come from the same labelling.</p>
+<p>A labelling is called <em>jumpy</em> if it has the following properties:</p>
+<ul>
+<li> No two labels are equal. </li>
+<li> For each pair of distinct vertices <span class="texhtml"><em>u</em>,<em>v</em></span> the greatest common divisor of <span class="texhtml"><em>f</em>(<em>u</em>)</span> and <span class="texhtml"><em>f</em>(<em>v</em>)</span> is at most <span class="texhtml"><em>d</em>(<em>u</em>,<em>v</em>)</span>. </li>
+</ul>
+<p>(In other words, neighboring vertices must have relatively prime  labels, vertices at distance 2 may only have 2 as the common divisor of  their labels, etc.)</p>
+<p>For example, a cycle with the label list (3,8,25,14,17) is a jumpy cycle.</p>
+<p>The <em>upper bound</em> of a labelling is the largest integer it uses.</p>
+<p>Given two distinct label lists of a given cycle, look at the  first position where they differ. The one with the smaller value on this  position is <em>lexicographically smaller</em>.</p>
+<h2><span id="Task" class="mw-headline">Task</span></h2>
+<p>Given is the number of vertices <span class="texhtml"><em>n</em></span>. Find a jumpy labelling of a cycle with <span class="texhtml"><em>n</em></span> vertices with the smallest possible upper bound. If there are multiple  such labellings, pick the one that can produce the lexicographically  smallest label list.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>Ignore the input.The file's empty, anyway.</p>
+<h3>Output</h3>
+<p>For each <span class="texhtml"><em>n</em></span> from 1 to 20 output a single line with a sequence of <span class="texhtml"><em>n</em></span> positive integers: the lexicographically smallest label list that  determines a jumpy labelling with the smallest possible upper bound. Separate the integers by single spaces. (Do not print a space after the  last integer on a line.)</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+
+
+<strong>Output:</strong>
+<br />1<br />... and 19 more lines ...</pre>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">
+<p>A <em>cycle</em> is a connected undirected graph with <span class="texhtml"><em>n</em></span> vertices of degree 2. (Special cases: The cycle for <span class="texhtml"><em>n</em> = 2</span> is a graph with two vertices and two parallel edges between them. For <span class="texhtml"><em>n</em> = 1</span> the cycle is a graph with a single vertex and a loop. In all cases, you can imagine the cycle as a circle passing through <span class="texhtml"><em>n</em></span> locations.)</p>
+<p>The <em>distance</em> <span class="texhtml"><em>d</em></span> of two vertices is the number of edges on the shortest path that connects them.</p>
+<p>A <em>labelling</em> of a cycle is a function <span class="texhtml"><em>f</em></span> that assigns a positive integer to each of its vertices.</p>
+<p>Given a labelling, we may pick a starting vertex and direction  along the cycle and write down the labels in the order in which we  encounter them. The <span class="texhtml"><em>n</em></span>-tuple obtained in this way is called a <em>label list</em>.</p>
+<p>There may be multiple label lists corresponding to a single  labelling. For example, the label lists (3,8,25,14,17) and  (25,8,3,17,14) may come from the same labelling.</p>
+<p>A labelling is called <em>jumpy</em> if it has the following properties:</p>
+<ul>
+<li> No two labels are equal. </li>
+<li> For each pair of distinct vertices <span class="texhtml"><em>u</em>,<em>v</em></span> the greatest common divisor of <span class="texhtml"><em>f</em>(<em>u</em>)</span> and <span class="texhtml"><em>f</em>(<em>v</em>)</span> is at most <span class="texhtml"><em>d</em>(<em>u</em>,<em>v</em>)</span>. </li>
+</ul>
+<p>(In other words, neighboring vertices must have relatively prime  labels, vertices at distance 2 may only have 2 as the common divisor of  their labels, etc.)</p>
+<p>For example, a cycle with the label list (3,8,25,14,17) is a jumpy cycle.</p>
+<p>The <em>upper bound</em> of a labelling is the largest integer it uses.</p>
+<p>Given two distinct label lists of a given cycle, look at the  first position where they differ. The one with the smaller value on this  position is <em>lexicographically smaller</em>.</p>
+<h2><span id="Task" class="mw-headline">Task</span></h2>
+<p>Given is the number of vertices <span class="texhtml"><em>n</em></span>. Find a jumpy labelling of a cycle with <span class="texhtml"><em>n</em></span> vertices with the smallest possible upper bound. If there are multiple  such labellings, pick the one that can produce the lexicographically  smallest label list.</p>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xellos0">Jakub Šafin</a></td></tr>
+<tr><td>Date:</td><td>2011-12-27</td></tr>
+<tr><td>Time limit:</td><td>0.050s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>people.ksp.sk/~acm</td></tr>	
+</table>

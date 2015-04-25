@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mr_pyn_hp9x"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/UCF" target="_blank">21049. Under Construction Forever</a></td><td><a href="http://www.spoj.com/problems/UCF"target="_blank">UCF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTPLUCKY" target="_blank">21057. Super Lucky Palindromes</a></td><td><a href="http://www.spoj.com/problems/CTPLUCKY"target="_blank">CTPLUCKY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CTPDIRTY" target="_blank">21058. Dirty Plates</a></td><td><a href="http://www.spoj.com/problems/CTPDIRTY"target="_blank">CTPDIRTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TPCPPLAR" target="_blank">21068. Popular</a></td><td><a href="http://www.spoj.com/problems/TPCPPLAR"target="_blank">TPCPPLAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TPCPALIN" target="_blank">21085. Palindrome Merge</a></td><td><a href="http://www.spoj.com/problems/TPCPALIN"target="_blank">TPCPALIN</a><br>
+</td></tr>

@@ -1,0 +1,114 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAJSTOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3881. Majstor</h1>
+		<h2>Problem code: MAJSTOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MAJSTOR/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MAJSTOR/vn/">Vietnamese</a></td> 
+</tr></table>
+
+
+<p>Rock-paper-scissors is a popular two-player game. In the game, each of the players uses their hand to
+show one of three symbols: rock, paper or scissors. If both players show the same symbol, the game is
+a tie. Otherwise, scissors beat paper, paper beats rock and rock beats scissors.</p>
+<p>Sven has been studying the psychological intricacies of the game for years and has become a real master
+at the game, his friends not standing a chance against him in one-on-one games.</p>
+<p>With the world championships around the corner, Sven is practicing his skills playing simultaneous
+games with N of his friends. One such game consists of R rounds. In each round, Sven and each of his
+friends show one of the three symbols.</p>
+<p>When calculating the score, in each round, Sven's symbol is independently compared to each of his
+friends' symbols. Sven scores two points for every win and one point for every tie. Sven does not get
+points for losing.</p>
+<p>Write a program that calculates Sven's total score, and also his largest possible score had he known in
+advance all the symbols his friends would show.</p>
+
+<h3>Input</h3>
+<p>The first line contains the integer R (1 &#8804; R &#8804; 50), the number of rounds played.</p>
+<p>The second line contains a string of R letters 'S', 'P' or 'R'. The string represents symbols that Sven
+showed in each round. 'S' is for scissors, 'P' for paper, 'R' for rock.</p>
+<p>The third line contains the integer N (1 &#8804; N &#8804; 50), the number of friends.</p>
+<p>Each of the following N lines contains a string of R letters 'S', 'P' or 'R'. These are the symbols shown
+by each of the N friends in each of the R rounds.</p>
+
+<h3>Output</h3>
+<p>Output Sven's actual score on the first line.</p>
+<p>Output his largest possible score on the second line, assuming his friends didn't change their symbols.</p>
+<h3>Example</h3>
+
+<pre>
+Input
+5
+SSPPR
+1
+SSPPR
+
+Output
+5
+10
+
+
+Input
+5
+SSPPR
+2
+PPRRS
+RRSSP
+
+Output
+10
+15
+
+
+Input
+4
+SPRS
+4
+RPRP
+SRRR
+SSPR
+PSPS
+
+Output
+12
+21
+</pre>
+
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-02-17</td></tr>
+<tr><td>Time limit:</td><td>0.229s
+</td></tr>
+<tr><td>Source limit:</td><td>1024B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COCI 2008/2009 - Croatian Regional</td></tr>	
+</table>

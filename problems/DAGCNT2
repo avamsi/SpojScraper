@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DAGCNT2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4882. Counting in a DAG</h1>
+		<h2>Problem code: DAGCNT2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a weighted <acronym title="Directed Acyclic Graph">DAG</acronym>. For each vertex, calculate the sum of the weights of the vertices within its reach (including itself).</p>
+<h3>Input</h3>
+<p>The first line contains an integer T, denoting the number of test cases.</p>
+<p>For each test case, the first line contains two positive integers n and m, denoting the number of vertices and the number of edges in the DAG.</p>
+<p>The second line contains n positive integers w<sub>1</sub>..w<sub>n</sub>, denoting the weights of vertices.</p>
+<p>The next m lines contain two positive integers u,v, denoting an edge from u to v.</p>
+<h3>Output</h3>
+<p>For each test case, print a line consisting of n numbers, denoting the sum for each vertex.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />4 3<br />510 713 383 990 <br />4 1<br />4 2<br />2 1<br />4 4<br />450 379 230 520 <br />3 4<br />2 4<br />2 3<br />2 4<br /><br /><strong>Output:</strong><br />510 1223 383 2213<br />450 1129 750 520<br /></pre>
+<h3>Constraints</h3>
+<p>Input Set 1: numberOfTestCases &lt;= 40, n &lt;= 100, m &lt;= 10000</p>
+<p>Input Set 2: numberOfTestCases &lt;= 2, n &lt;= 1000, m &lt;= 500000</p>
+<p>Input Set 3: numberOfTestCases &lt;= 2, n &lt;= 20000, m &lt;= 500000</p>
+<p>The weights are no more than 1000</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xfastx">Lox</a></td></tr>
+<tr><td>Date:</td><td>2009-09-30</td></tr>
+<tr><td>Time limit:</td><td>0.085s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

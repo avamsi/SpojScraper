@@ -1,0 +1,270 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NBLTHIEF"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3495. The Nobel Thief</h1>
+		<h2>Problem code: NBLTHIEF</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+The Nobel Prize of Kabiguru Rabindranath
+Thagore was stolen from a museum of Viswa Bharati University
+in West Bengal. The Central Bureau of Investigation (CBI) has
+been assigned the job to investigate the crime and recover the prize. CBI has
+identified some suspects and linked each one of them to a distinct subset of a
+set of clues.
+
+<P>
+Let there be <SPAN CLASS="MATH"><I>p</I></SPAN> suspects and <SPAN CLASS="MATH"><I>q</I></SPAN> clues. Integers 1 to <SPAN CLASS="MATH"><I>p</I></SPAN> identify suspects while <SPAN CLASS="MATH"><I>q</I></SPAN> distinct
+letter-codes identify clues. The clues are of varying importance. The
+alphabetic order of letter-codes determines the priority order in the clues;
+letter-codes '<TT>a</TT>' to '<TT>z</TT>' vary from highest to lowest priority.
+
+
+<P>
+Let <SPAN CLASS="MATH"><I>L</I><SUB>0</SUB></SPAN>
+be the set of all suspects. Based on a clue '<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha.png"
+ ALT="$ \alpha$"></SPAN>', a subset <SPAN CLASS="MATH"><I>L</I></SPAN> of <SPAN CLASS="MATH"><I>L</I><SUB>0</SUB></SPAN>
+may be split into two disjoint subsets <!-- MATH
+ $L_{+\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN> and <!-- MATH
+ $L_{-\alpha}$
+ -->
+
+<SPAN CLASS="MATH"><I>L</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN>.
+The subset <!-- MATH
+ $L_{+\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN> includes all elements of <SPAN CLASS="MATH"><I>L</I></SPAN> that are linked to a
+subset of clues containing '<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha.png"
+ ALT="$ \alpha$"></SPAN>' and <!-- MATH
+ $L_{-\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN> includes all other
+elements of <SPAN CLASS="MATH"><I>L</I></SPAN>. Let <SPAN CLASS="MATH"><I>n</I></SPAN>, <!-- MATH
+ $n_{+\alpha}$
+ -->
+
+<SPAN CLASS="MATH"><I>n</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN>, and <!-- MATH
+ $n_{-\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>n</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN>
+denote respectively the total number of elements in <SPAN CLASS="MATH"><I>L</I></SPAN>, <!-- MATH
+ $L_{+\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN> and
+<!-- MATH
+ $L_{-\alpha}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB></SPAN>. The discriminatory power of a clue '<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha.png"
+ ALT="$ \alpha$"></SPAN>' to
+discriminate suspects in <SPAN CLASS="MATH"><I>L</I></SPAN> is defined by <!-- MATH
+ $\delta_{\alpha}= -(|n_{+\alpha}-n_{-\alpha}|)$
+ -->
+
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_delta.png"
+ ALT="$ \delta_{\alpha}^{}$"> = - (| <I>n</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB> - <I>n</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha_sm.png"
+ ALT="$\scriptstyle \alpha$"></SUB>|)</SPAN>
+
+<P>
+Let <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN> denote a set of disjoint subsets of <SPAN CLASS="MATH"><I>L</I><SUB>0</SUB></SPAN>, each subset containing two
+or more elements. The discriminatory power <!-- MATH
+ $\delta_{\alpha}^*$
+ -->
+
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_delta_star.png"
+ ALT="$ \delta_{\alpha}^{*}$"></SPAN>
+of a clue '<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="/content/zukow:NOBEL_alpha.png"
+ ALT="$ \alpha$"></SPAN>' to discriminate suspects in subsets contained in <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN> is
+defined to be the sum of all <!-- MATH
+ $\delta_{\alpha}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_delta.png"
+ ALT="$ \delta_{\alpha}^{}$"></SPAN>'s corresponding to each subset in <SPAN CLASS="MATH"><I>L</I>*</SPAN>.
+
+<P>
+
+<P>
+<BR>
+CBI wants to select a set <SPAN CLASS="MATH"><I>D</I></SPAN> of dominant clues so that the presence or absence of
+some or all of these clues can identify each suspect uniquely. The selection is
+to be done in stages.
+
+
+<P>
+Let <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN>
+contain only <SPAN CLASS="MATH"><I>L</I><SUB>0</SUB></SPAN> initially. At each stage of selection a clue
+'<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_beta.png"
+ ALT="$ \beta$"></SPAN>' with highest discriminatory power <!-- MATH
+ $\delta_{\beta}^*$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_delta_b_star.png"
+ ALT="$ \delta_{\beta}^{*}$"></SPAN>
+is selected. Selecting the clue '<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_beta.png"
+ ALT="$ \beta$"></SPAN>' with highest priority breaks tie, if
+any. After a selection of '<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_beta.png"
+ ALT="$ \beta$"></SPAN>' each <SPAN CLASS="MATH"><I>L</I></SPAN> in <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN> is split into
+disjoint subsets <!-- MATH
+ $L_{+\beta}$
+ -->
+
+<SPAN CLASS="MATH"><I>L</I><SUB>+ <IMG
+ WIDTH="13" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_beta_sm.png"
+ ALT="$\scriptstyle \beta$"></SUB></SPAN> and '<!-- MATH
+ $L_{-\beta}$
+ -->
+<SPAN CLASS="MATH"><I>L</I><SUB>- <IMG
+ WIDTH="13" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="/content/zukow:NOBEL_beta_sm.png"
+ ALT="$\scriptstyle \beta$"></SUB></SPAN>' all resulting
+subsets with less than two elements are dropped from <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN>. The process of
+selection continues until <SPAN CLASS="MATH"><I>L</I><SUP>*</SUP></SPAN> becomes empty. All the clues thus selected form
+the set of dominant clues <SPAN CLASS="MATH"><I>D</I></SPAN>.
+
+
+<P>
+You are required to write a program to find the set of dominant clues <SPAN CLASS="MATH"><I>D</I></SPAN>.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A> </FONT>
+</H2>
+
+<P>
+Input may contain multiple test cases. For each test case input is given
+in one line. It contains an integer <SPAN CLASS="MATH"><I>k</I></SPAN> representing the case number
+and a certain number of strings of clues. The <SPAN CLASS="MATH"><I>i</I></SPAN>-th string represents the
+subset of clues to which the <SPAN CLASS="MATH"><I>i</I></SPAN>-th suspect
+is linked. A space separates two consecutive fields in input.
+
+
+<P>
+Input terminates with an input 0 for the case number <SPAN CLASS="MATH"><I>k</I></SPAN>.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A> </FONT>
+</H2>
+
+<P>
+For each test case, present output in one line. The line contains the case number <SPAN CLASS="MATH"><I>k</I></SPAN>
+and a string of letters. The letters in the string correspond to the clues in <SPAN CLASS="MATH"><I>D</I></SPAN>
+
+and appear in the order of their selection.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A> </FONT>
+</H2>
+
+<P>
+<PRE>
+1 cbx cpxb bc brc
+2 bac adce cbd d
+0
+</PRE>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A> </FONT>
+
+</H2>
+
+<P>
+<PRE>
+1  xpr
+2  ab
+</PRE>
+
+<P>
+<hr><ADDRESS>Kanpur-Kolkata 2004-2005</ADDRESS><p></body></html>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-09</td></tr>
+<tr><td>Time limit:</td><td>0.179s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Kanpur 2004</td></tr>	
+</table>

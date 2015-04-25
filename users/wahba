@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/wahba"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ACPC11B" target="_blank">10239. Between the Mountains</a></td><td><a href="http://www.spoj.com/problems/ACPC11B"target="_blank">ACPC11B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC11C" target="_blank">10240. Circleland</a></td><td><a href="http://www.spoj.com/problems/ACPC11C"target="_blank">ACPC11C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACPC11D" target="_blank">10242. Dice on a Board</a></td><td><a href="http://www.spoj.com/problems/ACPC11D"target="_blank">ACPC11D</a><br>
+</td></tr>

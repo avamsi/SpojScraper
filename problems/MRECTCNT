@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MRECTCNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3890. Rectangles  Counting</h1>
+		<h2>Problem code: MRECTCNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MRECTCNT/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MRECTCNT/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p><br /><p>Let R be a rectangle with integer side lengths. The rectangle is  divided into unit squares.  Considering one of the diagonals, we denote by f(R) the number of squares which have a common interior point with it. For example, if the side lengths of R are 2 and 4 then  f(R)=4.  Write a program to find out the number of all different rectangles R for which  f(R)= N. Two rectangles with sides  a x b  and b x a are not different.</p><br /><h3>INPUT </h3><br /><p>In a single line of the standard input the integer N (0 &lt; N &lt; 10^6) is given.</p><br /><br /><pre>SAMPLE INPUT<br />4</pre>
+<br /><br />
+<h3>OUTPUT</h3>
+<br /></pre>
+<p>The only line of the standard output should contain an integer &ndash; the calculated number of rectangle.</p>
+<pre style="text-align: center;"><pre>SAMPLE OUTPUT<br />4</pre>
+<br /><a href="http://tinypic.com" target="_blank"></a><br /><br /><br /><strong>Problem for kid - Please, think like kid.</strong><br /><br /></pre>
+<p style="text-align: center;"><img src="http://i43.tinypic.com/30uxxco.jpg" border="0" alt="Image and video hosting by TinyPic" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-18</td></tr>
+<tr><td>Time limit:</td><td>0.151s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>BOI For Kid 08</td></tr>	
+</table>

@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/quanghuy"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TREE" target="_blank">738. Another Counting Problem</a></td><td><a href="http://www.spoj.com/problems/TREE"target="_blank">TREE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NEG2" target="_blank">739. The Moronic Cowmpouter</a></td><td><a href="http://www.spoj.com/problems/NEG2"target="_blank">NEG2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRT" target="_blank">740. Treats for the Cows</a></td><td><a href="http://www.spoj.com/problems/TRT"target="_blank">TRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STEAD" target="_blank">741. Steady Cow Assignment</a></td><td><a href="http://www.spoj.com/problems/STEAD"target="_blank">STEAD</a><br>
+</td></tr>

@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GNY07C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2525. Encoding</h1>
+		<h2>Problem code: GNY07C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Chip and Dale have devised an encryption method to hide their (written) text messages. They first
+agree secretly on two numbers that will be used as the number of rows (R) and columns (C) in a
+matrix. The sender encodes an intermediate format using the following rules:
+<ol>
+<li>The text is formed with uppercase letters [A-Z] and &lt;space>.
+<li>Each text character will be represented by decimal values as follows:
+
+<p><tt>&lt;space> = 0, A = 1, B = 2, C = 3, ..., Y = 25, Z = 26</tt>
+</ol>
+
+<p>The sender enters the 5 digit binary representation of the characters&#8217; values in a spiral pattern along
+the matrix as shown below. The matrix is padded out with zeroes (0) to fill the matrix completely. For
+example, if the text to encode is: "ACM" and R=4 and C=4, the matrix would be filled in as follows:
+
+<p><img align="center" src="https://www.spoj.pl/content/marcog:GNY07_matrix.png">
+
+<p><pre>A = 00001, C = 00011, M = 01101
+         (one extra 0)</pre>
+
+<p>The bits in the matrix are then concatenated together in row major order and sent to the receiver.
+The example above would be encoded as: 0000110100101100
+
+<h3>Input</h3>
+<p>The first line of input contains a single integer N, (1 &#8804; N &#8804; 1000) which is the number of datasets that
+follow.
+<p>Each dataset consists of a single line of input containing R (1&lt;=R&lt;=20), a space, C (1&lt;=C&lt;=20),
+a space, and a text string consisting of uppercase letters [A-Z] and &lt;space>. The length of the text
+string is guaranteed to be &lt;= (R*C)/5.
+
+<h3>Output</h3>
+<p>For each dataset, you should generate one line of output with the following values: The dataset
+number as a decimal integer (start counting at one), a space, and a string of binary digits (R*C) long
+describing the encoded text. The binary string represents the values used to fill in the matrix in row-
+major order. You may have to fill out the matrix with zeroes (0) to complete the matrix.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+4 4 ACM
+5 2 HI
+2 6 HI
+5 5 HI HO
+
+<b>Output:</b>
+1 0000110100101100
+2 0110000010
+3 010000001001
+4 0100001000011010110000010
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/marcog">Marco Gallotta</a></td></tr>
+<tr><td>Date:</td><td>2008-03-11</td></tr>
+<tr><td>Time limit:</td><td>14.95s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Greater New York Regionals 2007</td></tr>	
+</table>

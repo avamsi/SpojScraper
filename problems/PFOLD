@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PFOLD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6720. Paper Fold</h1>
+		<h2>Problem code: PFOLD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div id="doc-contents" style="direction: inherit; margin: 6px;">
+<p style="direction: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-align: justify; "><strong><span style="font-size: large;"><span style="font-weight: normal; font-size: small; ">Sedrak likes making various things from paper (and he's very good at that). But after he finishes the job, his table is covered with a lot of useless creased, scrappy paper. Can he use them somehow?</span></span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;">Imagine a thin strip of paper marked with creases at regular intervals, which we can think of as a line segment divided into equal-length subsegments. Each crease point is marked with as&nbsp;<em>mountain, valley,&nbsp;</em>or<em>&nbsp;flat&nbsp;</em>to specify the orientation of the crease (&#8896;,&#8897;,-</span><span style="font-size: small;">).</span>&nbsp;<span style="font-size: small;">For example the input might look as follows:</span></p>
+<div id="czon" style="margin-top: 0px; margin-bottom: 0px; direction: inherit; text-align: center;"><img style="height: 39px; width: 349px;" src="http://docs.google.com/File?id=dgb6gzgk_204dd477wd5_b" alt="" /></div>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;">Sedrak thinks, he can use the scrap, if it is possible to fold it using&nbsp;<em>all</em>&nbsp;the marked creases with the specified orientations. The operations he is allowed are as follows.&nbsp;&nbsp;</span><span style="font-size: small;">Given a particular crease (&#8896;</span><span style="font-size: small;">&nbsp;or &#8897;)</span><span style="font-size: small;">,&nbsp;<em>simple fold&nbsp;</em>rotates the portion of the segment to the left of the crease around the portion of the segment to the right of the crease. The rotation is counterclockwise for a mountain fold, and clockwise for a valley fold. When multiple layers of paper come in contact, they become inseparable; in other words, each simple fold must fold all layers of paper. For example, here is how he might fold the example above:</span></p>
+<div id="k9ey" style="margin-top: 0px; margin-bottom: 0px; direction: inherit; text-align: center;"><img style="height: 262px; width: 350px;" src="http://docs.google.com/File?id=dgb6gzgk_205htwhbkgc_b" alt="" /></div>
+<div style="margin-top: 0px; margin-bottom: 0px; direction: inherit; text-align: justify;"><span style="font-size: small;">Notice that when a subsegment is folded, the crease turns upside-down, inverting &#8896;&harr;&#8897;</span><span style="font-size: small;">. Thus, for a simple fold to be&nbsp;<em>valid,&nbsp;</em>the inversions of the creases to the left must match the creases to the right.</span></div>
+<div style="margin-top: 0px; margin-bottom: 0px; direction: inherit; text-align: justify;"><span style="font-size: small;"><br /></span></div>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;">Input</span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;"><br /></span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;">The first line of input file contains the number&nbsp;</span><span style="font-size: small;">&nbsp;1&le;N&le;20 - the number of paper scraps on Sedrak&rsquo;s table. &nbsp;Next&nbsp;<span style="font-size: small;">N&nbsp;</span></span><span style="font-size: small;">lines contain descriptions of paper scraps as a string containing symbols&nbsp;</span><span style="font-family: 'courier new';"><span style="font-size: small;">&lsquo;^&rsquo;, &lsquo;v&rsquo;&nbsp;</span></span><span style="font-size: small;">and</span><span style="font-family: 'courier new';"><span style="font-size: small;">&nbsp;&lsquo;-&lsquo;.&nbsp;</span></span><span style="font-size: small;">The length of a single description does not exceed 10^6.</span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;"><br /></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;">Output</span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;"><br /></span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;">For each description line of the input file, output a single line containing&nbsp;</span><span style="font-family: 'courier new';"><span style="font-size: small;">&ldquo;Yes&rdquo;,</span></span><span style="font-size: small;">&nbsp;if Sedrak can use the scrap, and&nbsp;</span><span style="font-family: 'courier new';"><span style="font-size: small;">&ldquo;No&rdquo;&nbsp;</span></span><span style="font-size: small;">otherwise.</span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;"><br /></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;">Example</span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><strong><span style="font-size: large;"><br /></span></strong></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;">Input:</span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: sylfaen, serif;"><span style="font-size: small;">6</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">-^vv-</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">--v-</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">-vv-</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">^vv^</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">v-v^-^^</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">--^-v^^-v--</span></span></p>
+<br />
+<p style="direction: inherit; margin: 0px;"><span style="font-size: small;">Output:</span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">Yes</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">Yes</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">No</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">Yes</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">No</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-family: 'courier new';"><span style="font-size: small;">Yes</span></span></p>
+<p style="direction: inherit; text-align: justify; margin: 0px;"><span style="font-size: small;"><br />NOTE: The last example corresponds to the scrap in the figure.</span></p>
+</div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/narek">Narek Saribekyan</a></td></tr>
+<tr><td>Date:</td><td>2010-06-01</td></tr>
+<tr><td>Time limit:</td><td>0.490s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>RAU School Contest 2010</td></tr>	
+</table>

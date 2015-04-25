@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kojak_"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/ROULETTD" target="_blank">12243. Natalia Spins The Roulette</a></td><td><a href="http://www.spoj.com/problems/ROULETTD"target="_blank">ROULETTD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NATALIAS" target="_blank">12244. Natalia Has Another Problem</a></td><td><a href="http://www.spoj.com/problems/NATALIAS"target="_blank">NATALIAS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NATALIAG" target="_blank">12245. Natalia Plays a Game</a></td><td><a href="http://www.spoj.com/problems/NATALIAG"target="_blank">NATALIAG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PFORLOOP" target="_blank">13002. For Loops Challenge</a></td><td><a href="http://www.spoj.com/problems/PFORLOOP"target="_blank">PFORLOOP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EPTT" target="_blank">13007. Easy Programming Tutorials</a></td><td><a href="http://www.spoj.com/problems/EPTT"target="_blank">EPTT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM009" target="_blank">15215. David and his Obsession</a></td><td><a href="http://www.spoj.com/problems/PUCMM009"target="_blank">PUCMM009</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SELLINGA" target="_blank">15460. Selling Art</a></td><td><a href="http://www.spoj.com/problems/SELLINGA"target="_blank">SELLINGA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PR003004" target="_blank">17247. Digit Sum</a></td><td><a href="http://www.spoj.com/problems/PR003004"target="_blank">PR003004</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HCT00001" target="_blank">21418. Interesting Game with Polygons</a></td><td><a href="http://www.spoj.com/problems/HCT00001"target="_blank">HCT00001</a><br>
+</td></tr>

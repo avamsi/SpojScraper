@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/kunal_jain"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PSTR" target="_blank">8277. Number of Prime Strings</a></td><td><a href="http://www.spoj.com/problems/PSTR"target="_blank">PSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/INTCOMB" target="_blank">8281. Combination Of Integers</a></td><td><a href="http://www.spoj.com/problems/INTCOMB"target="_blank">INTCOMB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIST" target="_blank">8282. Distance</a></td><td><a href="http://www.spoj.com/problems/DIST"target="_blank">DIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NONDEC" target="_blank">8283. Non-Decreasing Numbers</a></td><td><a href="http://www.spoj.com/problems/NONDEC"target="_blank">NONDEC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WEIGHT" target="_blank">8284. Weighted Sum</a></td><td><a href="http://www.spoj.com/problems/WEIGHT"target="_blank">WEIGHT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RECTMAT" target="_blank">8285. Rectangles in a Matrix</a></td><td><a href="http://www.spoj.com/problems/RECTMAT"target="_blank">RECTMAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATCH" target="_blank">8286. Perfect Matching</a></td><td><a href="http://www.spoj.com/problems/MATCH"target="_blank">MATCH</a><br>
+</td></tr>

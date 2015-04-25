@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SUFFIX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23530. Suffixes</h1>
+		<h2>Problem code: SUFFIX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Find the smallest natural number X such that, if we write X in bases B<sub>1</sub>, B<sub>2</sub>, ..., B<sub>N</sub>, we get strings with suffixes S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>N</sub>, respectively.</p>
+<p>The possible digits are 0123456789ABCDEFG...XYZ, with values 0..35. Of course, the number written in base B consists only of the digits with values between 0 and B - 1.</p>
+<h3>Input</h3>
+<p>In the first line of input there is an integer N (1 &le; N &le; 10) from the task description.</p>
+<p>In k<sup>th</sup> of the next N lines there is an integer B<sub>k</sub> (2 &le; B<sub>k</sub> &le; 36) and a suffix S<sub>k</sub>&nbsp;from the task description.</p>
+<p>The given bases will be pairwise distinct. Also, the product of the powers B<sub>k</sub>&nbsp;^ lenght(S<sub>k</sub>) will be less than 10<sup>18</sup>.</p>
+<h3>Output</h3>
+<p>Print the required X, written in base 10.</p>
+<h3>Example</h3>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: 12px;"><strong>input</strong>
+3
+5 22
+11 A2
+18 4
+
+<strong>output</strong>
+112</pre>
+<pre><span style="font-family: 'Courier New', Courier, monospace;"><span style="font-size: 12px;"><strong>input
+</strong>5
+2 110
+32 E
+25 M3
+28 2
+7 2<strong>
+
+output
+</strong>53678</span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/askurdija">Adrian Satja Kurdija</a></td></tr>
+<tr><td>Date:</td><td>2015-04-05</td></tr>
+<tr><td>Time limit:</td><td>0.100s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem.</td></tr>	
+</table>

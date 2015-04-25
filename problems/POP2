@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POP2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15148. play with prime numbers (II)</h1>
+		<h2>Problem code: POP2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself .</span></p>
+<p><span style="font-size: small;">we   define here a new prime number called prime of primes number (POP) is a   prime number that consist of other prime numbers less than this number .</span></p>
+<p><span style="font-size: small;"><strong>example :</strong>&nbsp;</span></p>
+<p><span style="font-size: small;">1013 consist of 101 and 3 and both are primes .</span></p>
+<p><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;"><strong>notes </strong>:</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">2003 is not POP because leading zero not allowed .</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">the POP number must contain more than or equal two primes , and overlapping not allowed .</span></span></p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer T specifying the number of test cases. (T &lt;= 1000) followed by&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">T lines , each line contains an integer m number 0&lt;=m&lt;=10^9 .</div>
+<p><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">The first line contains an integer T specifying the number of test cases. (T &lt;= 200) followed by&nbsp;</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">T lines , each line contains an integer m number 0&lt;=m&lt;=10^18 .</span></span></p>
+<h3>Output</h3>
+<p><span style="font-weight: normal;"><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">For each test case print single line contain the first integer greater than or equal to m and is (POP) .</span></span></span></p>
+<h3>Example</h3>
+<p><span style="font-size: medium;"><strong><span style="font-family: arial,helvetica,sans-serif;">Input:</span></strong><br /></span></p>
+<pre>3</pre>
+<pre>10</pre>
+<pre>100</pre>
+<pre>1000</pre>
+<p><strong><span style="font-size: small;"><span style="font-family: arial,helvetica,sans-serif;">Output:</span></span></strong></p>
+<pre><strong>23</strong></pre>
+<pre><strong>113</strong></pre>
+<pre><strong>1013</strong></pre>
+<p><strong><span style="font-size: small;">after solving this you can try&nbsp;</span></strong><a href="http://www.spoj.com/problems/POP3/">http://www.spoj.com/problems/POP3/</a></p>
+<pre><strong><br /></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdou_93">abdou_93</a></td></tr>
+<tr><td>Date:</td><td>2013-06-06</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>owner</td></tr>	
+</table>

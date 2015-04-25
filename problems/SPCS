@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SPCS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17804. Gopu And Palindromes</h1>
+		<h2>Problem code: SPCS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Gopu loves palindromes. A palindrome is a string which is same even when it is reversed. eg. aba, a, abba are palindromes whereas, ab is not a palindrome.&nbsp;</p>
+<p>Once Gopu was playing with string s, he thought of whether he can change this string into a palindrome or not.</p>
+<p>A "cool operation" takes some substring of string with the property that all the characters in the substring should be same. Let us say that substring has size L. Then he can reduce ther size of this substring by alteast 0 and atmost L - 1. eg. string is abbb, He can change substring bbb into b, bb, bbb (corresponding to not changing it at all) which will make the string s into ab, abb, abbb respectively.</p>
+<p>He can apply a "cool operation" as many times as he wishes.</p>
+<p>Find out whether he can convert the string into a palindrome or not?</p>
+<p>Output "YES" if possible, else output "NO".</p>
+<h3>Input</h3>
+<p>First line of input contains number of test cases T, (1 &lt;= T &lt;= 100).</p>
+<p>For each test case, there is a single line representing the string with which Gopu is playing with. (length of string &gt;= 1 and &lt;= 10^5). String will only contain small letters of english alphabet ie 'a' to 'z'.</p>
+<h3>Output</h3>
+<p>For each test case output a single line containing "YES" or "NO" (without quotes) respectively to situation whether he can convert given string into palindrome or not?</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />aba<br />aabaaa<br />aabbba<br />aaab<br />abca&nbsp;</pre>
+<pre><strong>Output:</strong>
+YES<br />YES<br />YES<br />NO<br />NO&nbsp;</pre>
+<pre><h3>Explanation:</h3><div>For first test case string "aba", string is already a palindrome, so no need to apply "cool operation".</div><div><span style="white-space: pre;">For second test case string "aabaaa", take aaa and convert it into aa, So string becomes aabaa which is a palindrome.</span></div><div><span style="white-space: pre;">For fifth test case string "abca", Gopu can not convert it into palindrome despite applying any "cool operation". </span></div></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2013-12-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

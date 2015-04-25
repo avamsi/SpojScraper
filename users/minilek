@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/minilek"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/RECTANGL" target="_blank">1960. Rectangles</a></td><td><a href="http://www.spoj.com/problems/RECTANGL"target="_blank">RECTANGL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROMANRDS" target="_blank">1961. Roman Roads</a></td><td><a href="http://www.spoj.com/problems/ROMANRDS"target="_blank">ROMANRDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CIRCLES" target="_blank">1962. Circles</a></td><td><a href="http://www.spoj.com/problems/CIRCLES"target="_blank">CIRCLES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMGPROJ" target="_blank">1963. Image Projections</a></td><td><a href="http://www.spoj.com/problems/IMGPROJ"target="_blank">IMGPROJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMCUT" target="_blank">1964. Tree cut</a></td><td><a href="http://www.spoj.com/problems/MMCUT"target="_blank">MMCUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SETCOV" target="_blank">1965. Set Cover</a></td><td><a href="http://www.spoj.com/problems/SETCOV"target="_blank">SETCOV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SKIVALL" target="_blank">1966. Ski Valley</a></td><td><a href="http://www.spoj.com/problems/SKIVALL"target="_blank">SKIVALL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WORDS" target="_blank">2318. Overlapping Words</a></td><td><a href="http://www.spoj.com/problems/WORDS"target="_blank">WORDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BIGSEQ" target="_blank">2319. Sequence</a></td><td><a href="http://www.spoj.com/problems/BIGSEQ"target="_blank">BIGSEQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DISTANCE" target="_blank">2320. Manhattan</a></td><td><a href="http://www.spoj.com/problems/DISTANCE"target="_blank">DISTANCE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEGMENTS" target="_blank">2321. Segments</a></td><td><a href="http://www.spoj.com/problems/SEGMENTS"target="_blank">SEGMENTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREEGAME" target="_blank">2322. Tree Game</a></td><td><a href="http://www.spoj.com/problems/TREEGAME"target="_blank">TREEGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COMPASS" target="_blank">2323. Broken Compass</a></td><td><a href="http://www.spoj.com/problems/COMPASS"target="_blank">COMPASS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MARIOGAM" target="_blank">2324. Mario</a></td><td><a href="http://www.spoj.com/problems/MARIOGAM"target="_blank">MARIOGAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STRDIST" target="_blank">2325. String Distance</a></td><td><a href="http://www.spoj.com/problems/STRDIST"target="_blank">STRDIST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOYSCOUT" target="_blank">3576. Boy Scouts</a></td><td><a href="http://www.spoj.com/problems/BOYSCOUT"target="_blank">BOYSCOUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARITY" target="_blank">3577. Parity</a></td><td><a href="http://www.spoj.com/problems/PARITY"target="_blank">PARITY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HASH" target="_blank">3578. Hashing</a></td><td><a href="http://www.spoj.com/problems/HASH"target="_blank">HASH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DISJPATH" target="_blank">3579. Disjoint Paths</a></td><td><a href="http://www.spoj.com/problems/DISJPATH"target="_blank">DISJPATH</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREESIM" target="_blank">3581. Tree Similarity</a></td><td><a href="http://www.spoj.com/problems/TREESIM"target="_blank">TREESIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RSTAURNT" target="_blank">3582. Restaurant Tab</a></td><td><a href="http://www.spoj.com/problems/RSTAURNT"target="_blank">RSTAURNT</a><br>
+</td></tr>

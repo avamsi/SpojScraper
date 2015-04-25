@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LUCKY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16483. Lucky Cities</h1>
+		<h2>Problem code: LUCKY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">John has recently arrived in Romania for the South Eastern European Regional competitions. John has never been to Romania before so Romanians decided to organize sightseeing tour for him. This tour will include several Romanian cities and none of them will be visited more than once. John will start in one city and will visit some other cities according to a guide tour. At the end of the tour John will return to the starting point.</span></p>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">There are N cities numbered from 1 to N and M two-way roads in the country. Each road connects two different cities. Consider a sightseeing tour for John c<sub>1</sub>,c<sub>2</sub>,...,c<sub>n</sub>, where each ci denotes a city in Romania. Then all c<sub>i</sub> must be distinct, c<sub>i</sub> and c<sub>i+1</sub>&nbsp;must be connected by a road, where i=1,2,...,n-1, c<sub>n</sub> and c<sub>1</sub> must be connected by a road as well.&nbsp;</span></span></p>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">Being a odd person John would like to visit an odd number of cities. The organizers have drawn the plan of all possible tours with an odd number of cities.&nbsp;</span></span></p>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">Residents of the cities would like John to visit them. So if there is at least one tour passing through some city than this city is called lucky. Your task is to calculate the number of lucky cities in Romania.</span></span></p>
+<h3>Input</h3>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">The first line of input contains a single integer T &ndash; a number of test cases. Every test case starts with a line containing two integers separated by a single space &ndash; N and M. Each of the next M lines will contain two integers a<sub>i</sub> and b<sub>i</sub> separated by a single space &ndash; the labels of cities that i-th road connects.</span></p>
+<h3>Output</h3>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">Output should contain T lines &ndash; answers for each of the test cases.</span></p>
+<h3>Constraints</h3>
+<p><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">1 &le; T &le; 77,&nbsp;</span><br style="font-family: 'Times New Roman', Times, serif; font-size: 16px;" /><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">0 &le; N, M &le; 100000 (10<sup>5</sup></span><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">),&nbsp;</span><br style="font-family: 'Times New Roman', Times, serif; font-size: 16px;" /><span style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">1 &le; a<sub>i</sub> &lt; b<sub>i</sub> &le; N</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: medium;">1 
+7 7 
+1 5 
+3 5 
+3 7 
+1 7 
+6 7 
+4 7 
+4 6</pre>
+<strong>Output:</strong>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: medium;">3</pre>
+</pre>
+<pre><em><span style="font-size: small;"><strong>PS:</strong> If you like this problem, also see problem BUSINESS</span></em></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2013-10-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Southeastern European Regional Programming Contest</td></tr>	
+</table>

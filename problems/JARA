@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JARA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7427. Jara&#8217;s Legacy</h1>
+		<h2>Problem code: JARA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Victor Jara was a Chilean teacher, theater director and political activist. He is widely<br />recognized because of his talent as poet and song writer. His most recognized work is<br />probably the song &ldquo;A Desalambrar&rdquo; that can be translated from Spanish as &ldquo;Unwire&rdquo;.<br />In this song Jara assures that people is the rightful owner of the lands, and so wire fences<br />that delimit private properties should be cut down to allow access to everybody.<br />Although Jara&rsquo;s proposal is far from being fulfilled, some of his convinced listeners keep<br />trying to make it happen. Since they must face several enemies, they try to make their<br />job efficient by only cutting down the necessary number of fences and not more.<br />Each fence can be modeled as a segment (straight line) connecting two points in the XY<br />plane. These endpoints are considered to be part of the fence. A cut in a fence removes<br />any contiguous part of the fence except the endpoints.<br />An area is said to be free if and only if, for any pair of points not lying over a fence, there<br />is a (not necessarily straight) line that connect these points without crossing any fence.<br />Given the location of the fences, your job is to calculate the minimum number of fences<br />that need to be cut down to make the area free, according to the above definition.</p>
+<h3>Input</h3>
+<p>Each test case is described using several lines. The first line contains an integer N<br />indicating the number of fences in the area (1 &le; N &le; 10<sup>5</sup>). Each of the next N lines<br />describes a different fence using four integers X0 , Y0 , X1 and Y1 (&minus;10<sup>4</sup> &le; X0 , Y0 , X1 , Y1 &le;<br />10<sup>4</sup> ). These values represent that there is a fence whose endpoints in the XY plane are<br />(X0 , Y0 ) and (X1 , Y1 ). You may assume that for each fence its two endpoints are distinct.<br />Besides, within each test case, the intersection of any pair of fences is either empty or<br />it is an endpoint of both fences. The end of input is indicated with a line containing a<br />single &minus;1.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing a single integer representing the mini-<br />mum number of fences that need to be cut down to make the area free.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />9<br />-50 0 0 0<br />0 0 50 0<br />-50 0 0 50<br />0 50 50 0<br />-50 0 0 -50<br />0 -50 50 0<br />0 0 0 -50<br />0 -50 50 -50<br />50 -50 50 0<br />2<br />0 1 2 3<br />0 0 2 2<br />-1
+<br /><strong>Output:</strong><br />4<br />0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>4.548s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

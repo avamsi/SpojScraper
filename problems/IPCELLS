@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IPCELLS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7239. Cells</h1>
+		<h2>Problem code: IPCELLS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Tim loves spreadsheets. Everything he does on a computer, he does in a spreadsheet. Track his expenses? Create a spreadsheet! Decide which car to buy? Create a spreadsheet to compare them! Make an inventory of his games? Create a spreadsheet! Decide which girl he loves most? &hellip;</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Unfortunately his spreadsheet software just crashed and he needs some of the data right now and does not have the time to install a competing office suit.</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Given the formulas used in the cells of a spreadsheet, calculate the values of all the cells.</p>
+<h3>Input</h3>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">The first line of the input file contains an integer&nbsp;<span style="font-style: italic;">T&nbsp;</span>specifying the number of test cases. Each test case is preceded by a blank line.</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Each test case starts a single number&nbsp;<span style="font-style: italic;">N&nbsp;</span>giving the number of expression. Each of the following&nbsp;<span style="font-style: italic;">N&nbsp;</span>lines contains a single cell formula of the form &ldquo;<span style="font-family: monospace;">CELL = EXPRESSION</span>&rdquo;, where&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">CELL</span></span></span>&nbsp;is the name of the cell and&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">EXPRESSION</span></span></span>&nbsp;is a mathematical expression consisting of cell names and the operators&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">+</span></span></span>,&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">-</span></span></span>,&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">*</span></span></span>&nbsp;and&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">/</span></span></span>. A cell name is a non-empty sequence of letters followed by a positive integer.</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Each test case is correct: there are no cycles, and all cells referenced in expressions have definitions.</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 0em;"><span style="font-family: sans-serif; font-weight: bold;">Evaluating expressions</span></p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">When evaluating an expression, usual priorities apply: first we evaluate all&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">*</span></span></span>&nbsp;and&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">/</span></span></span>&nbsp;(left to right), and only then all&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">+</span></span></span>&nbsp;and&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">-</span></span></span>&nbsp;(again, left to right).</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">You may assume that the expressions are such that when evaluating the expression in correct order, the result and also all intermediate values will fit into 32-bit signed integer variables.</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">The operator&nbsp;<span style="white-space: nowrap;"><span><span style="font-family: monospace;">/</span></span></span>&nbsp;represents integer division which is always rounded&nbsp;<span style="font-weight: bold;">down</span>. The dividend will always be non-negative and the divisor will always be positive.</p>
+<h3>Output</h3>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">For each test case output the calculated values of cells, one per line, in the form &ldquo;<span style="font-family: monospace;">CELL = VALUE</span>&rdquo;. The rows in the output should be ordered alphabetically. (To compare two rows, take a look at the first character where they differ. The one with a smaller ASCII value goes first.)</p>
+<p style="text-align: justify; margin-top: 0px; margin-bottom: 12px; margin-left: 0px; text-indent: 1.5em;">Optionally, output a blank line between test cases.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<span style="font-family: monospace;">2</span><br /><br /><span style="font-family: monospace;">3</span><br /><span style="font-family: monospace;">A47</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;5</span><span style="font-family: monospace;">&nbsp;+</span><span style="font-family: monospace;">&nbsp;ZZ22</span><br /><span style="font-family: monospace;">ZZ22</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;3</span><br /><span style="font-family: monospace;">A9</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;13</span><span style="font-family: monospace;">&nbsp;+</span><span style="font-family: monospace;">&nbsp;A47</span><span style="font-family: monospace;">&nbsp;*</span><span style="font-family: monospace;">&nbsp;ZZ22</span><br /><br /><span style="font-family: monospace;">2</span><br /><span style="font-family: monospace;">A1</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;4</span><span style="font-family: monospace;">&nbsp;/</span><span style="font-family: monospace;">&nbsp;7</span><span style="font-family: monospace;">&nbsp;+</span><span style="font-family: monospace;">&nbsp;4</span><span style="font-family: monospace;">&nbsp;/</span><span style="font-family: monospace;">&nbsp;7</span><br /><span style="font-family: monospace;">B2</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;3</span><span style="font-family: monospace;">&nbsp;*</span><span style="font-family: monospace;">&nbsp;3</span><span style="font-family: monospace;">&nbsp;/</span><span style="font-family: monospace;">&nbsp;7</span>
+
+<strong>Output:</strong>
+<span style="font-family: monospace;">A47</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;8</span><br /><span style="font-family: monospace;">A9</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;37</span><br /><span style="font-family: monospace;">ZZ22</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;3</span><br /><br /><span style="font-family: monospace;">A1</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;0</span><br /><span style="font-family: monospace;">B2</span><span style="font-family: monospace;">&nbsp;=</span><span style="font-family: monospace;">&nbsp;1</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohammadkotb">Mohammad Kotb</a></td></tr>
+<tr><td>Date:</td><td>2010-08-27</td></tr>
+<tr><td>Time limit:</td><td>1.002s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IPSC</td></tr>	
+</table>

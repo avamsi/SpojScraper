@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PIBO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9964. Fibonacci vs Polynomial</h1>
+		<h2>Problem code: PIBO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Define a sequence <i>Pib</i>(n) as following </p>
+<ul>
+<li><i>Pib</i>(0) = 1</li>
+<li><i>Pib</i>(1) = 1</li>
+<li>otherwise, <i>Pib</i>(n) = <i>Pib</i>(n-1) + <i>Pib</i>(n-2) + <b>P</b>(n)</li>
+</ul>
+<p>Here <b>P</b> is a polynomial.</p>
+<p>Given <b>n</b> and <b>P</b>, find <i>Pib</i>(n) modulo 1,111,111,111.</p>
+
+<h3>Input</h3>
+<p>First line of input contains two integer <b>n</b> and <b>d</b> (0 &#8804; <b>n</b> &#8804; 10<sup>9</sup>, 0 &#8804; <b>d</b> &#8804; 100), <b>d</b> is the degree of polynomial. </p>
+<p>The second line contains <b>d</b>+1 integers <b>c</b><sub>0</sub>,<b>c</b><sub>1</sub> &#8230; <b>c</b><sub>d</sub>, represent the coefficient of the polynomial(Thus <b>P</b>(x) can be written as &#931;<b>c</b><sub>i</sub>x<sup>i</sup>). 0 &#8804; <b>c</b><sub>i</sub> &#8804; 100 and <b>c</b><sub>d</sub> &#8800; 0 unless d = 0.</p>
+
+<h3>Output</h3>
+<p>A single integer represents the answer.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+10 0
+0
+
+<b>Output:</b>
+89
+
+<b>Input:</b>
+10 0
+1
+
+<b>Output:</b>
+177
+
+<b>Input:</b>
+100 1
+1 1
+
+<b>Output:</b>
+343742333
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/crazyb0y">Bin Jin</a></td></tr>
+<tr><td>Date:</td><td>2011-11-11</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>10240B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.9 SCM chicken </td></tr>
+	
+</table>

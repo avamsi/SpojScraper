@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/UNTITLED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2709. Untitled Problem</h1>
+		<h2>Problem code: UNTITLED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>We consider a sequence <b>S<sub>1</sub></b> is <b>equal</b> to a sequence <b>S<sub>2</sub></b>, if and only if they satisfy the following conditions:</p>
+
+<ul>
+<li>The length of them are equal.
+<li>Let <b>Len</b> be the length of them. For each i,j(1 <= i, j <= <b>Len</b>, i != j):If <b>S<sub>1</sub></b>[i] is smaller than <b>S<sub>1</sub></b>[j], <b>S<sub>2</sub></b>[i] must be smaller than <b>S<sub>2</sub></b>[j]; If <b>S<sub>1</sub></b>[i] is greater than <b>S<sub>1</sub></b>[j], <b>S<sub>2</sub></b>[i] must greater than <b>S<sub>2</sub></b>[j].
+</ul>
+
+<p>Now you are given a sequence <b>S</b> and another <b>N</b> sequences <b>T<sub>1</sub></b>, <b>T<sub>2</sub></b> &#8230;. <b>T<sub>N</sub></b>.</p>
+<p>We say position <b>i</b> is <b>OK</b>, if and only if <b>S</b>[1..<b>i</b>] contains a suffix which is <b>equal</b> to a sequence from { <b>T<sub>1</sub></b>, <b>T<sub>2</sub></b> ... <b>T<sub>N</sub></b> }. You need to print the positions which is <b>OK</b> in increasing order.</p>
+
+<h3>Input</h3>
+
+<p>Multiple test cases, the number of them(no more than 3) is given in the very first line.</p>
+<p>For each test case:</p>
+<ul>
+<li>The first line contains an integer <b>M</b> (<b>M</b> > 1) which denote the number of sequences. <b>i.e.</b> <b>M</b> = <b>N</b> + 1.
+<li><b>M</b> * 2 lines follow, each two lines describe one sequence.For each two lines, the first line contains an integer <b>L</b> which denote the length of this sequence. The second line contains <b>L</b> integers(all the integers don't exceed 2<sup>31</sup>-1) that represent this sequence.
+The first sequence described is <b>S</b>, the next <b>N</b> sequences represent <b>T<sub>1</sub></b> ... <b>T<sub>N</sub></b>.
+<li>You can assume that there are no same integer in any one sequence.
+<li>The length of <b>S</b> is no more than 400000, and the total length of <b>T</b> is no more than 100000.
+</ul>
+
+<h3>Output</h3>
+<p>For each test case: Print the positions which is <b>OK</b> in increasing order.</p>
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+2
+1
+1
+1
+2
+3
+3
+3 1 2
+2
+4 5
+2
+10 1
+
+<b>Output:</b>
+1
+2
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/qujun51319">Qu Jun</a></td></tr>
+<tr><td>Date:</td><td>2008-05-19</td></tr>
+<tr><td>Time limit:</td><td>0.881s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Based on a problem from USACO 2005 Dec Gold Division</td></tr>	
+</table>

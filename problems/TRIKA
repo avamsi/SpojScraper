@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRIKA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7217. Training for final</h1>
+		<h2>Problem code: TRIKA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;">Abotrika is a famous player who plays in a good team , his team is going to play the final match next week and he have to train hard because all his fans are expecting that Abotrika will score more than one goal , so his team-mates suggested helping him in training given that Abotrika will play alone against all his friends in the training.</p>
+<h3>Input</h3>
+<p style="text-align: left;">Given two integers N,M (length and width of the training court) ,Â  2<=N,M<=20 and X,Y the starting point of Abotrika on the court where X is number of row and Y is number of column 1<=X,Y<=N,M then P[i][j],where P is the power of each of his friends 0< P[i][j]<100 , and P[X][Y] is the power of Abotrika.</p>
+<h3>Output</h3>
+<p style="text-align: left;">The output must be one line either "N" or "Y Â then the maximum power "Abotrika can get when he pass from his friends to reach the (the goal who is at the cell P[N][M] in the court ). NOTE :Â  Abotrika's power decreases by the power of his team-mate whom Aboutrika succeeded<span style="font-size: small;"><strong><em>Â </em></strong></span>to get through on his way to score a goal. "Y" means that he had scored a goal with power at least 0 Â and "N" if he couldn't reach the goal with zero power at least. Also, Abotrika can only move in two directions -- right and down -- to reach the goal.Â </p>
+<h3>Example</h3>
+<pre style="text-align: left;"><strong>Input:</strong>
+<p style="text-align: left;">4 4</p><p style="text-align: left;">1 1</p><p style="text-align: left;">100 55 10 2</p><p style="text-align: left;">20Â Â  10 90 1</p><p style="text-align: left;">60Â Â  20 22 4</p><p style="text-align: left;">1Â Â Â Â  30 70 5</p><strong>Output:</strong>
+<p style="text-align: left;">Y 23</p><p align="right">Â </p><p style="text-align: left;"><strong>Explaination : </strong></p><p style="text-align: left;">The maximum power Abotrika can get after reaching goal : 100- (55+10+2+1+4+5)=23Â </p><p style="text-align: left;">Â </p><pre style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-align: left; margin: 8px;"><strong>Input:</strong>
+<p style="text-align: left;">2 2</p><p style="text-align: left;">1 1</p><p style="text-align: left;">1   55 </p><p style="text-align: left;">20Â 10 </p><strong>Output:</strong>
+<p style="text-align: left;">N</p></pre>
+<p style="text-align: left;"><strong>Explaination : </strong></p>
+<p style="text-align: left;">The maximum power Abotrika can get after reaching goal : 1 - (20+10)=-29 so it will be NÂ </p>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mohamed_maher">Kawmia Institutes</a></td></tr>
+<tr><td>Date:</td><td>2010-08-22</td></tr>
+<tr><td>Time limit:</td><td>0.107s-0.215s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

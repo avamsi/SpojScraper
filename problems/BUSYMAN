@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BUSYMAN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11515. I AM VERY BUSY</h1>
+		<h2>Problem code: BUSYMAN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: center;"><strong><span style="font-size: medium;">I AM VERY BUSY</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: medium;"><br /></span></strong></p>
+<p style="text-align: left;"><span style="font-family: verdana, geneva; font-size: small;">You are actually very busy man. You have a big schedule of activities. Your aim is to do as much as activities as possible.</span></p>
+<p align="center"><img src="https://dl.dropbox.com/u/78558568/schedule.png" alt="" width="705" height="385" /></p>
+<p><span style="font-family: verdana, geneva; font-size: small; text-align: left;">In the given figure, if you go to date with crush, you cannot participate in the coding contest and you can&rsquo;t watch the movie. Also if you play DotA, you can&rsquo;t study for the exam. If you study for the exam you can&rsquo;t sleep peacefully. The maximum number of activities that you can do for this schedule is 3.&nbsp;</span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;"> Either you can&nbsp;<br /> * watch movie, play DotA and sleep peacefully (or)<br /> * date with crush, play DotA and sleep peacefully</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;"><br /> <br /></span></span></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">Input Specifications:</span></span></strong></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">The first line consists of an integer t, the number of test cases. For each test case the first line consists of an integer n, the number of activities. Then the next n lines contains two integers m and n, the start and end time of each activity.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">&nbsp;</span></span></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">Output Specifications:</span></span></strong></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">For each test case find the maximum number of activities that you can do.</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;"><br /> <br /></span></span></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">Input Constraints:</span></span></strong></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;"><strong>&nbsp;</strong>1&lt;=t&lt;=10</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">1&lt;=n&lt;=100000</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">0&lt;=start&lt;end&lt;=1000000</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">&nbsp;</span></span></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">Sample Input: (empty lines just for clarity)</span></span></strong></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">3</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">3 9</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">2 8</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">6 9<br /> <br /></span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">4</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">1 7</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">5 8</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">7 8</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">1 8</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">&nbsp;</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">6</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">7 9</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">0 10</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">4 5</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">8 9</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">4 10</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">5 7</span></span></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">&nbsp;</span></span></strong></p>
+<p><strong><span style="font-size: small;"><span style="font-family: verdana, geneva;">Sample Output:</span></span></strong></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">1</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">2</span></span></p>
+<p><span style="font-size: small;"><span style="font-family: verdana, geneva;">3</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2012-05-11</td></tr>
+<tr><td>Time limit:</td><td>0.324s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

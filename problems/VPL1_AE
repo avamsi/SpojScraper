@@ -1,0 +1,123 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL1_AE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14035. Winter Crush</h1>
+		<h2>Problem code: VPL1_AE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="white-space: normal;"> </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Winter is a sad season, specially if you have nobody to share your time with. Valentine&rsquo;s day  is coming and Dickie is crushed for Elizabeth, but she has already friendzoned him with the  classic &ldquo;You&rsquo;re my best friend&rdquo; and other silly phrases used by girls in order to keep the &ldquo;friend&rdquo;  neutralized but at the same time, keep him close.</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Nevertheless, Dickie ain&rsquo;t gonna to take any more stools. He&rsquo;s thinking about an ultimate move  to gain Elizabeth heart! He has called this &rdquo;No more stools operation!&rdquo;, and will take place  on Valentine&rsquo;s day. He hasn&rsquo;t clearly decided what to do, because that heavily depends on  Elizabeth&rsquo;s position on Valentine&rsquo;s day. Even so, Dickie has been smart enough to figured out  a way to know Elizabeth&rsquo;s position in terms of probability based on the time elapsed from the beginning of the day.</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">As Elizabeth&rsquo;s &ldquo;best friend&rdquo;, Dickie knows her preferences and tastes. He knows that if she&rsquo;s  at a given position x, she will move to any adjacent position y with a probability p<span style="font-size: x-small;">xy</span> depending  on the joy attained going there and the amount of snow on the path. The joy j<span style="font-size: x-small;">xy</span> is being  measured in joysons and the snow sxy by centimeters, and the choice will be taken by the  relation j<span style="font-size: x-small;">xy</span> /s<span style="font-size: x-small;">xy</span> . Some properties shall hold:</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> &bull; The set of all positions is to be named V </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><span style="font-size: x-small;"> &bull; <span style="font-size: small;">For any given x &isin; V , the set of all positions y &isin; V adjacent to x is to be named Ex. A position y is to be called adyacent if there is a path from x to y. Paths are bidirectional, so </span></span><span style="font-size: small;">j<span style="font-size: x-small;">xy</span>/s<span style="font-size: x-small;">xy</span> =&nbsp;j<span style="font-size: x-small;">yx</span>/s<span style="font-size: x-small;">yx</span>.</span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"> &bull; &forall;x &isin; V &and; &forall;y &isin; Ex : </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><img src="http://oi47.tinypic.com/2n8q5ow.jpg" alt="" width="216" height="144" /></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Dickie has some places in mind where he can find Elizabeth, but he&rsquo;s aware that she could  depart that morning from either her house or any of hers friends&rsquo; houses, so he wants to know  which is the position with the highest probability to find Elizabeth given an elapsed time and  the position she&rsquo;s departing. Dickie wants to evaluate several possible scenarios, so a query will  be formed by a time Ti and several possible initial positions Pi.</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><br /></span></p>
+<p style="margin-bottom: 0in;"><span style="font-family: Arial, sans-serif;"><strong><span style="font-size: small;"> Input </span></strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">The first line contains an integer C, which specifies the number of test cases. Then, will follow </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">the descriptions of C test cases. </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><br /></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Each case will start with two integers, N and M , denoting the number of positions and the number of paths respectively. Next M will describe each of the paths between positions with four integers x, y, j<span style="font-size: x-small;">xy</span> , s<span style="font-size: x-small;">xy</span> , with the significance given above in the statement. All position indexes are 0-based. The line M +1 will contain an integer Q denoting the number of Dickie&rsquo;s queries. Each query will start with two integers, Ti and qi denoting the elapsed time and the  number Elizabeth&rsquo;s possible starting positions. Next qi lines will contain an integer will represent Elizabeth&rsquo;s starting positions Pi.</span></p>
+<p style="margin-bottom: 0in;"><strong><span style="font-size: small;">Output</span></strong></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">For each test case you should print the string "Scenario #i:" where i represents the test case you are analyzing (starting from 1), followed by a blank line. For each query Qi in the input, you must output a line with qi integers representing the position with the highest probability  to find Elizabeth given the elapsed time Ti and the starting position Pi of her. If there are  several positions with the highest probability, print the smallest one. If there are no positions  with higher probability than 0, print -1. </span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;"><strong>INPUT</strong></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><span style="font-size: small;"><strong>OUTPUT</strong></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;">2 </span></p>
+<p><span style="font-size: small;">3 3 </span></p>
+<p><span style="font-size: small;">0 1 10 2 </span></p>
+<p><span style="font-size: small;">0 2 1 8 </span></p>
+<p><span style="font-size: small;">1 2 100 1 </span></p>
+<p><span style="font-size: small;">2 </span></p>
+<p><span style="font-size: small;">1 1 0 </span></p>
+<p><span style="font-size: small;">2 1 0 </span></p>
+<p><span style="font-size: small;">4 5 </span></p>
+<p><span style="font-size: small;">0 1 10 2 </span></p>
+<p><span style="font-size: small;">1 3 2 3 </span></p>
+<p><span style="font-size: small;">0 2 4 8 </span></p>
+<p><span style="font-size: small;">2 1 1 10 </span></p>
+<p><span style="font-size: small;">2 3 1 1 </span></p>
+<p><span style="font-size: small;">2 </span></p>
+<p><span style="font-size: small;">2 1 2 </span></p>
+<p><span style="font-size: small;">10 2 0 3 </span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p><span style="font-size: small;">Scenario #1: </span></p>
+<p><span style="font-size: small;">1 </span></p>
+<p><span style="font-size: small;">2 </span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">Scenario #2: </span></p>
+<p><span style="font-size: small;">1 </span></p>
+<p><span style="font-size: small;">0 0 </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="white-space: normal;"><span style="font-size: small;"> </span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Global constraints</strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 0 &lt; j<span style="font-size: x-small;">xy</span> , s<span style="font-size: x-small;">xy</span> &le; 100 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 0 &le; M &le;  (N*(N-1))/2</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><br /></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Constraints - Subtask 1 (30%) </strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; C &le; 50 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; N &le; 20 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 0 &le; |Ex | &le; 3, &forall; x &isin; V </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; Ti &le; 20 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; Q &le; 10 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; qi = 1 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 0 &le; Pi &le; N </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Constraints - Subtask 2 (70%) </strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; C &le; 20 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; N &le; 100 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; Q &le; 10 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 2 &le; Ti &le; 2000 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 1 &le; qi &le; 100 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">&bull; 0 &le; Pi &le; N&nbsp;</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-03-08</td></tr>
+<tr><td>Time limit:</td><td>30s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

@@ -1,0 +1,38 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/poncholo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SOCIALNE" target="_blank">8042. Possible Friends</a></td><td><a href="http://www.spoj.com/problems/SOCIALNE"target="_blank">SOCIALNE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IMMERSED" target="_blank">8044. Fantastic Discovery</a></td><td><a href="http://www.spoj.com/problems/IMMERSED"target="_blank">IMMERSED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AHORCADO" target="_blank">9242. B Beware, the end of the world</a></td><td><a href="http://www.spoj.com/problems/AHORCADO"target="_blank">AHORCADO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUBLICAT" target="_blank">9255. Publication</a></td><td><a href="http://www.spoj.com/problems/PUBLICAT"target="_blank">PUBLICAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERFECTR" target="_blank">9260. Perfect Road</a></td><td><a href="http://www.spoj.com/problems/PERFECTR"target="_blank">PERFECTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM025" target="_blank">10186. Divisor Digits</a></td><td><a href="http://www.spoj.com/problems/PUCMM025"target="_blank">PUCMM025</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM210" target="_blank">11560. A Summatory</a></td><td><a href="http://www.spoj.com/problems/PUCMM210"target="_blank">PUCMM210</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM215" target="_blank">11564. E 23 Stairs pattern</a></td><td><a href="http://www.spoj.com/problems/PUCMM215"target="_blank">PUCMM215</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM223" target="_blank">11909. C You and Me</a></td><td><a href="http://www.spoj.com/problems/PUCMM223"target="_blank">PUCMM223</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM333" target="_blank">13116. Dividing Xorland</a></td><td><a href="http://www.spoj.com/problems/PUCMM333"target="_blank">PUCMM333</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM334" target="_blank">13117. White Hats</a></td><td><a href="http://www.spoj.com/problems/PUCMM334"target="_blank">PUCMM334</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PUCMM335" target="_blank">13118. The Rook and The Rookette </a></td><td><a href="http://www.spoj.com/problems/PUCMM335"target="_blank">PUCMM335</a><br>
+</td></tr>

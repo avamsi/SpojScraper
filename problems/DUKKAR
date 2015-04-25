@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DUKKAR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18917. Dukkar and Pikka</h1>
+		<h2>Problem code: DUKKAR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Pika and Dukkar are roomie. Pika is a nerd and likes to play with mathematics! Pika's favourite topic is pascal triangle and he proclaims that he can solve any problem related to this. So Dukkar decides if it's really true!</span></p>
+<p><span style="font-size: small;">Dukkar gives a number N and a prime number P. N is the Nth row of pascal triangle starting with 0. Dukkar asks Pika to find how many numbers in nth row are divisible by P. Since the number can be very large so, Pika has to write a program. Since end sem are coming and Pika has to top in his batch so he asks you for help. Can you help Pika?</span></p>
+<p><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img title="pascal triangle" src="http://ptri1.tripod.com/ptreal1r.gif" alt="pascal triangle" width="355" height="297" /></span></p>
+<p style="text-align: center;"><strong><span style="font-size: 1.17em;">Input</span></strong></p>
+<p><span style="font-size: small;">The first line of the test file will contain <strong>T(T&lt;100000)</strong> where <strong>T</strong> is the no. of test cases. Each of the next T lines will contain two integers <strong>N(0&lt;=N&lt;=10<sup>18</sup>)</strong> &nbsp;and <strong>P(2&lt;=P&lt;=10<sup>5</sup><sup>)</sup></strong>&nbsp;as defined above.</span></p>
+<h3 style="text-align: center;">Output</h3>
+<p><span style="font-size: small;">For each test case print on each line K the number of numbers divisible by P on Nth row of the pascal triangle.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<strong><span style="font-size: medium;">2</span></strong></pre>
+<pre><strong><span style="font-size: medium;">2 2</span></strong></pre>
+<pre><strong><span style="font-size: medium;">7 7</span></strong>
+
+<strong>Output:</strong>
+<strong><span style="font-size: medium;">1</span></strong></pre>
+<pre><strong><span style="font-size: medium;">6</span></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nr3600">NISHANT RAJ</a></td></tr>
+<tr><td>Date:</td><td>2014-03-09</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.800s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FILRTEST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7423. File Recover Testing</h1>
+		<h2>Problem code: FILRTEST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In a recent programming contest appeared a problem named &ldquo;File Recover&rdquo;. In that<br />problem, repeated strings of a given text were to be counted. You are preparing test<br />cases for that problem, and in order to test for border cases you want to generate a text<br />with many repetitions of a particular string.<br />Of course, test cases cannot be arbitrarily long, so you decided to choose a length and a<br />string, and then fit in a text of that length as many repetitions as possible of the string.<br />For instance, if the length is 14 and the string is &ldquo;abcab&rdquo;, you may generate the text<br />&ldquo;abcabcabcabcab&rdquo; whose length is 14 and where the string &ldquo;abcab&rdquo; appears 4 times<br />(starting at positions 1, 4, 7 and 10).<br />You would like to know how good your idea is before implementing. Given a length and<br />a string, you must determine the maximum number of times the characters of the string<br />can appear consecutively in a text of that length.</p>
+<h3>Input</h3>
+<p>Each test case is described using a single line. The line contains an integer K (1 &le; K &le;<br />10<sup>9</sup> ) and a non-empty string S of at most 10<sup>6</sup> lowercase letters. The end of input is<br />indicated with a line containing the number &minus;1 and an asterisk (&ldquo;*&rdquo;).</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with a single integer representing the maximum<br />number of times the characters of S can appear consecutively in a text of length K.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />14 abcab<br />1000 abcde<br />1000000000 z<br />1 zzzzz<br />-1 *
+<br /><strong>Output:</strong> <br />4<br />200<br />1000000000<br />0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>1.975s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

@@ -1,0 +1,136 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HIDTRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3490. Hidden Triangle</h1>
+		<h2>Problem code: HIDTRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Assume that each `<TT>0</TT>' or `<TT>1</TT>' in the array represents a point on a plane and the distance
+between each pair of neighbouring
+points row wise or column wise is unity. Assume further that every
+neighbouring pair of <TT>1</TT>'s,
+row wise, column wise or diagonally is connected by a line segment. Two line segments emerging
+from a point, either join together to
+form a longer line segment or form an angle of <SPAN CLASS="MATH">45<SUP><TT>o</TT></SUP></SPAN>, <SPAN CLASS="MATH">90<SUP><TT>o</TT></SUP></SPAN>
+
+or <SPAN CLASS="MATH">135<SUP><TT>o</TT></SUP></SPAN>, thus forming right-angled isosceles triangles. The
+existence of hidden right-angled isosceles triangles in an array is illustrated
+in the figure below.
+
+<P>
+<DIV ALIGN="CENTER">
+<!-- MATH
+ $\epsfbox{p3258.eps}$
+ -->
+<IMG
+ ALIGN="BOTTOM" BORDER="0"
+ SRC="http://acmicpc-live-archive.uva.es/nuevoportal/data/p3258.jpg"
+ ALT="\epsfbox{p3258.eps}">
+</DIV>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A> </FONT>
+</H2>
+
+<P>
+Input consists of multiple test cases.
+
+<P>
+For each test case the first line gives
+three integers: the case number <SPAN CLASS="MATH"><I>k</I></SPAN>, the number of rows <SPAN CLASS="MATH"><I>m</I></SPAN> and the number of
+columns <SPAN CLASS="MATH"><I>n</I></SPAN> of the given array. A space appears between two
+neighbouring integers.
+
+<P>
+Each of the next <SPAN CLASS="MATH"><I>m</I></SPAN> lines gives a string
+of <TT>0</TT>'s and <TT>1</TT>'s of length <SPAN CLASS="MATH"><I>n</I></SPAN>; the <SPAN CLASS="MATH"><I>i</I></SPAN>-th line gives the <SPAN CLASS="MATH"><I>i</I></SPAN>-th row of the array.
+
+
+<P>
+Input terminates with a value zero for case number <SPAN CLASS="MATH"><I>k</I></SPAN>.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A> </FONT>
+</H2>
+
+<P>
+For each test case, display output in
+one line. The line contains the case number <SPAN CLASS="MATH"><I>k</I></SPAN> and the area of the largest
+right-angled isosceles triangle hidden in the array. The area is a real number
+with one digit after the decimal point. If a triangle does
+not exist then output `<TT>0.0</TT>' as the area.
+
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A> </FONT>
+</H2>
+
+<P>
+<PRE>
+1 3 3
+101
+100
+101
+2 4 6
+001001
+010101
+111111
+000001
+0
+</PRE>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A> </FONT>
+
+</H2>
+
+<P>
+<PRE>
+1 0.0
+2 4.0
+</PRE>
+
+<P>
+<hr><ADDRESS>Kanpur-Kolkata 2004-2005</ADDRESS><p></body></html>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-09</td></tr>
+<tr><td>Time limit:</td><td>0.136s-0.363s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Kanpur 2004</td></tr>	
+</table>

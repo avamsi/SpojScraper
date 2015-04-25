@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ICKHELLO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15336. Hello Intercal!</h1>
+		<h2>Problem code: ICKHELLO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>All you need to do Is to print "<strong>HELLO-INTERCAL</strong>" ,Of cource using INTERCAL.</p>
+<h3>Input</h3>
+<p>no input.</p>
+<h3>Output</h3>
+<p>HELLO-INTERCAL</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /><br /><strong>Output:</strong><br />HELLO-INTERCAL<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mostafa_36a2">Mostafa 36a2</a></td></tr>
+<tr><td>Date:</td><td>2013-07-02</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ICK </td></tr>
+	
+</table>

@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DOJO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11601. With a Pit of Death</h1>
+		<h2>Problem code: DOJO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Leo is training his martial arts in byteland's dojo.<br /> The dojo is a rectangular ( n × m ) area with a pit of death, a square located at (i, j), where 1 <= i <= n, and 1 <= j <= m.<br />Every night, battles are very hard and the dojo is destructed, and reconstructed during the day around the pit.<br />Every evening, Leo's first mission is to make in place tatamis ( 2 × 1 ) in the new dojo.<br />Tatamis should cover the whole dojo except the pit of death.<br />Sometimes it's possible, sometimes not!<br /><br /><br /></p>
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.<br />In each of the next T lines there are four integers n, m, i and j.</p>
+<h3>Output</h3>
+<p>For each test case, print the answer of the problem : "Possible." or "Impossible.".</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />3 3 2 2<br />3 3 1 2<br />
+
+<strong>Output:</strong>
+Possible.<br />Impossible.<br />
+</pre>
+<h3>Constraints</h3>
+<p>1 <= T <= 1 000<br />1 <= i <= n <= 32<br />1 <= j <= m <= 10<sup>2000</sup></p>
+<p> </p>
+<p><img title="rebound" src="../../content/francky:dojo-fig" alt="dojo" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2012-05-26</td></tr>
+<tr><td>Time limit:</td><td>0.194s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

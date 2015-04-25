@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCOINS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3885. Coins Game</h1>
+		<h2>Problem code: MCOINS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MCOINS/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/MCOINS/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Asen and Boyan are playing the following game. They choose two different positive integers K and L, and start the game with a tower of N coins. Asen always plays first, Boyan &ndash; second, after that &ndash; Asen again, then Boyan, and so on. The boy in turn can take 1, K or L coins from the tower. The winner is the boy, who  takes  the  last  coin  (or  <br />coins). After  a  long,  long playing, Asen  realizes  that  there  are cases in which he could win, no matter how Boyan plays. And in all other cases Boyan being careful can win, no matter how Asen plays.</p>
+<p><br />So, before the start of the game Asen is eager to know what game case  they have. Write a program coins which help Asen  to predict  the game  result  for given K, L and N.</p>
+<h3>INPUT</h3>
+<pre><br /></pre>
+<p>The input describes m games.</p>
+<p>The first line of the standard input contains the integers K, L and m, 1 &lt; K &lt; L &lt; 10, 3 &lt; m &lt; 50. The second  line contains m integers N1, N2, &hellip;, Nm, 1 &le; Ni &le; 1 000 000,  i = 1, 2, &hellip;., m, representing  the number of coins in each of the m towers</p>
+<pre>SAMPLE INPUT<br />2 3 5 <br />3 12 113 25714 88888</pre>
+<h3>OUTPUT</h3>
+<p>The  standard output contains a  string of  length m composed of letters A and B.  If Asen wins  the  ith game (no matter how the opponent plays), the ith letter of the string has to be A. When Boyan wins the ith game (no matter how Asen plays), the ith letter of the string has to be B.</p>
+<pre><br />SAMPLE OUTPUT<br />ABAAB<br /></pre>
+<p><strong>Problem for kid - Please, think like kid.</strong>  </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-17</td></tr>
+<tr><td>Time limit:</td><td>0.216s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>BOI For Kid 08</td></tr>	
+</table>

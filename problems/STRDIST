@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STRDIST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2325. String Distance</h1>
+		<h2>Problem code: STRDIST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let A = a<sub>1</sub>a<sub>2</sub>...a<sub>k</sub> and B = b<sub>1</sub>b<sub>2</sub>...b<sub>l</sub> be strings of lengths
+k and l,
+respectively. The string distance between A and B is defined in the
+following
+way (d[i,j] is the distance of substrings a<sub>1</sub>...a<sub>i</sub> and b<sub>1</sub>...b<sub>j</sub>, where 0 &#8804; i &#8804; k and 0 &#8804; j &#8804; l -- i or j being 0
+represents the empty substring). The definition for d[i, j] is d[0, 0] = 0 and for (i, j) &#8800; (0, 0) d[i, j] is the minimum of all that apply:
+<ul>
+<li>d[i, j - 1] + 1, if j > 0</li>
+<li>d[i - 1, j] + 1, if i > 0</li>
+<li>d[i - 1, j - 1], if i > 0, j > 0, and a<sub>i</sub> = b<sub>j</sub></li>
+<li>d[i - 1, j - 1] + 1, if i > 0, j > 0, and a<sub>i</sub> &#8800; b<sub>j</sub></li>
+<li>d[i - 2, j - 2] + 1, if i &#8805; 2, j &#8805; 2, a<sub>i</sub> = b<sub>j-1</sub>, and a<sub>i-1</sub> = b<sub>j</sub></li>
+</ul>
+
+<p>The distance between A and B is equal to d[k,l].
+
+<p>For two given strings A and B, compute their distance knowing that it is not higher than 100.
+
+<h3>Input</h3>
+<p>In the first line, k and l are given, giving the lengths of the strings
+A and
+B (1 &#8804; k, l &#8804; 10<sup>5</sup>). In the second and third lines strings A and
+B, respectively, are given.  A and B contain only lowercase
+letters of the English alphabet.
+
+<h3>Output</h3>
+<p>In the first line, write one number, the distance between A and B,
+followed by a newline.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+8 8
+computer
+kmpjutre
+
+<b>Output:</b>
+4
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>4.117s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/team1/index.html">MIT 1st Team Contest 2007</a></td></tr>	
+</table>

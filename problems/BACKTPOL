@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BACKTPOL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7100. Back To The Polygon</h1>
+		<h2>Problem code: BACKTPOL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A simple polygon is a polygon that does not overlap with itself. A diagonal of a simple polygon<br />is a segment within the polygon that connects two non-consecutive vertices. A triangulation<br />of a simple polygon of N edges is the drawing of exactly N &minus; 3 diagonals that do not touch<br />each other anywhere, with the possible exception of their endpoints. A triangulation divides<br />the polygon in exactly N &minus; 2 triangles that do not overlap and only touch each other along<br />their edges.</p>
+<p>In this problem, you are given the triangulation of a simple polygon, which means, the set of<br />triangles in which a polygon was divided. From them, you need to reconstruct the original<br />polygon.</p>
+<h3>Input</h3>
+<p>The input contains several test cases, each one described in several lines. The first line of each<br />test case contains an integer N (3 &le; N &le; 500), the number of edges of the original polygon.<br />Each of the next N &minus; 2 lines describes one triangle in the triangulation of the polygon. Each<br />triangle is given by six integers X1 , Y1 , X2 , Y2 , X3 and Y3 separated by single spaces, where Xi<br />and Yi are the coordinates in the XY plane of the i-th vertex of the triangle (&minus;1000 &le; Xi , Yi &le;<br />1000). The triangles and their vertices are not given in any specific order. The last line of the<br />input contains a single &minus;1 and should not be processed as a test case.</p>
+<h3>Output</h3>
+<p>For each test case output a single line with 2N integers separated by single spaces. These<br />integers must represent the coordinates in the XY plane of the vertices of the original polygon,<br />in clockwise order. To make the output unique, the first vertex to be listed is the one with the<br />smallest X coordinate, and if there are many of those, the one with the smallest Y coordinate<br />among them.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />0 0 10 9 10 0<br />10 9 0 9 0 0<br />10 9 0 9 5 13<br />3<br />0 1 1 1 1 0<br />10<br />-1 -2 2 -2 2 -1<br />-1 -2 0 -1 -2 3<br />-2 3 2 3 1 2<br />0 -1 2 1 1 2<br />-1 -2 2 -1 0 -1<br />2 1 0 -1 2 0<br />2 3 2 2 1 2<br />0 -1 -2 3 1 2<br />-1<br /><strong>Output:</strong><br />0 0 0 9 5 13 10 9 10 0<br />0 1 1 1 1 0<br />-2 3 2 3 2 2 1 2 2 1 2 0 0 -1 2 -1 2 -2 -1 -2</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.200s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2007</td></tr>	
+</table>

@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CZ_PROB1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1391. Summing to a Square Prime</h1>
+		<h2>Problem code: CZ_PROB1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+S<sub>P2</sub> = {p | p = x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> for some x<sub>1</sub>, x<sub>2</sub> belonging to Z} is the set of all primes that can be represented as the sum of any two squares. The function S<sub>P2</sub>(n) gives the n<sup>th</sup> prime number from the set S<sub>P2</sub>. Now, given two integers n (0<n<501) and k (0<k<4), find p(S<sub>P2</sub>(n), k) where p(a, b) gives the number of unordered ways to sum to the given total &#8216;a&#8217; with &#8216;b&#8217; as its largest part.
+
+For example: p(5, 2) = 3 {2+2+1, 2+1+1+1, and 1+1+1+1+1}. Here 5 is the total with 2 as the largest part.
+
+
+<h3 align=left>Input</h3>
+<p>The first line gives the number of test cases T followed by T lines of integer pairs, n and k. <br>
+Scope: <br>
+0 < T < 501 <br>
+0 < n < 501 <br>
+1 < S<sub>P2</sub>(n) < 7994 <br>
+0 < k < 4 
+
+<h3 align=left>Output</h3>
+<p>The p(S<sub>P2</sub>(n), k) for each n and k. Append a newline character to every test cases&#8217; answer.
+
+<h3 align=left>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2 2
+3 2
+5 3
+
+<b>Output:</b>
+3
+7
+85
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/rahullak">Rahul</a></td></tr>
+<tr><td>Date:</td><td>2007-03-10</td></tr>
+<tr><td>Time limit:</td><td>0.714s
+</td></tr>
+<tr><td>Source limit:</td><td>3000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Sam Collins</td></tr>	
+</table>

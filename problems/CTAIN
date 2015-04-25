@@ -1,0 +1,101 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CTAIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>260. Containers</h1>
+		<h2>Problem code: CTAIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+   <p>We are given <i>n</i> containers, where 1 <= <i>n</i> <= 4. At
+        the beginning all of them are full of water. The liter capacity of the <i>i</i>-th
+        container is a natural number <i>o</i><sub><i>i</i> </sub>satisfying
+        inequalities 1 <= <i>o<sub>i</sub> </i><= 49. <br>
+        Three kinds of moves can be made:  
+        <ol type="1">
+          <li>Pouring the whole content of one container into another. This move
+            can be made unless there is too little room in the second container. 
+          <li>Filling up one container with part of the water from another one.
+          <li>Pouring away the whole content of one container into a drain. <br>
+          </li>
+        </ol>
+</p>
+<h3>Task</h3>
+<p>
+  <p>Write a program that for each test case:</p>
+        <ul type="disc">
+          <li>Reads the number of containers <i>n</i>, the capacity of each container and the requested final amount of water in each container.
+          <li>Verifies, whether there exist a series of moves which leads to the        requested final situation, and if there is one, the program computes the minimal number of moves leading to the requested situation,  <li>Writes the result. The result should be the minimal number of moves leading to the requested final situation, or one word "NO" if there is no such a sequence of moves.</li>
+        </ul>
+</p>
+
+<h3>Input</h3>
+<p>One integer in the first line, stating the number of test cases, followed by a blank line. There will be not more than 20 tests.</p>
+<p>For each test case, at the first line, one positive integer <i>n</i>
+        is written, <i>n</i> <= 4, this is the number of containers. There
+        are <i>n</i> positive integers written in the second line. These are the
+        capacities of the containers (the <i>i</i>-th integer <i>o</i><sub><i>i</i></sub>
+        denotes the capacity if the <i>i</i>-th  container,1 <= <i>o</i><sub><i>i</i></sub>
+        <= 49). In the third line there are written <i>n</i>
+        numbers. These are the requested final volumes of water in the
+        containers (the <i>i</i>-th integer <i>w</i><sub><i>i</i></sub> denotes
+        the requested final volume of water in the <i>i</i>-th container, 0
+        <= <i>w</i><sub><i>i</i></sub> <= <i>o</i><sub><i>i</i></sub>).
+        All integers in the second and the third line are separated by single
+        spaces.</p>
+<p>The test cases will be separated by a single blank line. </p> 
+
+<h3>Output</h3>
+<p>For each test case : write one integer - the minimal number of moves which lead to the requested final situation or write only one word "NO" if it is not possible to reach the requested final situation making only allowed moves.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+
+3
+3 5 5
+0 0 4
+
+2
+20 25
+10 16
+
+<b>Output:</b>
+6
+NO
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2004-12-24</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>3rd Polish Olympiad in Informatics, stage 1</td></tr>	
+</table>

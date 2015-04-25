@@ -1,0 +1,119 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BRCKTS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>61. Brackets</h1>
+		<h2>Problem code: BRCKTS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+We will call a <b>bracket word</b> any word constructed out of two sorts
+of characters: the opening bracket "(" and the closing bracket ")". Among
+these words we will distinguish <b>correct bracket expressions</b>. These are
+such bracket words in which the brackets can be matched into pairs such that
+<ul>
+<li>every pair consists of an opening bracket and a closing bracket
+appearing further in the bracket word</li>
+<li>for every pair the part of the word between the brackets of this pair
+has equal number of opening and closing brackets
+</li>
+</ul>
+
+On a bracket word one can do the following operations:
+<ul>
+<li><b>replacement</b> -- changes the i-th bracket into the opposite one</li>
+<li><b>check</b> -- if the word is a correct bracket expression</li>
+</ul>
+</P>
+<H3>Task</H3>
+<P>
+Write a program which
+</P>
+<div align="justify">
+<ul>
+<li> reads (from standard input) the bracket word and the sequence of
+operations performed,
+</li>
+<li> for every check operation determines if the current bracket word is
+a correct bracket expression,
+</li>
+<li> writes out the outcome (to standard output).
+</li>
+</ul></div>
+
+<H3>Input</H3>
+<P>
+ Ten test cases (given one under another, you have to process all!).
+ Each of the test cases is a series of lines.
+ The first line of a test consists of a single number <i>n (1<=n<=30000)</i> denoting
+ the length of the bracket word.
+ The second line consists of <i>n</i> brackets, not separated by any spaces.
+ The third line consists of a single number <i>m</i> -- the number of operations.
+ Each of the following <i>m</i> lines carries a number <i>k</i> denoting the operation
+ performed. <i>k=0</i> denotes the check operation, <i>k>0</i> denotes replacement of
+ <i>k</i>-th bracket by the opposite.
+</P>
+<H3>Output</H3>
+<P>
+For every test case your program should print a line:<br>
+Test i:<br>
+where i is replaced by the number of the test
+and in the following lines, for every check operation in the i-th test
+your program should print a line with the word
+YES,
+if the current bracket word is a correct bracket expression, and a line
+with a word
+NO otherwise.
+(There should be as many lines as check operations in the test.)
+</P>
+<H3>Example</H3>
+<pre>
+<tt><b>Input:</b>
+4
+()((
+4
+4
+0
+2
+0
+[and 9 test cases more]
+<b>Output:</b>
+Test 1:
+YES
+NO
+[and 9 test cases more]
+</tt>
+</pre>
+<b>Warning: large Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kfas">Adam Dzedzej</a></td></tr>
+<tr><td>Date:</td><td>2004-06-15</td></tr>
+<tr><td>Time limit:</td><td>11s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Internet Contest <B>Pogromcy Algorytmow</B>(Algorithm Tamers) 2003 Round IV</td></tr>	
+</table>

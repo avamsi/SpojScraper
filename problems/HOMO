@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HOMO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7691. Homo or Hetero</h1>
+		<h2>Problem code: HOMO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Consider a list of numbers with two operations:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; insert number &mdash; adds the specified number to the end of the list.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&bull; delete number &mdash; removes the first occurrence of the specified number from the list. If the list</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">does not contain the number specified, no changes are performed.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For example: the result of the insertion of a number 4 to the list [1, 2, 1] is the list [1, 2, 1, 4]. If we delete</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the number 1 from this list, we get the list [2, 1, 4], but if we delete the number 3 from the list [1, 2, 1, 4],</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the list stays unchanged.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The list is homogeneous if it contains at least two equal numbers and the list is heterogeneous if it</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">contains at least two different numbers. For example: the list [2, 2] is homogeneous, the list [2, 1, 4] is</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">heterogeneous, the list [1, 2, 1, 4] is both, and the empty list is neither homogeneous nor heterogeneous.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Write a program that handles a number of the operations insert and delete on the empty list and</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">determines list&rsquo;s homogeneity and heterogeneity after each operation.</div>
+<p>&nbsp;</p>
+<p>Consider a list of numbers with two operations:</p>
+<p>&bull; insert number &mdash; adds the specified number to the end of the list.</p>
+<p>&bull; delete number &mdash; removes the first occurrence of the specified number from the list. If the list&nbsp;does not contain the number specified, no changes are performed.</p>
+<p>For example: the result of the insertion of a number 4 to the list [1, 2, 1] is the list [1, 2, 1, 4]. If we delete&nbsp;the number 1 from this list, we get the list [2, 1, 4], but if we delete the number 3 from the list [1, 2, 1, 4],&nbsp;the list stays unchanged.</p>
+<p>The list is homogeneous if it contains at least two equal numbers and the list is heterogeneous if it&nbsp;contains at least two different numbers. For example: the list [2, 2] is homogeneous, the list [2, 1, 4] is&nbsp;heterogeneous, the list [1, 2, 1, 4] is both, and the empty list is neither homogeneous nor heterogeneous.</p>
+<p>Write a program that handles a number of the operations insert and delete on the empty list and&nbsp;determines list&rsquo;s homogeneity and heterogeneity after each operation.</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The first line of the input file contains an integer number n &mdash; the number of operations to handle&nbsp;(1 &le; n &le; 100 000).</p>
+<p>Following n lines contain one operation description each. The operation description consists of a word&nbsp;&ldquo;insert&rdquo; or &ldquo;delete&rdquo;, followed by an integer number k &mdash; the operation argument (&minus;10^9 &le; k &le; 10^9 ).</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>For each operation output a line, containing a single word, describing the state of the list after the&nbsp;operation:</p>
+<p>&bull; &ldquo;both&rdquo; &mdash; if the list is both homogeneous and heterogeneous.</p>
+<p>&bull; &ldquo;homo&rdquo; &mdash; if the list is homogeneous, but not heterogeneous.</p>
+<p>&bull; &ldquo;hetero&rdquo; &mdash; if the list is heterogeneous, but not homogeneous.</p>
+<p>&bull; &ldquo;neither&rdquo; &mdash; if the list is neither homogeneous nor heterogeneous.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /></pre>
+<pre>11<br />insert 1<br />insert 2<br />insert 1<br />insert 4<br />delete 1<br />delete 3<br />delete 2<br />delete 1<br />insert 4<br />delete 4<br />delete 4<br /><br /><br /><strong>Output:</strong><br /></pre>
+<pre>neither<br />hetero<br />both<br />both<br />hetero<br />hetero<br />hetero<br />neither<br />homo<br />neither<br />neither<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/danielmaxx">Daniel Ampuero</a></td></tr>
+<tr><td>Date:</td><td>2010-10-27</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++14 COB GROOVY NODEJS PYPY PYTH 3.2.3 n PY3.4 SCM chicken SED VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2009&#8211;2010, NEERC, Northern Subregional Contest</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CF25E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7155. Test</h1>
+		<h2>Problem code: CF25E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Sometimes it is hard to prepare tests for programming problems. Now Bob  is preparing tests to new problem about strings &mdash; input data to his  problem is one string. Bob has 3 wrong solutions to this problem. The  first gives the wrong answer if the input data contains the substring <span><em>s</em><sub>1</sub></span>, the second enters an infinite loop if the input data contains the substring <span><em>s</em><sub>2</sub></span>, and the third requires too much memory if the input data contains the substring <span><em>s</em><sub>3</sub></span>.  Bob wants these solutions to fail single test. What is the minimal  length of test, which couldn't be passed by all three Bob's solutions?</p>
+<h3>Input</h3>
+<p>There are several test cases. For each test case there are exactly 3 lines. The <span><em>i</em></span>-th line contains string <span><em>s</em><sub><em>i</em></sub></span>. All the strings are non-empty, consists of lowercase Latin letters, the length of each string doesn't exceed <span>10<sup>5</sup></span>.</p>
+<h3>Output</h3>
+<p>For each test case output one number &mdash; what is minimal length of the string, containing <span><em>s</em><sub>1</sub></span>, <span><em>s</em><sub>2</sub></span> and <span><em>s</em><sub>3</sub></span> as substrings.</p>
+<h3>Example</h3>
+<pre><strong>Input</strong>:<br />ab<br />bc<br />cd<br />abacaba<br />abaaba<br />x<strong><br /><br />Output:</strong>
+4<br />11</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/david70">David Gómez</a></td></tr>
+<tr><td>Date:</td><td>2010-08-17</td></tr>
+<tr><td>Time limit:</td><td>1.089s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Codeforces - Unofficial Test Cases</td></tr>	
+</table>

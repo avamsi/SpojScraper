@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ACPC10B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7976. Sum the Square</h1>
+		<h2>Problem code: ACPC10B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Take any positive number, find the sum of the squares of its digits, repeat! You&rsquo;ll end up with an infinite sequence with an interesting property that we would like to investigate further. Starting with the number 5, the sequence is:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (5, 25, 29, 85, 89, 145, 42, 20, 4, 16, 37, 58, . . .)<br />The interesting part is in what comes after 58: 5<sup>2</sup> + 8<sup>2</sup> = 89 which is a number that&rsquo;s already been seen in the sequence. In other words, after 58, the sequence will fall into the repeating cycle:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 89, 145, 42, 20, 4, 16, 37, 58.<br />What&rsquo;s amazing is that this cycle will appear for many other numbers: 3, 18, 36, and 64 just to name a few. (see figure on the following page.) For some numbers, the sequence will fall into another repeating cycle by reaching 1. (see second figure on the following page) For example, starting with 19, you&rsquo;ll end up with the sequence:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (19, 82, 68, 100, 1, . . .)<br />And that&rsquo;s about it. Any number you choose will end up falling into a repeating cycle: Either the 89, 145, . . . cycle or the 1, . . . cycle.<br />Given two numbers, your objective is to generate as few numbers in their sequences for the two sequences to intersect at one common number. For example, given 61 and 29, we can achieve what&rsquo;s required by generating the sequences: (61, 37, 58, 89) and (29, 85, 89). Similarly, for 19 and 100, the sequences would be (19, 82, 68, 100) and (100).</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case is specified on a single line having two integers (0 &lt; A, B &lt; 10<sup>9</sup> ).<br />The last case is followed by a dummy line made of two zeros.</p>
+<h3>Output</h3>
+<p>For each test case, print the following line:<br />A B S<br />Where A, B are as in the input and S is the (minimum) sum of the lengths of the two sequences.<br />If the sequences starting at A and B do not intersect, then S = 0.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />89 89<br />19 100<br />61 19<br />0 0<br /><br /><strong>Output:</strong><br />89 89 2<br />19 100 5<br />61 19 0<br /><br /></pre>
+<p style="text-align: center;"><img title="a" src="../../content/omar_azazy:ACPC10B_a" alt="a" /></p>
+<p style="text-align: center;"><img title="b" src="../../content/omar_azazy:ACPC10B_b" alt="b" /></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/omar_azazy">Omar ElAzazy</a></td></tr>
+<tr><td>Date:</td><td>2010-11-30</td></tr>
+<tr><td>Time limit:</td><td>0.383s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACPC 2010</td></tr>	
+</table>

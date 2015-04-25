@@ -1,0 +1,97 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL1_AA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14031. Spring Primality</h1>
+		<h2>Problem code: VPL1_AA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><span style="white-space: normal;"> </span></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Dickie was playing with his friend some day in the spring season, he bought some cards, each  card contains a number, that can be a prime or not. The game that Dickie plays consists to  count what is the longest segment of contiguous cards that contains a prime, by instance, if the  cards are: 2 5 8 14 11 15, the longest contiguous segment will be of length 2 as the cards 2,5  are primes, while the 11 is automatically discarded as it is isolated. </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">Nevertheless, Dickie&rsquo;s friends are evil and they challenged him to do another task, that goes  as follows, for every card that is not a prime, you substract every of its prime factors to the  prime count of the factor and for every card that is a prime, you will add a unit to its prime  count, i.e.: 2 5 8 14 11 15, primes=2,5,11, 8=2*2*2, 14=2*7, 15=3*5, so, prime count [2] = 1- 3-1, prime count [5] = 1-1 prime count [11] = 1. There is no consideration for the other numbers.</span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">After doing this, Dickie will count another time the longest contiguous segment, however, if the  prime count is less or equal than zero, you can&rsquo;t count that prime card. Help Dickie to find the  longest contiguous segment of cards according to his rules, and the longest contiguous segment  of cards according to his friends rules.</span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Input </strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">The first line contains an integer T , which specifies the number of test cases. Then, will follow </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">the descriptions of T test cases. </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">The first line of each case will contain a number N , then, in the next line, N numbers will follow.</span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Output </strong></span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;">For each test case you should print the string "Scenario #i: " where i represents the test  case you are analyzing (starting from 1), followed by the longest segment of contiguous prime  cards, then, a single space, a "greater than-sign" and another single space will follows and  after that, the segment of contiguous cards according to the rules proposed by Dickie&rsquo;s friends. </span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;"><strong>INPUT</strong></span></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><span style="font-size: small;"><strong>OUTPUT</strong></span></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><span style="font-size: small;">3 </span></p>
+<p><span style="font-size: small;">7 </span></p>
+<p><span style="font-size: small;">7 9 11 2 5 7 6 </span></p>
+<p><span style="font-size: small;">3 </span></p>
+<p><span style="font-size: small;">2 3 4 </span></p>
+<p><span style="font-size: small;">5 </span></p>
+<p><span style="font-size: small;">8 16 32 64 7</span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p><span style="font-size: small;">Scenario #1: 4 &gt; 			2 </span></p>
+<p><span style="font-size: small;">Scenario #2: 2 &gt; 			1 </span></p>
+<p><span style="font-size: small;">Scenario #3: 1 &gt; 			1 </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: small;"><span style="white-space: normal;"> </span></span></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Constraints - Subtask 1 (20%) </strong></span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1 &le; T &le; 100 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1 &le; N &le; 100 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">2 &le; Ni &le; 1000 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Constraints - Subtask 2 (30%) </strong></span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1 &le; T &le; 10 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1 &le; N &le; 1000 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">2 &le; Ni &le; 100000 </span></p>
+<p style="margin-bottom: 0in;"><span style="font-size: small;"><strong>Constraints - Subtask 3 (50%) </strong></span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1&le;T &le;5 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">1 &le; N &le; 100000 </span></p>
+<p style="margin-bottom: 0in;">&bull; <span style="font-size: small;">2 &le; Ni &le; 10000000&nbsp;</span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-03-08</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

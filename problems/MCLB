@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MCLB"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9968. Magic Crystals and Laser Beams</h1>
+		<h2>Problem code: MCLB</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>John and Ged are playing a game with magic crystals and a laser beams. The game starts by arranging a 64 magic crystal in a single row and both John and Ged stand on the right of this row and start shooting them with laser beams. The magic crystals come in different colors each of which has a different behavior.&nbsp; The red crystal absorbs the laser beam while the blue crystal allows the laser beam to move through it passing to the following crystal. In both cases, the crystals flip its color: red crystal flips to blue crystal while blue crystal flips to red crystal. The behavior of crystals with other colors is not always defined so they will not be part of the game. The game ends when all the magic crystals are all red.</p>
+<p>After a long time of playing with the magic crystals, John was wondering, given start state of crystals order, after how many laser beams they can reach a given target order before reaching the end of the game. Kindly help them J, and if the target state can&rsquo;t be reached, tell them.</p>
+<p><strong>Input Specification:</strong></p>
+<p>A row of crystals is represented by a string, and the row's right is the last character in the given string. The first line of input contains an integer T that represents the number of test cases, then follow 2T lines such that each case will consist of 2 lines each of them contain a string of exactly 64 character either R (for Red) or B (for Blue) . The first line is the starting state of the game and the second line is the state that John wonders if they can reach.</p>
+<p><strong>Output Specification:</strong></p>
+<p>For each test case, output a single line of output in the form <strong>&ldquo;Case K: state&rdquo;</strong> where K is the number of the test case and state is either &ldquo;The goal state could be reached after X laser beams.&rdquo; Or &ldquo;The goal state will never be reached!&rdquo; where X is the number of laser beams needed before reaching the goal state.</p>
+<p><strong>Sample input:</strong></p>
+<p>3<br />BBRRBRBRBRBBRBBBRBBRBRBBBRBBBRBRRRBBRBRBBRBRBRBRBBRBRBRBRRBBBBBR<br />BBRRBRBRBRBBRBBBRBBRBRBBBRBBBRBRRRBBRBRBBRBRBRBRBBRBRBRBRBRRRRRR<br />BBRRBRBRBRBBRBBBRBBRBRBBBRBBBRBRRRBBRBRBBRBRBRBRBBRBRBRBRRBBBBBR<br />RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR<br />BBRRBRBRBRBBRBBBRBBRBRBBBRBBBRBRRRBBRBRBBRBRBRBRBBRBRBRBRRBBBBBR</p>
+<p><strong>Sample Output:</strong></p>
+<p>Case 1: The goal state could be reached after 2 laser beams.<br />Case 2: The goal state will never be reached!<br />Case 3: The goal state will never be reached!</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mostafa_saad">Mostafa Saad</a></td></tr>
+<tr><td>Date:</td><td>2011-11-13</td></tr>
+<tr><td>Time limit:</td><td>0.363s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>10th Egyptian Collegiate Programming Contest</td></tr>	
+</table>

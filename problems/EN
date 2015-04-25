@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>964. Entrapment</h1>
+		<h2>Problem code: EN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+
+<img src="/content/simba:p3.jpg" style="float: right" vspace="3" hspace="8" alt="Example">
+
+The separatist leader General Grievous, the second in command of Count Dooku, comes to know that Chancellor Palpatine&#8217;s convoy, escorted by Obi-wan and Anakin, is scheduled to depart from <b>Kashyyyk</b> in the Middle Rim of the Universe to <b>Alderaan</b>. General Grievous is aware that there are multiple paths going via different sets of planets from Kashyyyk to Alderaan. To make his abduction attempt successful, he decides to send his robots to the planet closest to Kashyyyk, other than itself, which lies on all the possible paths from Kashyyyk to Alderaan. Since you have pledged your allegiance to Count Dooku, you need to help him identify this planet.
+
+The planetary map which is given to you for this purpose consists of a set of one-way connections between planets. You also know that a pair of planets can have at most one connection between them in each direction and there is always a path from Kashyyyk to Alderaan.
+
+<br><br><b>Note</b>: In the given example, the planet with index 5 is the required planet.
+
+<h3>Input Description</h3>
+<p>
+The first line of the input is a positive integer t &#8804; 20, which is the number of test cases. The descriptions of the test cases follow one after the other. The first line of each test case is a pair of positive integers n, m (separated by a single space). 2 &#8804; n &#8804; 30011 is the number of planets and m &#8804; 100011 is the number of connections between planets. The planets are indexed with integers from 1 to n and the indices of Kashyyyk and Alderaan are 1, n respectively. Each of the next m lines contains two integers p,q, meaning that there is a one-way connection from planet p to planet q.
+
+
+<h3>Output Description</h3>
+<p>
+The output should contain t lines. The i<sup>th</sup> line corresponds to the i<sup>th</sup> test case. The output for the i<sup>th</sup> test case should be the index of the planet with the required property.
+
+<h3>Example</h3>
+<P>
+<b>Input<br></b>
+2<br>
+3 2<br>
+1 3<br>
+
+3 2<br>
+4 4<br>
+1 3<br>
+3 4<br>
+1 2<br>
+2 4<br>
+
+<br><b>Output<br></b>
+3<br>
+
+4
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/simba">Kashyap KBR</a></td></tr>
+<tr><td>Date:</td><td>2006-10-10</td></tr>
+<tr><td>Time limit:</td><td>0.769s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>Fair Isaac Programming Challenge - prelims 2006</td></tr>	
+</table>

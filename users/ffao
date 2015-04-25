@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ffao"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SUPSUP" target="_blank">10841. Supplying the Suppliers</a></td><td><a href="http://www.spoj.com/problems/SUPSUP"target="_blank">SUPSUP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DECOY" target="_blank">10877. Decoys and Diversions</a></td><td><a href="http://www.spoj.com/problems/DECOY"target="_blank">DECOY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROIM" target="_blank">11718. Boa viagem, Roim</a></td><td><a href="http://www.spoj.com/problems/ROIM"target="_blank">ROIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HILO" target="_blank">12210. High and Low</a></td><td><a href="http://www.spoj.com/problems/HILO"target="_blank">HILO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CLOUDMG" target="_blank">12236. Cloud Computing</a></td><td><a href="http://www.spoj.com/problems/CLOUDMG"target="_blank">CLOUDMG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOILING" target="_blank">19139. Boiling Vegetables</a></td><td><a href="http://www.spoj.com/problems/BOILING"target="_blank">BOILING</a><br>
+</td></tr>

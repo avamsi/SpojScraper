@@ -1,0 +1,98 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COT2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10707. Count on a tree II</h1>
+		<h2>Problem code: COT2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p> </p>
+<div style="font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 8px;">
+<p>You are given a tree with <strong>N</strong> nodes.The tree nodes are numbered from <strong>1</strong> to <strong>N</strong>.Each node has an integer weight.</p>
+<p>We will ask you to perfrom the following operation:</p>
+<ul>
+<li><strong>u v</strong> : ask for how many different integers that represent the weight of nodes there are on the path from <strong>u</strong> to <strong>v</strong>.</li>
+</ul>
+<p> </p>
+<h3 style="font-size: 1.17em;">Input</h3>
+<p>In the first line there are two integers <strong>N</strong> and <strong>M</strong>.(<strong>N</strong>&lt;=40000,<strong>M</strong>&lt;=100000)</p>
+<p>In the second line there are <strong>N</strong> integers.The ith integer denotes the weight of the ith node.</p>
+<p>In the next <strong>N-1</strong> lines,each line contains two integers <strong>u</strong> <strong>v</strong>,which describes an edge (<strong>u</strong>,<strong>v</strong>).</p>
+<p>In the next <strong>M</strong> lines,each line contains two integers <strong>u</strong> <strong>v</strong>,which means an operation asking for how many different integers that represent the weight of nodes there are on the path from <strong>u</strong> to <strong>v</strong>.</p>
+<h3 style="font-size: 1.17em;">Output</h3>
+<p>For each operation,print its result.</p>
+<h3 style="font-size: 1.17em;">Example</h3>
+<pre style="font-size: 10px; margin: 8px;"><strong>Input:</strong>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 320px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; border: 1px dashed #bbbbbb;">8 5</div>8 2
+105 2 9 3 8 5 7 7
+1 2        
+1 3
+1 4
+3 5
+3 6
+3 7
+4 8<br />2 5<br />7 8</pre>
+<pre style="font-size: 10px; margin: 8px;"><strong>Output:</strong>
+4<br />4 </pre>
+</div>
+<p> </p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>You are given a tree with &lt;strong>N&lt;/strong> nodes.The tree nodes are numbered from &lt;strong>1&lt;/strong> to &lt;strong>N&lt;/strong>.Each node has an integer weight.&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>We will ask you to perfrom the following operation:&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;ul></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;li>&lt;strong>u v k&lt;/strong> : ask for the kth minimum weight on the path from node &lt;strong>u&lt;/strong> to node &lt;strong>v&lt;/strong>&lt;/li></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;/ul></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p> &lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;h3>Input&lt;/h3></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>In the first line there are two integers &lt;strong>N&lt;/strong> and &lt;strong>M&lt;/strong>.(&lt;strong>N,M&lt;/strong>&lt;=100000)&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>In the second line there are &lt;strong>N&lt;/strong> integers.The ith integer denotes the weight of the ith node.&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>In the next &lt;strong>N-1&lt;/strong> lines,each line contains two integers &lt;strong>u&lt;/strong> &lt;strong>v&lt;/strong>,which describes an edge (&lt;strong>u&lt;/strong>,&lt;strong>v&lt;/strong>).&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>In the next &lt;strong>M&lt;/strong> lines,each line contains three integers &lt;strong>u&lt;/strong> &lt;strong>v&lt;/strong> &lt;strong>k&lt;/strong>,which means an operation asking for the kth minimum weight on the path from node &lt;strong>u&lt;/strong> to node &lt;strong>v&lt;/strong>.&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;h3>Output&lt;/h3></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;p>For each operation,print its result.&lt;/p></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;h3>Example&lt;/h3></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;pre>&lt;strong>Input:&lt;/strong></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;div id="_mcePaste" style="position: absolute; left: -10000px; top: 320px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">8 5&lt;/div>8 5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">105 2 9 3 8 5 7 7</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1 2        </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1 3</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">1 4</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3 5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3 6</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">3 7</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">4 8&lt;br />2 5 1&lt;br />2 5 2&lt;br />2 5 3&lt;br />2 5 4&lt;br />7 8 2 &lt;/pre></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&lt;pre>&lt;strong>Output:&lt;/strong></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">2&lt;br />8&lt;br />9&lt;br />105&lt;br />7 &lt;/pre></div>
+<p> </p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fotile">Fotile</a></td></tr>
+<tr><td>Date:</td><td>2012-02-17</td></tr>
+<tr><td>Time limit:</td><td>1.207s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Just for fun...</td></tr>	
+</table>

@@ -1,0 +1,59 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PGTV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16390. Pengun Tivi</h1>
+		<h2>Problem code: PGTV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin: 0px; white-space: pre-wrap; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 17px;">A television center has received N requests from their customers, which are labeled from 1 to N. The "i" customer request contains the beginning and ending of time of the requested program which are labeled as s(i) and t(i) respectively. The time for switching between two programs is not consistently.</p>
+<p style="margin: 10px 0px 0px; white-space: pre-wrap; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 17px;">Finding the minimum channels need to be used so that all of the customers are satisfied?</p>
+<h3>Input</h3>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 17px; white-space: pre-wrap;">The first line of the input contains one integer- N (0&lt;N&lt;=10^5) </span></p>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 17px; white-space: pre-wrap;">Following by N lines, each lines contain two integers s[i] and t[i](0=&lt;s[i],t[i]&lt;=2*10^9)</span></p>
+<h3>Output</h3>
+<p><span style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 17px; white-space: pre-wrap;">One integer, the number of channel satisfied the condition.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+7</pre>
+<pre>0 3</pre>
+<pre>3 5</pre>
+<pre>6 8</pre>
+<pre>0 7</pre>
+<pre>7 8</pre>
+<pre>0 2</pre>
+<pre>2 6
+<strong>Output:</strong>
+3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hungsonvt">Gáş§y :))</a></td></tr>
+<tr><td>Date:</td><td>2013-10-11</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

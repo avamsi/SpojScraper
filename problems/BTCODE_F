@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BTCODE_F"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8424. Life Game</h1>
+		<h2>Problem code: BTCODE_F</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Gobo and Muku were really bored of working and decided to play a game on their respective laptops - the game of life. It is a one player game which consists of an M*N rectangular grid. Each cell of the grid contains exactly one magical potion. The potion at the j<sup>th</sup> column of the i<sup>th</sup> row of the grid increases the player's current health by V<sub>ij</sub>.(This value can be negative, in which case the player's health decreases). At any point of time, the health of a player can be negative too (i.e. He does not die). From a cell(i,j), the player can move to cells (i+1,j-1) or (i+1,j) or (i+1,j+1), as long as these cells exist in the grid. Initially, the player has a health of 0. He can start from any column on the first row (1,j). If he chooses to enter a cell, then he is forced to drink the potion in that cell. The game is completed when any column of the last row is reached. There are 2 modes in which the game can be played: the "min" mode and the "max" mode. In "max" mode, the aim is to finish the game with maximum health H<sub>max</sub> satisfying the condition A &lt;= H<sub>max</sub> &lt;= B. Similarly, in "min" mode the aim is finish the game with minimum health H<sub>min</sub>, satisfying the conditions A &lt;= H<sub>min</sub> &lt;= B. Now, Gobo decides to play the game in "max" mode on his laptop, and Muku decides to play the game in "min" mode on his laptop. Can you help Gobo and Muku finish with maximum and minimum health respectively, satisfying the above conditions?</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer 't', denoting the number of test cases.  <br />For each test case, the first line contains 2 space separated integers 'M' and 'N'. The next line contains 2 space separated integers 'A' and 'B'.  Each of the next 'M' lines contain 'N' integers. The j<sup>th</sup> integer on the i<sup>th</sup> line denotes the value V<sub>ij</sub>.</p>
+<h3>Output</h3>
+<p>Output 2 space separated integers H<sub>min</sub> and H<sub>max</sub>, the minimum and maximum health with which Gobo and Muku can finish the game.  H<sub>max</sub> and H<sub>min</sub> should satisfy A &lt;= H<sub>max</sub>, H<sub>min</sub> &lt;= B. If it is not possible to achieve such a health, output "NO" (quotes for clarity).</p>
+<p>Gobo and Muku start playing on 2 different instances of the same game independently. i.e the values of A,B and initial values of V<sub>ij</sub> are same for both grids.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+3 3
+5 10
+2 5 10
+-1 -10 3
+-3  6 -2
+2 3
+8 11
+2 5 10
+-1 -10 2
+
+<strong>Output:</strong>
+6 10
+NO NO
+
+<strong>Constraints:</strong>
+t &lt;= 10
+1 &lt;= M,N &lt;= 25
+-1000 &lt;= A &lt;= B &lt; 1000
+-25 &lt;= V<sub>ij</sub> &lt;= 25
+
+</pre>
+<p><strong>Explanation:</strong></p>
+<p>Test case 1: Take the path (1,2) -&gt; (2,1) -&gt; (3,2), to get a value 5-1+6=10. Take the path (1,2) -&gt; (2,3) -&gt; (3,3), to get a value 5+3-2=6. <br />Test case 2: There is no valid path which satisfies the above conditions.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/suh_ash2008">suhash</a></td></tr>
+<tr><td>Date:</td><td>2011-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.237s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Bytecode 2011, NIT Trichy, India</td></tr>	
+</table>

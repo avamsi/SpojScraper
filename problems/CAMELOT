@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CAMELOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7408. Camelot</h1>
+		<h2>Problem code: CAMELOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Camelot is a solitaire game that is played with a deck of French cards. The deck contains<br />52 cards, each of them having a suit and a face value. There are 4 possible suits and 13<br />possible face values. Since for this solitaire suits are not important, we consider that the<br />deck contains 4 repetitions of each possible face value. Face values are A, 2, 3, 4, 5, 6, 7,<br />8, 9, 10, J, Q and K.</p>
+<p>The solitaire starts with the full deck placed, face down, on the table. There is also a<br />board containing 16 empty slots arranged in a 4 by 4 grid. The game repeatedly alternates<br />two phases: a dealing phase and a removal phase.<br />The first phase is a dealing phase. During this phase cards are dealt from the deck one<br />at a time. Each card is placed, face up, in an empty slot. However, certain cards can<br />only be placed in specific slots: Jacks (face value J) can only occupy the middle two slots<br />of first and last columns. Queens (face value Q) can only occupy the middle two slots of<br />first and last rows. Finally, Kings (face value K) can only occupy the corner slots. Cards<br />having other face values can be placed in any empty slot. The game is lost whenever a<br />card is dealt from the deck for which no valid empty slot exists. Each time the last empty<br />slot has just been occupied, or when the deck is empty, a removal phase starts.</p>
+<p>During a removal phase, it is possible to remove from the board any card or pair of cards<br />that add up to 10. For this purpose, Aces (face value A) are considered as having value 1,<br />while Jacks, Queens and Kings cannot be removed. For instance, it is possible to remove<br />a 10 on its own, a pair formed by a 3 and a 7, a pair formed by an Ace and a 9, etcetera.<br />Cards removed from the board are not used anymore during the game. The removal<br />phase ends when no card can be removed from the board, or when the player decides not<br />to continue removing cards. Notice that it is not mandatory to remove from the board<br />every card that can be removed. However, since the player cannot decide the moment<br />in which a new removal phase will begin, leaving removable cards on the board must be<br />done carefully. Besides, note that if during a removal phase no card is removed, then the<br />game is lost. When the removal phase ends, a new dealing phase starts, unless the deck<br />is empty, in which case the game is over.</p>
+<p>The game is won if the deck is empty and only Jacks, Queens and Kings are left on the<br />board.</p>
+<p>Camelot is really nice to play, but is frustrating to discover at the end of a game that it<br />was impossible to win because of the initial arrangement of the deck. Even if the initial<br />deck allows the player to win, he may fail to do so because of bad decisions or bad luck<br />when placing or removing cards. Your job in this problem is to find out whether it is at<br />least possible to win the game, given the order in which the cards will be dealt from the<br />deck.</p>
+<h3>Input</h3>
+<p>Each test case is described using a single line. The line contains a single string of exactly<br />52 characters representing the initial arrangement of the deck. The first card dealt from<br />the deck is given by the first character of the string, and so on. Each card is represented<br />by its face value, with the exception of cards with face value 10 that are represented by<br />the digit &ldquo;0&rdquo;. You may assume that the string corresponds to a valid initial arrangement<br />of the deck, i.e., it contains exactly 4 repetitions of each possible face value. The end of<br />input is indicated with a line containing a single asterisk (&ldquo;*&rdquo;).</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing an uppercase &ldquo;Y&rdquo; if it is possible to win<br />the game with the given initial arrangement of the deck, or an uppercase &ldquo;N&rdquo; otherwise.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />AAAA222233334444555566667777888899990000JJJJQQQQKKKK<br />JJJJQQQQKKKKA9A9A9A928282828373737374646464655550000<br />JJJJQQQQKKKKA9A9A9A928282828333377774646464655550000<br />28333377774646464655550000JJJJQQQQKKKKA9A9A9A9282828<br />*
+<strong>Output:</strong> <br />N<br />Y<br />N<br />Y</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-26</td></tr>
+<tr><td>Time limit:</td><td>0.319s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRYPTO1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17. The Bytelandian Cryptographer (Act I)</h1>
+		<h2>Problem code: CRYPTO1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!-- here starts your code -->
+<P align="justify">The infamous Bytelandian Bit-eating Fanatic Organisation (BBFO for short) plans to launch an 
+	all-out denial-of-service attack on the Bytelandian McDecimal's fast food 
+	network by blocking the entrance to every restaurant with a camel (the 
+	purpose being to rid the Organisation of unhealthy competition, 
+	obviously). In a sly and perfidious move, the head cryptographer 
+	of BBFO decided to disclose the date and time of 
+	the planned attack to the management of McDecimal's, but in encrypted form 
+	(ha ha). He calculated the number of seconds from midnight 1970.01.01 GMT to 
+	the moment of attack, squared it, divided it by 4000000007 and sent the 
+	remainder by e-mail to McDecimal's. This made the original date impossible to 
+	decode.</p>
+<P align="justify">Or did it?</p>
+<div align="center">*   *   *</div>
+<P align="justify">You work as the head algorthimist at McDecimal's HQ and know 
+	nothing of what is happening in Byteland. Things are not going well. You 
+	are playing a quiet game of hearts against your computer and 
+	wondering why on earth Management are considering making you redundant. 
+	Suddenly, the CEO bursts into your office, saying:</p>
+<P align="justify">- Look here, young man[lady]! I have this number and those 
+	guys claim it is supposed to be some date. I am giving you one second to 
+	tell me what it all means!</p>
+<P align="justify">I am afraid you have no choice. You can't ask any further 
+	questions.<br>You just have to answer, now.</p>
+<h3>Input</h3>
+<p align="justify">The encrypted timestamp.</p>
+<h3>Output</h3>
+<p align="justify">The decrypted GMT time and date of attack, somewhere 
+	between 1970 and 2030, using standard 26 character formatting.
+</p>
+<h3>Example</h3>
+<P>Input:<br>
+	<code>1749870067</code>
+<p>Output:<br>
+	<code>Sun Jun 13 16:20:39 2004</code></p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-13</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>;)</td></tr>	
+</table>

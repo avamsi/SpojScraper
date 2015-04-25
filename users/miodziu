@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/miodziu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GUESSN3" target="_blank">17320. Guess The Number With Lies v3</a></td><td><a href="http://www.spoj.com/problems/GUESSN3"target="_blank">GUESSN3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMMAGIC3" target="_blank">17943. Mickey Mouse Magic Trick v3</a></td><td><a href="http://www.spoj.com/problems/MMMAGIC3"target="_blank">MMMAGIC3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMMAGIC4" target="_blank">17944. Mickey Mouse Magic Trick v4</a></td><td><a href="http://www.spoj.com/problems/MMMAGIC4"target="_blank">MMMAGIC4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMMAGIC5" target="_blank">17945. Mickey Mouse Magic Trick v5</a></td><td><a href="http://www.spoj.com/problems/MMMAGIC5"target="_blank">MMMAGIC5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MMMAGIC6" target="_blank">17946. Mickey Mouse Magic Trick v6</a></td><td><a href="http://www.spoj.com/problems/MMMAGIC6"target="_blank">MMMAGIC6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PIHEX2" target="_blank">19125. Hexadecimal value of Pi</a></td><td><a href="http://www.spoj.com/problems/PIHEX2"target="_blank">PIHEX2</a><br>
+</td></tr>

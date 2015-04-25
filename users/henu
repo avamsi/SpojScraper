@@ -1,0 +1,40 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/henu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SUBMERGE" target="_blank">14956. Submerging Islands</a></td><td><a href="http://www.spoj.com/problems/SUBMERGE"target="_blank">SUBMERGE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHIGAME" target="_blank">14957. Chinese game</a></td><td><a href="http://www.spoj.com/problems/CHIGAME"target="_blank">CHIGAME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013A" target="_blank">15429. Counting Ids</a></td><td><a href="http://www.spoj.com/problems/UCV2013A"target="_blank">UCV2013A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013B" target="_blank">15430. Alice in Amsterdam, I mean Wonderland</a></td><td><a href="http://www.spoj.com/problems/UCV2013B"target="_blank">UCV2013B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013C" target="_blank">15431. Farmer Cream</a></td><td><a href="http://www.spoj.com/problems/UCV2013C"target="_blank">UCV2013C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013D" target="_blank">15432. Distributing V-Energy</a></td><td><a href="http://www.spoj.com/problems/UCV2013D"target="_blank">UCV2013D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013E" target="_blank">15433. Greedy Walking</a></td><td><a href="http://www.spoj.com/problems/UCV2013E"target="_blank">UCV2013E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013F" target="_blank">15434. Life on Fornax</a></td><td><a href="http://www.spoj.com/problems/UCV2013F"target="_blank">UCV2013F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013G" target="_blank">15435. Schedules</a></td><td><a href="http://www.spoj.com/problems/UCV2013G"target="_blank">UCV2013G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013H" target="_blank">15436. Slick</a></td><td><a href="http://www.spoj.com/problems/UCV2013H"target="_blank">UCV2013H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013I" target="_blank">15437. Tambourine</a></td><td><a href="http://www.spoj.com/problems/UCV2013I"target="_blank">UCV2013I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013J" target="_blank">15438. Valences</a></td><td><a href="http://www.spoj.com/problems/UCV2013J"target="_blank">UCV2013J</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UCV2013K" target="_blank">15439. Zombie Outbreak</a></td><td><a href="http://www.spoj.com/problems/UCV2013K"target="_blank">UCV2013K</a><br>
+</td></tr>

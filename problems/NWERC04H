@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NWERC04H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4588. SETI</h1>
+		<h2>Problem code: NWERC04H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>For some years, quite a lot of work has been put into listening to electromagnetic radio signals received from space, in order to understand what civilizations in distant galaxies might be trying to tell us. One signal source that has been of particular interest to the scientists at Universit´e de Technologie Spatiale is the Nebula Stupidicus.
+<br><br>
+Recently, it was discovered that if each message is assumed to be transmitted as a sequence of integers a0, a1, ...an-1 the function f(k) = <img src=http://www.spoj.pl/content/ahmed_aly:NWERC04H.PNG> (mod p) always evaluates to values 0 <= f(k) <= 26 for 1 <= k <= n, provided that the correct value of p is used. n is of course the length of the transmitted message, and the ai denote integers such that 0 <= ai < p. p is a prime number that is guaranteed to be larger than n as well as larger than 26. It is, however, known to never exceed 30 000.
+<br><br>
+These relationships altogether have been considered too peculiar for being pure coincidences, which calls for further investigation.
+<br><br>
+The linguists at the faculty of Langues et Cultures Extraterrestres transcribe these messages to strings in the English alphabet to make the messages easier to handle while trying to interpret their meanings. The transcription procedure simply assigns the letters a..z to the values 1..26 that f(k) might evaluate to, such that 1 = a, 2 = b etc. The value 0 is transcribed to &#8217;*&#8217; (an asterisk). While transcribing messages, the linguists simply loop from k = 1 to n, and append the character corresponding to the value of f(k) at the end of the string.
+<br><br>
+The backward transcription procedure, has however, turned out to be too complex for the linguists to handle by themselves. You are therefore assigned the task of writing a program that converts a set of strings to their corresponding Extra Terrestial number sequences.
+
+<h3>Input</h3>
+<p>On the first line of the input there is a single positive integer N, telling the number of test cases to follow. Each case consists of one line containing the value of p to use during the transcription of the string, followed by the actual string to be transcribed. The only allowed characters in the string are the lower case letters &#8217;a&#8217;..&#8217;z&#8217; and &#8217;*&#8217; (asterisk). No string will be longer than 70 characters.
+
+<h3>Output</h3>
+<p>For each transcribed string, output a line with the corresponding list of integers, separated by space, with each integer given in the order of ascending values of i.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+31 aaa
+37 abc
+29 hello*earth
+
+<b>Output:</b>
+1 0 0
+0 1 0
+8 13 9 13 4 27 18 10 12 24 15
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ahmed_aly">Ahmed Aly</a></td></tr>
+<tr><td>Date:</td><td>2009-07-15</td></tr>
+<tr><td>Time limit:</td><td>0.309s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NWERC 2004</td></tr>	
+</table>

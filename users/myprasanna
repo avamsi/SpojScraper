@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/myprasanna"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/LWAR" target="_blank">693. Lethal Warfare</a></td><td><a href="http://www.spoj.com/problems/LWAR"target="_blank">LWAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DISUBSTR" target="_blank">694. Distinct Substrings</a></td><td><a href="http://www.spoj.com/problems/DISUBSTR"target="_blank">DISUBSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UFAST" target="_blank">695. Unite Fast</a></td><td><a href="http://www.spoj.com/problems/UFAST"target="_blank">UFAST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIAR" target="_blank">696. Liar Liar</a></td><td><a href="http://www.spoj.com/problems/LIAR"target="_blank">LIAR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MWORDS" target="_blank">697. Matrix Words</a></td><td><a href="http://www.spoj.com/problems/MWORDS"target="_blank">MWORDS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PLHOP" target="_blank">698. Plane Hopping</a></td><td><a href="http://www.spoj.com/problems/PLHOP"target="_blank">PLHOP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HKNAP" target="_blank">699. Huge Knap Sack</a></td><td><a href="http://www.spoj.com/problems/HKNAP"target="_blank">HKNAP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BPRED" target="_blank">700. Branch Prediction</a></td><td><a href="http://www.spoj.com/problems/BPRED"target="_blank">BPRED</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ACARGO" target="_blank">1873. Accumulate Cargo</a></td><td><a href="http://www.spoj.com/problems/ACARGO"target="_blank">ACARGO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BWHEELER" target="_blank">1874. Burrows Wheeler Precompression</a></td><td><a href="http://www.spoj.com/problems/BWHEELER"target="_blank">BWHEELER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COOLNUMS" target="_blank">1875. Cool Numbers</a></td><td><a href="http://www.spoj.com/problems/COOLNUMS"target="_blank">COOLNUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DRAGONCU" target="_blank">1876. Dragon Curves</a></td><td><a href="http://www.spoj.com/problems/DRAGONCU"target="_blank">DRAGONCU</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EPURSE" target="_blank">1877. Enrich my purse</a></td><td><a href="http://www.spoj.com/problems/EPURSE"target="_blank">EPURSE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FCATTLE" target="_blank">1878. Farmers Cattle</a></td><td><a href="http://www.spoj.com/problems/FCATTLE"target="_blank">FCATTLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GAMETIME" target="_blank">1879. Game Time</a></td><td><a href="http://www.spoj.com/problems/GAMETIME"target="_blank">GAMETIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HANOICAL" target="_blank">1880. Hanoi Calls</a></td><td><a href="http://www.spoj.com/problems/HANOICAL"target="_blank">HANOICAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ICODER" target="_blank">1881. Instruction Decoder</a></td><td><a href="http://www.spoj.com/problems/ICODER"target="_blank">ICODER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHONELIN" target="_blank">2485. Phone Lines</a></td><td><a href="http://www.spoj.com/problems/PHONELIN"target="_blank">PHONELIN</a><br>
+</td></tr>

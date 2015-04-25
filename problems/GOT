@@ -1,0 +1,60 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11985. Gao on a tree</h1>
+		<h2>Problem code: GOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;"><span style="font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">There's a tree, with each vertex assigned a number. For each query (a, b, c), you are asked whether there is a vertex on the path from a to b, which is assigned number c?</span></p>
+<h3>Input</h3>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">There are multiple cases, end by EOF.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">For each case, the first line contains n(n&lt;=100000) and m(m&lt;=200000), representing the number of vertexes (numbered from 1 to n) and the number of queries.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">Then n integers follows, representing the number assigned to the ith vertex.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">Then n-1 lines, each of which contains a edge of the tree.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">Then m lines, each of which contains three integers a, b and c(c&lt;=n), &nbsp;representing a query.</div>
+<p style="text-align: left;">&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">You should output "Find" or "NotFind"&nbsp;for every query on one line.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap; text-align: left;">Output a blank line AFTER every case.</div>
+<p style="text-align: left;">&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">5 5</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">1 2 3 4 5</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">1 2</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">1 3</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">3 4</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">3 5</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">2 3 4</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">2 4 3</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">2 4 5</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">4 5 1</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">4 5 3</div>
+
+<strong>Output:</strong>
+<div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">NotFind</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">Find</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">NotFind</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">NotFind</div><div style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 19.600000381469727px; white-space: pre-wrap;">Find</div></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lxyxynt">lxyxynt</a></td></tr>
+<tr><td>Date:</td><td>2012-08-17</td></tr>
+<tr><td>Time limit:</td><td>0.602s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

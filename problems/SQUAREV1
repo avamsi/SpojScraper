@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQUAREV1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8433. Revenge of the squares (variation)</h1>
+		<h2>Problem code: SQUAREV1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a number N&nbsp;calculate the number R of different&nbsp;presentations of N in the form A*A+B*B with A and B being positive integers including zero. 1*1+2*2 and 2*2+1*1 are not different presentations. So for input 5 the output is 1.</p>
+<h3>Input</h3>
+<p>Fifty tests with one positive integer &lt; 10^9.</p>
+<h3>Output</h3>
+<p>Print the illustrated above number R for each test.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5<br />7<br />986244509
+
+<strong>Output:</strong>
+1<br />0<br />2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hwk">HWK</a></td></tr>
+<tr><td>Date:</td><td>2011-02-28</td></tr>
+<tr><td>Time limit:</td><td>0.857s
+</td></tr>
+<tr><td>Source limit:</td><td>300B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

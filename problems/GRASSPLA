@@ -1,0 +1,121 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GRASSPLA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12005. Grass Planting</h1>
+		<h2>Problem code: GRASSPLA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Farmer John has N barren pastures (2 &lt;= N &lt;= 100,000) connected by N-1&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">bidirectional roads, such that there is exactly one path between any two&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">pastures. &nbsp;Bessie, a cow who loves her grazing time, often complains about&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">how there is no grass on the roads between pastures. &nbsp;Farmer John loves&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Bessie very much, and today he is finally going to plant grass on the</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">roads. &nbsp;He will do so using a procedure consisting of M steps (1 &lt;= M &lt;=</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">100,000).</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">At each step one of two things will happen:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">- FJ will choose two pastures, and plant a patch of grass along each road in</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">between the two pastures, or,</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">- Bessie will ask about how many patches of grass on a particular road, and&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Farmer John must answer her question.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Farmer John is a very poor counter -- help him answer Bessie's questions!</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">PROBLEM NAME: grassplant</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">INPUT FORMAT:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">* Line 1: Two space-separated integers N and M</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">* Lines 2..N: Two space-separated integers describing the endpoints of</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; a road.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">* Lines N+1..N+M: Line i+1 describes step i. The first character of</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; the line is either P or Q, which describes whether or not FJ</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; is planting grass or simply querying. This is followed by two</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; space-separated integers A_i and B_i (1 &lt;= A_i, B_i &lt;= N)</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; which describe FJ's action or query.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE INPUT (file grassplant.in):</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">4 6</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">3 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">P 2 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">P 1 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 3 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">P 1 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 2 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">Q 1 4</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">OUTPUT FORMAT:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">* Lines 1..???: Each line has the answer to a query, appearing in the</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp; same order as the queries appear in the input.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">SAMPLE OUTPUT (file grassplant.out):</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><span style="font-size: small;">2</span></div>
+<p>
+<p><strong><span style="font-size: small;">Problem description:</span></strong></p>
+<p><span style="font-size: small;">Farmer John has N barren pastures (2 &lt;= N &lt;= 100,000) connected by N-1 &nbsp;</span><span style="font-size: small;">bidirectional roads, such that there is exactly one path between any two &nbsp;</span><span style="font-size: small;">pastures. &nbsp;Bessie, a cow who loves her grazing time, often complains about &nbsp;</span><span style="font-size: small;">how there is no grass on the roads between pastures. &nbsp;Farmer John loves &nbsp;</span><span style="font-size: small;">Bessie very much, and today he is finally going to plant grass on the&nbsp;</span><span style="font-size: small;">roads. &nbsp;He will do so using a procedure consisting of M steps (1 &lt;= M &lt;=&nbsp;</span><span style="font-size: small;">100,000).</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">At each step one of two things will happen:</span></p>
+<p><span style="font-size: small;">- FJ will choose two pastures, and plant a patch of grass along each road in&nbsp;</span><span style="font-size: small;">between the two pastures, or,</span></p>
+<p><span style="font-size: small;">- Bessie will ask about how many patches of grass on a particular road, and &nbsp;</span><span style="font-size: small;">Farmer John must answer her question.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">Farmer John is a very poor counter -- help him answer Bessie's questions!</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">INPUT FORMAT:</span></strong></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">* Line 1: Two space-separated integers N and M</span></p>
+<p><span style="font-size: small;">* Lines 2..N: Two space-separated integers describing the endpoints of&nbsp;</span><span style="font-size: small;">a road.</span></p>
+<p><span style="font-size: small;">* Lines N+1..N+M: Line i+1 describes step i. The first character of</span><span style="font-size: small;">&nbsp;the line is either P or Q, which describes whether or not FJ&nbsp;</span><span style="font-size: small;">is planting grass or simply querying. This is followed by two&nbsp;</span><span style="font-size: small;">space-separated integers A_i and B_i (1 &lt;= A_i, B_i &lt;= N)&nbsp;</span><span style="font-size: small;">which describe FJ's action or query.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">SAMPLE INPUT :</span></strong></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">4 6</span></p>
+<p><span style="font-size: small;">1 4</span></p>
+<p><span style="font-size: small;">2 4</span></p>
+<p><span style="font-size: small;">3 4</span></p>
+<p><span style="font-size: small;">P 2 3</span></p>
+<p><span style="font-size: small;">P 1 3</span></p>
+<p><span style="font-size: small;">Q 3 4</span></p>
+<p><span style="font-size: small;">P 1 4</span></p>
+<p><span style="font-size: small;">Q 2 4</span></p>
+<p><span style="font-size: small;">Q 1 4</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">OUTPUT FORMAT:</span></strong></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">* Lines 1..???: Each line has the answer to a query, appearing in the&nbsp;</span><span style="font-size: small;">same order as the queries appear in the input.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">SAMPLE OUTPUT:</span></strong></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">2</span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">2</span></p>
+</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/prog2001">Gareev</a></td></tr>
+<tr><td>Date:</td><td>2012-08-19</td></tr>
+<tr><td>Time limit:</td><td>0.219s-0.438s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>USCAO contests</td></tr>	
+</table>

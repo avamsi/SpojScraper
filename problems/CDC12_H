@@ -1,0 +1,131 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CDC12_H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12563. Halt The War</h1>
+		<h2>Problem code: CDC12_H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The war was terrible, thousands of humans and rainbow people lying down on the streets.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Ronny didn&rsquo;t know what to do, so he decided to go and search for the Rainbowland Castle</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">and talk to the King. The rainbowlandians stared at Ronny with caution, waiting him to do</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">something bad just to get him and rainbow-kill him. Finally, Ronny made it to the King&rsquo;s room</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">and talked to him about stopping this horrible war. The King accepted Ronny&rsquo;s proposal, but</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">only with one condition, Ronny needed to prove once again what humanbeings were capable</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">of. The King said that if Ronny answered the Q queries that he had for him about an order</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">line of rainbow people numbered from 1 to N , he and his nation would go away. These rainbow</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">people had a letter with a number on it (Initially this number it&rsquo;s 0).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">There are two types of queries, modification queries and answer queries. The modification</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">queries consists on, given an interval from A to B inclusive ([A,B]), Ronny needed to update</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">those rainbow people&rsquo;s letter, adding one to the number on it; so, by instance, if the interval is</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">[1,2], then Ronny needed to add one to the first and second rainbowlandian on the line. The</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">answer queries consists on, given an interval from A to B inclusive, Ronny should say the sum</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">of every rainbow people&rsquo;s letter.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">If Ronny can do this, the humans are saved! So he need your help, because he is not really that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">good in maths and fast sums.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The first line contains an integer T , which specifies the number of test cases. Then, will follow</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">the descriptions of T test cases.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each test case you will get an integer N and an integer Q, that represents the number of</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">rainbowlandian in the line and the number of queries the King asks for. Then, Q lines will</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">follow, each containing a string and 2 integers, the type of query, that can be "modification"</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">or "answer" (Quotes for clarity), the first and the last rainbowlandian that Ronny must have</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">in mind in order to answer the query.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The input must be read from standard input.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For each input case you must print the string "Scenario #i:" where i is the number of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">test case (Starting by 1), followed by Q lines with the answer of each query. If the query was</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">a modification query, then you should output "OK" (Quotes for clarity), otherwise, output the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">CEIDEC 2012 - Contest Session</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">21</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sum of the number from A to B inclusive.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The output must be written to standard output.</div>
+<p>&nbsp;</p>
+<p>The war was terrible, thousands of humans and rainbow people lying down on the streets.</p>
+<p>Ronny didn&rsquo;t know what to do, so he decided to go and search for the Rainbowland Castle</p>
+<p>and talk to the King. The rainbowlandians stared at Ronny with caution, waiting him to do</p>
+<p>something bad just to get him and rainbow-kill him. Finally, Ronny made it to the King&rsquo;s room</p>
+<p>and talked to him about stopping this horrible war. The King accepted Ronny&rsquo;s proposal, but</p>
+<p>only with one condition, Ronny needed to prove once again what humanbeings were capable</p>
+<p>of. The King said that if Ronny answered the Q queries that he had for him about an order</p>
+<p>line of rainbow people numbered from 1 to N , he and his nation would go away. These rainbow</p>
+<p>people had a letter with a number on it (Initially this number it&rsquo;s 0).</p>
+<p>There are two types of queries, modification queries and answer queries. The modification</p>
+<p>queries consists on, given an interval from A to B inclusive ([A,B]), Ronny needed to update</p>
+<p>those rainbow people&rsquo;s letter, adding one to the number on it; so, by instance, if the interval is</p>
+<p>[1,2], then Ronny needed to add one to the first and second rainbowlandian on the line. The</p>
+<p>answer queries consists on, given an interval from A to B inclusive, Ronny should say the sum</p>
+<p>of every rainbow people&rsquo;s letter.</p>
+<p>If Ronny can do this, the humans are saved! So he need your help, because he is not really that</p>
+<p>good in maths and fast sums.</p>
+<p>&nbsp;</p>
+<p><strong>Input</strong></p>
+<p>The first line contains an integer T , which specifies the number of test cases. Then, will follow</p>
+<p>the descriptions of T test cases.</p>
+<p>For each test case you will get an integer N and an integer Q, that represents the number of</p>
+<p>rainbowlandian in the line and the number of queries the King asks for. Then, Q lines will</p>
+<p>follow, each containing a string and 2 integers, the type of query, that can be "modification"</p>
+<p>or "answer" (Quotes for clarity), the first and the last rainbowlandian that Ronny must have</p>
+<p>in mind in order to answer the query.</p>
+<p>The input must be read from standard input.</p>
+<p>&nbsp;</p>
+<p><strong>Output</strong></p>
+<p>For each input case you must print the string "Scenario #i:" where i is the number of the</p>
+<p>test case (Starting by 1), followed by Q lines with the answer of each query. If the query was</p>
+<p>a modification query, then you should output "OK" (Quotes for clarity), otherwise, output the</p>
+<p>sum of the number from A to B inclusive.</p>
+<p>The output must be written to standard output.</p>
+<div>
+<table border="2">
+<tbody>
+<tr align="center" valign="top">
+<td>INPUT</td>
+<td>OUTPUT</td>
+</tr>
+<tr align="left" valign="top">
+<td>2<br /> 4 4<br /> answer 1 4<br /> modification 1 2<br /> modification 2 3<br /> answer 2 2<br /> 8 6<br /> modification 2 4<br /> modification 4 8<br /> modification 4 5<br /> answer 8 8 <br /> modification 5 7<br /> answer 4 8<br /></td>
+<td>Scenario #1:<br /> 0<br /> OK<br /> OK<br /> 2<br /> Scenario #2:<br /> OK<br /> OK<br /> OK<br /> 1<br /> OK<br /> 11<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div><strong>Constraints</strong></div>
+<div>&bull; 1 &le; T &le; 100</div>
+<div>&bull; 1 &le; N &le; 100,000</div>
+<div>&bull; 1 &le; Q &le; 100,000</div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-10-27</td></tr>
+<tr><td>Time limit:</td><td>0.150s-0.452s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for UCV-CEIDEC contest.</td></tr>	
+</table>

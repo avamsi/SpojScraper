@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AHOCUR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11613. Aho-Corasick Trie</h1>
+		<h2>Problem code: AHOCUR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: sans-serif; font-size: 13px; line-height: 19px;">The&nbsp;</span><strong>Aho&ndash;Corasick string matching algorithm</strong><span style="font-family: sans-serif; font-size: 13px; line-height: 19px;">&nbsp;is a&nbsp;</span><a style="text-decoration: none; color: #0b0080; background-image: none; font-family: sans-serif; font-size: 13px; line-height: 19px;" title="String searching algorithm" href="http://en.wikipedia.org/wiki/String_searching_algorithm">string searching algorithm</a><span style="font-family: sans-serif; font-size: 13px; line-height: 19px;">&nbsp;invented by&nbsp;</span><a style="text-decoration: none; color: #0b0080; background-image: none; font-family: sans-serif; font-size: 13px; line-height: 19px;" title="Alfred V. Aho" href="http://en.wikipedia.org/wiki/Alfred_V._Aho">Alfred V. Aho</a><span style="font-family: sans-serif; font-size: 13px; line-height: 19px;">&nbsp;and&nbsp;</span><a style="text-decoration: none; color: #0b0080; background-image: none; font-family: sans-serif; font-size: 13px; line-height: 19px;" title="Margaret J. Corasick" href="http://en.wikipedia.org/wiki/Margaret_J._Corasick">Margaret J. Corasick</a><span style="font-family: sans-serif; font-size: 13px; line-height: 19px;">. It is a kind of dictionary-matching algorithm that locates elements of a finite set of strings (the "dictionary") within an input text. It matches all patterns simultaneously. &nbsp;</span></p>
+<p>The Algorithm described above, requires an input file generator. The generator generates a text of length&nbsp;<em>L</em>, by choosing&nbsp;<em>L</em>&nbsp;characters randomly. Probability of choosing each character is given as priori, and independent of choosing others. &nbsp;Now, given a set of patterns, calculate the probability of a valid program generating &ldquo;no&rdquo;.</p>
+<h3>Input</h3>
+<p>First line contains an integer&nbsp;<em>T</em>, the number of test cases. Each case starts with an integer&nbsp;<em>K</em>, the number of pattern strings. Next&nbsp;<em>K</em>&nbsp;lines each contain a pattern string, followed by an integer&nbsp;<em>N</em>, number of valid characters.&nbsp;&nbsp;Next&nbsp;<em>N</em>&nbsp;lines each contain a character and the probability of selecting that character,&nbsp;<em>p<sub>i</sub></em>. Next an integer&nbsp;<em>L</em>, the length of the string generated. The generated text can consist of only the valid characters, given above. &nbsp;There will be a blank line after each test case.</p>
+<h3>Output</h3>
+<p>For each test case, output the number of test case, and the probability of getting a &ldquo;no&rdquo;.</p>
+<p><strong>Constraints</strong></p>
+<ul>
+<li>T&nbsp;&nbsp;&le; 100</li>
+<li>K &le; 40</li>
+<li>Length of each pattern string is between 1 and 20</li>
+<li>Each pattern string consists of only alphanumeric characters (&lsquo;a&rsquo; to &lsquo;z&rsquo;, &lsquo;A&rsquo; to &lsquo;Z&rsquo;,&rsquo;0&rsquo; to &lsquo;9&rsquo;)</li>
+<li>Valid characters are all alphanumeric characters</li>
+<li>&sum;p<sub>i&nbsp;</sub>= 1</li>
+<li>L &le; 100</li>
+</ul>
+<h3>Example</h3>
+<pre><strong>Input</strong><span style="white-space: normal;">&nbsp;</span></pre>
+<pre>2
+1
+a
+2
+a 0.5
+b 0.5
+2
+ 
+2
+ab
+ab
+2
+a 0.2
+b 0.8
+2<strong>
+
+</strong></pre>
+<pre><strong>Output:</strong></pre>
+<pre>Case #1: 0.250000
+Case #2: 0.840000</pre>
+<pre><strong><div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div><div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">1</div><div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">a 0.5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">b 0.5</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">ab</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">ab</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">a 0.2</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">b 0.8</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 380px; width: 1px; height: 1px; overflow: hidden;">2</div>
+<br /></strong></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xiaohong">Chen Xiaohong</a></td></tr>
+<tr><td>Date:</td><td>2012-05-27</td></tr>
+<tr><td>Time limit:</td><td>0.262s
+</td></tr>
+<tr><td>Source limit:</td><td>80000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Data Enhanced from Classic Problem by Manzurur Rahman Khan</td></tr>	
+</table>

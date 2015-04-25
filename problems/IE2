@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16636. Journey</h1>
+		<h2>Problem code: IE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">In Byteland there are <em>n</em>&nbsp;cities numbered from <em>1</em>&nbsp;to <em>n</em>. These cities are connected by a network of <em>m</em><span>&nbsp;</span>bidirectional roads. It is known that each pair of cities is connected by at most one road.</p>
+<p style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">Byteman admitted recently that he likes some cities more than others. More precisely, he spends his time especially well in cities with numbers from <em>1</em>&nbsp;to <em>k</em>, so during every journey he visits each of them at least once.</p>
+<p style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">Byteman's journey is a sequence of <em>d</em>&nbsp;cities, such that each pair of consecutive cities is connected by a road. The journey can start and end in any city. Your task is to compute the number of distinct journeys around Byteland that Byteman can make. Because this number might be quite large, it will be enough to find it modulo <em>10<sup>9</sup> + 9</em>.</p>
+<h3>Input</h3>
+<p><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">The first line of input contains four integers <em>n, m, k &nbsp;</em>and <em>d&nbsp;</em></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">(<em>1 &le; n </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; 20, 1 </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; k </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; min(n, 7), 1 </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; d </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; 10</em><sup><em>9</em></sup></span></span></span></span></span></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">), separated by single spaces. The following <em>m</em></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">&nbsp;lines contain descriptions of connections between cities of Byteland. A description of a road consists of two numbers <em>a<sub>i&nbsp;</sub>, b<sub>i</sub></em></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">&nbsp;(<em>1 </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; a<sub>i&nbsp;</sub>, b<sub>i</sub> </em><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.600000381469727px; line-height: 18.65333366394043px;"><em>&le; n, a<sub>i</sub> &ne; b<sub>i</sub></em>)</span></span></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">, separated by a single space and denoting the numbers of cities connected by the <em>i&nbsp;</em></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">'th road.</span></p>
+<h3>Output</h3>
+<p><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">The output should contain one integer, denoting the number of distinct journeys that Byteman can make, modulo <em>10<sup>9</sup> + 9</em></span><span style="color: #444444; font-family: Tahoma, Arial; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">.</span></p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<pre style="color: #444444; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">4 4 2 3
+1 2
+2 3
+3 1
+2 4</pre>
+<strong>Output:</strong>
+<pre style="color: #444444; font-size: 13.333333015441895px; line-height: 18.66666603088379px;">10</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/acheron">acheron</a></td></tr>
+<tr><td>Date:</td><td>2013-10-19</td></tr>
+<tr><td>Time limit:</td><td>1.135s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>PA 2008</td></tr>	
+</table>

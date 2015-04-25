@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/cyclops"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/BFDIV" target="_blank">15088. Ancient Aliens</a></td><td><a href="http://www.spoj.com/problems/BFDIV"target="_blank">BFDIV</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFMUL" target="_blank">15089. Farmer Joe</a></td><td><a href="http://www.spoj.com/problems/BFMUL"target="_blank">BFMUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFBASE" target="_blank">15091. One Good Base Deserves Another</a></td><td><a href="http://www.spoj.com/problems/BFBASE"target="_blank">BFBASE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFREGEX1" target="_blank">15092. A Kleene Implementation</a></td><td><a href="http://www.spoj.com/problems/BFREGEX1"target="_blank">BFREGEX1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOMESUMS" target="_blank">16686. Some Sums</a></td><td><a href="http://www.spoj.com/problems/SOMESUMS"target="_blank">SOMESUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFPRMCYC" target="_blank">19276. Peculiar Permutivores</a></td><td><a href="http://www.spoj.com/problems/BFPRMCYC"target="_blank">BFPRMCYC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BFCC" target="_blank">21135. Distinct Viewpoints</a></td><td><a href="http://www.spoj.com/problems/BFCC"target="_blank">BFCC</a><br>
+</td></tr>

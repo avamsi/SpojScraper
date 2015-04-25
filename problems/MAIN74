@@ -1,0 +1,76 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAIN74"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8547. Euclids algorithm revisited </h1>
+		<h2>Problem code: MAIN74</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Consider the famous euclid algoithm to calculate the GCD of two integers (a, b):</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">int gcd(int a, int b){</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&nbsp;&nbsp; while(b!=0){</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&nbsp;&nbsp; &nbsp; &nbsp; int temp = a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="white-space: pre;"> </span> &nbsp; a = b</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="white-space: pre;"> </span> &nbsp; b = temp % b</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&nbsp;&nbsp; }</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">&nbsp;&nbsp; return a;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">}</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">for input (7, 3) the 'while' loop will run 2 times as follows: (7, 3) &nbsp;=&gt; (3, 1) =&gt; &nbsp;(l, 0)</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Now given an integer N you have to find the smallest possible sum of two non-negative integers a, b (a&gt;=b) such that</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">the while loop in the euclid algorithm for (a, b) will run exactly N times.</div>
+<p>Consider the famous euclid algoithm to calculate the GCD of two integers (a, b):</p>
+<p>int gcd(int a, int b){</p>
+<p>&nbsp;&nbsp; while(b!=0){</p>
+<p>&nbsp;&nbsp; &nbsp; &nbsp; int temp = a</p>
+<p><span style="white-space: pre;"> </span> &nbsp; a = b</p>
+<p><span style="white-space: pre;"> </span> &nbsp; b = temp % b</p>
+<p>&nbsp;&nbsp; }</p>
+<p>&nbsp;&nbsp; return a;</p>
+<p>}</p>
+<p>for input (7, 3) the 'while' loop will run 2 times as follows: (7, 3) &nbsp;=&gt; (3, 1) =&gt; &nbsp;(l, 0)</p>
+<p>Now given an integer N you have to find the smallest possible sum of two non-negative integers a, b (a&gt;=b) such that&nbsp;the while loop in the above mentioned function for (a, b) will run exactly N times.</p>
+<h3>Input</h3>
+<p>First line of input contains T (1&lt;=T&lt;=50) the number of test cases. Each of the following T lines contains an integer N (0&lt;=N&lt;=10^18).</p>
+<h3>Output</h3>
+<p>For each test case print the required answer modulo 1000000007 in a seperate line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+1
+
+<strong>Output:</strong></pre>
+<pre><strong>&nbsp;</strong>2</pre>
+<pre>Explaination: (1,1) is the required pair.</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcsharma1990">Mahesh Chandra Sharma</a></td></tr>
+<tr><td>Date:</td><td>2011-03-13</td></tr>
+<tr><td>Time limit:</td><td>0.939s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for NSIT-IIITA main contest #7</td></tr>	
+</table>

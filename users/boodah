@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/boodah"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GRC" target="_blank">1695. Grandpa&#8217;s Rubik Cube</a></td><td><a href="http://www.spoj.com/problems/GRC"target="_blank">GRC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WIJGT" target="_blank">1696. Will Indiana Jones Get There</a></td><td><a href="http://www.spoj.com/problems/WIJGT"target="_blank">WIJGT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRMLX" target="_blank">1712. Permalex</a></td><td><a href="http://www.spoj.com/problems/PRMLX"target="_blank">PRMLX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BMJ" target="_blank">1723. Bee Maja</a></td><td><a href="http://www.spoj.com/problems/BMJ"target="_blank">BMJ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPRMT" target="_blank">1728. Common Permutation</a></td><td><a href="http://www.spoj.com/problems/CPRMT"target="_blank">CPRMT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DNALAB" target="_blank">1776. DNA Laboratory</a></td><td><a href="http://www.spoj.com/problems/DNALAB"target="_blank">DNALAB</a><br>
+</td></tr>

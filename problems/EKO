@@ -1,0 +1,88 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EKO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11814. Eko</h1>
+		<h2>Problem code: EKO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Lumberjack Mirko needs to chop down M metres of wood. It is an easy job for him since he has a nifty&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">new woodcutting machine that can take down forests like wildfire. However, Mirko is only allowed to&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">cut a single row of trees.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Mirko&#8223;s machine works as follows: Mirko sets a height parameter H (in metres), and the machine raises&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">a giant sawblade to that height and cuts off all tree parts higher than H (of course, trees not higher than&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">H meters remain intact). Mirko then takes the parts that were cut off. For example, if the tree row&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">contains trees with heights of 20, 15, 10, and 17 metres, and Mirko raises his sawblade to 15 metres, the&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">remaining tree heights after cutting will be 15, 15, 10, and 15 metres, respectively, while Mirko will take&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">5 metres off the first tree and 2 metres off the fourth tree (7 metres of wood in total).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Mirko is ecologically minded, so he doesn&#8223;t want to cut off more wood than necessary. That&#8223;s why he&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">wants to set his sawblade as high as possible. Help Mirko find the maximum integer height of the&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">sawblade that still allows him to cut off at least M metres of wood.</div>
+<p>Lumberjack Mirko needs to chop down<strong> M</strong> metres of wood. It is an easy job for him since he has a nifty&nbsp;</p>
+<p>new woodcutting machine that can take down forests like wildfire. However, Mirko is only allowed to&nbsp;</p>
+<p>cut a single row of trees.</p>
+<p>Mirko&#8223;s machine works as follows: Mirko sets a height parameter <strong>H</strong> (in metres), and the machine raises&nbsp;</p>
+<p>a giant sawblade to that height and cuts off all tree parts higher than H (of course, trees not higher than&nbsp;</p>
+<p><strong>H</strong> meters remain intact). Mirko then takes the parts that were cut off. For example, if the tree row&nbsp;</p>
+<p>contains trees with heights of 20, 15, 10, and 17 metres, and Mirko raises his sawblade to 15 metres, the&nbsp;</p>
+<p>remaining tree heights after cutting will be 15, 15, 10, and 15 metres, respectively, while Mirko will take&nbsp;</p>
+<p>5 metres off the first tree and 2 metres off the fourth tree (7 metres of wood in total).</p>
+<p>Mirko is <strong>ecologically</strong> minded, so he doesn&#8223;t want to cut off more wood than necessary. That&#8223;s why he&nbsp;</p>
+<p>wants to set his sawblade as high as possible. Help Mirko find the <strong>maximum integer height</strong> of the&nbsp;</p>
+<p>sawblade that still allows him to cut off <strong>at least M</strong> metres of wood.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The first line of input contains two space-separated positive integers, <strong>N</strong> (the number of trees, 1 &le; <strong>N</strong> &le;&nbsp;</p>
+<p>1 000 000) and <strong>M</strong> (Mirko&#8223;s required wood amount, 1 &le;<strong> M</strong> &le; 2 000 000 000).</p>
+<p>The second line of input contains <strong>N </strong>space-separated positive integers less than 1 000 000 000, the&nbsp;</p>
+<p>heights of each tree (in metres). The sum of all heights will exceed <strong>M</strong>, thus Mirko will always be able to&nbsp;</p>
+<p>obtain the required amount of wood.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>The first and only line of output must contain the required height setting.</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre style="text-align: left;"><strong>Input:</strong></pre>
+<pre style="text-align: left;">4 7</pre>
+<pre style="text-align: left;">20 15 10 17
+
+<strong>Output:</strong></pre>
+<pre style="text-align: left;">15</pre>
+<pre style="text-align: left;"><span style="font-weight: bold;">Input:</span></pre>
+<pre style="text-align: left;">5 20</pre>
+<pre style="text-align: left;">4 42 40 26 46</pre>
+<pre style="text-align: left;"><strong>Output</strong><strong>:</strong></pre>
+<pre style="text-align: left;">36</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spyw4re">Goran Horvat</a></td></tr>
+<tr><td>Date:</td><td>2012-07-02</td></tr>
+<tr><td>Time limit:</td><td>0.130s-0.261s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2011/2012</td></tr>	
+</table>

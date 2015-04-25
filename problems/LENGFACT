@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LENGFACT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5917. Factorial length</h1>
+		<h2>Problem code: LENGFACT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given integer <strong>n</strong>, print length of <strong>n!</strong> (which is factorial of <strong>n</strong>).</p>
+<h3>Input</h3>
+<p>The first line of the standard input contains one integer <strong>t</strong> (t&lt;10001) which is the number of test cases.</p>
+<p>In each of the next <strong>t</strong> lines there is number <strong>n</strong> (0&lt;=n&lt;=5*10^9).</p>
+<h3>Output</h3>
+<p>For each test, print the length of <strong>n!</strong> (which is factorial of <strong>n</strong>).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />3<br />1<br />10<br />100<br /><strong>Output:</strong><br />1<br />7<br />158</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kokosek">Piotr KÄkol</a></td></tr>
+<tr><td>Date:</td><td>2010-01-19</td></tr>
+<tr><td>Time limit:</td><td>0.694s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Copy of the problem: <a href="http://spoj.pl/SHORTEN/problems/FACTLENG">FACTLENG</a> with different assessment</td></tr>	
+</table>

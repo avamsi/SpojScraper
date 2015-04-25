@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PUTNIK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17128. Putnik</h1>
+		<h2>Problem code: PUTNIK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: verdana, geneva;">Chances are that you have probably already heard of the travelling salesman problem. If you have, then you are </span><span style="font-family: verdana, geneva;">aware that it is an NP-hard problem because it lacks an efficient solution. Well, this task is an uncommon version </span><span style="font-family: verdana, geneva;">of the famous problem! Its uncommonness derives from the fact that this version is, actually, solvable efficiently. </span></p>
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<p><span style="font-family: verdana, geneva;">The travelling salesman is on a mission to visit N cities, each exactly once. The cities are represented by numbers </span><span style="font-family: verdana, geneva;">1, 2, ..., N. What we know is the direct flight duration between each pair of cities. The salesman, being the efficient </span><span style="font-family: verdana, geneva;">man that he is, wants to modify the city visiting sequence so that the total flight duration is the minimum </span><span style="font-family: verdana, geneva;">possible. </span></p>
+<p><span style="font-family: verdana, geneva;">Alas, all is not so simple. In addition, the salesman has a peculiar condition regarding the sequence. For each city </span><span style="font-family: verdana, geneva;">labeled K must apply: either all cities with labels smaller than K have been visited before the city labeled K or they </span><span style="font-family: verdana, geneva;">will all be visited after the city labeled K. In other words, the situation when one of such cities is visited before, and </span><span style="font-family: verdana, geneva;">the other after is not allowed. </span></p>
+<p><span style="font-family: verdana, geneva;">Assist the poor fellow in his ambitious mission and calculate the minimum total flight duration needed in order to </span><span style="font-family: verdana, geneva;">travel to all the cities, starting from whichever and ending in whichever city, visiting every city exactly once, so that </span><span style="font-family: verdana, geneva;">his peculiar request is fulfilled. </span></p>
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<h3><span style="font-family: verdana, geneva;">Input</span></h3>
+<p><span style="font-family: verdana, geneva;">The first line of input contains the positive integer N (2 &#8804; N &#8804; 1500), the number of cities. </span><span style="font-family: verdana, geneva;">Each of the following N lines contains N positive integers from the interval [0, 1000]. The number in B</span><sup>th</sup><span style="font-family: verdana, geneva;"> place in </span><span style="font-family: verdana, geneva;">the A</span><sup>th</sup><span style="font-family: verdana, geneva;"> row represents the flight duration between cities A and B; that number is equal to the A</span><sup>th</sup><span style="font-family: verdana, geneva;"> number in the </span><span style="font-family: verdana, geneva;">B</span><sup>th</sup><span style="font-family: verdana, geneva;"> row. When A = B, that number is 0. Otherwise, it is a positive value.</span></p>
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<h3><span style="font-family: verdana, geneva;">Output</span></h3>
+<p><span style="font-family: verdana, geneva;">The first and only line of output must contain the required minimum total flight duration. </span></p>
+<p><span style="font-family: verdana, geneva;"><br /></span></p>
+<h3><span style="font-family: verdana, geneva;">Example</span></h3>
+<pre><span style="font-family: verdana, geneva;"><strong>Input:</strong>
+3 
+0 5 2 
+5 0 4 
+2 4 0 
+
+<strong>Output:</strong>
+7<span style="white-space: normal;">
+</span></span></pre>
+<pre><span style="font-family: verdana, geneva;"><br /></span></pre>
+<pre><strong><span style="font-family: verdana, geneva;"><strong>Input:</strong></span></strong></pre>
+<pre><div id="_mcePaste" style="position: absolute; left: -10000px; top: 463px; width: 1px; height: 1px; overflow: hidden;">4 </div></pre>
+<pre><span style="font-family: verdana, geneva;">4 
+0 15 7 8 
+15 0 16 9 
+7 16 0 12 
+8 9 12 0</span></pre>
+<div><strong><span style="font-family: verdana, geneva;"> </span>
+<pre style="font-weight: normal;"><strong><span style="font-family: verdana, geneva;"><strong>Output:</strong></span></strong></pre>
+<pre style="font-weight: bold;">31</pre>
+<pre style="font-weight: bold;"><strong><span style="font-family: verdana, geneva;"><br /></span></strong></pre>
+
+<p><b>
+Clarification of the first example:<br>
+the optimal sequence is 2, 1, 3 or 3, 1, 2. The sequence 1, 3, 2 is even more favorable, but it does not fulfill the salesman's condition.
+</b></p>
+
+<p><b>
+Clarification of the second example:<br>
+the sequence is either 3, 1, 2, 4 or 4, 2, 1, 3.
+</b></p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tomislavb">Tomislav Babic</a></td></tr>
+<tr><td>Date:</td><td>2013-11-15</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2013 2. round / Adrian Satja Kurdija </td></tr>	
+</table>

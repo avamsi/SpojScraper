@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIGNUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7264. Digital LED Number</h1>
+		<h2>Problem code: DIGNUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a digital LED pattern of a number. You have to find the number and print it. All inputs will be valid as shown.</p>
+<h3>Input</h3>
+<p>Input consists of LED patterns. Each pattern is given in set of fixed number of lines. You have to read input till EOF.</p>
+<h3>Output</h3>
+<p>Print the number corresponding to each pattern.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br /> _  _&nbsp; _&nbsp; _&nbsp; _  _ <br />&nbsp;_| _| _|| ||_||_ <br />|_&nbsp; _||_ |_|&nbsp; | _|<br />    _&nbsp;&nbsp;&nbsp;&nbsp; _&nbsp;&nbsp;&nbsp;  _ <br />&nbsp; ||_ |_||_&nbsp;  || |<br />&nbsp; ||_|&nbsp; ||_|  ||_|<br /><strong> </strong>_&nbsp; _&nbsp; _&nbsp; _&nbsp;&nbsp;&nbsp;  _ <br />&nbsp; ||_||_||_&nbsp;  ||_|<br />&nbsp; |&nbsp; |  | _|  ||_|<br /><strong><br /><br />Output:</strong><br /><br />232095<br />164610<br />799518<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vipulmehta">XeRoN!X</a></td></tr>
+<tr><td>Date:</td><td>2010-09-05</td></tr>
+<tr><td>Time limit:</td><td>0.209s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

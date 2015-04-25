@@ -1,0 +1,20 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/subbu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/INDEPCNT" target="_blank">6977. Odd Independent Sets</a></td><td><a href="http://www.spoj.com/problems/INDEPCNT"target="_blank">INDEPCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERMPATT" target="_blank">6978. Check 1324</a></td><td><a href="http://www.spoj.com/problems/PERMPATT"target="_blank">PERMPATT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RNDORDER" target="_blank">6981. The Least Number</a></td><td><a href="http://www.spoj.com/problems/RNDORDER"target="_blank">RNDORDER</a><br>
+</td></tr>

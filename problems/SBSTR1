@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SBSTR1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3. Substring Check (Bug Funny)</h1>
+		<h2>Problem code: SBSTR1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<!-- here starts your code -->
+<p align=justify>
+Given two binary strings, A (of length 10) and B (of length 5), output 1 if B is a substring of A and 0 otherwise.</p>
+<p align=justify>
+<em><b>Please note, that the solution may only be submitted in the following languages: Brainf**k, Whitespace and Intercal.</b></em>
+<h3>Input</h3>
+<p align=justify>24 lines consisting of pairs of binary strings A and B separated by a single space.</p>
+<h3>Output</h3>
+<p align=justify>
+The logical value of: 'B is a substring of A'.
+</p>
+<h3>Example</h3>
+<p>
+First two lines of input:<br>
+<br>
+1010110010 10110<br>
+1110111011 10011<br>
+</p>
+<p>
+First two lines of output:<br>
+1<br>
+0<br>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-05-01</td></tr>
+<tr><td>Time limit:</td><td>0.979s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF ICK WSPC </td></tr>
+	
+</table>

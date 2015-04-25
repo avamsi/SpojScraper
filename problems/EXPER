@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EXPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6296. Experiment</h1>
+		<h2>Problem code: EXPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The following experiment is taking place. There are n points of a plane. Each point is moving with the uniform velocity. It is needed to determine the minimum circle which encloses all the points after each second of the experiment during the fixed time T.
+
+<h3>Input</h3>
+<p>The first line of input contains the number t - the number of tests. Next comes the description of t tests. The first line of each test consists of two integers n - number of points and T - the duration of the experiment in seconds. The next n lines contain four integers separated by spaces x, y, vx, vy - initial coordinates and velocities of each point.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 10<br />
+1 <= n <= 2000<br />
+1 <= T <= 50<br />
+-100 <= x, y, vx, xy <= 100
+
+<h3>Output</h3>
+<p>For each test case print T real numbers Ri for i from 1 to T rounded to two decimals after the point. Ri should be the radius of the minimal circle which encloses all the points.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+3 5
+1 0 1 0
+3 4 1 2
+5 5 -2 -1
+
+<b>Output:</b>
+3.16
+4.12
+5.41
+7.43
+9.55
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-03-09</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Advancement Spring 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

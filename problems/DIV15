@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DIV15"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>416. Divisibility by 15</h1>
+		<h2>Problem code: DIV15</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a string containing only decimal digit characters. The length of the string is between <i>1</i> and <i>1000</i>. Using characters of the string, you have to construct the maximum number which divides by fifteen without remainder. Each character of the string may not be used more than once.
+
+<h3>Input</h3>
+<p>First line of input contains an integer <b>t</b> (<i>1</i> &#8804; <b>t</b> &#8804; <i>90</i>), equal to the number of testcases. Then descriptions of <b>t</b> testcases follow.
+
+<p>Each testcase is described in a single line representing the source string.
+
+<h3>Output</h3>
+<p>For each testcase output one line with the decimal representation of the maximum number. Leading zeroes should be omitted. If no number can be constructed, output a single word <i>&#8220;impossible&#8221;</i>.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+02041
+
+<b>Output:</b>
+4200
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mystic">Ivan Metelsky</a></td></tr>
+<tr><td>Date:</td><td>2005-08-25</td></tr>
+<tr><td>Time limit:</td><td>1.919s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC Western Subregion QF 2004</td></tr>	
+</table>

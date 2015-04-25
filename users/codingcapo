@@ -1,0 +1,34 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/codingcapo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TSHOW1" target="_blank">11354. Amusing numbers</a></td><td><a href="http://www.spoj.com/problems/TSHOW1"target="_blank">TSHOW1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KOSPC13B" target="_blank">13511. Determine the vismin value !</a></td><td><a href="http://www.spoj.com/problems/KOSPC13B"target="_blank">KOSPC13B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DCRYPT" target="_blank">16480. Decrypt the message !</a></td><td><a href="http://www.spoj.com/problems/DCRYPT"target="_blank">DCRYPT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MKEQUAL" target="_blank">16482. Make them equal !</a></td><td><a href="http://www.spoj.com/problems/MKEQUAL"target="_blank">MKEQUAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UPDATEIT" target="_blank">16487. Update the array !</a></td><td><a href="http://www.spoj.com/problems/UPDATEIT"target="_blank">UPDATEIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RLE" target="_blank">17504. Run length encoding</a></td><td><a href="http://www.spoj.com/problems/RLE"target="_blank">RLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SYNC13C" target="_blank">17617. WHAT A CO-ACCIDENT</a></td><td><a href="http://www.spoj.com/problems/SYNC13C"target="_blank">SYNC13C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GCOOP" target="_blank">17624. Cooperation in geometry !</a></td><td><a href="http://www.spoj.com/problems/GCOOP"target="_blank">GCOOP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUTCAKE" target="_blank">17626. Eat all the brownies !</a></td><td><a href="http://www.spoj.com/problems/CUTCAKE"target="_blank">CUTCAKE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAMWEALT" target="_blank">17627. Family members</a></td><td><a href="http://www.spoj.com/problems/FAMWEALT"target="_blank">FAMWEALT</a><br>
+</td></tr>

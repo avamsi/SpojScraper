@@ -1,0 +1,26 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/swarnaprakash"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/HIST2" target="_blank">3436. Histogram</a></td><td><a href="http://www.spoj.com/problems/HIST2"target="_blank">HIST2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KGSS" target="_blank">3693. Maximum Sum</a></td><td><a href="http://www.spoj.com/problems/KGSS"target="_blank">KGSS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PROOT" target="_blank">3713. Primitive Root</a></td><td><a href="http://www.spoj.com/problems/PROOT"target="_blank">PROOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SNOOKER" target="_blank">3723. Snooker</a></td><td><a href="http://www.spoj.com/problems/SNOOKER"target="_blank">SNOOKER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RAINBOW" target="_blank">3724. Rainbow Ride</a></td><td><a href="http://www.spoj.com/problems/RAINBOW"target="_blank">RAINBOW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREX" target="_blank">3725. Taming a T-REX</a></td><td><a href="http://www.spoj.com/problems/TREX"target="_blank">TREX</a><br>
+</td></tr>

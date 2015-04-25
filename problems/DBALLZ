@@ -1,0 +1,57 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DBALLZ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21751. Help the Heroes</h1>
+		<h2>Problem code: DBALLZ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Our heroes Vegeta and Goku are fighting against the evil MajinBuu. Goku planned to hit MajinBuu with the spirit-bomb which is a bomb that contains pure energy such that no evil hearted enemy can withstand the impact. Unfortunately Goku needs some time to collect pure energy from all the living things in the universe. So Vegeta is going to distract MajinBuu so that Goku will get his time to concentrate on getting pure energy from the whole universe. Let's call this as the "<strong>Distraction time</strong>".</span></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">MajinBuu has this ability to regain its shape once it has been blast into pieces. Vegeta is ready to sacrifice his life by fighting with MajinBuu. You are provided with the total energy of Vegeta, the list of energy blasts that Vegeta can perform in his life time and list of numbers which represents the 'time' to regain MajinBuu's shape corresponding to the energy blast of Vegeta. This list of 'time' is the duration of distraction in which Goku can gather energy from the whole universe. It's better if it's more. Your task is to find out the maximum distraction time.</span></span></p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Input</span></span></h3>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">The first line contains the total no. of test cases T&lt;=50</span></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">The second line contains E&lt;10^6 (energy of Vegeta) and L&lt;=1000 (length of the energy list)</span></span></p>
+<p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Following lines contains two lists of integers, first, the energy list and then the corresponding time span list</span></span></p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Output</span></span></h3>
+<p><span style="color: #39424e; font-size: 18px; line-height: 27px;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Print the maximum time of distraction gained for each test cases.</span></span></span></p>
+<h3><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Example</span></span></h3>
+<pre><span style="font-size: medium;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;"><strong>Input:</strong>
+</span></span></span><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">1</span></span></p><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="line-height: 1.5em;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">100 4</span></span></span></p><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="line-height: 1.5em;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">20 30 40 60</span></span></span></p><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="line-height: 1.5em;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">2 4 5 6</span></span></span></p><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="font-weight: bold; color: #000000;"><span style="font-size: medium;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Output:</span></span></span></span></p><p style="border: 0px; font-stretch: inherit; line-height: 1.5em; font-size: 18px; margin: 0px 0px 1em; outline: 0px; padding: 0px; vertical-align: baseline; color: #39424e;"><span style="line-height: 1.5em;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">13</span></span></span></p></pre>
+<pre><span style="font-size: medium; font-weight: bold;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;">Note:</span></span></span></pre>
+<pre><span style="font-size: small;"><strong><span style="font-size: medium;"><span style="white-space: pre;"><pre><span style="font-size: large;"><strong><span style="color: #000000;"><span style="font-family: 'times new roman', times;">VEGETA CAN'T FIGHT ONCE HE HAS LOST HIS WHOLE ENERGY. THAT IS,&nbsp;</span></span></strong></span></pre>
+<pre><span style="font-size: large;"><strong><span style="color: #000000;"><span style="font-family: 'times new roman', times;">HIS ENERGY CAN'T BECOME LESS THAN ZERO.</span></span></strong></span></pre>
+<span style="color: #000000;"><span style="font-family: 'times new roman', times;"> <span style="font-size: large;">Unless the value of the blast is greater than Vegeta's energy, he can use a blast more&nbsp;</span></span></span></span></span></strong></span></pre>
+<pre><span style="font-size: small;"><strong><span style="font-size: medium;"><span style="white-space: pre;"><span style="color: #000000;"><span style="font-family: 'times new roman', times;"><span style="font-size: large;">than once.</span><br /></span></span>
+</span></span></strong></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sankar96">Sankaranarayanan G</a></td></tr>
+<tr><td>Date:</td><td>2014-11-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>CSAU Online Programming Contest 2014</td></tr>	
+</table>

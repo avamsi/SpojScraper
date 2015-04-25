@@ -1,0 +1,120 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MFLAR10"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7757. Flowers Flourish from France</h1>
+		<h2>Problem code: MFLAR10</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; white-space: normal;">&nbsp;</p>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ">   </p>
+<p>&nbsp;</p>
+<table style="cursor: default; width: 748px; background-color: #44c23c; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;" border="0">
+<tbody>
+<tr>
+<td style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; cursor: text; text-align: center; margin: 8px; border: 1px dashed #bbbbbb;" width="50%"><a href="/SPOJ/problems/MTEMP/en/">English</a></td>
+<td style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; cursor: text; text-align: center; margin: 8px; border: 1px dashed #bbbbbb;" width="50%"><a href="/SPOJ/problems/MTEMP/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; "></p>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ">&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">Albert, Charles and Mary invented a new version of the classical game Bingo. In traditional</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">Bingo the game is presided over by a non-player known as the caller. At the beginning of the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">game each player is given a card containing a unique combination of numbers from 0 to N</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">arranged in columns and rows. The caller has a bag containing N + 1 balls, numbered from 0</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">to N. On each turn, the caller randomly selects a ball from the bag, announces the number of</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">the drawn ball to the players, and sets the ball aside so that it cannot be selected again. Each</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">player searches his card for the called number and marks it if he &#64257;nds it. The &#64257;rst player who</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">marks a complete pre-announced pattern on the card (for example, a full horizontal line) wins</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">a prize.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">In the Albert-Charles-Mary version, on each turn, the caller draws a &#64257;rst ball, returns it to</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">the bag, draws a second ball, returns it to the bag, and then calls out the absolute di&#64256;erence</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">between the two ball numbers. To generate even more excitement, before the game started a</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">possibly empty subset of balls is removed from the bag, in such a way that at least two balls</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">remain there. They would like to know if every number from 0 to N may still be called out</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">with the new drawing method considering the balls that were left in the bag.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">Input</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">Each test case is given using exactly two lines. The &#64257;rst line contains two integers N and B.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">The meaning of N was described above (1 &le; N &le; 90), while B represents the number of balls</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">which remained in the bag (2 &le; B &le; N + 1). The second line contains B distinct integers bi,</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">indicating the balls which remained in the bag (0 &le; bi &le; N).</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">The last test case is followed by a line containing two zeros.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">Output</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">For each test case output a single line containing a single uppercase &lsquo;Y&rsquo; if is possible to call out</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; white-space: normal; border: 1px dashed #bbbbbb;">every number from 0 to N, inclusive, or a single uppercase &lsquo;N&rsquo; otherwise.</div>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;">Fiona has always loved poetry, and recently she discovered a fascinating poetical form. Tau</span></span><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">tograms are a special case&nbsp;</span></span></span><span style="font-size: 10px;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">of</span></span></span><span style="font-size: 10px;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">&nbsp;alliteration, which is the occurrence of the same letter at the&nbsp;</span></span></span><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">beginning of adjacent words. In particular, a sentence is a&nbsp;</span></span></span></span></span><span style="font-size: 10px;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">tautogram if all of its words start&nbsp;</span></span></span><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">with the same letter.&nbsp;</span></span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">For instance, the following sentences are tautograms:</span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">&bull; Flowers Flourish from France</span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">&bull; Sam Simmonds speaks softly</span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">&bull; Peter pIckEd pePPers</span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">&bull; truly tautograms triumph</span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">Fiona wants to dazzle her boyfriend with a romantic letter full of this kind of sentences. Please&nbsp;</span></span></span><span style="white-space: normal;"><span style="font-size: small;"><span style="font-size: small;">help Fiona to check if each&nbsp;</span></span></span><span style="font-size: small;">sentence she wrote down is a tautogram or not.</span></p>
+<p>&nbsp;</p>
+<h1 style="font-size: 2em; font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; white-space: normal;">Input</h1>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;">Each test case is given in a single line that contains a sentence. A sentence consists of&nbsp;</span></span><span style="font-size: 10px;"><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">a sequence &nbsp;</span></span></span><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">of at most 50 words separated by single spaces. A word is a sequence of&nbsp;</span></span></span></span><span style="font-size: 10px;"><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">at most 20 contiguous &nbsp;</span></span></span><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">uppercase and lowercase letters from the English alphabet. A&nbsp;</span></span></span></span><span style="font-size: 10px;"><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">word contains at least one letter&nbsp;</span></span></span><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><span style="font-size: small;">and a sentence contains at least one word. &nbsp;</span></span></span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal; font-size: small;"><span style="font-size: small;">The last test case is followed by a line containing only a single character &lsquo;*&rsquo; (asterisk).</span></span></p>
+<p style="text-align: justify;"><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;"><br /></span></span></p>
+<p>&nbsp;</p>
+<h1 style="font-size: 2em; font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; white-space: normal;">Output</h1>
+<p>&nbsp;</p>
+<p><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;">For each test case output a single line containing an uppercase &lsquo;Y&rsquo; if the sentence is a tautogram,&nbsp;</span></span><span style="white-space: normal; font-size: x-small;"><span style="font-size: small;">or an uppercase &lsquo;N&rsquo; otherwise.</span></span></p>
+<p>&nbsp;</p>
+<div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<h1 style="color: #000000;"><span style="font-size: small;">Sample input</span></h1>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: x-small;"><span style="font-size: 13.3333px; color: #000020; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;">Flowers Flourish from France&nbsp;<br />Sam Simmonds speaks softly</span></span></p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: x-small;"><span style="font-size: 13.3333px; color: #000020; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;">&nbsp;</span></span><span style="font-size: small;">Peter pIckEd pePPers</span></p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: small;">truly tautograms triumph</span></p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: small;"> this is NOT a tautogram</span></p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: small;"> *</span></p>
+</div>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; white-space: normal;">&nbsp;</p>
+<h3 style="color: #000000; white-space: normal;"><span style="font-size: small;">Output for the sample input</span></h3>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; white-space: normal;"><span style="font-size: small;">Y</span></p>
+<p><span style="white-space: normal;"><span style="font-size: small;">Y</span></span></p>
+<p><span style="white-space: normal;"><span style="font-size: small;">Y</span></span></p>
+<p><span style="white-space: normal;"><span style="font-size: small;">Y</span></span></p>
+<p><span style="white-space: normal;"><span style="font-size: small;">N</span></span></p>
+<p>&nbsp;</p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; white-space: normal;">&nbsp;</p>
+<p style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; "> </p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; white-space: normal;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2010-11-05</td></tr>
+<tr><td>Time limit:</td><td>0.170s-0.782s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC2010 &#8211; Latin American Regional</td></tr>	
+</table>

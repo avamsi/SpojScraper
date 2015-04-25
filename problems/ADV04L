@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ADV04L"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7875. Miles and kilometers</h1>
+		<h2>Problem code: ADV04L</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>If you are travelling a lot you could have met the following problem: different countries use different measurement systems. Notably there are two major measurement systems for distances: metric and imperial. Metric system exploits kilometers while miles are used in the imperial system. It is known that one mile is approximately 1.609 kilometers. By interesting coincidence this is close enough to the value of the golden ration which is about 1.618. On this basis there is an interesting way of converting miles to kilometeres. Let's look into Fibonacci sequence: <i>F</i><sub>1</sub> = <i>F</i><sub>2</sub> = 1, <i>F</i><sub><i>n</i></sub> = <i>F</i><sub><i>n</i>&#8722;1</sub> + <i>F</i><sub><i>n</i>&#8722;2</sub>, &#1076;&#1083;&#1103; <i>n</i> > 2. The ratio of two successive Fibonacci numbers <i>F</i><sub><i>n</i>+1</sub>/<i>F</i><sub><i>n</i></sub> tends to golden ration as <i>n</i> tends to infinity. So you can partition the amount of miles you have into Fibonacci numbers, and you should use as large Fibonacci numbers as possible, then for each element in the partition you should go to the next Fibonacci number and sum up the elements again. That way you will get the approximate amount of kilometers. For example, 40 &#8658; 34 + 5 + 1 &#8658; 55 + 8 + 2 &#8658; 65. That means that 40 miles is approximately 65 kilometers (more precise value is 64,37 kilometers). Write a program that implements this method.
+
+<h3>Input</h3>
+<p>The first line of input contains number t &#8211; the amount of test cases. The description of t test cases follows. Each test consists of a single integer m - the amount of miles.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 10000<br />
+1 <= m <= 10^15
+
+<h3>Output</h3>
+<p>For each test case output the amount of kilometers calculated using the method given in the statement.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+1
+7
+40
+128
+
+<b>Output:</b>
+2
+11
+65
+207
+
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-11-14</td></tr>
+<tr><td>Time limit:</td><td>0.172s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Advancement Autumn 2010, http://sevolymp.uuuq.com/</td></tr>	
+</table>

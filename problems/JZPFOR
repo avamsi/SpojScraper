@@ -1,0 +1,64 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/JZPFOR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9086. Formula 3D</h1>
+		<h2>Problem code: JZPFOR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are n lattice points in the 3D space. One point can get to another if and only if their euclid distance is 1. Find out the number of simple cycles (that has length > 2). The number of points with same x coordinates do not exceed 8. </p>
+<h3>Input</h3>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">First line, n. </div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Following are n lines, each describes one pointcoordinates. </div>
+<p>First line, n. </p>
+<p>Following are n lines, each describes one point, no two points share same coordinates. </p>
+<p>n&lt;=400    coordinates in range [-10^9, 10^9] (inclusive).</p>
+<h3>Output</h3>
+<p>One number, the required answer mod 1000000007. </p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+8
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+
+<strong>Output:</strong>
+28<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sevenk">sevenkplus</a></td></tr>
+<tr><td>Date:</td><td>2011-06-29</td></tr>
+<tr><td>Time limit:</td><td>0.092s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

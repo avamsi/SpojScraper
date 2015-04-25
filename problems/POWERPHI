@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/POWERPHI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14330. Power of Phi(medium)</h1>
+		<h2>Problem code: POWERPHI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: left;"><span style="font-size: small;">Vertu was very impressed by the golden ratio &phi;=(1+&radic;5)/2 and about it occurring in nature and all that. He now begins to wonder if any non negative integral power of &phi; is also special. Since he does not like working with decimals, he decided to approximate the positive integral power of &phi; to its closest integer. Help him by printing the closest integer to &phi;<sup>n</sup>&nbsp;, given n.</span></p>
+<p style="text-align: left;"><span style="font-size: small;">&nbsp;</span></p>
+<h4 style="font-size: 10.4px; text-align: left;"><span style="font-size: small;">Input and Output<br /><span style="font-weight: normal;">The first line contains t, the number of test cases. t lines follow, each containing one positive integer n. For each of these integers, print the closest integer to &phi;<sup>n</sup>. If you think there are two closest possible integers, print either of them. Print the answer modulo(10<sup>9</sup>+7).</span></span></h4>
+<p style="text-align: left;"><strong><span style="font-size: small;">Constraints</span></strong></p>
+<p style="text-align: left;"><span style="font-size: small;">t&lt;=100000</span></p>
+<p style="text-align: left;"><span style="font-size: small;">0&lt;=n&lt;=10</span><span style="font-size: small;"><span style="font-size: 11.199999809265137px;"><sup>9</sup></span><br /></span></p>
+<p style="text-align: left;"><span style="font-size: small;">&nbsp;</span></p>
+<h3 style="text-align: left;"><span style="font-size: small;">EXAMPLE:<br /></span></h3>
+<h3 style="text-align: left;"><span style="font-size: small;">INPUT:</span></h3>
+<p style="text-align: left;"><span style="font-size: small;">2</span></p>
+<p style="text-align: left;"><span style="font-size: small;">1</span></p>
+<p style="text-align: left;"><span style="font-size: small;">3</span></p>
+<p style="text-align: left;"><span style="font-size: small;"><strong>OUTPUT:</strong></span></p>
+<p style="text-align: left;"><span style="font-size: small;">2</span></p>
+<p style="text-align: left;"><span style="font-size: small;">4<strong><br /></strong></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/darkshadows">darkshadows</a></td></tr>
+<tr><td>Date:</td><td>2013-03-28</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

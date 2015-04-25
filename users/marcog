@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/marcog"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/GNY07C" target="_blank">2525. Encoding</a></td><td><a href="http://www.spoj.com/problems/GNY07C"target="_blank">GNY07C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07D" target="_blank">2526. Decoding</a></td><td><a href="http://www.spoj.com/problems/GNY07D"target="_blank">GNY07D</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07E" target="_blank">2527. Flipping Burned Pancakes</a></td><td><a href="http://www.spoj.com/problems/GNY07E"target="_blank">GNY07E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07F" target="_blank">2528. Monkey Vines</a></td><td><a href="http://www.spoj.com/problems/GNY07F"target="_blank">GNY07F</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07G" target="_blank">2529. Model Rocket Height</a></td><td><a href="http://www.spoj.com/problems/GNY07G"target="_blank">GNY07G</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07H" target="_blank">2530. Tiling a Grid With Dominoes</a></td><td><a href="http://www.spoj.com/problems/GNY07H"target="_blank">GNY07H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GNY07I" target="_blank">2531. Spatial Concepts Test</a></td><td><a href="http://www.spoj.com/problems/GNY07I"target="_blank">GNY07I</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ECLIPSE" target="_blank">2946. Eclipse</a></td><td><a href="http://www.spoj.com/problems/ECLIPSE"target="_blank">ECLIPSE</a><br>
+</td></tr>

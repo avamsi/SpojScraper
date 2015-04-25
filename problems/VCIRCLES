@@ -1,0 +1,63 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VCIRCLES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3863. Area of circles</h1>
+		<h2>Problem code: VCIRCLES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given N circles. Calculate the total area that these N circles cover.
+</p> 
+
+<h3>Input</h3>
+<p>First line: N (1 <= n <= 50)</p> 
+
+<p>- In the i-th line of the next n lines contains 3 integers Xi, Yi and Ri, separated by spaces. These are the coordinates of the center and the radius of the i-th circle (-10000<=Yi-Ri,Yi+Ri,Xi-Ri,Xi+Ri<=10000)</p>
+
+<h3>Output</h3>
+<p> The total area that these N circles cover with 5 digits after decimal point </p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+5 6 3
+5 5 5
+
+<b>Output:</b>
+78.53982
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nkvuong">Phenomenal</a></td></tr>
+<tr><td>Date:</td><td>2009-02-14</td></tr>
+<tr><td>Time limit:</td><td>2.609s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>IOICAMP</td></tr>	
+</table>

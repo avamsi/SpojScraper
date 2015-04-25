@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TFSETS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>707. Triple-Free Sets</h1>
+		<h2>Problem code: TFSETS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+A set <b>S</b> of positive integers is called <i>strongly triple-free</i> if, for any integer <b>x</b>, the sets {<b>x</b>, 2<b>x</b>}
+and {<b>x</b>, 3<b>x</b>} are not subsets of <b>S</b>. Let's define <b>F(n)</b> as a number of strongly triple-free subsets of {1, 2, ..., <b>n</b>},
+where <b>n</b> is a natural number.
+
+<p>
+You need to write a program which being given a number <b>n</b> calculates the number <b>F(n)</b> modulo 1 000 000 001.
+
+<h3>Input</h3>
+<p>
+The first line of input contains integer <b>T</b> (1 &#8804; <b>T</b> &#8804; 500) - the number of testcases. Then descriptions of <b>T</b> testcases follow.
+
+<p>
+The description of the testcase consists of one line. The line contains an integer number <b>n</b> (1 &#8804; <b>n</b> &#8804; 100 000).
+
+<h3>Output</h3>
+<p>
+For each testcase in the input your program should output one line. This line should contain one integer number which
+is the number <b>F(n)</b> modulo 1 000 000 001.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+3
+1
+10
+20
+39
+
+<b>Output:</b>
+5
+2
+198
+43776
+971827200
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mystic">Ivan Metelsky</a></td></tr>
+<tr><td>Date:</td><td>2006-01-19</td></tr>
+<tr><td>Time limit:</td><td>1.559s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Based on a problem from www.test-the-best.by</td></tr>	
+</table>

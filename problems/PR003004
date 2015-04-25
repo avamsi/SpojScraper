@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PR003004"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17247. Digit Sum</h1>
+		<h2>Problem code: PR003004</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">For a pair of integers a and b, the digit sum of the interval [a,b] is defined as the sum of all digits occurring in all numbers between (and including) a and b. For example, the digit sum of [28, 31] can be calculated as:</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2+8 &nbsp;+ &nbsp;2+9 &nbsp;+ &nbsp;3+0 &nbsp;+ &nbsp;3+1 = 28</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Given the numbers a and b, calculate the digit sum of [a,b].</div>
+<p>For a pair of integers a and b, the digit sum of the interval [a,b] is defined as the sum of all digits occurring in all numbers between (and including) a and b. For example, the digit sum of [28, 31] can be calculated as:</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2+8 &nbsp;+ &nbsp;2+9 &nbsp;+ &nbsp;3+0 &nbsp;+ &nbsp;3+1 = 28</p>
+<p>&nbsp;</p>
+<p>Given the numbers a and b, calculate the digit sum of [a,b].</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>On the first line one positive number: the number of test cases, at most 100.</p>
+<p>After that per test case:</p>
+<ul>
+<li>&nbsp;one line with two space-separated integers, a and b (0 &lt;= a &lt;= b &lt;= 10^15).</li>
+</ul>
+<h3>Output</h3>
+<p>Per test case:</p>
+<ul>
+<li>&nbsp;one line with an integer: the digit sum of [a,b]; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+</ul>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+0 10
+28 31
+1234 56789
+
+<strong>Output:</strong>
+46
+28
+1128600</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kojak_">kojak_</a></td></tr>
+<tr><td>Date:</td><td>2013-11-25</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>BAPC</td></tr>	
+</table>

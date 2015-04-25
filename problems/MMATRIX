@@ -1,0 +1,89 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MMATRIX"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3935. SHIFT Operator on Matrix</h1>
+		<h2>Problem code: MMATRIX</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MMATRIX/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MMATRIX/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+Given an n×n matrix A, whose entries Ai,j are integer numbers ( 0 &#8804; i < n,
+0 &#8804; j < n ). An operation SHIFT at row i ( 0 &#8804; i < n ) will move the integers
+in the row one position right, and the rightmost integer will wrap around
+to the leftmost column.
+</pre>
+<a href="http://tinypic.com" target="_blank"><img src="http://i42.tinypic.com/29ff6u8.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+<pre>
+You can do the SHIFT operation at arbitrary row, and as many times as you like. 
+Define Cj=A0,j+A1,j+..+A(n-1),j and M = max {Cj|0<=j < n } . 
+Cj is the sum of all number in column ith.
+Your job is to minimize M. 
+</pre>
+ 
+<h3>Input</h3>
+<pre>
+The input consists of several test cases. The &#64257;rst line of each test case 
+contains an integer n. Each of the following n lines contains n integers, 
+indicating the matrix A. The input is terminated by a single line with 
+an integer &#8722;1. You may assume that 1 &#8804; n &#8804; 7 and |Ai,j| < 10^4.
+
+Sample Input
+2
+4 6
+3 7
+3
+1 2 3
+4 5 6
+7 8 9
+-1
+</pre>
+
+<h3>Output</h3>
+<pre> 
+For each test case, print a line containing the minimum value of the maximum
+of column sums.
+
+Sample output
+11
+15
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-23</td></tr>
+<tr><td>Time limit:</td><td>0.131s-1.079s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Pre Shanghai 2004</td></tr>	
+</table>

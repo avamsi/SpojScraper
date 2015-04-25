@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CALCULAT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2151. Digital Calculator</h1>
+		<h2>Problem code: CALCULAT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Dan likes playing with his pocket calculator during those long, boring math classes. Just now the teacher started to talk about the factorial function. </p>
+
+<p><b>N</b> factorial, denoted by <b>N!</b>, is the product of all the integers between 1 and <b>N</b>, inclusive. For example 6! = 6*5*4*3*2*1 = 720. </p>
+
+<p>Dan took out his calculator out of his pocket to play around with this new function. Unfortunately his calculator quickly ran out of digits and only showed overflow errors. Soon, Dan realized that the factorial function grows very quickly. Still, he would like to know at least some of its digits. </p>
+
+<h3>Problem specification</h3>
+<p>Given three positive integers <b>N</b>(1<= <b>N</b> <=10<sup>8</sup>), <b>K</b>(1<= <b>K</b> <=50), <b>L</b>(1<= <b>L</b> <=100), compute the first <b>K</b> digits and the last <b>L</b> digits of <b>N</b> factorial. </p>
+
+<h3>Input specification</h3>
+<p>The first line of the input file contains an integer <b>T</b> specifying the number of test cases. Each test case is preceded by a blank line. </p>
+
+<p>Each test case consists of one line containing three positive integers <b>N</b>, <b>K</b> and <b>L</b> separated by single spaces. Neither <b>K</b> nor <b>L</b> will exceed the number of digits in <b>N!</b>. 
+
+<h3>Output specification</h3>
+<p>For each test case output one line containing two strings <b>A</b> and <b>B</b> separated by a single space. Here, <b>A</b> is the string composed of the first <b>K</b> digits of <b>N!</b> and <b>B</b> is the string composed of the last <b>L</b> digits of <b>N!</b>. 
+
+<h3>Example</h3>
+<pre><b>Input:</b>
+3
+
+6 2 1
+
+10 3 2
+
+8 5 5
+
+<b>Output:</b>
+72 0
+362 00
+40320 40320
+</pre>
+<b>Note : for all test cases whose N>=100, its K<=15.</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>0.100s-1.089s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2006</td></tr>	
+</table>

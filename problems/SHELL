@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SHELL"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10292. Shell game</h1>
+		<h2>Problem code: SHELL</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Your program is to play the traditional "shell" game (<a title="here" href="http://en.wikipedia.org/wiki/Shell_game" target="_blank">http://en.wikipedia.org/wiki/Shell_game</a>). The game is played as follows:</p>
+<p>There is a person called an operator; he/she has 3 identical, non-transparent hollow objects - shells, and a metal ball, which he/she places under one of these objects. Then, the operator quickly swaps pairs of shells several times<span class="AM">; if shells at positions A and B are swapped, and the ball is unde</span>r the shell at position A, it moves under the shell at position B. In the end, you have to guess which shell the ball is under.</p>
+<p>The shells are identical, and positions mean immediate position that you see (left will always denote the leftmost shell, not the shell that was leftmost in the beginning).</p>
+<p>Input</p>
+<p>The first line of input contains one string - "left", "center" or "right", denoting the position of the shell the ball is under in the beginning. The second line contains an integer N&lt;=10, denoting the number of swaps. N lines follow, all of them contain 2 strings - positions of 2 shells which are swapped.</p>
+<p>Output</p>
+<p>Output position of the shell the ball is under after all swaps are performed.</p>
+<p>Warning</p>
+<p>Testing simulates the exact progress of an actual game! There are 10 testcases<span class="AM">; in the last one only, N=10</span>. You're likely to get a WA on this last test case, even if your program seems correct. Remember, it's like an actual game!</p>
+<p>Example</p>
+<pre><strong>Input:</strong>
+<br />left<br />2<br />left right<br />right center<br /><strong><br />Output:</strong><br /><br />center
+<br />Explanation:<br />in the beginning, the ball is under the left shell<br />after swap 1, it's under the right shell<br />after swap 2, it's under the center shell<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xellos0">Jakub Šafin</a></td></tr>
+<tr><td>Date:</td><td>2011-12-26</td></tr>
+<tr><td>Time limit:</td><td>0.187s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>people.ksp.sk/~acm</td></tr>	
+</table>

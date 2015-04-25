@@ -1,0 +1,66 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FLOWGROW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4477. Flower growing</h1>
+		<h2>Problem code: FLOWGROW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/FLOWGROW/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/FLOWGROW/vn/">Ti&#7871;ng Vi&#7879;t</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>The farmer AnhDQ grows flower in his MxN garden (M rows and N columns). He wants to grow flower satisfying that: Each row of the garden has at least k color(s) of flower; and he has 7 types of flower: red, orange, yellow, green, blue, indigo, and violet to use.</p>
+<h3>Request</h3>
+<p>Count the number of ways to grow flower on his garden.</p>
+<h3>Input</h3>
+<p>- Contains several lines, there are three number M, N, k on each.</p>
+<h3>Output</h3>
+<p>- Contains the answer for each line of Input, mod <strong>2370823708</strong>, written on separate lines.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1 7 7
+
+<strong>Output:</strong>
+5040
+</pre>
+<h3>Limitations</h3>
+<p>- 1 &le; M, N &le; 10<sup>15</sup>. <br />- The number of lines in Input does not exceed 5000.</p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-06-05</td></tr>
+<tr><td>Time limit:</td><td>0.010s-0.259s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mr Tuan Khuc Anh - NTU (Singapore)</td></tr>	
+</table>

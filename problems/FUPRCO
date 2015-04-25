@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FUPRCO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8989. Funny programming contest</h1>
+		<h2>Problem code: FUPRCO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Bob is trying to solve many problems.<br /><br />Today he's trying to do his best at "Funny programming contest". In this contest there is N rounds.<br /><br />Each round is starting in moment Ai and ends in moment Bi. Rounds can overlap on each other. For each round there is one problem to solve. He can't solve more than one problem at once.<br /><br />Bob knows that problems are very difficult, so he assumed that he will do each round for more than half of time the round lasts.<br /><br />He knows start and end time for each round.<br /><br />Help him figuring out if he can spend as much time as he want for each round.<br /><br /><strong>Input</strong><br />First line contains number N(1&lt;=N&lt;=2*10^5)<br /><br />In next N lines there are three numbers, ai,bi,ci (0&lt;=ai&lt;bi&lt;=10^9 , (bi-ai)/2 &lt; ci &lt;= bi-ai ), time when round i starts, time when round i end, and time which Bob wants to spend for round i.<br /><br /><strong>Output</strong><br /><br />Print "YES" if Bob can spend as much time as he wants for each round, otherwise print "NO"<br /><strong>Example</strong><br /><br />Input:<br /><br />2<br />1 5 3<br />1 2 1<br /><br /><br />Output:<br />YES<br /><br />Input:<br /><br />2<br />1 5 3<br />2 3 1<br /><br /><br />Output:<br />NO</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-06-04</td></tr>
+<tr><td>Time limit:</td><td>0.096s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>http://oboz.ilo.pl/ http://main.edu.pl/pl/archive/proserwy</td></tr>	
+</table>

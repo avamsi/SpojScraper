@@ -1,0 +1,79 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CHEFMAY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>6738. Nice Quadrangles</h1>
+		<h2>Problem code: CHEFMAY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are n points with integer coordinates. We can form different quadrangles out of them by taking four different points and connecting them with lines. Let&#8217;s call a quadrangle ABCD nice if and only if:</p>
+<ul>
+<li>Ax > 0 and Ay > 0;</li>
+<li>Bx > 0 and By < 0;</li>
+<li>Cx < 0 and Cy < 0;</li>
+<li>Dx < 0 and Dy > 0;</li>
+<li>ABCD has an integer area.</li>
+</ul><br />
+<p>Your task is to count all different nice quadrangles that can be formed on the given points.</p>
+
+<h3>Input</h3>
+<p>The first line of input file contains number t &#8211; the number of test cases. Then the description of each test case follows. The first line of each test case contains number n &#8211; the number of points. Then n lines follow each consisting of two integers x, y &#8211; the coordinates of a point. No two points in the same test case coincide.
+
+<h3>Constraints</h3>
+<p>1 <= t <= 10<br />
+1 <= n <= 30000<br />
+-30000 <= x, y <= 30000
+
+<h3>Output</h3>
+<p>For each test case print the number of nice quadrangles that can be formed using given points.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+6
+1 1
+2 2
+-1 -1
+-2 2
+2 -1
+-3 -4
+
+<b>Output:</b>
+2
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/spookycookie">Spooky</a></td></tr>
+<tr><td>Date:</td><td>2010-06-04</td></tr>
+<tr><td>Time limit:</td><td>0.092s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>CodeChef May Challenge</td></tr>	
+</table>

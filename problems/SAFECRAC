@@ -1,0 +1,100 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SAFECRAC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13745. Crack the Safe</h1>
+		<h2>Problem code: SAFECRAC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;">Johnny (not little anymore) is a super agent .He is been following up on leads against the world&rsquo;s worst terrorists. He got a intel that a terrorist is staying at an expensive hotel. Only thing that stops LJ is the secure door in the room entrance.</span></p>
+<p><span style="font-size: small;">The secure door had a lock which resembled this,</span></p>
+<table style="margin:0 auto" border="1" cellpadding="8">
+<tbody>
+<tr>
+<td>
+<p align="center"><span style="font-size: small;">1</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">2</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">3</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><span style="font-size: small;">4</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">5</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">6</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><span style="font-size: small;">7</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">8</span></p>
+</td>
+<td>
+<p align="center"><span style="font-size: small;">9</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><span style="font-size: small;">0</span></p>
+</td>
+<td colspan="2">
+<p align="center"><span style="font-size: small;">Enter</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: small;">The enter key cannot be a part of the pass-code</span></p>
+<p><span style="font-size: small;">When Johnny did some spy work on it, he found out that every pair of neighbouring digits in the pass code is adjacent on the keypad. Adjacent means that the digits share a common edge.</span></p>
+<p><span style="font-size: small;">Now he wants to know how many different possibilities are there for the pass code so that he can bring a computer accordingly to hack the lock.</span></p>
+<p><strong><span style="font-size: small;">Input:</span></strong></p>
+<p><span style="font-size: small;">Input begins with single integer &lsquo;T&rsquo; denoting number of test cases and T lines follow. Each line contains the number &lsquo;N&rsquo; denoting the length of the pass code.</span></p>
+<p><strong><span style="font-size: small;">Output:</span></strong></p>
+<p><span style="font-size: small;">For each test case T, output the number of different possibilities in a new line. Since the answer can be huge output the number mod 1000000007</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>Constraints: </strong><br /> 1 &lt;= T &lt;= 1,000</span></p>
+<p><span style="font-size: small;">1 &lt;= N &lt;= 100,000</span></p>
+<p><span style="font-size: small;"><br /> <strong>Sample input: </strong><br /> 2<br /> 3<br /> 25</span></p>
+<p><span style="font-size: small;"><strong>Sample output: </strong><br /> 74<br /><span style="color: #222222; line-height: 40px; white-space: nowrap;">478325846</span><br /> <br /> <br /></span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sh4d0wkn1ght">J.A.R.V.I.S.</a></td></tr>
+<tr><td>Date:</td><td>2013-02-14</td></tr>
+<tr><td>Time limit:</td><td>0.192s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

@@ -1,0 +1,140 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MPOLY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4061. Polygon</h1>
+		<h2>Problem code: MPOLY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MPOLY/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MPOLY/vn/">Vietnamese</a></td> 
+</tr></table>
+
+</p><p>
+There are N points in a plane whose coordinates are natural numbers.
+A convex polygon with maximal number of vertices is a convex polygon 
+whose vertices are some of given points and the origin having maximal 
+possible number of vertices. Origin, i.e. point with coordinates 
+(0,0), must be one of vertices of a convex polygon with maximal number
+of vertices.</p><p>
+Write a program that will determine number of vertices in such polygon.</p><p>
+A polygon is convex if every line segment whose endpoints are inside 
+that polygon is also completely inside it.
+Consecutive edges of a polygon must not be parallel.</p><p>
+
+ 
+</pre>
+<h3>Input</h3>
+</p><p>
+The first line of input file contains a natural number N, 2 &#8804; N &#8804; 100, 
+a number of given points.</p><p>
+Each of the following N lines contains two natural numbers X and Y, 
+1 &#8804; X &#8804; 100, 1 &#8804; Y &#8804; 100, separated by a space character, coordinates of 
+one point. </p><p>All points will be different.</p><p>
+
+
+ 
+<h3>Output</h3>
+</p><p>
+The first and only line of output file should contain number of vertices
+of convex polygon with maximal number of vertices.
+Note: the result will always be at least 3.</p><p>
+
+</pre>
+<h3>Sample</h3>
+<pre>
+POLYGON.IN
+
+5
+4 2
+2 2
+2 3
+3 2
+3 1
+
+POLYGON.OUT
+
+4
+ 
+POLYGON.IN
+
+8
+10 8
+3 9
+2 8
+2 3
+9 2
+9 10
+10 3
+8 10
+
+POLYGON.OUT
+
+8
+ 
+POLYGON.IN
+
+10
+9 6
+1 7
+2 2
+3 9
+8 7
+3 2
+9 4
+3 1
+9 7
+6 9
+
+POLYGON.OUT
+
+7
+Explanation for test data #2 (coordinates of polygon)
+
+2 8
+3 9
+8 10
+9 10
+10 8
+10 3
+9 2
+0 0
+
+</pre>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-03-16</td></tr>
+<tr><td>Time limit:</td><td>0.111s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 01</td></tr>	
+</table>

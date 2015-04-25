@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LCS0"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12076. Longest Common Subsequence</h1>
+		<h2>Problem code: LCS0</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>No imagination at the moment.</p>
+<h3>Input</h3>
+<p>You will be given two lines. The first line will contain the string A, the second line will contain the string B. Both strings consist of&nbsp;no more than 50000 lowercase Latin letters.</p>
+<h3>Output</h3>
+<p>Output the length of the longest common subsequence of strings A and B.</p>
+<h3>Example</h3>
+<h3><span style="white-space: pre;">Input:</span></h3>
+<p>abababab<br /> <span style="white-space: pre;">bcbb</span></p>
+<h3><strong>Output:</strong></h3>
+<p><strong>&nbsp;</strong><span style="white-space: pre; font-weight: normal;">3</span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/sk_001">Siarhei Kulik</a></td></tr>
+<tr><td>Date:</td><td>2012-08-25</td></tr>
+<tr><td>Time limit:</td><td>0.676s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Folklore</td></tr>	
+</table>

@@ -1,0 +1,47 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KMOVES"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5609. Knight Moves</h1>
+		<h2>Problem code: KMOVES</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A knight is located at the (black) origin of an infinite chessboard. Let <em>f(n) </em>define the number of black squares the knight can reach after making exactly <em>n</em> moves. Given <em>n </em>(0 &lt;= <em>n</em> &lt;= 10<sup>8</sup>), output <em>f(n)</em>.</p>
+<h3>Input</h3>
+<p>The first line of the input contains a single integer T, the number of test cases (1 &lt;= T &lt;= 10<sup>6</sup>). Each test case consists of a single positive integer <em>n</em>.</p>
+<h3>Output</h3>
+<p>For each value of <em>n</em> in the input, print a single line containing.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2<br />0<br />1<br /><br /><strong>Output:</strong><br />1<br />0</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/amlesh_jk92">Amlesh Jayakumar</a></td></tr>
+<tr><td>Date:</td><td>2009-12-16</td></tr>
+<tr><td>Time limit:</td><td>0.128s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

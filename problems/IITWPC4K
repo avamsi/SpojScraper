@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITWPC4K"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>18287. Maggu and Magguness Level</h1>
+		<h2>Problem code: IITWPC4K</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Until now you would have known that Maggu is a big geek. His class has n students. All the students are geeks like him. You are given m informations of form a, b which denotes that a th guy is less geeky than b th guy (geekiness(a) &lt; geekiness (b)). Note that geekiness of each person is unique and can be from 1 to n. Now Maggu wonders what are the possible values of his geekiness. If such a distribution of geekiness value is not possible, then output -1.&nbsp;</p>
+<h3>Input</h3>
+<p>First line contains T: number of test cases (1 &lt;= T &lt;= 100).</p>
+<p>For each test case, first line contains n, m, idx where n is number of boys in the class, m is number of informations, idx is the index corresponding to Maggu. 1 &lt;= n &lt;= 10^6, 1 &lt;= m &lt;= min (10^5, n * (n - 1) / 2), 1&lt;= idx &lt;= n.</p>
+<p>Then next m line contains two space separated integers representing a, b. (1 &lt;= a, b &lt;= n).</p>
+<p>No pair of information is repeated twice in the input.</p>
+<h3>Output</h3>
+<p>For each test case, You have to output one or two lines depending on the situation. In the former case, If the &nbsp;disribution of geekiness can not exist, output -1.</p>
+<p>In the second case (ie two lines), In the first line, output a single integer number of possible geekiness values of Maggu.<br />Then in the next line output in the increasing order all the possible geekiness values of Maggu in ascending order. All the values should be space seperated.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2<br />3 2 1<br />1 2<br />2 3<br />4 2 1<br />1 2<br />3 4
+
+<strong>Output:</strong>
+1<br />1<br />3
+1 2 3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dhinwa123">praveen123</a></td></tr>
+<tr><td>Date:</td><td>2014-02-03</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www2.cse.iitk.ac.in/judge/public/">IITK ACA CSE online judge </a></td></tr>	
+</table>

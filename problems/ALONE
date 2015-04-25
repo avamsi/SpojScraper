@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ALONE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13469. FOREVER ALONE</h1>
+		<h2>Problem code: ALONE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>IAR and FA numbers</strong></span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Numbers can be classified as IAR numbers and FA numbers.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Numbers in which all digits are equal to either adjacent digit are called <em style="font-weight: bold;">In-A-Relationship </em>numbers. For example: 11, 22, 111, 9922888 and 777788822  are IAR numbers.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Numbers featuring lonely digits are called <em style="font-weight: bold;">Forever-Alone (FA) </em>numbers. For example: in 22122 digit 1 is alone and in 123 all digits are alone.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Given K, your task is to find the Kth <em style="font-weight: bold;">In-A-Relationship (IAR) </em>number.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Input</strong></span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">The first line contains number of test cases T ( T <= 50 )</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Then T test cases follow.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Each line contains one integer K (1 <= K <= 5*10^6)</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Output</strong></span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">For each test case, print the Kth <strong>IAR</strong> number.</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Sample Input</strong></span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">5</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">1</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">2</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">3</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">10</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">12</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Sample output</strong></span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">11</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">22</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">33</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">111</span></span></div>
+<p style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"> </span></span></p>
+<div style="text-align: left;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">333</span></span></div>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/cegprakash">cegprakash</a></td></tr>
+<tr><td>Date:</td><td>2013-01-23</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BF SCM chicken </td></tr>
+<tr><td>Resource:</td><td>problem setter: rishi_kumar</td></tr>	
+</table>

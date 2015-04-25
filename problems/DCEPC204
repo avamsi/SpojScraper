@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC204"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10809. Unlock it !</h1>
+		<h2>Problem code: DCEPC204</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Vaibhav loves playing with numbers. To enjoy his summer holidays he decides to join the group "number players" of his school. He decides to visit the group hall. At the gate he finds a lock and a paper. The gate can only be unlocked by solving the puzzle written on the paper. Vaibhav is stuck with his puzzle, help him in solving it.<br /><br />Here is the puzzle description:<br /><br />Given a sequence F(N)<br /><br />F(0)=1<br /><br />F(1)=1<br /><br />F(2)=1<br /><br />F(n) = product of all odd primes less than or equal to n (for n&lt;=10)<br /><br />F(n) = (2^(n/4)) * F(n/5)* F(n/10) &nbsp; &nbsp; &nbsp;(for n&gt;10)</p>
+<p style="text-align: justify;"><strong>For every fraction , a ceil value is taken for evaluation.</strong></p>
+<p style="text-align: justify;"><strong> For eg. F(11)=2^ceil(11/4) * F(ceil(11/5)) * F(ceil(11/10))&nbsp; = 2^3 * F(3) * F(2) = 24</strong><br /><br />Given N. Find the max value of <strong>(a^b)%mod</strong> such that a and b satisfies the relation gcd(a,b) = F(N).<br /><br />Gcd : Greatest common divisor</p>
+<h3>Input</h3>
+<p>First line gives T, total number of testcases.<br /><br />Next T line gives number N</p>
+<h3>Output</h3>
+<p>For each test case, print the desired value on a new line</p>
+<h3>Constraints</h3>
+<p>T&lt;=10<br /><br />N&lt;=10^6</p>
+<p>mod = 10^9.</p>
+<p>NOTE: a must be &lt;= 5*F(n) and b must be &lt;=5*F(n) , a can be equal to b and mod=10^9</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1<br />2<br /><br /><strong>Output:</strong>
+1024</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2012-02-26</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

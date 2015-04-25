@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BRDGHRD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14742. Building Bridges(HARD)</h1>
+		<h2>Problem code: BRDGHRD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">The tribe soon discovers that just communication is not enough and wants to meet each other to form a joint force against the terminator.But there is a deep canyon that needs to crossed. Points have been identified on both sides on which bridge ends can be made. But before the construction could be started, a witch Chudael predicted that a bridge can only be built between corresponding end points, i.e. a bridge starting from the i<sup>th</sup>&nbsp;end point on one side can only end on the i<sup>th</sup>&nbsp;end point on the other side, where the position of end points is seen in the order in which the points were identified. If not, it would lead to the end of the tribe. The tribe just wants to make as many non-overlapping bridges as possible, with the constraint in mind.</p>
+<h3 style="color: #000020; text-align: center; background-color: #f6f9e0;">Input</h3>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">The first line of the input contains test cases t. It is followed by 3*t lines, 3 for each test case. The first line of input for each test case contains the number of end points identified on each side, n (1&lt;=n&lt;=10<sup>5</sup>). The second line contains x-coordinates of end points identified on the first side and similiarly the third line contains the x-coordinates of corresponding end points identified on the other side. The end points are inputted in the order in which they were identified. &nbsp;The x-coordinates can range between -10<sup>6</sup>&nbsp;to 10<sup>6</sup>.</p>
+<h3 style="color: #000020; text-align: center; background-color: #f6f9e0;">Output</h3>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">You are required to output a single line for each test case. The line contains a single integer &ndash; the</p>
+<p style="font-size: 13px; text-align: justify; color: #000020; background-color: #f6f9e0;">maximum number of bridges possible with the constraints explained above.</p>
+<h3 style="color: #000020; text-align: center; background-color: #f6f9e0;">Example</h3>
+<pre style="background-color: #f6f9e0;"><strong>Input:</strong></pre>
+<pre style="background-color: #f6f9e0;"><strong><span style="font-weight: normal;">3</span></strong><p style="font-size: 13px; text-align: justify;">4</p><p style="font-size: 13px; text-align: justify;">2 5 8 10</p><p style="font-size: 13px; text-align: justify;">6 4 1 2</p><p style="font-size: 13px; text-align: justify;">3</p><p style="font-size: 13px; text-align: justify;">5 3 10</p><p style="font-size: 13px; text-align: justify;">6 4 1</p><p style="font-size: 13px; text-align: justify;">6</p><p style="font-size: 13px; text-align: justify;">1 2 3 4 5 6</p>3 4 5 6 1 2<br /><br /><strong>Output:</strong><br /><p style="font-size: 13px; text-align: justify;">2</p><p style="font-size: 13px; text-align: justify;">2</p><p style="font-size: 13px; text-align: justify;">4</p><p style="font-size: 13px; text-align: justify;">&nbsp;</p><p style="font-size: 13px; text-align: justify;">Expalanation: For the first test case, two non-overlapping bridges can be formed between the 3rd</p><p style="font-size: 13px; text-align: justify;">and 4th end points on each side.</p><p style="font-size: 13px; text-align: justify;">(This problem is based on: http://www.spoj.com/problems/BRIDGE.)</p></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mrzero77">Alex Abbas</a></td></tr>
+<tr><td>Date:</td><td>2013-04-27</td></tr>
+<tr><td>Time limit:</td><td>0.140s-0.25s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Based on: Building Bridges By Troika::Bytes</td></tr>	
+</table>

@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FSEATS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2176. Finding Seats</h1>
+		<h2>Problem code: FSEATS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A group of K friends is going to see a movie. However, they are too late to get good tickets,
+so they are looking for a good way to sit all nearby. Since they are all science students, they
+decided to come up with an optimization problem instead of going on with informal arguments
+to decide which tickets to buy.
+
+<p><p>
+The movie theater has R rows of C seats each, and they can see a map with the currently
+available seats marked. They decided that seating close to each other is all that matters, even
+if that means seating in the front row where the screen is so big it&#8217;s impossible to see it all at
+once. In order to have a formal criteria, they thought they would buy seats in order to minimize
+the <i>extension</i> of their group.
+
+<p><p>
+The <i>extension</i> is defined as the area of the smallest rectangle with sides parallel to the seats
+that contains all bought seats. The area of a rectangle is the number of seats contained in it.
+They&#8217;ve taken out a laptop and pointed at you to help them find those desired seats.
+
+<h3>Input</h3>
+<p>Each test case will consist on several lines. The first line will contain three positive integers R,
+C and K as explained above (1 <= R,C <= 300, 1 <= K <= R × C). The next R lines will contain
+exactly C characters each. The j-th character of the i-th line will be &#8216;X&#8217; if the j-th seat on
+the i-th row is taken or &#8216;.&#8217; if it is available. There will always be at least K available seats in
+total.
+
+<p><p>
+Input is terminated with R = C = K = 0.
+
+<h3>Output</h3>
+<p>For each test case, output a single line containing the minimum extension the group can have.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 5 5
+...XX
+.X.XX
+XX...
+5 6 6
+..X.X.
+.XXX..
+.XX.X.
+.XXX.X
+.XX.XX
+0 0 0
+
+<b>Output:</b>
+6
+9
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-12-02</td></tr>
+<tr><td>Time limit:</td><td>0.209s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>The 2007 ACM South American Programming Contest</td></tr>	
+</table>

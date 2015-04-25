@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/RIGHTTRI"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3983. Right Triangle Counting </h1>
+		<h2>Problem code: RIGHTTRI</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/RIGHTTRI/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/RIGHTTRI/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p><br /></pre>
+<p>N points are placed in the coordinate plane. Write a program which calculates  in how many ways a  right  triangle can be  formed by  three of  the given points. A right triangle is one in which one of the angles is 90 degrees.</p>
+<pre style="text-align: center;"></pre>
+<h1 style="text-align: center;">Input</h1>
+<pre style="text-align: center;"></pre>
+<p>The first line of input contains an integer N (3 &lt;= N &lt;= 1500), the number of points. Each of the following N lines contains the coordinates of one point, two integers separated by a space. The coordinates will be between -10^9 and 10^9. No two points will be located at the same coordinates.</p>
+<pre></pre>
+<h1 style="text-align: center;">Output</h1>
+<pre><p>Output the number of right triangles. </p><br /><h3>Sample</h3><br /><pre>Sample input<br /> <br />input <br /> <br />5 <br />-1 1 <br />-1 0 <br />0 0 <br />1 0 <br />1 1 <br /> <br />output <br /> <br />7 <br /><br />input <br /> <br />4 <br />5 0 <br />2 6 <br />8 6 <br />5 7 <br /> <br />output <br /> <br />0  <br /></pre>
+<br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-28</td></tr>
+<tr><td>Time limit:</td><td>0.162s-0.910s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>COI 07 Open</td></tr>	
+</table>

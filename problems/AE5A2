@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AE5A2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4311. Quasi-template</h1>
+		<h2>Problem code: AE5A2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A template of a word v is such a word s that all occurrences of s within v cover the whole word v (i.e. each letter of the word v appears within some fragment of consecutive letters of v equal to s). By quasi-template
+of a word v we mean such a word s that s is a substring (i.e. a fragment of consecutive letters) of v and s is
+a template of some superstring of v. The figure below shows why the word aabaa is a quasi-template of the
+word aaaabaabaaaba:</p>
+
+<img src = "https://vn.spoj.pl/SPOJVN/content/szarys.jpg">
+
+<p>For a given word v we would like to compute the number of its quasi-templates and the shortest one of them.</p>
+
+<h3>Input</h3>
+<p>The only line of the standard input contains a non-empty word v that is not longer than 200000 letters. It consists of small letters of English alphabet.</p>
+<h3>Output</h3>
+<p>The first line of the standard output should contain the number of quasi-templates of word v. The second line
+should contain the shortest word being a quasi-template of word v. If there is more than one such shortest
+word, output the lexicographically smallest from the shortest quasi-templates.</p>
+<h3>Example</h3>
+<p>For the input data:</p>
+<pre>
+aaaabaabaaaba
+</pre>
+<p>the correct result is:</p>
+<pre>
+10
+aabaa
+</pre>
+<p>The word from the sample input has 10 quasi-templates: aaaabaabaaab, aaaabaabaaaba, aaabaaba, aaabaabaa,
+aaabaabaaa, aaabaabaaaba, aabaa, aabaabaa, aabaabaaa, and abaabaaa.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2009-05-03</td></tr>
+<tr><td>Time limit:</td><td>0.650s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Algorithmic Engagements 2009</td></tr>	
+</table>

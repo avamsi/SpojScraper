@@ -1,0 +1,183 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MKMOOM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1869. Making Mountains Out Of Molehills</h1>
+		<h2>Problem code: MKMOOM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A macro processor is a symbol processing program. It takes a stream of characters as its input, and
+produces a stream of characters as its output. A &#8220;macro&#8221; is similar to ordinary function in that it has a
+definition, and when invoked, that definition is applied to the argument(s) to yield the result. In this
+problem, you will develop a simple macro processor.
+
+<p><p>
+A &#8220;macro call&#8221; consists of a name and a list of arguments, separated by commas. The name is preceded by
+'[' (a left bracket) and the last argument is followed by ']' (a right bracket). For example, &#8220;[doit,to,it]&#8221;
+calls the macro named &#8220;doit&#8221; with two arguments, &#8220;to&#8221; and &#8220;it&#8221;. &#8220;[random]&#8221; calls the macro named &#8220;random&#8221;
+with no arguments.
+
+<p><p>
+Before a macro can be called, it must be defined by associating its name with a symbol string. This
+definition string may contain the special constructions &#8220;$1&#8221; through &#8220;$9&#8221; to reference the first through
+the ninth macro parameters. &#8220;$0&#8221; references the macro&#8217;s name itself. When the macro is called, these
+constructions are literally replaced by the values of the parameters. For example, suppose the definition
+string for the macro named &#8220;321&#8221; was &#8220;$3-$2-$1&#8221;. The macro call &#8220;[321,This,is,fun]&#8221; would yield the output
+&#8220;fun-is-This&#8221;. A macro call can appear anywhere. For example, the macro call &#8220;[321,[321,A,B,C],D,E]&#8221; would
+yield the output &#8220;E-D-C-B-A&#8221;.
+
+<p><p>
+Input enclosed in '<' and '>' prevents the evaluation of the text enclosed, allowing special characters like
+'[', ']', ',' and '$' to be used in other than their usual contexts. Thus the macro call &#8220;[321,<$>,<[>,<,>]&#8221; would
+yield &#8220;,-[-$&#8221;.
+
+<p><p>
+Macros are defined using the predefined macro named &#8220;def&#8221;, which has two arguments. The first argument
+is the name of the macro being defined, and the second argument is the defining symbol string for the
+macro. The &#8220;321&#8221; macro definition is &#8220;[def,321,<$3-$2-$1>]&#8221;. Note that the definition is enclosed in '<' and
+'>' to prevent &#8220;$1&#8221;, &#8220;$2&#8221;, and &#8220;$3&#8221; from being interpreted as parameter references to def. The def macro
+produces no output. Naturally, the def macro isn&#8217;t defined using def, but is treated specially by the
+implementation.
+
+<p><p><p>
+<b>Processing</b><p>
+The input stream is processed character by character and copied to the output until a macro call is
+encountered, or the input is exhausted (which terminates processing). A macro call is evaluated as
+described below, with the result (if any) copied to the output.
+
+<p><p>
+<ol>
+<li>The macro name and the parameters are evaluated in sequence from left to right. This may require
+evaluating additional macro calls, which must be processed recursively.
+<li>When the argument list is complete (that is, when the closing ']' is encountered) the definition of
+the macro being called is scanned in the same manner as the original input stream except that
+occurrences of &#8220;$0&#8221;, &#8220;$1&#8221;, and so forth are replaced literally by the corresponding arguments. The
+result of the macro call is the symbol stream produced by this scan.
+<li>When the macro call is completed, the macro name and the arguments are discarded, and processing
+resumes at the point where it was interrupted by the macro call.
+</ol>
+<p><p>
+<b>Limits and Caveats</b><p>
+Macro names and arguments will contain no more than 32 characters each. The defining string for a macro
+will contain no more than 100 characters. Macros will never be defined more than once (that is, the same
+macro name will not be used more than once as the first argument to &#8220;def&#8221;). Macro calls will always provide
+the correct number of arguments. Character case is significant in comparisons. All input characters,
+including end of line characters, are to be processed through the macro processor. No output line will
+contain more than 80 characters, including the end of line character. The input is guaranteed to be correct.
+
+<h3>Input</h3>
+<p>There will be multiple cases to consider. The input for each case begins with a line containing a single
+integer between 1 and 10, that specifies the number of lines of text immediately following that will be used
+as input to the macro processor. None of these lines will contain more than 80 characters, so the input to
+the macro processor will contain at most 810 characters. The last case will be followed by a line containing
+the integer 0.
+
+<h3>Output</h3>
+<p>For each input case, display the case number (1, 2, &#8230;), a line containing 79 hyphens, the output from the
+macro processor, another line containing 79 hyphens, and a blank line.
+
+<p><p>
+In the sample input shown below, assume that the last visible character on each line is immediately followed
+by the end of line character. Blank lines in the expected output are shown here as **BLANK** for clarity,
+but these should actually be totally blank in your output.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+This is just copied (including end of line).
+1
+[def,321,<$3-$2-$1>][321,This,is,fun]
+1
+[def,321,<$3-$2-$1>][321,[321,A,B,C],D,E]
+1
+[def,321,<$3-$2-$1>][321,This,is,fun][321,[321,A,B,C],D,E]
+3
+[def,321,<$3-$2-$1>]
+[321,This,is,fun]
+[321,[321,A,B,C],D,E]
+3
+[def,A,<$1[B]$2>]
+[def,B,*B*]
+[A,1,2]
+2
+[def,#,<[-]$1[-]$2[-]$3[-]>][def,-,<$0>][def,DEF,def][[DEF],X,THIS IS X]
+[X][#,DEF,#,X]
+0
+
+<b>Output:</b>
+Case 1
+-------------------------------------------------------------------------------
+This is just copied (including end of line).
+-------------------------------------------------------------------------------
+**BLANK**
+Case 2
+-------------------------------------------------------------------------------
+fun-is-This
+-------------------------------------------------------------------------------
+**BLANK**
+Case 3
+-------------------------------------------------------------------------------
+E-D-C-B-A
+-------------------------------------------------------------------------------
+**BLANK**
+Case 4
+-------------------------------------------------------------------------------
+fun-is-ThisE-D-C-B-A
+-------------------------------------------------------------------------------
+**BLANK**
+Case 5
+-------------------------------------------------------------------------------
+**BLANK**
+fun-is-This
+E-D-C-B-A
+-------------------------------------------------------------------------------
+**BLANK**
+Case 6
+-------------------------------------------------------------------------------
+**BLANK**
+**BLANK**
+1*B*2
+-------------------------------------------------------------------------------
+**BLANK**
+Case 7
+-------------------------------------------------------------------------------
+**BLANK**
+THIS IS X-DEF-#-X-
+-------------------------------------------------------------------------------
+**BLANK**
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-10-07</td></tr>
+<tr><td>Time limit:</td><td>0.173s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>North Central North America Regional Programming Contest - 2003</td></tr>	
+</table>

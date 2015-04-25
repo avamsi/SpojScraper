@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MELE2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3962. ELEVATOR II</h1>
+		<h2>Problem code: MELE2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%; background-color: #ee7b10;" border="0">
+<tbody>
+<tr class="navigation">
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MELE2/en/">English</a></td>
+<td style="text-align: center;" width="50%"><a href="/SPOJ/problems/MELE2/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<pre>Edward works as an engineer for Non-trivial Elevators: Engineering, <br />Research and Construction (NEERC). His new task is to design a brand new <br />elevator for a skyscraper with h &#64258;oors.<br />Edward has an idee &#64257;xe: he thinks that four buttons are enough to control<br />the movement of the elevator.<br />His last proposal suggests the following four buttons:<br />&bull; Move a &#64258;oors up.<br />&bull; Move b &#64258;oors up.<br />&bull; Move c &#64258;oors up.<br />&bull; Return to the &#64257;rst &#64258;oor.<br />Initially, the elevator is on the &#64257;rst &#64258;oor. A passenger uses the &#64257;rst <br />three buttons to reach the &#64258;oor she needs. If a passenger tries to move <br />a, b or c &#64258;oors up and there is no such &#64258;oor (she attempts to move<br />higher than the h-th &#64258;oor), the elevator doesn&rsquo;t move.<br />To prove his plan worthy, Edward wants to know how many &#64258;oors are actually <br />accessible from the &#64257;rst &#64258;oor via his elevator. Help him calculate this number.<br /></pre>
+<h3>Input</h3>
+<pre>TThe &#64257;rst line of the input &#64257;le contains one integer h &mdash; the height of <br />the skyscraper (1 &le; h &le; 10^18).<br />The second line contains three integers a, b and c &mdash; the parameters of <br />the buttons (1 &le; a, b, c &le; 100000)<br /><br />SAMPLE INPUT 1<br />15<br />4 7 9<br /><br />SAMPLE INPUT 2<br />500000<br />160 96 111<br /><br />SAMPLE INPUT 3<br />987654321987654321<br />99995 99997 99999<br /><br /></pre>
+<h3>Output</h3>
+<pre> <br />Output one integer number &mdash; the number of &#64258;oors that are reachable from <br />the &#64257;rst &#64258;oor<br /><br />SAMPLE OUTPUT 1<br />9<br />SAMPLE OUTPUT 2<br />498167<br />SAMPLE OUTPUT 3<br />987654319487854318<br /></pre>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-26</td></tr>
+<tr><td>Time limit:</td><td>0.215s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>NEERC 2007&#8211;2008 </td></tr>	
+</table>

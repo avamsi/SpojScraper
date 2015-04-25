@@ -1,0 +1,34 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/xadur"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DELIVER" target="_blank">10547. Delivery Route</a></td><td><a href="http://www.spoj.com/problems/DELIVER"target="_blank">DELIVER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MON2012" target="_blank">10596. Monkey and apples</a></td><td><a href="http://www.spoj.com/problems/MON2012"target="_blank">MON2012</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SYM12" target="_blank">10699. Symmetry</a></td><td><a href="http://www.spoj.com/problems/SYM12"target="_blank">SYM12</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BANNER" target="_blank">11090. Large banner</a></td><td><a href="http://www.spoj.com/problems/BANNER"target="_blank">BANNER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RESTACK" target="_blank">11117. Restacking haybales 2012</a></td><td><a href="http://www.spoj.com/problems/RESTACK"target="_blank">RESTACK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TDOWN" target="_blank">11407. Tied Down</a></td><td><a href="http://www.spoj.com/problems/TDOWN"target="_blank">TDOWN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHELF" target="_blank">11461. Book Shelves</a></td><td><a href="http://www.spoj.com/problems/SHELF"target="_blank">SHELF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SUBSET" target="_blank">11469. Balanced Cow Subsets</a></td><td><a href="http://www.spoj.com/problems/SUBSET"target="_blank">SUBSET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WRONG" target="_blank">11707. Wrong directions</a></td><td><a href="http://www.spoj.com/problems/WRONG"target="_blank">WRONG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPECIALG" target="_blank">13529. Special Graph</a></td><td><a href="http://www.spoj.com/problems/SPECIALG"target="_blank">SPECIALG</a><br>
+</td></tr>

@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/chakradarraju"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/SFLIP" target="_blank">9367. Segment Flip</a></td><td><a href="http://www.spoj.com/problems/SFLIP"target="_blank">SFLIP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LANDFILL" target="_blank">9378. Landfill</a></td><td><a href="http://www.spoj.com/problems/LANDFILL"target="_blank">LANDFILL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CARNIVAL" target="_blank">9382. Complan Carnival</a></td><td><a href="http://www.spoj.com/problems/CARNIVAL"target="_blank">CARNIVAL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ1" target="_blank">10639. The Blind Passenger</a></td><td><a href="http://www.spoj.com/problems/MYQ1"target="_blank">MYQ1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ2" target="_blank">10640. The Wild Wizard</a></td><td><a href="http://www.spoj.com/problems/MYQ2"target="_blank">MYQ2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ3" target="_blank">10641. The Dating Dress Problem</a></td><td><a href="http://www.spoj.com/problems/MYQ3"target="_blank">MYQ3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ5" target="_blank">10643. The Nerd Factor</a></td><td><a href="http://www.spoj.com/problems/MYQ5"target="_blank">MYQ5</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ6" target="_blank">10644. Serve The Street</a></td><td><a href="http://www.spoj.com/problems/MYQ6"target="_blank">MYQ6</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ7" target="_blank">10645. The Rail Network Renovation</a></td><td><a href="http://www.spoj.com/problems/MYQ7"target="_blank">MYQ7</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ8" target="_blank">10646. The National Game</a></td><td><a href="http://www.spoj.com/problems/MYQ8"target="_blank">MYQ8</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ9" target="_blank">10647. Divide And Conquer</a></td><td><a href="http://www.spoj.com/problems/MYQ9"target="_blank">MYQ9</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ10" target="_blank">10649. Mirror Number</a></td><td><a href="http://www.spoj.com/problems/MYQ10"target="_blank">MYQ10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ11" target="_blank">10701. The Lazy Gamer</a></td><td><a href="http://www.spoj.com/problems/MYQ11"target="_blank">MYQ11</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MYQ12" target="_blank">10704. The Great Escape</a></td><td><a href="http://www.spoj.com/problems/MYQ12"target="_blank">MYQ12</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NITT1" target="_blank">12318. My Reaction when there is no internet connection</a></td><td><a href="http://www.spoj.com/problems/NITT1"target="_blank">NITT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NITT2" target="_blank">12319. hai jolly jolly jolly</a></td><td><a href="http://www.spoj.com/problems/NITT2"target="_blank">NITT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NITT4" target="_blank">12324. Tiles</a></td><td><a href="http://www.spoj.com/problems/NITT4"target="_blank">NITT4</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NITT8" target="_blank">12326. Dating Rishi</a></td><td><a href="http://www.spoj.com/problems/NITT8"target="_blank">NITT8</a><br>
+</td></tr>

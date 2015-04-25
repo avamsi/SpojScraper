@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/LOPOV"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>16409. Lopov</h1>
+		<h2>Problem code: LOPOV</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The difficult economic situation in the country and reductions in government agricultural subsidy&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">funding have caused Mirko to change his career again, this time to a thief. His first professional&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">endeavour is a jewellery store heist.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">The store contains N pieces of jewellery, and each piece has some mass Mi</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">&nbsp;and value Vi</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">. Mirko has K&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">bags to store his loot, and each bag can hold some maximum mass Ci</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">. He plans to store all his loot in&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">these bags, but at most one jewellery piece in each bag, in order to reduce the likelihood of damage&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">during the escape.&nbsp;</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">Find the maximum total jewellery value that Mirko can &ldquo;liberate&rdquo;.&nbsp;</div>
+<p>The difficult economic situation in the country and reductions in government agricultural subsidy funding have caused Mirko to change his career again, this time to a thief. His first professional endeavour is a jewellery store heist.&nbsp;</p>
+<p>The store contains N pieces of jewellery, and each piece has some mass Mi and value Vi. Mirko has K bags to store his loot, and each bag can hold some maximum mass Ci. He plans to store all his loot in these bags, but at most one jewellery piece in each bag, in order to reduce the likelihood of damage during the escape.&nbsp;</p>
+<p>Find the maximum total jewellery value that Mirko can &ldquo;liberate&rdquo;.&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>The first line of input contains two numbers, N and K (1 &le; N, K &le; 300 000).&nbsp;</p>
+<p>Each of the following N lines contains a pair of numbers, Mi and Vi (1 &le; Mi, Vi &le; 1 000 000).</p>
+<p>Each of the following K lines contains a number, Ci (1 &le; Ci &le; 100 000 000).&nbsp;</p>
+<p>All numbers in the input are positive integers.&nbsp;</p>
+<h3>Output</h3>
+<p>The first and only line of output must contain the maximum possible total jewellery value.&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+ 
+2 1 
+5 10 
+100 100 
+11 
+
+<strong>Output:</strong>
+10</pre>
+<pre><strong><br /></strong></pre>
+<pre><strong>Input:</strong>
+ 
+3 2 
+1 65 
+5 23 
+2 99 
+10 
+2 
+
+<strong>Output:</strong>
+164</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tomislavb">Tomislav Babic</a></td></tr>
+<tr><td>Date:</td><td>2013-10-12</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>COCI 2013 1. round</td></tr>	
+</table>

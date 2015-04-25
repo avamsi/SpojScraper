@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MDIGITS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3928. Counting Digits</h1>
+		<h2>Problem code: MDIGITS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+
+
+<table class="problems" width="100%"><tr  class="navigation">
+<td width="50%"><a href="/SPOJ/problems/MDIGITS/en/">English</a></td> 
+<td width="50%"><a href="/SPOJ/problems/MDIGITS/vn/">Vietnamese</a></td> 
+</tr></table>
+
+<pre>
+Given two integers a and b, we write the numbers between a and b, inclusive,
+in a list. Your task is to calculate the number of occurrences of each digit. 
+
+For example, if a = 1024 and b = 1032, the list will be 
+1024 1025 1026 1027 1028 1029 1030 1031 1032
+there are ten 0s in the list, ten 1s, seven 2s, three 3s, and etc. 
+</pre>
+<h3>Input</h3>
+<pre>
+The input consists of up to 500 lines. Each line contains two numbers a and b
+where 0 < a, b < 100000000. The input is terminated by a line 0 0.
+
+Sample Input
+1 10 
+44 497 
+346 542 
+1199 1748 
+1496 1403 
+1004 503 
+1714 190 
+1317 854 
+1976 494 
+1001 1960 
+0 0</pre>
+
+<h3>Output</h3>
+<pre>
+For each pair of input, output a line containing ten numbers separated
+by single spaces. The first number is the number of occurrences of the digit 0,
+the second is the number of occurrences of the digit 1, etc
+
+Sample output
+1 2 1 1 1 1 1 1 1 1 
+85 185 185 185 190 96 96 96 95 93 
+40 40 40 93 136 82 40 40 40 40 
+115 666 215 215 214 205 205 154 105 106 
+16 113 19 20 114 20 20 19 19 16 
+107 105 100 101 101 197 200 200 200 200 
+413 1133 503 503 503 502 502 417 402 412 
+196 512 186 104 87 93 97 97 142 196 
+398 1375 398 398 405 499 499 495 488 471 
+294 1256 296 296 296 296 287 286 286 247 
+</pre>
+<b>Note : wrong dataset index , rejugded and TLE some ACed code</b>
+
+ 
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vdmedragon">~!(*(@*!@^&</a></td></tr>
+<tr><td>Date:</td><td>2009-02-22</td></tr>
+<tr><td>Time limit:</td><td>0.232s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Shanghai 2004</td></tr>	
+</table>

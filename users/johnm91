@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/johnm91"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NY10E" target="_blank">8611. Non-Decreasing Digits</a></td><td><a href="http://www.spoj.com/problems/NY10E"target="_blank">NY10E</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NY10A" target="_blank">8612. Penney Game</a></td><td><a href="http://www.spoj.com/problems/NY10A"target="_blank">NY10A</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SILVER" target="_blank">8785. Cut the Silver Bar</a></td><td><a href="http://www.spoj.com/problems/SILVER"target="_blank">SILVER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SPOINTS" target="_blank">8793. Separate Points</a></td><td><a href="http://www.spoj.com/problems/SPOINTS"target="_blank">SPOINTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SWJAM" target="_blank">8794. Swimming Jam</a></td><td><a href="http://www.spoj.com/problems/SWJAM"target="_blank">SWJAM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TWENTYQ" target="_blank">8795. Twenty Questions</a></td><td><a href="http://www.spoj.com/problems/TWENTYQ"target="_blank">TWENTYQ</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CUBARTWK" target="_blank">8796. Cubist Artwork</a></td><td><a href="http://www.spoj.com/problems/CUBARTWK"target="_blank">CUBARTWK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ADDMUL" target="_blank">9440. To Add or to Multiply</a></td><td><a href="http://www.spoj.com/problems/ADDMUL"target="_blank">ADDMUL</a><br>
+</td></tr>

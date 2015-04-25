@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZEROCNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8265. Zero Count</h1>
+		<h2>Problem code: ZEROCNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Write down N integers 1, 2, ..., N in binary system on a paper, one per line, ignore all leading 0s:</p>
+<p>1</p>
+<p>10</p>
+<p>11</p>
+<p>100</p>
+<p>101</p>
+<p>110</p>
+<p>111</p>
+<p>...</p>
+<p>Now on each line, consider all groups of consecutive 0s, index these group from 1. We will color all zeros in the 1st, (K+1)th, (2K+1)th, ... group, for K is a given integer.</p>
+<p>For example: if a number in binary is: 1<span style="color: #ff0000;">0</span>1000111<span style="color: #ff0000;">00</span>110000, and K = 2. We have 4 groups of consecutive 0s, and we will color all zeros in the 1st and the 3rd group. So we will color 1 + 2 = 3 zeros in this line.</p>
+<p>Given N and K. Compute total number of 0s we will color in the paper. (The paper is big enough to contain all numbers :D)</p>
+<h3>Input</h3>
+<p>Several lines, each line contains 2 integers: N and K separated by a single space. (1 &lt; N &lt; 2<sup>31</sup>, K &gt; 0)</p>
+<h3>Output</h3>
+<p>For each line in the input, print exactly 1 number on a single line which is the result of the corresponding test case.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 1<br />56 2<br /><strong>Output:</strong><br />3<br />92</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2011-02-05</td></tr>
+<tr><td>Time limit:</td><td>0.106s
+</td></tr>
+<tr><td>Source limit:</td><td>700B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>VOJ</td></tr>	
+</table>

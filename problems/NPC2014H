@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NPC2014H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21463. Arithmetic Rectangle</h1>
+		<h2>Problem code: NPC2014H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a matrix with size N x M where each cell contains an integer. An arithmetic rectangle is a rectangle inside the matrix so that each row and column is an arithmetic progression. An arithmetic progression is a sequence so that each number minus the number before it is the same. Given a matrix, find the largest arithmetic rectangle, which is the arithmetic rectangle containing the most number of cells. For example, the largest arithmetic rectangles of the matrix below consists of 9 cells:</p>
+<p style="text-align: center;"><img src="../../../content/andypertamax:NPC2014H-matrix" alt="5,3,5,7/2,4,4,4/3,5,3,1/6,3,2,4" width="112" height="112" /></p>
+<h3>Input</h3>
+<p>First line of input is T, the number of test cases. Each test case starts with N and M. The next N lines each containing M integers &nbsp;A<sub>ij</sub>&nbsp;representing the value of each cell of the matrix. Each input file will not exceed 20 MB in size.</p>
+<h3>Output</h3>
+<p>For each test case output the number of cells in the largest arithmetic rectangle in the matrix.</p>
+<h3>Sample Input</h3>
+<pre>2
+4 4
+5 3 5 7
+2 4 4 4
+3 5 3 1
+6 3 2 4
+2 3
+0 1 2
+1 2 3</pre>
+<h3>Sample Output</h3>
+<pre>9
+6</pre>
+<div style="border: 1px solid #FC0; background-color: #FFC; padding: 5px; margin-bottom: 10px;">
+<h3>Constraint</h3>
+<ul>
+<li> 1 &le; T &le; 10000</li>
+<li> 1 &le; N, M &le; 3000</li>
+<li> 0 &le; A<sub>ij</sub> &le; 1000000000</li>
+</ul>
+</div>
+<p><strong>Input file is huge, is faster I/O (scanf for C)</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/andypertamax">Andy</a></td></tr>
+<tr><td>Date:</td><td>2014-10-21</td></tr>
+<tr><td>Time limit:</td><td>1s-1.5s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>NPC Schematics 2014</td></tr>	
+</table>

@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/APIO14_A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>21132. Palindromes</h1>
+		<h2>Problem code: APIO14_A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a string of lower-case Latin letters. Let us define substring&#8217;s &#8220;occurrence value&#8221; as the
+number of the substring occurrences in the string multiplied by the length of the substring. For a given
+string find the largest occurrence value of palindromic substrings.
+
+<h3>Input</h3>
+<p>The only line of input contains a non-empty string S of lower-case Latin letters (a-z), |S| <= 300,000.
+
+<h3>Output</h3>
+<p>Output one integer &#8211; the largest occurrence value of palindromic substrings.
+
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+abacaba
+
+<b>Output:</b>
+7
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/blackjaguar97">Se7s</a></td></tr>
+<tr><td>Date:</td><td>2014-09-25</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>APIO 2014</td></tr>	
+</table>

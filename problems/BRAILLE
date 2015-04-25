@@ -1,0 +1,178 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BRAILLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3492. Braille Transcription</h1>
+		<h2>Problem code: BRAILLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Visually handicapped people use Braille
+system of codes for reading and writing. The basic Braille symbol (or cell) is
+composed of six dots arranged in two vertical columns, each column being three
+dots high. This pattern produces 64 one-cell symbols with character index <!-- MATH
+ $\# (2^{0}a_{1}
++ 2^{1}a_{2} + 2^{2}a_{3} + 2^{3}a_{4} + 2^{4}a_{5} + 2^{5}a_{6})$
+ -->
+<SPAN CLASS="MATH">#(2<SUP>0</SUP><I>a</I><SUB>1</SUB> + 2<SUP>1</SUP><I>a</I><SUB>2</SUB> + 2<SUP>2</SUP><I>a</I><SUB>3</SUB> + 2<SUP>3</SUP><I>a</I><SUB>4</SUB> + 2<SUP>4</SUP><I>a</I><SUB>5</SUB> + 2<SUP>5</SUP><I>a</I><SUB>6</SUB>)</SPAN>, where <SPAN CLASS="MATH"><I>a</I><SUB>i</SUB> = 1</SPAN>, if dot <SPAN CLASS="MATH"><I>i</I></SPAN> is
+embossed up and zero otherwise. The positions of these dots are numbered as
+follows:
+
+
+<P>
+
+<P>
+<BR>
+<DIV ALIGN="CENTER">
+A cell without numbers   A cell with numbers
+</DIV>
+<P>
+<DIV ALIGN="CENTER">
+<!-- MATH
+ $\epsfbox{p3254.eps}$
+ -->
+<IMG
+ ALIGN="BOTTOM" BORDER="0"
+ SRC="http://acmicpc-live-archive.uva.es/nuevoportal/data/p3254.jpg"
+ ALT="\epsfbox{p3254.eps}">
+</DIV>
+
+<P>
+Many Braille codes are in use; one such is the
+Simple Braille System (SBS). In SBS alphabets in lower case are default
+characters; letters `<TT>a</TT>, <TT>b</TT>,..., <TT>z</TT>' have character indices
+`<TT>1</TT>, <TT>2</TT>, ..., <TT>26</TT>' respectively. The ``letter sign'' (dots 5-6) may be used optionally
+before a string of alphabets in lower case. Each numeric digit 0-9 requires one
+cell, with character index the digit itself. However the ``number sign'' (dots
+3-4-5-6) is added before a string of numerals. In order to revert back to
+normal alphabets after a string of numerals, the ``letter sign'' is used. The
+blank cell is used as a space in alphabetic context and zero in numeric
+context. For example the numerals 1 - 10 are the same as the first ten letters
+of the alphabet, index of #<TT>a</TT> being 1 and #<TT>j</TT> being 10. SBS allows the
+contraction of `<TT>th</TT>', by a single cell with dots
+1-4-5-6. A two-cell contraction for `<TT>tion</TT>' is allowed
+with dots 5-6 and dots 1-3-4-5.
+
+
+<P>
+There are no single-cell codes for capital letters
+in SBS. So a ``capital sign'' (dot 6) is inserted before a capital letter. Two
+``capital signs'' are inserted to indicate that the string of alphabets that
+follows is capitalized. To revert back to normal alphabets (or numerals), the
+``letter sign'' (or the ``number sign'') is used. SBS ignores punctuation marks
+altogether.
+
+<P>
+
+<P>
+<BR>
+You are required to write a program for
+SBS transcription that converts an SBS code to English.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A> </FONT>
+</H2>
+
+<P>
+Input consists of multiple test cases.
+
+<P>
+
+In each test case there is an SBS code. It is given in three input
+lines containing a certain number of Braille cells. Each Braille cell is
+represented by a <SPAN CLASS="MATH">3×2</SPAN> array of <TT>0</TT>'s and <TT>1</TT>'s, appearing in an odd and the next
+even numbered column of the three input lines, where `<TT>1</TT>' is used for an embossed
+dot and `<TT>0</TT>' otherwise.
+
+<P>
+A line that is not a part of an SBS code, containing a single zero in
+column 1 terminates input.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A> </FONT>
+</H2>
+
+<P>
+For each test
+case, output the SBS code
+in English, in one line. In case the input does not conform to SBS rules stated
+above output simply the sign `<TT>?</TT>'.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A> </FONT>
+</H2>
+
+<P>
+
+<PRE>
+110010
+011100
+011110
+110110
+010100
+011110
+000011
+000101
+010110
+00001110
+00000100
+01010110
+0
+</PRE>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A> </FONT>
+</H2>
+
+<P>
+<PRE>
+?
+th5
+Tion
+THE
+</PRE>
+
+<P>
+
+<hr><ADDRESS>Kanpur-Kolkata 2004-2005</ADDRESS><p></body></html>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-09</td></tr>
+<tr><td>Time limit:</td><td>0.166s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Kanpur 2004</td></tr>	
+</table>

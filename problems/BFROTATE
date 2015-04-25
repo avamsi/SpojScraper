@@ -1,0 +1,46 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BFROTATE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4275. rotate it</h1>
+		<h2>Problem code: BFROTATE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rotate the given string starting at the given place from the end with wrapping around at the end. You are allowed to use only BrainFck!</p>
+<h3>Input</h3>
+<p>Given an integer of strictly 2 digits and a string (length &lt;= 99) in the same line without space between them. You may assume that the string consists of only printable characters and that the length of string is more than the given integer.</p>
+<h3>Output</h3>
+<p>One string of the same length as input and which has same characters in different order as described by problem.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />04abcdefgh<br /><br /><strong>Output:</strong><br />efghabcd<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/getshubham">!(accepted)</a></td></tr>
+<tr><td>Date:</td><td>2009-04-29</td></tr>
+<tr><td>Time limit:</td><td>0.200s-1s</td></tr>
+<tr><td>Source limit:</td><td>256B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF </td></tr>
+<tr><td>Resource:</td><td>Prateek Sharma</td></tr>	
+</table>

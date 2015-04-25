@@ -1,0 +1,22 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abhra73"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TRIISO" target="_blank">16300. Playing with isosceles triangle</a></td><td><a href="http://www.spoj.com/problems/TRIISO"target="_blank">TRIISO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POLYMUL" target="_blank">18425. Polynomial Multiplication</a></td><td><a href="http://www.spoj.com/problems/POLYMUL"target="_blank">POLYMUL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STK" target="_blank">19382. Stock</a></td><td><a href="http://www.spoj.com/problems/STK"target="_blank">STK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NBIN" target="_blank">19561. New Binary</a></td><td><a href="http://www.spoj.com/problems/NBIN"target="_blank">NBIN</a><br>
+</td></tr>

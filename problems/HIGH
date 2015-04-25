@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HIGH"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>104. Highways</h1>
+		<h2>Problem code: HIGH</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+In some countries building highways takes a lot of time... Maybe that's because there are many possiblities to construct a network of highways and engineers can't make up their minds which one to choose. Suppose we have a list of cities that can be connected directly. Your task is to count how many ways there are to build such a network that between every two cities there exists exactly one path. Two networks differ if there are two cities that are connected directly in the first case and aren't in the second case. At most one highway connects two cities. No highway connects a city to itself. Highways are two-way.
+</p>
+
+<h3>Input</h3>
+<p>
+	The input begins with the integer t, the number of test cases (equal to about 1000). Then t test
+cases follow.
+The first line of each test case contains two integers, the number of cities (1<=n<=12) and the number of direct connections between them. Each next line contains two integers a and b, which are numbers of cities that can be connected. Cities are numbered from 1 to n. Consecutive test cases are separated with one blank line.
+
+</p>
+
+<h3>Output</h3>
+<p>
+The number of ways to build the network, for every test case in a separate line. Assume that when there is only one city, the answer should be 1. The answer will fit in a signed 64-bit integer.
+</p>
+<h3>Example</h3>
+<pre><b><tt>Sample input:</tt></b>
+4
+4 5
+3 4
+4 2
+2 3
+1 2
+1 3
+
+2 1
+2 1
+
+1 0
+
+3 3
+1 2
+2 3
+3 1
+
+<b><tt>Sample output:</tt></b>
+8
+1
+1
+3
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/piotrek">Piotr Łowiec</a></td></tr>
+<tr><td>Date:</td><td>2004-07-02</td></tr>
+<tr><td>Time limit:</td><td>7s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

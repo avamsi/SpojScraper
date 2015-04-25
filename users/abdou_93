@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/abdou_93"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/DIGCNT" target="_blank">14858. digit count</a></td><td><a href="http://www.spoj.com/problems/DIGCNT"target="_blank">DIGCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POP1" target="_blank">15143. play with prime numbers (I)</a></td><td><a href="http://www.spoj.com/problems/POP1"target="_blank">POP1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POP2" target="_blank">15148. play with prime numbers (II)</a></td><td><a href="http://www.spoj.com/problems/POP2"target="_blank">POP2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POP3" target="_blank">15149. play with prime numbers (III)(hard )</a></td><td><a href="http://www.spoj.com/problems/POP3"target="_blank">POP3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PTRI" target="_blank">15164. primes triangle (I)</a></td><td><a href="http://www.spoj.com/problems/PTRI"target="_blank">PTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PTR2" target="_blank">15165. primes triangle (II)</a></td><td><a href="http://www.spoj.com/problems/PTR2"target="_blank">PTR2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/UVA1" target="_blank">18666. Radiation</a></td><td><a href="http://www.spoj.com/problems/UVA1"target="_blank">UVA1</a><br>
+</td></tr>

@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DISUBSTR"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>694. Distinct Substrings</h1>
+		<h2>Problem code: DISUBSTR</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a string, we need to find the total number of its distinct substrings.</p>
+<h3>Input</h3>
+<p>T- number of test cases. T<=20;<br>
+Each test case consists of one string, whose length is <= 1000</p>
+<h3>Output</h3>
+<p>For each test case output one number saying the number of distinct substrings.</p>
+
+<h3>Example</h3>
+<tt>
+<p><strong>Sample Input:</strong><br>
+  2<br>
+  CCCCC<br>
+  ABABA</p>
+<p><strong>Sample Output:</strong><br>
+  5<br>
+  9</p>
+</tt>
+
+<p>Explanation for the testcase with string ABABA: <br>
+  len=1 : A,B<br>
+  len=2 : AB,BA<br>
+  len=3 : ABA,BAB<br>
+  len=4 : ABAB,BABA<br>
+  len=5 : ABABA<br>
+
+  Thus, total number of distinct substrings is 9.<br>
+</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/myprasanna">Prasanna</a></td></tr>
+<tr><td>Date:</td><td>2006-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.159s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://pragyan.org/bytecode/2k6/"> ByteCode '06 </a></td></tr>	
+</table>

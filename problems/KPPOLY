@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/KPPOLY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1431. Projections Of A Polygon</h1>
+		<h2>Problem code: KPPOLY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>You are given a convex polygon on Cartesian coordinate system. It has projections on X and Y-axis. You can arbitrary rotate this polygon. What minimum and maximum sum of projections can you achieve?
+
+<h3>Input</h3>
+<p>First line contains one integer number N (3 &#8804; N &#8804; 100) - number of polygon's vertices. Following N lines contain vertex coordinates X<sub>i</sub> and Y<sub>i</sub>. All numbers are integers. Vertices are given in clockwise or anticlockwise direction. No two vertices coincide. No three consecutive vertices lie on the same line. All coordinates do not exceed 10000 by absolute value.
+
+<h3>Output</h3>
+<p>Write minimum and maximum value of sum of the polygon's projections. Separate them by a space. Your answer should not differ with the correct one more than 10<sup>-6</sup>.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+4
+0 0
+0 1
+1 1
+1 0
+
+<b>Output:</b>
+2 2.828427124
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kingpin">Pavel Kuznetsov</a></td></tr>
+<tr><td>Date:</td><td>2007-03-25</td></tr>
+<tr><td>Time limit:</td><td>0.134s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC AWK C++ 4.3.2 C++14 CLOJ COB ERL F# GO GROOVY JS NODEJS PERL 6 PYPY PYTH 3.2.3 PYTH 3.2.3 n PY3.4 SCALA SCM chicken SED TCL VB.net </td></tr>
+<tr><td>Resource:</td><td>Vologda 2007</td></tr>	
+</table>

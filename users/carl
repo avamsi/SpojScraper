@@ -1,0 +1,34 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/carl"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CERC07B" target="_blank">2050. Strange Billboard</a></td><td><a href="http://www.spoj.com/problems/CERC07B"target="_blank">CERC07B</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07C" target="_blank">2051. Cell Phone</a></td><td><a href="http://www.spoj.com/problems/CERC07C"target="_blank">CERC07C</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07H" target="_blank">2052. Hexagonal Parcels</a></td><td><a href="http://www.spoj.com/problems/CERC07H"target="_blank">CERC07H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07K" target="_blank">2053. Key Task</a></td><td><a href="http://www.spoj.com/problems/CERC07K"target="_blank">CERC07K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07L" target="_blank">2054. Gates of Logic</a></td><td><a href="http://www.spoj.com/problems/CERC07L"target="_blank">CERC07L</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07N" target="_blank">2055. Weird Numbers</a></td><td><a href="http://www.spoj.com/problems/CERC07N"target="_blank">CERC07N</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07P" target="_blank">2056. Rectangular Polygon</a></td><td><a href="http://www.spoj.com/problems/CERC07P"target="_blank">CERC07P</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07R" target="_blank">2058. Reaux! Sham! Beaux!</a></td><td><a href="http://www.spoj.com/problems/CERC07R"target="_blank">CERC07R</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07S" target="_blank">2059. Robotic Sort</a></td><td><a href="http://www.spoj.com/problems/CERC07S"target="_blank">CERC07S</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CERC07W" target="_blank">2060. Tough Water Level</a></td><td><a href="http://www.spoj.com/problems/CERC07W"target="_blank">CERC07W</a><br>
+</td></tr>

@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AFS2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14168. Amazing Factor Sequence (medium)</h1>
+		<h2>Problem code: AFS2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Warning</h3>
+<p> Here is a harder version of
+ <a href="https://www.spoj.com/problems/AFS/" target="next"> Amazing Factor Sequence </a>.</p>
+<p>To make things clear, you'll need a O(n^0.5) method to solve this problem.
+You'll need to be careful with container of C-like language,
+and/or you'll need to find some little optimizations with slower language.
+</p>
+
+<h3>The factor sequence</h3>
+<p> We define our factor sequence with:</p>
+
+<p> <strong><em>a[0] = a[1] = 0</em></strong>, and</p>
+<p>for  <strong><em>n > 1, a[n] = a[n - 1] + sum({x | x < n and n % x = 0})</em></strong>.</p>
+
+<h3>Input</h3>
+
+<p>First line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</p>
+
+<p> Each of the next <strong><em>T</em></strong> lines contains
+ a single integer <strong><em>n</em></strong>.</p>
+
+<h3>Output</h3>
+<p>For each test case, print <strong><em>a[n]</em></strong> on a single line.</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+3
+3
+4
+5</pre>
+<pre><strong>Output:</strong>
+2
+5
+6</pre>
+
+<h3>Constraints</h3>
+<pre>
+0 < T < 101
+0 < n < 12148001999
+</pre>
+<p>Numbers <strong><em>n</em></strong> are uniform-randomly chosen. <strong><em>Nmax</em></strong> was carefully chosen ;-)</br>
+Time limit is ×2.5 my python one (5.26s).</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2013-03-16</td></tr>
+<tr><td>Time limit:</td><td>13.14s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.spoj.com/problems/AFS/">AFS</a></td></tr>	
+</table>

@@ -1,0 +1,71 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SQRROOT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>245. Square Root</h1>
+		<h2>Problem code: SQRROOT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In this problem you have to find the Square Root for given number. You may assume that such 
+a number exist and it will be always an integer.
+</p>
+<p>
+<b>Solutions to this problem can be submitted in C, C++, Pascal, Algol, Fortran, Ada, Ocaml, Prolog, Whitespace, Brainf**k and Intercal only.
+</b>
+</p>
+
+<h3>Input</h3>
+<p> <i>t</i> - the number of test cases [t <= 50]<BR>
+ then <i>t</i> positive numbers follow, each of them have up to 800 digits in decimal 
+representation.<BR>
+
+<h3>Output</h3>
+<p>Output must contain exactly t numbers equal to the square root for given numbers. See sample input/output for details.<BR>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+36
+81
+226576
+
+<b>Output:</b>
+6
+9
+476
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/turbo">Roman Sol</a></td></tr>
+<tr><td>Date:</td><td>2004-12-15</td></tr>
+<tr><td>Time limit:</td><td>0.781s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: BASH C# CLPS LISP clisp LISP sbcl ERL HASK ICON JAR JAVA JS LUA NEM NICE PERL PHP PIKE PYTH 2.7 RUBY SCM chicken SCM qobi ST </td></tr>
+<tr><td>Resource:</td><td><a href="http://zcontest.ru/2005.02/zsqr.php">ZCon 2005</a></td></tr>	
+</table>

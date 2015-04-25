@@ -1,0 +1,74 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GOSSIPER"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2139. Gossipers</h1>
+		<h2>Problem code: GOSSIPER</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Doulnee Keltchow is a small town in the middle of nowhere; what makes it so famous is the number of gossipers who live there. Every morning, each gossiper finds out a new gossip, a gossip so unique that nobody else in the town knows it. The gossipers talk, gossip and exchange rumors all day long. What happens when two gossipers meet? Of course, they exchange all the gossips they have heard so far. Your task is to determine whether every gossiper will know all the gossips by the end of the day. </p>
+
+<h3>Input file specification</h3>
+<p>The input file consists of multiple test cases separated by blank lines. On the first line of every test case there are two positive integers N(1<=N<=2100) and M(1<=M<=12000), where N is the number of gossipers and M is the number of meetings. On the next N lines there are the names of the gossipers. The name of each gossiper is a single word consisting of lower- and uppercase letters. The following M lines describe the meetings in the order they happened. Each meeting is described by two distinct names of the gossipers separated by a single space. The values M=N=0 indicate the end of the input file. </p>
+
+<h3>Output file specification</h3>
+<p>The output file should contain for each test case one line containing a single word "YES" if every gossiper knows all the gossips, or "NO", otherwise. </p>
+
+<h3>Example</h3>
+<pre><b>Input file:</b>
+3 3
+Alice
+Bob
+Cindy
+Alice Bob
+Bob Cindy
+Cindy Alice
+
+4 4
+Kirk
+Lucy
+Mike
+Nancy
+Kirk Lucy
+Lucy Mike
+Mike Nancy
+Nancy Lucy
+
+0 0
+
+<b>Output file:</b>
+YES
+NO
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-12-01</td></tr>
+<tr><td>Time limit:</td><td>0.717s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>IPSC 2001</td></tr>	
+</table>

@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/wasi"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/CATTLEB" target="_blank">3678. Cattle Bruisers</a></td><td><a href="http://www.spoj.com/problems/CATTLEB"target="_blank">CATTLEB</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOOPIZZA" target="_blank">3679. Moo University - Emergency Pizza Order</a></td><td><a href="http://www.spoj.com/problems/MOOPIZZA"target="_blank">MOOPIZZA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHU09H" target="_blank">5522. Buy Your House</a></td><td><a href="http://www.spoj.com/problems/PHU09H"target="_blank">PHU09H</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PHU09K" target="_blank">5523. Highway Patrol</a></td><td><a href="http://www.spoj.com/problems/PHU09K"target="_blank">PHU09K</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COMDIV" target="_blank">7718. Number of common divisors</a></td><td><a href="http://www.spoj.com/problems/COMDIV"target="_blank">COMDIV</a><br>
+</td></tr>

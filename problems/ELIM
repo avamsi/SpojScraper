@@ -1,0 +1,183 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ELIM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>3486. Elimination</h1>
+		<h2>Problem code: ELIM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+Elimination of contestants from a live IQ contest on a TV channel is decided in phases.
+
+<P>
+Initially at phase 0, <SPAN CLASS="MATH"><I>N</I></SPAN>
+<tex2html_verbatim_mark> contestants, where <SPAN CLASS="MATH"><I>N</I> = 2<SUP>n</SUP></SPAN>
+
+<tex2html_verbatim_mark>,
+<SPAN CLASS="MATH"><I>n</I> &lt; 10</SPAN>
+<tex2html_verbatim_mark>, are selected through a special online IQ contest in which a total of
+<SPAN CLASS="MATH"><I>M</I></SPAN>
+<tex2html_verbatim_mark> <SPAN CLASS="MATH">(<I>M</I> > <I>N</I>)</SPAN>
+
+<tex2html_verbatim_mark> contestants participate.
+The contestants are identified by distinct registration numbers <!-- MATH
+ $1, 2, \ldots , M$
+ -->
+<SPAN CLASS="MATH">1, 2,..., <I>M</I></SPAN>
+<tex2html_verbatim_mark>. The
+selected contestants are ranked distinctly from 1 to <SPAN CLASS="MATH"><I>N</I></SPAN>
+<tex2html_verbatim_mark> according to their
+performance in the online contest. They are qualified to participate in the
+live contest.
+
+<P>
+In the <SPAN CLASS="MATH"><I>p</I><SUP>th</SUP></SPAN>
+<tex2html_verbatim_mark> phase, <!-- MATH
+ $p=1, 2, \ldots , n, K_{p}$
+ -->
+
+<SPAN CLASS="MATH"><I>p</I> = 1, 2,..., <I>n</I>, <I>K</I><SUB>p</SUB></SPAN>
+<tex2html_verbatim_mark>
+contestants participate in the live contest, where <!-- MATH
+ $K_{p}=2^{n-p+1}$
+ -->
+<SPAN CLASS="MATH"><I>K</I><SUB>p</SUB> = 2<SUP>n-p+1</SUP></SPAN>
+
+<tex2html_verbatim_mark>.
+On the basis of response to questions presented during the show, <SPAN CLASS="MATH"><I>K</I><SUB>p</SUB>/2</SPAN>
+<tex2html_verbatim_mark>
+of <SPAN CLASS="MATH"><I>K</I><SUB>p</SUB></SPAN>
+<tex2html_verbatim_mark> contestants are ranked distinctly from 1 to <SPAN CLASS="MATH"><I>K</I><SUB>p</SUB>/2</SPAN>
+<tex2html_verbatim_mark>.
+These <SPAN CLASS="MATH"><I>K</I><SUB>p</SUB>/2</SPAN>
+
+<tex2html_verbatim_mark> contestants qualify to participate in the next phase. At
+the <SPAN CLASS="MATH"><I>n</I><SUP>th</SUP></SPAN>
+<tex2html_verbatim_mark> phase there are only two contestants and the one selected at
+this phase is the winner of the contest.
+
+<P>
+You are required to write a program that identifies the
+winner of the contest, given the following information:
+
+<P>
+
+<UL>
+<LI>INFO_1: Registration numbers of <SPAN CLASS="MATH"><I>N</I></SPAN>
+<tex2html_verbatim_mark> contestants who are selected through the online IQ
+contest, in order of the rank in the online IQ contest, and 
+
+</LI>
+<LI>INFO_2: A total of <SPAN CLASS="MATH"><I>N</I> - 1</SPAN>
+<tex2html_verbatim_mark> qualified contestants in different phases; <SPAN CLASS="MATH"><I>K</I><SUB>2</SUB></SPAN>
+<tex2html_verbatim_mark> in phase 1, <SPAN CLASS="MATH"><I>K</I><SUB>3</SUB></SPAN>
+<tex2html_verbatim_mark>
+
+in phase 2, <SPAN CLASS="MATH">...</SPAN>
+<tex2html_verbatim_mark>, and <SPAN CLASS="MATH"><I>K</I><SUB>n+1</SUB></SPAN>
+<tex2html_verbatim_mark> in phase <SPAN CLASS="MATH"><I>n</I></SPAN>
+<tex2html_verbatim_mark>. Qualified contestants of
+different phases appear in order of phases, i.e., phase 1, phase 2, <SPAN CLASS="MATH">...</SPAN>
+<tex2html_verbatim_mark>, phase
+<SPAN CLASS="MATH"><I>n</I></SPAN>
+
+<tex2html_verbatim_mark>. Further, qualified contestants in a phase, say phase <SPAN CLASS="MATH"><I>p</I></SPAN>
+<tex2html_verbatim_mark>, appear in the order
+of the rank in the phase, i.e., the rank in phase <SPAN CLASS="MATH"><I>p</I></SPAN>
+<tex2html_verbatim_mark>. A qualified contestant of
+a phase, say phase <SPAN CLASS="MATH"><I>p</I></SPAN>
+<tex2html_verbatim_mark>, is identified by his/her rank in the previous phase,
+i.e., in phase <SPAN CLASS="MATH"><I>p</I> - 1</SPAN>
+<tex2html_verbatim_mark>.
+</LI>
+</UL>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A> </FONT>
+</H2>
+
+<P>
+Input may contain multiple test cases. For each case there are two input lines. 
+
+<P>
+The first line gives <SPAN CLASS="MATH"><I>N</I></SPAN>
+<tex2html_verbatim_mark> integers representing INFO_1
+while the second line gives <SPAN CLASS="MATH"><I>N</I> - 1</SPAN>
+
+<tex2html_verbatim_mark> integers representing INFO_2. 
+
+<P>
+In each input line integers are
+separated by space. The input terminates with a line containing <TT>0</TT> as input.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A> </FONT>
+</H2>
+
+<P>
+For each test case there is only one output line. The line
+prints the registration number of the winner of the contest.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A> </FONT>
+</H2>
+
+<P>
+<PRE>
+23 18 6 20
+4 2 2
+29 57 4 33 5 12 16 18
+7 1 5 3 2 1 1
+0
+</PRE>  
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A> </FONT>
+</H2>
+
+<P>
+<PRE>
+18
+29
+</PRE> 
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/paulmcvn">Duc</a></td></tr>
+<tr><td>Date:</td><td>2008-12-09</td></tr>
+<tr><td>Time limit:</td><td>0.147s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Kanpur 2006</td></tr>	
+</table>

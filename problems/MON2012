@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MON2012"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10596. Monkey and apples</h1>
+		<h2>Problem code: MON2012</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Monkey Chris loves apples. That's why he has planted lots of apple trees. He does two types of operations on this trees.Second operation (described "2" x y in input(without quotes)) means that all apples on interval x+c y+c get ripe(edible).  First operation (described by "1" x y(without quotes) in input) means counting ripe apple trees on interval x+c y+c. C=0 in the beginning and becomes the answer of each query("1" operation). Input begins with M(1&lt;=M&lt;=10^5) the number of operations. Afterwards M lines each of them is an operation ("1" or "2"). 1&lt;=X+C; Y+C&lt;=10^9. <br />Input<br /><br />3<br /><br />2 5 8<br /><br />2 7 10<br /><br />1 1 10<br /><br />Output<br /><br />6<br /><br />Input explanation:<br /><br />3 queries. Apples gets ripe on intervals 5-8 and 7-10.<br /><br />There are totally 6 ripe apple-trees on interval 1-10 so answer to query is 6.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/xadur">Ikhaduri</a></td></tr>
+<tr><td>Date:</td><td>2012-02-11</td></tr>
+<tr><td>Time limit:</td><td>0.107s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C# C++ 4.3.2 C++ 4.9 C++14 COB GROOVY HASK JAR JAVA JS2 NODEJS PAS fpc PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 RUBY VB.net WSPC </td></tr>
+<tr><td>Resource:</td><td>izho 2012</td></tr>	
+</table>

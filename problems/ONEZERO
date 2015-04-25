@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ONEZERO"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>370. Ones and zeros</h1>
+		<h2>Problem code: ONEZERO</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Certain positive integers have their decimal representation consisting only of ones and zeros, and having at least one digit one, e.g. 101. If a positive integer does not have such a property, one can try to multiply it by some positive integer to find out whether the product has this property.
+<h3>Input</h3>
+<p>Number <i>K</i> of test cases (<i>K</i> is approximately 1000);<br>
+in each of the next <i>K</i> lines there is one integer <i>n</i> (<i>1 <= n <= 20000)</i><br>
+
+<h3>Output</h3>
+<p>For each test case, your program should compute the smallest multiple of the number <i>n</i> consisting only of digits 1 and 0 (beginning with 1).
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+17
+11011
+17
+<b>Output:</b>
+11101
+11011
+11101
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/civi">Paweł Dobrzycki</a></td></tr>
+<tr><td>Date:</td><td>2005-05-26</td></tr>
+<tr><td>Time limit:</td><td>8s
+</td></tr>
+<tr><td>Source limit:</td><td>4096B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>II Polish Olympiad in Informatics, Ist Stage</td></tr>	
+</table>

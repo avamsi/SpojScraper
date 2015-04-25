@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/gooey_kablooie"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/INVCNT" target="_blank">6256. Inversion Count</a></td><td><a href="http://www.spoj.com/problems/INVCNT"target="_blank">INVCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FNRANK" target="_blank">6264. Rank of a Fraction</a></td><td><a href="http://www.spoj.com/problems/FNRANK"target="_blank">FNRANK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NGM2" target="_blank">6285. Another Game With Numbers</a></td><td><a href="http://www.spoj.com/problems/NGM2"target="_blank">NGM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOVMRBL" target="_blank">6299. Move Marbles</a></td><td><a href="http://www.spoj.com/problems/MOVMRBL"target="_blank">MOVMRBL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/IOIISL08" target="_blank">8097. Islands</a></td><td><a href="http://www.spoj.com/problems/IOIISL08"target="_blank">IOIISL08</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SHLIGHTS" target="_blank">8100. Shifting Lights</a></td><td><a href="http://www.spoj.com/problems/SHLIGHTS"target="_blank">SHLIGHTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SEQ7" target="_blank">8836. Yet Another Sequence Problem</a></td><td><a href="http://www.spoj.com/problems/SEQ7"target="_blank">SEQ7</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCDS" target="_blank">8839. Longest Common Difference Subsequence</a></td><td><a href="http://www.spoj.com/problems/LCDS"target="_blank">LCDS</a><br>
+</td></tr>

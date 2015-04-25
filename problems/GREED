@@ -1,0 +1,73 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GREED"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>373. Greedy island</h1>
+		<h2>Problem code: GREED</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Gon is on Greedy island. He wants to go home. But to get the ticket to leave the game, he has to get N cards labeled in a sequence from 1 to N (the order of the cards in his hand is irrelevant). He already has N cards, but not forming a sequence from 1 to N. So he wants you to help him. For some cards, he can change one card for another for one piece of gold. Help him to get the ticket at the minimum cost (using the minimum number of exchanges).
+
+<h3>Input</h3>
+<p>
+The first line contains t, the number of tests (1<=t<=10). For each test case:
+<ul>
+<li>the number of cards N is given is given in the first line (2<=N<=500).
+<li>the next N lines contain the N cards owned by Gon.
+<li>the following line contains e, the number of different allowed types of exchanges.
+<li>the next e lines contain two integers x<sub>i</sub>,y<sub>i</sub> each which mean that we can exchange and replace the card marked x by the card marked y and vice versa.
+</ul>
+<p>There is a blank line after each test case.
+
+<h3>Output</h3>
+<p>
+For each test case, output a line denoting the minimum required cost.
+<h3>Example</h3>
+<pre>
+<b>Input:</b>
+1
+4
+1
+2
+2
+2
+2
+2 3
+3 4
+
+<b>Output:</b>
+3
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dao007forever">Le Trong Dao</a></td></tr>
+<tr><td>Date:</td><td>2005-06-08</td></tr>
+<tr><td>Time limit:</td><td>50s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Mr.Tran Minh Quan</td></tr>	
+</table>

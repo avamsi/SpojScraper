@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TWENTYQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8795. Twenty Questions</h1>
+		<h2>Problem code: TWENTYQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Consider a closed world and a set of features that are de&#64257;ned for all the objects in the world. Each feature can be answered with &ldquo;yes&rdquo; or &ldquo;no&rdquo;. Using those features, we can identify any object from the rest of the ob jects in the world. In other words, each object can be represented as a &#64257;xed-length sequence of booleans. Any object is di&#64256;erent from other objects by at least <br />one feature.</p>
+<p>You would like to identify an object from others. For this purpose, you can ask a series of questions to someone who knows what the object is. Every question you can ask is about one of the features. He/she immediately answers each question with &ldquo;yes&rdquo; or &ldquo;no&rdquo; correctly. You can choose the next question after you get the answer to the previous question.</p>
+<p>You kindly pay the answerer 100 yen as a tip for each question. Because you don&rsquo;t have surplus money, it is necessary to minimize the number of questions in the worst case. You don&rsquo;t know what is the correct answer, but fortunately know all the ob jects in the world. Therefore, you can plan an optimal strategy before you start questioning.</p>
+<p>The problem you have to solve is: given a set of boolean-encoded objects, minimize the maximum number of questions by which every object in the set is identi&#64257;able.</p>
+<h3>Input</h3>
+<p>The input is a sequence of multiple datasets. Each dataset begins with a line which consists of two integers, <em>m</em> and <em>n</em>: the number of features, and the number of ob jects, respectively. You can assume 0 &lt; <em>m</em> &le; 11 and 0 &lt; <em>n</em> &le; 128. It is followed by n lines, each of which corresponds to an object. Each line includes a binary string of length m which represent the value (&ldquo;yes&rdquo; or &ldquo;no&rdquo;) of features. There are no two identical objects.</p>
+<p>The end of the input is indicated by a line containing two zeros.&nbsp;</p>
+<h3>Output</h3>
+<p>For each dataset, minimize the maximum number of questions by which every object is identi- <br />&#64257;able and output the result.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+8 1 <br />11010101 <br />11 4 <br />00111001100 <br />01001101011 <br />01010000011 <br />01100110001 <br />11 16 <br />01000101111 <br />01011000000 <br />01011111001 <br />01101101001 <br />01110010111 <br />01110100111 <br />10000001010 <br />10010001000 <br />10010110100 <br />10100010100 <br />10101010110 <br />10110100010 <br />11001010011 <br />11011001001 <br />11111000111 <br />11111011101 <br />11 12 <br />10000000000 <br />01000000000 <br />00100000000 <br />00010000000 <br />00001000000 <br />00000100000 <br />00000010000 <br />00000001000 <br />00000000100 <br />00000000010 <br />00000000001 <br />00000000000<br />9 32 <br />001000000 <br />000100000 <br />000010000 <br />000001000 <br />000000100 <br />000000010 <br />000000001<br />000000000 <br />011000000 <br />010100000 <br />010010000 <br />010001000 <br />010000100 <br />010000010 <br />010000001 <br />010000000 <br />101000000 <br />100100000 <br />100010000 <br />100001000 <br />100000100 <br />100000010 <br />100000001 <br />100000000 <br />111000000 <br />110100000 <br />110010000 <br />110001000 <br />110000100 <br />110000010 <br />110000001 <br />110000000 <br />0 0<br /><strong><br />Output:</strong>
+0 <br />2 <br />4 <br />11 <br />9
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/johnm91">John Mario</a></td></tr>
+<tr><td>Date:</td><td>2011-05-03</td></tr>
+<tr><td>Time limit:</td><td>0.130s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM International Collegiate Programming Contest  Asia Regional Contest, Tokyo 2009</td></tr>	
+</table>

@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ANARC09H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7778. Land Division</h1>
+		<h2>Problem code: ANARC09H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The king of the Far, Far Away Kingdom has passed-away and the kingdom must be split amongst his K sons. The kingdom, which can be drawn on a rectangular map, consists of N cities. To divide the land, they will draw K &minus; 1 straight segments on the map, all of them parallel to either<br />the vertical or the horizontal axis of the map. This divides the map into exactly K rectangles, all having equal heights (if the dividing lines where vertical), or equal widths (if the dividing lines where horizontal). No segment should pass through any of the cities. Each son will then be assigned one random region out of the K regions and the cities inside that region will be his share. Of course, they want the division to be as fair as possible: theoretically, in the fairest division, each son should get N/K cities (we&rsquo;ll call this value the baseline), but since the baseline isn&rsquo;t always a whole number, each of the sons wants to be as close as possible to the baseline. We will calculate the unfairness of each son as the absolute difference between the number of cities assigned to him and the baseline. The fairest division is the one that minimizes the average unfairness of all the sons.</p>
+<p style="text-align: center;"><img title="Land" src="https://vn.spoj.pl/SPOJVN/content/anarc09h.jpg" alt="Land division" width="973" height="242" /></p>
+<p>Consider the example above with 3 sons and 6 cities (so the baseline is 6/3 = 2.0) Figure (a) is the original map. Figure (b) shows a non-optimal division (the dashed lines are the 2 dividing lines.) In this case, the middle region contains 3 cities (unfairness of |3 &minus; 2| = 1), the left region contains 1 city (unfairness of |1 &minus; 2| = 1), while the right region contains 2 cities (perfectly fair, unfairness of 0), so the average unfairness is 2/3.<br />Figure (c) on the right shows the optimal division since all three regions contain the same number of cities for an average unfairness of 0. Write a program to determine the fairest land division for a given kingdom.</p>
+<h3>Input</h3>
+<p>Your program will be tested on one or more test cases. Each test case is described on N + 1 lines. The first line of each test case specifies two positive integers: (N &le; 100, 000) and (K &le; 10) where N is the number of cities and K is number of children. Note that K &le; N . N lines follows,&nbsp; each describing the coordinates of a city by specifying two integers (x, y) where 0 &le; x, y &le; 100, 000. Since coordinates are rounded to the&nbsp; nearest integer, more than one city could have the exact same coordinate on the map. You may assume that the map of the kingdom is any rectangle that contains all of the given points (although such information is not needed by the program.) Note also that while all cities lie on integer coordinates, the dividing lines need not be. The last line of the input file contains two zeros.</p>
+<h3>Output</h3>
+<p>For each test case, print the following line:<br />k. A/B<br />Where k is the test case number (starting at one,) and A/B is the minimum average that could be obtained. A/B should be an irreducible fraction. Let B=1 when the result is a whole number.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />6 3<br />0 4<br />1 3<br />2 3<br />3 1<br />4 4<br />5 0<br />4 3<br />0 0<br />0 1<br />1 1<br />1 0<br />0 0<br /><br /><strong>Output:</strong><br />1. 0/1<br />2. 8/9<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-08</td></tr>
+<tr><td>Time limit:</td><td>1.328s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ANARC 2009</td></tr>	
+</table>

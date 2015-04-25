@@ -1,0 +1,94 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OFFSIDE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2178. He is offside!</h1>
+		<h2>Problem code: OFFSIDE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Hemisphere Network is the largest television network in Tumbolia, a small country located
+east of South America (or south of East America). The most popular sport in Tumbolia,
+unsurprisingly, is soccer; many games are broadcast every week in Tumbolia.
+
+<p><p>
+Hemisphere Network receives many requests to replay dubious plays; usually, these happen
+when a player is deemed to be offside by the referee. An attacking player is <i>offside</i> if he is
+nearer to his opponents&#8217; goal line than the second last opponent. A player is not offside if
+
+<p><p>
+<ul>
+<li> he is level with the second last opponent or
+<p><p>
+<li> he is level with the last two opponents.
+</ul>
+
+<p><p>
+Through the use of computer graphics technology, Hemisphere Network can take an image of
+the field and determine the distances of the players to the defending team&#8217;s goal line, but they
+still need a program that, given these distances, decides whether a player is offside.
+
+<h3>Input</h3>
+<p>The input file contains several test cases. The first line of each test case contains two integers
+A and D separated by a single space indicating, respectively, the number of attacking and
+defending players involved in the play (2 <= A,D <= 11). The next line contains A integers B<sub>i</sub>
+separated by single spaces, indicating the distances of the attacking players to the goal line
+(1 <= B<sub>i</sub> <= 10<sup>4</sup>). The next line contains D integers C<sub>j</sub> separated by single spaces, indicating the
+distances of the defending players to the goal line (1 <= C<sub>j</sub> <= 10<sup>4</sup>). The end of input is indicated
+by A = D = 0.
+
+<h3>Output</h3>
+<p>For each test case in the input print a line containing a single character: &#8220;Y&#8221; (uppercase) if
+there is an attacking player offside, and &#8220;N&#8221; (uppercase) otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2 3
+500 700
+700 500 500
+2 2
+200 400
+200 1000
+3 4
+530 510 490
+480 470 50 310
+0 0
+
+<b>Output:</b>
+N
+Y
+N
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2007-12-02</td></tr>
+<tr><td>Time limit:</td><td>0.163s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>The 2007 ACM South American Programming Contest</td></tr>	
+</table>

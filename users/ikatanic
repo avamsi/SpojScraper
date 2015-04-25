@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ikatanic"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/PRETTY" target="_blank">5093. Pretty Functions</a></td><td><a href="http://www.spoj.com/problems/PRETTY"target="_blank">PRETTY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HCHAINS" target="_blank">6622. Islands and Hotel Chains</a></td><td><a href="http://www.spoj.com/problems/HCHAINS"target="_blank">HCHAINS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ASISTENT" target="_blank">6860. Asistent</a></td><td><a href="http://www.spoj.com/problems/ASISTENT"target="_blank">ASISTENT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STJEPAN" target="_blank">6988. Beer Machines</a></td><td><a href="http://www.spoj.com/problems/STJEPAN"target="_blank">STJEPAN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POSAO" target="_blank">11875. Jobs</a></td><td><a href="http://www.spoj.com/problems/POSAO"target="_blank">POSAO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NORMA2" target="_blank">22343. Norma</a></td><td><a href="http://www.spoj.com/problems/NORMA2"target="_blank">NORMA2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/OGLEDALA" target="_blank">23737. Ogledala</a></td><td><a href="http://www.spoj.com/problems/OGLEDALA"target="_blank">OGLEDALA</a><br>
+</td></tr>

@@ -1,0 +1,72 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CTRICK"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1108. Card Trick</h1>
+		<h2>Problem code: CTRICK</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The magician shuffles a small pack of cards, holds it face down and performs the following procedure:
+
+<p><br> 1. The top card is moved to the bottom of the pack. The new top card is dealt face up onto the table. It is the Ace of Spades.
+
+<p><br> 2. Two cards are moved one at a time from the top to the bottom. The next card is dealt face up onto the table. It is the Two of Spades.
+
+<p><br> 3. Three cards are moved one at a time&#8230;
+
+<p><br> 4. This goes on until the nth and last card turns out to be the n of Spades.
+
+<p><br>This impressive trick works if the magician knows how to arrange the cards beforehand (and knows how to give a false shuffle). Your program has to determine the initial order of the cards for a given number of cards, 1 &#8804; n &#8804; 20000.
+
+<p><br>
+<h3>Input</h3>
+<p>On the first line of the input is a single positive integer, telling the number of test cases to follow. Each case consists of one line containing the integer n.
+
+<br>
+<h3>Output</h3>
+<p>For each test case, output a line with the correct permutation of the values 1 to n, space separated. The first number showing the top card of the pack, etc&#8230;
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+4
+5
+
+<b>Output:</b>
+2 1 4 3
+3 1 4 5 2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/steinersp">Camilo Andrés Varela León</a></td></tr>
+<tr><td>Date:</td><td>2006-11-23</td></tr>
+<tr><td>Time limit:</td><td>3.279s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Nordic Collegiate Contest 2006</td></tr>	
+</table>

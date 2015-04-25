@@ -1,0 +1,62 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DCEPC12H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>17400. Height of Expectation</h1>
+		<h2>Problem code: DCEPC12H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Welcome To ICPC! ICPC is a programming competition in which N teams participate every year. Out of N teams, K number of teams has been selected from our college. You know what? K is always a prime number. Coincidence! Before going to ICPC, we want to calculate our expected overall score of our college.</p>
+<p>Expected Overall score is defined as expected median value of our college team&rsquo;s ranks.</p>
+<p>&nbsp;</p>
+<p>All the ranks are distinct. Team&rsquo;s rank value always lies between 1 to N.</p>
+<h3>Input</h3>
+<p>First line consists of T, the number of test cases.</p>
+<p>Each of the next T lines contains 2 space separated integers N and K.</p>
+<h3>Output</h3>
+<p>Output T lines each line containing expected overall score of our college. You should output at least 6 digits after decimal.</p>
+<h3>Constraints</h3>
+<p>1&lt;=T&lt;=500</p>
+<p>1&lt;=N&lt;=100</p>
+<p>1&lt;=K&lt;=10</p>
+<p>N&gt;=K</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1</pre>
+<pre>3 3
+
+<strong>Output:</strong>
+</pre>
+<pre>2.0000000</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/dce_coders">dce coders</a></td></tr>
+<tr><td>Date:</td><td>2013-12-07</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C# C++ 4.3.2 C++ 4.9 C99 strict HASK JAVA PAS fpc PAS gpc PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n </td></tr>
+	
+</table>

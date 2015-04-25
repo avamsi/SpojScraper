@@ -1,0 +1,82 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PT07A"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1477. Play with a Tree</h1>
+		<h2>Problem code: PT07A</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Hey, ACRush and Jelly are playing a game ! Let take a look at its rule: </p>
+<p>You are given a tree. Two players take turns cutting edges on a tree. Some nodes is on the "ground".
+When a player cuts an edge, all the edges that are no longer connected to the ground disappear.
+The player who can not take a move loses.
+</p>
+<p>ACRush plays first. Both of them are very good players. If you know state of the tree they are playing with, can you guess who will win?</p>
+
+<img src="/content/thanhvy:green_fig.png">
+     Node 4 is on the ground.
+<h3>Input</h3>
+<p>    Input consists of multiple test-cases. The first line contains one integer <i>t</i> - number of cases (0 < <i>t</i> <= 20).
+    For each case, the input format is following.
+
+    The first line contains one integer <i>N</i> (1 <= <i>N</i> <= 100000).
+    The next line <i>N</i> integers s[i] (1 or 0).
+    If s[i] is 1, the <i>i</i>-th node is on the ground.
+    If s[i] is 0, the <i>i</i>-th node is not on the ground.
+
+    Each line of the following <i>N</i> - 1 lines contains two integers u, v.
+    They denote there is an edge between node u and node v (1 <= u,v <= N).<Br>
+There is no blank line after each case.
+
+<h3>Output</h3>
+<p>
+    For each case, output who will win the game. If ACRush wins, output <i>1</i>; otherwise, output <i>0</i> (Jelly wins).<br>
+There is no blank line after each case.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+1
+4
+0 0 0 1
+1 2
+2 3
+2 4
+
+<b>Output:</b>
+1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-04-07</td></tr>
+<tr><td>Time limit:</td><td>0.050s-0.079s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Co-author Amber</td></tr>	
+</table>

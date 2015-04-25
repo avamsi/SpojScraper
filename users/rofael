@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/rofael"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MLK" target="_blank">7600. Milk Trading</a></td><td><a href="http://www.spoj.com/problems/MLK"target="_blank">MLK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FLWRS" target="_blank">7685. Flowers</a></td><td><a href="http://www.spoj.com/problems/FLWRS"target="_blank">FLWRS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HPYNOS" target="_blank">7733. Happy Numbers I</a></td><td><a href="http://www.spoj.com/problems/HPYNOS"target="_blank">HPYNOS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HPYNOSII" target="_blank">7753. Happy Numbers II</a></td><td><a href="http://www.spoj.com/problems/HPYNOSII"target="_blank">HPYNOSII</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HLPRSRCH" target="_blank">7772. Help a researcher</a></td><td><a href="http://www.spoj.com/problems/HLPRSRCH"target="_blank">HLPRSRCH</a><br>
+</td></tr>

@@ -1,0 +1,135 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL0_B"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12959. Basic Grapes Instinct</h1>
+		<h2>Problem code: VPL0_B</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<pre><span style="font-size: small;"><span style="white-space: normal;"><p style="margin-bottom: 0in;">Dickie is croping grapes for Christmas! He&rsquo;s very excited about the traditional grape eating race on December 31th, so he picked every possible raceme of grape in his farm and collect them in a big bucket. Nevertheless, he&rsquo;s having a serious problems ordering the racemes because there are so many of them! </p>
+<p style="margin-bottom: 0in;">In order to organize in a efficient way the humongous amount of grape racemes, he decided to build a stemplot out of them. A stemplot goes as follows: </p>
+<p style="margin-bottom: 0in;"> &bull; The input values for a stemplot are a sequence of numbers and a stem unit. </p>
+<p style="margin-bottom: 0in;"> &bull; Data is classified based on the stem value, i.e., if a number in the sequence is 403 and the stem unit is 100, then this number is classified in the category 4. </p>
+<p style="margin-bottom: 0in;"> &bull; For each category, a list of leaf values are render in a single line, sorted in increasing order. </p>
+<p style="margin-bottom: 0in;"> &bull; Stem values and leafs are separated by a | (pipe character). All | should be vertically aligned. </p>
+<p style="margin-bottom: 0in;"> &bull; Stem values are sorted in increasing order, omitting empty stems. </p>
+<p style="margin-bottom: 0in;">Given the sequence s = { 44 46 47 49 63 64 66 68 68 72 72 75 76 81 84 88 106 }, the stemplot generated with a stem unit of 10 is rendered as follow: </p>
+<p style="margin-bottom: 0in;">&nbsp;4 | 4 6 7 9</p>
+<p style="margin-bottom: 0in;">&nbsp;6 | 3 4 6 8 8</p>
+<p style="margin-bottom: 0in;">&nbsp;7 | 2 2 5 6</p>
+<p style="margin-bottom: 0in;">&nbsp;8 | 1 4 8</p>
+<p style="margin-bottom: 0in;">10 | 6</p>
+<p style="margin-bottom: 0in;"> Dickie is having big trouble rendering these stemplots of grape racemes, can you do the job for him and save the traditional grape race of December 31th? </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Input </strong></p>
+<p style="margin-bottom: 0in;"> The first line contains an integer T , which specifies the number of test cases. Then, will follow the descriptions of T test cases. </p>
+<p style="margin-bottom: 0in;">The first line of each case will contain 2 integers N and U , indicating the size of the sequence and the stem unit. Next N lines will contain a single element of the sequence s<span style="font-size: xx-small;">i</span>. </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><em>The input must be read from standard input. </em></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Output </strong></p>
+<p style="margin-bottom: 0in;"> For each case you should print the string "Scenario #i:" where i is the test case you are </p>
+<p style="margin-bottom: 0in;">evaluating (starting from 1), a blank line, and then the corresponding stemplot following the </p>
+<p style="margin-bottom: 0in;">rules stated above. Print a blank line after each stemplot. </p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><em>The output must be written to standard output. </em></p>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="128*"></col> <col width="128*"></col> </colgroup>
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p><strong>Input</strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="50%">
+<p><strong>Output for the sample input</strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="50%">
+<p>2 </p>
+<p>17 10 </p>
+<p>44 </p>
+<p>46 </p>
+<p>47 </p>
+<p>49 </p>
+<p>63 </p>
+<p>64 </p>
+<p>66 </p>
+<p>68 </p>
+<p>68 </p>
+<p>72 </p>
+<p>72 </p>
+<p>75 </p>
+<p>76 </p>
+<p>81 </p>
+<p>84 </p>
+<p>88 </p>
+<p>106 </p>
+<p>5 23 </p>
+<p>1 </p>
+<p>9 </p>
+<p>127 </p>
+<p>23 </p>
+<p>73 </p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in;" width="50%">
+<p>Scenario #1:</p>
+<p>&nbsp;4 | 4 6 7 9</p>
+<p>&nbsp;6 | 3 4 6 8 8</p>
+<p>&nbsp;7 | 2 2 5 6</p>
+<p>&nbsp;8 | 1 4 8</p>
+<p>10 | 6</p>
+<p>&nbsp;</p>
+<p>Scenario #2:</p>
+<p>0 | 1 9</p>
+<p>1 | 0</p>
+<p>3 | 4</p>
+<p>5 | 12</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in;">&nbsp;</p>
+<p style="margin-bottom: 0in;"><strong>Subtask 1 - 30% </strong></p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; T &le; 100 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; N &le; 100 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; U &le; 100 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; si &le; 1,000 </p>
+<p style="margin-bottom: 0in;"><strong>Subtask 2 - 70% </strong></p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; T &le; 100 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; N &le; 10,000 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; U &le; 1,000 </p>
+<p style="margin-bottom: 0in;"> &bull; 1 &le; si &le; 1,000&nbsp;</p></span></span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2012-12-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem used for VPL0-Contest</td></tr>	
+</table>

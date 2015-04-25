@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PAINTBLC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2963. Painting Blocks (Act II)</h1>
+		<h2>Problem code: PAINTBLC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><i>n</i> blocks are put in a line. You have <i>k</i>(1<=<i>k</i><=15) kinds of dope, the <i>i</i>-th dope is enough to paint c<sub>i</sub> (1<=c<sub>i</sub><=6) blocks. You may assume the sum of all the c<sub>i</sub> equals to <i>n</i>. Your task is to calculate the number of ways to paint the blocks with these kinds of dope, such that no two adjacent blocks are painted with the same kind of dope.</p>
+<h3>Input</h3>
+<p>Input consists of multiple test cases, the number of them (<=2000) is given in the very first line. For each test case, the first line contains an integer <i>k</i>, the second line contains <i>k</i> integers, c<sub>1</sub>, c<sub>2</sub>, ...c<sub>k</sub>.</p>
+<h3>Output</h3>
+<p>For each test case, output one line with an integer, the number of ways modulo 1000000007.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+3
+3
+1 2 3
+5
+2 2 2 2 2
+10
+1 1 2 2 3 3 4 4 5 5
+
+<b>Output:</b>
+10
+39480
+85937576
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2008-09-01</td></tr>
+<tr><td>Time limit:</td><td>0.230s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://www.spoj.pl/users/g201513">g201513</a></td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HSEQ"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>5511. Heavy Sequences</h1>
+		<h2>Problem code: HSEQ</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Given a sequence S of N integers, indexed from 0 to N-1, we define the weight of its continuous subsequence as the product of its length and its number of occurrences in the main sequence, and in case of uniqueness, we say its weight is 0.<br /><br />&nbsp;&nbsp; Let's see an example:<br /><br />&nbsp;&nbsp; N = 5<br />&nbsp;&nbsp; S = { 1, 7, 3, 1, 7 }</p>
+<p>The continuous subsequence S[ 0, 1 ], which is equal to { 1, 7 }, has a weight of 4, by definition. The continuous subsequence S[ 2, 2 ] thus has a weight of 0.</p>
+<p>Your task is to find the continuous subsequence of maximum weight. To break ties, choose the lexicographically smallest of the candidates ( a sequence A is lexicographically smaller than another sequence B if the first element at which they differ is smaller in A, or if A is a prefix of B ).<br /><br />If the maximum weight of all the continuous subsequences is 0, we say the sequence is invalid.</p>
+<h3>Input</h3>
+<p>The first line of input contains a single integer, N ( 1 &lt;= N &lt;= 10<sup>5</sup> ).<br />The second line of input contains a sequence S of N integers, ( 0 &lt;= S<sub>i</sub> &lt;= 10<sup>9</sup> ).</p>
+<h3>Output</h3>
+<p>In case of an invalid subsequence, output -1.<br />A continuous subsequence of the input sequence with the property defined above.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />5<br />1 7 3 1 7<br />&nbsp;<br /><strong>Output:</strong><br />1 7</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syntax_error">gustav</a></td></tr>
+<tr><td>Date:</td><td>2009-12-02</td></tr>
+<tr><td>Time limit:</td><td>0.219s-0.230s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: PERL 6 SCM chicken </td></tr>
+<tr><td>Resource:</td><td>co-author: <a href="https://www.spoj.pl/users/stjepang/">Stjepan Glavina</a></td></tr>	
+</table>

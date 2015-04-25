@@ -1,0 +1,52 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BOI7ESC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7737. Escape</h1>
+		<h2>Problem code: BOI7ESC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A group of war prisoners are trying to escape from a prison. They have thoroughly planned the escape from the prison itself, and after that they hope to find shelter in a nearby village. However, the village (marked as B, see picture below) and the prison (marked as A) are separated by a canyon which is also guarded by soldiers. These soldiers sit in their pickets and rarely walk; the range of view of each soldier is limited to exactly 100 meters. Thus, depending on the locations of soldiers, it may be possible to pass the canyon safely, keeping the distance to the closest soldier strictly larger than 100 meters at any moment.</p>
+<p><img title="Escape" src="https://vn.spoj.pl/SPOJVN/content/boi7esc.jpg" alt="" width="571" height="477" /></p>
+<p>You are to write a program which, given the width and the length of the canyon and the coordinates of every soldier in the canyon, and assuming that soldiers do not change their locations, first determines whether prisoners can pass the canyon unnoticed. If this is impossible then the prisoners (having seen enough violence) would like to know the minimum number of soldiers that have to be eliminated in order to pass the canyon safely. A soldier may be eliminated regardless of whether he is visible to any other soldier or not.</p>
+<p style="text-align: justify;"><img src="file:///tmp/moz-screenshot.png" alt="" /></p>
+<h3>Input</h3>
+<p>The first line contains three integers L, W , and N &ndash; the length and the width of the canyon, and the number of soldiers, respectively. Each of the following N lines contains a pair of integers Xi and Yi &ndash; the coordinates of i-th soldier in the canyon (0 &le; Xi &le; L, 0 &le; Yi &le; W ). The coordinates are given in meters, relative to the canyon: the southwestern corner of the canyon has coordinates (0, 0), and the northeastern corner of the canyon has coordinates (L, W ), as seen in the picture above.<br />Note that passing the canyon may start at coordinate (0, ys ) for any 0 &le; ys &le; W and end at coordinate (L, ye ) for any 0 &le; ye &le; W . Neither ys nor ye need to be integer.</p>
+<h3>Output</h3>
+<p>In the first and only line of the output file the program should print the minimum number of soldiers that have to be eliminated in order for the prisoners to pass the canyon safely. If the prisoners can escape without any elimination, the program should print 0 (zero).</p>
+<h3>Constraints</h3>
+<pre>1 &le; W &le; 50,000 1 &le; L &le; 50,000<br />1 &le; N &le; 250</pre>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />130 340 5<br />10 50<br />130 130<br />70 170<br />0 180<br />60 260<br /><br /><strong>Output:</strong><br />1<br /><br /><br /><br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/racer">Race with time</a></td></tr>
+<tr><td>Date:</td><td>2010-11-04</td></tr>
+<tr><td>Time limit:</td><td>0.546s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Baltic Olympiad 2007</td></tr>	
+</table>

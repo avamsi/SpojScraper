@@ -1,0 +1,24 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/romzee"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/MTHUR" target="_blank">12012. grace marks</a></td><td><a href="http://www.spoj.com/problems/MTHUR"target="_blank">MTHUR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BAT1" target="_blank">13630. BATMAN1</a></td><td><a href="http://www.spoj.com/problems/BAT1"target="_blank">BAT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BAT2" target="_blank">13631. BATMAN2</a></td><td><a href="http://www.spoj.com/problems/BAT2"target="_blank">BAT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BAT3" target="_blank">13643. BATMAN3</a></td><td><a href="http://www.spoj.com/problems/BAT3"target="_blank">BAT3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BAT4" target="_blank">13646. BATMAN4</a></td><td><a href="http://www.spoj.com/problems/BAT4"target="_blank">BAT4</a><br>
+</td></tr>

@@ -1,0 +1,44 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/sk_001"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NSUBSTR" target="_blank">8222. Substrings</a></td><td><a href="http://www.spoj.com/problems/NSUBSTR"target="_blank">NSUBSTR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NSUBSTR2" target="_blank">8747. Substrings II</a></td><td><a href="http://www.spoj.com/problems/NSUBSTR2"target="_blank">NSUBSTR2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XXXXXXXX" target="_blank">9066. Sum of Distinct Numbers</a></td><td><a href="http://www.spoj.com/problems/XXXXXXXX"target="_blank">XXXXXXXX</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LCS0" target="_blank">12076. Longest Common Subsequence</a></td><td><a href="http://www.spoj.com/problems/LCS0"target="_blank">LCS0</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC00" target="_blank">15553. Hamsters</a></td><td><a href="http://www.spoj.com/problems/STC00"target="_blank">STC00</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC01" target="_blank">15568. Fire Extinguishers</a></td><td><a href="http://www.spoj.com/problems/STC01"target="_blank">STC01</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC02" target="_blank">15569. Antisymmetry</a></td><td><a href="http://www.spoj.com/problems/STC02"target="_blank">STC02</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC04" target="_blank">15571. Difference</a></td><td><a href="http://www.spoj.com/problems/STC04"target="_blank">STC04</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC05" target="_blank">15572. Garden</a></td><td><a href="http://www.spoj.com/problems/STC05"target="_blank">STC05</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC06" target="_blank">15573. Keyboard</a></td><td><a href="http://www.spoj.com/problems/STC06"target="_blank">STC06</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC07" target="_blank">15574. Railway</a></td><td><a href="http://www.spoj.com/problems/STC07"target="_blank">STC07</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC08" target="_blank">15575. Kangaroos</a></td><td><a href="http://www.spoj.com/problems/STC08"target="_blank">STC08</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC09" target="_blank">15576. Aesthetic Text</a></td><td><a href="http://www.spoj.com/problems/STC09"target="_blank">STC09</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STC10" target="_blank">15577. Blockade</a></td><td><a href="http://www.spoj.com/problems/STC10"target="_blank">STC10</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/POSTERIN" target="_blank">15620. Postering</a></td><td><a href="http://www.spoj.com/problems/POSTERIN"target="_blank">POSTERIN</a><br>
+</td></tr>

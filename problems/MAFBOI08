@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAFBOI08"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>9213. Mafia</h1>
+		<h2>Problem code: MAFBOI08</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The police in Byteland got an anonymous tip that the local mafia bosses are     planning a big transport from the harbour to one of the secret warehouses in     the countryside.     The police knows the date of the transport and they know that the transport     will use the national highway network.</p>
+<p>The highway network consists of two-way highway segments, each segment     directly connecting two distinct toll stations.     A toll station may be connected with many other stations.     A vehicle can enter or exit the highway network at toll stations only.     The mafia transport is known to enter the highways at the toll station     closest to the harbour and leave it at the toll station closest     to the warehouse (it will not leave and re-enter the highways in between).     Special police squads are to be located in selected toll stations.     When the transport enters a toll station under surveillance, it will be caught     by the police.</p>
+<p>From this point of view, the easiest choice would be to place the police squad     either at the entry point or the exit point of the transport.     However, controlling each toll station has a certain cost, which may     vary from station to station.     The police wants to keep the overall cost as low as possible, so they     need to identify a <em>minimal controlling set</em> of toll stations, which     satisfies the two conditions:</p>
+<ul>
+<li> all traffic from the harbour to the warehouse must pass through at least         one station from that set, </li>
+<li> the cost of monitoring these stations (i.e. the sum of their individual         monitoring costs) is minimal. </li>
+</ul>
+<p>You may assume that it is possible to get from the harbour to the warehouse     using the highways.</p>
+<h3>Input</h3>
+<p>The first line of the standard input contains two integers <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.1.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.2.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.3.png" alt="" /></span>, <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.4.png" alt="" /></span>) - the number of toll       stations and the number of direct highway segments.       The toll stations are numbered from <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.5.png" alt="" /></span> to <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.6.png" alt="" /></span>.</p>
+<p>The second line contains two integers <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.7.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.8.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.9.png" alt="" /></span>,       <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.10.png" alt="" /></span>) - the numbers of the toll stations closest to the harbour       and to the warehouse, respectively.</p>
+<p>The following <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.11.png" alt="" /></span> lines describe the monitoring costs. The <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.12.png" alt="" /></span>-th of       these lines (for <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.13.png" alt="" /></span>) contains one integer - the monitoring       cost of the <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.14.png" alt="" /></span>-th station (which is positive number not exceeding <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.15.png" alt="" /></span>).</p>
+<p>The following <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.16.png" alt="" /></span> lines describe the highway network. The <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.17.png" alt="" /></span>-th of these       lines (for <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.18.png" alt="" /></span>) contains two integers <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.19.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.20.png" alt="" /></span> (<span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.21.png" alt="" /></span>), indicating that there is a direct highway segment       between toll stations numbered <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.22.png" alt="" /></span> and <span><img src="http://main.edu.pl/en/images/BOI2008/maf-en-tex.23.png" alt="" /></span>.       Each highway segment is listed once.</p>
+<h3>Output</h3>
+<p>The only line of the output should contain the numbers of toll stations in       a minimal controlling set, given in increasing order, separated by single       spaces. If there is more than one minimal controlling set, your program       may output anyone of them.</p>
+<h2>Example</h2>
+<p>For the input data:</p>
+<pre>5 6
+5 3
+2
+4
+8
+3
+10
+1 5
+1 2
+2 4
+4 5
+2 3
+3 4</pre>
+<p>the correct result is:</p>
+<pre>1 4</pre>
+<p align="center"><img src="http://main.edu.pl/en/images/BOI2008/example.gif" alt="" /></p>
+<p>The figure shows the highway network with the toll station numbers     (in the upper-left corners) and the monitoring costs.     Stations number 1 and 4 constitute the minimal controlling set with     total controlling cost 5.</p>
+<p><strong>&nbsp;</strong></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minib00m">Krzysztof Lewko</a></td></tr>
+<tr><td>Date:</td><td>2011-07-23</td></tr>
+<tr><td>Time limit:</td><td>0.622s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>boi 08</td></tr>	
+</table>

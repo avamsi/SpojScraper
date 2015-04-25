@@ -1,0 +1,54 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FENCE1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4408. Build a Fence</h1>
+		<h2>Problem code: FENCE1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There is a wall in your backyard. It is so long that you can&rsquo;t see its endpoints. You want to build a fence of length <em>L</em> such that the area enclosed between the wall and the fence is maximized. The fence can be of arbitrary shape, but only its two endpoints may touch the wall.</p>
+<h3>Input</h3>
+<p>The input consists of several test cases.</p>
+<p>For every test case, there is only one integer <em>L</em> (1&lt;=<em>L</em>&lt;=100), indicating the length of the fence.</p>
+<p>The input ends with <em>L</em>=0.</p>
+<h3>Output</h3>
+<p>For each test case, output one line containing the largest area. Your answer should be rounded to 2 digits after the decimal point.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+0
+
+<strong>Output:</strong>
+0.16</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2009-05-23</td></tr>
+<tr><td>Time limit:</td><td>0.25s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Fudan University Local Contest #1, practise session</td></tr>	
+</table>

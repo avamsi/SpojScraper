@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/COUNT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2007. Another Very Easy Problem! WOW!!!</h1>
+		<h2>Problem code: COUNT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<h3>Background</h3>
+<p>This problem is somewhat easier than the problem <a href="http://www.spoj.pl/problems/EASYPROB">A Very Easy Problem!</a> because of the super long time limit...</p>
+<h3>Description</h3>
+<p>Assurance Company of Moving (ACM) is a company of moving things for people. Recently, some schools want to move their computers to another place. So they ask ACM to help them. One school reserves <em>K</em> trucks for moving, and it has <em>N</em> computers to move. In order not to waste the trucks, the school ask ACM to use all the trucks. That is to say, there must be some computers in each truck, and there are no empty trucks. ACM wants to know how many partition shemes exists with moving N computers by K trucks, the ACM ask you to compute the number of different shemes with given N and K. You needn't care with the order. For example <em>N</em>=7,<em>K</em>=3, the the following 3 partition instances are regarded as the same one and should be counted as one sheme: "1 1 5","1 5 1","5 1 1". Each truck can carry almost unlimited computers!!</p>
+<h3>Input</h3>
+<p>Each line of the input contains two postisive integer N (1&lt;=N&lt;=5000) and K(1&lt;=K&lt;=N).Input is terminated by a line with N=K=0(this case should not be processed).</p>
+<h3>Output</h3>
+<p>For each line, output the number of different partition sheme. To avoid big integers, you may output the answer modudo 1988.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1 1<br />7 3<br />0 0<br /><br /><strong>Output:</strong><br />1<br />4<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/john_jones">[Trichromatic] XilinX</a></td></tr>
+<tr><td>Date:</td><td>2007-11-03</td></tr>
+<tr><td>Time limit:</td><td>8.220s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C99 strict ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Time limit: 1000 Years! Memory limit: 2000 GB! Acc%: 100%!</td></tr>	
+</table>

@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FLLM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10667. PASIJANS</h1>
+		<h2>Problem code: FLLM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: medium;">Pasijans, patience, or solitaire is the name for a group of single  player card games. One new such game, so new it has no name, is played  with cards sporting random integers as values. The game starts by  shuffling all cards and<br />distributing them in N sequences, not  necessarily of equal length. During each turn, the player can remove the  first card in any sequence and place it at the end of the &ldquo;Solution  sequence&rdquo;. The card that was second in the selected sequence now becomes  the first and the turn ends. Of course once the card is in the  &ldquo;Solution sequence&rdquo; it cannot be removed, replaced or altered in any  way. So don't even try.</span></p>
+<p><span style="font-size: medium;">The game ends when all cards are in the &ldquo;Solution sequence&rdquo;. The  object of the game is to construct the best possible &ldquo;Solution  sequence&rdquo;. One sequence&nbsp; is better than the other if for the first cards  they differ, lets call them X and Y, the value on the card X is smaller  than the value on the card Y. Write a program that finds the best  possible &ldquo;Solution sequence&rdquo;.</span></p>
+<h3><span style="font-size: medium;">Input</span></h3>
+<p><span style="font-size: medium;">The first line contains one integer N (1 &le; N &le; 1000), number of  starting sequences.<br />Next N lines contain description of input  sequences. Each line starts with an integer L (1 &le; L &le; 1000), length of  the sequence. It's followed by L integers, smaller than 100.000.000.</span></p>
+<h3><span style="font-size: medium;">Output</span></h3>
+<p><span style="font-size: medium;">One line containing &Sigma;L numbers, the best possible &ldquo;Solution sequence&rdquo;  obtainable.</span></p>
+<h3><span style="font-size: medium;">Example</span></h3>
+<pre><span style="font-size: medium;"><strong>Input:</strong><br />3<br />1 2<br />1 100<br />1 1<br /><br /><strong>Output:</strong><br />1 2 100</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/emil_bek">Azat Taryhchiyev</a></td></tr>
+<tr><td>Date:</td><td>2012-02-15</td></tr>
+<tr><td>Time limit:</td><td>0.159s
+</td></tr>
+<tr><td>Source limit:</td><td>20000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PAS fpc PAS gpc PYPY PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>International Sebat Institutions</td></tr>	
+</table>

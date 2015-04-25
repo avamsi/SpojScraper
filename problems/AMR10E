@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/AMR10E"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8059. Stocks Prediction</h1>
+		<h2>Problem code: AMR10E</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The department store where my family goes shopping is trying to predict how much of each item they stock they will sell each month.&nbsp; Keeping a large amount of inventory is costly, and running out of items is also not a good idea.&nbsp; Since the manager asked for my help as a sales consultant, I decided to formulate a model for predicting each month's sales S of an item based on its sales during the previous R months.&nbsp; After a lot of trial and error, I came up with such a model, where <br />S(n) = a1*S(n-1) + a2*S(n-2) + ... + aR*S(n-R) &nbsp;<br />where S(n) is the predicted sales for the nth month for n &gt; R, and S(1) to S(R) are seed values. <br />&nbsp;<br />The store manager was pleased with my model's ability to help him in controlling his inventory. &nbsp;<br />He asked me to list out every Kth month's sales, and give him the sum of the first N values from this list.&nbsp; For example he wanted every Christmas month's sales summed up for the next 10 years (N=10 and K=12, month 1 being January), or every end-of-quarter month's sales for the next 2 years (N=2, K=3). <br />&nbsp;<br />Can you please help me write a program that does all the above? <br />&nbsp;<br /><strong>INPUT</strong> <br />The first line of the input T, the number of test cases. Each test case consists of three lines. <br />The first line of each test case contains N, R, K. <br />The second line of each test case contains R integers denoting S(1), S(2), ..., S(R). <br />The third line of each test case contains R integers denoting the coefficients a1, a2, ..., aR of the predictive model. <br />&nbsp;<br /><strong>OUTPUT</strong> <br />For each test case, output the sum requested by the manager as given in the problem statement, modulo 1,000,000,007. <br />&nbsp;<br /><strong>CONSTRAINTS </strong><br />T &lt;= 40 <br />1 &lt;= N &lt;= 1000000000 <br />1 &lt;= R &lt;= 8 <br />1 &lt;= K &lt;= 8 <br />0 &lt;= All other input values &lt; 1000000007 <br />&nbsp;<br /><strong>SAMPLE INPUT </strong><br />2 <br />4 1 1 <br />1 &nbsp;<br />2 &nbsp;<br />3 2 3 <br />1 1 &nbsp;<br />1 1 &nbsp;<br />&nbsp;<br /><strong>SAMPLE OUTPUT</strong> <br />15 <br />44 <br />&nbsp;<br /><strong>EXPLANATION </strong><br />In the first test case, it is given that S(1) = 1 and the relation is S(n)=2*S(n-1). The list asked by the store manager consists of all the terms of S since K is 1. Hence, the answer is just the sum of the first 4 terms of S. <br />In the second test case, the sequence S is the fibonacci sequence which is: 1, 1, 2, 3, 5, 8, 13, 21, 34. The list consists of 2, 8, 34 which sum up to 44.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/syco">Varun Jalan</a></td></tr>
+<tr><td>Date:</td><td>2010-12-13</td></tr>
+<tr><td>Time limit:</td><td>8s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ICPC Asia regionals, Amritapuri 2010</td></tr>	
+</table>

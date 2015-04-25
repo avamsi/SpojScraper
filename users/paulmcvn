@@ -1,0 +1,100 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/paulmcvn"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EOPERA" target="_blank">336. Exchange Operations</a></td><td><a href="http://www.spoj.com/problems/EOPERA"target="_blank">EOPERA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROADS" target="_blank">338. Roads</a></td><td><a href="http://www.spoj.com/problems/ROADS"target="_blank">ROADS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LAZYCOWS" target="_blank">347. Lazy Cows</a></td><td><a href="http://www.spoj.com/problems/LAZYCOWS"target="_blank">LAZYCOWS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EXPEDI" target="_blank">348. Expedition</a></td><td><a href="http://www.spoj.com/problems/EXPEDI"target="_blank">EXPEDI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/AROUND" target="_blank">349. Around the world</a></td><td><a href="http://www.spoj.com/problems/AROUND"target="_blank">AROUND</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LANDSCAP" target="_blank">350. Landscaping</a></td><td><a href="http://www.spoj.com/problems/LANDSCAP"target="_blank">LANDSCAP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MATH1" target="_blank">369. Math I</a></td><td><a href="http://www.spoj.com/problems/MATH1"target="_blank">MATH1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BOXES" target="_blank">371. Boxes</a></td><td><a href="http://www.spoj.com/problems/BOXES"target="_blank">BOXES</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRO" target="_blank">726. Promotion</a></td><td><a href="http://www.spoj.com/problems/PRO"target="_blank">PRO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MTWALK" target="_blank">733. Mountain Walking</a></td><td><a href="http://www.spoj.com/problems/MTWALK"target="_blank">MTWALK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LPERMUT" target="_blank">744. Longest Permutation</a></td><td><a href="http://www.spoj.com/problems/LPERMUT"target="_blank">LPERMUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MUL2COM" target="_blank">3023. Binary multiplication</a></td><td><a href="http://www.spoj.com/problems/MUL2COM"target="_blank">MUL2COM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COPYDNA" target="_blank">3078. Copying DNA</a></td><td><a href="http://www.spoj.com/problems/COPYDNA"target="_blank">COPYDNA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DPEQN" target="_blank">3179. Congruence Equation</a></td><td><a href="http://www.spoj.com/problems/DPEQN"target="_blank">DPEQN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DIVREL" target="_blank">3196. Divisibility Relation</a></td><td><a href="http://www.spoj.com/problems/DIVREL"target="_blank">DIVREL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TREECST" target="_blank">3197. Tree Construction</a></td><td><a href="http://www.spoj.com/problems/TREECST"target="_blank">TREECST</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/KQUERY" target="_blank">3266. K-query</a></td><td><a href="http://www.spoj.com/problems/KQUERY"target="_blank">KQUERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DQUERY" target="_blank">3267. D-query</a></td><td><a href="http://www.spoj.com/problems/DQUERY"target="_blank">DQUERY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ORDERSET" target="_blank">3273. Order statistic set</a></td><td><a href="http://www.spoj.com/problems/ORDERSET"target="_blank">ORDERSET</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEPOSIT" target="_blank">3476. Deposit</a></td><td><a href="http://www.spoj.com/problems/DEPOSIT"target="_blank">DEPOSIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BABY" target="_blank">3477. Baby</a></td><td><a href="http://www.spoj.com/problems/BABY"target="_blank">BABY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BEGIN" target="_blank">3483. Begin</a></td><td><a href="http://www.spoj.com/problems/BEGIN"target="_blank">BEGIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CROSSBIT" target="_blank">3484. Crossbits</a></td><td><a href="http://www.spoj.com/problems/CROSSBIT"target="_blank">CROSSBIT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ELIM" target="_blank">3486. Elimination</a></td><td><a href="http://www.spoj.com/problems/ELIM"target="_blank">ELIM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TOPCODE" target="_blank">3488. The  Top-Code</a></td><td><a href="http://www.spoj.com/problems/TOPCODE"target="_blank">TOPCODE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HIDTRI" target="_blank">3490. Hidden Triangle</a></td><td><a href="http://www.spoj.com/problems/HIDTRI"target="_blank">HIDTRI</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BRAILLE" target="_blank">3492. Braille Transcription</a></td><td><a href="http://www.spoj.com/problems/BRAILLE"target="_blank">BRAILLE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/NBLTHIEF" target="_blank">3495. The Nobel Thief</a></td><td><a href="http://www.spoj.com/problems/NBLTHIEF"target="_blank">NBLTHIEF</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CPRIME" target="_blank">3505. Prime Number Theorem</a></td><td><a href="http://www.spoj.com/problems/CPRIME"target="_blank">CPRIME</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WORDCNT" target="_blank">3638. Word Counting</a></td><td><a href="http://www.spoj.com/problems/WORDCNT"target="_blank">WORDCNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LUCKYNUM" target="_blank">3639. Lucky Numbers</a></td><td><a href="http://www.spoj.com/problems/LUCKYNUM"target="_blank">LUCKYNUM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HNSUBWAY" target="_blank">3640. Hanoi Subway System Construction</a></td><td><a href="http://www.spoj.com/problems/HNSUBWAY"target="_blank">HNSUBWAY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/EARTHQK" target="_blank">3641. Earthquakes</a></td><td><a href="http://www.spoj.com/problems/EARTHQK"target="_blank">EARTHQK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRETTYP" target="_blank">3642. Pretty Printing</a></td><td><a href="http://www.spoj.com/problems/PRETTYP"target="_blank">PRETTYP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRAFFICN" target="_blank">3643. Traffic Network</a></td><td><a href="http://www.spoj.com/problems/TRAFFICN"target="_blank">TRAFFICN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/WINSTRAT" target="_blank">3644. Winning Strategy</a></td><td><a href="http://www.spoj.com/problems/WINSTRAT"target="_blank">WINSTRAT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HEADQRT" target="_blank">3645. Farthest Headquarters</a></td><td><a href="http://www.spoj.com/problems/HEADQRT"target="_blank">HEADQRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ATOURISM" target="_blank">3646. Adventure Tourism</a></td><td><a href="http://www.spoj.com/problems/ATOURISM"target="_blank">ATOURISM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MOEBIUS" target="_blank">3647. Moebius</a></td><td><a href="http://www.spoj.com/problems/MOEBIUS"target="_blank">MOEBIUS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACT1" target="_blank">4941. Integer Factorization (20 digits)</a></td><td><a href="http://www.spoj.com/problems/FACT1"target="_blank">FACT1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACT0" target="_blank">4942. Integer Factorization (15 digits)</a></td><td><a href="http://www.spoj.com/problems/FACT0"target="_blank">FACT0</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FACT2" target="_blank">4948. Integer Factorization (29 digits)</a></td><td><a href="http://www.spoj.com/problems/FACT2"target="_blank">FACT2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SOCOLA" target="_blank">6072. Chocolate</a></td><td><a href="http://www.spoj.com/problems/SOCOLA"target="_blank">SOCOLA</a><br>
+</td></tr>

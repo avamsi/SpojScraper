@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PAREN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10463. COUNT PAREN</h1>
+		<h2>Problem code: PAREN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><small>You are given a boolean expression consisting of a string of the symbols 'true', 'false', 'and', 'or', and 'xor'.  Count the number of ways to parenthesize the expression such that it will evaluate to true. </small></p>
+<p>"and" "or" and "xor" are of the same priority.</p>
+<h3>Input</h3>
+<p>An integer t, 1&lt;=t&lt;=100, denoting the number of testcases,  followed by t lines, each containing a space seperated string consisting of T,F,and,or and xor of length less than 100 characters</p>
+<h3>Output</h3>
+<p>For each string given at input, display a line with the <small>number of ways to parenthesize the expression such that it will evaluate to true. </small></p>
+<h3>Example</h3>
+<p style="text-align: left;">&nbsp;Sample input:</p>
+<pre>1<br />T and F <br /></pre>
+<p>&nbsp;Sample output:</p>
+<p>&nbsp; 0</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/priyamehtanit">priyamehtanit </a></td></tr>
+<tr><td>Date:</td><td>2012-01-21</td></tr>
+<tr><td>Time limit:</td><td>1s-3s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C++ 4.3.2 C++ 4.9 </td></tr>
+<tr><td>Resource:</td><td>mit tutorial</td></tr>	
+</table>

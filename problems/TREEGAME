@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TREEGAME"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>2322. Tree Game</h1>
+		<h2>Problem code: TREEGAME</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A complete binary tree of depth h is given. You can asign the
+value 0 or 1 to each leaf. Its internal nodes compute their values
+based on the values
+of their children, which is 0 if both children have value 1, and 1
+otherwise.  You play a game with a computer.  The computer can ask you for
+a value of any leaf, and you can tell him either 0 or 1.  The computer
+wants to
+know the root value, and he will keep asking until he is absolutely sure
+what the root value is. Your goal is to make him ask as many questions as
+possible.
+
+It is known that you can make a computer ask for all leaves.  For a given
+sequence of leaves determine a sequence of 0's and 1's as answers to
+those leaves such that at no point before asking the last leaf value can
+the computer be sure of the root value.  You must answer each question optimally (i.e. you should not make use of the knowledge of what the computer's (i+1)st query will be when you answer the ith query).
+
+<h3>Input</h3>
+<p>In the first line of input the number h is given (1 &#8804; h &#8804; 15). In
+the second line a space-separated list of 2<sup>h</sup> numbers are given. They are
+a permutation of the numbers 1, 2, ..., 2<sup>h</sup>, and they represent the
+order of asked leaves (leaves of a tree are indexed from left to right).
+
+<h3>Output</h3>
+<p>On a single line write a space-separated sequence of 0's and 1's
+corresponding to the values of leaves in the given order of being asked. If
+there are multiple solutions, write any of them.  Do not output a response for the last query.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+5 2 7 3 1 6 8 4
+
+<b>Output:</b>
+1 1 1 1 0 0 1
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/minilek">Jelani Nelson (Minilek)</a></td></tr>
+<tr><td>Date:</td><td>2008-01-10</td></tr>
+<tr><td>Time limit:</td><td>7.477s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td><a href="http://web.mit.edu/riskov/www/acm/team1/index.html">MIT 1st Team Contest 2007</a></td></tr>	
+</table>

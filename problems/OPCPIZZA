@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OPCPIZZA"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12151. Pizzamania</h1>
+		<h2>Problem code: OPCPIZZA</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: small;"><br /></span></p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Singham and his friends are fond of pizza. But this time they short of money. So they decided to help each other.They all decided to bring pizza in pairs. Our task is to find the total number of pairs possible which can buy pizza, given the cost of pizza. As pizza boy dont have any cash for change, if the pair adds upto more money than required, than also they are unable to buy the pizza. Each friend is guaranteed to have distinct amount of money. As it is Singham's world, money can also be negative ;).</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Input:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">The first line consist of t(1&lt;=t&lt;=100) test cases.In the following 2*t lines, for each test case first there is n and m, where n(1&lt;=n&lt;=100000) is number of Singham's friend and m is the price of pizza.The next line consist of n integers, seperated by space, which is the money each friend have.&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">The value of m and money is within the limits of int in C,C++.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Output:&nbsp;</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">A single integer representing the number of pairs which can eat pizza.</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Example</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Sample Input:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">2</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">4 12</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">9 -3 4 3</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">5 -9</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">-7 3 -2 8 7</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Sample Output:</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">1</span></div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"><span style="font-size: small;">Time Limit: 3s</span></div>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">Singham and his friends are fond of pizza. But this time they short of money. So they decided to help each other.They all decided to bring pizza in pairs. Our task is to find the total number of pairs possible which can buy pizza, given the cost of pizza. As pizza boy dont have any cash for change, if the pair adds upto more money than required, than also they are unable to buy the pizza. Each friend is guaranteed to have distinct amount of money. As it is Singham's world, money can also be negative ;).</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Input:</span></strong></p>
+<p><span style="font-size: small;">The first line consist of t(1&lt;=t&lt;=100) test cases.In the following 2*t lines, for each test case first there is n and m, where n(1&lt;=n&lt;=100000) is number of Singham's friend and m is the price of pizza.The next line consist of n integers, seperated by space, which is the money each friend have.&nbsp;</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;">The value of m and money is within the limits of int in C,C++.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><span style="font-size: small;"><strong>Output:</strong>&nbsp;</span></p>
+<p><span style="font-size: small;">A single integer representing the number of pairs which can eat pizza.</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Example</span></strong></p>
+<p><strong><span style="font-size: small;">Sample Input:</span></strong></p>
+<p><span style="font-size: small;">2</span></p>
+<p><span style="font-size: small;">4 12</span></p>
+<p><span style="font-size: small;">9 -3 4 3</span></p>
+<p><span style="font-size: small;">5 -9</span></p>
+<p><span style="font-size: small;">-7 3 -2 8 7</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p><strong><span style="font-size: small;">Sample Output:</span></strong></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;">1</span></p>
+<p><span style="font-size: small;"><br /></span></p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/lalit1301">! include(L.ppt)</a></td></tr>
+<tr><td>Date:</td><td>2012-08-31</td></tr>
+<tr><td>Time limit:</td><td>0.154s-0.386s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>MNNIT OPC 31-08-2012</td></tr>	
+</table>

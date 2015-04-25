@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/FIBOSUM2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19406. Fibonacci extraction Sum</h1>
+		<h2>Problem code: FIBOSUM2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+Some people may found <a href="http://www.spoj.com/problems/FIBOSUM/">FIBOSUM</a> a too easy problem.
+We propose here a useful variation.</p>
+
+<img title="SigmaFibScale" src="../../content/francky:sigmaFibScale" alt="SigmaFibScale" />
+<p>
+Fib is the Fibonacci sequence:</br>
+For any positive integer i: if i<2 Fib(i) = i, else Fib(i) = Fib(i-1) + Fib(i-2)
+</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer
+ <strong><em>T</em></strong>, the number of test cases.</br>
+On each of the next <strong><em>T</em></strong> lines, your are given
+tree integers <strong><em>c</em></strong>, <strong><em>k</em></strong>, <strong><em>N</em></strong>.
+</p>
+
+<h3>Output</h3>
+<p>
+Print <strong>Sum(Fib(<em>ki+c</em>) for <em>i</em> in [1..<em>N</em>])</em></strong>.
+</br>
+As the answer could not fit in a 64-bit container, just output your answer modulo 1000000007.
+</p>
+
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+3 5 2
+</pre>
+<pre><strong>Output:</strong>
+254
+</pre>
+<h3>Explanations</h3>
+<p>
+Index-1 Fib sequence : 1, 1, 2, 3, 5, 8, 13, <b>21</b>, 34, 55, 89, 144, <b>233</b>, 377, 610, 987, ...</br>
+We want the 5*1+3 = 8<sup>th</sup> and 5*2+3 = 13<sup>th</sup> ones, thus the answer is 21 + 233 = 254.
+</p>
+
+<h3>Constraints</h3>
+<pre>
+0 < T <= 60606
+0 <= c < k <= 2^15
+0 < N <= 10^18
+</pre>
+<p>
+The numbers <strong><em>c,k,N</em></strong> are uniform randomly chosen in their range.
+</br>
+For your information, constraints allow 1.3kB of Python3 code to get AC in 6.66s, it could be hard.</br>
+A fast C-code can get AC under 0.15s.</br>
+<b>Warning:</b> Here is Pyramid cluster, you can try the <a href="http://www.spoj.com/problems/FIBOSUMT/">tutorial edition</a> (clone with Cube cluster).</br>
+<strong>Have fun ;-)</strong>
+</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2014-04-05</td></tr>
+<tr><td>Time limit:</td><td>6.286s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own Problem</td></tr>	
+</table>

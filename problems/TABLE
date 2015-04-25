@@ -1,0 +1,81 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TABLE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8099. Crash´s number table</h1>
+		<h2>Problem code: TABLE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>In today's math lesson, Little Crash has just learnt Least Common Multiple (LCM). For two positive integers <em>a</em> and <em>b</em>, LCM(<em>a</em>, <em>b</em>) means the minimum positive integer which can be divisible by <em>a</em> and <em>b</em>.</p>
+<p>After coming home, Crash is still thinking about what he learnt in  the math lesson. Then he draw a table filled numbers in order to  research LCM. The table has <em>N</em> rows and <em>M</em> columns. The number in the <em>i</em>th row and<em> j</em>th column is LCM(<em>i</em>, <em>j</em>).</p>
+<p>A table of 4*5 is just like this:</p>
+<table border="0">
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>6</td>
+<td>4</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>3</td>
+<td>12</td>
+<td>15</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+<td>12</td>
+<td>4</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p>Now Little Crash wants to know the sum of all the numbers in the table. You just need to output the sum modulo 20101009.</p>
+<h3>Input</h3>
+<p>Only two positive integers stand for <em>N</em> and <em>M</em>. (<em>N</em>, <em>M</em> &lt;= 10<sup>7</sup>)</p>
+<h3>Output</h3>
+<p>A positive integer which means the sum modulo 20101009.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />4 5<br /><br /><strong>Output:</strong><br />122</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/oimaster">jiazhipeng</a></td></tr>
+<tr><td>Date:</td><td>2010-12-20</td></tr>
+<tr><td>Time limit:</td><td>0.011s-1.274s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>C C++ 4.3.2 C++ 4.9 C99 strict JAVA PAS fpc PAS gpc </td></tr>
+<tr><td>Resource:</td><td>Modified from task energy of NOI 2010</td></tr>	
+</table>

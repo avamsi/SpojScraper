@@ -1,0 +1,43 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/INS14G"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>19148. Kill them All</h1>
+		<h2>Problem code: INS14G</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="cv-problem-text" style="color: #333333; font-family: OpenSans-Light, Calibri, Cambria, sans-serif; font-size: 14px; line-height: 20px; text-align: left;">For his training, Digo is asked to solve the following challenge.<br /><br />There is a mock terrorist situation. There are N terrorists and Digo is teamed up with his friend Sharry. They have to kill all the terrorists. Since this was too easy a task for this dynamic duo, Digo decided to have some fun with this challenge. At any given instant, Digo wants that the number of terrorists killed by him should be more than those killed by Sharry. The terrorists come in a fixed order. Any terrorist can be killed by either Digo or Sharry. Give the total number of ways in which the terrorists can be killed by them such that at every instant terrorists killed by Digo is more than the number of terrorists killed by Sharry. Give your answer modulo 10^9+7.<br /><br />Input Format:-<br /><br />The first line consists of a single integer T, denoting the number of test cases.<br />T lines follow each consisting of an integer N denoting the total number of terrorists.<br /><br />Output Format:-<br /><br />For each test case print the total number of possible ways modulo 10^9 + 7.<br /><br />Constraints:-<br /><br />1 &lt;= t &lt;= 100000<br />1 &lt;= n &lt;= 1000000<br /><br />Sample Input:-<br /><br />2<br />1<br />3<br /><br />Sample Output:-<br /><br />1<br />2</div>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adurysk">Surya kiran</a></td></tr>
+<tr><td>Date:</td><td>2014-03-20</td></tr>
+<tr><td>Time limit:</td><td>0.123s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Insomnia 2014</td></tr>	
+</table>

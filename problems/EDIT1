@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/EDIT1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>75. Editor</h1>
+		<h2>Problem code: EDIT1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align=justify>
+Have you ever programmed in Brainf**k? If yes, then you know how
+annoying it is to press the same key several times in a row. So what we all
+need, is a good editor.
+Here are the functions that the editor should have:
+</p>
+<div align=left>
+<ul>
+<li>'\n': begin a new line. If the last line was empty, stop
+processing and print out all lines.</li>
+<li>'d': copy all characters from the current line, and append them
+after
+the last character in this line. For example, if current line contains
+ab, and d is pressed two times, the result will be abababab</li>
+<li>any other character: append it to the current line.</li>
+</ul>
+</div>
+<P align=justify>
+<b>Please note, that the solution may only be submitted in Brainf**k or
+Intercal.</b>
+</p>
+<H3>Input</h3>
+<P align=justify>
+There is exactly one test case. You can assume, that there is no key press of 'd' when the line is still empty.
+</p>
+<H3>Output</h3>
+<P align=justify>
+Print the output that the editor described above would produce on the given input. You can assume, that no line is created with more than 150 characters.
+</p>
+<H3>Example</h3>
+<p>
+<pre>
+<b>Input:</b>
+
+sample-test<br>-dd-d-dd<br>end signalled by two newlines<br><br>
+
+ 
+<b>Output:</b>
+
+sample-test<br>--------------------------------------------<br>enen signalleenen signalle by two newlines<br></pre></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ak15">Adrian Kuegel</a></td></tr>
+<tr><td>Date:</td><td>2004-06-12</td></tr>
+<tr><td>Time limit:</td><td>0.416s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>BF ICK </td></tr>
+<tr><td>Resource:</td><td>own problem</td></tr>	
+</table>

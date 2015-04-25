@@ -1,0 +1,61 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/STREDUCE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4532. String reduction</h1>
+		<h2>Problem code: STREDUCE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>   </p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/STREDUCE/en/">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/STREDUCE/vn/">Ti&#7871;ng Vi&#7879;t</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Given a string containing only characters of 'a' and 'b'. You can reduce this string by replacing a substring forming a?a or b?b by ?; ? is 'a' or 'b'.</p>
+<h3>Request</h3>
+<p>Find a way to minimize the length of given string by reducing it. Output that minimum length.</p>
+<h3>Input</h3>
+<p>- A string.</p>
+<h3>Output</h3>
+<p>- The minimum length found.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />baaba<br /><br /><strong>Output:</strong><br />1<br /></pre>
+<h3>Limitations</h3>
+<p>- The length of the given string does not exceed 300.</p>
+<p> </p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/anhdq">AnhDQ</a></td></tr>
+<tr><td>Date:</td><td>2009-06-26</td></tr>
+<tr><td>Time limit:</td><td>0.186s-0.279s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>NEERC 2001 - Western Subregion</td></tr>	
+</table>

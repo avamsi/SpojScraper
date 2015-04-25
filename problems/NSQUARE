@@ -1,0 +1,87 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NSQUARE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12321. NSquare Sum ( Easy )</h1>
+		<h2>Problem code: NSQUARE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="white-space: normal;"><span style="font-size: small;"> </span></span></span></p>
+<p style="margin-bottom: 0in; text-align: left;">Given two integers N ( N &lt;= 10^18 ) and a prime number P ( 1 &lt; P &lt; 10^18 ), find the lowest number x  such that there're not N integers greater or equal to 0 whose sum of squares is equal to x.</p>
+<p style="margin-bottom: 0in;" align="LEFT">&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 91px;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="81"></col> </colgroup> 
+<tbody>
+<tr>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="81" valign="TOP">
+<p style="margin-bottom: 0in;" align="LEFT">N = 2, P = 2</p>
+<p style="margin-bottom: 0in;" align="LEFT">x = 3mod2 = 1</p>
+<p style="margin-bottom: 0in;" align="LEFT">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="LEFT">0 = 0&sup2; + 0&sup2;</p>
+<p style="margin-bottom: 0in;" align="LEFT">1 = 1&sup2; + 0&sup2;</p>
+<p style="margin-bottom: 0in;" align="LEFT">2 = 1&sup2; + 1&sup2;</p>
+<p align="LEFT">4 = 2&sup2; + 0&sup2;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="white-space: normal;"><span style="font-size: small;"> </span></span></span></p>
+<p style="margin-bottom: 0in; text-align: center; "><strong>Input</strong></p>
+<p style="margin-bottom: 0in;" align="LEFT">There're two integers N ( 1 &lt;= N &lt;= 10^18 ) and a prime number P ( 1 &lt; P &lt; 10^18 ). You have to print the answer modulo P.</p>
+<p style="margin-bottom: 0in; text-align: center; "><strong>Output</strong></p>
+<p style="margin-bottom: 0in;" align="LEFT">You have to print an integer x mod P ( -1 &lt; x &lt; 10^18 + 1 ) that satisfies the problem. If there's no number x, print "Impossible".</p>
+<p style="margin-bottom: 0in; text-align: center; "><strong>Example</strong></p>
+<p style="margin-bottom: 0in;" align="CENTER">&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 103px;" border="0" cellspacing="0" cellpadding="4">
+<colgroup><col width="93"></col> </colgroup> 
+<tbody>
+<tr>
+<td style="border: 1px solid #000000; padding: 0.04in;" width="93" valign="TOP">
+<p align="LEFT"><strong>Input:</strong></p>
+<p align="LEFT">1 3</p>
+<p align="LEFT"><strong>Output:</strong></p>
+<p align="LEFT">2</p>
+<p align="LEFT">&nbsp;</p>
+<p align="LEFT"><strong>Input:</strong></p>
+<p align="LEFT">13 7</p>
+<p align="LEFT"><strong>Output:</strong></p>
+<p align="LEFT">Impossible</p>
+<p align="LEFT">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mcd10">Mateus Dantas [ UFCG ]</a></td></tr>
+<tr><td>Date:</td><td>2012-09-30</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ASMGCC C++14 COB GROOVY NODEJS PYPY PYTH 3.2.3 n PY3.4 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Rafael Perrela</td></tr>	
+</table>

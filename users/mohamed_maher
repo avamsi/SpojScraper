@@ -1,0 +1,30 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/mohamed_maher"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/EGYPIZZA" target="_blank">7169. Pizza</a></td><td><a href="http://www.spoj.com/problems/EGYPIZZA"target="_blank">EGYPIZZA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/TRIKA" target="_blank">7217. Training for final</a></td><td><a href="http://www.spoj.com/problems/TRIKA"target="_blank">TRIKA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROOKS" target="_blank">7248. Chess part1</a></td><td><a href="http://www.spoj.com/problems/ROOKS"target="_blank">ROOKS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/MIDO" target="_blank">8351. KOSARK</a></td><td><a href="http://www.spoj.com/problems/MIDO"target="_blank">MIDO</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARKET1" target="_blank">8374. PARKET</a></td><td><a href="http://www.spoj.com/problems/PARKET1"target="_blank">PARKET1</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRESIDEN" target="_blank">13376. The new President</a></td><td><a href="http://www.spoj.com/problems/PRESIDEN"target="_blank">PRESIDEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CONHONPR" target="_blank">13398. Contest Hall Preparation</a></td><td><a href="http://www.spoj.com/problems/CONHONPR"target="_blank">CONHONPR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ICPC12C" target="_blank">13404. The Encrypted Password</a></td><td><a href="http://www.spoj.com/problems/ICPC12C"target="_blank">ICPC12C</a><br>
+</td></tr>

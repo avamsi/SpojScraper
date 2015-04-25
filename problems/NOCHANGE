@@ -1,0 +1,163 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/NOCHANGE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1847. No Change</h1>
+		<h2>Problem code: NOCHANGE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P align="justify">
+Though it might be hard to imagine, the
+inhabitants of a small country Additivia do not know of such thing
+as change, which probably has to do with them
+not knowing subtraction either. 
+When they buy something, 
+they always need to have the exact amount of addollars, their currency. 
+The only other option, but not 
+a really attractive one, is over-paying.
+
+<P align="justify">
+Professor Adem, one of the Additivian mathematicians 
+came up with an algorithm for keeping a balanced 
+portfolio. The idea is the following. 
+Suppose you have more coins of value <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg55.gif"
+ ALT="$v_1$" TITLE="$v_1$"> than coins of value 
+<IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg56.gif"
+ ALT="$v_2$" TITLE="$v_2$">. In this case you should try to spend at least as many 
+coins of value <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg55.gif"
+ ALT="$v_1$" TITLE="$v_1$"> as those of value 
+<IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg56.gif"
+ ALT="$v_2$" TITLE="$v_2$"> on any buy you make. 
+Of course spending too many <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg55.gif"
+ ALT="$v_1$" TITLE="$v_1$"> coins is not a good idea either, but to make 
+the algorithm simpler professor Adem decided 
+to ignore the problem. The algorithm became an instant hit
+and professor Adem is now designing a kind of "electronic portfolio" 
+with built-in Adem's algorithm.
+All he needs now is a software for these machines, 
+that will decide whether a given amount of
+addollars can be paid using a given set of coins according 
+to the rules of Adem's algorithm.
+Needless to say, you are his chosen programmer for the task.
+
+<font color="#0000FF"><H2>Problem</H2></font>
+
+<P align="justify">
+Write a program that 
+reads the description of a set of coins and an amount of addollars
+to be paid,
+and determines whether you can pay that amount
+according to Professor Adem's rules.
+
+<h3>Input</h3>
+<P align="justify">
+The input starts with the amount of 
+addollars to be paid <IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg57.gif"
+ ALT="$x$" TITLE="$x$">, where <!-- MATH
+ $1le x le 100,000$
+ -->
+<IMG
+ WIDTH="125" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg58.gif"
+ ALT="$1le x le 100 000$" TITLE="$1le x le 100 000$">. 
+The number of different coin values <IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg48.gif"
+ ALT="$k$" TITLE="$k$"> follows,
+where <IMG
+ WIDTH="78" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg59.gif"
+ ALT="$1 le k le 5$" TITLE="$1 le k le 5$">. 
+The values of the coins <!-- MATH
+ $v_1,ldots,v_k$
+ -->
+<IMG
+ WIDTH="76" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg60.gif"
+ ALT="$v_1,ldots,v_k$" TITLE="$v_1,ldots,v_k$"> follow, 
+where <!-- MATH
+ $1 le v_i le 10,000$
+ -->
+<IMG
+ WIDTH="120" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg61.gif"
+ ALT="$1 le v_i le 10 000$" TITLE="$1 le v_i le 10 000$">. 
+
+<P align="justify">
+Notice that the order among coin values is significant:
+you need to spend at least as many coins of value <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg55.gif"
+ ALT="$v_1$" TITLE="$v_1$"> as coins
+of value <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg56.gif"
+ ALT="$v_2$" TITLE="$v_2$">, at least as many coins of value <IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg56.gif"
+ ALT="$v_2$" TITLE="$v_2$"> as those of value 
+<IMG
+ WIDTH="21" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="https://www.spoj.com/content/overwise:iimg62.gif"
+ ALT="$v_3$" TITLE="$v_3$">, and so on. You may assume 
+that you have a sufficiently large number of coins of each value.
+
+<h3>Output</h3>
+<P align="justify">
+Your program should output for each test case either 
+a single word "YES", if the given amount can 
+be paid according to the rules, or a single word "NO" otherwise.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+13 3 9 2 1
+<b>Output:</b>
+NO
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/overwise">Robin Nittka</a></td></tr>
+<tr><td>Date:</td><td>2007-10-04</td></tr>
+<tr><td>Time limit:</td><td>0.644s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC -- SWERC 2001</td></tr>	
+</table>

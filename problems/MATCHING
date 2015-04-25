@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MATCHING"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4206. Fast Maximum Matching</h1>
+		<h2>Problem code: MATCHING</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>FJ has N (1 &#8804; N &#8804; 50,000) cows and M (1 &#8804; M &#8804; 50,000) bulls. Given a list of P (1 &#8804; P &#8804; 150,000) potential matches between a cow and a bull, compute the greatest number of pairs that can be matched. Of course, a cow can be matched to at most one bull, and vice versa.</p>
+
+<h3>Input</h3>
+<p>The first line contains three integers, N, M, and P. Each of the next P lines contains two integers A (1 &#8804; A &#8804; N) and B (1 &#8804; B &#8804; M), denoting that cow A can be matched with bull B.</p>
+
+<h3>Output</h3>
+<p>Print a single integer that is the maximum number of pairs that can be obtained.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5 4 6
+5 2
+1 2
+4 3
+3 1
+2 2
+4 4
+
+<b>Output:</b>
+3
+</pre>
+
+<p>Cow 1 can be matched to bull 2, cow 3 to bull 1, and cow 4 to bull 3.</p>
+
+<p>Note: see also <a href="http://www.spoj.pl/problems/FASTFLOW/">http://www.spoj.pl/problems/FASTFLOW/</a>.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/neal_wu">Neal Wu</a></td></tr>
+<tr><td>Date:</td><td>2009-04-12</td></tr>
+<tr><td>Time limit:</td><td>0.281s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+	
+</table>

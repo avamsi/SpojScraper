@@ -1,0 +1,58 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IOPC1206"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10476. Fair bases</h1>
+		<h2>Problem code: IOPC1206</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p align="justify">Consider integers N and K such that 2 &le; K &le; N. Write all the numbers 0 &le; i &lt; N in base K, adding leading zeros where necessary so that all the numbers are of equal length in base K. The score of an integer i (0 &le; i &lt; N) in the list is defined in the following fashion : Consider the first digit of i in base K. Count the total number of times this digit occurs as first digit of some integer in the list. This is the score of the first digit of i. The number of times the second digit of i appears as the second digit of some integer in the list is the score of the second digit of i, and so on. The sum of scores of all digits of i is the score of i.</p>
+<p align="justify">As an example, suppose N=4 and K=3. Then the numbers in the list are 00,01,02 and 10. Let us find the score of i=00. The first digit of i appears as the first digit thrice (00,01,02) and the second digit of i appears as second digit twice (00,10). Thus the score of 00 is 3+2=5.</p>
+<p align="justify">An integer K (2 &le; K &le; N) is called a fair base of N if the scores of all i (0 &le; i &lt; N) are equal for base K. The number of fair bases in the range 2 &le; K &le; N is termed the fairness factor of the integer N.</p>
+<p align="justify">Given integers a and b (2 &le; a &le; b &le; 10<sup>12</sup>), find the sum of fairness factors of all i such that a &le; i &le; b.</p>
+<h3>Input</h3>
+<p align="justify">The first line of input contains T, the number of test cases (T &le; 20). Following these are T lines, each containing two space separated integers a and b (2 &le; a &le; b &le; 10<sup>12</sup>).</p>
+<h3>Output</h3>
+<p align="justify">For each (a,b) pair in the input, output the sum of fairness factors of i in the range a &le; i &le; b.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2
+4 8
+20 30
+
+<strong>Output:</strong>
+9
+27
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/raziman">Raziman T V</a></td></tr>
+<tr><td>Date:</td><td>2012-01-25</td></tr>
+<tr><td>Time limit:</td><td>0.768s
+</td></tr>
+<tr><td>Source limit:</td><td>10000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>http://www.codechef.com/IOPC2012/</td></tr>	
+</table>

@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/SNGGW"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15867. Great Warrior</h1>
+		<h2>Problem code: SNGGW</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>This problem is about an imaginary game. First of all, define a <strong>War Board </strong>that is a <strong>N x N square matrix</strong>. Each matrix cell represents a warrior and the value written in the cell is the power of that particular warrior.<br /><span style="text-decoration: underline;"><strong><span style="font-size: small;"><br />Rules for assigning powers of each warrior</span> </strong></span><br /><span style="color: #ff0000;"><strong>1.</strong></span> First start filling the main diagonal with numbers <strong>1, 2, 3, 4 .... K</strong> according to requirement. Starting of filling always be at the top corner.<br /><strong><span style="color: #ff0000;">2.</span></strong> Now start filling the anti diagonal with numbers <strong>k + 1, k + 2, k + 3, k + 4 .... L</strong> according to requirement. Starting of filling always be at the bottom&nbsp;corner. <strong>Don't forget that in case of filling the anti diagonal if there is any number already filled it will be modified by the current number&nbsp;that is to be filled, if that particular cell was empty</strong>.<br /><span style="color: #ff0000;"><strong>3.</strong></span> Now fill all the empty cells, in <strong>anti-clockwise spiral</strong> filling manner. The first cell to be filled will be <strong>2nd last column of first row</strong>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong>5 x 5 War Board</strong></span></p>
+<p style="text-align: center;"><img style="margin: 5px; border: 2px solid black;" title="War Board" src="https://lh5.googleusercontent.com/-A8WxFmcWvVo/UiqITAErqDI/AAAAAAAAAIk/hQe77Jptf7k/w288-h291-no/War+Board.jpg" alt="Image to describe power assignment to each cell" width="288" height="291" /></p>
+<p style="text-align: left;"><span style="font-size: small;"><span style="text-decoration: underline;"><strong>Description of game</strong></span></span><br />The greatest warrior <strong>W</strong> of king Pushyamitra Shunga is having fight with Yavana warriors. W fights with one Yavana warrior <strong>Y</strong> at a time. Consider the followings<br /><strong><span style="color: #ff0000;">1.</span></strong> <strong>Power_of_W is more than Yavanas</strong>.<br /><span style="color: #ff0000;"><strong>2.</strong></span> W can defeat Y if <strong>Power_of_W &gt; Power_of_Y - 1</strong><br /><span style="color: #ff0000;"><strong>3.</strong></span> After each win <strong>Power_of_W decreases by Power_of_Y</strong><br /><strong><span style="color: #ff0000;">4.</span></strong> W can move to cells adjacent to it. If <strong>Current_Cell_Location_of_W</strong> is <strong>(i, j)</strong> then<br /><strong>Next_Cell_Location_of_W</strong> will be one of <strong>(i &plusmn; 1, j &plusmn; 1)</strong> or <strong>(i &plusmn; 1, j) </strong>or <strong>(i, j &plusmn; 1) </strong><br /><span style="color: #ff0000;"><strong>5.</strong></span> W will win if W defeats Y such that <strong>Power_of_Y = 1</strong>, otherwise W is defeated.<br /><br /><span style="font-size: small;"><span style="text-decoration: underline;"><strong>What to code<br /></strong></span></span>You have to code to verify whether W wins or get defeated but don't forget the followings -<br /><span style="color: #ff0000;"><strong>1.</strong></span> The one cell location is of W and other cell locations are of Yavanas<br /><span style="color: #ff0000;"><strong>2.</strong></span> Its up to W to choose the Yavana warrior Y to fight with<br /><span style="color: #ff0000;"><strong>3.</strong></span> Its not necessary that W has to defeat all Yavanas, <strong>W just want to win</strong></p>
+<p style="text-align: center;"><span style="font-size: small;"><span style="color: #888888;"><strong>[All the information required to solve this problem is provided in the description]</strong></span></span></p>
+<h3>Input</h3>
+<p>First line of input is t, total number of test cases (t &lt; 1001). Next t lines contains value of<br />N (2 &lt; N &lt; 1000).</p>
+<h3>Output</h3>
+<p>Output for each test case is single line printing either <strong><span style="color: #0000ff;">DWON</span> Final_Power_of_W</strong> (If W wins) or <span style="color: #0000ff;"><strong>DDOWN</strong></span> (If W is defeated).</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1<br />5
+
+<strong>Output:</strong>
+DWON 15
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/newborn">AvmnuSng</a></td></tr>
+<tr><td>Date:</td><td>2013-09-06</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td><a href="https://facebook.com/criusabhimanyu">Abhimanyu Singh</a><br><a href="http://goo.gl/KXdHYG">My Problems</a></td></tr>	
+</table>

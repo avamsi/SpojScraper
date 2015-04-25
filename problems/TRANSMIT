@@ -1,0 +1,123 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TRANSMIT"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>898. Transmitters</h1>
+		<h2>Problem code: TRANSMIT</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<P>
+In a wireless network with multiple transmitters sending on the same
+frequencies, it
+is often a requirement that signals don't overlap, or at least that they don't
+conflict. One way of accomplishing this is to restrict a transmitter's coverage
+area. This problem uses a shielded transmitter that 
+only broadcasts in a semicircle.
+</P>
+<P>
+A transmitter <I>T</I> is located somewhere on a 1,000 square meter grid.
+It broadcasts in a semicircular area of radius <I>r</I>. The
+transmitter may be rotated any amount, but not moved. 
+Given <I>N</I> points anywhere on the grid, compute
+the maximum number of points that can be simultaneously reached by the
+transmitter's signal.
+Figure 1 shows the
+same data points with two different transmitter rotations.
+
+</P>
+
+<center><img src="https://www.spoj.pl/content/wanderley:transmit.gif"></center>
+
+<P>
+All input coordinates are integers (0-1000). The radius is a
+positive real number greater than 0.
+Points on the boundary of a semicircle are considered within that
+semicircle.  There are 1-150 unique points to examine per transmitter.
+No points are at the same location as the transmitter.
+</P>
+
+<P>
+Input consists of information for one or more independent transmitter problems.
+Each problem begins with
+one line containing the (x,y) coordinates of the transmitter followed by the
+broadcast radius, <I>r</I>.
+The next line contains the number of points <I>N</I> on the grid,
+followed by <I>N</I> sets of (x,y) coordinates, one
+set per line.  The end of the input is signalled by a line with a
+negative radius; the (x,y) values will be present but indeterminate.
+Figures 1 and 2 represent the data in the first two example data sets below,
+though they are on different scales. Figures 1a and 2 show
+transmitter rotations that result in maximal coverage.
+
+</P>
+
+<P>For each transmitter, the output contains a single line with 
+the maximum number of points that can be contained in some semicircle.
+</P>
+
+<PRE>
+<b>Input:</b>
+25 25 3.5
+7
+25 28
+23 27
+27 27
+24 23
+26 23
+24 29
+26 29
+350 200 2.0
+5
+350 202
+350 199
+350 198
+348 200
+352 200
+995 995 10.0
+4
+1000 1000
+999 998
+990 992
+1000 999
+100 100 -2.5
+</PRE>
+
+
+<PRE>
+<b>Output:</b>
+3
+4
+4
+</PRE>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/wanderley">Wanderley Guimarăes</a></td></tr>
+<tr><td>Date:</td><td>2006-06-09</td></tr>
+<tr><td>Time limit:</td><td>0.127s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM Mid Central Regionals 2001</td></tr>	
+</table>

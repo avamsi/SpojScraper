@@ -1,0 +1,46 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ALIEN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10401. Aliens at the train</h1>
+		<h2>Problem code: ALIEN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>The aliens have arrived to Earth and everything is in harmony, the two races can live together. However, one specific Female Alien does not want to see humans on her way to the university, the alien must use the train as every human does. But she can choose any train station such she doesn&rsquo;t see more than B humans, however, the Alien wants to go as far as possible with the train. Please, help her in this task<br /><br /><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>INPUT:</strong><br />You will receive one integer T denoting the number of test cases, then, the next line will contain two integers At Bt where At and Bt is the number of stations in the train (1&lt;=At&lt;=100,000) and the number of people that the alien wants to see as maximum (1&lt;=Bt&lt;=10,000,000), after that, one line containing At integers separated by a single space will denote the number of people the Alien can find in the At-i-th station. (For each station there will be as much 100 people)<br /><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OUTPUT:</strong><br />Your output should consist on T pair of numbers denoting the number of people the alien will see and the number of stations she will pass respectively.<br /><br /><strong>SAMPLE:</strong></p>
+<p><br /><em><strong>INPUT:</strong></em><br />1<br />5 100<br />20 15 30 80 100</p>
+<p><br /><em><strong>OUTPUT</strong></em><br />65 3</p>
+<p>&nbsp;</p>
+<p>Output note:<br />The alien takes the train at station 1 (with 20 people) and goes to station 2, then the 3rd station, at this point, she have seen 65 people, if she decides to go to station 4 she will see 145 people&hellip; Then she exits the station.</p>
+<p>The alien, however, can start at station 2 with 15 people, then continue up to the 4th station, then, she would have seen 125 people, but, as she wants to see the minimum people possible and this number of people exceeds what she wants to see, she decides to choose the way from the 1st to the 3rd station.</p>
+<p><strong>Clarification: </strong>The alien will be moving always forward (remember, she can choose any station as a start), NEVER backwards, and you should choose the <span style="text-decoration: underline;">best</span> path that satisfies the output specification.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/david_8k">david_8k</a></td></tr>
+<tr><td>Date:</td><td>2012-01-14</td></tr>
+<tr><td>Time limit:</td><td>0.159s-0.333s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

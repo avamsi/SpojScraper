@@ -1,0 +1,50 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IWGBST"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10675. GENIJALAC</h1>
+		<h2>Problem code: IWGBST</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-size: medium;">Mirko is a genius. But the purpose of his inventions is not always  obvious. His latest invention, the Shuffle-o-matic 3175, is one of  those. The Shuffle-o-matic is used in a very special way. First Mirko  places N paper cards, with numbers 1 to N printed on them, on the  Shuffle-o-matic working surface. Then he inputs the shuffle sequence in  the special input console and hits the go button. The machine than reads  the paper cards and outputs the read sequence of numbers on its output  tape. It than shuffles the cards according to the shuffle sequence.  After that it reads the newly obtaind sequence and writes it onto a new  line on its output tape. Then it procedes to shuffle the cards again  acording to the same shuffle sequence, scans and writes the output to  the tape. The machine does this until it runs out of tape.</span></p>
+<p><span style="font-size: medium;">After experimenting with the machine Mirko decided to rest a bit on  the floor. There he noticed a piece of output tape. The piece is neatly  cut just before the A-th output row nad just after the B-th output row.  It is also missing the first C number and the last D numbers in all  rows.</span></p>
+<p><span style="font-size: medium;">He now wonders how many rows on that piece of paper have the property  that all numbers in the row, that are still on the paper, are in the  exact same spot they were before all the shuffling began.</span></p>
+<h3><span style="font-size: medium;">Input</span></h3>
+<p><span style="font-size: medium;">The first line of input contains integers N, A, B, C and D in that  order(1 &le; N &le; 500 000, A &le; B &le; 10^12, 0 &le; C, D &le; N, C + D &lt; N).</span></p>
+<p><span style="font-size: medium;">The second line contains the shuffle sequence. The sequence is given  as a permutation of numbers 1 to N. If the k-th number in the shuffle  sequence is x, after each shuffle the k-th element in the resulting  sequence is the x-th<br />element in the previous sequence.</span></p>
+<h3><span style="font-size: medium;">Output</span></h3>
+<p><span style="font-size: medium;">In the first and only line of input print the number of rows that  have the property Mirko is looking for.</span></p>
+<h3><span style="font-size: medium;">Example</span></h3>
+<pre><span style="font-size: medium;"><strong>Input:</strong><br />4 1 5 0 1<br />1 3 4 2<br /><br /><strong>Output:</strong><br />2</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/emil_bek">Azat Taryhchiyev</a></td></tr>
+<tr><td>Date:</td><td>2012-02-16</td></tr>
+<tr><td>Time limit:</td><td>0.128s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 NODEJS PAS fpc PAS gpc PIKE PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>International Sebat Institutions</td></tr>	
+</table>

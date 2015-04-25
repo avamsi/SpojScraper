@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TREEOI14"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1644. Trees</h1>
+		<h2>Problem code: TREEOI14</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Byteasar has a cottage. Lately, he has bought n trees and had them planted all in one row. Byteasar does not,
+however, like the order which the trees have been planted in. It particularly annoys him that tall and short
+ones have been mixed up, and the composition does not meet his aesthetic criteria.
+<p>Byteasar has invented a <i>disorder coefficient</i> so as to allow the gardener to comprehend his intentions: the
+lower the value of the coefficient the prettier the row of trees. It is defined in the following way: |h<sub>1</sub>&#8722;h<sub>2</sub>|+
+|h<sub>2</sub>&#8722;h<sub>3</sub>|+...+|h<sub>n&#8722;1</sub>&#8722;h<sub>n</sub>|, where h<sub>1</sub>,h<sub>2</sub>, . . . ,h<sub>n</sub> are the heights of consecutive trees in a row.
+<p>Replanting is a very toilsome and cumbersome task, therefore Byteasar has ordered the gardener to replant
+two trees at the most (i.e. interchange their positions). The task of the gardener is to choose the pair to replant
+in a way that makes the disorder coefficient the smallest.
+<p>The gardener is not sure if he has chosen the correct pair of trees and he fears he may lose his job if
+he is mistaken. Help him: for each tree calculate the minimal disorder coefficient that may be attained by
+switching places with any other tree.
+
+<h3>Task</h3>
+<p>Write a program which:
+<ul>
+<li> reads the height of the consecutive trees in a row from the standard input,
+<li> for each tree calculates the minimal disorder coefficient that may be attained should it switch places
+with some other tree (or should there be no change at all),
+<li> writes the outcome to the standard output.
+</ul>
+
+<h3>Input</h3>
+<p>The first line of the standard input contains one integer <i>n</i> (2 <= <i>n</i> <= 50000). The other contains <i>n</i> integers h<sub>i</sub>
+(1 <= h<sub>i</sub> <= 100000000) separated by single spaces, denoting the height of the consecutive trees in the row.
+
+<h3>Output</h3>
+<p>The output should consist of precisely <i>n</i> lines. The i-th line should contain a single integer - the smallest
+disorder coefficient attainable when considering replanting of the i-th tree.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+5
+7 4 5 2 5
+
+<b>Output:</b>
+7
+7
+8
+7
+7
+</pre>
+<b>* Added some unofficial tests</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-06-09</td></tr>
+<tr><td>Time limit:</td><td>0.137s-0.801s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Polish Olympiad 14</td></tr>	
+</table>

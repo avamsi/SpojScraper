@@ -1,0 +1,78 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAKESUM"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>11642. MAKESUM</h1>
+		<h2>Problem code: MAKESUM</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p><span style="font-family: Cambria, Palatino, 'Palatino Linotype', 'Hoefler text', Times, 'Times New Roman', serif;"><span style="font-size: 14px; line-height: 20px;">Pairwise sums of n numbers &nbsp;(i.e. NC2 sums)are given in sorted order.</span></span></p>
+<p><span style="font-family: Cambria, Palatino, 'Palatino Linotype', 'Hoefler text', Times, 'Times New Roman', serif;"><span style="font-size: 14px; line-height: 20px;">You need to identify the numbers and print then. If there are several solutions print the lexographically smallest one.</span></span></p>
+<p><span style="font-family: Cambria, Palatino, 'Palatino Linotype', 'Hoefler text', Times, 'Times New Roman', serif;"><span style="font-size: 14px; line-height: 20px;">The Output should have natural numbers only.</span></span></p>
+<h3>Input</h3>
+<p>NC2 &lt;=50</p>
+<p>NC2 numbers each &lt;=10^5</p>
+<h3>Output</h3>
+<p>lexographically smallest set of numbers</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>1
+2 
+
+<strong>Output:</strong>
+1 1</pre>
+<pre><pre><strong><br /></strong></pre>
+<pre><strong>Input:</strong></pre>
+<pre>3
+2 2 2 
+
+<strong>Output:</strong>
+1 1 1</pre>
+<pre><pre><strong>Input:</strong></pre>
+<pre>6
+2 2 2 3 3 3
+
+<strong>Output:</strong>
+1 1 1 2</pre>
+</pre>
+<pre><pre><strong>Input:</strong></pre>
+<pre>1
+4 
+
+<strong>Output:</strong>
+1 3</pre>
+<pre>(here 2 2 and 3 1 are also possible solutions but we have to print the lexographically smallest one)</pre>
+</pre>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/priyamehtanit">priyamehtanit </a></td></tr>
+<tr><td>Date:</td><td>2012-06-01</td></tr>
+<tr><td>Time limit:</td><td>0.201s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

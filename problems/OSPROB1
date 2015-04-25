@@ -1,0 +1,333 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/OSPROB1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7934. Operating System Problems (Task Scheduling)</h1>
+		<h2>Problem code: OSPROB1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+	<form action="/SPOJ/newsubmit/OSPROB1/" method="post" id="newform">
+<!--BISMILLAHIRRAHMANIRRAHIM-->
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><a name="__DdeLink__4_1723023814"></a>&nbsp;</span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">As you all know, Operating System (OS) is a software that controls the execution of computer programs and may provide various services. Although modern operating systems are very easy to use and give us lots of services, their designing is not so easy. It needs lots of work and time to design a good OS. But no OS is perfect. Either they are not so usable or they are not so secure (got tons of viruses). Lingates, as an excellent programmer, wants perfection in all things. So he decided to not use this OSs and write his own OS. But he found out this work is not so easy to do alone even for a programmer like him. So he needs your help.&nbsp;</span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">As a programmer with honor he won&rsquo;t let you do <em>equal or more</em> work in a turn then him (Means Lingates has to do more work then you on each turn). Each turn you both divide the works between yourself. But the works are related so it&rsquo;s better to take works which are adjacent. Like if there are <strong>5</strong> works <strong>5, 2, 7, 1, 3</strong> then Lingates would take 1st work and give you the 2nd work. But you can't take 2nd and 3rd work because that sum to <strong>7+2 = 9</strong> which is more than his work (<strong>5</strong>). Again you can't take 2nd and 4th work because they are not adjacent. After you both finish your work you both will again distribute your works. There is no limit how much work you both can take on a turn. Like Lingates can take 1st and 2nd work on first turn and give you <em>no work</em> on that turn or he can take 1st, 2nd and 3rd turn (total <strong>5+2+7=14</strong>) and give you only 4th (<strong>1</strong>) or both works (<strong>1+3=4</strong>). As you are helping him he let you to divide the works but it has to be that Lingates has to do more work on each turn. As you are also a programmer with honor you also like to take the turns and divide the work on each turn such that it <strong><em><span style="text-decoration: underline;">maximizes</span></em></strong><span style="text-decoration: underline;"> <strong><em>your total works</em></strong></span>.</span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">Write a program which will take the list of work and give the total amount of work done by Lingates and you if you make the list optimally. Again Lingates will do any amount of work you will give him in any turn as long as your work on that turn is less than his.<br /> <!--[if !supportLineBreakNewLine]--><br /> <!--[endif]--></span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Input</strong></span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">The first line will be number of test cases (<strong>T&lt;=500</strong>) and each case will start with an integer n (<strong>0&lt;=n&lt;=100</strong>). In the flowing line n numbers will given as the amount of works (all will be <strong>non negative integer &lt;1000</strong>)</span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Output</strong></span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">A single line for each test case first the total work of Lingates and second the work of your.</span></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Example</strong></span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><strong>Input:</strong> <br /> 4 <br /> 3 <br /> 1 2 3 <br /> 5 <br /> 5 2 7 1 3 <br /> 5 <br /> 6 6 6 6 6 <br /> 7 <br /> 4 9 5 7 6 5 1 <br /> <strong>Output:</strong> <br /> 6 0<br /> 12 6<br /> 18 12<br /> 20 17</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;"><br /> <strong>Explanation:</strong></span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">In 1st case you have to give Lingates all 3 works because 1&lt; (2+3) and (1+2) =3, so you can't take any work.</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">In 2nd case you can give Lingates 1st work (5) and you can take 2nd (2). Then you can give Lingates the 3rd (7) and you can take the rest (1+3).</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">In 3rd case you can give Lingates 1st to 3rd work (6+6+6=18). You can take the left two works (6+6=12).</span></span></p>
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span style="font-family: verdana,geneva;"><span style="font-size: small;">In 4th case you can give Lingates 4 and 9 and you will take 5 and 7. Then in next turn you can give him 6 and you own take 5. Then you can give him 1. <br /> So totaling (4+9+6+1) =20 and (5+7+5) =17.</span></span></p>
+	
+	<div id="global_result">
+	</div>
+	<br/>
+	<table class="problems" width="100%">
+		<tr class="headerrow">
+			<th width="17%" class="">ID</th>
+			<th width="36%">RESULT</th>
+			<th width="16%">TIME</th>
+		</tr>
+		<tr class="kol3">
+			<td class="status_sm"></td>
+			<td manual="0" status="15" id="statusres_8071" class="statusres td5">
+	    	</td>
+	    	<td id="statustime_8071" class="statustext td6">
+	    	</td>
+		</tr>
+	</table>
+	
+	<input type="hidden" name="ajax" value="1"/>
+	<input type="hidden" name="ajax2" value="1"/>
+	<script type="text/javascript" src="/gfx/jquery-ui-1.7.1.custom.min.js"></script>
+	<script type="text/javascript" src="/gfx/jquery.form.js"></script>
+	<input type="hidden" id="debug" value="0"/>
+
+<script language="JavaScript">
+<!--
+		var loader = "<img src='/SPOJ/gfx/loader.gif'/>";
+        var screen_width = 1;
+        var screen_height = 1;
+        var win_width = 1;
+        var win_height = 1;
+        var win_left = 1;
+        var win_top = 1;
+        var tmp = "";
+		function load(){
+                a = new Array();
+                //for(var i = 0; i<9; i++){
+                        //var results = $('.statusres[status='+i+'][manual=0]').each(function(i, el){
+			var results = $('.statusres[final=0]').each(function(i, el){
+				if( $(el).attr('status') != '20'){
+	                                var zz = $(el).attr('id').substring(10);
+        	                        a.push( zz );
+                	                $('#statustime_'+zz).html(loader);
+				}
+                        });
+                //};
+                if( a.length > 0 ){
+                $.ajax({
+                        type: "POST",
+                        url: "/SPOJ/status/ajax=1,ajaxdiff=1",
+                        data: "ids="+a.join(','),
+                        dataType: 'json',
+                        success: function(data){
+                                for(var i = 0; i<data.length; i++){
+                                        $("#statusres_" + data[i].id).attr('status', data[i].status);
+					$("#statusres_" + data[i].id).attr('final', data[i].final);
+                                        $("#statusres_" + data[i].id).html(data[i].status_description);
+                                        $("#statustime_" + data[i].id).html(data[i].time);
+                                        $("#statusch_" + data[i].id).html(data[i].chk_id);
+                                        if( data[i].status >= 9 ){
+                                                $("#statusres_" + data[i].id).parent('tr').attr('class', 'kol');
+                                                $("#statusmem_" + data[i].id).html(data[i].mem);
+						if( data[i].final == '0' && data[i].status < 20){
+							$("#statustime_" + data[i].id).html( loader );
+						}
+                                        }
+                                        if( data[i].status == 15 ){
+                                                $("#statusres_" + data[i].id).parent('tr').attr('class', 'kol3');
+                                        }
+                                        if( data[i].status < 9 ){
+                                                $("#statusres_" + data[i].id).html( $("#statusres_" + data[i].id).html());
+                                                $("#statustime_" + data[i].id).html( loader );
+                                        }
+                                        $("#statusres_" + data[i].id).parent().attr('class', data[i].color);
+                                }
+				setTimeout(load, 5000);
+                        },
+                        error: function(err,a,b){
+							if( $("#debug").attr("value") == 1 ){
+								alert(err);
+								alert(a);
+								alert(b);
+								tmp = err;
+							};
+                        }
+                });
+                }
+        }
+
+$(document).ready(function(){
+        function reload_window_dim(){
+			screen_width = $(window).width() - 10;
+			screen_height = $(window).height() - 10;
+			win_width = screen_width * 4 / 5;
+			win_height = screen_height * 4 / 5;
+			win_left = screen_width / 10;
+			win_top = screen_height / 10;
+		}
+		reload_window_dim();
+
+        load();
+    
+        $.ui.dialog.defaults.bgiframe = true;
+	
+		function source_code_execute(){
+			$("#op_window_sourcecode_link").unbind("click");
+			$("#op_window_sourcecode_link").bind("click", function(){
+				$('#op_window_mjudge').hide();
+				$('#op_window_sourcecode').show();
+				var url = $('#url').attr('value');
+				loadCode(url, "op_window_sourcecode", false);
+				return false;
+			});
+		}
+		function plain_text_execute(){
+			$("#op_window_plaintext_link").unbind("click");
+			$("#op_window_plaintext_link").bind("click", function(){
+				$('#op_window_mjudge').hide();
+				$('#op_window_sourcecode').show();
+				var url = $('#url').attr('value');
+				url = url.replace('src', 'src\/plain');
+				loadCode(url, "op_window_sourcecode", true);
+				return false;
+			});
+		}
+		function copy_to_submit_execute(){
+			$("#op_window_copy_to_submit_link").unbind("click");
+			$("#op_window_copy_to_submit_link").bind("click", function(){
+				var id = $('#solutionid').attr('value');
+				var pcode = $('#pcode').attr('value');
+				window.location.href = "/SPOJ/submit/"+pcode+"/?id="+id;
+			});
+		}
+		function manual_rejudge_execute(){
+			$("#op_window_mjudge_link").unbind("click");
+			$("#op_window_mjudge_link").bind("click", function(){
+				$('#op_window_mjudge').show();
+				$('#op_window_sourcecode').hide();
+				return false;
+			});
+		}
+		
+		function createWindow(){
+			reload_window_dim();
+			$("#op_window").dialog({
+				//bgiframe: true,
+				autoOpen: false,
+				height: win_height,
+				width: win_width,
+				modal: true,
+				buttons: {
+					Close: function() {
+						$(this).dialog('close');
+						//$(this).dialog('destroy');
+					}
+				}
+			});
+			$(".ui-dialog .ui-dialog-titlebar").append("<a class=\"ui-dialog-titlebar-resize ui-corner-all\" href=\"\"><span class=\"ui-icon ui-icon-newwin\" unselectable=\"on\" style=\"-moz-user-select: none;\">resize</span></a>");
+			$(".ui-dialog .ui-dialog-titlebar .ui-icon-newwin").bind("click", function(){
+				reload_window_dim();
+				if( ! $(".ui-dialog").attr("max") ){
+					$('#op_window').parents('.ui-dialog:first').animate({ width: screen_width, height: screen_height, left: 0, top: 0 });
+					$('#op_window').animate({ width: screen_width, height: screen_height-100 });
+					$(".ui-dialog").attr("max", "1");
+				} else {
+					$('#op_window').parents('.ui-dialog:first').animate({ width: win_width, height: win_height, left: win_left, top: win_top });
+					$("#op_window").animate({ width: win_width, height: (win_height - 100) });
+					$(".ui-dialog").attr("max", "");
+				}
+				return false;
+			});
+			source_code_execute();
+			plain_text_execute();
+			manual_rejudge_execute();
+			copy_to_submit_execute();
+		};
+		
+		createWindow(); 
+		
+		
+		function loadCode(url,objectid,pre){
+			$("#"+objectid).html(loader);
+			if( ! url ) return;
+			$.ajax({
+				type: "POST",
+				url: url,
+				cache: false,
+				data: "post=1",
+				success: function(data){
+					if( ! pre ){
+						$("#"+objectid).html(data);
+					} else {
+						$("#"+objectid).html("<pre>" + data + "</pre>");
+					}
+				},
+				error: function(){
+					$("#"+objectid).html("error ;(");	
+				}
+			});
+		}
+		
+		
+					
+			$(".op_window").bind("click", function(){
+				reload_window_dim();
+				$('#solutionid').attr('value', ( $(this).attr('sid') ) );
+				$('#pcode').attr('value', ( $(this).attr('pcode') ) );
+				$('#op_window').dialog('open');
+				$('#op_window').dialog('enable');
+				//$('.ui-dialog').css('display', 'block');
+				$(".ui-dialog").attr("max", "");
+				var url = "/SPOJ/files/src/" + $(this).attr('sid') + "/";
+				$('#url').attr('value', url);
+				loadCode(url, "op_window_sourcecode", false);
+				$("#op_window_sourcecode_link").click();
+				return false;
+			});
+			
+				
+		
+		
+		$(".ideone-run").click(function(){
+			var $this = $(this);
+			$.ajax({
+                	type: "post",
+                	url: "/files/src/plain/"+$(this).attr('sid')+"/",
+                	cache: false,
+                	dataType: 'html',
+                	success: function(data){
+                		ideone_submit(data, $this.attr('lang'), '', $this.attr('note'), true, true);
+                	}
+                });
+            return false;
+		});
+		
+	});
+-->
+</script>
+
+
+	<div id="op_window" title="<a href='#' id='op_window_sourcecode_link'>Source code</a> | <a href='#' id='op_window_plaintext_link'>Plain text</a> | <a href='#' id='op_window_copy_to_submit_link'><b>Copy to submit</b></a>">
+		<input type="hidden" class="url" value="" id="url"/>
+		<div id="op_window_sourcecode">
+		code...
+		</div>
+		<input type="hidden" class="solutionid" id="solutionid"/>
+		<input type="hidden" class="pcode" id="pcode"/>
+	</div>
+	
+	<script type="text/javascript">
+	<!--
+		$(document).ready(function() {
+			$("#newform").bind('submit', function() {
+				$(this).ajaxSubmit({
+					success: function(responseText, statusText){
+						var id = responseText;
+						$(".status_sm").html(id);
+						$(".td5").attr('id', 'statusres_'+id);
+						$(".td5").attr('status', '0');
+						$(".td6").attr('id', 'statustime_'+id);
+						$(".td7").attr('id', 'statusmem_'+id);
+						load();
+					}
+				});
+				return false;
+			});
+		});
+	-->
+	</script>
+	
+	
+	<br/><br/>
+	<input type="submit" value="Submit solution"/>
+	
+	</form>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/ridowan007">Muhammad Ridowan</a></td></tr>
+<tr><td>Date:</td><td>2010-11-21</td></tr>
+<tr><td>Time limit:</td><td>0.327s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: CLOJ FORT ICON ICK PRLG SCM chicken ST </td></tr>
+<tr><td>Resource:</td><td>Own, thanks for helping Zobayer,Tulip and Shiplu</td></tr>	
+</table>

@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PELL2"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>12721. Pell (Mid pelling)</h1>
+		<h2>Problem code: PELL2</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>D is a given positive integer, consider the equation :<br> X&#178; = D×Y&#178; + 1, with X and Y positive integers.<br>
+Find the minimum numbers (X,Y) within all solutions.<br>
+Sometimes it's possible, sometimes not!
+</p>
+<p>Examples :<br>
+If D=2,  3&#178; = 2×2&#178; + 1, so X=3 and Y=2.<br>
+If D=3,  2&#178; = 3×1&#178; + 1, so X=2 and Y=1.<br>
+If D=4, it's impossible!
+</p>
+
+<h3>Input</h3>
+<p>The input begins with the number T of test cases in a single line.<br>
+In each of the next T lines there is one integer D.
+</p>
+
+<h3>Output</h3>
+<p>For each test case, if possible print X and Y the answer of the problem for D, else "-1".
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+2
+3
+4
+
+<b>Output:</b>
+3 2
+2 1
+-1
+</pre>
+
+<h3>Constraints</h3>
+<p>T <= 1000<br>
+1 < D <= 10^7, the numbers D were randomly chosen. (but <a href=http://www.spoj.pl/problems/PELL4C/>XerK</a> modified one of them!)<br>
+190 bytes of sub-optimal python code can get AC in less than 2.5 seconds, there's many rooms to make faster code.<br>
+If you have TLE, you should first consider <a href=http://www.spoj.pl/problems/EQU2/>EQU2</a> first.</p>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/francky">Francky</a></td></tr>
+<tr><td>Date:</td><td>2012-11-11</td></tr>
+<tr><td>Time limit:</td><td>5s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Old problem</td></tr>	
+</table>

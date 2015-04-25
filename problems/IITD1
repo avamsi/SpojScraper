@@ -1,0 +1,42 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/IITD1"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7565. Another Sorting Algorithm</h1>
+		<h2>Problem code: IITD1</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Dexter keeps doing strange things with numbers.<br />Yesterday he found a new algorithm to sort a sequence of numbers &amp; he implemented the following pseudocode to sort the list Seq of N numbers (0-based) in ascending order :<br /><br />Seq = Given sequence of N numbers<br /><br />swap(i,j)<br />{<br />&nbsp;&nbsp; &nbsp;temp = Seq[i]<br />&nbsp;&nbsp; &nbsp;Seq[i] =Seq[j]<br />&nbsp;&nbsp; &nbsp;Seq[j] = temp<br />}<br /><br /><br />reverse(i,j)<br />{<br />&nbsp;&nbsp; &nbsp;Do for k from i to (i+j-1)/2<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;swap(k,i+j-k)<br />}<br /><br />sort()<br />{<br />&nbsp;&nbsp; &nbsp;Do for i from 0 to N-1<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Do for j from i+1 to N-1&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;if(Seq[i]&gt;Seq[j]) then reverse(i,j)<br />&nbsp;&nbsp; &nbsp;<br />}<br /><br />However unknown to Dexter, his sister Dee Dee added another loop inside the outer loop so that the changed sort function now looks like :<br /><br />sort()<br />{<br />&nbsp;&nbsp; &nbsp;Do for i from 0 to N-1&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Do for j from i+1 to N-1&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;if(Seq[i]&gt; Seq[j]) then reverse(i,j)<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Do for j from N-2 to i+2&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;reverse(i+1,j)<br /><br />}<br /><br />When today Dexter tested his program he was frustrated to find that the program was sorting the numbers but it was taking more time than it should(DeeDee's plans always work !).<br />You have been asked to help esitmate the time taken. Given the sequence of numbers that Dexter wants to sort,&nbsp; your job is to find the number of times the swap function has been called.<br /><br /><strong>Input Format :</strong><br /><br />First line contains the number N, the size of the sequence to be sorted. N lines follow, each containing a single integer (the (i)th of these lines contains the value Seq[i])<br /><br /><strong>Output Format:</strong><br /><br />Output a single number representing the number of times the swap function has been called. <br /><br /><br /><strong>Sample Input File:</strong><br /><br />5<br />1<br />2<br />3<br />4<br />5<br /><br /><br /><strong>Sample Output File:</strong><br /><br />4<br /><br /><strong>Constraints:</strong><br />1&lt;=N&lt;=4000<br />0&lt;=Seq[i]&lt;=1,000,000,000</p>
+<p>&nbsp;</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/nikhil">Nikhil Garg</a></td></tr>
+<tr><td>Date:</td><td>2010-10-15</td></tr>
+<tr><td>Time limit:</td><td>0.157s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>Written by Rudradev Basak for IIT Delhi ACM ICPC provinical contest 2010</td></tr>	
+</table>

@@ -1,0 +1,90 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/VPL1_AC"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14033. Late Summer Searching</h1>
+		<h2>Problem code: VPL1_AC</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Summer is late! Summer is late! For a very important date! The VPL programming contest is about to start and Summer is nowhere to be found. Without Summer, you cannot have a contest based on seasons, so you have to find her quickly!</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">A system of antennas is placed on the top of the tallest buildings. You can use them to try to detect Summer's position, so you can finally go and get her. However, the antennas are very sensitive to noise, so unless every antenna is visible from every other antenna, the system will not work. Every antenna has an interference radius R, that will block the visibility between two other antennas if their signal passes through it.</span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"> </span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Even if the system works, using it is very energy-consuming and quite expensive. Given the positions of the antennas, the cost of using the system is equal to the minimal possible area that encloses every antenna (along with their lines of sight with every other antenna). For simplicity, you can suppose that the physical radius of each antenna is negligible.</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">You are located in the VPL headquarters building (which has its own antenna), where every other building with an antenna has a position relative to yours. Knowing these positions, and the interference radius for the antennas, your job is to decide whether the system can work or not. And if it can, what will be the cost (in terms of the minimal area covered).</span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US">&nbsp;</p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: small;"><strong>INPUT DETAILS:</strong></span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">The first line of the input will contain a single integer <em>T</em>, which is the number of test cases that follow. Each test case will begin with a line containing two integers <em>N</em> (the number of antennas) and <em>R</em> (Radius of interference of the antennas). <em>N-1</em> lines follow, each one containing two integers <em>X</em><sub><em>i</em></sub> and <em>Y</em><sub><em>i</em></sub>, being the relative position of the <em>i</em>-th building with respect to VPL headquarters (which is assumed to be placed at position (0, 0)).</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><strong>OUTPUT DETAILS:</strong></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US" align="JUSTIFY"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">The output of your program should consist of T lines, one for each test case. For each of these test cases you should output a single number, representing the minimum area covered by the system, (Rounded to two decimal places). If the system cannot be used, you should output only the text       "NO CONTEST" (quotes for clarity).</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></span></p>
+<table style="width: 665px;" border="0" cellspacing="0" cellpadding="1">
+<colgroup><col width="329"></col> <col width="330"></col> </colgroup> 
+<tbody>
+<tr valign="TOP">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="329">
+<p lang="en-US"><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">INPUT</span></span></strong></p>
+</td>
+<td style="border: 1px solid #000000; padding: 0in 0.01in;" width="330">
+<p lang="en-US"><strong><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">OUTPUT</span></span></strong></p>
+</td>
+</tr>
+<tr valign="TOP">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in;" width="329">
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">4 1</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2 0</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2 2</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">0 2</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">5 1</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2 0</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">2 2</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">0 2</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1 1</span></span></p>
+</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding: 0in 0.01in;" width="330">
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">4.00</span></span></p>
+<p lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">NO CONTEST</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 0in; "><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></span><strong>GENERAL</strong><strong> </strong><strong>CONSTRAINTS</strong><span style="font-family: arial, helvetica, sans-serif; font-size: small; orphans: 0; widows: 0; ">:</span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1 <span style="text-decoration: underline;">&lt;</span> T <span style="text-decoration: underline;">&lt;</span> 100</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">1 <span style="text-decoration: underline;">&lt;</span> R <span style="text-decoration: underline;">&lt;</span> 10</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">-500 <span style="text-decoration: underline;">&lt;</span> X<sub>i</sub>, Y<sub>i</sub> <span style="text-decoration: underline;">&lt;</span> 500</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><strong>CONSTRAINTS</strong><strong> </strong><strong>-</strong><strong> </strong><strong>SUBTASK</strong><strong> </strong><strong>1</strong><strong> </strong><strong>(20%)</strong><span style="font-family: arial, helvetica, sans-serif; font-size: small; ">:</span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">N = 3</span></span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><strong>CONSTRAINTS</strong><strong> </strong><strong>-</strong><strong> </strong><strong>SUBTASK</strong><strong> </strong><strong>2</strong><strong> </strong><strong>(80%)</strong><span style="font-family: arial, helvetica, sans-serif; font-size: small; ">:</span></p>
+<p style="margin-bottom: 0in; widows: 0; orphans: 0; " lang="en-US"><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">3 <span style="text-decoration: underline;">&lt;</span> N <span style="text-decoration: underline;">&lt;</span> 100</span></span></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/vplcontest">Venezuelan Programming League</a></td></tr>
+<tr><td>Date:</td><td>2013-03-08</td></tr>
+<tr><td>Time limit:</td><td>1s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

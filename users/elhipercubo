@@ -1,0 +1,80 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/elhipercubo"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/TRICKTRT" target="_blank">10070. Trick or Treat</a></td><td><a href="http://www.spoj.com/problems/TRICKTRT"target="_blank">TRICKTRT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RESTAURN" target="_blank">10071. Working at the Restaurant</a></td><td><a href="http://www.spoj.com/problems/RESTAURN"target="_blank">RESTAURN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIGHTS2" target="_blank">10072. Lights</a></td><td><a href="http://www.spoj.com/problems/LIGHTS2"target="_blank">LIGHTS2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DARTS" target="_blank">10073. Darts</a></td><td><a href="http://www.spoj.com/problems/DARTS"target="_blank">DARTS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GENETIC2" target="_blank">10074. Genetics</a></td><td><a href="http://www.spoj.com/problems/GENETIC2"target="_blank">GENETIC2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GRAVEYRD" target="_blank">10075. Haunted Graveyard</a></td><td><a href="http://www.spoj.com/problems/GRAVEYRD"target="_blank">GRAVEYRD</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SLALOM2" target="_blank">10076. Slalom</a></td><td><a href="http://www.spoj.com/problems/SLALOM2"target="_blank">SLALOM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ROUTING" target="_blank">10077. Routing</a></td><td><a href="http://www.spoj.com/problems/ROUTING"target="_blank">ROUTING</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/HAPPYTL" target="_blank">10078. Happy Telephones</a></td><td><a href="http://www.spoj.com/problems/HAPPYTL"target="_blank">HAPPYTL</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/STAMMER" target="_blank">10079. Stammering Aliens</a></td><td><a href="http://www.spoj.com/problems/STAMMER"target="_blank">STAMMER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LAWNMWR" target="_blank">10080. Lawn Mower</a></td><td><a href="http://www.spoj.com/problems/LAWNMWR"target="_blank">LAWNMWR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PERIODIC" target="_blank">10081. Periodic Points</a></td><td><a href="http://www.spoj.com/problems/PERIODIC"target="_blank">PERIODIC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CMPANS" target="_blank">10082. Comparing Answers</a></td><td><a href="http://www.spoj.com/problems/CMPANS"target="_blank">CMPANS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/FAKESCOR" target="_blank">10084. Fake Scoreboard</a></td><td><a href="http://www.spoj.com/problems/FAKESCOR"target="_blank">FAKESCOR</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PALINDNA" target="_blank">10085. Palindromic DNA</a></td><td><a href="http://www.spoj.com/problems/PALINDNA"target="_blank">PALINDNA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/JMPMNKEY" target="_blank">10086. Jumping Monkey</a></td><td><a href="http://www.spoj.com/problems/JMPMNKEY"target="_blank">JMPMNKEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/SENSORNT" target="_blank">10087. Sensor Network</a></td><td><a href="http://www.spoj.com/problems/SENSORNT"target="_blank">SENSORNT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ASSEMBLY" target="_blank">10088. Assembly Line</a></td><td><a href="http://www.spoj.com/problems/ASSEMBLY"target="_blank">ASSEMBLY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LOCKKEY" target="_blank">10089. Locks and Keys</a></td><td><a href="http://www.spoj.com/problems/LOCKKEY"target="_blank">LOCKKEY</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DICE" target="_blank">10091. Three-sided Dice</a></td><td><a href="http://www.spoj.com/problems/DICE"target="_blank">DICE</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PRTYNGHT" target="_blank">10092. Party Night</a></td><td><a href="http://www.spoj.com/problems/PRTYNGHT"target="_blank">PRTYNGHT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CAPPIZZA" target="_blank">10095. Caper Pizza</a></td><td><a href="http://www.spoj.com/problems/CAPPIZZA"target="_blank">CAPPIZZA</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/LIGHTS3" target="_blank">10096. Lights (Extreme)</a></td><td><a href="http://www.spoj.com/problems/LIGHTS3"target="_blank">LIGHTS3</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ALPHSOUP" target="_blank">10105. Alphabet Soup</a></td><td><a href="http://www.spoj.com/problems/ALPHSOUP"target="_blank">ALPHSOUP</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COIN" target="_blank">10106. Coin Collecting</a></td><td><a href="http://www.spoj.com/problems/COIN"target="_blank">COIN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DONUT" target="_blank">10107. Cybercrime Donut Investigation</a></td><td><a href="http://www.spoj.com/problems/DONUT"target="_blank">DONUT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/BALLOT" target="_blank">10108. Distributing Ballot Boxes</a></td><td><a href="http://www.spoj.com/problems/BALLOT"target="_blank">BALLOT</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GSM" target="_blank">10109. Game, Set and Match</a></td><td><a href="http://www.spoj.com/problems/GSM"target="_blank">GSM</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/GUESSNM2" target="_blank">10110. Guess the Numbers</a></td><td><a href="http://www.spoj.com/problems/GUESSNM2"target="_blank">GUESSNM2</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/PARSUMS" target="_blank">10111. Nonnegative Partial Sums</a></td><td><a href="http://www.spoj.com/problems/PARSUMS"target="_blank">PARSUMS</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REVIEW" target="_blank">10112. Peer Review</a></td><td><a href="http://www.spoj.com/problems/REVIEW"target="_blank">REVIEW</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/REGPOLYG" target="_blank">10113. Regular Convex Polygon</a></td><td><a href="http://www.spoj.com/problems/REGPOLYG"target="_blank">REGPOLYG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RMTLAND" target="_blank">10114. Remoteland</a></td><td><a href="http://www.spoj.com/problems/RMTLAND"target="_blank">RMTLAND</a><br>
+</td></tr>

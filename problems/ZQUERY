@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ZQUERY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>20644. Zero Query</h1>
+		<h2>Problem code: ZQUERY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="/SPOJ/problems/ZQUERY/en">English</a></td>
+<td width="50%"><a href="/SPOJ/problems/ZQUERY/vn">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Given an array having <strong>N</strong> elements, each element is either <strong>-1</strong> or <strong>1</strong>.</p>
+<p>You have <strong>M</strong> queries, each query has two numbers <strong>L</strong> and <strong>R</strong>, you have to answer the length of the longest subarray in range <strong>L</strong> to <strong>R</strong> (inclusive) that its sum is equal to <strong>0</strong>.</p>
+<h3>Input</h3>
+<p>The first line contains two numbers <strong>N</strong> and <strong>M</strong> (<strong>1</strong> &lt;= <strong>N</strong>, <strong>M</strong> &lt;= <strong>50000</strong>) - the number of elements and the number of queries.</p>
+<p>The second line contains <strong>N</strong> numbers - the elements of the array, each element is either <strong>-1</strong> or <strong>1</strong>.</p>
+<p>In the next <strong>M</strong> lines, each line contains two numbers <strong>L</strong> and <strong>R</strong> (<strong>1</strong> &lt;= <strong>L</strong> &lt;= <strong>R</strong> &lt;= <strong>N</strong>).</p>
+<h3>Output</h3>
+<p>For each query, print the length of the longest subarray that satisfies the query in one line. If there isn't any such subarray, print <strong>0</strong>.</p>
+<h3>Note</h3>
+<p>Subarray in an array is like substring in a string, i.e. subarray should contain contiguous elements.</p>
+<h3>Example</h3>
+<pre>  <strong>Input:</strong>
+  6 4
+  1 1 1 -1 -1 -1
+  1 3
+  1 4
+  1 5
+  1 6
+</pre>
+<pre>  <strong>Output:</strong>
+  0
+  2
+  4
+  6
+</pre>
+<p></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/enrevol">What Does The Fox Say?</a></td></tr>
+<tr><td>Date:</td><td>2014-08-07</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

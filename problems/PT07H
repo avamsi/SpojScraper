@@ -1,0 +1,112 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PT07H"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>1484. Search in XML</h1>
+		<h2>Problem code: PT07H</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+The XML (eXtensible Markup Language) is gaining
+popularity as a new standard for data representation and
+exchange on the internet. 
+XML provides a text-based means to describe and apply a tree-based structure to information.
+The XML document consists of nested elements, some of which usually have attributes and content. 
+But for simplifying this problem, we needn't consider the attributes and content, i.e. only tags allowed.
+An element typically consists of two tags, a start tag and an end tag.
+The start tag consists of a name surrounded by angle brackets, like "&lt;tag>"; 
+the end tag consists of the same name surrounded by angle brackets, 
+but with a slash preceding the name, like "&lt;/tag>". 
+The element's content is empty or other sub-element (child) that appears between the start tag and the end tag.
+Specially, no XML element that has the same tag in its direct sub-elements (children), 
+i.e. All sibling elements have different tag names.
+The following is an valid example for XML documents.
+</p>
+
+<pre>&lt;THU><br>	&lt;Team><br>		&lt;ACRush>&lt;/ACRush><br>		&lt;Jelly>&lt;/Jelly><br>		&lt;Cooly>&lt;/Cooly><br>	&lt;/Team><br>	&lt;JiaJia><br>		&lt;Team><br>			&lt;Ahyangyi>&lt;/Ahyangyi><br>			&lt;Dragon>&lt;/Dragon><br>			&lt;Cooly>&lt;Amber>&lt;/Amber>&lt;/Cooly><br>		&lt;/Team><br>	&lt;/JiaJia><br>&lt;/THU>
+
+</pre>
+
+<p>
+For identifying the elements in a document, we number the elements 
+in according to the order that the start tags of the elements appear in the document.
+For instances, "THU" is numbered 1. 
+The first "Team" is numbered 2. "ACRush" is numbered 3. 
+"Ahyangyi" is numbered 8.
+</p>
+<p>
+The problem of querying XML documents has been given much attention by researchers.
+Now we are given a querying pattern of XML documents and a text of XML documents.
+The following is an valid example for pattern.
+</p>
+<pre>&lt;Team>&lt;Cooly>&lt;/Cooly>&lt;/Team></pre>
+<p>
+And we are requested to find all occurrences of the pattern in the text of XML documents. 
+Here, the pattern occurs at a particular text position if placing the pattern with root element at that
+text position leads to a situation in which each pattern element overlaps some text element with the same label. 
+Because the sibling elements have different labels, there is only one way to put the pattern into the text.
+
+</p>
+
+<h3>Input</h3>
+<p>
+There are two parts in the input file.
+The first part is a valid XML documents with exactly one root element.
+The second part is a valid XML documents as querying pattern with exactly one root element.
+Please ignore all whitespaces (unvisiable characters) in the input file, 
+i.e. only consider the uppercase and lowercase letter and "/", "<", ">". 
+Assume XML documents is always strictly a rooted tree. 
+The input file is less than 100kb.
+</p>
+
+<h3>Output</h3>
+<p>
+Output all the occurrences of pattern in a text of XML documents. 
+The first line consists of an integer <i>n</i> that denotes the number of the occurrences. 
+Then the next <i>n</i> line, each line consists of an id number of an element that occurs the query pattern. 
+Please print them in increasing order.</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+&lt;THU><br>	&lt;Team><br>		&lt;ACRush>&lt;/ACRush><br>		&lt;Jelly>&lt;/Jelly><br>		&lt;Cooly>&lt;/Cooly><br>	&lt;/Team><br>	&lt;JiaJia><br>		&lt;Team><br>			&lt;Ahyangyi>&lt;/Ahyangyi><br>			&lt;Dragon>&lt;/Dragon><br>			&lt;Cooly>&lt;Amber>&lt;/Amber>&lt;/Cooly><br>		&lt;/Team><br>	&lt;/JiaJia><br>&lt;/THU>
+&lt;Team>&lt;Cooly>&lt;/Cooly>&lt;/Team>
+
+<b>Output:</b>
+2
+2
+7
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2007-04-07</td></tr>
+<tr><td>Time limit:</td><td>0.011s-0.413s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: ERL JS SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Co-author Amber</td></tr>	
+</table>

@@ -1,0 +1,70 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/CRAN02"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13769. Roommate Agreement</h1>
+		<h2>Problem code: CRAN02</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Leonard was always sickened by how Sheldon considered himself better than him. To decide once and for all who is better among them they decided to ask each other a puzzle. Sheldon pointed out that according to Roommate Agreement Sheldon will ask first. Leonard seeing an opportunity decided that the winner will get to rewrite the Roommate Agreement.</p>
+<p>Sheldon thought for a moment then agreed to the terms thinking that Leonard will never be able to answer right. For Leonard, Sheldon thought of a puzzle which is as follows. He gave Leonard n numbers, which can be both positive and negative. Leonard had to find the number of continuous sequence of numbers such that their sum is zero.</p>
+<p>&nbsp;For example if the sequence is- 5, 2, -2, 5, -5, 9</p>
+<p>There are 3 such sequences</p>
+<p>2, -2</p>
+<p>5, -5</p>
+<p>2, -2, 5, -5</p>
+<p>Since this is a golden opportunity for Leonard to rewrite the Roommate Agreement and get rid of Sheldon's ridiculous clauses, he can't afford to lose. So he turns to you for help. Don't let him down.</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>First line contains T - number of test cases</p>
+<p>Second line contains n - the number of elements in a particular test case.</p>
+<p>Next line contain n elements, ai&nbsp; (1&lt;=i&lt;= n) separated by spaces.</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>The number of such sequences whose sum if zero.</p>
+<p>&nbsp;</p>
+<p><span style="font-size: small;"><strong>Constraints</strong></span></p>
+<p>1&lt;=t&lt;=5</p>
+<p>1&lt;=n&lt;=10^6</p>
+<p>-10&lt;= ai &lt;= 10</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+<p>2
+</p><p>4
+</p><p>0 1 -1 0
+</p><p>6
+</p><p>5 2 -2 5 -5 9</p><p>
+<strong>Output:</strong></p>6<br />3</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/csi_dtu">CSI</a></td></tr>
+<tr><td>Date:</td><td>2013-02-16</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

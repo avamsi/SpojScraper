@@ -1,0 +1,48 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GIRLSNBS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7424. Girls and Boys</h1>
+		<h2>Problem code: GIRLSNBS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>There are G girl students and B boy students in a class that is about to graduate. You<br />need to arrange them in a single row for the graduation. To give a better impression of<br />diversity, you want to avoid having too many girls or too many boys seating consecutively.<br />You decided to arrange the students in order to minimize the gender regularity. The<br />gender regularity of an arrangement is the maximum number of students of the same<br />gender (all girls or all boys) that appear consecutively.<br />Given G and B, calculate the minimum gender regularity among all possible arrange-<br />ments.</p>
+<h3>Input</h3>
+<p>Each test case is described using a single line. The line contains two integers G and B<br />representing the number of girls and boys in the class, respectively (0 &le; G, B &le; 1000).<br />The end of input is indicated with a line containing the number &minus;1 twice.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line with a single integer representing the minimum<br />gender regularity that an arrangement of G girls and B boys can have.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong> <br />10 10<br />5 1<br />0 1000<br />-1 -1
+<br /><strong>Output:</strong> <br />1<br />3<br />1000</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/pabloh">Pablo Ariel Heiber</a></td></tr>
+<tr><td>Date:</td><td>2010-09-27</td></tr>
+<tr><td>Time limit:</td><td>2s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>FCEyN UBA ICPC Selection 2010</td></tr>	
+</table>

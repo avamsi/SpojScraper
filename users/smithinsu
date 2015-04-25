@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/smithinsu"target="_blank">View user profile on Spoj</a><br>
+Note: Click on problem name to open local file and code to view on Spoj.
+<br><br>
+<table width="50%">
+<tr><th>Problem Name</th> <th>Problem Code</th></tr>
+<tr><td><a href="/SPOJ/problems/NAIVELOK" target="_blank">13799. Naive Loki</a></td><td><a href="http://www.spoj.com/problems/NAIVELOK"target="_blank">NAIVELOK</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/DEXTER" target="_blank">13801. Dexter Rank</a></td><td><a href="http://www.spoj.com/problems/DEXTER"target="_blank">DEXTER</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/XMEN" target="_blank">13805. X-MEN</a></td><td><a href="http://www.spoj.com/problems/XMEN"target="_blank">XMEN</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/CHAOS_CC" target="_blank">13806. Chaos In Arkham</a></td><td><a href="http://www.spoj.com/problems/CHAOS_CC"target="_blank">CHAOS_CC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/RDRUG" target="_blank">13807. Rage Drug</a></td><td><a href="http://www.spoj.com/problems/RDRUG"target="_blank">RDRUG</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/COLOR_CC" target="_blank">13808. Colors</a></td><td><a href="http://www.spoj.com/problems/COLOR_CC"target="_blank">COLOR_CC</a><br>
+</td></tr>
+<tr><td><a href="/SPOJ/problems/ISRANK" target="_blank">13809. ISRANK</a></td><td><a href="http://www.spoj.com/problems/ISRANK"target="_blank">ISRANK</a><br>
+</td></tr>

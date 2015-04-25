@@ -1,0 +1,84 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/DEFKIN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>7804. Defense of a Kingdom</h1>
+		<h2>Problem code: DEFKIN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>&nbsp;</p>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Theodore implements a new strategy game &ldquo;Defense of a Kingdom&rdquo;. On each level a player defends the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Kingdom that is represented by a rectangular grid of cells. The player builds crossbow towers in some</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">cells of the grid. The tower defends all the cells in the same row and the same column. No two towers</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">share a row or a column.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">The penalty of the position is the number of cells in the largest undefended rectangle. For example, the</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">position shown on the picture has penalty 12.</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">[IMAGE]</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">Help Theodore write a program that calculates the penalty of the given position.</div>
+<p>&nbsp;</p>
+<p>Theodore implements a new strategy game &ldquo;Defense of a Kingdom&rdquo;. On each level a player defends the&nbsp;Kingdom that is represented by a rectangular grid of cells. The player builds crossbow towers in some&nbsp;cells of the grid. The tower defends all the cells in the same row and the same column. No two towers&nbsp;share a row or a column.</p>
+<p>&nbsp;</p>
+<p>The penalty of the position is the number of cells in the largest undefended rectangle. For example, the&nbsp;position shown on the picture has penalty 12.</p>
+<p>&nbsp;</p>
+<p><img title="Example position" src="../../../content/fidels:DEFKIN.png" alt="This position has a penalty of 12." width="658" height="239" /></p>
+<p>&nbsp;</p>
+<p>Help Theodore write a program that calculates the penalty of the given position.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Input</h3>
+<p>&nbsp;</p>
+<p>The first line of the input file contains the number of test cases.</p>
+<p>&nbsp;</p>
+<p>Each test case consists of a line with three integer numbers: w &mdash; width of the grid, h &mdash; height of the&nbsp;grid and n &mdash; number of crossbow towers (1 &le; w, h &le; 40 000; 0 &le; n &le; min(w, h)).</p>
+<p>&nbsp;</p>
+<p>Each of the following n lines contains two integer numbers x<sub>i</sub> and y<sub>i</sub> &mdash; the coordinates&nbsp;of the cell occupied by a tower (1 &le; x<sub>i</sub> &le; w; 1 &le; y<sub>i</sub> &le; h).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Output</h3>
+<p>&nbsp;</p>
+<p>For each test case, output a single integer number &mdash; the number of cells in the largest rectangle that is not defended by&nbsp;the towers.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+15 8 3
+3 8
+11 2
+8 6
+
+<strong>Output:</strong>
+12<span style="white-space: normal;">
+</span></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/fidels">Fidel Schaposnik</a></td></tr>
+<tr><td>Date:</td><td>2010-11-08</td></tr>
+<tr><td>Time limit:</td><td>0.741s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM ICPC 2010, NEERC, Northern Subregional Contest</td></tr>	
+</table>

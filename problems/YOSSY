@@ -1,0 +1,56 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/YOSSY"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>23806. Yossy, The King of IRYUDAT</h1>
+		<h2>Problem code: YOSSY</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Yossy is the king of IRYUDAT kingdom. The kingdom lives peacefully because Yossy is kind and wise. One day, the enemy wants to launch an attack on IRYUDAT. So, the enemy prepares a strong army to crush IRYUDAT kingdom.</p>
+<p>Yossy knows about this. He must protect his kingdom. The most logical way to prevent this is to send an army that is at least as strong as the enemy&rsquo;s army. An army&rsquo;s power is the sum of each soldier&rsquo;s power. For example if there are three soldiers with 10, 20, and 25 power respectively, the army&rsquo;s power is 55.</p>
+<p>Yossy gathers all of his soldiers. To make a powerful army, he can simply choose soldiers with high power or just send them all. However, this can&rsquo;t be done because the soldiers need to eat. Each soldier has to eat a certain amount of food or they can&rsquo;t go to war. Unfortunately, the kingdom is currently lacking food supply. Yossy needs to choose soldiers wisely so he can make a powerful army with the food limitation.</p>
+<p>Another problem occurs. Yossy doesn&rsquo;t know the enemy's power. So, he sends his underling to calculate the enemy&rsquo;s power. He wants to have a list of his possible army's powers, sorted from the best to the worst, so that after he knows the enemy&rsquo;s power, he can send an army that is at least as strong as the enemy&rsquo;s. Two armies are different if the combination of the soldiers is different.</p>
+<h3>Input</h3>
+<p>First line contains an integer n(1&nbsp;<span style="text-decoration: underline;">&lt;</span> n <span style="text-decoration: underline;">&lt;</span>&nbsp;2000), the number of soldiers that Yossy has. The next n lines contain p(0 <span style="text-decoration: underline;">&lt;</span> p <span style="text-decoration: underline;">&lt;</span> 9999) and f(0 <span style="text-decoration: underline;">&lt;</span> f <span style="text-decoration: underline;">&lt;</span> 9999), the power and food portion of each soldier. The next line contains s(0 <span style="text-decoration: underline;">&lt;</span> s <span style="text-decoration: underline;">&lt;</span>&nbsp;999999), the maximum food supply. The last line contains k(1 <span style="text-decoration: underline;">&lt;</span> k <span style="text-decoration: underline;">&lt;</span>&nbsp;40), the length of Yossy&rsquo;s list. If no more combination of soldiers are available, output 0 until the end of the list.</p>
+<p>For test data with n &gt;&nbsp;15, the p and f value will be randomly generated with no correlation.</p>
+<h3>Output</h3>
+<p>k lines containing the army&rsquo;s&nbsp;power&nbsp;from&nbsp;the&nbsp;first&nbsp;best&nbsp;to&nbsp;k-best&nbsp;army.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+4<br />45 3<br />30 5<br />45 9<br />10 5<br />15<br />4
+
+<strong>Output:</strong>
+90<br />85<br />75<br />75</pre>
+<h3>Explanation</h3>
+<p>The&nbsp;1st&nbsp;best&nbsp;army&nbsp;has&nbsp;power&nbsp;90.&nbsp;It&nbsp;can&nbsp;be&nbsp;obtained&nbsp;from&nbsp;soldier&nbsp;1&nbsp;and&nbsp;3,&nbsp;with&nbsp;sum&nbsp;of&nbsp;power&nbsp;90&nbsp;and&nbsp;sum&nbsp;of&nbsp;food&nbsp;portion&nbsp;12.<br />The&nbsp;2nd&nbsp;best&nbsp;army&nbsp;has&nbsp;power&nbsp;85.&nbsp;It&nbsp;can&nbsp;be&nbsp;obtained&nbsp;from&nbsp;soldier&nbsp;1,&nbsp;2,&nbsp;and&nbsp;4&nbsp;with&nbsp;sum&nbsp;of&nbsp;power&nbsp;85&nbsp;and&nbsp;sum&nbsp;of&nbsp;food&nbsp;portion&nbsp;13.<br />The&nbsp;3rd&nbsp;best&nbsp;army&nbsp;has&nbsp;power&nbsp;75.&nbsp;It&nbsp;can&nbsp;be&nbsp;obtained&nbsp;from&nbsp;soldier&nbsp;1&nbsp;and&nbsp;2,&nbsp;with&nbsp;sum&nbsp;of&nbsp;power&nbsp;75&nbsp;and&nbsp;sum&nbsp;of&nbsp;food&nbsp;portion&nbsp;8.<br />The&nbsp;4th&nbsp;best&nbsp;army&nbsp;has&nbsp;power&nbsp;75.&nbsp;It&nbsp;can&nbsp;be&nbsp;obtained&nbsp;from&nbsp;soldier&nbsp;2&nbsp;and&nbsp;3,&nbsp;with&nbsp;sum&nbsp;of&nbsp;power&nbsp;75&nbsp;and&nbsp;sum&nbsp;of&nbsp;food&nbsp;portion&nbsp;14.<br />Note that the&nbsp;3rd&nbsp;and&nbsp;4th&nbsp;best&nbsp;army&nbsp;have&nbsp;same&nbsp;power&nbsp;but&nbsp;the&nbsp;combination&nbsp;of&nbsp;soldiers&nbsp;is&nbsp;different.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/andypertamax">Andy</a></td></tr>
+<tr><td>Date:</td><td>2015-04-20</td></tr>
+<tr><td>Time limit:</td><td>0.100s-0.150s</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+	
+</table>

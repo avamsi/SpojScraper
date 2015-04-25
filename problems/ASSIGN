@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ASSIGN"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>423. Assignments</h1>
+		<h2>Problem code: ASSIGN</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<H3>Problem</H3>
+<P align=justify>
+Your task will be to calculate number of different assignments of n different topics to n students such that everybody gets exactly one topic he likes.
+</P>
+<H3>Input</H3>
+<P align=justify>
+First line of input contains number of test cases c (1<=c<=80). Each test case begins with number of students n (1<=n<=20). Each of the next n lines contains n integers describing preferences of one student. 1 at the ith position means that this student likes ith topic, 0 means that he definitely doesn't want to take it.
+</P>
+<H3>Output</H3>
+<P align=justify>
+For each test case output number of different assignments (it will fit in a signed 64-bit integer).
+</P>
+<H3>Example</H3>
+<pre>
+Input:
+3
+3
+1 1 1
+1 1 1
+1 1 1
+11
+1 0 0 1 0 0 0 0 0 1 1 
+1 1 1 1 1 0 1 0 1 0 0 
+1 0 0 1 0 0 1 1 0 1 0 
+1 0 1 1 1 0 1 1 0 1 1 
+0 1 1 1 0 1 0 0 1 1 1 
+1 1 1 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 1 
+1 0 1 1 0 0 0 0 0 0 1 
+0 0 1 0 1 1 0 0 0 1 1 
+1 1 1 0 0 0 1 0 1 0 1 
+1 0 0 0 1 1 1 1 0 0 0 
+11
+0 1 1 1 0 1 0 0 0 1 0 
+0 0 1 1 1 1 1 1 1 1 1 
+1 1 0 1 0 0 0 0 0 1 0 
+0 1 0 1 0 1 0 1 0 1 1 
+1 0 0 1 0 0 0 0 1 0 1 
+0 0 1 0 1 1 0 0 0 0 1 
+1 0 1 0 1 1 1 0 1 1 0 
+1 0 1 1 0 1 1 0 0 1 0 
+0 0 1 1 0 1 1 1 1 1 1 
+0 1 0 0 0 0 0 0 0 1 1 
+0 1 1 0 0 0 0 0 1 0 1 
+
+Output:
+6
+7588
+7426
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/gawry">gawry</a></td></tr>
+<tr><td>Date:</td><td>2005-10-08</td></tr>
+<tr><td>Time limit:</td><td>2.997s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>

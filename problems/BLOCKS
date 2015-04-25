@@ -1,0 +1,93 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/BLOCKS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>241. Arranging the Blocks</h1>
+		<h2>Problem code: BLOCKS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>A group of n children are playing with a set of n<sup>2</sup> flat square blocks. Each block is painted from above with one colour, and 
+there are no more than 2 blocks of each colour. The blocks are initially arranged in an n x n square forming some sort of picture.
+<p>
+The children have been provided with some other n x n picture and asked to rearrange the blocks to that form. Since this is not really what they enjoy doing most, they intend to solve the task together and spend as little time on it as possible. Thus, every minute each child chooses a single 1 x n row or n x 1 column of blocks to rearrange. This row/column may never intersect with rows/columns chosen by other children in the same minute. A child takes one minute to perform any rearrangement (permutation) of the blocks within its row/column it likes.
+<p>
+Determine whether the children can perform their task of converting one block image into the other, and if so -- find the minimum possible time in minutes required to achieve this.
+
+<h3>Input</h3>
+<p>
+The input starts with a line containing a single integer t<=200, the number of test cases. t test cases follow. 
+
+Each test case begins with a line containing integer n (1<=n<=500). The next n lines contain n integers P<sub>i,j</sub> each, forming a bitmap matrix representing the colours of the blocks in their initial configuration (1<=P<sub>i,j</sub><=n<sup>2</sup>). The following n lines contain n integers Q<sub>i,j</sub> each, corresponding to the matrix for the final configuration (1<=Q<sub>i,j</sub><=n<sup>2</sup>). 
+
+<h3>Output</h3>
+<p>For each test case output a line with a single non-negative integer corresponding to the number of minutes required to transform matrix P into matrix Q, or the word <tt>no</tt> if no such transformation is possible.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+3
+1 3 4
+2 1 3
+2 5 5
+3 1 3
+2 1 2
+4 5 5
+3
+1 2 3
+4 5 6
+7 8 9
+1 5 6
+4 2 9
+7 8 3
+2
+1 2
+1 2
+1 3
+1 2
+
+<b>Output:</b>
+2
+1
+no
+</pre>
+
+<p>
+The actions taken in the first test case are illustrated below.
+<p>
+<img src="/content/adrian:blocks.png" alt="2 step transformation: 134 213 255 -> 413 312 255 -> 313 212 455"/>
+</p>
+<b>Warning: enormous Input/Output data, be careful with certain languages</b>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/adrian">Adrian Kosowski</a></td></tr>
+<tr><td>Date:</td><td>2004-12-09</td></tr>
+<tr><td>Time limit:</td><td>1.754s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>DASM Programming League 2004, problemset 4</td></tr>	
+</table>

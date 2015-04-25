@@ -1,0 +1,55 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/HAP01"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>14629. Play with Binary Numbers</h1>
+		<h2>Problem code: HAP01</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Let S be the binary representation of an Integer. We define two functions a(i) and b(i) such that<br /> a(i) = Number of occurrences of '1' at odd positions of S.<br /> b(i) = Number of occurrences of '1' at even positions of S.<br /> For example: for integer 19, S=10011.<br /> so, a(19)=2 and b(19)=1</p>
+<h3>Input</h3>
+<p>First line contains an integer T. T=Number of test cases. Then T lines follow<br /> On each line, you will be given three integers M,N,K.</p>
+<h3>Output</h3>
+<p>For each test case output a single integer R.<br /> Where, R is the number of integers 'i' between M and N(both inclusive) such that absolute difference of a(i) and b(i) is equal to K.<br />Answer of each each test case should be on separate line</p>
+<h3>Constraints</h3>
+<p>T&lt;=50<br /> 1&lt;=M&lt;N&lt;=10^19 <br />1&lt;=N-M&lt;=10^6 <br />0&lt;=K&lt;=50</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+1
+1 10 2
+
+<strong>Output:</strong>
+2
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/hindustan">:-)</a></td></tr>
+<tr><td>Date:</td><td>2013-04-16</td></tr>
+<tr><td>Time limit:</td><td>1.201s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>own</td></tr>	
+</table>

@@ -1,0 +1,69 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MAY99_4"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13399. Rachu </h1>
+		<h2>Problem code: MAY99_4</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Rachu is very happy today beacause its his birthday :D and he has a bday party at home with 'r' friends.</p>
+<p>He went to market to purchase something to eat .(He is really fond of eating :P ).</p>
+<p>At the shop he found muffins at a very reasonable price (ohh!! he loves muffins ;) ).</p>
+<p>He bought 'n' muffins from the shop.</p>
+<p>After reaching home he is wondering that in how many ways&nbsp; he can distribute these muffins between his friends .</p>
+<p>He shouldn't be rash so he would give atleast 1 muffin to each friend.</p>
+<p>For rest of the muffins left he can distribute it in any manner. He is still wondering the no. of ways in which he can distribute these muffins.</p>
+<p>Help him out by writing a code which calculates the no. of ways the muffins could be distributed and print "-1" (quotes for clarity) if its impossible for him to distribute the muffins. &nbsp;<br /><br />&nbsp;Consider each muffin as similar. The no. of ways could go very large so output the reult after taking a mod with 10000007 .</p>
+<h3>Input</h3>
+<p>The input consists of 2 integers :<br />&nbsp; n : The no. of muffins<br />&nbsp; r : The no. of friends</p>
+<h3>Output</h3>
+<p>The required answer modulo 10000007</p>
+<h3>Constraints</h3>
+<p>1&lt;= n,r &lt;= 100</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+2 1
+
+<strong>Output:</strong>
+1<br /><pre><strong>Input:</strong>
+4 2
+
+<strong>Output:</strong>
+<br />3</pre>
+<h3>Explanation</h3>
+<p>In 1st case he has 2 muffins and called only 1 friend so he gave both the muffins to him .</p>
+<p>In 2nd case he 1st give 1 muffin each to both.<br />Then he can give 0 muffin to 1st friend and 2 to the 2nd or 1 muffin to each or 2 muffins to 1st friend and 0 to the 2nd.</p>
+<p>&nbsp;</p>
+</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/mayank99">Mayank Tuteja</a></td></tr>
+<tr><td>Date:</td><td>2013-01-18</td></tr>
+<tr><td>Time limit:</td><td>0.179s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC C C++ 4.3.2 C++ 4.9 C++14 COB GROOVY JAVA JS2 PYPY PY3.4 VB.net </td></tr>
+<tr><td>Resource:</td><td>Gunjit  Agrawal</td></tr>	
+</table>

@@ -1,0 +1,49 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/WAGE"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>8596. Wood, Axe and Grass</h1>
+		<h2>Problem code: WAGE</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="text-align: justify;">Danny has created a new civilization on a 2D grid. At the outset each grid location may be occupied by one of three life forms: Woods, Axe, or Grass. Each day, differing life forms occupying horizontally or vertically adjacent grid locations wage war. In each war, Woods always defeat Axe, Axe always defeat Grass, and Grass always defeat Woods. At the end of the day, the winner expands its territory to include the loser's grid position. The loser vacates the position.Determine the territory occupied by each life form after n days.</p>
+<h3 style="text-align: justify;">Input</h3>
+<p style="text-align: justify;">The first line of input contains t, the number of test cases. Each test case begins with three integers not greater than 100: r and c, the number of rows and columns in the grid, and n. The grid is represented by the r lines that follow, each with c characters. Each character in the grid is W, A, or G, indicating that it is occupied by Woods, Axe, or Grass respectively.</p>
+<h3>Output</h3>
+<p>For each test case, print the grid as it appears at the end of the nth day.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />2 <br />3 3 1 <br />WWW <br />WAW <br />WWW <br />3 4 2 <br />WAGW <br />AGWA <br />GWAG</pre>
+<pre><br /><br /><strong>Output:</strong>
+WWW <br />WWW <br />WWW <br />&nbsp;<br />WWWA <br />WWAG <br />WAGW</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/aswinkumargopi">Infinity</a></td></tr>
+<tr><td>Date:</td><td>2011-03-21</td></tr>
+<tr><td>Time limit:</td><td>0.170s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>ASMGCC AWK BF C C# C++ 4.3.2 C++ 4.9 C++14 C99 strict COB GROOVY HASK JAVA JS2 JS NODEJS PAS fpc PAS gpc PERL PERL 6 PHP PYPY PYTH 2.7 PYTH 3.2.3 PYTH 3.2.3 n PY3.4 RUBY SCALA SED VB.net </td></tr>
+<tr><td>Resource:</td><td>Own</td></tr>	
+</table>

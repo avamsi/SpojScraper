@@ -1,0 +1,67 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/GNYR04C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>15634.  Lennys Lucky Lotto Lists</h1>
+		<h2>Problem code: GNYR04C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p style="font-family: 'Times New Roman'; font-size: medium;">Lotto is a lottery, typically with an accumulating jackpot, in which participants play numbers of their choice in a random drawing. Lenny likes to play the lotto in Lincoln county Louisiana. In the game, he picks a list of <span><em>n</em></span> numbers in the range from 1 to <span><em>m</em></span>. If his list matches the drawn list, he wins the big prize, a lifetime supply of large lemons.</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">Lenny has a scheme that he thinks is likely to be lucky. He likes to choose his list so that each number in it is at least twice as large as the one before it. So, for example, if <span><em>n</em> = 4</span> and <span><em>m</em> = 10</span>, then the possible lucky lists Lenny could pick are:</p>
+<pre>    1 2 4 8
+    1 2 4 9
+    1 2 4 10
+    1 2 5 10
+</pre>
+<p style="font-family: 'Times New Roman'; font-size: medium;">Thus Lenny has 4 lists to choose from.</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">Your job, given <span><em>n</em></span> and <span><em>m</em></span>, is to count how many lucky lists Lenny has to his disposal.</p>
+<p><br></p>
+
+<h1><span style="color: #ff0000; font-size: medium;">Input</span></h1>
+<p style="font-family: 'Times New Roman'; font-size: medium;">The first line of input is a single non-negative integer, which is the number of data sets to follow. All data sets should be handled identically. The next lines, one per data set, contain two integers, <span><em>n</em></span>and <span><em>m</em></span>. It is guaranteed that <span>1 <= <em>n</em> <= 10</span> and <span>1 <= <em>m</em> <= 2000</span> and <span><em>n</em> <= <em>m</em></span>.</p>
+<p><br></p>
+
+<h1><span style="color: #ff0000; font-size: medium;">Output</span></h1></h2>
+<p style="font-family: 'Times New Roman'; font-size: medium;">For each data set, print a line like the following:</p>
+<p style="font-family: 'Times New Roman'; font-size: medium;"><tt>Data set <span><em>i</em></span>: <span><em>n</em> <em>m</em> <em>number</em></span></tt></p>
+<p style="font-family: 'Times New Roman'; font-size: medium;">where <span><em>i</em></span> is the data set number (beginning with 1), and <span><em>number</em></span> is the maximum number of lucky lists corresponding to the provided values of <span><em>n</em></span> and <span><em>m</em></span>.</p>
+<p><br></p>
+
+<h1><span style="color: #ff0000; font-size: medium;">Example</span></h1>
+<p><span style="color: #ff0000; font-size: small;">Input</span></p>
+<pre>1
+4 10</pre>
+<p><span style="color: #ff0000; font-size: small;">Output</span></p>
+<pre>Data set 1: 4 10 4</pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/abdelkarim">abdelkarim</a></td></tr>
+<tr><td>Date:</td><td>2013-08-13</td></tr>
+<tr><td>Time limit:</td><td>0.666s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>ACM  Regionals 2004  North America - Greater NY</td></tr>	
+</table>

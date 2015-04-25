@@ -1,0 +1,85 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/PERIOD"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>263. Period</h1>
+		<h2>Problem code: PERIOD</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>
+For each prefix of a given string <b><i>S </i></b>with <b><i>N </i></b>characters (each character has an ASCII code between 97 and 126, inclusive), we want to know whether the prefix is a periodic string. That is, for each <b><i>i </i></b>(2 <= <b><i>i </i></b> <= <b><i>N</i></b>) we want to know the largest <b><i>K </i></b>> 1 (if there is one) such that the prefix of <b><I>S </i></b>with length <b><i>i </i></b>can be written as <b><i>A</i><Sup><I>K </i></Sup></b>, that is <b><i>A </i></b>concatenated <b><i>K </i></b>times, for some string <b><i>A</I></b>. Of course, we also want to know the period <b><i>K</i></b>.
+</p>
+
+<h3>Input</h3>
+<p>
+The first line of the input file will
+contains only the number <i>T (1 <= T <= 10) </i> of the test cases.
+</p>
+<p>
+Each test case consists of two
+lines. The first one contains <b><i>N</i></b> (2 <= <b><i>N</i></b> <= 1 000 000) &#8211; the size of the string <b><i>S</i></b>.
+The second line contains the string <b><i>S</i></b>.
+</p>
+
+<h3>Output</h3>
+<p>
+For each test case, output &#8220;Test case #&#8221; and the consecutive test case
+number on a single line; then, for each prefix with length <b>i</b> that has a period <b>K</b> > 1, output the prefix size <b>i</b> and the period <b>K</b> separated by a single space; the
+prefix sizes must be in increasing order. Print a blank line after each test case.
+</p>
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+2
+3
+aaa
+12
+aabaabaabaab
+
+<b>Output:</b>
+Test case #1
+2 2
+3 3
+
+Test case #2
+2 2
+6 2
+9 3
+12 4
+
+</pre>
+
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/thanhvy">Thanh-Vy Hua</a></td></tr>
+<tr><td>Date:</td><td>2004-12-26</td></tr>
+<tr><td>Time limit:</td><td>3s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: NODEJS PERL 6 SCM chicken VB.net </td></tr>
+<tr><td>Resource:</td><td>ACM South Eastern European Region 2004</td></tr>	
+</table>

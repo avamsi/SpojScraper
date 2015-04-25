@@ -1,0 +1,75 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/TJANDRAS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>13647. Tjandra 19th birthday (EASY)</h1>
+		<h2>Problem code: TJANDRAS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>This day (7 February 2013) is my 19th birthday <img title="Laughing" src="../../../gfx/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" border="0" alt="Laughing" /> So, I want to celebrate it on SPOJ by making this EASY puzzle problem.</p>
+<p>This game/puzzle is about matches, given <strong>n</strong> matches, your task is to arrange the matches (not necessarily all) such that number of rectangle (any size) is maximum.</p>
+<h3>Input</h3>
+<p>First line there is an integer <strong>T</strong><span style="color: #222222; font-family: arial, sans-serif; font-size: small; line-height: 16px;">&#8804;</span>100 then <strong>T</strong> lines follow, each line contain an integer <strong>n</strong><1.000.000.000.</p>
+<h3>Output</h3>
+<p>For each test case, output required answer (maximum number of rectangles)</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong></pre>
+<pre>5</pre>
+<pre>3</pre>
+<pre>4</pre>
+<pre>8</pre>
+<pre>12</pre>
+<pre>15</pre>
+<pre><strong>Output:</strong></pre>
+<pre>0</pre>
+<pre>1</pre>
+<pre>3</pre>
+<pre>9</pre>
+<pre>12</pre>
+<h3>Explanation</h3>
+<p>-->First test case: No rectangle can be formed with only 3 matches</p>
+<p>-->Second test case: Only one rectangle can be formed with 4 mathes</p>
+<p>-->Third test case:</p>
+<p><span style="white-space:pre"> </span>there are max 3 rectangles (2 size 1x1, 1 size 2x1) can be formed with number of matches<=8, here is one of the mathes formation:</p>
+<p><span style="white-space:pre"> </span><img title="Case 3" src="http://2.bp.blogspot.com/-2-e5ePsae4I/URMYZR9JAGI/AAAAAAAAAQk/cEiAfA7WHfQ/s1600/case+3.png" alt="Case 3" width="251" height="133" /></p>
+<p>-->Fourth test case:</p>
+<p><span style="white-space:pre"> </span>there are max 9 rectangles (4 size 1x1, 2 size 2x1, 2 size 1x2, 1 size 2x2) can be formed with number of matches <=12, here is one of the formation:</p>
+<p><span style="white-space:pre"> </span><img title="case 4" src="http://2.bp.blogspot.com/-wlxu943Xp5o/URMYZTcmjUI/AAAAAAAAAQo/jxefx0VBBRM/s1600/case+4.png" alt="case 4" width="250" height="254" /></p>
+<p>-->Fifth test case:</p>
+<p><span style="white-space:pre"> </span>there are max 12 rectangles (5 size 1x1, 3 size 2x1, 1 size 3x1, 2 size 1x2, 1 size 2x2) can be formed with number of matches <=15, here is one of the formation:</p>
+<p><span style="white-space:pre"> </span><img title="case 5" src="http://2.bp.blogspot.com/-UBFrfvedtXg/URMYZq-VLNI/AAAAAAAAAQs/qhGoIJf07GU/s1600/case+5.png" alt="case 5" width="371" height="256" /></p>
+<h3>Information</h3>
+<p>Time limit&#8776;150x my program speed, Enjoy this birthday party game, I set this problem such that semi naive solution will pass..</p>
+<p><strong>See also:</strong> <a title="TJANDRA" href="../TJANDRA/" target="_blank">Another problem added by Tjandra Satria Gunawan</a></p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/tjandra">(Tjandra Satria Gunawan)(曾毅昆)</a></td></tr>
+<tr><td>Date:</td><td>2013-02-07</td></tr>
+<tr><td>Time limit:</td><td>3.263s
+</td></tr>
+<tr><td>Source limit:</td><td>19000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Just Watch <a href="http://www.youtube.com/watch?v=oIEGdHXzgPw" target="_blank">This Video!</a> I Uploaded it 1 year ago</td></tr>	
+</table>

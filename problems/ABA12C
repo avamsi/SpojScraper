@@ -1,0 +1,65 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/ABA12C"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>10394. Buying Apples!</h1>
+		<h2>Problem code: ABA12C</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>Harish went to a supermarket to buy exactly &lsquo;k&rsquo; kilograms apples for his &lsquo;n&rsquo; friends. The supermarket was really weird. The pricing of items was very different. He went to the Apples section and enquired about the prices. The salesman gave him a card in which he found that the prices of apples were not per kg. The apples were packed into covers, each containing &lsquo;x&rsquo; kg of apples, x &gt; 0 and &lsquo;x&rsquo; is an integer. An &lsquo;x&rsquo; kg packet would be valued at &lsquo;y&rsquo; rupees. So, the placard contained a table with an entry &lsquo;y&rsquo; denoting the price of an &lsquo;x&rsquo; kg packet. If &lsquo;y&rsquo; is -1 it means that the corresponding packet is not available. Now as apples are available only in packets, he decides to buy atmost &lsquo;n&rsquo; packets for his &lsquo;n&rsquo; friends i.e he will not buy more than n packets of apples.</p>
+<p>Harish likes his friends a lot and so he does not want to disappoint his friends. So now, he will tell you how many friends he has and you have to tell him the minimum amount of money he has to spend for his friends.</p>
+<p><strong>Input</strong></p>
+<p>The first line of input will contain the number of test cases, C.</p>
+<p>Each test case will contain two lines.</p>
+<p>The first line containing N and K, the number of friends he has and the amount of Apples in kilograms which he should buy.</p>
+<p>The second line contains K space separated integers in which the ith integer specifies the price of a &lsquo;i&rsquo;kg apple packet. A value of -1 denotes that the corresponding packet is unavailable.</p>
+<p>0 &lt; N &lt;= 100</p>
+<p>0 &lt; K &lt;= 100</p>
+<p>0 &lt; price &lt;= 1000</p>
+<p><strong>Output</strong></p>
+<p>The output for each test case should be a single line containing the minimum amount of money he has to spend for his friends. Print -1 if it is not possible for him to satisfy his friends.</p>
+<p><strong>Sample I/O:</strong></p>
+<p><strong>Input:</strong></p>
+<p>2</p>
+<p>3 5</p>
+<p>-1 -1 4 5 -1</p>
+<p>5 5</p>
+<p>1 2 3 4 5</p>
+<p><strong>Output:</strong></p>
+<p>-1</p>
+<p>5</p>
+<p><strong>Explanation of test cases:</strong></p>
+<p>1) As there are only 3 and 4kg packets in the shop, he will not be able to satisfy his friends as he would not be able to buy exactly 5kg of apples.</p>
+<p>2) He can buy five 1kg packet as he has to buy 5 kg. So the min money he should spend is 5.</p>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/kashyap_kumar">Kashyap Krishnakumar</a></td></tr>
+<tr><td>Date:</td><td>2012-01-13</td></tr>
+<tr><td>Time limit:</td><td>0.148s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: SCM chicken </td></tr>
+<tr><td>Resource:</td><td>Own problem</td></tr>	
+</table>

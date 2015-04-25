@@ -1,0 +1,51 @@
+<head>
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+	a { text-decoration: none }
+	p { line-height: 1.8; }
+	th {text-align: left; }
+</style>
+<font face="verdana"><p>
+<a href="http://www.spoj.com/problems/MOWS"target="_blank">View problem on Spoj</a><br>
+<table width="100%" style="margin-top:10px">
+<tr>
+	<td>
+		<h2>SPOJ Problem Set (classical)</h2>
+				<h1>4988. Madrids One Way Streets</h1>
+		<h2>Problem code: MOWS</h2>
+	</td>
+	</tr>
+</table>
+
+<p align="justify">
+<p>As you know, PolyProg wants to send EPFL's best coders to Madrid. Now an important question that arises is where they should stay. Apart from being a cheap place, it should also be close to the contest location and the main tourist spots.<br /><br />Now the problem is that there are mostly one-way streets in Madrid (actually there aren't, but this problem is so nice that we wanted to include it in this contest nevertheless). We would like to get to the contest and back to the hotel without breaking any traffic rules... can you help finding a hotel that allows to do so?<br /><br />To be precice, we'd like to find a hotel that allows us to go to each place of interest and back again. If that's not possible, we'd like a hotel that allows us to travel to and from as many places of interest as possible. If the same number of places can be accessed from several hotels, you should choose the hotel with the smallest id.</p>
+<h3>Input</h3>
+<p>The first line of the input contains 1 &le; <em>N</em> &le; 10, the number of test cases. Then follow three numbers 1&nbsp;&le;&nbsp;<em>H</em>&nbsp;&le;&nbsp;1000, 1&nbsp;&le;&nbsp;<em>P</em>&nbsp;&le;&nbsp;100'000 and 1&nbsp;&le;&nbsp;<em>S</em>&nbsp;&le;&nbsp;1'000'000 denoting the number of hotels, places of interest and streets, respectively.<br /><br />In order to simplify things, we just represent hotels and places of interests as numbers: Hotels are numbered from 1 to <em>H</em>, whereas places are numbered from 1001 to 1000&nbsp;+&nbsp;<em>P</em>.</p>
+<p>Each of the following <em>S</em> lines contains two numbers <em>A<sub>s</sub></em> and <em>B<sub>s</sub></em>, indicating that there is a one-way street from object <em>A<sub>s</sub></em> to <em>B<sub>s</sub></em>.</p>
+<p>A blank line precedes each test case.</p>
+<p>The sample input corresponds to the following graph:</p>
+<p style="text-align: center;"><img title="Graph for sample input" src="../../../content/jbw:madrids_one_way_streets.png" alt="Graph for sample input" width="400" height="348" /></p>
+<h3>Output</h3>
+<p>For each testcase, print the id of the best hotel followed by the number of places of interest accessible from this hotel (and vice versa) on a line.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong><br />1<br /><br />2 4 10<br />1 1001<br />2 1001<br />2 1002<br />2 1003<br />2 1004<br />1001 1002<br />1002 1<br />1002 1003<br />1004 2<br />1004 1001<br /><br /><strong>Output:</strong><br />1 2<br /></pre>
+
+<hr>
+<table border=0 cellspacing=0 cellpadding=0 align=left style="margin-bottom:10px" class="probleminfo">
+<tr><td>Added by:</td><td><a href="/SPOJ/users/jbw">Jonas Wagner</a></td></tr>
+<tr><td>Date:</td><td>2009-10-14</td></tr>
+<tr><td>Time limit:</td><td>0.454s
+</td></tr>
+<tr><td>Source limit:</td><td>50000B</td></tr>
+<tr><td>Memory limit:</td><td>1536MB</td></tr>
+	<tr>
+		<td>Cluster:</td>
+		<td>
+							<a href="/clusters/" target="_blank">Cube (Intel Pentium G860 3GHz)</a>
+					
+		</td>
+	</tr>
+<tr><td>Languages:</td><td>All except: C++ 4.3.2 ERL NODEJS PERL 6 SCM chicken VB.net </td></tr>
+	
+</table>
