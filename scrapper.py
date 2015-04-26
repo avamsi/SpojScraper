@@ -49,7 +49,6 @@ for i in itertools.count(start=prev + 1):
             json.dump(probs, pfp)
             json.dump(names, nfp)
             json.dump(i, ifp)
-    break
 print '\ncompleted parsing, writing to files..'
 slgen = '<a href="http://www.spoj.com/problems/{0}"target="_blank">{1}</a><br>\n'.format
 llgen = '<a href="/SPOJ/problems/{0}" target="_blank">{1}</a>'.format
