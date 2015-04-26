@@ -1,16 +1,45 @@
 from urllib import re, urlopen
 from os.path import isfile, join
 import itertools, json, sys
-if isfile('cache_i.json'):
-    with open('cache_i.json', 'rb') as fp:
-        prev = json.load(fp)
-else:
-    prev = -1
-    with open('cache_u.json', 'wb') as ufp,\
-    open('cache_p.json', 'wb') as pfp, open('cache_n.json', 'wb') as nfp:
-        json.dump({}, ufp)
-        json.dump([], pfp)
-        json.dump({}, nfp)
+
+def json_dump(users, probs, names, i):
+    with open('cache_u.json', 'wb') as ufp, open('cache_p.json', 'wb') as pfp,\
+    open('cache_n.json', 'wb') as nfp, open('cache_i.json', 'wb') as ifp:
+        json.dump(users, ufp)
+        json.dump(probs, pfp)
+        json.dump(names, nfp)
+        json.dump(i, ifp)
+
+def json_load():
+    with open('cache_u.json', 'rb') as ufp,\
+    open('cache_p.json', 'rb') as pfp, open('cache_n.json', 'rb') as nfp:
+        users = json.load(ufp)
+        probs = json.load(pfp)
+        names = json.load(nfp)
+    return users, probs, names
+
+def cache():
+    if isfile('cache_i.json'):
+        with open('cache_i.json', 'rb') as fp:
+            prev = json.load(fp)
+    else:
+        prev = -1
+        json_dump({}, [], {}, -1)
+    return prev
+
+def print_progress(i, p):
+    sys.stdout.write('\r[page #%s] problems: [%s%s] %2s/%s' % (i, (p/2)*'#', (25 - p/2)*'-', p, 50))
+    sys.stdout.flush()
+
+def parse_problem(code):
+    psrc = urlopen(base + code).read()
+    psrc = psrc[psrc.index(pbeg): psrc.index(pend)].decode('utf-8')
+    name = re_n.search(psrc).group(1)
+    user = re_u.search(psrc).group(1)
+    names[code] = name
+    probs.append((code, psrc))
+    users.setdefault(user, []).append(code)
+
 base = 'http://www.spoj.com/SPOJ/problems/'
 clsc = base + 'classical/sort=0,start='
 re_c = re.compile('/problems/(.+?)/">&nbsp')
@@ -18,7 +47,9 @@ re_n = re.compile('<h1>(.+?)</h1>')
 re_u = re.compile('Added by:</td><td><a href="/SPOJ/users/(.+?)"')
 pbeg = '<table width="100%" style="margin-top:10px">'
 pend = '<!-- google_ad_section_end -->'
+
 codo = []
+prev = cache()
 for i in itertools.count(start=prev + 1):
     url = clsc + str(i*50)
     src = urlopen(url).read()
@@ -26,30 +57,15 @@ for i in itertools.count(start=prev + 1):
     if codes == codo:
         break
     codo = codes
-    with open('cache_u.json', 'rb') as ufp,\
-    open('cache_p.json', 'rb') as pfp, open('cache_n.json', 'rb') as nfp:
-        users = json.load(ufp)
-        probs = json.load(pfp)
-        names = json.load(nfp)
+    users, probs, names = json_load()
     for p, code in enumerate(codes):
-        p += 1
-        sys.stdout.write('\r[page #%s] problems: [%s%s] %2s/%s' % (i, (p/2)*'#', (25 - p/2)*'-', p, 50))
-        sys.stdout.flush()
-        psrc = urlopen(base + code).read()
-        psrc = psrc[psrc.index(pbeg): psrc.index(pend)].decode('utf-8')
-        name = re_n.search(psrc).group(1)
-        user = re_u.search(psrc).group(1)
-        names[code] = name
-        probs.append((code, psrc))
-        users.setdefault(user, []).append(code)
+        print_progress(i, p + 1)
+        parse_problem(code)
     if len(codes) == 50:
-        with open('cache_u.json', 'wb') as ufp, open('cache_p.json', 'wb') as pfp,\
-        open('cache_n.json', 'wb') as nfp, open('cache_i.json', 'wb') as ifp:
-            json.dump(users, ufp)
-            json.dump(probs, pfp)
-            json.dump(names, nfp)
-            json.dump(i, ifp)
+        json_dump(users, probs, names, i)
+
 print '\ncompleted parsing, writing to files..'
+
 slgen = '<a href="http://www.spoj.com/problems/{0}"target="_blank">{1}</a><br>\n'.format
 llgen = '<a href="/SPOJ/problems/{0}" target="_blank">{1}</a>'.format
 trgen = '<tr><td>{0}</td><td>{1}</td></tr>\n'.format
@@ -72,6 +88,7 @@ Note: Click on problem name to open local file and code to view on Spoj.
 <table width="50%">
 <tr><th>Problem Name</th> <th>Problem Code</th></tr>
 '''
+
 names = {code: name.encode('utf-8') for code, name in names.iteritems()}
 with open('classical.html', 'w') as out:
     out.write(style)
